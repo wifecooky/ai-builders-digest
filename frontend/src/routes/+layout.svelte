@@ -80,11 +80,12 @@
   <header class="sticky top-0 z-30 bg-cyber-bg/90 backdrop-blur-md border-b border-cyber-border transition-colors duration-300">
     <div class="max-w-3xl mx-auto px-5 py-3">
       <div class="flex items-center justify-between">
-        <a href="/" class="flex items-center gap-3 no-underline">
-          <span class="relative flex h-2 w-2">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyber-cyan opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-cyber-cyan"></span>
-          </span>
+        <a href="/" class="flex items-center gap-2.5 no-underline">
+          <svg width="22" height="22" viewBox="0 0 32 32" class="shrink-0">
+            <polygon points="16,4 27,10 27,22 16,28 5,22 5,10" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" class="text-cyber-cyan" opacity="0.7"/>
+            <circle cx="16" cy="16" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5" class="text-cyber-cyan" opacity="0.4"/>
+            <circle cx="16" cy="16" r="3.5" fill="currentColor" class="text-cyber-cyan"/>
+          </svg>
           <span class="font-display text-xs font-bold tracking-[0.25em] text-cyber-cyan glow-cyan uppercase">
             {siteNames[currentLang]}
           </span>
