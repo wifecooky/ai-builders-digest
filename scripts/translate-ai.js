@@ -29,7 +29,21 @@ EditorialSummary: ${article.suggestedSummary || ''}`
     ? `{ "title": "translated title", "suggestedTitle": "translated editorial title", "suggestedSummary": "translated editorial summary" }`
     : `{ "title": "translated title" }`;
 
-  const prompt = `Translate this AI digest content to ${langName}. Keep technical terms in English (AI, LLM, GPU, API, agent, token, prompt, etc.). Keep proper nouns (names, companies, products) in English. Keep all URLs unchanged. The translation should sound natural, not like a translation.
+  const styleGuide = targetLang === 'ja'
+    ? `
+Japanese style rules:
+- Use concise 常体 (だ/である調), not です/ます調. Match the punchy tone of the original.
+- Prefer short sentences. Break long English compound sentences into 2-3 shorter Japanese ones.
+- Use katakana only for established loanwords (エンジニア, プラットフォーム). Avoid unnecessary katakana when a natural Japanese word exists (追跡→ウォッチ is OK, but 倍増する for "double down" is bad → 全力で攻める).
+- Keep idioms natural: "luxury belief"→「贅沢な理想論」, "false equivalence"→ keep as "false equivalence" or「誤った同一視」, not「誤った同等性」.
+- Person names stay in English (Andrej Karpathy, not アンドレイ・カルパシー).`
+    : `
+Chinese style rules:
+- Use concise, conversational tone. Not formal news-speak.
+- Keep technical terms in English where natural in Chinese tech writing.`;
+
+  const prompt = `Translate this AI digest content to ${langName}. Keep technical terms in English (AI, LLM, GPU, API, agent, token, prompt, etc.). Keep proper nouns (names, companies, products) in English. Keep all URLs unchanged. The translation must sound native — not like a translation.
+${styleGuide}
 
 ${fields}
 
@@ -102,15 +116,24 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const items = data.items || [];
   const totalCount = items.length;
 
+  function splitByCategory(itemsList) {
+    return {
+      builderInsights: itemsList.filter(i => i.category === 'builderInsights'),
+      podcastHighlights: itemsList.filter(i => i.category === 'podcastHighlights'),
+      blogUpdates: itemsList.filter(i => i.category === 'blogUpdates'),
+    };
+  }
+
   // Translate summary
   async function translateSummary(summary, lang) {
     if (!summary) return '';
     const langName = lang === 'zh' ? 'Chinese (Simplified)' : 'Japanese';
     try {
       const openai = createOpenAIClient();
+      const jaGuide = lang === 'ja' ? ' Use 常体 (だ/である調) consistently — no です/ます. Short punchy sentences. Keep person names in English. Avoid machine-translation patterns like「〜している」endings.' : '';
       const resp = await openai.chat.completions.create({
         model: process.env.OPENAI_MODEL || 'gpt-4o',
-        messages: [{ role: 'user', content: `Translate to ${langName}. Keep technical terms and proper nouns in English. Sound natural.\n\n${summary}` }],
+        messages: [{ role: 'user', content: `Translate to ${langName}. Keep technical terms and proper nouns in English. Must sound native, not translated.${jaGuide}\n\n${summary}` }],
         temperature: 0.3,
         max_tokens: 300,
       });
@@ -121,11 +144,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   }
 
   // English version (no translation needed)
+  const enSplit = splitByCategory(items);
   const enContent = {
     date: today,
     lang: 'en',
     summary: data.summary || '',
-    items,
+    ...enSplit,
     metadata: {
       ...data.metadata,
       estimatedReadTime: `${Math.max(3, Math.ceil(totalCount * 0.5))} min`,
@@ -142,11 +166,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const zhSummary = await translateSummary(data.summary, 'zh');
   const zhItems = await translateBatch(items, 'zh');
 
+  const zhSplit = splitByCategory(zhItems);
   const zhContent = {
     date: today,
     lang: 'zh',
     summary: zhSummary,
-    items: zhItems,
+    ...zhSplit,
     metadata: { ...data.metadata, estimatedReadTime: `${Math.max(3, Math.ceil(totalCount * 0.5))} 分钟`, generatedAt: new Date().toISOString() },
   };
 
@@ -159,11 +184,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const jaSummary = await translateSummary(data.summary, 'ja');
   const jaItems = await translateBatch(items, 'ja');
 
+  const jaSplit = splitByCategory(jaItems);
   const jaContent = {
     date: today,
     lang: 'ja',
     summary: jaSummary,
-    items: jaItems,
+    ...jaSplit,
     metadata: { ...data.metadata, estimatedReadTime: `${Math.max(3, Math.ceil(totalCount * 0.5))} 分`, generatedAt: new Date().toISOString() },
   };
 

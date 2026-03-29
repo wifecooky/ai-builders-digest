@@ -1,6 +1,7 @@
 {
   "date": "2026-03-29",
   "lang": "ja",
+  "summary": "Andrej Karpathyは、LLMがどちらの立場でも議論できることを強調した。それを機能として活用しようと提案している。Guillermo Rauchはついに夢のテキストレイアウトを完成させた。彼のビジョンが現実になった。一方で、Amjad MasadはAIがアプリ開発を民主化し、トップエンジニアを引き上げていると主張している。",
   "builderInsights": [
     {
       "id": "karpathy-2026-03-29",
@@ -9,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "LLMはどちらの立場でも議論できる — それを機能として活用しよう",
-      "suggestedSummary": "LLMは問題の両側を説得力を持って議論できるため、自分の意見を洗練するための強力なツールとなります。Karpathyは、LLMが彼の議論を覆したときにこれを実感しました。複数の視点を探求し、AIの同意しやすい性質に注意を払うことの重要性を思い出させてくれます。",
+      "suggestedTitle": "LLMはどちらの側も議論できる—それを機能として活用せよ",
+      "suggestedSummary": "ブログ記事を執筆する際、彼はLLMを使って自分の主張を洗練させようとしたが、逆の立場を説得力を持って議論されてしまった。LLMはどちらの側も議論できるため、自分の意見を形成する強力なツールとなる。ただし、その迎合的な傾向には注意が必要だ。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2037921699824607591",
@@ -23,162 +24,14 @@
       "category": "builderInsights"
     },
     {
-      "id": "swyx-2026-03-29",
-      "source": "X",
-      "authorName": "Swyx",
-      "authorHandle": "swyx",
-      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-      "title": "Swyx",
-      "suggestedTitle": "誤った同等性は静かなスタートアップキラー",
-      "suggestedSummary": "Swyxが5年間避けてきた誤った同等性は、Zuckが@GoogleDeepMindで失敗し、彼の最初の開発ツールスタートアップを殺しました。彼は、すべてのタスクに平等に焦点を当てると影響が薄れると主張しています。代わりに、いくつかの重要なことに賭け、ヘッジを避け、正しい場合は倍増することを提案しています。これは「すべてをやる」という考え方から脱却し、成功のためにパワーローを受け入れる呼びかけです。",
-      "tweets": [
-        {
-          "url": "https://x.com/swyx/status/2038096302781657462",
-          "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
-          "likes": 104,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/swyx/status/2037969691910848941",
-          "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
-          "likes": 255,
-          "retweets": 21
-        }
-      ],
-      "publishedAt": "2026-03-29T03:29:59.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "petergyang-2026-03-29",
-      "source": "X",
-      "authorName": "Peter Yang",
-      "authorHandle": "petergyang",
-      "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-      "title": "ピーター・ヤン",
-      "suggestedTitle": "元創業者をPMに：究極の才能リトマス試験",
-      "suggestedSummary": "LinearやRampのような急成長企業は、元創業者をプロダクトマネージャーとして採用しています。真の問いは、あなたの会社がこれらの起業家精神を持つ人材を引き寄せ、実際に影響を与える自由を与えられるか、それとも官僚主義に埋もれてしまうかです。それは、あなたの組織がどれだけ魅力的であるかを示す重要なサインです。",
-      "tweets": [
-        {
-          "url": "https://x.com/petergyang/status/2038068968792162594",
-          "text": "I would really love to talk to @grok about all the posts I have bookmarked on here but am too lazy to scroll through manually. @elonmusk what do you think?",
-          "likes": 84,
-          "retweets": 3
-        },
-        {
-          "url": "https://x.com/petergyang/status/2038067082223554732",
-          "text": "X asking me to thumbs down my own reply 🥲. \n\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still. https://t.co/3y0KhuI0R1",
-          "likes": 61,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/petergyang/status/2038058600715935817",
-          "text": "Interesting to see how many fast growing companies like @linear and @tryramp want to hire ex-founders as PMs.\n\nI think this is a good litmus test for how good your company is at attracting talent:\n\n1. Do founders want to work here?\n\n2. Do they have the agency to make real impact or will they get lost in your org?",
-          "likes": 73,
-          "retweets": 3
-        }
-      ],
-      "publishedAt": "2026-03-29T01:41:22.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "thenanyu-2026-03-29",
-      "source": "X",
-      "authorName": "Nan Yu",
-      "authorHandle": "thenanyu",
-      "authorBio": "head of product @linear",
-      "title": "ナン・ユー",
-      "suggestedTitle": "TEDと30u30: ブランド自己破壊の教訓",
-      "suggestedSummary": "ビジネススクールの皆さん、注目してください。TEDと30u30は、ブランドがどのようにして崩壊するかの代表例です。Linearのプロダクト責任者であるナン・ユーは、かつて尊敬されたこれらの名前が今ではブランド管理における警告の物語として機能していると指摘します。",
-      "tweets": [
-        {
-          "url": "https://x.com/thenanyu/status/2038025287955280120",
-          "text": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
-          "likes": 15,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/thenanyu/status/2038021774105784782",
-          "text": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
-          "likes": 1,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/thenanyu/status/2038018254229094448",
-          "text": "Here we go\n\nhttps://t.co/UnraJZtyQm",
-          "likes": 1,
-          "retweets": 0
-        }
-      ],
-      "publishedAt": "2026-03-28T22:47:47.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "amasad-2026-03-29",
-      "source": "X",
-      "authorName": "Amjad Masad",
-      "authorHandle": "amasad",
-      "authorBio": "ceo @replit. civilizationist",
-      "title": "Amjad Masad",
-      "suggestedTitle": "AIがトップエンジニアをより深いプラットフォーム作業に解放",
-      "suggestedSummary": "AIは誰もがアプリを構築できるようにし、トップエンジニアをより深いプラットフォーム作業に解放します。これはReplitのCEOであるMasadの4年前の「1000倍エンジニア」論であり、今まさに実現しています。ルーチンタスクを自動化することで、AIはエンジニアがより野心的なプロジェクトに取り組むことを可能にし、可能性の限界を押し広げます。",
-      "tweets": [
-        {
-          "url": "https://x.com/amasad/status/2038053670907007165",
-          "text": "Wow! https://t.co/bMcvHveKQP",
-          "likes": 327,
-          "retweets": 8
-        },
-        {
-          "url": "https://x.com/amasad/status/2037951485418344835",
-          "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
-          "likes": 365,
-          "retweets": 23
-        }
-      ],
-      "publishedAt": "2026-03-29T00:40:35.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "rauchg-2026-03-29",
-      "source": "X",
-      "authorName": "Guillermo Rauch",
-      "authorHandle": "rauchg",
-      "authorBio": "@vercel CEO",
-      "title": "Guillermo Rauch",
-      "suggestedTitle": "ついに完璧なテキストレイアウトが登場",
-      "suggestedSummary": "Guillermo Rauchは、ついに夢のテキストレイアウトを提供できることを発表し、興奮しています。VercelのCEOとして、彼はこの種の革新を推進してきましたが、ついに目標を達成したようです。テキストのフォーマットに苦労したことがある人にとって、大きな勝利です。",
-      "tweets": [
-        {
-          "url": "https://x.com/rauchg/status/2037993361450336714",
-          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
-          "likes": 450,
-          "retweets": 9
-        },
-        {
-          "url": "https://x.com/rauchg/status/2037950897909862526",
-          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
-          "likes": 2055,
-          "retweets": 51
-        },
-        {
-          "url": "https://x.com/rauchg/status/2037935190073569326",
-          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
-          "likes": 141,
-          "retweets": 5
-        }
-      ],
-      "publishedAt": "2026-03-28T20:40:56.000Z",
-      "category": "builderInsights"
-    },
-    {
       "id": "garrytan-2026-03-29",
       "source": "X",
       "authorName": "Garry Tan",
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "安全カメラ：リッチモンドでの議論における「贅沢な信念」",
-      "suggestedSummary": "リッチモンドでFlockカメラを無効にした結果、車の盗難が33%増加し、移民の店主たちは再設置を求めました。Garry Tanは、市議会が最終的に意見を聞いた後、安全カメラに反対することを「贅沢な信念」と呼びました。",
+      "suggestedTitle": "Tan: 安全カメラは贅沢な理想論ではない",
+      "suggestedSummary": "リッチモンドで安全カメラを無効にした結果、車の盗難が33%増加。移民の店主たちはカメラの復活を要求している。Garry Tanは、これらのカメラに反対することは『贅沢な理想論』だと主張。Y CombinatorのCEOとして、彼は理想論よりも実用的な解決策を重視している。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2038054087451885747",
@@ -203,40 +56,14 @@
       "category": "builderInsights"
     },
     {
-      "id": "zarazhangrui-2026-03-29",
-      "source": "X",
-      "authorName": "Zara Zhang",
-      "authorHandle": "zarazhangrui",
-      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
-      "title": "Zara Zhang",
-      "suggestedTitle": "エージェント製品はその創造者を驚かせるべき",
-      "suggestedSummary": "Zara Zhangによれば、エージェント製品は予想外のことをすべきです。デザイン仕様を単に満たすだけの従来のインターネット時代の製品とは異なり、エージェント製品はその創造者の期待を超えて驚きと喜びを与えるべきです。",
-      "tweets": [
-        {
-          "url": "https://x.com/zarazhangrui/status/2038144755478237654",
-          "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
-          "likes": 13,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/zarazhangrui/status/2037983921946923034",
-          "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
-          "likes": 53,
-          "retweets": 1
-        }
-      ],
-      "publishedAt": "2026-03-29T06:42:31.000Z",
-      "category": "builderInsights"
-    },
-    {
       "id": "steipete-2026-03-29",
       "source": "X",
       "authorName": "Peter Steinberger",
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "ピーター・スタインバーガー",
-      "suggestedTitle": "MCPorter 0.8.0がOAuthとCLI処理を強化",
-      "suggestedSummary": "MCPorter 0.8.0が登場し、サーバー向けの強化されたOAuth、改善されたJSON出力、そしてより良いCLI処理を提供します。AIに再び取り組むために引退から戻ったスタインバーガーは、エラーハンドリングの強化とデーモンの信頼性向上を強調しています。オープンソースツールに興味があるなら、ぜひチェックしてみてください。",
+      "suggestedTitle": "MCPorter 0.8.0、OAuthとCLIの信頼性を強化",
+      "suggestedSummary": "MCPorter 0.8.0がリリースされた。サーバー向けのOAuthが強化され、CLIの動作が改善された。ピーター・スタインバーガーは、エラーハンドリングとJSON出力の向上、キープアライブプロセスの信頼性向上を強調している。詳細を確認し、ワークフローの効率化にどう役立つかを見てみよう。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2038074759527981416",
@@ -253,6 +80,116 @@
       ],
       "publishedAt": "2026-03-29T02:04:22.000Z",
       "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-03-29",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "ギレルモ・ラウチ",
+      "suggestedTitle": "夢のテキストレイアウトがついに実現 — ラウチのビジョンが形に",
+      "suggestedSummary": "VercelのCEO、Guillermo Rauchが長年夢見ていたテキストレイアウトをついにリリース。長い間待ち望んでいたこの機能を実現し、デザインへの情熱とVercelの最先端技術を融合させた。彼のツイートでこの待望の機能をチェックしよう。",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2037993361450336714",
+          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
+          "likes": 450,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037950897909862526",
+          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
+          "likes": 2055,
+          "retweets": 51
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037935190073569326",
+          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
+          "likes": 141,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-03-28T20:40:56.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-03-29",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "AIがアプリ開発を民主化し、トップエンジニアを引き上げる",
+      "suggestedSummary": "AIは誰でもアプリを作れるようにし、トップエンジニアをより深いプラットフォーム作業に専念させる。これはReplitのCEO、Masadが4年前に提唱した「1000倍エンジニア」論であり、今まさに実現されつつある。彼のビジョンは、AIがルーチンタスクを引き受けることで可能性の限界を押し広げることにある。",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2038053670907007165",
+          "text": "Wow! https://t.co/bMcvHveKQP",
+          "likes": 327,
+          "retweets": 8
+        },
+        {
+          "url": "https://x.com/amasad/status/2037951485418344835",
+          "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
+          "likes": 365,
+          "retweets": 23
+        }
+      ],
+      "publishedAt": "2026-03-29T00:40:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-03-29",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "False equivalenceが戦略を破壊する",
+      "suggestedSummary": "False equivalenceは戦略を沈める罠だと、Temporalなどに関わるSwyxが警告している。彼は、すべてのタスクや目標を同等に重要と見なすことは、集中力と効果を薄めると主張する。代わりに、いくつかの重要なことに賭け、ヘッジを避け、正しければ全力で攻める計画を持つべきだという。この洞察は、彼自身のスタートアップ経験と、より広範なシステム的問題の観察から来ている。",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2038096302781657462",
+          "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
+          "likes": 104,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/swyx/status/2037969691910848941",
+          "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
+          "likes": 255,
+          "retweets": 21
+        }
+      ],
+      "publishedAt": "2026-03-29T03:29:59.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-03-29",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "ザラ・チャン",
+      "suggestedTitle": "エージェント製品は創造者を驚かせるべきだ",
+      "suggestedSummary": "エージェント製品は予想外のことをすべきだとザラ・チャンは主張する。設計された機能に固執する従来のインターネット製品とは異なり、優れたエージェント製品は初期の期待を超えて驚きと喜びを提供する。",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2038144755478237654",
+          "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
+          "likes": 13,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2037983921946923034",
+          "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
+          "likes": 53,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-03-29T06:42:31.000Z",
+      "category": "builderInsights"
     }
   ],
   "podcastHighlights": [],
@@ -262,8 +199,7 @@
     "totalTweets": 27,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-29T12:36:28.202Z",
-    "estimatedReadTime": "5 分"
-  },
-  "summary": "KarpathyはLLMが自身の議論を覆せることを発見——バグではなく機能だ。Swyxは誤った等価がスタートアップを殺すと警告し、Amjad MasadはAIがトップエンジニアをより深いプラットフォーム作業に解放すると語る。Zara Zhangは最高のAgentプロダクトは作り手すら驚かせるべきだと主張。"
+    "generatedAt": "2026-03-29T13:24:05.956Z",
+    "estimatedReadTime": "4 分"
+  }
 }

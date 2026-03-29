@@ -204,7 +204,7 @@ async function main() {
     const summaryResp = await openai.chat.completions.create({
       model,
       messages: [
-        { role: 'system', content: 'Write a 2-3 sentence overview of today\'s AI builder activity. Be conversational and specific — name names, mention key themes. No intro like "Today in AI...". Just jump straight in. Under 280 chars.' },
+        { role: 'system', content: 'Write a 2-3 sentence overview of today\'s AI builder activity. Be conversational, specific, and punchy — name names, state claims directly. Use past tense or active voice ("Karpathy found...", "Rauch shipped..."), not present progressive ("is highlighting..."). No intro like "Today in AI...". Just jump straight in. Under 280 chars.' },
         { role: 'user', content: headlines },
       ],
       temperature: 0.5,

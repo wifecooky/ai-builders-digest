@@ -1,8 +1,8 @@
 <script>
   let { article, index = 0, delay = 0, onShareX, onCopy, copiedId } = $props();
 
-  const displayTitle = article.suggestedTitle || article.title;
-  const displaySummary = article.suggestedSummary || '';
+  let displayTitle = $derived(article.suggestedTitle || article.title);
+  let displaySummary = $derived(article.suggestedSummary || '');
 
   function roleFromBio(bio) {
     if (!bio) return '';
@@ -17,10 +17,10 @@
     return '';
   }
 
-  const role = roleFromBio(article.authorBio);
-  const companyMatch = article.authorBio?.match(/@(\w+)/);
-  const company = companyMatch ? companyMatch[1] : '';
-  const authorLabel = [role, company].filter(Boolean).join(', ');
+  let role = $derived(roleFromBio(article.authorBio));
+  let companyMatch = $derived(article.authorBio?.match(/@(\w+)/));
+  let company = $derived(companyMatch ? companyMatch[1] : '');
+  let authorLabel = $derived([role, company].filter(Boolean).join(', '));
 </script>
 
 <article
@@ -66,6 +66,9 @@
               class="text-[10px] px-2 py-0.5 rounded-sm bg-cyber-cyan/8 text-cyber-cyan/70 border border-cyber-cyan/15 hover:border-cyber-cyan/30 hover:text-cyber-cyan transition-colors duration-200 no-underline inline-flex items-center gap-1.5"
             >
               <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" class="opacity-60"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              {#if article.tweets.length > 1}
+                <span class="opacity-40">#{i + 1}</span>
+              {/if}
               {#if tweet.likes > 100}
                 <span class="opacity-60">{tweet.likes > 1000 ? `${(tweet.likes / 1000).toFixed(1)}k` : tweet.likes}</span>
               {/if}

@@ -1,6 +1,7 @@
 {
   "date": "2026-03-29",
   "lang": "zh",
+  "summary": "Andrej Karpathy 强调了 LLMs 可以为任何一方辩护，建议我们将其作为一个功能来使用。Guillermo Rauch 终于实现了他梦想中的文本布局，将他的愿景变为现实。同时，Amjad Masad 声称 AI 正在使应用程序构建民主化，并提升顶尖工程师的水平。",
   "builderInsights": [
     {
       "id": "karpathy-2026-03-29",
@@ -9,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "LLM可以辩论任何立场——将其作为一种特性",
-      "suggestedSummary": "LLM能够令人信服地辩论问题的双方，使其成为完善自己观点的强大工具。Karpathy亲身体验到这一点，当时一个LLM将他的论点完全颠倒。这提醒我们要探索多种观点，并注意AI的迎合性。",
+      "suggestedTitle": "LLMs 可以辩论任何立场 — 把它当作一个功能",
+      "suggestedSummary": "在撰写博客文章时，他用一个 LLM 来完善自己的论点，结果却发现它能令人信服地辩论相反的观点。LLMs 可以辩论任何立场，使它们成为形成自己观点的强大工具，只是要小心它们的迎合倾向。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2037921699824607591",
@@ -23,162 +24,14 @@
       "category": "builderInsights"
     },
     {
-      "id": "swyx-2026-03-29",
-      "source": "X",
-      "authorName": "Swyx",
-      "authorHandle": "swyx",
-      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-      "title": "Swyx",
-      "suggestedTitle": "错误等同是无声的创业杀手",
-      "suggestedSummary": "错误等同是Swyx在过去5年中成功避开的陷阱，却让Zuck在@GoogleDeepMind付出了代价，并导致了他第一个开发工具创业项目的失败。他认为，平均分配精力在所有任务上会削弱影响力。相反，应专注于少数关键事项，避免对冲，如果你是对的，就加倍投入。这是一个呼吁，打破‘做所有事情’的思维方式，拥抱幂律法则以获得成功。",
-      "tweets": [
-        {
-          "url": "https://x.com/swyx/status/2038096302781657462",
-          "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
-          "likes": 104,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/swyx/status/2037969691910848941",
-          "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
-          "likes": 255,
-          "retweets": 21
-        }
-      ],
-      "publishedAt": "2026-03-29T03:29:59.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "petergyang-2026-03-29",
-      "source": "X",
-      "authorName": "Peter Yang",
-      "authorHandle": "petergyang",
-      "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-      "title": "Peter Yang",
-      "suggestedTitle": "前创始人作为产品经理：终极人才试金石",
-      "suggestedSummary": "像 Linear 和 Ramp 这样的快速成长公司正在吸引前创始人担任产品经理。真正的问题是：你的公司能否吸引这些具有创业精神的人才，并给予他们自由去产生真正的影响，还是他们只会淹没在官僚主义中？这反映了你的组织真正的吸引力。",
-      "tweets": [
-        {
-          "url": "https://x.com/petergyang/status/2038068968792162594",
-          "text": "I would really love to talk to @grok about all the posts I have bookmarked on here but am too lazy to scroll through manually. @elonmusk what do you think?",
-          "likes": 84,
-          "retweets": 3
-        },
-        {
-          "url": "https://x.com/petergyang/status/2038067082223554732",
-          "text": "X asking me to thumbs down my own reply 🥲. \n\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still. https://t.co/3y0KhuI0R1",
-          "likes": 61,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/petergyang/status/2038058600715935817",
-          "text": "Interesting to see how many fast growing companies like @linear and @tryramp want to hire ex-founders as PMs.\n\nI think this is a good litmus test for how good your company is at attracting talent:\n\n1. Do founders want to work here?\n\n2. Do they have the agency to make real impact or will they get lost in your org?",
-          "likes": 73,
-          "retweets": 3
-        }
-      ],
-      "publishedAt": "2026-03-29T01:41:22.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "thenanyu-2026-03-29",
-      "source": "X",
-      "authorName": "Nan Yu",
-      "authorHandle": "thenanyu",
-      "authorBio": "head of product @linear",
-      "title": "南宇",
-      "suggestedTitle": "TED和30u30：品牌自毁的教训",
-      "suggestedSummary": "商学院请注意：TED和30u30是品牌如何崩溃的典型例子。Linear的产品负责人南宇表示，这些曾经备受推崇的名字现在成为品牌管理中的警示案例。",
-      "tweets": [
-        {
-          "url": "https://x.com/thenanyu/status/2038025287955280120",
-          "text": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
-          "likes": 15,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/thenanyu/status/2038021774105784782",
-          "text": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
-          "likes": 1,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/thenanyu/status/2038018254229094448",
-          "text": "Here we go\n\nhttps://t.co/UnraJZtyQm",
-          "likes": 1,
-          "retweets": 0
-        }
-      ],
-      "publishedAt": "2026-03-28T22:47:47.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "amasad-2026-03-29",
-      "source": "X",
-      "authorName": "Amjad Masad",
-      "authorHandle": "amasad",
-      "authorBio": "ceo @replit. civilizationist",
-      "title": "Amjad Masad",
-      "suggestedTitle": "AI解放顶尖工程师进行更深入的平台工作",
-      "suggestedSummary": "AI让每个人都能构建应用程序，解放顶尖工程师进行更深入的平台工作——这就是Replit CEO Masad四年前提出的“1000倍工程师”理论，现在正在实现。通过自动化常规任务，AI使工程师能够承担更具雄心的项目，推动可能性的边界。",
-      "tweets": [
-        {
-          "url": "https://x.com/amasad/status/2038053670907007165",
-          "text": "Wow! https://t.co/bMcvHveKQP",
-          "likes": 327,
-          "retweets": 8
-        },
-        {
-          "url": "https://x.com/amasad/status/2037951485418344835",
-          "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
-          "likes": 365,
-          "retweets": 23
-        }
-      ],
-      "publishedAt": "2026-03-29T00:40:35.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "rauchg-2026-03-29",
-      "source": "X",
-      "authorName": "Guillermo Rauch",
-      "authorHandle": "rauchg",
-      "authorBio": "@vercel CEO",
-      "title": "Guillermo Rauch",
-      "suggestedTitle": "终于，完美的文本布局来了",
-      "suggestedSummary": "Guillermo Rauch 很高兴地宣布，他终于可以推出他梦想中的文本布局。作为 Vercel 的 CEO，他一直在推动这类创新，现在看来他已经达到了目标。这对于曾经为文本格式化而苦恼的人来说是一个重大胜利。",
-      "tweets": [
-        {
-          "url": "https://x.com/rauchg/status/2037993361450336714",
-          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
-          "likes": 450,
-          "retweets": 9
-        },
-        {
-          "url": "https://x.com/rauchg/status/2037950897909862526",
-          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
-          "likes": 2055,
-          "retweets": 51
-        },
-        {
-          "url": "https://x.com/rauchg/status/2037935190073569326",
-          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
-          "likes": 141,
-          "retweets": 5
-        }
-      ],
-      "publishedAt": "2026-03-28T20:40:56.000Z",
-      "category": "builderInsights"
-    },
-    {
       "id": "garrytan-2026-03-29",
       "source": "X",
       "authorName": "Garry Tan",
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "安全摄像头：里士满辩论中的“奢侈信念”",
-      "suggestedSummary": "在里士满禁用Flock摄像头导致汽车盗窃案激增33%后，移民店主要求重新启用这些摄像头。Garry Tan称反对安全摄像头是一种“奢侈信念”，最终市议会听取了意见。",
+      "suggestedTitle": "Tan表示安全摄像头不是奢侈信念",
+      "suggestedSummary": "在Richmond禁用安全摄像头导致汽车盗窃案激增33%，移民店主要求恢复使用。Garry Tan认为反对这些摄像头是一种“奢侈信念”。作为Y Combinator的CEO，他更注重实际解决方案而非理想主义立场。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2038054087451885747",
@@ -203,40 +56,14 @@
       "category": "builderInsights"
     },
     {
-      "id": "zarazhangrui-2026-03-29",
-      "source": "X",
-      "authorName": "Zara Zhang",
-      "authorHandle": "zarazhangrui",
-      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
-      "title": "Zara Zhang",
-      "suggestedTitle": "Agent 产品应该让它们的创造者感到惊喜",
-      "suggestedSummary": "Zara Zhang 认为，Agent 产品应该做出意料之外的事情。与仅仅满足设计规格的传统互联网时代产品不同，Agent 产品应该通过超出创造者的期望来带来惊喜和愉悦。",
-      "tweets": [
-        {
-          "url": "https://x.com/zarazhangrui/status/2038144755478237654",
-          "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
-          "likes": 13,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/zarazhangrui/status/2037983921946923034",
-          "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
-          "likes": 53,
-          "retweets": 1
-        }
-      ],
-      "publishedAt": "2026-03-29T06:42:31.000Z",
-      "category": "builderInsights"
-    },
-    {
       "id": "steipete-2026-03-29",
       "source": "X",
       "authorName": "Peter Steinberger",
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "MCPorter 0.8.0 增强了 OAuth 和 CLI 处理",
-      "suggestedSummary": "MCPorter 0.8.0 带来了更强的服务器 OAuth、改进的 JSON 输出和更好的 CLI 处理。Steinberger 从退休中回归，专注于 AI，强调了增强的错误处理和守护进程的可靠性。如果你对开源工具感兴趣，值得一试。",
+      "suggestedTitle": "MCPorter 0.8.0 提升 OAuth 和 CLI 可靠性",
+      "suggestedSummary": "MCPorter 0.8.0 刚刚发布，增强了服务器的 OAuth 功能并改进了 CLI 行为。Peter Steinberger 强调了更好的错误处理和 JSON 输出，以及对 keep-alive 进程的可靠性调整。深入了解细节，看看它如何简化你的工作流程。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2038074759527981416",
@@ -253,6 +80,116 @@
       ],
       "publishedAt": "2026-03-29T02:04:22.000Z",
       "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-03-29",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "梦想中的文本布局终于上线 — Rauch的愿景实现",
+      "suggestedSummary": "Vercel的CEO Guillermo Rauch终于上线了他一直梦想的文本布局。经过多年的期待，他实现了一个个人里程碑，将他对设计的热情与Vercel的尖端能力结合在一起。查看他的推文，了解这一期待已久的功能。",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2037993361450336714",
+          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
+          "likes": 450,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037950897909862526",
+          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
+          "likes": 2055,
+          "retweets": 51
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037935190073569326",
+          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
+          "likes": 141,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-03-28T20:40:56.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-03-29",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "AI民主化应用构建，提升顶尖工程师",
+      "suggestedSummary": "AI让每个人都能构建应用，解放顶尖工程师去做更深入的平台工作——这就是Replit CEO Masad四年前提出的“1000倍工程师”理论，现在正在实现。他的愿景是推动可能性的边界，因为AI接管了常规任务。",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2038053670907007165",
+          "text": "Wow! https://t.co/bMcvHveKQP",
+          "likes": 327,
+          "retweets": 8
+        },
+        {
+          "url": "https://x.com/amasad/status/2037951485418344835",
+          "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
+          "likes": 365,
+          "retweets": 23
+        }
+      ],
+      "publishedAt": "2026-03-29T00:40:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-03-29",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "错误的等同正在扼杀你的策略",
+      "suggestedSummary": "Swyx（与Temporal等公司有合作）警告说，错误的等同是一种陷阱，会让你的策略失败。他认为，把所有任务或目标视为同等重要会削弱专注力和效率。相反，应该押注于几个关键点，避免对冲，并制定计划在判断正确时加倍下注。这一见解来自于他自己的创业经验和对更广泛系统性问题的观察。",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2038096302781657462",
+          "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
+          "likes": 104,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/swyx/status/2037969691910848941",
+          "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
+          "likes": 255,
+          "retweets": 21
+        }
+      ],
+      "publishedAt": "2026-03-29T03:29:59.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-03-29",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "Agent产品应该让创造者感到惊喜",
+      "suggestedSummary": "Zara Zhang认为，Agent产品应该做出意想不到的事情。与传统互联网产品坚持设计功能不同，一个好的Agent产品通过超出最初的预期来带来惊喜和愉悦。",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2038144755478237654",
+          "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
+          "likes": 13,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2037983921946923034",
+          "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
+          "likes": 53,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-03-29T06:42:31.000Z",
+      "category": "builderInsights"
     }
   ],
   "podcastHighlights": [],
@@ -262,8 +199,7 @@
     "totalTweets": 27,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-29T12:36:22.881Z",
-    "estimatedReadTime": "5 分钟"
-  },
-  "summary": "Karpathy 发现 LLM 能摧毁自己的论点——这是特性，不是 bug。Swyx 警告虚假等价会扼杀初创公司，Amjad Masad 认为 AI 正在解放顶级工程师去做更深层的平台工作。Zara Zhang 认为最好的 Agent 产品应该让创造者也感到惊讶。"
+    "generatedAt": "2026-03-29T13:24:00.045Z",
+    "estimatedReadTime": "4 分钟"
+  }
 }

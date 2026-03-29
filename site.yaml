@@ -10,7 +10,7 @@ site:
   subtitle:
     en: 'Follow builders, not influencers.'
     zh: '只追实干者，不追网红'
-    ja: '作る人をフォローしよう'
+    ja: '作る人を追え。語るだけの人じゃなく。'
   description:
     en: 'Daily digest tracking 25+ AI builders on X/Twitter, podcasts, and company blogs.'
     zh: '每天追踪 25+ 位真正在做事的 AI 从业者，覆盖 X/Twitter、播客和技术博客。'
@@ -82,7 +82,7 @@ labels:
   archive: { en: 'ARCHIVE', zh: '往期', ja: 'アーカイブ' }
   backToday: { en: 'BACK TO TODAY', zh: '返回今日', ja: '今日に戻る' }
   empty: { en: 'NO UPDATES TODAY.', zh: '// 今日无更新', ja: '// 本日更新なし' }
-  sources: { en: 'builders tracked', zh: '位建设者已追踪', ja: '人のビルダーを追跡中' }
+  sources: { en: 'builders tracked', zh: '位建设者已追踪', ja: '人のビルダーをウォッチ中' }
   fromSources: { en: 'SRC', zh: '来源', ja: 'SRC' }
   subscribe: { en: 'SUBSCRIBE', zh: '订阅', ja: '購読' }
   emailPlaceholder: { en: 'you@example.com', zh: '你的邮箱', ja: 'メールアドレス' }
@@ -107,7 +107,7 @@ about:
   overview:
     en: 'This digest tracks 25+ top AI builders across X/Twitter, podcasts, and blogs. Every day, the system fetches content from curated feeds, remixes it with AI into structured summaries, and translates to three languages.'
     zh: '本日报追踪 25+ 位顶级 AI 建设者在 X/Twitter、播客和博客上的动态。系统每天从策划的信息源获取内容，通过 AI 生成结构化摘要，并翻译为三种语言。'
-    ja: '本ダイジェストはX/Twitter、ポッドキャスト、ブログ上の25人以上のトップAIビルダーを追跡します。毎日キュレーションフィードからコンテンツを取得し、AIで構造化された要約を生成し、3言語に翻訳します。'
+    ja: 'X/Twitter・ポッドキャスト・ブログで活躍するトップAIビルダー25人以上を毎日ウォッチ。厳選フィードからコンテンツを収集し、AIが要約を作成、3言語に翻訳してお届けします。'
   policyAudience:
     en: 'Target audience: builders, engineers, and founders in AI.'
     zh: '目标读者：AI 领域的建设者、工程师和创始人。'

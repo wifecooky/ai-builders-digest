@@ -1,8 +1,8 @@
 <script>
   let { article, delay = 0 } = $props();
 
-  const displayTitle = article.suggestedTitle || article.title;
-  const displaySummary = article.suggestedSummary || '';
+  let displayTitle = $derived(article.suggestedTitle || article.title);
+  let displaySummary = $derived(article.suggestedSummary || '');
 </script>
 
 <article
