@@ -1,0 +1,85 @@
+{
+  "date": "2026-03-29",
+  "lang": "en",
+  "builderInsights": [
+    {
+      "id": "bi-karpathy-1",
+      "authorName": "Andrej Karpathy",
+      "authorBio": "Founder @Eureka Labs, ex-Director of AI @Tesla, founding team @OpenAI",
+      "suggestedTitle": "LLMs are frighteningly good at arguing any side — use that as a feature",
+      "suggestedSummary": "Karpathy spent 4 hours polishing a blog post with an LLM, felt great about the argument — then asked it to argue the opposite and got completely demolished. His takeaway: LLMs don't truly hold opinions, but their ability to argue any direction is a superpower for forming your own. Just watch out for sycophancy.",
+      "tweets": [
+        { "url": "https://x.com/karpathy/status/2037921699824607591", "likes": 23516 }
+      ]
+    },
+    {
+      "id": "bi-rauchg-1",
+      "authorName": "Guillermo Rauch",
+      "authorBio": "CEO @Vercel",
+      "suggestedTitle": "The agent is the computer — redefining Sun's old maxim",
+      "suggestedSummary": "Rauch drops a one-liner that reframes computing: 'The n̶e̶t̶w̶o̶r̶k̶ agent is the computer.' Also hyped about finally shipping dream text layouts, and wrapped up Vercel's Arizona offsite.",
+      "tweets": [
+        { "url": "https://x.com/rauchg/status/2037935190073569326", "likes": 141 },
+        { "url": "https://x.com/rauchg/status/2037950897909862526", "likes": 2055 }
+      ]
+    },
+    {
+      "id": "bi-steipete-1",
+      "authorName": "Peter Steinberger",
+      "authorBio": "Creator @OpenClaw, ex-founder PSPDFKit",
+      "suggestedTitle": "MCPorter 0.8.0: MCP-to-CLI bridge gets OAuth, better error handling",
+      "suggestedSummary": "Steinberger ships MCPorter 0.8.0 with stronger OAuth handling, valid JSON fallback output, improved CLI argument handling for objects, and keep-alive reliability. Also shares hard-won wisdom on developing thick skin for open source maintainers.",
+      "tweets": [
+        { "url": "https://x.com/steipete/status/2038074759527981416", "likes": 543 },
+        { "url": "https://x.com/steipete/status/2037988925818519763", "likes": 546 }
+      ]
+    },
+    {
+      "id": "bi-garrytan-1",
+      "authorName": "Garry Tan",
+      "authorBio": "CEO @ycombinator",
+      "suggestedTitle": "Safety cameras and luxury beliefs — when ideology meets reality",
+      "suggestedSummary": "Tan highlights Richmond's Flock camera saga: disabled to 'protect immigrants,' car thefts jumped 33%, immigrant shopkeepers themselves begged to bring them back. Also pushes the mantra: embrace boiling the ocean.",
+      "tweets": [
+        { "url": "https://x.com/garrytan/status/2038054087451885747", "likes": 935 }
+      ]
+    },
+    {
+      "id": "bi-amasad-1",
+      "authorName": "Amjad Masad",
+      "authorBio": "CEO @Replit",
+      "suggestedTitle": "AI makes everyone a builder — freeing top engineers for deeper work",
+      "suggestedSummary": "Masad articulates his 'the 1000x engineer' thesis from four years ago: AI enables everyone to build apps, which lets the best engineers focus a layer deeper on advancing platforms and expanding what's possible.",
+      "tweets": [
+        { "url": "https://x.com/amasad/status/2037951485418344835", "likes": 365 }
+      ]
+    },
+    {
+      "id": "bi-swyx-1",
+      "authorName": "Swyx",
+      "authorBio": "Founder @smol.ai, host @latentspacepod",
+      "suggestedTitle": "False equivalence is the silent killer of startups and strategy",
+      "suggestedSummary": "Swyx argues that false equivalence — treating all priorities as equal — killed his first devtools startup and plagues most organizations. His rules: bet on a very small set of things, don't hedge, set triggers to monitor if you're wrong, and double down early when you're more right than expected.",
+      "tweets": [
+        { "url": "https://x.com/swyx/status/2037969691910848941", "likes": 255 }
+      ]
+    },
+    {
+      "id": "bi-zarazhangrui-1",
+      "authorName": "Zara Zhang",
+      "authorBio": "Builder, Harvard '17",
+      "suggestedTitle": "Good agent products surprise their own creators",
+      "suggestedSummary": "Zhang draws a sharp line between internet-era and agent-era product design: old products work 'according to expectations,' while good agent products should do things their creators didn't think possible. Also coins the observation: 'Human context window is the new wall.'",
+      "tweets": [
+        { "url": "https://x.com/zarazhangrui/status/2038144755478237654", "likes": 13 },
+        { "url": "https://x.com/zarazhangrui/status/2037983921946923034", "likes": 53 }
+      ]
+    }
+  ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 13,
+    "generatedAt": "2026-03-29T07:00:00Z"
+  }
+}

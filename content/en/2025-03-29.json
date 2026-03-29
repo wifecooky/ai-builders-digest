@@ -1,0 +1,61 @@
+{
+  "date": "2025-03-29",
+  "lang": "en",
+  "builderInsights": [
+    {
+      "id": "bi-1",
+      "authorName": "Andrej Karpathy",
+      "authorBio": "Founder @Eureka Labs, ex-Tesla AI Director",
+      "suggestedTitle": "The future of AI education is self-paced and personalized",
+      "suggestedSummary": "Karpathy shares his vision for AI-powered education: instead of one-size-fits-all lectures, future learning will adapt to each student's pace and understanding. He argues current LLMs are already capable enough to create compelling personalized curricula.",
+      "tweets": [
+        { "url": "https://x.com/karpathy/status/1234567890", "likes": 4500 }
+      ]
+    },
+    {
+      "id": "bi-2",
+      "authorName": "Jim Fan",
+      "authorBio": "Senior Research Scientist @NVIDIA",
+      "suggestedTitle": "Foundation agents: from language to physical world",
+      "suggestedSummary": "Fan outlines NVIDIA's approach to building foundation agents that can operate in both digital and physical environments. The key insight: treating robotics, game AI, and web agents as a single continuum rather than separate problems.",
+      "tweets": [
+        { "url": "https://x.com/DrJimFan/status/1234567891", "likes": 2300 }
+      ]
+    },
+    {
+      "id": "bi-3",
+      "authorName": "Swyx",
+      "authorBio": "Founder @smol.ai",
+      "suggestedTitle": "AI engineering is becoming its own discipline",
+      "suggestedSummary": "Swyx argues that 'AI Engineer' is solidifying as a distinct role — neither ML researcher nor traditional software engineer. The skillset centers on prompt engineering, evaluation, and orchestration rather than model training.",
+      "tweets": [
+        { "url": "https://x.com/swyx/status/1234567892", "likes": 1800 }
+      ]
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "ph-1",
+      "source": "Latent Space",
+      "title": "The State of AI Agents in 2025",
+      "url": "https://youtube.com/watch?v=example1",
+      "suggestedTitle": "AI agents are finally becoming useful — here's what changed",
+      "suggestedSummary": "Deep dive into why 2025 is the year AI agents went from demos to production. The hosts discuss tool-use improvements, better planning capabilities, and the role of evals in making agents reliable enough for enterprise adoption."
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "bu-1",
+      "source": "OpenAI Blog",
+      "title": "Introducing GPT-5 Turbo",
+      "author": "OpenAI Team",
+      "url": "https://openai.com/blog/gpt5-turbo",
+      "suggestedTitle": "GPT-5 Turbo: faster, cheaper, and more capable",
+      "suggestedSummary": "OpenAI launches GPT-5 Turbo with 2x speed improvement and 40% cost reduction. Key upgrades include native tool use, improved instruction following, and a 256k context window."
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 25,
+    "generatedAt": "2025-03-29T07:00:00Z"
+  }
+}

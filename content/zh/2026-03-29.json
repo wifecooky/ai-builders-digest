@@ -1,0 +1,85 @@
+{
+  "date": "2026-03-29",
+  "lang": "zh",
+  "builderInsights": [
+    {
+      "id": "bi-karpathy-1",
+      "authorName": "Andrej Karpathy",
+      "authorBio": "Founder @Eureka Labs, ex-Director of AI @Tesla, founding team @OpenAI",
+      "suggestedTitle": "LLM 正反两面都能吵赢你——把这当功能用",
+      "suggestedSummary": "Karpathy 花 4 小时用 LLM 打磨了一篇博客论点，感觉无懈可击——然后让 LLM 反驳，结果被彻底说服了对立观点。他的结论：LLM 没有真正的立场，但正因如此，它是塑造你自己观点的绝佳工具。注意别被它的迎合性带偏。",
+      "tweets": [
+        { "url": "https://x.com/karpathy/status/2037921699824607591", "likes": 23516 }
+      ]
+    },
+    {
+      "id": "bi-rauchg-1",
+      "authorName": "Guillermo Rauch",
+      "authorBio": "CEO @Vercel",
+      "suggestedTitle": "Agent 就是计算机——重新定义 Sun 的经典格言",
+      "suggestedSummary": "Rauch 一句话重构了计算范式：「网络已过时，agent 才是计算机。」同时对终于能实现梦想中的文字排版感到兴奋，并结束了 Vercel 亚利桑那团建。",
+      "tweets": [
+        { "url": "https://x.com/rauchg/status/2037935190073569326", "likes": 141 },
+        { "url": "https://x.com/rauchg/status/2037950897909862526", "likes": 2055 }
+      ]
+    },
+    {
+      "id": "bi-steipete-1",
+      "authorName": "Peter Steinberger",
+      "authorBio": "Creator @OpenClaw, ex-founder PSPDFKit",
+      "suggestedTitle": "MCPorter 0.8.0 发布：MCP 转 CLI 桥接器新增 OAuth 支持",
+      "suggestedSummary": "Steinberger 发布 MCPorter 0.8.0，增强了 OAuth 处理、JSON 回退输出、CLI 对象参数处理和 keep-alive 可靠性。同时分享了开源维护者需要厚脸皮的心得。",
+      "tweets": [
+        { "url": "https://x.com/steipete/status/2038074759527981416", "likes": 543 },
+        { "url": "https://x.com/steipete/status/2037988925818519763", "likes": 546 }
+      ]
+    },
+    {
+      "id": "bi-garrytan-1",
+      "authorName": "Garry Tan",
+      "authorBio": "CEO @ycombinator",
+      "suggestedTitle": "当理想主义碰上现实——Richmond 安全摄像头事件",
+      "suggestedSummary": "Tan 聚焦 Richmond 摄像头事件：以「保护移民」之名禁用后，车辆盗窃率飙升 33%，最终是移民店主自己恳求恢复。他说：反对安全措施是一种特权信念。",
+      "tweets": [
+        { "url": "https://x.com/garrytan/status/2038054087451885747", "likes": 935 }
+      ]
+    },
+    {
+      "id": "bi-amasad-1",
+      "authorName": "Amjad Masad",
+      "authorBio": "CEO @Replit",
+      "suggestedTitle": "AI 让人人都能造产品——顶尖工程师则去做更深的事",
+      "suggestedSummary": "Masad 重申他四年前的「1000 倍工程师」论点：AI 让每个人都能开发应用，最优秀的工程师因此得以深入底层，推进平台本身的能力边界。",
+      "tweets": [
+        { "url": "https://x.com/amasad/status/2037951485418344835", "likes": 365 }
+      ]
+    },
+    {
+      "id": "bi-swyx-1",
+      "authorName": "Swyx",
+      "authorBio": "Founder @smol.ai, host @latentspacepod",
+      "suggestedTitle": "虚假的平均主义是创业和战略的隐形杀手",
+      "suggestedSummary": "Swyx 认为虚假的等价对待——把所有优先级一视同仁——害死了他第一家 devtools 创业公司。他的法则：只押注极少数事物，不对冲，设触发器监控判断是否错误，发现比预期更对时果断加码。",
+      "tweets": [
+        { "url": "https://x.com/swyx/status/2037969691910848941", "likes": 255 }
+      ]
+    },
+    {
+      "id": "bi-zarazhangrui-1",
+      "authorName": "Zara Zhang",
+      "authorBio": "Builder, Harvard '17",
+      "suggestedTitle": "好的 agent 产品应该能让创造者自己也惊讶",
+      "suggestedSummary": "Zhang 在互联网产品和 agent 产品之间划了一条清晰的线：旧产品「按预期工作」就是好产品；而好的 agent 产品应该能做到创造者自己都没想到的事。她还观察到：「人类的上下文窗口才是新的瓶颈。」",
+      "tweets": [
+        { "url": "https://x.com/zarazhangrui/status/2038144755478237654", "likes": 13 },
+        { "url": "https://x.com/zarazhangrui/status/2037983921946923034", "likes": 53 }
+      ]
+    }
+  ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 13,
+    "generatedAt": "2026-03-29T07:00:00Z"
+  }
+}

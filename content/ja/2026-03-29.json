@@ -1,0 +1,85 @@
+{
+  "date": "2026-03-29",
+  "lang": "ja",
+  "builderInsights": [
+    {
+      "id": "bi-karpathy-1",
+      "authorName": "Andrej Karpathy",
+      "authorBio": "Founder @Eureka Labs, ex-Director of AI @Tesla, founding team @OpenAI",
+      "suggestedTitle": "LLMはどちら側でも論破できる——それを武器にせよ",
+      "suggestedSummary": "KarpathyがLLMでブログ記事の論点を4時間磨き上げ、完璧だと感じたところで反論させたら完全に論破された。結論：LLMに本当の意見はないが、どの方向でも議論できる能力は自分の意見を形成する最高のツール。ただし迎合性には要注意。",
+      "tweets": [
+        { "url": "https://x.com/karpathy/status/2037921699824607591", "likes": 23516 }
+      ]
+    },
+    {
+      "id": "bi-rauchg-1",
+      "authorName": "Guillermo Rauch",
+      "authorBio": "CEO @Vercel",
+      "suggestedTitle": "エージェントこそがコンピュータ——Sunの格言を再定義",
+      "suggestedSummary": "Rauchが一言でコンピューティングパラダイムを書き換えた：「ネットワークではなくエージェントがコンピュータだ」。理想のテキストレイアウトがついに実現できることにも興奮を示し、Vercelアリゾナオフサイトを締めくくった。",
+      "tweets": [
+        { "url": "https://x.com/rauchg/status/2037935190073569326", "likes": 141 },
+        { "url": "https://x.com/rauchg/status/2037950897909862526", "likes": 2055 }
+      ]
+    },
+    {
+      "id": "bi-steipete-1",
+      "authorName": "Peter Steinberger",
+      "authorBio": "Creator @OpenClaw, ex-founder PSPDFKit",
+      "suggestedTitle": "MCPorter 0.8.0リリース：MCP→CLIブリッジにOAuth対応",
+      "suggestedSummary": "SteinbergerがMCPorter 0.8.0をリリース。OAuth処理の強化、JSONフォールバック出力、CLIオブジェクト引数の改善、keep-alive信頼性向上。オープンソースメンテナーに必要な忍耐力についても語った。",
+      "tweets": [
+        { "url": "https://x.com/steipete/status/2038074759527981416", "likes": 543 },
+        { "url": "https://x.com/steipete/status/2037988925818519763", "likes": 546 }
+      ]
+    },
+    {
+      "id": "bi-garrytan-1",
+      "authorName": "Garry Tan",
+      "authorBio": "CEO @ycombinator",
+      "suggestedTitle": "安全カメラと特権的信念——理想が現実に負けるとき",
+      "suggestedSummary": "TanがRichmondのFlockカメラ事件を取り上げる。「移民保護」のため無効化後、車両盗難が33%急増。移民の店主たち自身が復活を懇願し、先週ついに市議会が応じた。安全カメラへの反対は特権的信念だと指摘。",
+      "tweets": [
+        { "url": "https://x.com/garrytan/status/2038054087451885747", "likes": 935 }
+      ]
+    },
+    {
+      "id": "bi-amasad-1",
+      "authorName": "Amjad Masad",
+      "authorBio": "CEO @Replit",
+      "suggestedTitle": "AIで全員がビルダーに——トップエンジニアはより深い仕事へ",
+      "suggestedSummary": "Masadが4年前から語ってきた「1000倍エンジニア」論を改めて提唱。AIにより誰もがアプリを作れるようになり、最優秀のエンジニアは一層深いレイヤーに集中してプラットフォーム自体を進化させられる。",
+      "tweets": [
+        { "url": "https://x.com/amasad/status/2037951485418344835", "likes": 365 }
+      ]
+    },
+    {
+      "id": "bi-swyx-1",
+      "authorName": "Swyx",
+      "authorBio": "Founder @smol.ai, host @latentspacepod",
+      "suggestedTitle": "偽りの等価性はスタートアップと戦略のサイレントキラー",
+      "suggestedSummary": "Swyxは、すべての優先度を均等に扱う「偽りの等価性」が自身初のdevtoolsスタートアップを殺したと語る。ルール：極少数に賭ける、ヘッジしない、間違いを監視するトリガーを設定、予想以上に正しければ早期に倍プッシュ。",
+      "tweets": [
+        { "url": "https://x.com/swyx/status/2037969691910848941", "likes": 255 }
+      ]
+    },
+    {
+      "id": "bi-zarazhangrui-1",
+      "authorName": "Zara Zhang",
+      "authorBio": "Builder, Harvard '17",
+      "suggestedTitle": "良いエージェント製品は作った本人すら驚かせる",
+      "suggestedSummary": "Zhangがインターネット時代とエージェント時代のプロダクト設計の違いを明確に区別。旧来のプロダクトは「期待通りに動く」のが良い製品。エージェント製品は創造者が想像もしなかったことをやってこそ価値がある。「人間のコンテキストウィンドウが新たなボトルネック」とも。",
+      "tweets": [
+        { "url": "https://x.com/zarazhangrui/status/2038144755478237654", "likes": 13 },
+        { "url": "https://x.com/zarazhangrui/status/2037983921946923034", "likes": 53 }
+      ]
+    }
+  ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 13,
+    "generatedAt": "2026-03-29T07:00:00Z"
+  }
+}

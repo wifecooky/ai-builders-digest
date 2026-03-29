@@ -1,0 +1,21 @@
+{
+  "name": "ai-builders-digest",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "collect": "node scripts/collect-feeds.js",
+    "remix": "node scripts/remix-ai.js",
+    "translate": "node scripts/translate-ai.js",
+    "generate-daily": "npm run collect && npm run remix && npm run translate",
+    "newsletter": "node scripts/send-newsletter.js",
+    "clean": "rm -f content/raw-feeds.json content/remixed-articles.json"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.27.0"
+  }
+}
