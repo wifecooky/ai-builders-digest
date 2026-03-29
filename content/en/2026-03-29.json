@@ -3,83 +3,267 @@
   "lang": "en",
   "builderInsights": [
     {
-      "id": "bi-karpathy-1",
+      "id": "karpathy-2026-03-29",
+      "source": "X",
       "authorName": "Andrej Karpathy",
-      "authorBio": "Founder @Eureka Labs, ex-Director of AI @Tesla, founding team @OpenAI",
-      "suggestedTitle": "LLMs are frighteningly good at arguing any side — use that as a feature",
-      "suggestedSummary": "Karpathy spent 4 hours polishing a blog post with an LLM, felt great about the argument — then asked it to argue the opposite and got completely demolished. His takeaway: LLMs don't truly hold opinions, but their ability to argue any direction is a superpower for forming your own. Just watch out for sycophancy.",
+      "authorHandle": "karpathy",
+      "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
+      "title": "Andrej Karpathy",
+      "suggestedTitle": "LLMs argue any side — use that as a feature",
+      "suggestedSummary": "LLMs can convincingly argue both sides of an issue, making them a powerful tool for refining your own views. Karpathy found this out firsthand when an LLM flipped his argument on its head. It's a reminder to explore multiple perspectives and watch out for AI's agreeable nature.",
       "tweets": [
-        { "url": "https://x.com/karpathy/status/2037921699824607591", "likes": 23516 }
-      ]
+        {
+          "url": "https://x.com/karpathy/status/2037921699824607591",
+          "text": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it’s so convincing!\n- Fun idea let’s ask it to argue the opposite. \n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol\n\nThe LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction. This is actually super useful as a tool for forming your own opinions, just make sure to ask different directions and be careful with the sycophancy.",
+          "likes": 23516,
+          "retweets": 1786
+        }
+      ],
+      "publishedAt": "2026-03-28T15:56:10.000Z",
+      "category": "builderInsights"
     },
     {
-      "id": "bi-rauchg-1",
-      "authorName": "Guillermo Rauch",
-      "authorBio": "CEO @Vercel",
-      "suggestedTitle": "The agent is the computer — redefining Sun's old maxim",
-      "suggestedSummary": "Rauch drops a one-liner that reframes computing: 'The n̶e̶t̶w̶o̶r̶k̶ agent is the computer.' Also hyped about finally shipping dream text layouts, and wrapped up Vercel's Arizona offsite.",
-      "tweets": [
-        { "url": "https://x.com/rauchg/status/2037935190073569326", "likes": 141 },
-        { "url": "https://x.com/rauchg/status/2037950897909862526", "likes": 2055 }
-      ]
-    },
-    {
-      "id": "bi-steipete-1",
-      "authorName": "Peter Steinberger",
-      "authorBio": "Creator @OpenClaw, ex-founder PSPDFKit",
-      "suggestedTitle": "MCPorter 0.8.0: MCP-to-CLI bridge gets OAuth, better error handling",
-      "suggestedSummary": "Steinberger ships MCPorter 0.8.0 with stronger OAuth handling, valid JSON fallback output, improved CLI argument handling for objects, and keep-alive reliability. Also shares hard-won wisdom on developing thick skin for open source maintainers.",
-      "tweets": [
-        { "url": "https://x.com/steipete/status/2038074759527981416", "likes": 543 },
-        { "url": "https://x.com/steipete/status/2037988925818519763", "likes": 546 }
-      ]
-    },
-    {
-      "id": "bi-garrytan-1",
-      "authorName": "Garry Tan",
-      "authorBio": "CEO @ycombinator",
-      "suggestedTitle": "Safety cameras and luxury beliefs — when ideology meets reality",
-      "suggestedSummary": "Tan highlights Richmond's Flock camera saga: disabled to 'protect immigrants,' car thefts jumped 33%, immigrant shopkeepers themselves begged to bring them back. Also pushes the mantra: embrace boiling the ocean.",
-      "tweets": [
-        { "url": "https://x.com/garrytan/status/2038054087451885747", "likes": 935 }
-      ]
-    },
-    {
-      "id": "bi-amasad-1",
-      "authorName": "Amjad Masad",
-      "authorBio": "CEO @Replit",
-      "suggestedTitle": "AI makes everyone a builder — freeing top engineers for deeper work",
-      "suggestedSummary": "Masad articulates his 'the 1000x engineer' thesis from four years ago: AI enables everyone to build apps, which lets the best engineers focus a layer deeper on advancing platforms and expanding what's possible.",
-      "tweets": [
-        { "url": "https://x.com/amasad/status/2037951485418344835", "likes": 365 }
-      ]
-    },
-    {
-      "id": "bi-swyx-1",
+      "id": "swyx-2026-03-29",
+      "source": "X",
       "authorName": "Swyx",
-      "authorBio": "Founder @smol.ai, host @latentspacepod",
-      "suggestedTitle": "False equivalence is the silent killer of startups and strategy",
-      "suggestedSummary": "Swyx argues that false equivalence — treating all priorities as equal — killed his first devtools startup and plagues most organizations. His rules: bet on a very small set of things, don't hedge, set triggers to monitor if you're wrong, and double down early when you're more right than expected.",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "False equivalence is the silent startup killer",
+      "suggestedSummary": "False equivalence, a trap Swyx has dodged for 5 years, cost Zuck @GoogleDeepMind and killed his first devtools startup. He argues that focusing equally on all tasks dilutes impact. Instead, bet on a few key things, avoid hedging, and double down if you're right. It's a call to break away from the 'do everything' mindset and embrace power laws for success.",
       "tweets": [
-        { "url": "https://x.com/swyx/status/2037969691910848941", "likes": 255 }
-      ]
+        {
+          "url": "https://x.com/swyx/status/2038096302781657462",
+          "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
+          "likes": 104,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/swyx/status/2037969691910848941",
+          "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
+          "likes": 255,
+          "retweets": 21
+        }
+      ],
+      "publishedAt": "2026-03-29T03:29:59.000Z",
+      "category": "builderInsights"
     },
     {
-      "id": "bi-zarazhangrui-1",
-      "authorName": "Zara Zhang",
-      "authorBio": "Builder, Harvard '17",
-      "suggestedTitle": "Good agent products surprise their own creators",
-      "suggestedSummary": "Zhang draws a sharp line between internet-era and agent-era product design: old products work 'according to expectations,' while good agent products should do things their creators didn't think possible. Also coins the observation: 'Human context window is the new wall.'",
+      "id": "petergyang-2026-03-29",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "Peter Yang",
+      "suggestedTitle": "Ex-founders as PMs: The ultimate talent litmus test",
+      "suggestedSummary": "Fast-growing companies like Linear and Ramp are snapping up ex-founders as product managers. The real question: Can your company attract these entrepreneurial minds and give them the freedom to make a real impact, or will they just drown in bureaucracy? It's a telling sign of how appealing your organization truly is.",
       "tweets": [
-        { "url": "https://x.com/zarazhangrui/status/2038144755478237654", "likes": 13 },
-        { "url": "https://x.com/zarazhangrui/status/2037983921946923034", "likes": 53 }
-      ]
+        {
+          "url": "https://x.com/petergyang/status/2038068968792162594",
+          "text": "I would really love to talk to @grok about all the posts I have bookmarked on here but am too lazy to scroll through manually. @elonmusk what do you think?",
+          "likes": 84,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/petergyang/status/2038067082223554732",
+          "text": "X asking me to thumbs down my own reply 🥲. \n\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still. https://t.co/3y0KhuI0R1",
+          "likes": 61,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2038058600715935817",
+          "text": "Interesting to see how many fast growing companies like @linear and @tryramp want to hire ex-founders as PMs.\n\nI think this is a good litmus test for how good your company is at attracting talent:\n\n1. Do founders want to work here?\n\n2. Do they have the agency to make real impact or will they get lost in your org?",
+          "likes": 73,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-03-29T01:41:22.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-03-29",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "TED and 30u30: Lessons in Brand Self-Destruction",
+      "suggestedSummary": "Business schools, take note: TED and 30u30 are prime examples of how brands can implode. Nan Yu, head of product at Linear, suggests these once-revered names now serve as cautionary tales in brand management.",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2038025287955280120",
+          "text": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
+          "likes": 15,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2038021774105784782",
+          "text": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
+          "likes": 1,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2038018254229094448",
+          "text": "Here we go\n\nhttps://t.co/UnraJZtyQm",
+          "likes": 1,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-03-28T22:47:47.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-03-29",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "AI frees top engineers for deeper platform work",
+      "suggestedSummary": "AI lets everyone build apps, freeing top engineers for deeper platform work — that's Replit CEO Masad's '1000x engineer' thesis from 4 years ago, now playing out. By automating routine tasks, AI allows engineers to tackle more ambitious projects, pushing the boundaries of what's possible.",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2038053670907007165",
+          "text": "Wow! https://t.co/bMcvHveKQP",
+          "likes": 327,
+          "retweets": 8
+        },
+        {
+          "url": "https://x.com/amasad/status/2037951485418344835",
+          "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
+          "likes": 365,
+          "retweets": 23
+        }
+      ],
+      "publishedAt": "2026-03-29T00:40:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-03-29",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "Finally, the perfect text layout is here",
+      "suggestedSummary": "Guillermo Rauch is thrilled to announce he can finally ship the text layout of his dreams. As Vercel's CEO, he's been pushing for this kind of innovation, and it looks like he's hit the mark. It's a big win for anyone who's ever struggled with text formatting.",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2037993361450336714",
+          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
+          "likes": 450,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037950897909862526",
+          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
+          "likes": 2055,
+          "retweets": 51
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037935190073569326",
+          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
+          "likes": 141,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-03-28T20:40:56.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-03-29",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "Safety cameras: A 'luxury belief' in Richmond's debate",
+      "suggestedSummary": "Disabling Flock cameras in Richmond led to a 33% spike in car thefts, prompting immigrant shopkeepers to demand their reinstatement. Garry Tan calls opposing safety cameras a 'luxury belief' after the city council finally listened.",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2038054087451885747",
+          "text": "After Richmond disabled its Flock cameras to \"protect immigrants,\" car thefts jumped 33%. \n\nImmigrant shopkeepers begged to bring them back. Last week their city council finally listened. \n\nOpposing safety cameras is a luxury belief. \n\nhttps://t.co/4BecRL4WTL",
+          "likes": 935,
+          "retweets": 89
+        },
+        {
+          "url": "https://x.com/garrytan/status/2037982376148734119",
+          "text": "Embrace boiling the ocean https://t.co/D2qbebbZK2",
+          "likes": 138,
+          "retweets": 7
+        },
+        {
+          "url": "https://x.com/garrytan/status/2037979742608253202",
+          "text": "GStack still growing every day. https://t.co/S9QUWdiSpD",
+          "likes": 222,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-03-29T00:42:14.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-03-29",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "Agent Products Should Surprise Their Creators",
+      "suggestedSummary": "Agent products should do the unexpected, says Zara Zhang. Unlike traditional internet-era products that simply meet design specs, agent products should surprise and delight by exceeding their creators' expectations.",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2038144755478237654",
+          "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
+          "likes": 13,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2037983921946923034",
+          "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
+          "likes": 53,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-03-29T06:42:31.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-03-29",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "MCPorter 0.8.0 boosts OAuth and CLI handling",
+      "suggestedSummary": "MCPorter 0.8.0 is here with stronger OAuth for servers, improved JSON output, and better CLI handling. Steinberger, who's back from retirement to tinker with AI, highlights enhanced error handling and daemon reliability. Check it out if you're into open source tools.",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2038074759527981416",
+          "text": "MCPorter (MCP-&gt;CLI)🧳0.8.0 is out.\n\n- stronger OAuth handling for servers\n- valid JSON output on fallback paths\n- better mcporter call behavior and error handling\n- generated CLIs handle object-valued args better\n- keep-alive/daemon reliability https://t.co/Nu9UOBxPam",
+          "likes": 543,
+          "retweets": 41
+        },
+        {
+          "url": "https://x.com/steipete/status/2037988925818519763",
+          "text": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change) https://t.co/N62y2XfaTW",
+          "likes": 546,
+          "retweets": 20
+        }
+      ],
+      "publishedAt": "2026-03-29T02:04:22.000Z",
+      "category": "builderInsights"
     }
   ],
   "podcastHighlights": [],
   "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
-    "generatedAt": "2026-03-29T07:00:00Z"
-  }
+    "totalTweets": 27,
+    "totalPodcasts": 0,
+    "totalBlogs": 0,
+    "generatedAt": "2026-03-29T12:36:17.917Z",
+    "estimatedReadTime": "5 min"
+  },
+  "summary": "Karpathy discovers LLMs can demolish their own arguments — a feature, not a bug. Swyx warns false equivalence kills startups, while Amjad Masad sees AI freeing top engineers for deeper platform work. Zara Zhang argues the best agent products should surprise even their creators."
 }

@@ -106,6 +106,19 @@
       </div>
     </div>
 
+    <!-- Daily Summary -->
+    {#if content.summary}
+      <section class="pb-8 animate-in">
+        <div class="rounded-sm px-5 sm:px-6 py-5 border border-cyber-accent/20 bg-cyber-accent/5">
+          <p class="text-[10px] font-display font-bold tracking-[0.3em] text-cyber-accent uppercase mb-2"
+            style="text-shadow: 0 0 7px rgba(129, 140, 248, 0.3);">
+            TL;DR
+          </p>
+          <p class="text-sm text-cyber-text leading-relaxed">{content.summary}</p>
+        </div>
+      </section>
+    {/if}
+
     <!-- Builder Insights -->
     {#if content.builderInsights?.length > 0}
       <section class="pb-8">

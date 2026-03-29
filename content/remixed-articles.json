@@ -8,8 +8,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "Andrej Karpathy Explores LLMs as Opinion-Forming Tools",
-      "suggestedSummary": "Andrej Karpathy, renowned for his work in AI, shares an intriguing experience with large language models (LLMs). After using an LLM to enhance a blog post, he amusingly discovered that the same model could convincingly argue the opposite point. Karpathy highlights the utility of LLMs in exploring diverse perspectives, advising users to engage models from multiple angles to avoid sycophancy. This insight underscores the potential of LLMs as tools for developing well-rounded opinions.",
+      "suggestedTitle": "LLMs argue any side — use that as a feature",
+      "suggestedSummary": "LLMs can convincingly argue both sides of an issue, making them a powerful tool for refining your own views. Karpathy found this out firsthand when an LLM flipped his argument on its head. It's a reminder to explore multiple perspectives and watch out for AI's agreeable nature.",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2037921699824607591",
@@ -28,8 +28,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Swyx Warns Against the Dangers of False Equivalence",
-      "suggestedSummary": "Swyx, affiliated with DX Tips HQ, Cognition, Temporal.io, AI Engineer, and Latent Space Pod, shares a critical insight on the pitfalls of false equivalence in strategy and decision-making. He emphasizes that treating all options with equal weight can lead to significant missed opportunities, as seen in his own experiences and in high-profile cases like Google DeepMind. Swyx advises focusing on a few key priorities, avoiding hedging, and setting clear benchmarks to capitalize on successes or pivot when necessary.",
+      "suggestedTitle": "False equivalence is the silent startup killer",
+      "suggestedSummary": "False equivalence, a trap Swyx has dodged for 5 years, cost Zuck @GoogleDeepMind and killed his first devtools startup. He argues that focusing equally on all tasks dilutes impact. Instead, bet on a few key things, avoid hedging, and double down if you're right. It's a call to break away from the 'do everything' mindset and embrace power laws for success.",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2038096302781657462",
@@ -54,8 +54,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Ex-Founders as PMs: A Talent Magnet for Fast-Growing Companies",
-      "suggestedSummary": "Peter Yang, who shares AI tutorials and interviews, highlights a trend among fast-growing companies like Linear and Ramp hiring ex-founders as product managers. He suggests this hiring strategy serves as a litmus test for a company's ability to attract top talent. Yang poses critical questions: Do founders want to work at your company, and do they have the agency to make a real impact, or will they get lost in the organization?",
+      "suggestedTitle": "Ex-founders as PMs: The ultimate talent litmus test",
+      "suggestedSummary": "Fast-growing companies like Linear and Ramp are snapping up ex-founders as product managers. The real question: Can your company attract these entrepreneurial minds and give them the freedom to make a real impact, or will they just drown in bureaucracy? It's a telling sign of how appealing your organization truly is.",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2038068968792162594",
@@ -80,14 +80,46 @@
       "category": "builderInsights"
     },
     {
+      "id": "thenanyu-2026-03-29",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "TED and 30u30: Lessons in Brand Self-Destruction",
+      "suggestedSummary": "Business schools, take note: TED and 30u30 are prime examples of how brands can implode. Nan Yu, head of product at Linear, suggests these once-revered names now serve as cautionary tales in brand management.",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2038025287955280120",
+          "text": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
+          "likes": 15,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2038021774105784782",
+          "text": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
+          "likes": 1,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2038018254229094448",
+          "text": "Here we go\n\nhttps://t.co/UnraJZtyQm",
+          "likes": 1,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-03-28T22:47:47.000Z",
+      "category": "builderInsights"
+    },
+    {
       "id": "amasad-2026-03-29",
       "source": "X",
       "authorName": "Amjad Masad",
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Amjad Masad on the Rise of the 1000x Engineer",
-      "suggestedSummary": "Amjad Masad, CEO of Replit, shares his vision of how AI is transforming the tech landscape. He argues that AI democratizes app development, allowing top engineers to delve deeper into platform advancements. This shift enables what he terms the '1000x engineer'—a concept he introduced four years ago—who can significantly amplify technological progress by focusing on more ambitious projects.",
+      "suggestedTitle": "AI frees top engineers for deeper platform work",
+      "suggestedSummary": "AI lets everyone build apps, freeing top engineers for deeper platform work — that's Replit CEO Masad's '1000x engineer' thesis from 4 years ago, now playing out. By automating routine tasks, AI allows engineers to tackle more ambitious projects, pushing the boundaries of what's possible.",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2038053670907007165",
@@ -106,14 +138,46 @@
       "category": "builderInsights"
     },
     {
+      "id": "rauchg-2026-03-29",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "Finally, the perfect text layout is here",
+      "suggestedSummary": "Guillermo Rauch is thrilled to announce he can finally ship the text layout of his dreams. As Vercel's CEO, he's been pushing for this kind of innovation, and it looks like he's hit the mark. It's a big win for anyone who's ever struggled with text formatting.",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2037993361450336714",
+          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
+          "likes": 450,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037950897909862526",
+          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
+          "likes": 2055,
+          "retweets": 51
+        },
+        {
+          "url": "https://x.com/rauchg/status/2037935190073569326",
+          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
+          "likes": 141,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-03-28T20:40:56.000Z",
+      "category": "builderInsights"
+    },
+    {
       "id": "garrytan-2026-03-29",
       "source": "X",
       "authorName": "Garry Tan",
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Garry Tan Criticizes 'Luxury Beliefs' on Safety Measures",
-      "suggestedSummary": "Garry Tan, President & CEO at Y Combinator, shared a critical view on the decision by Richmond to disable Flock cameras, suggesting that opposing safety cameras is a 'luxury belief.' He highlighted the subsequent 33% increase in car thefts and the plea from immigrant shopkeepers to reinstate the cameras, which the city council eventually did. Additionally, Tan noted the ongoing growth of GStack, a platform he created, emphasizing its continued expansion.",
+      "suggestedTitle": "Safety cameras: A 'luxury belief' in Richmond's debate",
+      "suggestedSummary": "Disabling Flock cameras in Richmond led to a 33% spike in car thefts, prompting immigrant shopkeepers to demand their reinstatement. Garry Tan calls opposing safety cameras a 'luxury belief' after the city council finally listened.",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2038054087451885747",
@@ -144,8 +208,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Agent Products Should Surprise and Delight Beyond Expectations",
-      "suggestedSummary": "Zara Zhang, a builder known for her innovative approach, shares her insights on the evolving nature of agent products. She argues that unlike traditional internet-era products designed to meet specific expectations, a good agent product should surprise and delight its users by performing tasks beyond its creator's initial intentions. This perspective highlights the transformative potential of agent products in delivering unexpected functionalities.",
+      "suggestedTitle": "Agent Products Should Surprise Their Creators",
+      "suggestedSummary": "Agent products should do the unexpected, says Zara Zhang. Unlike traditional internet-era products that simply meet design specs, agent products should surprise and delight by exceeding their creators' expectations.",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2038144755478237654",
@@ -170,8 +234,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "MCPorter 0.8.0 Enhances OAuth and CLI Functionality",
-      "suggestedSummary": "Peter Steinberger, known as the Polyagentmorous ClawFather at OpenClaw, has announced the release of MCPorter 0.8.0. This update brings significant improvements, including stronger OAuth handling for servers, valid JSON output on fallback paths, and enhanced error handling for mcporter calls. Additionally, generated CLIs now better manage object-valued arguments, and there is improved reliability for keep-alive/daemon processes. These updates aim to streamline server interactions and enhance user experience.",
+      "suggestedTitle": "MCPorter 0.8.0 boosts OAuth and CLI handling",
+      "suggestedSummary": "MCPorter 0.8.0 is here with stronger OAuth for servers, improved JSON output, and better CLI handling. Steinberger, who's back from retirement to tinker with AI, highlights enhanced error handling and daemon reliability. Check it out if you're into open source tools.",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2038074759527981416",
@@ -197,6 +261,6 @@
     "totalTweets": 27,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-29T12:32:14.306Z"
+    "generatedAt": "2026-03-29T12:36:04.220Z"
   }
 }

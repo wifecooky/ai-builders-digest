@@ -184,11 +184,42 @@ async function main() {
   }
   console.log(`  ${blogUpdates.length} blog updates generated`);
 
+  // 4. Merge into unified feed sorted by engagement
+  const allItems = [
+    ...builderInsights,
+    ...podcastHighlights,
+    ...blogUpdates,
+  ].sort((a, b) => {
+    const scoreA = (a.tweets?.[0]?.likes || 0) + (a.tweets?.[0]?.retweets || 0) * 3;
+    const scoreB = (b.tweets?.[0]?.likes || 0) + (b.tweets?.[0]?.retweets || 0) * 3;
+    return scoreB - scoreA;
+  });
+
+  // 5. Generate daily summary
+  console.log('Generating daily summary...');
+  let dailySummary = '';
+  try {
+    ensureClient();
+    const headlines = allItems.map(a => `- ${a.authorName || a.source}: ${a.suggestedTitle}`).join('\n');
+    const summaryResp = await openai.chat.completions.create({
+      model,
+      messages: [
+        { role: 'system', content: 'Write a 2-3 sentence overview of today\'s AI builder activity. Be conversational and specific — name names, mention key themes. No intro like "Today in AI...". Just jump straight in. Under 280 chars.' },
+        { role: 'user', content: headlines },
+      ],
+      temperature: 0.5,
+      max_tokens: 200,
+    });
+    dailySummary = summaryResp.choices[0].message.content.trim();
+    console.log(`  Summary: ${dailySummary}`);
+  } catch (err) {
+    console.error(`  Summary generation failed: ${err.message}`);
+  }
+
   const output = {
     date,
-    builderInsights,
-    podcastHighlights,
-    blogUpdates,
+    summary: dailySummary,
+    items: allItems,
     metadata: {
       totalBuilders: raw.stats.builderCount,
       totalTweets: raw.stats.tweetCount,

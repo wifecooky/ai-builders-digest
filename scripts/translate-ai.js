@@ -99,20 +99,33 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const data = JSON.parse(await fs.readFile(inputPath, 'utf-8'));
   const today = data.date || new Date().toISOString().split('T')[0];
 
-  const allItems = [
-    ...(data.builderInsights || []),
-    ...(data.podcastHighlights || []),
-    ...(data.blogUpdates || []),
-  ];
-  const totalCount = allItems.length;
+  const items = data.items || [];
+  const totalCount = items.length;
+
+  // Translate summary
+  async function translateSummary(summary, lang) {
+    if (!summary) return '';
+    const langName = lang === 'zh' ? 'Chinese (Simplified)' : 'Japanese';
+    try {
+      const openai = createOpenAIClient();
+      const resp = await openai.chat.completions.create({
+        model: process.env.OPENAI_MODEL || 'gpt-4o',
+        messages: [{ role: 'user', content: `Translate to ${langName}. Keep technical terms and proper nouns in English. Sound natural.\n\n${summary}` }],
+        temperature: 0.3,
+        max_tokens: 300,
+      });
+      return resp.choices[0].message.content.trim();
+    } catch {
+      return summary;
+    }
+  }
 
   // English version (no translation needed)
   const enContent = {
     date: today,
     lang: 'en',
-    builderInsights: data.builderInsights || [],
-    podcastHighlights: data.podcastHighlights || [],
-    blogUpdates: data.blogUpdates || [],
+    summary: data.summary || '',
+    items,
     metadata: {
       ...data.metadata,
       estimatedReadTime: `${Math.max(3, Math.ceil(totalCount * 0.5))} min`,
@@ -126,16 +139,14 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   // Chinese
   console.log('\nTranslating to Chinese...');
-  const zhBuilders = await translateBatch(data.builderInsights || [], 'zh');
-  const zhPodcasts = await translateBatch(data.podcastHighlights || [], 'zh');
-  const zhBlogs = await translateBatch(data.blogUpdates || [], 'zh');
+  const zhSummary = await translateSummary(data.summary, 'zh');
+  const zhItems = await translateBatch(items, 'zh');
 
   const zhContent = {
     date: today,
     lang: 'zh',
-    builderInsights: zhBuilders,
-    podcastHighlights: zhPodcasts,
-    blogUpdates: zhBlogs,
+    summary: zhSummary,
+    items: zhItems,
     metadata: { ...data.metadata, estimatedReadTime: `${Math.max(3, Math.ceil(totalCount * 0.5))} 分钟`, generatedAt: new Date().toISOString() },
   };
 
@@ -145,16 +156,14 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   // Japanese
   console.log('\nTranslating to Japanese...');
-  const jaBuilders = await translateBatch(data.builderInsights || [], 'ja');
-  const jaPodcasts = await translateBatch(data.podcastHighlights || [], 'ja');
-  const jaBlogs = await translateBatch(data.blogUpdates || [], 'ja');
+  const jaSummary = await translateSummary(data.summary, 'ja');
+  const jaItems = await translateBatch(items, 'ja');
 
   const jaContent = {
     date: today,
     lang: 'ja',
-    builderInsights: jaBuilders,
-    podcastHighlights: jaPodcasts,
-    blogUpdates: jaBlogs,
+    summary: jaSummary,
+    items: jaItems,
     metadata: { ...data.metadata, estimatedReadTime: `${Math.max(3, Math.ceil(totalCount * 0.5))} 分`, generatedAt: new Date().toISOString() },
   };
 
