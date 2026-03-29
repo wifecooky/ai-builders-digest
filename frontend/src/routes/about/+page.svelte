@@ -56,8 +56,8 @@
 <svelte:head>
   <title>{aboutPageTitle}</title>
   <meta name="description" content={about.overview[currentLang]} />
-  <link rel="canonical" href="{SITE_URL}/about" />
-  <meta property="og:url" content="{SITE_URL}/about" />
+  <link rel="canonical" href={`${SITE_URL}/about`} />
+  <meta property="og:url" content={`${SITE_URL}/about`} />
   <meta property="og:title" content={aboutPageTitle} />
   <meta property="og:description" content={about.overview[currentLang]} />
   <meta name="twitter:title" content={aboutPageTitle} />
@@ -65,6 +65,11 @@
 </svelte:head>
 
 <main class="max-w-3xl mx-auto px-6 sm:px-8 pt-14 sm:pt-20 pb-10">
+
+  <!-- Back to top -->
+  <a href="/" class="inline-block text-[10px] font-display tracking-[0.2em] text-cyber-cyan/60 hover:text-cyber-cyan transition-colors duration-200 no-underline uppercase mb-6 animate-in">
+    ← {{ en: 'BACK', zh: '返回', ja: '戻る' }[currentLang]}
+  </a>
 
   <!-- Hero -->
   <div class="relative mb-14 sm:mb-20 animate-in">
@@ -146,7 +151,7 @@
   <!-- Audience -->
   <section class="mb-14 sm:mb-20 animate-in" style="animation-delay: 800ms">
     <div class="rounded-sm px-5 sm:px-6 py-4 sm:py-5 border border-cyber-border/40 bg-cyber-surface/20">
-      <p class="text-[11px] sm:text-[12px] text-cyber-text/60 leading-[1.8]">
+      <p class="text-[11px] sm:text-[12px] text-cyber-text/80 leading-[1.8]">
         {about.policyAudience[currentLang]}
       </p>
     </div>
@@ -155,10 +160,10 @@
   <!-- Disclaimer -->
   <section class="animate-in" style="animation-delay: 900ms">
     <div class="rounded-sm px-5 sm:px-6 py-4 sm:py-5 border border-cyber-border/40 bg-cyber-surface/20">
-      <p class="text-[10px] font-display tracking-[0.15em] text-cyber-text-muted/50 uppercase mb-2">
+      <p class="text-[10px] font-display tracking-[0.15em] text-cyber-text-muted/70 uppercase mb-2">
         {disclaimerTitle[currentLang]}
       </p>
-      <p class="text-[11px] sm:text-[12px] text-cyber-text-muted/70 leading-[1.8]">
+      <p class="text-[11px] sm:text-[12px] text-cyber-text-muted/90 leading-[1.8]">
         {about.disclaimer[currentLang]}
       </p>
     </div>
@@ -170,7 +175,7 @@
       <p class="text-[10px] font-display font-bold tracking-[0.3em] text-cyber-cyan glow-cyan uppercase mb-2">
         {labels.stayUpdated[currentLang]}
       </p>
-      <p class="text-[11px] sm:text-[12px] text-cyber-text-muted/70 leading-relaxed mb-5">
+      <p class="text-[11px] sm:text-[12px] text-cyber-text-muted leading-relaxed mb-5">
         {labels.stayUpdatedDesc[currentLang]}
       </p>
       <SubscribeForm lang={currentLang} />
@@ -180,8 +185,8 @@
   <!-- Back -->
   <footer class="pt-10 pb-4 text-center">
     <div class="gradient-line mb-6"></div>
-    <a href="/" class="inline-block text-[10px] font-display tracking-[0.2em] text-cyber-text-muted/60 hover:text-cyber-cyan transition-colors duration-200 no-underline uppercase py-2 px-4">
-      ← BACK
+    <a href="/" class="inline-block text-[10px] font-display tracking-[0.2em] text-cyber-text-muted/80 hover:text-cyber-cyan transition-colors duration-200 no-underline uppercase py-2 px-4">
+      ← {{ en: 'BACK', zh: '返回', ja: '戻る' }[currentLang]}
     </a>
   </footer>
 

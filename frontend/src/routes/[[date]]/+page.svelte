@@ -127,7 +127,7 @@
             {labels.builderInsights[currentLang]}
           </span>
           <div class="flex-1 h-px bg-cyber-border"></div>
-          <span class="text-[10px] font-mono text-cyber-magenta/25 tabular-nums">{content.builderInsights.length}</span>
+          <span class="text-[10px] font-mono text-cyber-magenta/40 tabular-nums">{content.builderInsights.length}</span>
         </div>
 
         <div class="space-y-6">
@@ -136,6 +136,7 @@
               {article}
               index={i}
               delay={i * 120}
+              highlight={i < 3}
               onShareX={shareToX}
               onCopy={copyLink}
               {copiedId}
@@ -155,7 +156,7 @@
             {labels.blogUpdates[currentLang]}
           </span>
           <div class="flex-1 h-px bg-cyber-border"></div>
-          <span class="text-[10px] font-mono text-cyber-green/25 tabular-nums">{content.blogUpdates.length}</span>
+          <span class="text-[10px] font-mono text-cyber-green/40 tabular-nums">{content.blogUpdates.length}</span>
         </div>
 
         <div class="space-y-4">
@@ -176,7 +177,7 @@
             {labels.podcastHighlights[currentLang]}
           </span>
           <div class="flex-1 h-px bg-cyber-border"></div>
-          <span class="text-[10px] font-mono text-cyber-amber/25 tabular-nums">{content.podcastHighlights.length}</span>
+          <span class="text-[10px] font-mono text-cyber-amber/40 tabular-nums">{content.podcastHighlights.length}</span>
         </div>
 
         <div class="space-y-4">
@@ -193,7 +194,7 @@
         <p class="text-[10px] font-display font-bold tracking-[0.3em] text-cyber-cyan glow-cyan uppercase mb-2">
           {labels.stayUpdated[currentLang]}
         </p>
-        <p class="text-[11px] text-cyber-text-muted/70 leading-relaxed mb-4">
+        <p class="text-[11px] text-cyber-text-muted leading-relaxed mb-4">
           {labels.stayUpdatedDesc[currentLang]}
         </p>
         <SubscribeForm lang={currentLang} />
@@ -211,17 +212,22 @@
           <div class="flex-1 h-px bg-cyber-border"></div>
         </div>
 
-        <div class="flex flex-wrap gap-2">
+        <div class="space-y-3">
           {#each archiveDates as d}
-            {@const isCurrent = d === data.date}
+            {@const preview = data.archivePreviews?.[d]}
             <a
               href="/{d}"
-              class="text-[11px] font-mono tabular-nums px-3 py-1.5 rounded-sm border transition-all duration-200 no-underline
-                {isCurrent
-                  ? 'border-cyber-amber/40 bg-cyber-amber/10 text-cyber-amber'
-                  : 'border-cyber-border/50 text-cyber-text-muted hover:border-cyber-amber/30 hover:text-cyber-amber/80 hover:bg-cyber-amber/5'}"
+              class="block px-4 py-3 rounded-sm border transition-all duration-200 no-underline border-cyber-border/50 hover:border-cyber-amber/30 hover:bg-cyber-amber/5"
             >
-              {d}
+              <div class="flex items-center gap-3">
+                <span class="text-[11px] font-mono tabular-nums text-cyber-text-muted">{d}</span>
+                {#if preview?.count}
+                  <span class="text-[10px] text-cyber-amber/60 font-mono">{preview.count} {{ en: 'items', zh: '条', ja: '件' }[currentLang]}</span>
+                {/if}
+              </div>
+              {#if preview?.summary?.[currentLang]}
+                <p class="text-[11px] text-cyber-text-muted/80 mt-1.5 leading-relaxed line-clamp-2">{preview.summary[currentLang]}</p>
+              {/if}
             </a>
           {/each}
         </div>
@@ -234,12 +240,12 @@
       <p class="text-[10px] text-cyber-text-muted tracking-widest font-display tabular-nums">
         {content.metadata?.generatedAt ? new Date(content.metadata.generatedAt).toLocaleString() : ''}
       </p>
-      <p class="text-[10px] text-cyber-text-muted/50 tracking-wider font-display mt-2 flex items-center justify-center gap-3">
+      <p class="text-[10px] text-cyber-text-muted/70 tracking-wider font-display mt-2 flex items-center justify-center gap-3">
         <a href="/about" class="hover:text-cyber-cyan transition-colors duration-200 no-underline">ABOUT</a>
         <span class="text-cyber-border">·</span>
         <a href={({en: '/rss.xml', zh: '/rss-zh.xml', ja: '/rss-ja.xml'})[currentLang]} class="hover:text-cyber-amber transition-colors duration-200 no-underline" target="_blank" rel="noopener noreferrer">RSS</a>
         <span class="text-cyber-border">·</span>
-        <a href="https://github.com/zarazhangrui/follow-builders" class="hover:text-cyber-green transition-colors duration-200 no-underline" target="_blank" rel="noopener noreferrer">GITHUB</a>
+        <a href={`https://docs.google.com/forms/d/e/1FAIpQLSeQg6mNFUf7Mpzes-jTT5iTsJ1grPzgKBtkMtYNWKzEcdXnuw/viewform?usp=pp_url&entry.1797362154=${encodeURIComponent(siteTitle[currentLang] + ' — ' + SITE_URL + '/' + (content?.date || ''))}`} class="hover:text-cyber-green transition-colors duration-200 no-underline" target="_blank" rel="noopener noreferrer">FEEDBACK</a>
       </p>
     </footer>
 

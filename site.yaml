@@ -2,11 +2,11 @@
 # ── Identity ──
 site:
   id: builders
-  url: https://builders.thewang.net
+  url: https://builders.ai.thewang.net
   title:
     en: 'AI Builders Brief'
     zh: 'AI 实干派'
-    ja: 'AI Builders Brief'
+    ja: 'AIつくる人の日報'
   subtitle:
     en: 'Follow builders, not influencers.'
     zh: '只追实干者，不追网红'
@@ -40,7 +40,7 @@ theme:
       border: '#1e2f4a'
       borderGlow: '#6366f133'
       text: '#c8d6e5'
-      textMuted: '#4a6080'
+      textMuted: '#6b85a5'
       accent: '#818cf8'
       secondary: '#f472b6'
       green: '#34d399'

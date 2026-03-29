@@ -1,7 +1,7 @@
 {
   "date": "2026-03-29",
   "lang": "zh",
-  "summary": "Andrej Karpathy 强调了 LLMs 可以为任何一方辩护，建议我们将其作为一个功能来使用。Guillermo Rauch 终于实现了他梦想中的文本布局，将他的愿景变为现实。同时，Amjad Masad 声称 AI 正在使应用程序构建民主化，并提升顶尖工程师的水平。",
+  "summary": "Andrej Karpathy指出，LLMs可以为任何立场辩护，建议我们把它当作一个功能来用。Guillermo Rauch终于实现了他的理想文本布局，把他的愿景变成了现实。同时，Amjad Masad表示，AI正在让应用构建变得大众化，同时提升顶尖工程师的水平。",
   "builderInsights": [
     {
       "id": "karpathy-2026-03-29",
@@ -10,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "LLMs 可以辩论任何立场 — 把它当作一个功能",
-      "suggestedSummary": "在撰写博客文章时，他用一个 LLM 来完善自己的论点，结果却发现它能令人信服地辩论相反的观点。LLMs 可以辩论任何立场，使它们成为形成自己观点的强大工具，只是要小心它们的迎合倾向。",
+      "suggestedTitle": "LLM能为任何立场辩护——把它当作一个特性来用",
+      "suggestedSummary": "在撰写博客文章时，他用LLM来完善自己的论点，结果它却能令人信服地为相反立场辩护。LLM能为任何立场辩护，使其成为形成自己观点的强大工具，只是要小心它们的迎合倾向。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2037921699824607591",
@@ -30,8 +30,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Tan表示安全摄像头不是奢侈信念",
-      "suggestedSummary": "在Richmond禁用安全摄像头导致汽车盗窃案激增33%，移民店主要求恢复使用。Garry Tan认为反对这些摄像头是一种“奢侈信念”。作为Y Combinator的CEO，他更注重实际解决方案而非理想主义立场。",
+      "suggestedTitle": "Tan说安全摄像头不是奢侈信念",
+      "suggestedSummary": "在Richmond禁用安全摄像头后，汽车盗窃案激增33%，移民店主要求恢复摄像头。Garry Tan认为反对这些摄像头是一种“奢侈信念”。作为Y Combinator的CEO，他更关注实用解决方案，而非理想主义立场。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2038054087451885747",
@@ -62,8 +62,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "MCPorter 0.8.0 提升 OAuth 和 CLI 可靠性",
-      "suggestedSummary": "MCPorter 0.8.0 刚刚发布，增强了服务器的 OAuth 功能并改进了 CLI 行为。Peter Steinberger 强调了更好的错误处理和 JSON 输出，以及对 keep-alive 进程的可靠性调整。深入了解细节，看看它如何简化你的工作流程。",
+      "suggestedTitle": "MCPorter 0.8.0 增强 OAuth 和 CLI 稳定性",
+      "suggestedSummary": "MCPorter 0.8.0 刚刚发布，服务器的 OAuth 更强大，CLI 行为更稳定。Peter Steinberger 强调了更好的错误处理和 JSON 输出，以及对 keep-alive 进程的可靠性调整。深入了解细节，看看它如何简化你的工作流程。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2038074759527981416",
@@ -88,8 +88,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "梦想中的文本布局终于上线 — Rauch的愿景实现",
-      "suggestedSummary": "Vercel的CEO Guillermo Rauch终于上线了他一直梦想的文本布局。经过多年的期待，他实现了一个个人里程碑，将他对设计的热情与Vercel的尖端能力结合在一起。查看他的推文，了解这一期待已久的功能。",
+      "suggestedTitle": "梦想中的文本布局终于上线 — Rauch的愿景实现了",
+      "suggestedSummary": "Vercel CEO Guillermo Rauch终于上线了他一直梦想的文本布局。经过多年的期待，他实现了个人里程碑，将他对设计的热情与Vercel的尖端能力结合在一起。查看他的推文，了解这个期待已久的功能。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2037993361450336714",
@@ -120,8 +120,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI民主化应用构建，提升顶尖工程师",
-      "suggestedSummary": "AI让每个人都能构建应用，解放顶尖工程师去做更深入的平台工作——这就是Replit CEO Masad四年前提出的“1000倍工程师”理论，现在正在实现。他的愿景是推动可能性的边界，因为AI接管了常规任务。",
+      "suggestedTitle": "AI普及应用构建，提升顶尖工程师",
+      "suggestedSummary": "AI让每个人都能构建应用，解放顶尖工程师去做更深入的平台工作——这正是Replit CEO Masad四年前提出的'1000倍工程师'理论，如今正在实现。他的愿景是推动可能性的边界，因为AI接管了常规任务。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2038053670907007165",
@@ -146,8 +146,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "错误的等同正在扼杀你的策略",
-      "suggestedSummary": "Swyx（与Temporal等公司有合作）警告说，错误的等同是一种陷阱，会让你的策略失败。他认为，把所有任务或目标视为同等重要会削弱专注力和效率。相反，应该押注于几个关键点，避免对冲，并制定计划在判断正确时加倍下注。这一见解来自于他自己的创业经验和对更广泛系统性问题的观察。",
+      "suggestedTitle": "混为一谈会拖垮你的策略",
+      "suggestedSummary": "Swyx 警告说，混为一谈是一个陷阱，会让你的策略失效。他与 Temporal 等公司有合作关系。他认为，把所有任务或目标视为同等重要会削弱专注力和效果。相反，应该全力押注几个关键点，避免分散注意力，并准备好在判断正确时加倍投入。这些见解来自他自己的创业经验以及对更广泛系统性问题的观察。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2038096302781657462",
@@ -172,8 +172,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Agent产品应该让创造者感到惊喜",
-      "suggestedSummary": "Zara Zhang认为，Agent产品应该做出意想不到的事情。与传统互联网产品坚持设计功能不同，一个好的Agent产品通过超出最初的预期来带来惊喜和愉悦。",
+      "suggestedTitle": "Agent产品应该让创造者惊喜",
+      "suggestedSummary": "Zara Zhang认为，Agent产品应该带来意料之外的惊喜。与传统互联网产品严格遵循设计功能不同，一个好的Agent产品通过超出最初预期来让人惊喜和愉悦。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2038144755478237654",
@@ -199,7 +199,7 @@
     "totalTweets": 27,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-29T13:24:00.045Z",
+    "generatedAt": "2026-03-29T14:06:19.659Z",
     "estimatedReadTime": "4 分钟"
   }
 }

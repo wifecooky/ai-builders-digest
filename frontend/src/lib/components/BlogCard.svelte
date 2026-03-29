@@ -1,8 +1,14 @@
 <script>
+  import { getContext } from 'svelte';
+
   let { article, delay = 0 } = $props();
+  const app = getContext('app');
+  let currentLang = $derived(app.currentLang);
 
   let displayTitle = $derived(article.suggestedTitle || article.title);
   let displaySummary = $derived(article.suggestedSummary || '');
+
+  const readLabel = { en: 'Read original', zh: '阅读原文', ja: '原文を読む' };
 </script>
 
 <article
@@ -10,7 +16,7 @@
   style="animation-delay: {delay}ms"
 >
   <div class="mb-2">
-    <span class="text-[10px] text-cyber-green/50 tracking-wider uppercase font-display">{article.source}</span>
+    <span class="text-[10px] text-cyber-green/70 tracking-wider uppercase font-display">{article.source}</span>
     {#if article.author}
       <span class="text-[10px] text-cyber-text-muted ml-2">by {article.author}</span>
     {/if}
@@ -40,7 +46,7 @@
         rel="noopener noreferrer"
         class="text-[10px] px-2 py-0.5 rounded-sm bg-cyber-green/8 text-cyber-green/70 border border-cyber-green/15 hover:border-cyber-green/30 transition-colors duration-200 no-underline"
       >
-        Read original
+        {readLabel[currentLang]}
       </a>
     </div>
   {/if}

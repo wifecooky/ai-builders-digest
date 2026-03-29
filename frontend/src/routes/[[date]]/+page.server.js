@@ -45,10 +45,26 @@ export function load({ params }) {
     error(404, 'Not found');
   }
 
+  const archivePreviews = {};
+  for (const d of dates) {
+    if (d === date) continue;
+    const en = loadContent('en', d);
+    if (!en) continue;
+    archivePreviews[d] = {
+      count: (en.builderInsights?.length || 0) + (en.podcastHighlights?.length || 0) + (en.blogUpdates?.length || 0),
+      summary: {
+        en: en.summary || '',
+        zh: loadContent('zh', d)?.summary || '',
+        ja: loadContent('ja', d)?.summary || '',
+      },
+    };
+  }
+
   return {
     date,
     latest,
     dates,
+    archivePreviews,
     content: {
       en: loadContent('en', date),
       zh: loadContent('zh', date),

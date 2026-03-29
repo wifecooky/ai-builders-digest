@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "description": "Curated AI-domain terms for context linking and trend detection. Case-insensitive whole-word matching.",
+  "companies": [
+    "OpenAI", "Anthropic", "Google", "DeepMind", "Meta", "Microsoft",
+    "NVIDIA", "AMD", "Apple", "Amazon", "Mistral", "Cohere", "Stability AI",
+    "Hugging Face", "xAI", "Perplexity", "Midjourney", "Runway"
+  ],
+  "models": [
+    "GPT-4", "GPT-4o", "GPT-5", "Claude", "Gemini", "Gemma", "Llama",
+    "Mixtral", "DALL-E", "Sora", "Whisper", "Codex", "Phi",
+    "Command R", "Grok", "Flux", "Stable Diffusion"
+  ],
+  "technical_terms": [
+    "LLM", "transformer", "diffusion", "RAG", "fine-tuning", "RLHF",
+    "DPO", "multimodal", "chain-of-thought", "reasoning", "inference",
+    "quantization", "distillation", "MoE", "context window", "tokenizer",
+    "embedding", "vector database", "prompt engineering", "agentic",
+    "function calling", "tool use", "MCP", "benchmark", "MMLU",
+    "open source", "open weight", "safety", "alignment", "guardrails",
+    "synthetic data", "pretraining", "post-training", "CUDA", "TPU",
+    "vision", "speech", "text-to-image", "text-to-video", "code generation",
+    "retrieval", "grounding", "hallucination", "evaluation"
+  ]
+}

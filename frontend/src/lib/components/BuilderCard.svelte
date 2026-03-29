@@ -1,5 +1,5 @@
 <script>
-  let { article, index = 0, delay = 0, onShareX, onCopy, copiedId } = $props();
+  let { article, index = 0, delay = 0, onShareX, onCopy, copiedId, highlight = false } = $props();
 
   let displayTitle = $derived(article.suggestedTitle || article.title);
   let displaySummary = $derived(article.suggestedSummary || '');
@@ -24,7 +24,8 @@
 </script>
 
 <article
-  class="group relative border border-cyber-border rounded-sm p-5 sm:p-6 transition-all duration-300 hover:border-cyber-cyan/40 hover:border-glow bg-cyber-surface/60 animate-in"
+  class="group relative border rounded-sm p-5 sm:p-6 transition-all duration-300 hover:border-cyber-cyan/40 hover:border-glow animate-in
+    {highlight ? 'border-cyber-accent/25 bg-cyber-accent/[0.03]' : 'border-cyber-border bg-cyber-surface/60'}"
   style="animation-delay: {delay}ms"
 >
   <span class="absolute top-0 left-0 w-3 h-3 border-t border-l border-cyber-cyan/50"></span>
@@ -38,7 +39,15 @@
     </span>
     <div class="flex-1 min-w-0">
       <!-- Author -->
-      <div class="flex items-center gap-2 mb-2">
+      <div class="flex items-center gap-2.5 mb-2">
+        <img
+          src={`https://unavatar.io/x/${article.authorHandle}`}
+          alt={article.authorName}
+          width="24"
+          height="24"
+          loading="lazy"
+          class="w-6 h-6 rounded-full ring-1 ring-cyber-border shrink-0"
+        />
         <span class="text-[11px] font-bold text-cyber-heading">{article.authorName}</span>
         {#if authorLabel}
           <span class="text-[10px] text-cyber-text-muted">{authorLabel}</span>

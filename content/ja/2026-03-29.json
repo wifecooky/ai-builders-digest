@@ -1,7 +1,7 @@
 {
   "date": "2026-03-29",
   "lang": "ja",
-  "summary": "Andrej Karpathyは、LLMがどちらの立場でも議論できることを強調した。それを機能として活用しようと提案している。Guillermo Rauchはついに夢のテキストレイアウトを完成させた。彼のビジョンが現実になった。一方で、Amjad MasadはAIがアプリ開発を民主化し、トップエンジニアを引き上げていると主張している。",
+  "summary": "Andrej Karpathyは、LLMがどんな立場でも議論できることを強調した。それを機能として活用しようと提案している。Guillermo Rauchはついに彼の夢のテキストレイアウトを完成させた。彼のビジョンが実現した瞬間だ。一方、Amjad MasadはAIがアプリ開発を民主化し、優秀なエンジニアをさらに引き上げていると主張した。",
   "builderInsights": [
     {
       "id": "karpathy-2026-03-29",
@@ -10,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "LLMはどちらの側も議論できる—それを機能として活用せよ",
-      "suggestedSummary": "ブログ記事を執筆する際、彼はLLMを使って自分の主張を洗練させようとしたが、逆の立場を説得力を持って議論されてしまった。LLMはどちらの側も議論できるため、自分の意見を形成する強力なツールとなる。ただし、その迎合的な傾向には注意が必要だ。",
+      "suggestedTitle": "LLMはどちらの立場でも議論できる — それを機能として活用せよ",
+      "suggestedSummary": "ブログ投稿を作成中、彼はLLMを使って自分の主張を洗練させようとしたが、逆の立場を説得力を持って論じられた。LLMはどちらの立場でも議論できるため、自分の意見を形成する強力なツールとなる。ただし、彼らの追従的な傾向には注意が必要だ。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2037921699824607591",
@@ -31,7 +31,7 @@
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
       "suggestedTitle": "Tan: 安全カメラは贅沢な理想論ではない",
-      "suggestedSummary": "リッチモンドで安全カメラを無効にした結果、車の盗難が33%増加。移民の店主たちはカメラの復活を要求している。Garry Tanは、これらのカメラに反対することは『贅沢な理想論』だと主張。Y CombinatorのCEOとして、彼は理想論よりも実用的な解決策を重視している。",
+      "suggestedSummary": "リッチモンドで安全カメラを無効にした結果、車の盗難が33%増加。移民の店主たちはカメラの復活を要求している。Garry Tanは、これらのカメラに反対することは「贅沢な理想論」だと主張。Y CombinatorのCEOとして、彼は理想論よりも実用的な解決策を重視している。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2038054087451885747",
@@ -62,8 +62,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "ピーター・スタインバーガー",
-      "suggestedTitle": "MCPorter 0.8.0、OAuthとCLIの信頼性を強化",
-      "suggestedSummary": "MCPorter 0.8.0がリリースされた。サーバー向けのOAuthが強化され、CLIの動作が改善された。ピーター・スタインバーガーは、エラーハンドリングとJSON出力の向上、キープアライブプロセスの信頼性向上を強調している。詳細を確認し、ワークフローの効率化にどう役立つかを見てみよう。",
+      "suggestedTitle": "MCPorter 0.8.0がOAuthとCLIの信頼性を強化",
+      "suggestedSummary": "MCPorter 0.8.0がリリースされ、サーバー向けのOAuthが強化され、CLIの動作が改善された。ピーター・スタインバーガーは、エラーハンドリングの向上やJSON出力、keep-aliveプロセスの信頼性向上について強調している。詳細を確認し、ワークフローの効率化にどう役立つかを見てみよう。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2038074759527981416",
@@ -88,8 +88,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "ギレルモ・ラウチ",
-      "suggestedTitle": "夢のテキストレイアウトがついに実現 — ラウチのビジョンが形に",
-      "suggestedSummary": "VercelのCEO、Guillermo Rauchが長年夢見ていたテキストレイアウトをついにリリース。長い間待ち望んでいたこの機能を実現し、デザインへの情熱とVercelの最先端技術を融合させた。彼のツイートでこの待望の機能をチェックしよう。",
+      "suggestedTitle": "夢のテキストレイアウトがついに登場 — ラウチのビジョンが実現",
+      "suggestedSummary": "VercelのCEO、Guillermo Rauchは、長年夢見ていたテキストレイアウトをついにリリースできたことに大興奮している。何年もの期待を経て、彼はデザインへの情熱とVercelの最先端技術を融合させ、個人的なマイルストーンを達成した。この長らく待ち望まれた機能を垣間見るために、彼のツイートをチェックしよう。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2037993361450336714",
@@ -121,7 +121,7 @@
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
       "suggestedTitle": "AIがアプリ開発を民主化し、トップエンジニアを引き上げる",
-      "suggestedSummary": "AIは誰でもアプリを作れるようにし、トップエンジニアをより深いプラットフォーム作業に専念させる。これはReplitのCEO、Masadが4年前に提唱した「1000倍エンジニア」論であり、今まさに実現されつつある。彼のビジョンは、AIがルーチンタスクを引き受けることで可能性の限界を押し広げることにある。",
+      "suggestedSummary": "AIは誰でもアプリを作れるようにし、トップエンジニアをより深いプラットフォーム作業に専念させる。これはReplitのCEO、Masadが4年前に提唱した「1000倍エンジニア」論で、今まさに実現されつつある。彼のビジョンは、AIが日常業務を引き受ける中で、可能性の限界を押し広げることにある。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2038053670907007165",
@@ -145,9 +145,9 @@
       "authorName": "Swyx",
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-      "title": "Swyx",
-      "suggestedTitle": "False equivalenceが戦略を破壊する",
-      "suggestedSummary": "False equivalenceは戦略を沈める罠だと、Temporalなどに関わるSwyxが警告している。彼は、すべてのタスクや目標を同等に重要と見なすことは、集中力と効果を薄めると主張する。代わりに、いくつかの重要なことに賭け、ヘッジを避け、正しければ全力で攻める計画を持つべきだという。この洞察は、彼自身のスタートアップ経験と、より広範なシステム的問題の観察から来ている。",
+      "title": "スウィックス",
+      "suggestedTitle": "false equivalenceが戦略を殺す",
+      "suggestedSummary": "false equivalenceは戦略を沈める罠だと、Temporalなどに関わるSwyxが警告する。すべてのタスクや目標を同等に重要視すると、集中力と効果が薄れると彼は主張する。むしろ、いくつかの重要なことに賭け、ヘッジを避け、正しければ全力で攻める計画を持つべきだ。この洞察は、彼自身のスタートアップ経験と、より広範なシステム問題の観察から来ている。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2038096302781657462",
@@ -172,8 +172,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "ザラ・チャン",
-      "suggestedTitle": "エージェント製品は創造者を驚かせるべきだ",
-      "suggestedSummary": "エージェント製品は予想外のことをすべきだとザラ・チャンは主張する。設計された機能に固執する従来のインターネット製品とは異なり、優れたエージェント製品は初期の期待を超えて驚きと喜びを提供する。",
+      "suggestedTitle": "エージェントプロダクトは創造者を驚かせるべきだ",
+      "suggestedSummary": "ザラ・チャンは、エージェントプロダクトは予想外のことをすべきだと主張する。従来のインターネット製品が設計された機能に固執するのに対し、優れたエージェントプロダクトは初期の期待を超えて驚きと喜びを与える。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2038144755478237654",
@@ -199,7 +199,7 @@
     "totalTweets": 27,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-29T13:24:05.956Z",
+    "generatedAt": "2026-03-29T14:06:26.974Z",
     "estimatedReadTime": "4 分"
   }
 }

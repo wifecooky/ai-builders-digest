@@ -39,8 +39,12 @@ Japanese style rules:
 - Person names stay in English (Andrej Karpathy, not アンドレイ・カルパシー).`
     : `
 Chinese style rules:
-- Use concise, conversational tone. Not formal news-speak.
-- Keep technical terms in English where natural in Chinese tech writing.`;
+- Use concise, conversational tone — like a senior engineer writing for peers, not news anchor speak.
+- Never translate literally. Rephrase idioms and metaphors to their natural Chinese equivalent: "false equivalence"→"虚假对等"或"混为一谈", "double down"→"全力押注"或"加倍投入", "killing your strategy"→"拖垮你的策略"或"让你的策略失效".
+- Prefer short, punchy sentences. Break long compound sentences into 2-3 shorter ones.
+- Keep technical terms in English where natural in Chinese tech writing (LLM, API, agent, token, fine-tune, RAG, etc.).
+- Avoid stiff/formal patterns: 不要用"正在被…所…", 不要用"其"代替"它的", 不要用"进行…操作".
+- Person names stay in English (Andrej Karpathy, not 安德烈·卡帕西).`;
 
   const prompt = `Translate this AI digest content to ${langName}. Keep technical terms in English (AI, LLM, GPU, API, agent, token, prompt, etc.). Keep proper nouns (names, companies, products) in English. Keep all URLs unchanged. The translation must sound native — not like a translation.
 ${styleGuide}
@@ -130,10 +134,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const langName = lang === 'zh' ? 'Chinese (Simplified)' : 'Japanese';
     try {
       const openai = createOpenAIClient();
-      const jaGuide = lang === 'ja' ? ' Use 常体 (だ/である調) consistently — no です/ます. Short punchy sentences. Keep person names in English. Avoid machine-translation patterns like「〜している」endings.' : '';
+      const langGuide = lang === 'ja'
+        ? ' Use 常体 (だ/である調) consistently — no です/ます. Short punchy sentences. Keep person names in English. Avoid machine-translation patterns like「〜している」endings.'
+        : ' Use conversational Chinese like a senior engineer, not news-speak. Never translate idioms literally — rephrase naturally. Short punchy sentences. Keep person names in English.';
       const resp = await openai.chat.completions.create({
         model: process.env.OPENAI_MODEL || 'gpt-4o',
-        messages: [{ role: 'user', content: `Translate to ${langName}. Keep technical terms and proper nouns in English. Must sound native, not translated.${jaGuide}\n\n${summary}` }],
+        messages: [{ role: 'user', content: `Translate to ${langName}. Keep technical terms and proper nouns in English. Must sound native, not translated.${langGuide}\n\n${summary}` }],
         temperature: 0.3,
         max_tokens: 300,
       });

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0e17"/>
+  <rect x="40" y="40" width="1120" height="550" rx="8" fill="none" stroke="#1e2f4a" stroke-width="1"/>
+  <!-- Corner brackets -->
+  <path d="M60 80 L60 60 L80 60" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
+  <path d="M1120 80 L1120 60 L1100 60" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
+  <path d="M60 550 L60 570 L80 570" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
+  <path d="M1120 550 L1120 570 L1100 570" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
+  <!-- Glow circle -->
+  <circle cx="600" cy="240" r="40" fill="none" stroke="#818cf8" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="600" cy="240" r="14" fill="#818cf8" opacity="0.8"/>
+  <!-- Title -->
+  <text x="600" y="340" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="48" font-weight="bold" letter-spacing="8">AI BUILDERS BRIEF</text>
+  <!-- Subtitle -->
+  <text x="600" y="390" text-anchor="middle" fill="#4a6080" font-family="monospace" font-size="20" letter-spacing="4">FOLLOW BUILDERS, NOT INFLUENCERS</text>
+  <!-- Bottom line -->
+  <line x1="200" y1="460" x2="1000" y2="460" stroke="url(#grad)" stroke-width="1"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Stats -->
+  <text x="600" y="510" text-anchor="middle" fill="#4a6080" font-family="monospace" font-size="14" letter-spacing="6">25+ BUILDERS · PODCASTS · BLOGS · DAILY</text>
+</svg>

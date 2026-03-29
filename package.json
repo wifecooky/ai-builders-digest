@@ -10,6 +10,7 @@
     "translate": "node scripts/translate-ai.js",
     "generate-daily": "npm run collect && npm run remix && npm run translate",
     "newsletter": "node scripts/send-newsletter.js",
+    "generate-weekly": "node scripts/generate-weekly.js",
     "clean": "rm -f content/raw-feeds.json content/remixed-articles.json"
   },
   "dependencies": {
