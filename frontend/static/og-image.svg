@@ -1,27 +1,135 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0a0e17"/>
-  <rect x="40" y="40" width="1120" height="550" rx="8" fill="none" stroke="#1e2f4a" stroke-width="1"/>
-  <!-- Corner brackets -->
-  <path d="M60 80 L60 60 L80 60" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
-  <path d="M1120 80 L1120 60 L1100 60" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
-  <path d="M60 550 L60 570 L80 570" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
-  <path d="M1120 550 L1120 570 L1100 570" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.5"/>
-  <!-- Glow circle -->
-  <circle cx="600" cy="240" r="40" fill="none" stroke="#818cf8" stroke-width="2.5" opacity="0.6"/>
-  <circle cx="600" cy="240" r="14" fill="#818cf8" opacity="0.8"/>
-  <!-- Title -->
-  <text x="600" y="340" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="48" font-weight="bold" letter-spacing="8">AI BUILDERS BRIEF</text>
-  <!-- Subtitle -->
-  <text x="600" y="390" text-anchor="middle" fill="#4a6080" font-family="monospace" font-size="20" letter-spacing="4">FOLLOW BUILDERS, NOT INFLUENCERS</text>
-  <!-- Bottom line -->
-  <line x1="200" y1="460" x2="1000" y2="460" stroke="url(#grad)" stroke-width="1"/>
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Primary gradient -->
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <!-- Accent gradient (indigo to pink) -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <!-- Horizontal separator gradient -->
+    <linearGradient id="sep" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#818cf8" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#f472b6" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
     </linearGradient>
+    <!-- Glow filter for the icon -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Subtle outer glow for the core -->
+    <filter id="coreGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Subtle grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e2f4a" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
   </defs>
-  <!-- Stats -->
-  <text x="600" y="510" text-anchor="middle" fill="#4a6080" font-family="monospace" font-size="14" letter-spacing="6">25+ BUILDERS · PODCASTS · BLOGS · DAILY</text>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0e17"/>
+
+  <!-- Subtle grid overlay -->
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- Border frame -->
+  <rect x="30" y="30" width="1140" height="570" rx="8" fill="none" stroke="#1e2f4a" stroke-width="1"/>
+
+  <!-- Corner brackets (cyber aesthetic) -->
+  <!-- Top-left -->
+  <path d="M50 75 L50 50 L75 50" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.6"/>
+  <!-- Top-right -->
+  <path d="M1150 75 L1150 50 L1125 50" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.6"/>
+  <!-- Bottom-left -->
+  <path d="M50 555 L50 580 L75 580" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.6"/>
+  <!-- Bottom-right -->
+  <path d="M1150 555 L1150 580 L1125 580" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.6"/>
+
+  <!-- Secondary inner corner brackets (smaller, pink accent) -->
+  <!-- Top-left -->
+  <path d="M65 85 L65 70 L80 70" fill="none" stroke="#f472b6" stroke-width="1" opacity="0.3"/>
+  <!-- Top-right -->
+  <path d="M1135 85 L1135 70 L1120 70" fill="none" stroke="#f472b6" stroke-width="1" opacity="0.3"/>
+  <!-- Bottom-left -->
+  <path d="M65 545 L65 560 L80 560" fill="none" stroke="#f472b6" stroke-width="1" opacity="0.3"/>
+  <!-- Bottom-right -->
+  <path d="M1135 545 L1135 560 L1120 560" fill="none" stroke="#f472b6" stroke-width="1" opacity="0.3"/>
+
+  <!-- === ICON: Diamond/Eye AI node (scaled up from favicon) === -->
+  <g transform="translate(600, 210)" filter="url(#glow)">
+    <!-- Outer diamond -->
+    <path d="M0 -60 L80 0 L0 60 L-80 0 Z" fill="none" stroke="url(#primary)" stroke-width="3" stroke-linejoin="round" opacity="0.9"/>
+    <!-- Mid diamond ring -->
+    <path d="M0 -38 L50 0 L0 38 L-50 0 Z" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-linejoin="round" opacity="0.35"/>
+  </g>
+
+  <!-- Core dot with glow -->
+  <g transform="translate(600, 210)" filter="url(#coreGlow)">
+    <circle cx="0" cy="0" r="14" fill="url(#accent)" opacity="0.9"/>
+  </g>
+
+  <!-- Connection nodes at diamond vertices -->
+  <circle cx="600" cy="150" r="5" fill="#818cf8" opacity="0.8"/>
+  <circle cx="680" cy="210" r="5" fill="#818cf8" opacity="0.8"/>
+  <circle cx="600" cy="270" r="5" fill="#818cf8" opacity="0.8"/>
+  <circle cx="520" cy="210" r="5" fill="#818cf8" opacity="0.8"/>
+
+  <!-- Digest/brief lines emanating from right node -->
+  <line x1="625" y1="196" x2="660" y2="196" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="625" y1="210" x2="655" y2="210" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="625" y1="224" x2="660" y2="224" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Faint radial connection lines (network feel) -->
+  <line x1="600" y1="150" x2="550" y2="110" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+  <line x1="600" y1="150" x2="650" y2="110" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+  <line x1="680" y1="210" x2="720" y2="180" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+  <line x1="680" y1="210" x2="720" y2="240" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+  <line x1="520" y1="210" x2="480" y2="180" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+  <line x1="520" y1="210" x2="480" y2="240" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+  <line x1="600" y1="270" x2="550" y2="300" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+  <line x1="600" y1="270" x2="650" y2="300" stroke="#818cf8" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- Faint radial endpoint dots -->
+  <circle cx="550" cy="110" r="2" fill="#818cf8" opacity="0.2"/>
+  <circle cx="650" cy="110" r="2" fill="#818cf8" opacity="0.2"/>
+  <circle cx="720" cy="180" r="2" fill="#818cf8" opacity="0.2"/>
+  <circle cx="720" cy="240" r="2" fill="#818cf8" opacity="0.2"/>
+  <circle cx="480" cy="180" r="2" fill="#818cf8" opacity="0.2"/>
+  <circle cx="480" cy="240" r="2" fill="#818cf8" opacity="0.2"/>
+  <circle cx="550" cy="300" r="2" fill="#818cf8" opacity="0.2"/>
+  <circle cx="650" cy="300" r="2" fill="#818cf8" opacity="0.2"/>
+
+  <!-- ========== TITLE ========== -->
+  <text x="600" y="360" text-anchor="middle" fill="#ffffff" font-family="'Orbitron', 'JetBrains Mono', monospace" font-size="48" font-weight="700" letter-spacing="10">AI BUILDERS BRIEF</text>
+
+  <!-- ========== SUBTITLE ========== -->
+  <text x="600" y="400" text-anchor="middle" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="400" letter-spacing="6" opacity="0.7">FOLLOW BUILDERS, NOT INFLUENCERS</text>
+
+  <!-- ========== SEPARATOR LINE ========== -->
+  <line x1="200" y1="440" x2="1000" y2="440" stroke="url(#sep)" stroke-width="1.5"/>
+
+  <!-- ========== BOTTOM STATS ========== -->
+  <text x="600" y="490" text-anchor="middle" fill="#4a6080" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="400" letter-spacing="5">25+ BUILDERS  ·  PODCASTS  ·  BLOGS  ·  DAILY</text>
+
+  <!-- Decorative scan line accents -->
+  <line x1="100" y1="530" x2="300" y2="530" stroke="#818cf8" stroke-width="0.5" opacity="0.15"/>
+  <line x1="900" y1="530" x2="1100" y2="530" stroke="#818cf8" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Version/status tag bottom-right -->
+  <text x="1120" y="570" text-anchor="end" fill="#1e2f4a" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="2">v1.0</text>
 </svg>
