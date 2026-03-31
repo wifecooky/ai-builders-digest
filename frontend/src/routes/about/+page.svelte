@@ -23,9 +23,9 @@
       { name: '公司博客', count: '2 个来源', color: 'green' },
     ],
     ja: [
-      { name: 'X / Twitter', count: '25+人のビルダー', color: 'cyan' },
-      { name: 'YouTube Podcasts', count: '6番組', color: 'magenta' },
-      { name: 'Company Blogs', count: '2ソース', color: 'green' },
+      { name: 'X / Twitter', count: '25+ 人のビルダー', color: 'cyan' },
+      { name: 'YouTube ポッドキャスト', count: '6 番組', color: 'magenta' },
+      { name: '公式ブログ', count: '2 ソース', color: 'green' },
     ],
   };
 
@@ -41,9 +41,9 @@
       { step: '03', name: '翻译', desc: '摘要翻译为中英日三语，保留技术术语和专有名词的英文原文。' },
     ],
     ja: [
-      { step: '01', name: '収集', desc: 'GitHubの公開JSONフィードからX/Twitter、YouTubeポッドキャスト、企業ブログのキュレーションコンテンツを取得。' },
-      { step: '02', name: 'AIリミックス', desc: 'AIがツイート、書き起こし、ブログ記事を読み、編集見出しと簡潔な要約を生成。' },
-      { step: '03', name: '翻訳', desc: '要約を中国語・日本語に翻訳。技術用語と固有名詞は英語のまま保持。' },
+      { step: '01', name: '収集', desc: 'GitHubの公開JSONフィードからX/Twitter、YouTubeポッドキャスト、企業ブログのコンテンツを取得。' },
+      { step: '02', name: 'AI要約', desc: 'AIがツイート、文字起こし、ブログ記事を読み込み、見出しと簡潔な要約を生成。' },
+      { step: '03', name: '翻訳', desc: '要約をEN/ZH/JAの3言語に翻訳。技術用語と固有名詞は英語のまま保持。' },
     ],
   };
 
