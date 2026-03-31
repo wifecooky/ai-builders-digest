@@ -97,7 +97,7 @@
       <p class="text-[10px] text-cyber-text-muted uppercase tracking-[0.3em] mb-3 font-display">
         {subtitle[currentLang]}
       </p>
-      <h2 class="text-4xl sm:text-5xl font-display font-black tracking-tight text-cyber-heading">
+      <h2 class="text-4xl sm:text-5xl font-mono font-black tracking-tight text-cyber-heading">
         {formatDate(content.date)}
       </h2>
       <div class="flex items-center gap-3 mt-4">
