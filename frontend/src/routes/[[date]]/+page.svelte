@@ -56,8 +56,10 @@
     if (!content?.builderInsights?.length) return siteDesc[currentLang];
     const names = content.builderInsights.map(a => a.authorName).slice(0, 3).join(', ');
     const more = totalItems - 3;
-    const suffix = { en: ` + ${more} more`, zh: ` 等 ${totalItems} 条`, ja: ` 他${more}件` };
-    return more > 0 ? names + suffix[currentLang] : names;
+    const prefix = { en: 'Today: ', zh: '今日：', ja: '今日：' };
+    const suffix = { en: ` + ${more} more insights`, zh: ` 等 ${totalItems} 条动态`, ja: ` 他${more}件の動向` };
+    const desc = more > 0 ? names + suffix[currentLang] : names;
+    return prefix[currentLang] + desc + ' — ' + siteDesc[currentLang];
   });
   let jsonLdScript = $derived.by(() => {
     const ld = { '@context': 'https://schema.org', '@type': 'WebPage', name: pageTitle, description: pageDesc, url: canonicalUrl };
@@ -127,7 +129,7 @@
             {labels.builderInsights[currentLang]}
           </span>
           <div class="flex-1 h-px bg-cyber-border"></div>
-          <span class="text-[10px] font-mono text-cyber-magenta/40 tabular-nums">{content.builderInsights.length}</span>
+          <span class="text-[10px] font-mono text-cyber-magenta/60 tabular-nums">{content.builderInsights.length}</span>
         </div>
 
         <div class="space-y-6">
@@ -152,11 +154,11 @@
       <section class="py-8">
         <div class="flex items-center gap-3 mb-8">
           <span class="text-[10px] font-display font-bold tracking-[0.3em] text-cyber-green uppercase"
-            style="text-shadow: 0 0 7px rgba(52, 211, 153, 0.3);">
+>
             {labels.blogUpdates[currentLang]}
           </span>
           <div class="flex-1 h-px bg-cyber-border"></div>
-          <span class="text-[10px] font-mono text-cyber-green/40 tabular-nums">{content.blogUpdates.length}</span>
+          <span class="text-[10px] font-mono text-cyber-green/60 tabular-nums">{content.blogUpdates.length}</span>
         </div>
 
         <div class="space-y-4">
@@ -173,11 +175,11 @@
       <section class="py-8">
         <div class="flex items-center gap-3 mb-8">
           <span class="text-[10px] font-display font-bold tracking-[0.3em] text-cyber-amber uppercase"
-            style="text-shadow: 0 0 7px rgba(251, 191, 36, 0.3);">
+>
             {labels.podcastHighlights[currentLang]}
           </span>
           <div class="flex-1 h-px bg-cyber-border"></div>
-          <span class="text-[10px] font-mono text-cyber-amber/40 tabular-nums">{content.podcastHighlights.length}</span>
+          <span class="text-[10px] font-mono text-cyber-amber/60 tabular-nums">{content.podcastHighlights.length}</span>
         </div>
 
         <div class="space-y-4">
@@ -198,6 +200,15 @@
           {labels.stayUpdatedDesc[currentLang]}
         </p>
         <SubscribeForm lang={currentLang} />
+        <p class="mt-3 text-[10px] text-cyber-text-muted">
+          {{ en: 'Prefer RSS?', zh: '偏好 RSS？', ja: 'RSS 派？' }[currentLang]}
+          <a
+            href={({en: '/rss.xml', zh: '/rss-zh.xml', ja: '/rss-ja.xml'})[currentLang]}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-cyber-cyan hover:underline ml-1 no-underline"
+          >{{ en: 'Subscribe via RSS', zh: '通过 RSS 订阅', ja: 'RSS で購読' }[currentLang]}</a>
+        </p>
       </div>
     </section>
 
@@ -206,7 +217,7 @@
       <section class="py-8">
         <div class="flex items-center gap-3 mb-6">
           <span class="text-[10px] font-display font-bold tracking-[0.3em] text-cyber-amber uppercase"
-            style="text-shadow: 0 0 7px rgba(251, 191, 36, 0.3);">
+>
             {labels.archive[currentLang]}
           </span>
           <div class="flex-1 h-px bg-cyber-border"></div>
@@ -222,11 +233,11 @@
               <div class="flex items-center gap-3">
                 <span class="text-[11px] font-mono tabular-nums text-cyber-text-muted">{d}</span>
                 {#if preview?.count}
-                  <span class="text-[10px] text-cyber-amber/60 font-mono">{preview.count} {{ en: 'items', zh: '条', ja: '件' }[currentLang]}</span>
+                  <span class="text-[10px] text-cyber-amber/70 font-mono">{preview.count} {{ en: 'items', zh: '条', ja: '件' }[currentLang]}</span>
                 {/if}
               </div>
               {#if preview?.summary?.[currentLang]}
-                <p class="text-[11px] text-cyber-text-muted/80 mt-1.5 leading-relaxed line-clamp-2">{preview.summary[currentLang]}</p>
+                <p class="text-[11px] text-cyber-text-muted mt-1.5 leading-relaxed line-clamp-2">{preview.summary[currentLang]}</p>
               {/if}
             </a>
           {/each}
