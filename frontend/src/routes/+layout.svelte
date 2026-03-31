@@ -102,7 +102,7 @@
             class="flex items-center gap-1.5 px-2.5 py-1 text-[10px] font-bold tracking-wider cursor-pointer transition-all duration-200 border border-cyber-border rounded text-cyber-text-muted hover:text-cyber-cyan hover:border-cyber-cyan/30"
             aria-label="Toggle theme"
           >
-            <span class="text-sm leading-none">{themeIcons[themeMode]}</span>
+            <span class="text-base leading-none">{themeIcons[themeMode]}</span>
           </button>
 
           <nav class="flex gap-px border border-cyber-border rounded" aria-label="Language">
