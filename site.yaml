@@ -26,39 +26,39 @@ site:
 
 # ── Theme ──
 theme:
-  style: cyber
+  style: brief
   fonts:
-    display: "'Orbitron', 'JetBrains Mono', monospace"
-    sans: "'JetBrains Mono', 'Noto Sans SC', 'Noto Sans JP', ui-monospace, monospace"
+    display: "'Sora', 'Noto Sans SC', 'Noto Sans JP', sans-serif"
+    sans: "'IBM Plex Sans', 'Noto Sans SC', 'Noto Sans JP', system-ui, sans-serif"
     mono: "'JetBrains Mono', ui-monospace, monospace"
-    google: "family=Orbitron:wght@500;700;900&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700"
+    google: "family=Sora:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700"
   colors:
     dark:
-      bg: '#0a0e17'
-      surface: '#0f1524'
-      surface2: '#141d32'
-      border: '#1e2f4a'
-      borderGlow: '#6366f133'
-      text: '#c8d6e5'
-      textMuted: '#6b85a5'
-      accent: '#818cf8'
-      secondary: '#f472b6'
-      green: '#34d399'
+      bg: '#0c1017'
+      surface: '#141820'
+      surface2: '#1c2028'
+      border: '#282e38'
+      borderGlow: '#3b82f615'
+      text: '#b8c0d0'
+      textMuted: '#6a7590'
+      accent: '#60a5fa'
+      secondary: '#94a3b8'
+      green: '#4ade80'
       amber: '#fbbf24'
-      heading: '#ffffff'
+      heading: '#e8edf6'
     light:
-      bg: '#f5f3ff'
+      bg: '#fafbfd'
       surface: '#ffffff'
-      surface2: '#ede9fe'
-      border: '#c4b5fd'
-      borderGlow: '#6366f133'
-      text: '#1e1b4b'
-      textMuted: '#6b7280'
-      accent: '#4f46e5'
-      secondary: '#db2777'
-      green: '#059669'
-      amber: '#d97706'
-      heading: '#0f0d29'
+      surface2: '#f0f2f5'
+      border: '#d1d5db'
+      borderGlow: '#3b82f615'
+      text: '#1e293b'
+      textMuted: '#64748b'
+      accent: '#2563eb'
+      secondary: '#64748b'
+      green: '#16a34a'
+      amber: '#ca8a04'
+      heading: '#0f172a'
 
 # ── Data Sources ──
 sources:

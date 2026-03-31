@@ -59,6 +59,10 @@ export function generateRss(lang) {
           const summary = a.suggestedSummary || '';
           html.push(`<p><strong>${escapeXml(a.authorName)}</strong>: ${escapeXml(title)}</p>`);
           if (summary) html.push(`<p>${escapeXml(summary)}</p>`);
+          if (a.tweets?.length) {
+            const links = a.tweets.map(t => `<a href="${escapeXml(t.url)}">𝕏</a>`).join(' ');
+            html.push(`<p>${links}</p>`);
+          }
         }
       }
 

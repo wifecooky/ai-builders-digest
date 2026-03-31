@@ -24,17 +24,12 @@
 </script>
 
 <article
-  class="group relative border rounded-sm p-5 sm:p-6 transition-all duration-300 hover:border-cyber-cyan/40 hover:border-glow animate-in
-    {highlight ? 'border-cyber-accent/25 bg-cyber-accent/[0.03]' : 'border-cyber-border bg-cyber-surface/60'}"
+  class="group relative border-l-2 border-l-cyber-cyan/30 border border-cyber-border rounded-sm p-5 sm:p-6 transition-all duration-300 hover:border-l-cyber-cyan/60 hover:bg-cyber-surface/80 animate-in
+    {highlight ? 'bg-cyber-cyan/[0.03]' : 'bg-cyber-surface/40'}"
   style="animation-delay: {delay}ms"
 >
-  <span class="absolute top-0 left-0 w-3 h-3 border-t border-l border-cyber-cyan/50"></span>
-  <span class="absolute top-0 right-0 w-3 h-3 border-t border-r border-cyber-cyan/50"></span>
-  <span class="absolute bottom-0 left-0 w-3 h-3 border-b border-l border-cyber-cyan/50"></span>
-  <span class="absolute bottom-0 right-0 w-3 h-3 border-b border-r border-cyber-cyan/50"></span>
-
   <div class="flex items-start gap-4">
-    <span class="font-display text-3xl sm:text-4xl font-black text-cyber-cyan/20 leading-none select-none tabular-nums flicker shrink-0">
+    <span class="font-display text-3xl sm:text-4xl font-black text-cyber-cyan/15 leading-none select-none tabular-nums shrink-0">
       {String(index + 1).padStart(2, '0')}
     </span>
     <div class="flex-1 min-w-0">

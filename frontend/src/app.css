@@ -119,17 +119,9 @@ body::after {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-/* ========== Grid background ========== */
+/* ========== Grid background (disabled for brief theme) ========== */
 .grid-bg {
-  background-image:
-    linear-gradient(__GRID_DARK_BG__ 1px, transparent 1px),
-    linear-gradient(90deg, __GRID_DARK_BG__ 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-:is([data-theme="light"]) .grid-bg {
-  background-image:
-    linear-gradient(__GRID_LIGHT_BG__ 1px, transparent 1px),
-    linear-gradient(90deg, __GRID_LIGHT_BG__ 1px, transparent 1px);
+  background-image: none;
 }
 
 /* ========== Animated gradient line ========== */

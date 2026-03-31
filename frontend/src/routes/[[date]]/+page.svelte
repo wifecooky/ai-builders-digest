@@ -101,7 +101,7 @@
       <div class="flex items-center gap-3 mt-4">
         <div class="gradient-line flex-1"></div>
         <span class="text-[10px] text-cyber-text-muted tracking-widest font-display tabular-nums">
-          {content.metadata?.totalBuilders || 0} {labels.sources[currentLang]}
+          25+ {labels.sources[currentLang]}
         </span>
       </div>
     </div>
