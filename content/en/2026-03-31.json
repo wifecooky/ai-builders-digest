@@ -1,7 +1,8 @@
 {
   "date": "2026-03-31",
+  "lang": "en",
   "summary": "Claude Code launched a new feature allowing users to control apps directly from the command line, blending convenience with tech-savvy flair. Meanwhile, Every's \"AI & I\" emphasized that while AI speeds up development, human intuition remains the ultimate game-changer.",
-  "items": [
+  "builderInsights": [
     {
       "id": "claudeai-2026-03-31",
       "source": "X",
@@ -21,7 +22,9 @@
       ],
       "publishedAt": "2026-03-30T17:01:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpsyoutube-2026-03-31",
       "source": "AI & I by Every",
@@ -33,11 +36,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 2,
     "totalTweets": 3,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-31T01:30:24.285Z"
+    "generatedAt": "2026-03-31T01:30:24.494Z",
+    "estimatedReadTime": "3 min"
   }
 }

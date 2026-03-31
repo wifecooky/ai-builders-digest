@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-31",
+  "lang": "ja",
+  "summary": "Claude Codeは新機能をリリースした。ユーザーがコマンドラインから直接アプリを操作できるようになった。便利さとテクノロジーの粋を融合している。一方、Everyの「AI & I」は強調した。AIが開発を加速するが、人間の直感こそが最終的な決定打だと。",
+  "builderInsights": [
+    {
+      "id": "claudeai-2026-03-31",
+      "source": "X",
+      "authorName": "Claude",
+      "authorHandle": "claudeai",
+      "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "クロード",
+      "suggestedTitle": "クロード・コード: CLIからアプリを直接操作",
+      "suggestedSummary": "クロードは今やコマンドラインからアプリを開き、UIを操作し、ビルドをテストできる。この新機能はProとMaxプランのリサーチプレビューで利用可能。クロード・コードにコンピュータ使用を統合することで、ワークフローを効率化することを目指している。",
+      "tweets": [
+        {
+          "url": "https://x.com/claudeai/status/2038663014098899416",
+          "text": "Computer use is now in Claude Code.\n\nClaude can open your apps, click through your UI, and test what it built, right from the CLI.\n\nNow in research preview on Pro and Max plans. https://t.co/s2FDQaDmr1",
+          "likes": 11545,
+          "retweets": 878
+        }
+      ],
+      "publishedAt": "2026-03-30T17:01:53.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpsyoutube-2026-03-31",
+      "source": "AI & I by Every",
+      "title": "今は作るのが簡単 | Mike Kriegerが語るAIの変化",
+      "url": "https://youtube.com/watch?v=KRv9GpJYrUA",
+      "suggestedTitle": "AIが構築を加速するが、直感が最重要",
+      "suggestedSummary": "要点: AIで製品開発は速くなったが、直感とシンプルさが鍵である。",
+      "publishedAt": "2026-03-25T00:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 2,
+    "totalTweets": 3,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-03-31T01:30:30.434Z",
+    "estimatedReadTime": "3 分"
+  }
+}

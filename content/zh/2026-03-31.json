@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-31",
+  "lang": "zh",
+  "summary": "Claude Code 推出了一个新功能，让用户可以直接从命令行控制应用，既方便又显得很有技术范儿。同时，Every 的 \"AI & I\" 强调，虽然 AI 加快了开发速度，但人类的直觉才是真正的关键。",
+  "builderInsights": [
+    {
+      "id": "claudeai-2026-03-31",
+      "source": "X",
+      "authorName": "Claude",
+      "authorHandle": "claudeai",
+      "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "Claude",
+      "suggestedTitle": "Claude Code：直接从CLI控制你的应用",
+      "suggestedSummary": "Claude现在可以直接从命令行打开应用、导航UI和测试构建。这个新功能在Pro和Max计划的研究预览中提供，旨在通过将计算机使用集成到Claude Code中来简化工作流程。",
+      "tweets": [
+        {
+          "url": "https://x.com/claudeai/status/2038663014098899416",
+          "text": "Computer use is now in Claude Code.\n\nClaude can open your apps, click through your UI, and test what it built, right from the CLI.\n\nNow in research preview on Pro and Max plans. https://t.co/s2FDQaDmr1",
+          "likes": 11545,
+          "retweets": 878
+        }
+      ],
+      "publishedAt": "2026-03-30T17:01:53.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpsyoutube-2026-03-31",
+      "source": "AI & I by Every",
+      "title": "现在搭建产品变得简单了 | Mike Krieger谈AI的改变",
+      "url": "https://youtube.com/watch?v=KRv9GpJYrUA",
+      "suggestedTitle": "AI加速产品开发，但直觉仍是关键",
+      "suggestedSummary": "要点：AI让产品开发更快，但直觉和简约仍是关键。",
+      "publishedAt": "2026-03-25T00:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 2,
+    "totalTweets": 3,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-03-31T01:30:27.409Z",
+    "estimatedReadTime": "3 分钟"
+  }
+}
