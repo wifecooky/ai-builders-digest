@@ -1,7 +1,27 @@
 {
   "date": "2026-03-31",
-  "summary": "Claude Code launched a new feature allowing users to control apps directly from the command line, blending convenience with tech-savvy flair. Meanwhile, Every's \"AI & I\" emphasized that while AI speeds up development, human intuition remains the ultimate game-changer.",
+  "summary": "Karpathy warned unpinned deps can turn one hack into mass pwnage, while Rauch and Levie said agents still need human guardrails and redesigned workflows. Meanwhile Claude Code got enterprise auto mode, Replit added built-in monetization, and Swyx spotted “Sign in with ChatGPT” already live.",
   "items": [
+    {
+      "id": "karpathy-2026-03-31",
+      "source": "X",
+      "authorName": "Andrej Karpathy",
+      "authorHandle": "karpathy",
+      "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
+      "title": "Andrej Karpathy",
+      "suggestedTitle": "Unpinned deps turn one hack into mass pwnage",
+      "suggestedSummary": "A fresh npm supply-chain attack on axios is a reminder that one compromised package can ripple through millions of installs fast. He argues local defenses help, but package managers like npm and pip need safer defaults so unpinned dependencies don’t auto-resolve to the latest poisoned release.",
+      "tweets": [
+        {
+          "url": "https://x.com/karpathy/status/2038849654423798197",
+          "text": "New supply chain attack this time for npm axios, the most popular HTTP client library with 300M weekly downloads.\n\nScanning my system I found a use imported from googleworkspace/cli from a few days ago when I was experimenting with gmail/gcal cli. The installed version (luckily) resolved to an unaffected 1.13.5, but the project dependency is not pinned, meaning that if I did this earlier today the code would have resolved to latest and I'd be pwned.\n\nIt's possible to personally defend against these to some extent with local settings e.g. release-age constraints, or containers or etc, but I think ultimately the defaults of package management projects (pip, npm etc) have to change so that a single infection (usually luckily fairly temporary in nature due to security scanning) does not spread through users at random and at scale via unpinned dependencies.\n\nMore comprehensive article:\nhttps://t.co/EJAZbqAPIQ",
+          "likes": 3447,
+          "retweets": 381
+        }
+      ],
+      "publishedAt": "2026-03-31T05:23:32.000Z",
+      "category": "builderInsights"
+    },
     {
       "id": "claudeai-2026-03-31",
       "source": "X",
@@ -9,35 +29,305 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude Code: Control Your Apps Straight from CLI",
-      "suggestedSummary": "Claude can now open apps, navigate UIs, and test builds directly from the command line. This new feature, available in research preview for Pro and Max plans, aims to streamline workflows by integrating computer use into Claude Code.",
+      "suggestedTitle": "Claude Code gets auto mode for enterprise",
+      "suggestedSummary": "Claude Code’s new auto mode is now live for Enterprise customers and API users. Just update and run `claude --enable-auto-mode` to try it — a small command, but a big step toward more hands-off coding workflows.",
       "tweets": [
         {
-          "url": "https://x.com/claudeai/status/2038663014098899416",
-          "text": "Computer use is now in Claude Code.\n\nClaude can open your apps, click through your UI, and test what it built, right from the CLI.\n\nNow in research preview on Pro and Max plans. https://t.co/s2FDQaDmr1",
-          "likes": 11545,
-          "retweets": 878
+          "url": "https://x.com/claudeai/status/2038693742094246032",
+          "text": "Auto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode. https://t.co/m3CdLEfNeZ",
+          "likes": 3479,
+          "retweets": 243
         }
       ],
-      "publishedAt": "2026-03-30T17:01:53.000Z",
+      "publishedAt": "2026-03-30T19:03:59.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-03-31",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "Agents write the code; infra still needs guardrails",
+      "suggestedSummary": "Agents now do most of the coding, but the message to Vercel teams is clear: don’t let vibing touch mission-critical infrastructure. He’s sharing early internal guidance on “agenting responsibly,” with security, durability, and availability as the non-negotiables.",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2038759092442050651",
+          "text": "When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our coding.\n\nKnowing the inherent flaws and over-confidence of LLMs, we sent a clear message to our teams. Vibing and mission-critical infrastructure don’t go together.\n\nWe’re sharing some of our early internal guidance in how we’re “agenting responsibly”, prioritizing security, durability, and availability at all times.\nhttps://t.co/b36GiE76Ue",
+          "likes": 1115,
+          "retweets": 85
+        }
+      ],
+      "publishedAt": "2026-03-30T23:23:40.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-03-31",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "Replit apps can now ship with monetization built in",
+      "suggestedSummary": "Replit-built mobile apps can now plug into RevenueCat, so builders can go from prototype to paid product without stitching together a bunch of extra tooling. It’s a small announcement, but a useful one: Replit keeps pushing toward the full-stack path from idea to app to revenue.",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2038722068418805875",
+          "text": "Monetize your Replit-built mobile apps with RevenueCat! https://t.co/wI2eYwzVzU",
+          "likes": 360,
+          "retweets": 26
+        }
+      ],
+      "publishedAt": "2026-03-30T20:56:33.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-03-31",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "Call it a data leak, not a bug",
+      "suggestedSummary": "He’s blasting the euphemisms: if your app served private data to the wrong users, that’s not a “bug,” it’s a serious privacy failure. The point is blunt and useful — companies should name incidents honestly instead of hiding behind soft language.",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2038688359325835436",
+          "text": "such a mealy mouthed way to say “we pushed a bug that served your users private data to other users of your app”\n\nreally, really bad https://t.co/QyZFBB2C02",
+          "likes": 314,
+          "retweets": 10
+        }
+      ],
+      "publishedAt": "2026-03-30T18:42:36.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-03-31",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "Agent workflows need humans to redesign the work",
+      "suggestedSummary": "He says the real enterprise AI opportunity isn’t just plugging in agents — it’s reworking messy workflows, unstructured data, and human oversight so agents can actually do useful work. For most knowledge work, there’s no shortcut: someone has to map the process, connect systems, and redesign how the team operates. That creates a new class of valuable enterprise roles, especially for early-career folks who can move fast.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2038816649927913834",
+          "text": "There is a huge opportunity for resourceful and entrepreneurial talent within organizations to go in and reimagine workflows for a world of agents. \n\nThe way you automate work with agents requires real work. It means setting up unstructured data in a way agents can easily access, learning the workflow and processes and creating skills or plans for agents to leverage, connecting disparate systems together, and likely changing the process itself to support getting the agents the need to do much of the work. Then you have to design where humans will play a role to oversee the workflows, how you validate the work, and so on.\n\nMost of the gains you see from coding don’t take this level of effort because the agent knows more, it gets context more easily, and the users are technically. But for the rest of knowledge work there’s no way around this; there’s really no way to shortcut any of this work. It has to be done by a person or people on the team.\n\nYou will see a huge growth of roles within enterprises, and people that specialize in this will be hugely valuable in the economy. Great way for early career folks to make a huge dent quickly as well.",
+          "likes": 245,
+          "retweets": 31
+        }
+      ],
+      "publishedAt": "2026-03-31T03:12:23.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-03-31",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "All-in-one work apps just became agent surfaces",
+      "suggestedSummary": "She says Lark CLI can let Claude Code or Codex access and operate chats, calendars, meetings, docs, and sheets — then actually execute meeting to-dos, not just extract them. She also says her Codebase-to-course project hit 2.6k GitHub stars and got a token-efficiency/reliability upgrade, with a new use case beyond vibe-coder education: developer onboarding.",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2038771778802331817",
+          "text": "Imagine if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets...\n\nThat's possible now with Lark CLI. The world's most all-in-one collaboration tool just became the world's most agent-friendly collaboration tool.\n\nI just built a skill on top of this: Not only does it extract to-dos from the meetings, it actually EXECUTES those to-dos... insane\n\n https://t.co/Dzviq7vdQQ",
+          "likes": 95,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2038685338865221862",
+          "text": "Codebase-to-course now has 2.6k stars on GitHub\n\nJust optimized it to be a lot more token efficient &amp; reliable\n\nOriginally intended for vibe coders to learn CS, but was told it's great for developer onboarding as well https://t.co/4GRzv4KZOx https://t.co/rx8rngpECg",
+          "likes": 117,
+          "retweets": 9
+        }
+      ],
+      "publishedAt": "2026-03-31T00:14:05.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-03-31",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "AI should free humans to do more together",
+      "suggestedSummary": "He argues the doomer take on AI is too narrow: the real upside is an abundant era where AI handles the boring work and people get back to building, thinking, and creating together. It’s a classic seed-investor view from FPV Ventures — less “AI replaces humans,” more “AI unlocks the dreams we shelved.”",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2038685323077791996",
+          "text": "When I first met @ivanhzhao 12 years ago, I remember distinctly walking away thinking - I have never met anyone who cares so much about building tools that bring people together.\n\nJust like how @zoink (whenever I hear him) talks consistently thinks about the infinite \"canvas\" of possibilities that will help design the future. \n\nOur sometimes narrow view of AI and building AI \"coworkers\" has shifted society thinking that AI will replace humans. That is the case for doomerism and how humans will be eliminated. \n\nIt sells well - you can make neat market maps with TAM looking up BLS data. Easy to sell in this era of efficiency that the market is rewarding. \n\nWhat I think we should be preaching MORE of which this ad does so well is the abundant era where humans will DO more together. \n\nWhere AI takes care of all the frivolous work we hate doing. Where we get to build and think together ALL the dreams that we stored away in some attic in our brain waiting for a better day.",
+          "likes": 77,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-03-30T18:30:32.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-03-31",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "“Sign in with ChatGPT” already exists",
+      "suggestedSummary": "He says everyone keeps asking for “sign in with ChatGPT,” but the Codex app server has already had the pieces for months — people just aren’t reading the docs. It’s a classic infra gripe: the feature isn’t missing, the discovery is.",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2038768899915915417",
+          "text": "one of my most memorable conversations with @romainhuet is was on how everybody (including @grinich at the @sama town hall) is asking for “sign in with chatgpt”\n\nit already exists!\nfor those with eyes to see!!\ncodex app server!!!\n\ny’all just need to read the docs guys istg, this has been out for months",
+          "likes": 76,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-03-31T00:02:38.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "catwu-2026-03-31",
+      "source": "X",
+      "authorName": "Cat Wu",
+      "authorHandle": "_catwu",
+      "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "Cat Wu",
+      "suggestedTitle": "Claude Code now works on GitHub Enterprise Server",
+      "suggestedSummary": "They shipped GitHub Enterprise Server support across the Anthropic product suite, including Claude Code on web, iOS, Android, and Code Review. That’s a real enterprise unlock: teams on locked-down infra can now use the same workflow without jumping through hoops.",
+      "tweets": [
+        {
+          "url": "https://x.com/_catwu/status/2038723796178526712",
+          "text": "We now support GitHub Enterprise Server across our product suite, including Claude Code on the web, iOS, Android and Code Review! \n\nTry it out and let us know your feedback https://t.co/tTEyr19vdT",
+          "likes": 73,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-03-30T21:03:25.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "joshwoodward-2026-03-31",
+      "source": "X",
+      "authorName": "Josh Woodward",
+      "authorHandle": "joshwoodward",
+      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward",
+      "suggestedTitle": "NotebookLM turns archives into guided learning",
+      "suggestedSummary": "NotebookLM just got a featured notebook on The Science of Ben Franklin, built with The Royal Society and packed with Franklin’s original papers, letters, and contemporary sources. The pitch is simple: curated source collections can make learning feel less like searching and more like exploring a well-made exhibit.",
+      "tweets": [
+        {
+          "url": "https://x.com/joshwoodward/status/2038825734278639926",
+          "text": "New in NotebookLM: The Science Of Ben Franklin, a first-of-its-kind featured notebook\n\nThis featured notebook was made in collaboration with The Royal Society, the oldest scientific academy in continuous existence. This one features some of Franklin's original papers, letters, and contemporary sources. \n\nFeatured notebooks allow you to learn from curated collections of high-quality sources.\n\nEnjoy!",
+          "likes": 53,
+          "retweets": 8
+        }
+      ],
+      "publishedAt": "2026-03-31T03:48:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "ryolu-2026-03-31",
+      "source": "X",
+      "authorName": "Ryo Lu",
+      "authorHandle": "ryolu_",
+      "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "Ryo Lu",
+      "suggestedTitle": "AI should amplify taste, not mass-produce slop",
+      "suggestedSummary": "He argues software lost its soul when growth and A/B tests sanded off the weird, human details — and AI could make that worse by flooding the world with “correct” but dead-feeling products. But he thinks the real opportunity is the opposite: give people with taste and vision the tools to ship the thing they always imagined, so we get more opinionated, personal software instead of a faster factory.",
+      "tweets": [
+        {
+          "url": "https://x.com/ryolu_/status/2038861861047951724",
+          "text": "まもなく @cursor_ai https://t.co/FQdcRi8Ho2",
+          "likes": 68,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/ryolu_/status/2038841219556724924",
+          "text": "when software had a soul\n\nthere was a moment around 2005 when using a Mac felt like touching something alive.\n\nthe dock bounced. the genie effect swooped. exposé scattered your windows like cards on a table. none of it was strictly necessary. all of it felt like someone cared – not about metrics, but about the feeling of using a machine.\n\nsoftware back then had texture. it had a philosophy. you could feel the person behind it. someone made a decision to make that icon beautiful, to animate that transition just so, to write that error message with a little warmth. apps had personalities. some were weird. some were over-designed in ways that would make a modern PM flinch. but they were alive.\n\nthe web was the same. personal sites were genuinely personal. blogs felt like letters. forums had regulars. you knew who made what. the internet had neighborhoods, and each one felt different.\n\nnothing was optimized for scale. things were made by people who loved what they were making.\n\nsomewhere along the way, we traded all of that for growth.\n\nA/B tests flattened the edges. design systems standardized the personality out. everything got faster, smoother, more consistent – and somehow less interesting. the quirks were removed because they didn't test well. the warmth got cut because it wasn't measurable. we optimized our way into a world of things that work perfectly and feel like nothing.\nnow every app looks the same. every interface follows the same patterns. every product speaks in the same calm, frictionless voice, siloed in their own little islands. the humanity got rounded off.\n\nand then came AI agents. and the speed got inhuman.\n\nnow you can generate an entire product in an afternoon. ship a feature before lunch. spin up ten variations before anyone's had their coffee. the gap from idea to code is basically zero.\n\nwhich sounds incredible. and it is. but there's a catch.\n\nwhen making things are too easy, the slop comes for free too. mediocre things don't look obviously bad – they look fine. they work. they ship. they pass review. and now there are infinite of them. the internet is filling up with software that functions but means nothing. interfaces that are correct but feel dead. products made by agents, reviewed by no one, shipped into the void.\n\nthis is the thing that keeps me up at night. not that AI will replace people who care. but that it will drown them out.\n\nhere's what I still believe: the best things are made by people who couldn't help themselves. someone who lost sleep over an icon. who rewrote the same line of copy twelve times. who added an animation nobody asked for because it made the thing feel right. that obsession – that's not inefficiency. that's the whole point.\n\nAI doesn't make that irrelevant. it actually makes it rarer and more valuable. taste is not a markdown skill. caring is not a parameter. the weird, specific, \"soul\" thing you put into something – that can't be programmed into existence.\n\nthe path forward isn't to make more slop faster. it's to finally give people with real vision the tools to make the thing they always imagined but couldn't build alone. the designer who had the idea but couldn't code. the kid who saw something nobody else saw. the person who cared too much about something most people wouldn't notice.\n\nif we get this right, we don't get a faster factory. we get a renaissance. more strange, personal, opinionated software made by teams of people who care and mean it.\n\nthat's still possible. but only if the people who care get the space and tools to actually express themselves – and don't just hand the wheel to the agent and walk away.",
+          "likes": 507,
+          "retweets": 63
+        },
+        {
+          "url": "https://x.com/ryolu_/status/2038702070799479232",
+          "text": "don’t forget\n\nwe are doing all this for the humans, not the other way around https://t.co/68jCoIG7GS",
+          "likes": 302,
+          "retweets": 14
+        }
+      ],
+      "publishedAt": "2026-03-31T06:12:02.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-03-31",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "GStack gets a /review upgrade",
+      "suggestedSummary": "He said he just shipped an improvement to GStack’s /review skill tonight, which suggests the YC president is still actively polishing the product. The other posts are just vague one-liners, so this is the only substantive update here.",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2038839713491304955",
+          "text": "Many such cases https://t.co/iDpj7x3vsQ",
+          "likes": 23,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/garrytan/status/2038839491818139913",
+          "text": "Tempted https://t.co/wSGnweBXhu",
+          "likes": 40,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/garrytan/status/2038830778700996927",
+          "text": "Improving /review skill on GStack tonight, just shipped https://t.co/mBcwsjm82R",
+          "likes": 78,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-03-31T04:44:02.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-03-31",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "Peter Yang",
+      "suggestedTitle": "Cursor works fine in China, even with all models",
+      "suggestedSummary": "He says Cursor is working perfectly fine in China across model types, which is a useful signal for anyone tracking AI dev tools’ real-world reach. As Roblox product lead and a practical AI tutorial guy, he’s pointing to deployment reality, not hype.",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2038761330392629479",
+          "text": "I'm happy to report that @cursor_ai also works perfectly fine in China with all types of models.",
+          "likes": 10,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-03-30T23:32:34.000Z",
       "category": "builderInsights"
     },
     {
       "id": "httpsyoutube-2026-03-31",
       "source": "AI & I by Every",
-      "title": "Building Is the Easy Part Now | Mike Krieger on What AI Changed",
-      "url": "https://youtube.com/watch?v=KRv9GpJYrUA",
-      "suggestedTitle": "AI accelerates building, but intuition still reigns supreme.",
-      "suggestedSummary": "The Takeaway: Building products is faster with AI, but intuition and simplicity remain key.\n\nMike Krieger, co-founder of Instagram and now at Anthropic Labs, reflects on how AI has transformed product development. At Instagram, Krieger and his team spent nearly a year on a failed product called Bourbon before pivoting to create Instagram in just three months. Today, AI can build feature-complete products in hours, but Krieger warns that speed alone doesn't guarantee success. \"The models today are good at adding features. They're not necessarily good about figuring out what to cut out of the product,\" he notes.\n\nKrieger emphasizes the importance of intuition developed through experience. He draws a parallel to growing a tree indoors without wind, which results in a weaker structure. Similarly, rapidly built products may lack the robustness and user insights gained from iterative development. \"You can grow an entire tree indoors, but it doesn't have the same level of intuition and exposure to experience,\" he explains.\n\nDespite AI's ability to accelerate development, Krieger argues that understanding what to build remains crucial. He recounts how AI rebuilt Bourbon in two hours, adding features like filters that were only introduced later in Instagram's evolution. However, he stresses that the art of product design lies in knowing which features truly matter.\n\nKrieger also highlights the importance of simplicity and focus. He shares an anecdote about overbuilding a product, only to strip it back to its core functionality, leading to viral success. \"Just because you can doesn't necessarily mean that it should be in at least the first version,\" he advises.\n\nIn the age of AI, Krieger believes that while building is easier, creating products that resonate with users still requires a deep understanding of their needs and a willingness to iterate and simplify. AI may expedite the process, but the essence of great product design remains unchanged.",
-      "publishedAt": "2026-03-25T00:00:00.000Z",
+      "title": "How Every Edits in the Age of AI",
+      "url": "https://youtube.com/watch?v=Uif_qAcgnLk",
+      "suggestedTitle": "The Takeaway: No transcript means no reliable remix—send the text.",
+      "suggestedSummary": "The Takeaway: I can’t distill this episode yet because the transcript is empty, so there’s no speaker context, philosophy, or quotable material to work from.\n\nIf you send the transcript, I’ll turn it into a sharp 200–400 word remix that starts with the takeaway, names the speaker and their role/company, pulls out the most contrarian or specific lessons, and includes a direct quote from the text. Right now, any summary would be guesswork rather than a faithful remix of the episode’s ideas.",
+      "publishedAt": "2026-03-18T00:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
   "metadata": {
-    "totalBuilders": 2,
-    "totalTweets": 3,
+    "totalBuilders": 14,
+    "totalTweets": 19,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-31T01:30:24.285Z"
+    "generatedAt": "2026-03-31T07:30:50.999Z"
   }
 }
