@@ -1,7 +1,7 @@
 {
   "date": "2026-03-31",
   "lang": "ja",
-  "summary": "Claude Codeは新機能をリリースした。ユーザーがコマンドラインから直接アプリを操作できるようになった。便利さとテクノロジーの粋を融合している。一方、Everyの「AI & I」は強調した。AIが開発を加速するが、人間の直感こそが最終的な決定打だと。",
+  "summary": "Claude Codeは、新機能を公開した。コマンドラインからアプリを直接操作できる。便利さと、技術好きの心をくすぐる演出を両立した形だ。\n\n一方、Everyの「AI & I」は、AIが開発を加速させる一方で、最終的にゲームを変えるのは人間の直感だと強調した。",
   "builderInsights": [
     {
       "id": "claudeai-2026-03-31",
@@ -9,9 +9,9 @@
       "authorName": "Claude",
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
-      "title": "クロード",
-      "suggestedTitle": "クロード・コード: CLIからアプリを直接操作",
-      "suggestedSummary": "クロードは今やコマンドラインからアプリを開き、UIを操作し、ビルドをテストできる。この新機能はProとMaxプランのリサーチプレビューで利用可能。クロード・コードにコンピュータ使用を統合することで、ワークフローを効率化することを目指している。",
+      "title": "Claude",
+      "suggestedTitle": "Claude Code: CLIからアプリを直接操作する",
+      "suggestedSummary": "Claudeが、コマンドラインから直接アプリを開き、UIを操作し、buildをテストできるようになった。ProとMaxプラン向けにresearch previewとして提供されるこの新機能は、computer useをClaude Codeに統合することで、ワークフローの効率化を狙う。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2038663014098899416",
@@ -28,10 +28,10 @@
     {
       "id": "httpsyoutube-2026-03-31",
       "source": "AI & I by Every",
-      "title": "今は作るのが簡単 | Mike Kriegerが語るAIの変化",
+      "title": "Building Is the Easy Part Now | Mike Krieger on What AI Changed",
       "url": "https://youtube.com/watch?v=KRv9GpJYrUA",
-      "suggestedTitle": "AIが構築を加速するが、直感が最重要",
-      "suggestedSummary": "要点: AIで製品開発は速くなったが、直感とシンプルさが鍵である。",
+      "suggestedTitle": "AIは開発を加速するが、直感はいまも最重要だ",
+      "suggestedSummary": "要点: AIでプロダクト開発は速くなった。だが、直感とシンプルさはいまも鍵だ。",
       "publishedAt": "2026-03-25T00:00:00.000Z",
       "category": "podcastHighlights"
     }
@@ -42,7 +42,7 @@
     "totalTweets": 3,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-03-31T01:30:30.434Z",
+    "generatedAt": "2026-03-31T04:38:47.421Z",
     "estimatedReadTime": "3 分"
   }
 }

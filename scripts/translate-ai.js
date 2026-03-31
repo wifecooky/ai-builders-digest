@@ -5,7 +5,7 @@ const BATCH_SIZE = 5;
 const BATCH_DELAY_MS = 1000;
 const CRITICAL_FAILURE_THRESHOLD = 0.5;
 const MIN_ATTEMPTS_FOR_ABORT = 5;
-const TRANSLATION_MAX_TOKENS = 1000;
+const TRANSLATION_MAX_COMPLETION_TOKENS = 1000;
 const TRANSLATION_TEMPERATURE = 0.3;
 
 function createOpenAIClient() {
@@ -57,11 +57,11 @@ ${outputSpec}`;
   try {
     const openai = createOpenAIClient();
     const response = await openai.chat.completions.create({
-      model: process.env.OPENAI_MODEL || 'gpt-4o',
+      model: process.env.OPENAI_MODEL || 'gpt-5.4-mini',
       messages: [{ role: 'user', content: prompt }],
       response_format: { type: 'json_object' },
       temperature: TRANSLATION_TEMPERATURE,
-      max_tokens: TRANSLATION_MAX_TOKENS,
+      max_completion_tokens: TRANSLATION_MAX_COMPLETION_TOKENS,
     });
 
     const translated = JSON.parse(response.choices[0].message.content);
@@ -138,10 +138,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         ? ' Use 常体 (だ/である調) consistently — no です/ます. Short punchy sentences. Keep person names in English. Avoid machine-translation patterns like「〜している」endings.'
         : ' Use conversational Chinese like a senior engineer, not news-speak. Never translate idioms literally — rephrase naturally. Short punchy sentences. Keep person names in English.';
       const resp = await openai.chat.completions.create({
-        model: process.env.OPENAI_MODEL || 'gpt-4o',
+        model: process.env.OPENAI_MODEL || 'gpt-5.4-mini',
         messages: [{ role: 'user', content: `Translate to ${langName}. Keep technical terms and proper nouns in English. Must sound native, not translated.${langGuide}\n\n${summary}` }],
         temperature: 0.3,
-        max_tokens: 300,
+        max_completion_tokens: 300,
       });
       return resp.choices[0].message.content.trim();
     } catch {

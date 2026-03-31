@@ -22,7 +22,7 @@ function ensureClient() {
   if (!openai) {
     if (!process.env.OPENAI_API_KEY) throw new Error('OPENAI_API_KEY not set');
     openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-    model = process.env.OPENAI_MODEL || 'gpt-4o';
+    model = process.env.OPENAI_MODEL || 'gpt-5.4-mini';
   }
 }
 
@@ -41,7 +41,7 @@ async function callAI(systemPrompt, userContent) {
     ],
     response_format: { type: 'json_object' },
     temperature: 0.4,
-    max_tokens: 2000,
+    max_completion_tokens: 2000,
   });
   return JSON.parse(response.choices[0].message.content);
 }
@@ -208,7 +208,7 @@ async function main() {
         { role: 'user', content: headlines },
       ],
       temperature: 0.5,
-      max_tokens: 200,
+      max_completion_tokens: 200,
     });
     dailySummary = summaryResp.choices[0].message.content.trim();
     console.log(`  Summary: ${dailySummary}`);
