@@ -12,7 +12,7 @@
   const msgs = {
     en: { success: "You're in! Check your inbox.", error: 'Something went wrong. Try again.' },
     zh: { success: '订阅成功！请检查邮箱。', error: '出错了，请重试。' },
-    ja: { success: '登録完了！メールを確認してください。', error: 'エラーが発生した。再試行してください。' },
+    ja: { success: '登録完了！メールをご確認ください。', error: 'エラーが発生しました。再度お試しください。' },
   };
 
   const tagMap = { en: 'lang:en', zh: 'lang:zh', ja: 'lang:ja' };
