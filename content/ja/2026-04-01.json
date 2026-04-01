@@ -1,0 +1,88 @@
+{
+  "date": "2026-04-01",
+  "lang": "ja",
+  "summary": "Levieは、AIの生産性はenterprise riskの壁にぶつかったと述べた。一方でWeilは、proofsは単に良くなったのではなく、よりクリーンになったと主張した。Agarwalは、public source codeが新たなprod debuggingになると示唆した。Data Driven NYCは、agentが下のレイヤーを担えば、1人のfounderで会社を回せると主張した。",
+  "builderInsights": [
+    {
+      "id": "levie-2026-04-01",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "AIの生産性は企業のリスクの壁にぶつかる",
+      "suggestedSummary": "彼は、security、compliance、governance、review systemが追いつくまで、agentは企業の生産性を完全には引き出せないと言う。真の制約はmodelの能力ではない。企業が、混乱を招かずにsensitive dataへsoftwareを安全に動かせるかどうかだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2039216522028257549",
+          "text": "The ultimate rate limiter on productivity gains from agents will be on critical stuff like security, compliance, governance, the ability to review the work of the agent, ensure that it’s compatible with regulations, and so on. \n\nWe’ve been living in a little bit of la-la land around how much software enterprises are going to ultimately want to vibe code themselves. The last 48 hours represents a good example of why you won’t take on every risk of every piece of technology in your enterprise. \n\nThere’s no free lunch with AI productivity. Companies will have the build up the systems, processes, and controls for ensuring that agents can’t run around and do anything they want on any data at any time.",
+          "likes": 96,
+          "retweets": 19
+        }
+      ],
+      "publishedAt": "2026-04-01T05:41:20.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "kevinweil-2026-04-01",
+      "source": "X",
+      "authorName": "Kevin Weil",
+      "authorHandle": "kevinweil",
+      "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
+      "title": "Kevin Weil",
+      "suggestedTitle": "AIのproofsは、ただ良くなるだけでなく、より洗練されてきている",
+      "suggestedSummary": "彼は、AIがより多くの未解決問題を解いているだけではないと言う。modelの進化に伴い、proofsそのものがより elegant になっているのだ。これはOpenAIのscience推進にとって良い兆候だ。capabilityの向上が、答えの正解率だけでなく、reasoningの質にも表れ始めている。",
+      "tweets": [
+        {
+          "url": "https://x.com/kevinweil/status/2039200605672284572",
+          "text": "Not only is AI solving more open problems—its proofs are getting more elegant as the models improve https://t.co/rV5oDAf0gy",
+          "likes": 116,
+          "retweets": 7
+        }
+      ],
+      "publishedAt": "2026-04-01T04:38:05.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-04-01",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "public source code が新しい prod debugging になるかもしれない",
+      "suggestedSummary": "彼は、Facebook の昔の「production で bug を直す」発想には、現代版の親戚があると論じる。source code を public にし、software を神聖なものではなく、動的なものとして扱えばいいという考えだ。Facebook/Dropbox の元 CTO による、半分本気で半分挑発的な見方である。要するに、openess が次に当たり前になる奇妙なアイデアなのかを問いかけている。",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2039198010681565665",
+          "text": "Looking back, early Facebook's philosophy of \"fixing bugs in production\" sounded crazy to most people.\n\nMaybe the modern version of that is, just let your source code be public.\n\nIf software is so dynamic, maybe this isn't so crazy.\n\nOr maybe it is totally batshit crazy.",
+          "likes": 15,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-04-01T04:27:46.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpsyoutube-2026-04-01",
+      "source": "Data Driven NYC",
+      "title": "一人で億万長者級のStartupは作れるのか？ — The General Intelligence Company of New York",
+      "url": "https://youtube.com/watch?v=rX3CxlGm-00",
+      "suggestedTitle": "要点: 1人の founder でも、下の層を agent が担えば会社は回る",
+      "suggestedSummary": "要点: General Intelligence Company of New York の founder で、18歳で大学を中退した2度目の CEO である Andrew は、本当のブレークスルーは賢い assistant ではなく、自走する会社だと考えている。彼の逆張りの賭けは、未来は「何でもこなす1つの agent」ではなく、management stack にあるというものだ。頂点に人間、その下に coordinator agents、さらに下に code、support、sales、operations を担う specialized agents を置く構造である。\n\nこの思想は、すでに8,000社以上の startup の仕事の一部を自動化してきた Co-founder の開発から生まれた。だが Andrew は線引きをはっきりさせる。より良い email を書く assistant は company ではない。そこで彼の team は、実際の founder workflow を軸に問題を組み直した。create、sell、support、operate だ。新しい product の Co-founder CTO は、その最初の一歩への答えである。自律型の engineering department が work を計画し、code を書き、preview environment を立ち上げ、browser test を実行し、PR を merge し、local development なしで infrastructure を監視する。\n\nここで最も鋭い発想は、「middle management」層こそが product だという点だ。Andrew は、1つの巨大な model で全 task を置き換えようとしているわけではない。Starcraft や Civilization のロジックを借りて、video game のように agent を指揮している。彼自身、「local development は一切やらないことにした」とまで言う。極端に聞こえるが、実は friction の大きな一群を丸ごと消しているのだと分かれば筋が通る。\n\n社内の数字がそれを示している。400% faster、engineer 1人あたり1日約25 PR、そしてある日は salary より token 代のほうが多い。より大きな thesis は明快だ。company は AI を使うだけでは終わらない。AI を中心に再編されるのだ。",
+      "publishedAt": "2026-03-31T00:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 10,
+    "totalTweets": 15,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-04-01T07:31:37.438Z",
+    "estimatedReadTime": "3 分"
+  }
+}

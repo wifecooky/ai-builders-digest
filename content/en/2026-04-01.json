@@ -1,7 +1,8 @@
 {
   "date": "2026-04-01",
+  "lang": "en",
   "summary": "Levie said AI productivity hit the enterprise risk wall, while Weil argued proofs got cleaner, not just better. Agarwal floated public source code as the new prod debugging, and Data Driven NYC claimed one founder could run a company if agents handled the layers below.",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-04-01",
       "source": "X",
@@ -61,7 +62,9 @@
       ],
       "publishedAt": "2026-04-01T04:27:46.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpsyoutube-2026-04-01",
       "source": "Data Driven NYC",
@@ -73,11 +76,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 10,
     "totalTweets": 15,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-01T07:31:28.074Z"
+    "generatedAt": "2026-04-01T07:31:28.255Z",
+    "estimatedReadTime": "3 min"
   }
 }

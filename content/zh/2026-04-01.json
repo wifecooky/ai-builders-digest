@@ -1,0 +1,88 @@
+{
+  "date": "2026-04-01",
+  "lang": "zh",
+  "summary": "Levie 说，AI 的生产力已经撞上了企业风险这堵墙；而 Weil 认为，proofs 不只是变得更好，而是更干净了。Agarwal 提出，public source code 可能会成为新的 prod debugging；Data Driven NYC 则认为，只要 agents 负责底层那些层级，一个 founder 就能把公司跑起来。",
+  "builderInsights": [
+    {
+      "id": "levie-2026-04-01",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "AI productivity 碰上了 enterprise risk 的天花板",
+      "suggestedSummary": "他认为，agents 想真正释放 enterprise productivity，前提是 security、compliance、governance 和 review systems 得先跟上。真正卡住的不是 model 能力，而是公司能不能安全地让 software 去处理敏感 data，还不把局面搞乱。",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2039216522028257549",
+          "text": "The ultimate rate limiter on productivity gains from agents will be on critical stuff like security, compliance, governance, the ability to review the work of the agent, ensure that it’s compatible with regulations, and so on. \n\nWe’ve been living in a little bit of la-la land around how much software enterprises are going to ultimately want to vibe code themselves. The last 48 hours represents a good example of why you won’t take on every risk of every piece of technology in your enterprise. \n\nThere’s no free lunch with AI productivity. Companies will have the build up the systems, processes, and controls for ensuring that agents can’t run around and do anything they want on any data at any time.",
+          "likes": 96,
+          "retweets": 19
+        }
+      ],
+      "publishedAt": "2026-04-01T05:41:20.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "kevinweil-2026-04-01",
+      "source": "X",
+      "authorName": "Kevin Weil",
+      "authorHandle": "kevinweil",
+      "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
+      "title": "Kevin Weil",
+      "suggestedTitle": "AI 证明不只是更强了，也更干净了",
+      "suggestedSummary": "他说，AI 不只是能解开更多开放问题，随着模型变强，证明本身也变得更优雅了。这对 OpenAI 的 science 方向是个不错的信号：能力提升，开始体现在推理质量上，而不只是答案命中率。",
+      "tweets": [
+        {
+          "url": "https://x.com/kevinweil/status/2039200605672284572",
+          "text": "Not only is AI solving more open problems—its proofs are getting more elegant as the models improve https://t.co/rV5oDAf0gy",
+          "likes": 116,
+          "retweets": 7
+        }
+      ],
+      "publishedAt": "2026-04-01T04:38:05.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-04-01",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "公开 source code 可能会成为新的 prod debugging",
+      "suggestedSummary": "他认为，Facebook 以前那种“在 production 里修 bug”的思路，今天有了个现代版：把 source code 直接公开，把 software 当成动态的东西，而不是神圣不可碰的东西。这是这位前 Facebook/Dropbox CTO 半认真、半挑衅的说法。核心问题其实很简单：开放，会不会就是下一个先显得怪、最后却变成常识的点子。",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2039198010681565665",
+          "text": "Looking back, early Facebook's philosophy of \"fixing bugs in production\" sounded crazy to most people.\n\nMaybe the modern version of that is, just let your source code be public.\n\nIf software is so dynamic, maybe this isn't so crazy.\n\nOr maybe it is totally batshit crazy.",
+          "likes": 15,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-04-01T04:27:46.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpsyoutube-2026-04-01",
+      "source": "Data Driven NYC",
+      "title": "一个人能不能做出一家十亿美元 Startup？—— The General Intelligence Company of New York",
+      "url": "https://youtube.com/watch?v=rX3CxlGm-00",
+      "suggestedTitle": "结论：如果下层由 agent 接管，一个 founder 也能把公司跑起来。",
+      "suggestedSummary": "结论很直接：Andrew 是 General Intelligence Company of New York 的 founder，也是第二次当 CEO。他 18 岁就从 college 退学。他觉得真正的突破，不是更聪明的 assistant，而是一个能自己运转的公司。\n\n他的反直觉判断是，未来不是“一个 agent 包打天下”，而是一套 management stack：最上层是人，中间是 coordinator agents，底下再分成负责 code、support、sales 和 operations 的 specialized agents。\n\n这个想法来自 Co-founder。这个产品已经帮 8,000 多家 startup 自动化了部分工作。但 Andrew 画了条很清楚的线：会写更好的 email 的 assistant，不等于一家公司。所以他们把问题按真正的 founder workflow 重做了一遍：create、sell、support、operate。新产品 Co-founder CTO，就是对第一步的回答——一个 autonomous engineering department。它能自己规划工作、写 code、启动 preview environments、跑 browser tests、合并 PRs，还能盯着 infrastructure，整个过程不需要本地开发。\n\n这里最狠的点，是“middle management”这一层本身就是产品。Andrew 不是想用一个大模型替掉所有任务，而是在像打游戏一样调度 agents，借的是 Starcraft 和 Civilization 的思路。他甚至说过：“we decided we didn’t want to do local development at all.” 这话听起来很激进，但你想清楚就会发现，它直接干掉了一整类摩擦。\n\n他们内部数据也很说明问题：速度快了 400%，平均每个 engineer 每天能出大约 25 个 PRs，有些日子花在 tokens 上的钱比工资还多。更大的判断也很直接：公司不会只是用 AI，而是会围绕 AI 重新组织。",
+      "publishedAt": "2026-03-31T00:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 10,
+    "totalTweets": 15,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-04-01T07:31:32.930Z",
+    "estimatedReadTime": "3 分钟"
+  }
+}
