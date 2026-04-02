@@ -1,7 +1,8 @@
 {
   "date": "2026-04-02",
-  "summary": "Steinberger called plan mode training wheels, while Thariq gave Claude Code a mouse-friendly renderer and Cat Wu showed sessions jumping phone-to-laptop. Masad framed Replit as an OS for agents, Rauch said Vercel signups compounded fast, and Anthropic’s infra tweaks swung coding scores by 6 points.",
-  "items": [
+  "lang": "zh",
+  "summary": "Steinberger 把 plan mode 叫作“训练轮”。Thariq 给 Claude Code 做了个更适合鼠标操作的 renderer。Cat Wu 还演示了 session 怎么从手机无缝跳到笔记本。\n\nMasad 把 Replit 定位成 agent 的 OS。Rauch 说 Vercel 的注册增长很快，像复利一样往上叠。Anthropic 的 infra 调整，直接把 coding 分数拉高了 6 分。",
+  "builderInsights": [
     {
       "id": "steipete-2026-04-02",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Plan mode is training wheels, not the workflow",
-      "suggestedSummary": "He says he never uses plan mode, and thinks it was added to Codex mostly for people who are used to Claude-style workflows and need help changing habits. His take is simple: stop over-structuring it and just talk to the agent.",
+      "suggestedTitle": "Plan mode 只是辅助轮，不是工作流",
+      "suggestedSummary": "他说自己从不用 plan mode，觉得 Codex 加这个功能，主要是给习惯 Claude 风格 workflow 的人一个过渡，帮他们改掉老习惯。核心观点很简单：别把它搞得太复杂，直接跟 agent 说话就行。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2039551079621566812",
@@ -35,8 +36,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code gets a mouse-friendly renderer",
-      "suggestedSummary": "They rewrote the Claude Code renderer around a virtual viewport, so you can use your mouse while the prompt stays pinned to the bottom. It’s experimental, but the point is clear: Anthropic is sanding down the rough edges with a bunch of small UX wins people have been asking for.",
+      "suggestedTitle": "Claude Code 加了个更适合鼠标的 renderer",
+      "suggestedSummary": "他们把 Claude Code 的 renderer 重写成了基于 virtual viewport 的方案。这样你就能用鼠标操作，同时 prompt 还能固定在底部。现在还是 experimental，但意思很明确：Anthropic 正在用一堆小而实用的 UX 改进，把大家一直吐槽的边角问题一点点磨平。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2039453692592873587",
@@ -55,8 +56,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit is turning into an OS for agents",
-      "suggestedSummary": "He says Agent 4 has pushed Replit into something closer to an operating system: endlessly customizable with skills. He also argues we’re in an unprecedented era of rapid wealth creation — the kind of macro take founders love, but the OS claim is the more concrete product shift.",
+      "suggestedTitle": "Replit 正在变成 agent 的 OS",
+      "suggestedSummary": "他说，Agent 4 已经把 Replit 推向了更像操作系统的形态：可以靠 skills 无限定制。他还认为，我们正处在一个前所未有的快速财富创造时代——这是 founders 很爱讲的宏观判断，但“OS”这个说法更像是实打实的产品转向。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2039552681493336250",
@@ -81,8 +82,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Vercel signups are compounding fast",
-      "suggestedSummary": "Vercel signups are growing 52% month over month, after already climbing at 23% and then 17%. That’s a pretty loud signal that the platform’s growth is accelerating, not just staying hot.",
+      "suggestedTitle": "Vercel 注册量在快速复利增长",
+      "suggestedSummary": "Vercel 的 signup 环比增长 52%。而且前面已经分别涨了 23% 和 17%。这说明平台的增长在加速，不只是一直保持热度。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2039493013043626427",
@@ -101,8 +102,8 @@
       "authorHandle": "_catwu",
       "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "title": "Cat Wu",
-      "suggestedTitle": "Claude Code sessions jump from phone to laptop",
-      "suggestedSummary": "Claude Code now lets you start an idea on Claude mobile and teleport the session straight into your local CLI later. It’s a neat workflow pitch from Anthropic: mobile for capture, desktop for real work, with the handoff built in.",
+      "suggestedTitle": "Claude Code session 从手机直接跳到 laptop",
+      "suggestedSummary": "现在你可以先在 Claude mobile 上把想法记下来，之后再把这个 session 直接带到本地 CLI 里继续。Anthropic 这套 workflow 很清楚：手机负责捕捉想法，desktop 负责真正干活，中间的 handoff 也已经内置好了。",
       "tweets": [
         {
           "url": "https://x.com/_catwu/status/2039421527935033854",
@@ -121,8 +122,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Linear Agent turns code into instant product answers",
-      "suggestedSummary": "If you're a PM, sales, or support, you shouldn't have to ping an engineer just to figure out how the app works. He says Linear Agent can read the code and answer things like default settings for users, so non-engineers can self-serve instead of interrupting the team.",
+      "suggestedTitle": "Linear Agent 把 code 变成即时的产品答案",
+      "suggestedSummary": "如果你是 PM、sales 或 support，就不该为了搞清楚 app 怎么工作，还得去 ping 工程师。他说 Linear Agent 能直接读 code，回答像用户默认设置这类问题。这样非工程师就能自己查，不用老是打断团队。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2039530536050274648",
@@ -153,8 +154,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "SaaS isn’t dead — it’s becoming agent-native",
-      "suggestedSummary": "He says Linear is the template: keep the core mission, stop chasing pointless AI gimmicks, and make agents first-class users alongside humans. The big shift is that software now has to manage AI work, not just human workflows — which is why tools like Linear are turning into the control plane for agents.",
+      "suggestedTitle": "SaaS 没死，只是在变成 agent-native",
+      "suggestedSummary": "他说 Linear 就是模板：守住核心使命，别再追那些没意义的 AI 花活，把 agent 和人一样当成一等用户。真正的变化是，软件现在不只是管理人的工作流，还得管理 AI 的工作。也正因为这样，像 Linear 这样的工具正在变成 agent 的 control plane。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2039357945310277717",
@@ -185,8 +186,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Agents that do your to-dos, not just track them",
-      "suggestedSummary": "She’s pitching OpenClaw as a real task manager: you dump a quick task into chat, and the agent actually does it, then sends you a morning report on what’s finished and what still needs you. She also launched a \"Follow builders\" skill that curates 25 AI-builder accounts and podcasts into a personalized daily newsletter, already pulling 2k+ GitHub stars.",
+      "suggestedTitle": "能真正帮你做待办的 agent，不只是帮你记着",
+      "suggestedSummary": "她把 OpenClaw 定位成一个真正的任务管理器：你把一个简单任务丢进 chat，agent 会直接帮你做完，然后早上给你一份报告，告诉你哪些已经完成，哪些还需要你处理。她还推出了一个“Follow builders” skill，把 25 个 AI-builder 账号和 podcast 整理成个性化的每日 newsletter，GitHub stars 已经拿到 2k+。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2039599038358814961",
@@ -209,47 +210,51 @@
       ],
       "publishedAt": "2026-04-02T07:01:19.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpsyoutube-2026-04-02",
       "source": "Latent Space",
-      "title": "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
+      "title": "Mistral: Voxtral TTS、Forge、Leanstral 和 Mistral 4 — 与 Pavan Kumar Reddy 和 Guillaume Lample 对谈",
       "url": "https://youtube.com/watch?v=SUjA25ijcNs",
-      "suggestedTitle": "The Takeaway: Mistral bets on specialized, efficient voice models over bloated generalists.",
-      "suggestedSummary": "The Takeaway: Pavan Kumar Reddy, who leads audio research at Mistral, and chief scientist Guillaume Lample are pushing a very Mistral idea: don’t build one giant model that kind of does everything—build small, sharp systems that crush one job and fit real production constraints. Their new Voxtral TTS is their first speech-generation model, but it sits on top of a broader audio stack that already covers transcription, real-time ASR, and fine-tuning for customer data.\n\nThe contrarian point is simple: most companies are leaving money on the table by using closed models on their own data. As they put it, customers have “trillions of tokens” of domain knowledge that never make it into a public model. Mistral’s pitch is to bring that data inside the model, not just stuff it into context windows forever. That’s where their Forge platform comes in: on-prem or private-cloud deployment, continued pretraining, SFT, RL, and custom tuning for niche needs like medical jargon, noisy environments, or even offline in-car voice systems.\n\nOn the model side, Voxtral is interesting because it’s not just another TTS wrapper. Mistral built a new neural audio codec and paired it with an autoregressive flow-matching architecture. That matters because audio is messy: the same word can be spoken in many valid ways, and averaging those possibilities produces mush. Flow matching gives them a cleaner way to model that distribution while keeping latency low enough for streaming use cases. They’re already thinking in steps toward full duplex voice agents—models that can listen and speak naturally at the same time—but they’re not pretending the field is solved. Their philosophy is more pragmatic: ship the most useful piece first, make it efficient, then keep tightening the stack.",
+      "suggestedTitle": "核心结论：Mistral 选择押注专用、高效的 voice model，而不是臃肿的通用大模型。",
+      "suggestedSummary": "核心结论：Mistral 的 audio research 负责人 Pavan Kumar Reddy 和 chief scientist Guillaume Lample，正在推进一个很 Mistral 的思路：别做一个什么都能沾一点边的巨型 model。要做就做小而准的系统，狠狠干好一件事，还得能满足真实 production 约束。新的 Voxtral TTS 是他们第一款 speech-generation model，但它其实建立在更完整的 audio stack 之上，已经覆盖 transcription、real-time ASR，以及针对 customer data 的 fine-tuning。\n\n这个反直觉的点很简单：很多公司把自己的 data 交给 closed model，用法其实是在把钱留在桌上。按他们的说法，客户手里有“trillions of tokens”的 domain knowledge，但这些内容从来没进过 public model。Mistral 的思路不是把这些 data 永远塞进 context window，而是把它们真正带进 model 里。这也是 Forge platform 的价值所在：支持 on-prem 或 private-cloud deployment、continued pretraining、SFT、RL，以及面向细分需求的 custom tuning，比如 medical jargon、嘈杂环境，甚至离线车载 voice system。\n\n从 model 角度看，Voxtral 的有趣之处不只是又一个 TTS wrapper。Mistral 自己做了新的 neural audio codec，并配上 autoregressive flow-matching architecture。这个设计很关键，因为 audio 本来就很乱：同一个词可以有很多种都说得通的方式，直接把这些可能性平均掉，最后只会变成一团糊。Flow matching 让他们能更干净地建模这种分布，同时把 latency 压到足够低，能跑 streaming use case。他们已经在往 full duplex voice agent 的方向走——也就是让 model 能一边听一边自然地说。但他们没有假装这个领域已经成熟了。更务实的做法是：先把最有用的那一块做出来，做到高效，然后继续把整个 stack 往紧里收。",
       "publishedAt": "2026-03-30T00:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-02",
       "source": "Anthropic Engineering",
-      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "title": "agentic coding evals 里的基础设施噪声有多大",
       "url": "https://www.anthropic.com/engineering/infrastructure-noise",
       "author": null,
-      "suggestedTitle": "Anthropic: Infrastructure can swing agentic coding scores by 6 points",
-      "suggestedSummary": "Anthropic says agentic coding benchmarks are far noisier than leaderboard gaps suggest: infrastructure choices alone can move scores by as much as 6 percentage points on Terminal-Bench 2.0. In internal tests, the gap between the most- and least-resourced setups was 6 points (p < 0.01), and strict resource enforcement produced 5.8% infra failures versus 0.5% when uncapped. The company found that Kubernetes enforcement details mattered: treating per-task resources as both a floor and a hard ceiling caused avoidable OOM kills, while the benchmark’s own leaderboard uses a more lenient sandbox that allows temporary overallocation.\n\nThe key takeaway is that resource headroom changes what the eval measures. Up to about 3x the benchmark’s recommended resources, extra capacity mainly reduced infra noise without materially changing scores; beyond that, more memory and CPU started helping agents solve tasks they couldn’t before. Anthropic saw the same pattern on SWE-bench, though smaller: scores rose monotonically with RAM, reaching only a 1.54-point lift at 5x.\n\nTheir recommendation: benchmark maintainers should publish both guaranteed allocation and hard kill thresholds, and users should treat sub-3-point leaderboard differences with skepticism unless the eval setup is documented and matched. As the post puts it, “a 2-point lead on a leaderboard might reflect a genuine capability difference, or it might reflect that one eval ran on beefier hardware.”",
+      "suggestedTitle": "Anthropic：基础设施能让 agentic coding 分数上下浮动 6 分",
+      "suggestedSummary": "Anthropic 说，agentic coding benchmark 的噪声比 leaderboard 上看起来大得多：光是基础设施配置不同，Terminal-Bench 2.0 的分数就能差到 6 个百分点。在内部测试里，资源最充足和最紧张的 setup 之间差了 6 分（p < 0.01）。而且严格限制资源时，infra failure 率是 5.8%，不限制时只有 0.5%。公司还发现，Kubernetes 的限制方式很关键：如果把每个 task 的资源既当下限又当硬上限，就会触发很多本可避免的 OOM kill；但 benchmark 自己的 leaderboard 用的是更宽松的 sandbox，允许短时间超额使用资源。\n\n核心结论很直接：资源余量会改变 eval 到底在测什么。大概在 benchmark 推荐资源的 3x 以内，额外资源主要是在减少 infra noise，对分数本身影响不大；但超过这个范围后，更多 memory 和 CPU 开始真的帮 agent 解出原本解不出来的 task。Anthropic 在 SWE-bench 上也看到了类似趋势，只是幅度更小：分数会随着 RAM 增加而稳步上升，到了 5x 也只提升了 1.54 分。\n\n他们的建议是：benchmark 维护者应该同时公布 guaranteed allocation 和 hard kill threshold；用户则应该对 leaderboard 上不到 3 分的差距保持怀疑，除非 eval setup 有清楚文档，而且双方完全对齐。文中说得很直白：leaderboard 上 2 分的领先，可能真的是能力差异，也可能只是因为某次 eval 跑在更强的硬件上。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpswwwanth-2026-04-02",
       "source": "Anthropic Engineering",
-      "title": "Harness design for long-running application development",
+      "title": "长周期应用开发的 harness 设计",
       "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
       "author": null,
-      "suggestedTitle": "Anthropic’s 3-agent harness boosts long-running coding",
-      "suggestedSummary": "Anthropic says it built a GAN-inspired, three-agent harness that materially improves both frontend design and autonomous app development. The system splits work into a planner, generator, and evaluator, using separate grading criteria and Playwright-based testing so the model can be judged by another agent rather than itself. For design, the team turned subjective taste into concrete criteria—design quality, originality, craft, and functionality—and found that separating generation from evaluation pushed Claude away from generic “AI slop” toward more distinctive outputs. One example: a Dutch art museum site evolved from a polished but conventional landing page into a 3D room-based experience by the 10th iteration.\n\nFor coding, the harness expands a 1–4 sentence prompt into a full spec, then builds in sprints with contract-based handoffs and QA checks. In a retro game maker benchmark, a solo run took 20 minutes and cost $9, while the full harness ran 6 hours and cost $200—over 20x more expensive, but far better. The solo app was broken; the harness version delivered a more polished interface, richer editors, built-in AI features, and working gameplay. As the post puts it, “the evaluator kept the implementation in line with the spec.”",
+      "suggestedTitle": "Anthropic 的 3-agent harness 提升了长周期 coding",
+      "suggestedSummary": "Anthropic 说，它做了一个受 GAN 启发的三 agent harness，能明显提升 frontend design 和 autonomous app development。这个系统把工作拆成 planner、generator 和 evaluator，用独立的 grading criteria 和基于 Playwright 的 testing，让 model 由另一个 agent 来评判，而不是自己评自己。\n\n在 design 上，团队把很主观的审美拆成了具体标准：design quality、originality、craft 和 functionality。结果发现，把 generation 和 evaluation 分开后，Claude 不再只产出那种千篇一律的 “AI slop”，而是更有辨识度的输出。一个例子是：一个荷兰艺术博物馆网站，到了第 10 轮迭代，从一个精致但中规中矩的 landing page，进化成了一个基于 3D room 的体验。\n\n在 coding 上，这个 harness 会先把一个 1–4 句的 prompt 扩展成完整 spec，然后按 sprint 来做，配上 contract-based handoffs 和 QA checks。在一个 retro game maker benchmark 里，单独跑一遍要 20 分钟、花 $9；完整 harness 要跑 6 小时、花 $200。贵了 20 多倍，但效果好得多。单独生成的 app 是坏的；harness 版本则有更精致的界面、更丰富的 editor、内置 AI 功能，而且 gameplay 也能正常工作。原文说得很直接：\"the evaluator kept the implementation in line with the spec\"。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-04-02",
       "source": "Claude Blog",
-      "title": "Claude now creates interactive charts, diagrams and visualizations",
+      "title": "Claude 现在会生成交互式图表、图解和可视化",
       "url": "https://claude.com/blog/claude-builds-visuals",
       "author": null,
-      "suggestedTitle": "Claude adds interactive charts and diagrams in chat",
-      "suggestedSummary": "Claude now creates interactive charts, diagrams, and visualizations directly inside conversations to help users understand topics as they’re being discussed. Unlike Claude’s existing Artifacts, which are permanent, shareable documents in a side panel, these visuals are temporary, appear inline, and update as the conversation changes. Users can also request them explicitly with prompts like “draw this as a diagram” or “visualize how this might change over time.”\n\nExamples include an interactive compound-interest curve and a clickable periodic table visualization. Claude will decide when to generate a visual automatically, and once it does, users can ask for adjustments or deeper exploration. The company says the feature is on by default and available on all plan types.\n\nThis launch fits into a broader push to make Claude’s responses more structured and useful: earlier this year, recipes started appearing in ingredient-and-steps format, weather requests began returning visuals, and Claude gained direct interaction with apps like Figma, Canva, and Slack. As the post puts it, “These charts, diagrams and visualizations serve a different purpose: Claude builds them to aid users’ understanding as it’s discussing the topic at hand.”",
+      "suggestedTitle": "Claude 在 chat 里加入交互式图表和图解",
+      "suggestedSummary": "Claude 现在可以在对话里直接生成交互式图表、图解和可视化，帮助用户在讨论过程中更快看懂话题。和 Claude 现有的 Artifacts 不同，后者是放在侧边栏里的永久、可分享文档；这些可视化是临时的、内联显示的，而且会随着对话变化而更新。用户也可以直接用 prompt 明确要求，比如“把这个画成 diagram”或者“把它随时间变化的趋势可视化”。\n\n示例包括一个可交互的复利曲线和一个可点击的 periodic table 可视化。Claude 会自己判断什么时候自动生成图表；一旦生成，用户还可以继续让它调整，或者往更深处展开。公司表示，这个功能默认开启，所有 plan 都能用。\n\n这次发布也延续了 Claude 往更结构化、更实用方向走的思路：今年早些时候，recipe 开始以 ingredient 和 steps 的格式出现，天气请求开始返回可视化，Claude 也能直接和 Figma、Canva、Slack 这类 app 交互。原文里说得很直接：这些 charts、diagrams 和 visualizations 的作用不一样，Claude 生成它们，是为了在讨论当前话题时帮助用户理解。",
       "publishedAt": "Mar 12, 2026",
       "category": "blogUpdates"
     }
@@ -259,6 +264,7 @@
     "totalTweets": 27,
     "totalPodcasts": 1,
     "totalBlogs": 5,
-    "generatedAt": "2026-04-02T07:29:58.100Z"
+    "generatedAt": "2026-04-02T07:30:10.729Z",
+    "estimatedReadTime": "6 分钟"
   }
 }

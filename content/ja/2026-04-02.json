@@ -1,0 +1,270 @@
+{
+  "date": "2026-04-02",
+  "lang": "ja",
+  "summary": "Steinbergerはplan modeをtraining wheelsと呼んだ。ThariqはClaude Codeにmouse-friendlyなrendererを与え、Cat Wuはsessionsがphoneからlaptopへ飛ぶ様子を示した。MasadはReplitをagents向けのOSと位置づけ、RauchはVercelのsignupsが急速に複利的に伸びたと述べた。Anthropicのinfra調整はcoding scoresを6ポイント動かした。",
+  "builderInsights": [
+    {
+      "id": "steipete-2026-04-02",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "plan mode は training wheels であって、workflow ではない",
+      "suggestedSummary": "彼は plan mode を一度も使わないと言う。そして、Codex に追加されたのは主に Claude 風の workflow に慣れた人向けで、習慣を変える助けが必要だからだと見ている。彼の考えは単純だ。過度に構造化するのをやめて、agent にそのまま話しかければいい。",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2039551079621566812",
+          "text": "I never use plan mode. \n\nThe main reason this was added to codex is for claude-pilled people who struggle with changing their habits.\n\njust talk with your agent. https://t.co/72fL0alajL",
+          "likes": 1726,
+          "retweets": 91
+        },
+        {
+          "url": "https://x.com/steipete/status/2039496525282496861",
+          "text": "See you there! https://t.co/XjfDQ6s8ri",
+          "likes": 84,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-04-02T03:50:45.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-04-02",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
+      "title": "Thariq",
+      "suggestedTitle": "Claude Codeがマウス対応のrendererを獲得",
+      "suggestedSummary": "Claude Codeのrendererをvirtual viewportを軸に書き直した。これでpromptを下部に固定したまま、mouseを使える。experimentalではあるが、狙いは明快だ。Anthropicは、ユーザーが求めてきた小さなUX改善を積み重ね、粗い部分を削っている。",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2039453692592873587",
+          "text": "not an April Fools joke, we rewrote the Claude Code renderer to use a virtual viewport\n\nyou can use your mouse, the prompt input stays at the bottom, and a lot more small UX wins people have been asking for\n\nit's experimental so give us your feedback https://t.co/VqXbsfSlTJ",
+          "likes": 1483,
+          "retweets": 54
+        }
+      ],
+      "publishedAt": "2026-04-01T21:23:46.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-04-02",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "ReplitはagentのためのOSになりつつある",
+      "suggestedSummary": "彼は、Agent 4によってReplitがOSにより近いものへと進化したと言う。skillsで無限にカスタマイズできるからだ。さらに、今は前例のないスピードで富が生まれる時代だとも主張する。これはfounderが好むマクロな見方だが、OSという主張のほうが、より具体的なproductの変化だ。",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2039552681493336250",
+          "text": "We’re in an unprecedented era of rapid wealth creation. https://t.co/P6qoQrvTEn",
+          "likes": 573,
+          "retweets": 47
+        },
+        {
+          "url": "https://x.com/amasad/status/2039429759344730549",
+          "text": "Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills. https://t.co/xqEOEdHmEJ",
+          "likes": 145,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-04-02T03:57:06.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-04-02",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "Vercelのsignupは急速に複利的に伸びている",
+      "suggestedSummary": "Vercelのsignupは前月比52%増だ。すでに23%、17%と伸びていたところから、さらに加速している。これは、platformの成長が単に高止まりしているのではなく、明らかに勢いを増している強いシグナルだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2039493013043626427",
+          "text": "Vercel signups are growing at 52% MoM\n(up from 23%, up from 17%)",
+          "likes": 568,
+          "retweets": 16
+        }
+      ],
+      "publishedAt": "2026-04-02T00:00:00.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "catwu-2026-04-02",
+      "source": "X",
+      "authorName": "Cat Wu",
+      "authorHandle": "_catwu",
+      "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "Cat Wu",
+      "suggestedTitle": "Claude CodeのセッションをスマホからノートPCへ引き継げるようになった",
+      "suggestedSummary": "Claude Codeでは、Claude mobileで思いついたアイデアを始めて、あとでそのセッションをそのままローカルCLIへ移せるようになった。Anthropicらしい、なかなか筋のいいワークフロー提案だ。スマホはアイデアの記録用。デスクトップは本番作業用。そして、その受け渡しが最初から組み込まれている。",
+      "tweets": [
+        {
+          "url": "https://x.com/_catwu/status/2039421527935033854",
+          "text": "I love using Claude Code on Claude mobile app to fire off ideas on the go, then pick them up on my laptop later. We support easily teleporting sessions to your local CLI.\n\nDownload link for Claude iOS and Android apps: https://t.co/KkIkUWTKzL https://t.co/xs4jQQXFBW",
+          "likes": 143,
+          "retweets": 12
+        }
+      ],
+      "publishedAt": "2026-04-01T19:15:57.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-04-02",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "Linear Agentがコードを即座に製品回答へ変える",
+      "suggestedSummary": "PM、sales、supportなら、アプリの仕組みを調べるためだけにengineerへ連絡する必要はない。彼によれば、Linear Agentはcodeを読んで、ユーザーのdefault settingsのようなことまで答えられる。だから非エンジニアは、チームの手を止めずにself-serveできる。",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2039530536050274648",
+          "text": "Doona is the Notion of strollers https://t.co/nAAanA98vM",
+          "likes": 10,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2039528627281240106",
+          "text": "LOUDER https://t.co/PRWbD9dHji",
+          "likes": 49,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2039490349941526770",
+          "text": "If you're a PM or on sales or support, how many times have you needed to bother an engineer to find out exactly how the app works? \n\nI wanted to know exactly what the default setting was for a personal configuration for all of our users. \n\nYou never need to ask an engineer again for this kind of thing, because Linear Agent can just read the code and tell you.",
+          "likes": 45,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-04-02T02:29:07.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-04-02",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "SaaSは死んでいない。agent-nativeになりつつある",
+      "suggestedSummary": "彼はLinearをその模範だと言う。中核のミッションはそのままに、意味のないAIの見せかけ機能を追うのをやめる。そして、humanと並ぶ第一級のユーザーとしてagentを扱うべきだと主張する。大きな変化は、softwareがもはやhumanのworkflowだけでなく、AIの仕事も管理しなければならない点にある。だからこそ、Linearのようなツールはagentのcontrol planeへと変わりつつある。",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2039357945310277717",
+          "text": "@linear YouTube: https://t.co/vsvM6vT7Qx\n\nSpotify: https://t.co/EGgmmaMHHM",
+          "likes": 5,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/danshipper/status/2039357127903350960",
+          "text": "SaaS isn’t dead, it just needs to become agent-native. Linear (@linear) is a great example of how:\n\nThey pivoted the product to be used by both humans and agents, and that has made them one of the premier software tools in the agent-native era. \n\nI had Linear’s cofounder and CEO @karrisaarinen on @every's AI & I to talk about how a product management tool for human software developers became an agent-native tool—and how Linear’s trajectory reveals a bright future for SaaS businesses:\n- Speed means decisions matter more, not less. AI makes it easy to have an idea and build it without considering whether its existence is justified. When ChatGPT was released, SaaS companies were launching their own chatbots left, right, and center. Instead of jumping on the bandwagon, Linear stopped to consider whether the application was useful. (It wasn’t.) \n- Just because the technology has changed doesn’t mean your mission should. Karri attributes Linear’s success to never losing sight of what matters: helping teams develop great software. Instead of chasing trends, Linear focused on understanding how AI was impacting its customers’ workflows—and updating its product accordingly.\n- Agents are now first-class users. Linear never tried to change what it was or did well; it just expanded the user base. Companies can now kick off agents inside Linear, manage them, and track what they're working on alongside the humans on the team, which explains why Codex, Coinbase, and Brex all run their agents on Linear. \n\nThis is a must watch for anyone interested in how an agent-native SaaS company operates. \n\nWatch below!\n\nTimestamps:\nIntroduction and how Every first discovered Linear: 00:00:39\nWhy Linear waited to ship AI features instead of rushing to chatbots: 00:02:00\nLinear's agent platform and becoming the system that guides AI agents: 00:05:06\nWhy \"SaaS is dead\" is a simplistic narrative: 00:07:42\nHow Linear adopted AI coding tools internally: 00:12:18\nAI's impact on product building workflows—speed versus thoughtfulness: 00:17:45\nThe value of conceptual work and thinking before shipping: 00:22:18\nHow AI is reshaping Linear's product strategy: 00:29:30\nDemo: Linear's agent skills, shared context, and code review workflow: 00:37:18\nThe future of product development and the enduring role of human judgment: 00:47:48",
+          "likes": 88,
+          "retweets": 12
+        },
+        {
+          "url": "https://x.com/danshipper/status/2039344530990752076",
+          "text": "@every @NotionHQ technically this camp is sponsored by Notion  \n\nbut ive been a fan and power user since i met @ivanhzhao in 2018 and he showed me Notion 2.0   \n\ntbh i feel like notion was made for this moment in AI—a pleasure for us to work with them https://t.co/bGfKvX8cwF",
+          "likes": 3,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-04-01T15:03:18.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-04-02",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "追跡するだけでなく、やることを片付ける agents",
+      "suggestedSummary": "彼女は OpenClaw を、実際のタスク管理ツールとして売り込んでいる。chat に手短な task を投げ込むと、agent が実際にそれをこなす。そして朝には、終わったことと、まだ自分が対応すべきことをまとめた report が届く。さらに「Follow builders」skill も公開した。25 の AI-builder アカウントと podcasts を選別し、個人向けの daily newsletter にまとめるものだ。すでに GitHub stars は 2k+ を集めている。",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2039599038358814961",
+          "text": "Just had an aha moment with OpenClaw.\n\nI'm replacing my to-do list with \"braindumping to-dos to OpenClaw\". Whenever I think of a quick task, I just message it to OpenClaw\n\nNot only will it record those tasks, but it will actually DO those tasks\n\nEvery morning it sends me a report of what tasks are already done, and highlights the ones that need my attention\n\nThis might actually be a to-do management system that works",
+          "likes": 6,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2039368921959293126",
+          "text": "Skill: https://t.co/o33m9N8yYV",
+          "likes": 23,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2039368866741277074",
+          "text": "Introducing the \"Follow builders\" skill: the best way to stay on top of the insane happenings in AI\n\nI carefully curated 25 X accounts & podcasts that share the highest-quality, first-hand insights on AI (by builders from OpenAI, Anthropic, Google, OpenClaw, Replit, Vercel, Cursor...)\n\nYour OpenClaw/agent can remix my central feed & send you a personalized daily newsletter in whatever channel you like\n\nAlready widely used with 2k+ stars on GitHub; link below",
+          "likes": 274,
+          "retweets": 21
+        }
+      ],
+      "publishedAt": "2026-04-02T07:01:19.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpsyoutube-2026-04-02",
+      "source": "Latent Space",
+      "title": "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
+      "url": "https://youtube.com/watch?v=SUjA25ijcNs",
+      "suggestedTitle": "要点: Mistralは肥大化した汎用モデルより、特化した効率的な音声モデルに賭ける",
+      "suggestedSummary": "要点: Mistralのaudio researchを率いるPavan Kumar Reddyとchief scientistのGuillaume Lampleは、いかにもMistralらしい発想を押し進めている。何でもそこそこできる巨大モデルを作るのではない。小さく鋭いsystemを作り、1つの仕事を圧倒的にこなし、実運用の制約に収まるようにするのだ。新しいVoxtral TTSは同社初のspeech-generation modelだが、その背後には、すでにtranscription、real-time ASR、customer data向けfine-tuningまでカバーする、より広いaudio stackがある。\n\n反主流の主張は単純だ。多くの企業は、自社データにclosed modelsを使うことで、金を取りこぼしている。彼らの言い方を借りれば、顧客は「trillions of tokens」に及ぶdomain knowledgeを持っているのに、それがpublic modelに入ることはない。Mistralの狙いは、そのデータをcontext windowsに延々と詰め込むことではなく、modelの中に取り込むことだ。そこで出てくるのがForge platformである。on-premまたはprivate-cloud deployment、continued pretraining、SFT、RL、そしてmedical jargon、noisy environments、さらにはoffline in-car voice systemsのようなニッチ要件向けのcustom tuningまで担う。\n\nmodel面でも、VoxtralはただのTTS wrapperではない。Mistralは新しいneural audio codecを作り、autoregressive flow-matching architectureと組み合わせた。audioは厄介だからだ。同じ単語でも、妥当な発話の仕方は無数にある。その可能性を平均すると、出来上がるのは濁ったものになる。flow matchingなら、その分布をよりきれいにモデル化できる。しかもstreaming use casesに十分な低latencyも保てる。彼らはすでに、聞くのと話すのを同時に自然にこなすfull duplex voice agentsへ向けた段階も見据えている。ただし、この分野が解決済みだとは装わない。より実践的な哲学だ。まず最も役立つ部分を出す。効率を高める。そしてstackを少しずつ締め上げていく。",
+      "publishedAt": "2026-03-30T00:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-04-02",
+      "source": "Anthropic Engineering",
+      "title": "agentic coding evalsにおける infrastructure noise の定量化",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "author": null,
+      "suggestedTitle": "Anthropic: infrastructure は agentic coding scores を6ポイント動かしうる",
+      "suggestedSummary": "Anthropicによれば、agentic coding benchmarks は leaderboard の差が示すよりはるかに noisy だ。infrastructure の選択だけで、Terminal-Bench 2.0 の score は最大6 percentage points 動く。社内テストでは、最もリソースが豊富な setup と最も乏しい setup の差は6 points だった（p < 0.01）。また、厳格な resource enforcement では infra failures が5.8%だったのに対し、上限なしでは0.5%だった。\n\n同社が見つけたのは、Kubernetes の enforcement の細部が重要だという点だ。task ごとの resources を floor かつ hard ceiling として扱うと、避けられたはずの OOM kills が発生した。一方で、benchmark の leaderboard 自体は、短時間の overallocation を許すより緩い sandbox を使っている。\n\n重要なのは、resource headroom が eval の測定対象そのものを変えることだ。benchmark 推奨の約3倍までなら、追加 capacity は主に infra noise を減らすだけで、score はほとんど変わらない。だがそれを超えると、より多い memory と CPU が、以前は解けなかった task を agent が解けるようにし始めた。Anthropic は SWE-bench でも同じ傾向を見たが、こちらはより小さい。score は RAM に応じて単調に上がり、5倍での上昇幅は1.54 points にとどまった。\n\n同社の提言はこうだ。benchmark の maintainer は、保証される allocation と hard kill threshold の両方を公開すべきだ。利用者は、eval setup が文書化され、かつ一致していない限り、3 points 未満の leaderboard 差を疑ってかかるべきだ。投稿はこう締めくくる。「leaderboard で2 points 先行していても、それは本物の capability の差かもしれないし、単に片方の eval がより beefy な hardware で走っただけかもしれない。」",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpswwwanth-2026-04-02",
+      "source": "Anthropic Engineering",
+      "title": "長時間稼働する application development のための harness 設計",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "author": null,
+      "suggestedTitle": "Anthropicの3-agent harnessが長時間の coding を強化",
+      "suggestedSummary": "Anthropicは、GANに着想を得た3-agentのharnessを構築し、frontend design と autonomous app development の両方を大きく改善したという。システムは planner、generator、evaluator に作業を分ける。評価基準も分離し、Playwrightベースの testing を使うことで、model を自分自身ではなく別の agent が評価できるようにした。\n\ndesign では、主観的な好みを design quality、originality、craft、functionality という具体的な基準に落とし込んだ。generation と evaluation を分けることで、Claude は generic な「AI slop」から離れ、より個性的な output を出すようになったという。例として、オランダの美術館サイトは、洗練されているがありきたりな landing page から、10回目の iteration で3Dの部屋ベースの体験へと進化した。\n\ncoding では、このharnessが1〜4文の prompt を完全な spec に展開する。その後、sprint 単位で構築し、contract-based な handoff と QA check を挟む。retro game maker の benchmark では、solo 実行は20分で9ドルだった。一方、full harness は6時間かかり200ドルだった。20倍以上高いが、出来ははるかに良かった。solo の app は壊れていたが、harness 版はより洗練された interface、より豊富な editor、built-in の AI 機能、そして動作する gameplay を備えていた。記事は「evaluator が implementation を spec に沿うよう保ち続けた」と述べている。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpsclaudec-2026-04-02",
+      "source": "Claude Blog",
+      "title": "Claudeがインタラクティブなチャート、図、ビジュアライゼーションを作成するようになった",
+      "url": "https://claude.com/blog/claude-builds-visuals",
+      "author": null,
+      "suggestedTitle": "Claudeがchat内でインタラクティブなチャートと図を追加",
+      "suggestedSummary": "Claudeは、会話の中でチャート、図、ビジュアライゼーションを直接作成できるようになった。議論しているトピックの理解を助けるためだ。既存のArtifactsは、サイドパネルに表示される永続的で共有可能なドキュメントだが、今回のビジュアルは一時的で、inlineに表示され、会話の変化に応じて更新される。ユーザーは「これをdiagramとして描いて」「時間の経過でどう変わるかvisualizeして」といったpromptで明示的に依頼することもできる。\n\n例としては、インタラクティブな複利曲線や、クリック可能な周期表のvisualizationがある。Claudeは、いつvisualを自動生成するかを判断する。生成された後は、ユーザーが調整やより深い掘り下げを求められる。会社によると、この機能はデフォルトで有効で、すべてのplan typeで利用できる。\n\n今回のリリースは、Claudeの応答をより構造化し、より役立つものにする流れの一部だ。今年前半には、レシピが材料と手順の形式で表示されるようになり、天気の問い合わせではvisualが返るようになった。さらにClaudeは、Figma、Canva、Slackのようなappとも直接連携できるようになった。投稿はこう述べている。「These charts, diagrams and visualizations serve a different purpose: Claude builds them to aid users’ understanding as it’s discussing the topic at hand.」",
+      "publishedAt": "Mar 12, 2026",
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 13,
+    "totalTweets": 27,
+    "totalPodcasts": 1,
+    "totalBlogs": 5,
+    "generatedAt": "2026-04-02T07:30:22.725Z",
+    "estimatedReadTime": "6 分"
+  }
+}

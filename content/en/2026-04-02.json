@@ -1,7 +1,8 @@
 {
   "date": "2026-04-02",
+  "lang": "en",
   "summary": "Steinberger called plan mode training wheels, while Thariq gave Claude Code a mouse-friendly renderer and Cat Wu showed sessions jumping phone-to-laptop. Masad framed Replit as an OS for agents, Rauch said Vercel signups compounded fast, and Anthropic’s infra tweaks swung coding scores by 6 points.",
-  "items": [
+  "builderInsights": [
     {
       "id": "steipete-2026-04-02",
       "source": "X",
@@ -209,7 +210,9 @@
       ],
       "publishedAt": "2026-04-02T07:01:19.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpsyoutube-2026-04-02",
       "source": "Latent Space",
@@ -219,7 +222,9 @@
       "suggestedSummary": "The Takeaway: Pavan Kumar Reddy, who leads audio research at Mistral, and chief scientist Guillaume Lample are pushing a very Mistral idea: don’t build one giant model that kind of does everything—build small, sharp systems that crush one job and fit real production constraints. Their new Voxtral TTS is their first speech-generation model, but it sits on top of a broader audio stack that already covers transcription, real-time ASR, and fine-tuning for customer data.\n\nThe contrarian point is simple: most companies are leaving money on the table by using closed models on their own data. As they put it, customers have “trillions of tokens” of domain knowledge that never make it into a public model. Mistral’s pitch is to bring that data inside the model, not just stuff it into context windows forever. That’s where their Forge platform comes in: on-prem or private-cloud deployment, continued pretraining, SFT, RL, and custom tuning for niche needs like medical jargon, noisy environments, or even offline in-car voice systems.\n\nOn the model side, Voxtral is interesting because it’s not just another TTS wrapper. Mistral built a new neural audio codec and paired it with an autoregressive flow-matching architecture. That matters because audio is messy: the same word can be spoken in many valid ways, and averaging those possibilities produces mush. Flow matching gives them a cleaner way to model that distribution while keeping latency low enough for streaming use cases. They’re already thinking in steps toward full duplex voice agents—models that can listen and speak naturally at the same time—but they’re not pretending the field is solved. Their philosophy is more pragmatic: ship the most useful piece first, make it efficient, then keep tightening the stack.",
       "publishedAt": "2026-03-30T00:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-02",
       "source": "Anthropic Engineering",
@@ -259,6 +264,7 @@
     "totalTweets": 27,
     "totalPodcasts": 1,
     "totalBlogs": 5,
-    "generatedAt": "2026-04-02T07:29:58.100Z"
+    "generatedAt": "2026-04-02T07:29:58.313Z",
+    "estimatedReadTime": "6 min"
   }
 }
