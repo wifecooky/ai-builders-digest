@@ -34,8 +34,10 @@ EditorialSummary: ${article.suggestedSummary || ''}`
 Japanese style rules:
 - Use concise 常体 (だ/である調), not です/ます調. Match the punchy tone of the original.
 - Prefer short sentences. Break long English compound sentences into 2-3 shorter Japanese ones.
-- Use katakana only for established loanwords (エンジニア, プラットフォーム). Avoid unnecessary katakana when a natural Japanese word exists (追跡→ウォッチ is OK, but 倍増する for "double down" is bad → 全力で攻める).
-- Keep idioms natural: "luxury belief"→「贅沢な理想論」, "false equivalence"→ keep as "false equivalence" or「誤った同一視」, not「誤った同等性」.
+- Katakana conversion: Use katakana for established tech loanwords (renderer→レンダラー, infrastructure→インフラ, architecture→アーキテクチャ, benchmark→ベンチマーク, pipeline→パイプライン, deploy→デプロイ, latency→レイテンシ, throughput→スループット, platform→プラットフォーム, engineer→エンジニア).
+- Kanji/Japanese conversion: Use natural Japanese terms where established (signups→登録数, performance→性能, open source→オープンソース, release→リリース, update→アップデート).
+- PROHIBITED: Never produce "English + な/の/に/を + English" hybrid phrases. BAD: 「mouse-friendlyなrenderer」「sessionがphoneからlaptopへ飛ぶ」. GOOD: 「マウス操作に適したレンダラー」「セッションがスマートフォンからノートPCに引き継がれる」.
+- Keep idioms natural: "luxury belief"→「贅沢な理想論」, "false equivalence"→「誤った同一視」, "double down"→「全力で攻める」.
 - Person names stay in English (Andrej Karpathy, not アンドレイ・カルパシー).`
     : `
 Chinese style rules:
@@ -135,7 +137,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     try {
       const openai = createOpenAIClient();
       const langGuide = lang === 'ja'
-        ? ' Use 常体 (だ/である調) consistently — no です/ます. Short punchy sentences. Keep person names in English. Avoid machine-translation patterns like「〜している」endings.'
+        ? ' Use 常体 (だ/である調) consistently — no です/ます. Short punchy sentences. Keep person names in English. Avoid machine-translation patterns like「〜している���endings. NEVER produce "English + な/の/に/を + English" hybrid phrases. Use katakana for established tech loanwords.'
         : ' Use conversational Chinese like a senior engineer, not news-speak. Never translate idioms literally — rephrase naturally. Short punchy sentences. Keep person names in English.';
       const resp = await openai.chat.completions.create({
         model: process.env.OPENAI_MODEL || 'gpt-5.4-mini',
