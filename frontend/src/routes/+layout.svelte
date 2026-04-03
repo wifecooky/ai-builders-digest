@@ -19,9 +19,9 @@
     return 'en';
   }
 
-  let currentLang = $state(detectLang());
+  // Always start 'en' to match SSR/prerender. $effect corrects after hydration.
+  let currentLang = $state('en');
 
-  // Force correct language after hydration (SSR always renders 'en')
   $effect(() => {
     if (browser) {
       const detected = detectLang();
