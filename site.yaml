@@ -63,9 +63,9 @@ theme:
 # ── Data Sources ──
 sources:
   feeds:
-    x: 'https://raw.githubusercontent.com/wifecooky/ai-builders-brief/main/feed-x.json'
-    podcasts: 'https://raw.githubusercontent.com/wifecooky/ai-builders-brief/main/feed-podcasts.json'
-    blogs: 'https://raw.githubusercontent.com/wifecooky/ai-builders-brief/main/feed-blogs.json'
+    x: 'https://raw.githubusercontent.com/wifecooky/ai-builders-digest/main/feed-x.json'
+    podcasts: 'https://raw.githubusercontent.com/wifecooky/ai-builders-digest/main/feed-podcasts.json'
+    blogs: 'https://raw.githubusercontent.com/wifecooky/ai-builders-digest/main/feed-blogs.json'
 
 # ── Editorial ──
 editorial:
