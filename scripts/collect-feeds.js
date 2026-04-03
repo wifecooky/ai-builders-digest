@@ -1,41 +1,34 @@
 import fs from 'fs/promises';
-import { loadSiteConfig } from './lib/config.js';
+import { readFileSync, existsSync } from 'fs';
+import path from 'path';
 
-const config = loadSiteConfig();
-const feeds = config.sources.feeds;
+const ROOT = path.resolve(new URL('.', import.meta.url).pathname, '..');
 
-async function fetchJSON(url, label) {
-  console.log(`Fetching ${label}...`);
+function loadLocalJSON(filename, label) {
+  const filePath = path.join(ROOT, filename);
+  console.log(`Loading ${label}...`);
   try {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.json();
+    if (!existsSync(filePath)) {
+      console.error(`  ${filename} not found`);
+      return null;
+    }
+    return JSON.parse(readFileSync(filePath, 'utf-8'));
   } catch (err) {
-    console.error(`Failed to fetch ${label}: ${err.message}`);
+    console.error(`  Failed to load ${label}: ${err.message}`);
     return null;
   }
 }
 
 async function main() {
-  const [feedX, feedPodcasts, feedBlogs] = await Promise.all([
-    fetchJSON(feeds.x, 'X/Twitter feed'),
-    fetchJSON(feeds.podcasts, 'Podcasts feed'),
-    fetchJSON(feeds.blogs, 'Blogs feed'),
-  ]);
+  const feedX = loadLocalJSON('feed-x.json', 'X/Twitter feed');
+  const feedPodcasts = loadLocalJSON('feed-podcasts.json', 'Podcasts feed');
+  const feedBlogs = loadLocalJSON('feed-blogs.json', 'Blogs feed');
 
   const builders = feedX?.x || [];
   const podcasts = feedPodcasts?.podcasts || [];
   const blogs = feedBlogs?.blogs || [];
 
   const tweetCount = builders.reduce((s, b) => s + (b.tweets?.length || 0), 0);
-
-  // Check feed freshness
-  const feedAge = feedX?.generatedAt
-    ? (Date.now() - new Date(feedX.generatedAt).getTime()) / (1000 * 60 * 60)
-    : null;
-  if (feedAge && feedAge > 48) {
-    console.warn(`Warning: X feed is ${feedAge.toFixed(0)}h old`);
-  }
 
   const output = {
     date: new Date().toISOString().split('T')[0],
@@ -55,7 +48,6 @@ async function main() {
   await fs.writeFile('content/raw-feeds.json', JSON.stringify(output, null, 2));
 
   console.log(`\nCollected: ${builders.length} builders (${tweetCount} tweets), ${podcasts.length} podcasts, ${blogs.length} blogs`);
-  console.log('Saved to content/raw-feeds.json');
 }
 
 main().catch(err => {

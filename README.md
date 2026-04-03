@@ -33,23 +33,50 @@ npm run generate-daily
 cd frontend && npm run dev
 ```
 
-## Data Pipeline
+## Architecture
+
+Two repositories work together:
 
 ```
-collect → remix → translate
-  │         │         │
-  │         │         └─ AI translates to zh/ja with native-quality prompts
-  │         └─ AI generates editorial headlines + summaries
-  └─ Fetches curated feeds from GitHub JSON sources
+wifecooky/ai-builders-brief          wifecooky/ai-builders-digest
+(Data Collection — 6am UTC)          (Website — 7am UTC)
+━━━━━━━━━━━━━━━━━━━━━━━━━            ━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                                   try-upstream (fetch-upstream.js)
+                                        │
+                             ┌──── fresh? ────┐
+                             yes              no
+                             │                │
+                      use upstream       fetch-feeds (self API)
+                      feed-*.json        SociaVault / YouTube / scrape
+                             │                │
+                             └───┬────────────┘
+                                 │
+                           collect-feeds.js (read local JSON)
+                                 │
+                           remix-ai.js (GPT summarization)
+                                 │
+                           translate-ai.js (EN/ZH/JA)
+                                 │
+                           content/{en,zh,ja}/*.json
+                                 │
+                           SvelteKit static build
+                                 │
+                           Cloudflare Pages (auto-deploy on push)
 ```
+
+### Data Pipeline
 
 ```bash
-npm run generate-daily    # Full pipeline
-npm run collect           # Fetch RSS feeds
-npm run remix             # AI summarization (gpt-4o)
-npm run translate         # Translate to en/zh/ja
-npm run generate-weekly   # Weekly trend report
+npm run generate-daily    # Full pipeline: try-upstream → collect → remix → translate
+npm run try-upstream      # Upstream-first: reuse zarazhangrui/follow-builders feeds, fallback to self API
+npm run fetch-feeds       # Direct self-fetch (SociaVault, YouTube, blog scrape)
+npm run collect           # Read local feed-*.json
+npm run remix             # AI summarization (GPT-5.4-mini)
+npm run translate         # Translate to zh/ja
 ```
+
+> **Upstream-first strategy**: `try-upstream` fetches today's feeds from the upstream repo ([zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders)). If the data is fresh (same UTC date), it's used directly — saving API credits. If stale or unavailable, `fetch-feeds` runs as fallback.
 
 ## Project Structure
 
@@ -61,7 +88,8 @@ npm run generate-weekly   # Weekly trend report
 │   ├── src/lib/           # Components (BuilderCard, PodcastCard, etc.)
 │   └── static/            # Favicons, OG image
 ├── scripts/               # Data pipeline
-│   ├── collect-feeds.js   # Fetch from GitHub JSON feeds
+│   ├── fetch-upstream.js  # Upstream-first feed fetcher (fallback to self API)
+│   ├── collect-feeds.js   # Read local feed-*.json
 │   ├── remix-ai.js        # AI summarization + editorial
 │   ├── translate-ai.js    # Trilingual translation
 │   ├── generate-weekly.js # Weekly trend report
@@ -73,13 +101,25 @@ npm run generate-weekly   # Weekly trend report
 
 ## Automation
 
-Daily content is generated automatically via GitHub Actions at UTC 07:00. See `.github/workflows/daily.yml`.
+| Schedule | Repo | Workflow | What it does |
+|----------|------|----------|--------------|
+| 6am UTC | `ai-builders-brief` | Generate Feeds | Fetch tweets (SociaVault), podcasts (YouTube), blogs (scrape) |
+| 7am UTC | `ai-builders-digest` | Daily Digest | Collect feeds → GPT remix → translate → push → Cloudflare deploy |
+
+### Required Secrets
+
+| Secret | Repo | Purpose |
+|--------|------|---------|
+| `SOCIAVAULT_API_KEY` | ai-builders-brief | X/Twitter data via SociaVault |
+| `SUPADATA_API_KEY` | ai-builders-brief | YouTube transcript API |
+| `OPENAI_API_KEY` | ai-builders-digest | GPT summarization & translation |
 
 ## Tech Stack
 
 - **Frontend**: SvelteKit 2 + Svelte 5 (runes) + Tailwind CSS v4
-- **AI**: OpenAI gpt-4o (summarization + translation)
-- **Hosting**: Static site (adapter-static)
+- **AI**: OpenAI GPT-5.4-mini (summarization + translation)
+- **X Data**: SociaVault API (profile + timeline)
+- **Hosting**: Cloudflare Pages (static, adapter-static)
 - **Newsletter**: Buttondown
 - **CI/CD**: GitHub Actions
 
