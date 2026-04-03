@@ -89,6 +89,7 @@
       <p class="text-cyber-text-muted font-display text-sm tracking-widest">{labels.empty[currentLang]}</p>
     </div>
   {:else}
+  {#key currentLang}
 
     <!-- Masthead -->
     <div class="pt-14 pb-10 animate-in">
@@ -263,5 +264,6 @@
       </p>
     </footer>
 
+  {/key}
   {/if}
 </main>
