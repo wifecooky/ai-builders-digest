@@ -1,64 +1,84 @@
 {
   "date": "2026-04-03",
   "lang": "zh",
-  "summary": "Zara Zhang 做了一个真正能干活的待办清单，而 Garry Tan 认为，在 agent workflow 里，checkpointing 比 context drift 更关键。Ryo Lu 主张 AI 应该像玻璃一样透明，而不是黑盒。Peter Yang 则希望 Cursor 3 一打开就直接进 agent。",
+  "summary": "Claude 在 Windows 上落地了 computer use，Karpathy 认为 LLM 应该帮你搭 wiki，Amjad Masad 则把 Replit 更深地推向 enterprise sales。Peter Yang 说 Cursor 3 不再挡 agent 的路了，而 Peter Steinberger 警告说，AI slop 正在把 kernel security 搞成一堆真 bug。",
   "builderInsights": [
     {
-      "id": "zarazhangrui-2026-04-03",
+      "id": "claudeai-2026-04-03",
       "source": "X",
-      "authorName": "Zara Zhang",
-      "authorHandle": "zarazhangrui",
-      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
-      "title": "Zara Zhang",
-      "suggestedTitle": "真正能干活的待办清单",
-      "suggestedSummary": "她说自己正在用 OpenClaw 取代待办清单：把任务直接一股脑丢进去，它不只是帮你记着，还会真的去执行。每天早上，它会发一份报告，告诉你哪些已经做完，哪些还需要处理。说白了，它更像一个会干活的 assistant，而不是记事本。",
+      "authorName": "Claude",
+      "authorHandle": "claudeai",
+      "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "Claude",
+      "suggestedTitle": "Claude 的 computer use 登陆 Windows",
+      "suggestedSummary": "Claude Cowork 和 Claude Code Desktop 里的 computer use 现在也能在 Windows 上用了。对已经在用 Claude 自动化工作流和代码任务的团队来说，这能把桌面端覆盖得更完整，挺实用。",
       "tweets": [
         {
-          "url": "https://x.com/zarazhangrui/status/2039855654815629545",
-          "text": "RT @pika_labs: Conversations tend to go better with a face and a voice. That’s why we’re thrilled to release the beta version of the first…",
-          "likes": 0,
-          "retweets": 174
-        },
-        {
-          "url": "https://x.com/zarazhangrui/status/2039599038358814961",
-          "text": "Just had an aha moment with OpenClaw.\n\nI'm replacing my to-do list with \"braindumping to-dos to OpenClaw\". Whenever I think of a quick task, I just message it to OpenClaw\n\nNot only will it record those tasks, but it will actually DO those tasks\n\nEvery morning it sends me a report of what tasks are already done, and highlights the ones that need my attention\n\nThis might actually be a to-do management system that works",
-          "likes": 219,
-          "retweets": 15
+          "url": "https://x.com/claudeai/status/2039836891508261106",
+          "text": "Computer use in Claude Cowork and Claude Code Desktop is now available on Windows. https://t.co/TXjkhVhS7W",
+          "likes": 7752,
+          "retweets": 758
         }
       ],
-      "publishedAt": "Fri Apr 03 00:01:01 +0000 2026",
+      "publishedAt": "2026-04-02T22:46:27.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "garrytan-2026-04-03",
+      "id": "karpathy-2026-04-03",
       "source": "X",
-      "authorName": "Garry Tan",
-      "authorHandle": "garrytan",
-      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-      "title": "Garry Tan",
-      "suggestedTitle": "Checkpointing 比 context drift 更适合 agent workflows",
-      "suggestedSummary": "他说，GStack 里最实用的技巧之一就是 `/checkpoint`：当 Claude Code 因为上下文太长开始卡住时，你可以把当前 session 快照保存下来，之后安全地继续，而不是跟过时的 plan 死磕。他还暗示自己最近一直在整理 GStack，让它更好用。但真正的重点是：这给 agent-heavy coding 提供了一个很实用的 workflow 修复方案。",
+      "authorName": "Andrej Karpathy",
+      "authorHandle": "karpathy",
+      "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
+      "title": "Andrej Karpathy",
+      "suggestedTitle": "LLM 应该帮你搭 wiki，不只是回答 prompt",
+      "suggestedSummary": "他觉得，chat 之后的下一步，不是更会聊天的 LLM，而是一个能持续把你的 sources 整理成一个活的 markdown wiki 的系统。它会顺手 lint 一下，基于这份 wiki 回答问题，再把新的输出回灌进去。在他的设定里，Obsidian 基本就是 frontend，真正干活的是 model：写内容、做组织、清理杂乱。他认为这不是个 hacky script pile，而是个真能做成 product 的东西。",
       "tweets": [
         {
-          "url": "https://x.com/garrytan/status/2039920424709136542",
-          "text": "RT @GOrlanski: We found that agents generate progressively worse code with each iteration. Real developers do not.\n\nSlopCodeBench is the on…",
-          "likes": 0,
-          "retweets": 99
+          "url": "https://x.com/karpathy/status/2039808711452246261",
+          "text": "Oh and in the natural extrapolation, you could imagine that every question to a frontier grade LLM spawns a team of LLMs to automate the whole thing: iteratively construct an entire ephemeral wiki, lint it, loop a few times, then write a full report. Way beyond a `.decode()`.",
+          "likes": 935,
+          "retweets": 35
         },
         {
-          "url": "https://x.com/garrytan/status/2039892826285322542",
-          "text": "If you haven't been following, I've been pretty busy tidying up GStack and making it more useful https://t.co/xCo9sVsIxF",
-          "likes": 121,
-          "retweets": 4
-        },
-        {
-          "url": "https://x.com/garrytan/status/2039891353912619400",
-          "text": "One of the simple make-my-life-easier GStack skills is /checkpoint. When Claude Code gets worried about long context, rather than struggle to copy the old plan file or track down the path, just run /checkpoint and then start a new session and safely resume with /checkpoint resume",
-          "likes": 56,
-          "retweets": 2
+          "url": "https://x.com/karpathy/status/2039805659525644595",
+          "text": "LLM Knowledge Bases\n\nSomething I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:\n\nData ingest:\nI index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally \"compile\" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.\n\nIDE:\nI use Obsidian as the IDE \"frontend\" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).\n\nQ&A:\nWhere things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.\n\nOutput:\nInstead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up \"filing\" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always \"add up\" in the knowledge base.\n\nLinting:\nI've run some LLM \"health checks\" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.\n\nExtra tools:\nI find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries. \n\nFurther explorations:\nAs the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM \"know\" the data in its weights instead of just context windows.\n\nTLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.",
+          "likes": 18265,
+          "retweets": 1950
         }
       ],
-      "publishedAt": "Fri Apr 03 04:18:23 +0000 2026",
+      "publishedAt": "2026-04-02T20:54:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-04-03",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "Replit 正在更用力地切入 enterprise sales",
+      "suggestedSummary": "他说 Replit 刚在 Salt Lake City 开了 sales office，还在那边招人。这说明公司在更明显地往 enterprise 方向走。他还顺带提了一个 SEO audit tool 和一个免配置的 enterprise auth 方案，意思很清楚：Replit 想让大公司更容易上手，也更容易卖进去。",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2039838798671126728",
+          "text": "SEO audit your site. https://t.co/0fxrGa0dZ6",
+          "likes": 593,
+          "retweets": 26
+        },
+        {
+          "url": "https://x.com/amasad/status/2039777772701413396",
+          "text": "Started a sales office in Salt Lake City, Utah. If you’re based there, consider joining the team! https://t.co/vZw366XtEU",
+          "likes": 587,
+          "retweets": 14
+        },
+        {
+          "url": "https://x.com/amasad/status/2039774118443421887",
+          "text": "No-setup enterprise-grade auth solution for everyone. https://t.co/Udl430LVTR",
+          "likes": 187,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-04-02T22:54:02.000Z",
       "category": "builderInsights"
     },
     {
@@ -68,23 +88,69 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "AI 应该像玻璃一样透明，而不是黑盒",
-      "suggestedSummary": "Cursor 的判断是，好的 AI 工具不该把工作藏起来，而应该把 plan、diff、state 和 edits 都摊开，让你能随时接手和调整。它的思路很直接：让 PM、designer、engineer 和新手都能在不同深度上协作，同时不丢掉控制权。因为最好的结果，往往来自人和 model 一起思考。顺带一提，Cursor 3 已经发布。它把表层做得更简单，但需要时还能展开更强的能力。",
+      "suggestedTitle": "AI 应该像玻璃，不该像黑盒",
+      "suggestedSummary": "他认为，最好的 AI 工具应该让你始终掌握主动权：agent 要看得见，plan 要能改，state 要清楚，diff 也要能检查，而不是闭着眼全盘接受。这也是 Cursor 3 的核心思路：先从简单场景切入，再按需把更多能力开放到本地和云端项目里。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2039895634313187619",
           "text": "glass vs. black box\n\nwe believe you should be able to see everything. and be in control of everything.\n\nthe terminal was a black box. one line in, few lines out. you learned to think like the machine.\n\nAI kept the black box and made it more addictive. now you type a wish and pull the lever. something comes out. you accept or reject the whole thing. you see less and think less as the model became better. you became a product of the model.\n\nglass breaks the box to fit you.\n\nthe PM writes a plan and watches it become real. the designer sketches an idea and iterate live in code. the engineer breaks down the systems architecture before a single line is written. the new programmer reads every diff, asks questions, learns, builds intuition. the expert lets it flow and steers when something feels off.\n\nsame tool. different surfaces. infinite depth. your way.\n\nthe agents are visible. the diff is there. the plan is editable. the state is clear. you can Tab and make edits in files when you need to. nothing hides. and nothing is forced. you go as deep as you want, stay as high as you need.\n\nas AI gets more powerful, glass gets more important.\n\nnot because you need to watch every move. but because the best work happens when you know you can. when you add the extra touch that only you would think to add. when you catch the thing the model missed. when you shape it to fit how you actually think and work.\n\nyour shortcuts. your patterns. your taste. the tool learns your way, not the other way around.\n\nyou stay in the driver's seat. not because AI isn't capable. but because the best outcomes come from you and the model thinking together – you thinking, it executing, both getting better.\n\ngive away the wheel and you get mediocre. keep it and you get to build something great.\n\nCursor is glass. watch the agents. stop them. steer them. make them yours.\n\nstay glass.",
-          "likes": 143,
-          "retweets": 4
+          "likes": 205,
+          "retweets": 8
         },
         {
           "url": "https://x.com/ryolu_/status/2039780768847958359",
-          "text": "Cursor 3 is here.\nWhere power meets simplicity.\nWorks across all your projects, local and cloud.\n\nIt starts simple, then unfolds more tools when you need them – so you stay in flow and in control. Enjoy!",
-          "likes": 338,
+          "text": "Cursor 3 is here.\nWhere power meets simplicity.\nWorks across all your projects, local and cloud.\n\nIt starts simple, then unfolds more tools when you need them – so you stay in flow and in control. Enjoy! https://t.co/xPSyIUcIiB",
+          "likes": 365,
+          "retweets": 20
+        }
+      ],
+      "publishedAt": "2026-04-03T02:39:53.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-04-03",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "AI agents 需要彻底忘掉旧架构",
+      "suggestedSummary": "他说，做 agent 本质上就是一个循环：先加一堆脚手架，再在模型变强后把它们拆掉。放到 Box Agent 里，这意味着要删掉 chunking、search 和其他缓解手段。等 frontier models 变强后，这些东西反而开始拖后腿。结论很直接：别对旧 guardrails 太有感情。要围绕模型现在真正能做的事，不断重建。",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2039931799414194621",
+          "text": "One of the biggest lessons thus far in building AI agents is you have to be brutally unsentimental in your architecture. \n\nThe models get better and better at handling things you previously built scaffolding for, you need to ruthlessly jettison your prior tech to get those new performance gains. \n\nThe rough loop of building AI agents looks something like:\n\n1. Build a bunch of systems around the LLM to ensure that the agent can solve specific tasks very well\n\n2. The model capabilities dramatically improve, rendering many of those systems redundant or even harmful\n\n3. Remove prior scaffolding to get the new performance gains from the agent\n\n4. New capabilities emerge in the models that let you solve a new set of much harder problems\n\n5. Go back to step 1 \n\nFor instance, in our new Box Agent, from the moment we designed the original architecture to the ultimate release, we had to evolve multiple components of agent harness simply because some parts were creating unnecessary constraints for the agents as models improved. \n\nThe models continued to get insanely good at more complex reasoning, improvements in using search and other tools, writing code on the fly for new capabilities, improving context window performance for accuracy, and more. \n\nMany of the mitigations we put in place for the Box Agent (like to appropriately find data that users were looking for, or ways of chunking text to deal with context window limitations), eventually meat we got lower quality results or meant we were overfitting for specific use-cases, as soon as the models got better.\n\nThe main lesson is always make sure you’re taking advantage of the frontier capabilities and don’t become nostalgic around the tech you’ve already built.",
+          "likes": 139,
           "retweets": 16
         }
       ],
-      "publishedAt": "Fri Apr 03 02:39:53 +0000 2026",
+      "publishedAt": "2026-04-03T05:03:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-04-03",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "AI 低质内容正在用真实 bug 淹没 kernel security",
+      "suggestedSummary": "他说，现在 AI 生成的报告已经把 kernel security 邮件列表刷到每天 5–10 封了，之前一周才几封，而且大多数还真是有效的。他的判断是：这不只是让维护者头疼，很多 OSS 项目如果不赶紧调整，最后会被直接拖垮。",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2039948914112209390",
+          "text": "AM I HOT PEOPLE OR SLOP CANNON https://t.co/HpOLGE6Vih",
+          "likes": 140,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/steipete/status/2039782190838686088",
+          "text": "Prediction: This is gonna kill some oss projects.\n\n\"On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being only AI slop, and now since the beginning of the year we're around 5-10 per day depending on the days (fridays and tuesdays seem the worst). Now most of these reports are correct, to the point that we had to bring in more maintainers to help us.\" https://t.co/rK7evxZjUR",
+          "likes": 1044,
+          "retweets": 57
+        }
+      ],
+      "publishedAt": "2026-04-03T06:11:36.000Z",
       "category": "builderInsights"
     },
     {
@@ -94,13 +160,13 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Cursor 3 应该直接打开 agent",
-      "suggestedSummary": "他说，Cursor 3 的新界面进步很大，因为它把一堆按钮都收掉了，让你更快开始和 agent 对话。他的观点是，默认视图就该直接是 agent，而不是藏在 cmd+shift+p 后面。",
+      "suggestedTitle": "Cursor 3 让 agent 更顺手了",
+      "suggestedSummary": "他觉得 Cursor 3 的新界面进步很大，因为它把多余的按钮和开关都收起来了，让你更容易直接和 agent 对话。他的观点是，这个视图应该直接作为默认界面，而不是藏在快捷键后面。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2039898958814974021",
           "text": "I’ve taken my kids to 3 Disneylands now (LA, Tokyo, Shanghai). Tips on how to survive the visit and avoid 3 hour lines:\n\n1. Get early access by staying at the Disney hotel or purchasing early access separately. The first hour is key. \n\n2. Go to the most popular ride right away. Run to it if you can. \n\n3. Buy premier pass for the two other most popular rides and go on those. \n\n4. If you’re staying at the park hotel, leave the park for a nice lunch and go back to the hotel to take a nap during peak hours.\n\n5. Come back to the park at like 5 pm. Lines should be shorter then.\n\n6. Save a spot to watch the fireworks 30-60 min before it starts depending on crowds.\n\n7. When everyone’s leaving the park after fireworks that’s your chance to go on the popular rides again. Lines should be very short then.\n\n8. Be prepared to walk like 20,000 steps during the day.\n\nGLHF",
-          "likes": 37,
+          "likes": 86,
           "retweets": 2
         },
         {
@@ -111,32 +177,44 @@
         },
         {
           "url": "https://x.com/petergyang/status/2039850011044016291",
-          "text": "I just tried out Cursor 3 and the new interface is much better. The old one had far too many buttons and toggles that got in the way of just talking to the agent.\n\nI think this should just be the default view? Why do I need to press cmd+shift+p to use it? https://t.co/Pvup1xJ8k1",
-          "likes": 106,
-          "retweets": 2
+          "text": "I just tried out Cursor 3 and the new interface is much better. The old one had far too many buttons and toggles that got in the way of just talking to the agent.\n\nI think this should just be the default view? Why do I need to press cmd+shift+p to use it? https://t.co/Pvup1xJ8k1 https://t.co/dtIYyD8W9A",
+          "likes": 122,
+          "retweets": 3
         }
       ],
-      "publishedAt": "Fri Apr 03 02:53:05 +0000 2026",
+      "publishedAt": "2026-04-03T02:53:05.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "nikunj-2026-04-03",
+      "id": "danshipper-2026-04-03",
       "source": "X",
-      "authorName": "Nikunj Kothari",
-      "authorHandle": "nikunj",
-      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "title": "Nikunj Kothari",
-      "suggestedTitle": "创业圈里，先验很快就过期",
-      "suggestedSummary": "他说，那种经典的“这事儿成不了”的判断，可能几个月前还对，转眼就过时了。要是你不持续更新自己的先验，就很容易错过机会。这很像投资人会说的话：6 个月前看起来不可能的事，现在可能已经跑起来了。",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "Cursor 3.0 经过了一周的 vibe check",
+      "suggestedSummary": "他们已经测试 Cursor 3.0 一周了，还把读者引到一篇完整的 vibe check。重点更像是上手评测，不是纯吹捧。剩下的内容基本就是轻度助威和 UI 夸赞，信息量不大，但 Cursor 那部分值得一读。",
       "tweets": [
         {
-          "url": "https://x.com/nikunj/status/2039678653588783555",
-          "text": "“It won’t work”..\n\nThe famous golden words. \n\nIt didn’t 6 months ago, it started working 3 months ago, it’s absolutely working now. \n\nPriors have to be rethought every few months. It’s exhausting. \n\nBut if you’re not updating your priors, then you’re truly missing the boat.",
+          "url": "https://x.com/danshipper/status/2039876581015933226",
+          "text": "you love to see it  \n\njust keep going https://t.co/IMLYBnCe4X",
+          "likes": 26,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/danshipper/status/2039855704714985969",
+          "text": "love seeing this slowly get filled out with icons :) https://t.co/W8m0HXPbr9",
           "likes": 22,
           "retweets": 2
+        },
+        {
+          "url": "https://x.com/danshipper/status/2039770244361662920",
+          "text": "we've been testing Cursor 3.0 for a week now!\n\nread our full vibe check: https://t.co/poJ3XTrsxG https://t.co/AuTZ1rSk1R",
+          "likes": 34,
+          "retweets": 1
         }
       ],
-      "publishedAt": "Thu Apr 02 12:17:41 +0000 2026",
+      "publishedAt": "2026-04-03T01:24:10.000Z",
       "category": "builderInsights"
     },
     {
@@ -146,28 +224,51 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "TBPN，但做成 sports 版",
-      "suggestedSummary": "他在推一个 sports 版的 TBPN。说白了，就是把实时、互联网原生的 sports 讨论做成一个产品。作为 Linear 的 head of product，Nan Yu 盯上的不是又一个 sports app，而是内容形态的变化。",
+      "suggestedTitle": "TBPN，但做体育版",
+      "suggestedSummary": "他们在推一个体育版的 TBPN——本质上就是把实时、互联网原生的体育讨论做成一个产品。后续回复把它描述成一个灵活的协作模型：有时像 PM，有时像 product marketer，具体看你需要什么。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2039832290490994970",
           "text": "Hear me out: TBPN for sports",
-          "likes": 15,
+          "likes": 22,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2039823494398001448",
+          "text": "Or a PM you collaborate with\n\nhttps://t.co/oN7v4rdYog",
+          "likes": 4,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2039820803722633589",
+          "text": "Or it can be a product marketer when you need\n\nhttps://t.co/Ekg6uNnPYE",
+          "likes": 6,
           "retweets": 0
         }
       ],
-      "publishedAt": "Thu Apr 02 22:28:10 +0000 2026",
+      "publishedAt": "2026-04-02T22:28:10.000Z",
       "category": "builderInsights"
     }
   ],
-  "podcastHighlights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-04-03",
+      "source": "Training Data",
+      "title": "自主实验室将如何重塑科学研究：Ginkgo Bioworks 的 Jason Kelly",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "suggestedTitle": "AI 实验室可以把科研成本砍下来，把发现速度提 10 倍",
+      "suggestedSummary": "**核心结论：** Jason Kelly 认为，真正的 biotech 突破不是更强的 model，而是 autonomous labs。让 AI 24/7 跑实验，这才是关键。\n\n- Biology 现在很多时候还像体力活：顶尖 PhD 们手动移液，昂贵的 lab overhead 吃掉了大部分 research budget。\n- 关键变化不是“设计 biology”，而是把 test cycle 加速。Kelly 说，AI 不需要比 scientists 更有创造力，只要更擅长跑这个 logic loop 就够了。\n- 在 Ginkgo 和 OpenAI 的项目里，一个在 robotic lab 里运行的 reasoning model，先是在 cell-free protein synthesis 上超过了 state of the art，之后又在六轮迭代里把结果提升了 40%。\n\nKelly 是 Ginkgo Bioworks 的 founder 和 CEO。自 2008 年以来，他一直盯着同一个目标：让 biology 更容易被 engineer。前几年他靠自己硬撑，2014 年加入 YC 后才开始真正起量，但核心想法一直没变。DNA 是 code，cells 是可编程的，而真正卡住进展的，始终是 biology 那个慢得离谱的 “compile/debug” cycle。\n\n变化在于，他现在把赌注押在哪儿。比起直接解决最难的 design problem，他转向了 lab 本身。他的说法很直接：\"It was that it could run experiments.\" 这个 model 不需要天才级直觉。它需要的是 robotic lab、快速 feedback，以及每天把原始 experimental data 在很多 hypotheses 之间共享起来的能力。\n\n所以他把 autonomous labs 看成结构性变化，不只是一个 tooling upgrade。今天的 science 太碎了，数据共享太少，而且被 overhead 拖得很重。他的愿景是，一群 AI scientists 24/7 跑起来，实时互相学习，把 research 变成一个更高效、按 usage 计费的系统。对 Kelly 来说，这不只是 biotech 走向 digital 化，而是要被重新组织一遍。",
+      "publishedAt": "2026-03-24T14:12:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
   "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 26,
-    "totalPodcasts": 0,
+    "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-03T04:47:34.042Z",
-    "estimatedReadTime": "3 分钟"
+    "generatedAt": "2026-04-03T07:27:38.177Z",
+    "estimatedReadTime": "5 分钟"
   }
 }
