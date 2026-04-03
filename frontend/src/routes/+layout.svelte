@@ -2,7 +2,7 @@
   import '../app.css';
   import config from '$lib/site-config.js';
   import { browser } from '$app/environment';
-  import { setContext } from 'svelte';
+  import { setContext, onMount } from 'svelte';
 
   let { children } = $props();
 
@@ -10,7 +10,6 @@
   const supportedLangs = Object.keys(langNames);
 
   function detectLang() {
-    if (!browser) return 'en';
     const saved = localStorage.getItem('lang');
     if (saved && supportedLangs.includes(saved)) return saved;
     const nav = navigator.language?.toLowerCase() || '';
@@ -19,15 +18,15 @@
     return 'en';
   }
 
-  // Always start 'en' to match SSR/prerender. $effect corrects after hydration.
+  // Start 'en' to match SSR. onMount detects real language after hydration.
   let currentLang = $state('en');
+
+  onMount(() => {
+    currentLang = detectLang();
+  });
 
   $effect(() => {
     if (browser) {
-      const detected = detectLang();
-      if (currentLang !== detected) {
-        currentLang = detected;
-      }
       document.documentElement.lang = currentLang;
     }
   });

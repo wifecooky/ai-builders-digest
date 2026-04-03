@@ -59,7 +59,7 @@
 
       <!-- Summary -->
       <div class="text-[13px] text-cyber-text leading-relaxed mb-4 opacity-85 space-y-2">
-        {@html renderedSummary}
+        {#key renderedSummary}{@html renderedSummary}{/key}
       </div>
 
       <!-- Tweet links -->
