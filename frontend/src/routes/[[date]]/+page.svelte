@@ -10,7 +10,10 @@
   const app = getContext('app');
   let currentLang = $derived(app.currentLang);
 
-  let content = $derived(data.content[currentLang]);
+  let content = $derived.by(() => {
+    const lang = currentLang;
+    return data.content[lang] ?? data.content['en'];
+  });
   let archiveDates = $derived(data.dates.filter(d => d !== data.date));
 
   const labels = config.labels;

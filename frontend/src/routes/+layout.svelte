@@ -21,6 +21,17 @@
 
   let currentLang = $state(detectLang());
 
+  // Force correct language after hydration (SSR always renders 'en')
+  $effect(() => {
+    if (browser) {
+      const detected = detectLang();
+      if (currentLang !== detected) {
+        currentLang = detected;
+      }
+      document.documentElement.lang = currentLang;
+    }
+  });
+
   function switchLang(lang) {
     currentLang = lang;
     localStorage.setItem('lang', lang);
