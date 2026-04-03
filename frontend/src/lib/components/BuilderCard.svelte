@@ -1,8 +1,11 @@
 <script>
+  import { renderMarkdown } from '$lib/markdown.js';
+
   let { article, index = 0, delay = 0, onShareX, onCopy, copiedId, highlight = false } = $props();
 
   let displayTitle = $derived(article.suggestedTitle || article.title);
   let displaySummary = $derived(article.suggestedSummary || '');
+  let renderedSummary = $derived(renderMarkdown(displaySummary));
 
   function roleFromBio(bio) {
     if (!bio) return '';
@@ -55,9 +58,9 @@
       </h3>
 
       <!-- Summary -->
-      <p class="text-[13px] text-cyber-text leading-relaxed mb-4 opacity-85">
-        {displaySummary}
-      </p>
+      <div class="text-[13px] text-cyber-text leading-relaxed mb-4 opacity-85 space-y-2">
+        {@html renderedSummary}
+      </div>
 
       <!-- Tweet links -->
       {#if article.tweets?.length > 0}

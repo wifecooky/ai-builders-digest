@@ -1,8 +1,11 @@
 <script>
+  import { renderMarkdown } from '$lib/markdown.js';
+
   let { item, index = 0, delay = 0, onShareX, onCopy, copiedId } = $props();
 
   let displayTitle = $derived(item.suggestedTitle || item.title);
   let displaySummary = $derived(item.suggestedSummary || '');
+  let renderedSummary = $derived(renderMarkdown(displaySummary));
 
   const SOURCE_STYLES = {
     X: { color: 'cyan', icon: 'X' },
@@ -51,9 +54,9 @@
   </h3>
 
   <!-- Summary -->
-  <p class="text-[13px] text-cyber-text leading-relaxed opacity-85 mb-3">
-    {displaySummary}
-  </p>
+  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 mb-3 space-y-2">
+    {@html renderedSummary}
+  </div>
 
   <!-- Tweet links / source links -->
   <div class="flex items-center flex-wrap gap-2">

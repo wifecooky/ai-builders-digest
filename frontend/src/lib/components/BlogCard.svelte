@@ -1,5 +1,6 @@
 <script>
   import { getContext } from 'svelte';
+  import { renderMarkdown } from '$lib/markdown.js';
 
   let { article, delay = 0 } = $props();
   const app = getContext('app');
@@ -7,6 +8,7 @@
 
   let displayTitle = $derived(article.suggestedTitle || article.title);
   let displaySummary = $derived(article.suggestedSummary || '');
+  let renderedSummary = $derived(renderMarkdown(displaySummary));
 
   const readLabel = { en: 'Read original', zh: '阅读原文', ja: '原文を読む' };
 </script>
@@ -34,9 +36,9 @@
     <p class="text-[12px] text-cyber-green/70 font-bold mb-2">{displayTitle}</p>
   {/if}
 
-  <p class="text-[13px] text-cyber-text leading-relaxed opacity-85">
-    {displaySummary}
-  </p>
+  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 space-y-2">
+    {@html renderedSummary}
+  </div>
 
   {#if article.url}
     <div class="mt-3">

@@ -1,8 +1,11 @@
 <script>
+  import { renderMarkdown } from '$lib/markdown.js';
+
   let { article, delay = 0 } = $props();
 
   let displayTitle = $derived(article.suggestedTitle || article.title);
   let displaySummary = $derived(article.suggestedSummary || '');
+  let renderedSummary = $derived(renderMarkdown(displaySummary));
 </script>
 
 <article
@@ -29,9 +32,9 @@
     <p class="text-[12px] text-cyber-magenta/70 font-bold mb-2 italic">{displayTitle}</p>
   {/if}
 
-  <p class="text-[13px] text-cyber-text leading-relaxed opacity-85 whitespace-pre-line">
-    {displaySummary}
-  </p>
+  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 space-y-2">
+    {@html renderedSummary}
+  </div>
 
   {#if article.url}
     <div class="mt-3">
