@@ -1,7 +1,9 @@
 {
   "date": "2026-04-03",
+  "lang": "en",
   "summary": "Latent Space argued Moonlake’s bet: world models need abstraction, not just raw scale. Anthropic’s Claude blog pushed the agent playbook forward, urging builders to wrap agents around Claude’s growing capabilities instead of forcing brittle workflows.",
-  "items": [
+  "builderInsights": [],
+  "podcastHighlights": [
     {
       "id": "httpsyoutube-2026-04-03",
       "source": "Latent Space",
@@ -11,7 +13,9 @@
       "suggestedSummary": "**The Takeaway:** World models only matter if they predict actions and consequences, not just pretty frames.\n\n- Moonlake’s contrarian bet is that video generation alone is a dead end for spatial intelligence; the real prize is an action-conditioned model that understands what changes when you do something.\n- Chris Manning argues the field has over-relied on pixels and underused symbolic abstraction: language, math, and program-like representations are “cognitive tools” that compress the world into something learnable.\n- Their split architecture is the punchline: a reasoning model handles causality, persistence, and logic, while a diffusion model (“rey”) restyles the output into photorealism without breaking the underlying state.\n\n**The Story:** Fan-yun Sun, Moonlake’s co-founder, came out of PhD work with Nvidia on interactive worlds for RL and embodied agents, where he saw a simple market truth: companies are already paying heavily for synthetic interactive data because they need it for training and evaluation. That led to Moonlake’s core thesis: if you want embodied intelligence, you need models that learn consequences, not just observations.\n\nChris Manning, the Stanford NLP veteran and co-founder, frames the philosophy more sharply. He thinks vision has stalled because most systems still operate at the pixel level, while humans rely on abstraction. “Language is a cognitive tool,” he says, and the same logic should apply to world models. The point isn’t to reject scale; it’s to find the right representation so scale actually compounds.\n\nThat’s why they keep pushing back on the current “world model” zeitgeist. A gorgeous demo that can’t be interacted with is, in their view, not enough. Their bowling example makes it concrete: the model should know how pins fall, scores update, and state persists across turns. The bigger ambition is even more provocative: a programmable renderer that can become part of gameplay itself, not just a passive output layer.",
       "publishedAt": "2026-04-02T00:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-03",
       "source": "Claude Blog",
@@ -29,6 +33,7 @@
     "totalTweets": 0,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-03T03:31:16.875Z"
+    "generatedAt": "2026-04-03T03:31:17.054Z",
+    "estimatedReadTime": "3 min"
   }
 }

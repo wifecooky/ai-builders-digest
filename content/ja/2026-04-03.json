@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-03",
+  "lang": "ja",
+  "summary": "Latent Spaceは、Moonlakeの賭けをこう論じた。world modelsに必要なのは、単なるraw scaleではなく、abstractionだと。AnthropicのClaude blogは、agentのplaybookをさらに前へ進めた。Claudeの拡大するcapabilitiesを無理に既存の脆いworkflowへ押し込むのではなく、Claudeを中心にagentを組むべきだと促した。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpsyoutube-2026-04-03",
+      "source": "Latent Space",
+      "title": "Moonlake: マルチモーダルでインタラクティブ、かつ効率的な World Models — Fan-yun Sun と Chris Manning とともに",
+      "url": "https://youtube.com/watch?v=oBWRHnggscM",
+      "suggestedTitle": "Moonlake は、world models に必要なのは scale ではなく abstraction だと賭ける",
+      "suggestedSummary": "**要点:** World models が意味を持つのは、きれいなフレームではなく、行動とその結果を予測できるときだけである。",
+      "publishedAt": "2026-04-02T00:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpsclaudec-2026-04-03",
+      "source": "Claude Blog",
+      "title": "Claudeの知能を活かす",
+      "url": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "author": null,
+      "suggestedTitle": "Anthropic: Claudeの拡大し続ける能力を前提にagentを設計せよ",
+      "suggestedSummary": "**要点:** Anthropicは、Claudeは「作られたというより、育てられる」システムとして扱うべきだと述べている。agentアプリを進化する知能に合わせるための設計パターンも3つ挙げる。Claudeがすでに知っているtoolを使うこと。オーケストレーションとコンテキスト管理をより多くClaude自身に任せること。harnessの境界を厳密に保つことだ。\n\n**数値:**\n- Claude 3.5 Sonnetは、bashとテキストエディタだけでSWE-bench Verifiedの**49%**を達成した。\n- BrowseCompでは、Opus 4.6にtool出力のフィルタリングを任せると、正確性は**45.3%から61.6%**に上がった。\n- Opus 4.6にsubagentを生成させると、BrowseCompの結果は最良のsingle-agent実行を**2.8%**上回った。\n- BrowseCompでは、同じcompaction設定でOpus 4.5が**68%**、Opus 4.6が**84%**までスケールした。\n- BrowseComp-Plusでは、memory folderを追加するとSonnet 4.5は**60.4%から67.2%**に上がった。\n\n**要するに:** ビルダーは、Claudeにできないと決めつけた前提をハードコードするのをやめるべきだ。可能なところは、workflowsをharnessからmodel側へ移すべきである。Anthropicの指針はこうだ。bashとtext editorベースのworkflowを使うこと。skillsによる段階的な開示を使うこと。長期タスクにはcompactionとmemory folderを使うこと。UX、observability、securityが必要な場合にだけ専用toolを使うこと。記事の言葉を借りれば、今や重要な設計上の問いは「何をやめられるか」だ。実務上の示唆は明快である。古くなったオーケストレーションは削り、cache hitは維持し、modelの能力が上がるたびに境界を見直せ。",
+      "publishedAt": "Apr 02, 2026",
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 1,
+    "generatedAt": "2026-04-03T03:31:29.298Z",
+    "estimatedReadTime": "3 分"
+  }
+}

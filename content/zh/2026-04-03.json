@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-03",
+  "lang": "zh",
+  "summary": "Latent Space 认为 Moonlake 的判断是对的：世界模型需要的是抽象能力，不只是单纯堆规模。Anthropic 的 Claude 博客把 agent 的打法又往前推了一步，建议开发者围绕 Claude 不断增强的能力来搭 agent，而不是硬把它塞进脆弱的工作流里。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpsyoutube-2026-04-03",
+      "source": "Latent Space",
+      "title": "Moonlake：多模态、可交互、高效的 World Models —— 与 Fan-yun Sun 和 Chris Manning 对谈",
+      "url": "https://youtube.com/watch?v=oBWRHnggscM",
+      "suggestedTitle": "Moonlake 认为 world models 需要抽象，不只是堆规模",
+      "suggestedSummary": "**核心结论：** world models 只有能预测动作和后果才有意义，不只是生成好看的画面。\\n\\n- Moonlake 的反直觉判断是：单纯做 video generation 对空间智能来说是条死路。真正有价值的是 action-conditioned model。它要理解你一动手，世界会怎么变。\\n- Chris Manning 认为，这个领域太依赖 pixels 了，symbolic abstraction 用得太少。language、math 和 program-like representations 这些“cognitive tools”能把世界压缩成更容易学习的形式。\\n- 他们的 split architecture 是整篇的重点：一个 reasoning model 负责因果、持续性和逻辑，另一个 diffusion model（“rey”）再把输出重绘成 photorealism，同时不破坏底层 state。\\n\\n**故事背景：** Moonlake 联合创始人 Fan-yun Sun 之前在 Nvidia 做 PhD 相关工作，研究 RL 和 embodied agents 的 interactive worlds。他很早就看清一个市场事实：公司已经在 synthetic interactive data 上砸了很多钱，因为训练和评估都离不开它。这也把 Moonlake 推向了核心判断：如果你想做 embodied intelligence，就得让 model 学会后果，而不只是观察。\\n\\nStanford NLP 老将、联合创始人 Chris Manning 把这套理念讲得更直接。他觉得 vision 之所以卡住，是因为大多数系统还停留在 pixel level，而人类靠的是 abstraction。他说，“Language is a cognitive tool”，world models 也该遵循同样的逻辑。重点不是反对 scale，而是先找对 representation，这样 scale 才能真正放大效果。\\n\\n所以他们一直在反驳现在这股“world model”热潮。一个很漂亮、但不能交互的 demo，在他们看来还不够。比如 bowling 这个例子，model 不光要知道球怎么滚、瓶怎么倒，还要知道分数怎么更新、状态怎么跨回合保留。更激进一点，他们想做的是一个 programmable renderer，甚至能直接变成 gameplay 的一部分，而不只是一个被动的输出层。\" }",
+      "publishedAt": "2026-04-02T00:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpsclaudec-2026-04-03",
+      "source": "Claude Blog",
+      "title": "驾驭 Claude 的智能",
+      "url": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "author": null,
+      "suggestedTitle": "Anthropic：围绕 Claude 不断增强的能力来构建 agent",
+      "suggestedSummary": "**重点：** Anthropic 认为，Claude 更像是一个“不断长出来”的 system，而不是纯靠人手搭出来的。它建议用三种 design pattern 来让 agent app 跟上它越来越强的 intelligence：用 Claude 已经会的 tools，让它自己承担更多 orchestration 和 context management，并把 harness 的边界收紧。\n\n**数据：**\n- 只用 bash 和 text editor，Claude 3.5 Sonnet 就在 SWE-bench Verified 上拿到了 **49%**。\n- 在 BrowseComp 上，让 Opus 4.6 自己过滤 tool outputs，accuracy 从 **45.3%** 提升到 **61.6%**。\n- 让 Opus 4.6 生成 subagents，比最佳 single-agent 跑法又提升了 **2.8%**。\n- 在 BrowseComp 上，使用同样的 compaction setup，Opus 4.5 跑到 **68%**，Opus 4.6 跑到 **84%**。\n- 在 BrowseComp-Plus 上，加一个 memory folder 后，Sonnet 4.5 从 **60.4%** 提升到 **67.2%**。\n\n**所以呢：** builder 们该停下来，别再把 Claude “做不到什么”写死在代码里了。能挪到 model 里的工作，就尽量从 harness 里拿掉。Anthropic 的建议很直接：优先用基于 bash/text editor 的 workflow；通过 skills 做 progressive disclosure；长任务用 compaction 和 memory folders；只有在 UX、observability 或 security 真的需要时，才上专门的 tools。原文里那句说得很到位：现在最关键的问题是“what can I stop doing?”。实际落地时，先清掉过时的 orchestration，保住 cache hits，然后随着 model 能力提升，重新评估边界。",
+      "publishedAt": "Apr 02, 2026",
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 1,
+    "generatedAt": "2026-04-03T03:31:23.491Z",
+    "estimatedReadTime": "3 分钟"
+  }
+}
