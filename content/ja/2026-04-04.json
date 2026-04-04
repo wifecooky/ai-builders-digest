@@ -1,7 +1,7 @@
 {
   "date": "2026-04-04",
   "lang": "ja",
-  "summary": "ClaudeはMicrosoft 365に接続し、Devinはブログ記事を動くコードに変え、Garry TanはDX review toolを出した。Peter Steinbergerは、GitHubのAPIはまだagents向けに作られていないと述べた。一方でAaron Levieは、agentsはmanagerと同じ壁にぶつかると警告した。",
+  "summary": "ClaudeがMicrosoft 365のあちこちに入り込んだ。SwyxはDevinがブログからコードまで一発で仕上げたと語った。Peter Steinbergerは、GitHubのAPIはまだエージェント向けにできていないと指摘した。Aaron Levieはコンテキストの壁にぶつかった。一方でGarry Tanは、自前のスタックからDXレビュー用ツールを出した。",
   "builderInsights": [
     {
       "id": "claudeai-2026-04-04",
@@ -11,7 +11,7 @@
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
       "suggestedTitle": "ClaudeがMicrosoft 365のあらゆる場所に接続",
-      "suggestedSummary": "Microsoft 365コネクタが、すべてのClaudeプランで使えるようになった。これでOutlook、OneDrive、SharePointの内容を、そのままチャットに流し込める。実用的な一手だ。Claudeは単体のassistantから、受信箱やドキュメント全体で実際に働ける存在へ変わりつつある。",
+      "suggestedSummary": "Microsoft 365コネクタが、すべてのClaudeプランで使えるようになった。これでタブを行き来する代わりに、Outlook、OneDrive、SharePointをチャットに取り込める。実用的な一手だ。Claudeは、すでに人々が日々使っているドキュメントやメールの近くに入り込むことで、より役立つ仕事のアシスタントへと変わりつつある。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2040086268562842097",
@@ -30,8 +30,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "GitHub APIはまだagent向けに作られていない",
-      "suggestedSummary": "彼は、GitHub APIのquota制限に何度もぶつかっているという。これは、このプラットフォームがまだagentic workflow向けに設計されていないことをかなり率直に示している。別のスレッドでは、Anthropicの最新の動きがエコシステムに悪影響を与えるとも主張している。ただし、APIコストを下げるはずのcache修正でその打撃を和らげようとしたBorisの努力は評価している。",
+      "suggestedTitle": "GitHubのAPIはまだagent向けに作られていない",
+      "suggestedSummary": "彼は、GitHub APIのquota制限に何度も突き当たっているという。これは、platformが今も人間の利用を前提にしており、agentic workflowを想定していないことのかなり露骨なサインだ。さらに彼は、Anthropicの最近の動きがecosystemに悪影響を与えていると主張している。一方で、APIユーザーへの打撃を和らげる小さな修正には評価を与えている。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2040298884787032103",
@@ -62,8 +62,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Health appがWHOOPに挑む",
-      "suggestedSummary": "$100億企業が、自社のものに「見た目も使い心地も似ている」という理由で訴えるのは、まさに最悪の一手だという。法務で固める代わりに、彼はBevel HealthをWHOOPの無料代替として押し出している。そして、優れた健康管理を誰もが使えるようにするというミッションとして位置づけている。",
+      "suggestedTitle": "Health appsは訴訟ではなく、ものづくりで勝つべきだ",
+      "suggestedSummary": "彼は、100億ドル規模の会社が、あるappを「見た目も使い心地も似ている」として訴えるのは筋違いだと言う。そして、より良い答えとしてBevel Healthを全力で推す。無料で、誰でも使えるhealthをすべての人へ、というわけだ。WHOOPへの皮肉も、言いたいことはかなり明確だ。勝負すべきは法廷ではなく、productである。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2040107083841053145",
@@ -82,8 +82,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "agentはマネージャーと同じ壁にぶつかる",
-      "suggestedSummary": "彼は、AI agentは昔からあるマネジメントの問題から逃れられないと言う。人間が保持できる context には限界がある。だからこそ delegation が必要なのだ。agentが自分で状態を追跡し、適切にエスカレーションし、より広い system に組み込まれるようになるまでは、結局は人間の監督が要る。だから「jobsが消える」という見方は大げさだというわけだ。",
+      "suggestedTitle": "Agentsは同じ古いコンテキストの壁にぶつかる",
+      "suggestedSummary": "彼は、AI agentsが管理の手間を魔法のように消すことはないと言う。agentsの出来は、周囲のcontext、tools、そして人間の監督次第だ。agentsが確実に自分でエスカレーションし、より広いsystemの中で動けるようになるまでは、実際の思考作業は人間が担い続ける。だからこそ、「jobsが消える」という見方は外れている。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2040264454982480138",
@@ -102,8 +102,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "YCのトップがDXレビュー用ツールを公開",
-      "suggestedSummary": "彼はGStackで /plan-devex-review をリリースした。まず自分のためにツールを作り、その後でチームがより良いdeveloper experienceを作れるよう共有しているという。さらに、Addy OsmaniのDX frameworkを着想源として挙げた。単なるgeneric AI wrapperではなく、実用的で主張のあるworkflow toolだと感じさせる。",
+      "suggestedTitle": "YCのトップが自前のstackからDX review toolをリリース",
+      "suggestedSummary": "彼は`/plan-devex-review`を公開する。これはチームがより良いdeveloper experienceを作るための新しいGStack toolだ。Addy OsmaniのDX frameworkに着想を得ている。裏にあるのは、自分のためにまず作り、その内部toolを他のfounderも使えるものへ変えるという姿勢だ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2040228442130850008",
@@ -134,8 +134,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "DesignとPMは融合させるべきではない",
-      "suggestedSummary": "彼は、designをproductに押し込むと、探索が浅くなり、brandも傷むと主張する。brand/product designは近くに置くべきだが、従属させるべきではないとも言う。さらに、PMMはproduct management側に置くべきであり、designとPMを組ませると、仕事の境界がぼやける悪いインセンティブが生まれると指摘する。",
+      "suggestedTitle": "デザインはproductに飲み込まれてはならない",
+      "suggestedSummary": "彼は、designとproductが結びつきすぎると、designの地位が下がり、探索が浅くなり、brandが傷むと主張する。よりすっきりした分け方はこうだ。brandとproduct designは近くに置く。そしてPMMはdesignとPMを無理に一体化するのではなく、product側の責務として扱うべきだ。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2040206778751750255",
@@ -166,8 +166,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Devinがブログ記事をそのまま動くコードに変えた",
-      "suggestedSummary": "本人いわく、奇妙な新しい閾値に達しているという。ブログ記事やtweetを貼り付けると、Devinが実装を一発で仕上げるのだ。肝は、その下で動くモデルがGemini Flash Liteだった点である。この用途には分布外すぎるはずだったが、それでも普通に動いた。agentic codingワークフローにとって、かなり強いシグナルだ。",
+      "suggestedTitle": "Devinがブログからコードを一発生成できるようになった",
+      "suggestedSummary": "彼は「agentic self improvement」に到達したと言う。ブログ記事やtweetをDevinにコピペすれば、実装を一発で出せるという話だ。驚くべき点は、下地のGemini Flash Liteにとってはかなり分布外に見えるのに、それでも動いたことだ。そこにこそ本当のシグナルがある。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2040245613997219902",
@@ -198,8 +198,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "人々は元恋人をagent skillsに変えている",
-      "suggestedSummary": "彼女は、新しいパターンが生まれつつあると言う。人々は同僚やインフルエンサー、さらには元恋人までagent skillsに落とし込んでいる。これは小さいが鋭いシグナルだ。AI agentsが、タスクだけでなく、個性や仕事の進め方まで吸収し始めていることを示している。",
+      "suggestedTitle": "同僚をagent skillsに変える人が増えている",
+      "suggestedSummary": "彼女は、同僚やインフルエンサー、さらには元恋人までをagent skillsに蒸留するのが新しい奇妙な流行だと言う。AI agentsがどこへ向かうのかを鋭く捉えた見方だ。汎用的なアシスタントは減り、代わりに人々が入れ替えて使える、より個別化された行動パックが増えていく。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2040319135507480921",
@@ -228,10 +228,10 @@
     {
       "id": "httpswwwyout-2026-04-04",
       "source": "Latent Space",
-      "title": "Marc AndreessenがThe Death of the Browser、Pi + OpenClaw、そして「This Time Is Different」がなぜ繰り返されるのかを内省する",
+      "title": "Marc Andreessenが『The Death of the Browser』、Pi + OpenClaw、そして「Why “This Time Is Different”」について内省する",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "AIブームは本物だが、構築は泥臭くなる",
-      "suggestedSummary": "**要点:** AIは単なる hype cycle ではない。80年分の未消化案件が、ようやく現金化されつつあるのだ。\n\n- 大きな breakthrough は突然現れたわけではない。neural nets から AlexNet、transformers、reasoning、agents、self-improvement へと積み上がってきた。\n- 本当のリスクは、AIが動かなくなることではない。telecom が dot-com 時代にやったように、誤った scaling assumption を前提に過剰投資することだ。\n- 今の難所は model capability ではない。adoption が泥臭いのだ。institution、government、company、そして何十億もの人々は、きれいな一本線では動かない。\n\nAndreessen Horowitz の cofounder である Marc Andreessen は、AIを突然の奇跡ではなく、何十年にもわたる本格的な research の帰結として捉えている。彼はこれを「**eighty year overnight success**」と呼ぶ。1943年の neural network 論文から始まり、Dartmouth の時代、1980年代の expert-systems ブーム、AlexNet、transformers へと続いた仕事の回収だというわけだ。彼の主張は明快である。「**now we know the neural network is the correct architecture**」。そして、chatbots から reasoning models、coding agents への最近の飛躍こそが、この tech をようやく現実のものにした。\n\n慎重な楽観から確信へと変わったのは、機能的な breakthrough が連続したからだ。LLM は十分に印象的だった。しかし o1 や r1 のような reasoning models は、これらの system が autocomplete 以上のことをできるのか、という懐疑に答えた。次に coding が境界を越えた。AI が本格的な programmer に対抗できるなら、他の領域にも一気に広がる。そこから先は、agents と self-improvement によって、これはデモではなく platform shift に見えてくる。\n\nとはいえ、Andreessen は downside を甘く見ていない。dot-com crash は需要の話だけではなかった。インフラの過剰構築でもあったのだ。同じ失敗は、data centers と GPU に capital が real demand を上回る速度で流れ込めば、再び起こりうる。ただし昔の telecom boom と違い、今の builder は Microsoft、Amazon、Google、Meta、Nvidia、OpenAI、Anthropic だ。実際の cash、実際の revenue、そして実際の capacity pressure を持つ会社である。だから、そこに至る道が荒れても、上振れは持続的に見える。",
+      "suggestedTitle": "AIブームは本物だが、インフラ整備はなお混乱する",
+      "suggestedSummary": "**要点:** AIは単なる hype cycle ではない。80年分の研究の積み残しが、ようやく回収されつつあるのだ。\n\n- 最大の誤りは、今起きている跳躍をまったく新しいものとして扱うことだ。Andreessenはこれを、neural netsからtransformers、reasoning、agents、self-improvementへと続く長い突破の連鎖として見ている。\n- 「This time is different」はたいてい罠だ。だが今回は違いがある。中核機能が実際に現実世界で動いているのだ。特に coding では、benchmark が容赦なく具体的になっている。\n- リスクはAIが止まることではない。dot-com時代のtelecomのように、capital が infrastructure を過剰に積み上げることだ。しかも今回は、その資金源がはるかに強い balance sheet から来ている。\n\nAndreessen HorowitzのcofounderであるMarc Andreessenは、AIを突然の奇跡ではなく、数十年にわたる真面目な研究の帰結として捉えている。彼は80年代後半からこの分野にいる。Lispとexpert systemsの時代も覚えている。そして業界は常に「summer, winter, summer, winter」と波で進んできたと主張する。変わったのは、neural netsとtransformersに対する昔の反論が、現実によって次々と退けられたことだ。彼の見立てでは、本当の転換点はAlexNet、次にtransformers、そして最近のreasoningとagentsへの飛躍である。\n\n彼の最も鋭い指摘は、今の波がもはや単なるデモの魔法ではないという点だ。codingが証明である。AIが有能なprogrammerを意味のあるタスクで上回れるなら、他のすべては下流の問題になる。だからこそ彼はこれを「eighty year overnight success」と呼ぶ。\n\nとはいえ、ビジネス面で楽観一色というわけではない。彼は今のGPUとdata centerの熱狂を、90年代後半のtelecomの過剰投資になぞらえる。需要は本物だったが、capitalが先走ったのだ。違いは、今の最大の支出者がMicrosoft、Amazon、Google、Meta、Nvidia、OpenAI、Anthropicであり、脆いstartupではないことだ。ブームは本物だが、その道筋はでこぼこで、高くつき、marketが落ち着く前に潰れるcompanyも多いだろう。",
       "publishedAt": "2026-04-03T16:57:46.000Z",
       "category": "podcastHighlights"
     }
@@ -242,7 +242,7 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-04T07:22:23.123Z",
+    "generatedAt": "2026-04-04T14:09:56.716Z",
     "estimatedReadTime": "5 分"
   }
 }

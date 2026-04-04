@@ -1,6 +1,6 @@
 {
   "date": "2026-04-04",
-  "summary": "Claude plugged into Microsoft 365, Devin turned blog posts into working code, and Garry Tan shipped a DX review tool. Peter Steinberger said GitHub’s API still wasn’t built for agents, while Aaron Levie warned agents hit the same wall as managers.",
+  "summary": "Claude plugged into Microsoft 365 everywhere, Swyx said Devin one-shot blog-to-code, and Peter Steinberger called out GitHub’s API as still not built for agents. Aaron Levie hit the context wall, while Garry Tan shipped a DX review tool from his own stack.",
   "items": [
     {
       "id": "claudeai-2026-04-04",
@@ -10,7 +10,7 @@
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
       "suggestedTitle": "Claude plugs into Microsoft 365 everywhere",
-      "suggestedSummary": "Microsoft 365 connectors are now on every Claude plan, so Outlook, OneDrive, and SharePoint can feed straight into chats. It’s a practical move: Claude is turning from a standalone assistant into something that can actually work across your inbox and docs.",
+      "suggestedSummary": "Microsoft 365 connectors are now on every Claude plan, so you can pull Outlook, OneDrive, and SharePoint into the chat instead of juggling tabs. It’s a practical move: Claude is turning into a more useful work assistant by sitting closer to the docs and email people already live in.",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2040086268562842097",
@@ -29,8 +29,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "GitHub API still isn’t built for agents",
-      "suggestedSummary": "He says he keeps slamming into GitHub API quota limits, which is a pretty blunt sign the platform still isn’t designed for agentic workflows. In a separate thread, he also argues Anthropic’s latest move hurts the ecosystem, though he credits Boris for trying to soften the blow with cache fixes that should lower API costs.",
+      "suggestedTitle": "GitHub’s API still isn’t built for agents",
+      "suggestedSummary": "He says he keeps slamming into GitHub API quota limits, which is a pretty blunt sign the platform still assumes human usage, not agentic workflows. In the same vein, he’s arguing Anthropic’s latest moves hurt the ecosystem while giving credit for the small fixes that soften the blow for API users.",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2040298884787032103",
@@ -61,8 +61,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Health app takes the fight to WHOOP",
-      "suggestedSummary": "He says a $10B company suing because an app “looks and feels” like theirs is exactly the wrong move. Instead of lawyering up, he’s pushing Bevel Health as the free alternative to WHOOP and framing it as a mission to make great health accessible to everyone.",
+      "suggestedTitle": "Health apps should win by building, not suing",
+      "suggestedSummary": "He says a $10B company suing an app for \"looking and feeling\" similar is the wrong move, and doubles down on Bevel Health as the better answer: free, accessible health for everyone. The jab at WHOOP makes the point pretty clear — compete on product, not lawfare.",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2040107083841053145",
@@ -81,8 +81,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents hit the same wall as managers",
-      "suggestedSummary": "He says AI agents don’t escape the old management problem: humans can only hold so much context, so delegation exists for a reason. Until agents can self-track, escalate cleanly, and plug into a broader system, they’ll still need real human oversight — which is why the “jobs disappear” take is overblown.",
+      "suggestedTitle": "Agents hit the same old context wall",
+      "suggestedSummary": "He says AI agents won’t magically erase management overhead: they’re only as good as the context, tools, and human oversight around them. Until agents can reliably self-escalate and operate inside a broader system, people will still do the real mental work — which is why the “jobs disappear” take is off.",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2040264454982480138",
@@ -101,8 +101,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "YC chief ships a DX review tool",
-      "suggestedSummary": "He released /plan-devex-review on GStack, saying he builds tools for himself first and is now sharing it to help teams create better developer experiences. He also pointed to Addy Osmani’s DX framework as the inspiration, which makes this feel like a practical, opinionated workflow tool rather than another generic AI wrapper.",
+      "suggestedTitle": "YC chief ships DX review tool from his own stack",
+      "suggestedSummary": "He’s releasing `/plan-devex-review`, a new GStack tool to help teams create better developer experiences, inspired by Addy Osmani’s DX framework. The subtext: he builds for himself first, then turns the internal tooling into something other founders can use.",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2040228442130850008",
@@ -133,8 +133,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Design and PM should not be fused",
-      "suggestedSummary": "He argues that when design gets jammed into product, explorations get shallow and brand suffers — better to keep brand/product design close, but not subordinate. He also says PMM belongs with product management, while design + PM creates bad incentives that blur the work.",
+      "suggestedTitle": "Design should not get swallowed by product",
+      "suggestedSummary": "He argues that when design and product are fused too tightly, design gets demoted, exploration gets shallow, and brand suffers. His cleaner split: keep brand and product design close, and treat PMM as a product concern instead of mashing design and PM together.",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2040206778751750255",
@@ -165,8 +165,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Devin just turned blog posts into working code",
-      "suggestedSummary": "He says he’s hitting a weird new threshold: paste in blog posts and tweets, and Devin one-shots the implementation. The punchline is the model underneath — Gemini Flash Lite — was way out of distribution for this task, but it still just worked, which is a pretty strong signal for agentic coding workflows.",
+      "suggestedTitle": "Devin is now one-shotting blog-to-code",
+      "suggestedSummary": "He says he’s hit “agentic self improvement”: copy-paste a blog post or tweet into Devin and it can one-shot the implementation. The surprising part is that it worked even though this feels way out of distribution for Gemini Flash Lite underneath — and that’s the real signal.",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2040245613997219902",
@@ -197,8 +197,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "People are turning exes into agent skills",
-      "suggestedSummary": "She says a new pattern is emerging: people are distilling colleagues, influencers, and even exes into agent skills. It’s a sharp little signal that AI agents are starting to absorb not just tasks, but personalities and working styles.",
+      "suggestedTitle": "People are turning coworkers into agent skills",
+      "suggestedSummary": "She says the new weird trend is distilling colleagues, influencers, and even exes into agent skills. It’s a sharp read on where AI agents are headed: less generic assistants, more personalized behavior packs people can swap around.",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2040319135507480921",
@@ -227,8 +227,8 @@
       "source": "Latent Space",
       "title": "Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why &quot;This Time Is Different&quot;",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "AI’s boom is real, but the buildout will be messy",
-      "suggestedSummary": "**The Takeaway:** AI isn’t a hype cycle so much as an 80-year backlog finally cashing out.\n\n- The big breakthroughs didn’t appear out of nowhere; they stacked from neural nets to AlexNet to transformers to reasoning, agents, and self-improvement.\n- The real risk isn’t that AI stops working — it’s that people overbuild around the wrong scaling assumption, like telecom did in the dot-com era.\n- The hard part now is not model capability but messy adoption: institutions, governments, companies, and billions of people won’t move in one clean line.\n\nMarc Andreessen, cofounder of Andreessen Horowitz, frames AI as the culmination of decades of serious research, not a sudden miracle. He calls it an “**eighty year overnight success**,” arguing that today’s leaps are the payoff from work that started with the 1943 neural network paper and ran through the Dartmouth era, the 1980s expert-systems boom, AlexNet, and transformers. His point is blunt: “**now we know the neural network is the correct architecture**,” and the recent jump from chatbots to reasoning models to coding agents is what finally made the tech feel real in the world.\n\nWhat changed his mind from cautious optimism to full conviction was the sequence of functional breakthroughs. LLMs were impressive, but reasoning models like o1 and r1 answered the skepticism about whether these systems could do more than autocomplete. Then coding crossed the line — if AI can hold up against serious programmers, it can spread everywhere else. From there, agents and self-improvement make the trajectory feel less like a demo and more like a platform shift.\n\nStill, Andreessen is not naive about the downside. He warns that the dot-com crash wasn’t just a demand story; it was an overbuilt infrastructure story. The same mistake could happen again if capital floods into data centers and GPUs faster than real demand justifies. But unlike the old telecom boom, today’s builders are Microsoft, Amazon, Google, Meta, Nvidia, OpenAI, and Anthropic — companies with real cash, real revenue, and real capacity pressure. That makes the upside look durable, even if the path there gets ugly.",
+      "suggestedTitle": "AI’s boom is real—but the buildout will still get messy",
+      "suggestedSummary": "**The Takeaway:** AI isn’t a hype cycle so much as an 80-year research backlog finally cashing out.\n\n- The big mistake is treating today’s jump as brand new; Andreessen sees it as a long chain of breakthroughs, from neural nets to transformers to reasoning, agents, and self-improvement.\n- “This time is different” is usually a trap, but here the difference is that the core capabilities are actually working in the real world—especially in coding, where the benchmark has become brutally concrete.\n- The risk isn’t that AI stops; it’s that capital overbuilds infrastructure the way telecom did in the dot-com era, except this time the money is coming from much stronger balance sheets.\n\nMarc Andreessen, cofounder of Andreessen Horowitz, frames AI as the culmination of decades of serious work rather than a sudden miracle. He’s been in the field since the late ’80s, remembers the Lisp-and-expert-systems era, and argues that the industry has always moved in waves: “summer, winter, summer, winter.” What changed is that the old arguments against neural nets and transformers have been answered by reality. In his view, the real unlocks were AlexNet, then transformers, then the recent leap into reasoning and agents.\n\nHis sharpest point is that the current wave is no longer just demo magic. Coding is the proof. Once AI can beat strong programmers in meaningful tasks, everything else becomes a downstream problem. That’s why he calls this an “eighty year overnight success.”\n\nStill, he’s not naïve about the business side. He compares today’s GPU and data-center frenzy to the telecom overbuild of the late ’90s: demand was real, but the capital got ahead of itself. The difference now is that the biggest spenders are Microsoft, Amazon, Google, Meta, Nvidia, OpenAI, and Anthropic—not fragile startups. The boom is real, but the path will be uneven, expensive, and full of companies that get crushed before the market settles.",
       "publishedAt": "2026-04-03T16:57:46.000Z",
       "category": "podcastHighlights"
     }
@@ -238,6 +238,6 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-04T07:22:07.764Z"
+    "generatedAt": "2026-04-04T14:09:44.375Z"
   }
 }

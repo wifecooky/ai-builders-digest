@@ -1,7 +1,7 @@
 {
   "date": "2026-04-04",
   "lang": "zh",
-  "summary": "Claude 接入了 Microsoft 365，Devin 把博客文章直接变成了可运行的代码，Garry Tan 还发布了一个 DX review 工具。Peter Steinberger 说，GitHub 的 API 还是没按 agent 的需求来设计；Aaron Levie 则提醒，agent 最后也会撞上和 manager 一样的墙。",
+  "summary": "Claude 已经接入了 Microsoft 365，几乎到处都能用。Swyx 说 Devin 能一把把 blog 直接打成 code。Peter Steinberger 则指出，GitHub 的 API 还是没为 agent 设计好。\n\nAaron Levie 撞上了 context 的上限。与此同时，Garry Tan 用自己那套 stack 做了个 DX review 工具，并且已经发出来了。",
   "builderInsights": [
     {
       "id": "claudeai-2026-04-04",
@@ -11,7 +11,7 @@
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
       "suggestedTitle": "Claude 全面接入 Microsoft 365",
-      "suggestedSummary": "Microsoft 365 connectors 现在对所有 Claude 套餐都开放了。Outlook、OneDrive 和 SharePoint 的内容可以直接进到 chat 里。这一步很实用：Claude 不再只是一个独立 assistant，而是开始真正能在你的 inbox 和 docs 里干活了。",
+      "suggestedSummary": "Microsoft 365 connectors 现在已经覆盖所有 Claude 方案。你可以直接把 Outlook、OneDrive 和 SharePoint 拉进聊天里，不用再来回切 tab。这个动作很实用：Claude 正在更贴近大家日常用的文档和邮箱，慢慢变成更顺手的工作助手。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2040086268562842097",
@@ -30,8 +30,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "GitHub API 还是没为 agent 设计好",
-      "suggestedSummary": "他说自己一直撞上 GitHub API 的 quota 限制。这很直接地说明，这个平台还没为 agentic workflows 做好准备。另一个 thread 里，他还说 Anthropic 的最新动作会伤到整个 ecosystem。不过他也提到 Boris 在尽量把影响压下去，靠 cache 修复来降低 API 成本。",
+      "suggestedTitle": "GitHub 的 API 还是没为 agent 设计好",
+      "suggestedSummary": "他说自己一直撞上 GitHub API 的 quota 限制。这很直接地说明，这个平台还是默认给人用，不是给 agentic workflow 用的。顺着这个思路，他也在说 Anthropic 最近的动作会伤到 ecosystem。不过他也认可那些小修小补，至少能帮 API 用户把影响降下来。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2040298884787032103",
@@ -62,8 +62,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "健康 app 正面硬刚 WHOOP",
-      "suggestedSummary": "他说，一家市值 $10B 的公司，因为一个 app “看起来和用起来像自己家的”就去起诉，完全是走错了路。与其打官司，他更想把 Bevel Health 做成 WHOOP 的免费替代品，并把这件事定义成一个使命：让更好的健康服务人人都用得上。",
+      "suggestedTitle": "健康 app 应该靠产品赢，不该靠起诉",
+      "suggestedSummary": "他认为，一家市值 100 亿美元的公司，因为一个 app “看起来和用起来都像”就去起诉，方向完全错了。更好的答案是继续全力押注 Bevel Health：把免费、可访问的健康服务带给所有人。对 WHOOP 的那句暗讽已经把意思说得很明白了——拼产品，不要拼法律战。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2040107083841053145",
@@ -82,8 +82,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agent 遇到的还是管理那道坎",
-      "suggestedSummary": "他说，AI agent 并没有绕开老问题：人类能记住的上下文就这么多，所以才需要 delegation。只要 agent 还做不到自己跟踪状态、清晰升级问题、并接入更大的系统，它们就还是离不开真人盯着。也正因为这样，“jobs disappear” 这个说法有点夸张了。",
+      "suggestedTitle": "Agents 还是撞上了老问题：context 墙",
+      "suggestedSummary": "他的意思是，AI agents 不会 magically 消掉管理开销。它们能做多好，还是取决于周围的 context、tools 和人类 oversight。只要 agents 还不能稳定地 self-escalate，并在更大的 system 里运作，真正费脑子的活儿还是得人来做。所以那种“jobs 会消失”的说法，站不住脚。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2040264454982480138",
@@ -102,8 +102,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "YC 负责人发布 DX review 工具",
-      "suggestedSummary": "他在 GStack 上发布了 /plan-devex-review，说自己一向先给自己造工具，现在把它分享出来，帮团队做出更好的 developer experience。它的灵感来自 Addy Osmani 的 DX framework，所以这更像一个实用、带明确观点的 workflow tool，而不是又一个泛泛的 AI wrapper。",
+      "suggestedTitle": "YC 负责人把自己那套 stack 里的 DX review tool 放出来了",
+      "suggestedSummary": "他发布了 `/plan-devex-review`，这是一个新的 GStack tool，用来帮团队做出更好的 developer experience，灵感来自 Addy Osmani 的 DX framework。潜台词很明显：他先给自己造工具，再把内部 tooling 变成别的 founder 也能直接用的东西。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2040228442130850008",
@@ -134,8 +134,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Design 和 PM 不应该硬绑在一起",
-      "suggestedSummary": "他的观点是，一旦 design 被塞进 product 里，探索就会变浅，品牌也会被拖累。更好的做法是让 brand/product design 保持紧密，但不要从属。 他还认为 PMM 应该归到 product management 这边，而 design + PM 这种组合会带来错误激励，把工作边界搞模糊。",
+      "suggestedTitle": "设计不该被 product 吃掉",
+      "suggestedSummary": "他认为，design 和 product 绑得太死，design 就会被降级，探索也会变浅，最后还会伤到 brand。更清晰的拆法是：让 brand 和 product design 保持紧密协作，把 PMM 当成 product 侧的问题来处理，而不是把 design 和 PM 硬揉在一起。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2040206778751750255",
@@ -166,8 +166,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Devin 直接把博客文章变成了可运行的代码",
-      "suggestedSummary": "他说自己碰到了一个很奇怪的新门槛：把博客文章和 tweets 直接贴进去，Devin 就能一次性把实现做出来。关键点在于底层模型——Gemini Flash Lite——按这个任务来说其实完全不在分布范围里，但它还是跑通了。这对 agentic coding workflow 来说，是个很强的信号。",
+      "suggestedTitle": "Devin 现在能一把搞定 blog 到 code",
+      "suggestedSummary": "他说自己已经碰到了“agentic self improvement”：把一篇 blog post 或一条 tweet 直接复制进 Devin，它就能一次性把实现做出来。更意外的是，这事居然成了，哪怕这对底层的 Gemini Flash Lite 来说明显很 out of distribution——这才是真正的信号。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2040245613997219902",
@@ -198,8 +198,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "人们开始把前任做成 agent skill",
-      "suggestedSummary": "她说，一个新趋势正在冒头：人们开始把同事、网红，甚至前任，提炼成 agent skill。这是个很明显的小信号，说明 AI agent 不只是开始接任务了，也在吸收人的性格和工作风格。",
+      "suggestedTitle": "人们开始把同事做成 agent skills",
+      "suggestedSummary": "她说，最近这个新怪趋势是把同事、influencer，甚至前任都 distill 成 agent skills。这个判断很准，也点出了 AI agents 接下来的方向：少一点通用 assistant，多一点可互相替换的个性化行为包。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2040319135507480921",
@@ -230,8 +230,8 @@
       "source": "Latent Space",
       "title": "Marc Andreessen 谈 The Death of the Browser、Pi + OpenClaw，以及为什么“这次不一样”",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "AI 的爆发是真的，但落地过程会很乱",
-      "suggestedSummary": "**核心结论：** AI 与其说是一次 hype cycle，不如说是 80 年积压需求终于开始兑现。\n\n- 这些大突破不是凭空冒出来的。它们是一路从 neural nets、AlexNet、transformers，叠到 reasoning、agent 和 self-improvement。\n- 真正的风险不是 AI 不 work 了，而是大家按错了 scaling assumption 去重仓，像 dot-com 时代的 telecom 一样。\n- 现在最难的不是 model capability，而是 messy adoption：institutions、governments、companies，还有几十亿人，不会整齐划一地往前走。\n\nAndreessen Horowitz 的 cofounder Marc Andreessen 把 AI 看成几十年严肃研究的总爆发，不是什么突然降临的 miracle。他称之为“**eighty year overnight success**”，意思是今天这些跃迁，都是从 1943 年那篇 neural network 论文开始，一路经过 Dartmouth 时代、80 年代 expert systems 热潮、AlexNet，再到 transformers 的长期积累。核心判断很直接：**现在我们知道 neural network 才是正确的 architecture**。而最近从 chatbot 到 reasoning model，再到 coding agent 的跨越，才真正让这项技术在现实世界里“站住了”。\n\n让他从谨慎乐观变成彻底确信的，是一连串功能上的突破。LLM 很强，但像 o1 和 r1 这样的 reasoning model，直接回答了一个质疑：这些系统到底是不是只会 autocomplete。接着，coding 这道门槛也被跨过去了——如果 AI 能和严肃 programmer 正面较量，那它就能往别的领域快速扩散。再往后，agent 和 self-improvement 让整个走势不再像 demo，而更像一次 platform shift。\n\n不过，Andreessen 也没天真到忽略 downside。他提醒，dot-com crash 不只是 demand 的问题，更是 infrastructure 建太多了。今天也可能重演同样的事：如果资本涌进 data center 和 GPU 的速度，快过真实需求，泡沫照样会炸。只是和当年的 telecom boom 不同，现在下场的 builder 是 Microsoft、Amazon、Google、Meta、Nvidia、OpenAI 和 Anthropic。这些公司有真金白银，有真实收入，也有真实的 capacity pressure。所以即使路上会很难看，长期 upside 还是更站得住。",
+      "suggestedTitle": "AI 的爆发是真的，但基础设施建设还是会很乱",
+      "suggestedSummary": "**核心结论：** AI 与其说是一个 hype cycle，不如说是把积压了 80 年的 research backlog 一次性兑现了。\n\n- 最大的误区，是把今天这波跃升当成全新的东西。Andreessen 看到的是一条连续的突破链：从 neural nets 到 transformers，再到 reasoning、agents 和 self-improvement。\n- “This time is different” 通常是个坑。但这次不一样的地方在于，核心能力真的在现实世界里跑通了，尤其是 coding。现在 benchmark 已经变得非常具体，也非常残酷。\n- 真正的风险不是 AI 停下来，而是资本像 dot-com 时代的 telecom 一样过度建设 infrastructure。只不过这次，钱来自更强的 balance sheets。",
       "publishedAt": "2026-04-03T16:57:46.000Z",
       "category": "podcastHighlights"
     }
@@ -242,7 +242,7 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-04T07:22:15.225Z",
+    "generatedAt": "2026-04-04T14:09:49.640Z",
     "estimatedReadTime": "5 分钟"
   }
 }
