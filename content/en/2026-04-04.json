@@ -1,7 +1,8 @@
 {
   "date": "2026-04-04",
+  "lang": "en",
   "summary": "Claude plugged into Microsoft 365, Devin turned blog posts into working code, and Garry Tan shipped a DX review tool. Peter Steinberger said GitHub’s API still wasn’t built for agents, while Aaron Levie warned agents hit the same wall as managers.",
-  "items": [
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-04",
       "source": "X",
@@ -221,7 +222,9 @@
       ],
       "publishedAt": "2026-04-04T06:42:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-04",
       "source": "Latent Space",
@@ -233,11 +236,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 14,
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-04T07:22:07.764Z"
+    "generatedAt": "2026-04-04T07:22:07.977Z",
+    "estimatedReadTime": "5 min"
   }
 }
