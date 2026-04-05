@@ -1,7 +1,8 @@
 {
   "date": "2026-04-05",
+  "lang": "en",
   "summary": "Karpathy pushed “your data, your files, your AI.” Levie argued context beat raw model IQ in enterprise AI. Garry Tan said GStack kept shipping security fixes fast, while No Priors spotlighted Periodic Labs’ bet on atoms, not just text.",
-  "items": [
+  "builderInsights": [
     {
       "id": "karpathy-2026-04-05",
       "source": "X",
@@ -91,7 +92,9 @@
       ],
       "publishedAt": "2026-04-05T05:47:08.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-05",
       "source": "No Priors",
@@ -103,11 +106,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-05T14:10:03.951Z"
+    "generatedAt": "2026-04-05T14:10:04.163Z",
+    "estimatedReadTime": "3 min"
   }
 }

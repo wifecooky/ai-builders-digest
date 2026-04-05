@@ -1,7 +1,8 @@
 {
   "date": "2026-04-05",
-  "summary": "Karpathy pushed “your data, your files, your AI.” Levie argued context beat raw model IQ in enterprise AI. Garry Tan said GStack kept shipping security fixes fast, while No Priors spotlighted Periodic Labs’ bet on atoms, not just text.",
-  "items": [
+  "lang": "zh",
+  "summary": "Karpathy 提出了“your data, your files, your AI”。Levie 认为，在 enterprise AI 里，context 比 raw model IQ 更重要。Garry Tan 说，GStack 一直在快速推 security fixes；而 No Priors 则重点提到了 Periodic Labs 的押注：不只做 text，还要做 atoms。",
+  "builderInsights": [
     {
       "id": "karpathy-2026-04-05",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "Your data, your files, your AI",
-      "suggestedSummary": "He’s pushing a simple thesis: personal AI should be explicit, portable, and under your control — not some opaque memory blob inside a vendor’s system. His “file over app” take says the right unit is a local wiki of universal files, with any model plugged in on top, and he thinks agent fluency is becoming a core skill.",
+      "suggestedTitle": "你的数据，你的文件，你的 AI",
+      "suggestedSummary": "他的核心观点很简单：个人 AI 应该是显式的、可携带的，而且由你自己掌控，而不是某个 vendor 系统里一团看不清的 memory blob。他提出的“file over app”意思是，正确的单位不是 app，而是一个本地 wiki，里面放通用文件，上面再接任何 model。他还认为，熟练使用 agent 正在变成一项核心技能。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2040572272944324650",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Context, not raw model IQ, wins enterprise AI",
-      "suggestedSummary": "He argues the real bottleneck in enterprise AI is the context layer: models can’t know what each user is allowed to see, and continual learning at the model level breaks on access controls and private workflows. That’s why applied AI at Box has to behave more like a human searcher-reader than a chunk-and-pray retriever. He also says better tool use, bigger context windows, and stronger reasoning are pushing agents into a qualitatively new tier.",
+      "suggestedTitle": "上下文，而不是原始模型 IQ，才是 enterprise AI 的胜负手",
+      "suggestedSummary": "他认为，enterprise AI 真正的瓶颈在 context layer：model 不可能天然知道每个 user 能看什么。把 continual learning 放到 model 层也会卡在 access control 和 private workflow 上。这也是为什么 Box 的 applied AI 不能只靠 chunk-and-pray 的 retriever，而得更像一个会搜、会读的人。与此同时，更好的 tool use、更大的 context window 和更强的 reasoning，正在把 agent 推到一个全新的层级。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2040650799550722243",
@@ -67,8 +68,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
       "title": "Garry Tan",
-      "suggestedTitle": "GStack keeps shipping security fixes fast",
-      "suggestedSummary": "He says GStack just landed 14 security bug fixes, and half came from community PRs — a nice sign the project’s getting real outside help. He’s also pushing toward more adaptive reviews and a smarter “L8 software factory,” but this batch is mostly about steady, unglamorous hardening.",
+      "suggestedTitle": "GStack 持续快速发布安全修复",
+      "suggestedSummary": "他说，GStack 刚刚落地了 14 个安全 bug 修复，其中一半来自社区 PR。这说明这个项目开始真正拿到外部支持了。它也在往更自适应的 review 和更聪明的 “L8 software factory” 方向推进。不过这次这批更新，核心还是稳扎稳打的加固，没什么花哨的。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2040667535490863254",
@@ -91,23 +92,27 @@
       ],
       "publishedAt": "2026-04-05T05:47:08.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-05",
       "source": "No Priors",
-      "title": "AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus",
+      "title": "AI for Atoms：Periodic Labs 如何和联合创始人 Liam Fedus 一起重塑材料工程",
       "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "suggestedTitle": "Periodic Labs wants AI to learn from atoms, not just text",
-      "suggestedSummary": "**The Takeaway:** AI gets truly useful when it stops reading the internet and starts running experiments.\n\n- Liam Fedus argues the real bottleneck in science isn’t model size, it’s grounding: literature is noisy, but experimental loops give you truth.\n- Periodic Labs is betting on a hybrid stack: language models as the orchestration layer, plus specialized atomic models and lab automation underneath.\n- He thinks the biggest gains will come from domains with tight feedback loops and high-value physical constraints, not from chasing one giant general model.\n\nLiam Fedus, co-founder of Periodic Labs and a former VP of post-training at OpenAI, comes at this from physics, not hype. He studied dark matter, drifted toward machine learning in grad school, then helped build some of the core infrastructure behind the transformer era at Google Brain before working on ChatGPT. That path explains his obsession: intelligence only matters if it can touch reality.\n\nHis core point is blunt. Language models are powerful, but science doesn’t happen in a chat window. “Science ultimately isn’t sitting in a room thinking really hard,” he says. “You have to conduct experiments.” Periodic Labs is built around that idea: use AI to design, direct, and learn from experiments in materials science and chemistry, then feed the results back into the system in a closed loop.\n\nThe contrarian bit is that they’re not trying to replace everything with one model. They’re using LLMs as the control plane, while specialized neural nets handle atomic systems with symmetry-aware architectures and low-latency inference. They also lean heavily on existing foundation models and coding tools, but only where those tools are already strong. The real frontier, Fedus says, is where data is scarce, noisy, and physically grounded.\n\nIf they’re right, the payoff is huge: faster discovery in semiconductors, aerospace, energy, and manufacturing—basically, giving software-like iteration speed to the physical world.",
+      "suggestedTitle": "Periodic Labs 想让 AI 从原子里学习，而不只是读文本",
+      "suggestedSummary": "**核心结论：** AI 真正变得有用，是从“读互联网”转向“跑实验”的那一刻。\\n\\n- Liam Fedus 认为，科学里的真正瓶颈不是 model size，而是 grounding：文献噪音太大，实验闭环才给得出真相。\\n- Periodic Labs 押注的是一套混合架构：用 language models 做 orchestration layer，底下再配专门的 atomic models 和 lab automation。\\n- 他觉得，最大收益会出现在反馈快、物理约束强的领域，而不是一味追一个巨大的通用 model。\\n\\nLiam Fedus 是 Periodic Labs 的 co-founder，也曾在 OpenAI 做过 post-training 的 VP。他看这个问题的出发点是 physics，不是 hype。他学过 dark matter，读研时慢慢转向 machine learning，后来在 Google Brain 搭过 transformer 时代的一些核心基础设施，再到 ChatGPT。这个路径也解释了他的执念：intelligence 只有能碰到现实，才算数。\\n\\n他的核心观点很直接。Language models 很强，但 science 不是在 chat window 里发生的。他说：“Science ultimately isn’t sitting in a room thinking really hard. You have to conduct experiments.” Periodic Labs 就是围绕这个思路搭起来的：用 AI 去设计、调度、并从 materials science 和 chemistry 的实验里学习，再把结果以 closed loop 的方式喂回系统。\\n\\n他们最反直觉的一点，是没想用一个 model 包打天下。LLMs 负责 control plane，专门的 neural nets 处理 atomic systems，架构上会考虑 symmetry，推理也要低 latency。他们也大量借力现成的 foundation models 和 coding tools，但只在这些工具已经足够强的地方用。Fedus 说，真正的前沿在于那些数据稀缺、噪音大、但又有明确物理约束的场景。\\n\\n如果他们判断对了，回报会非常大：semiconductors、aerospace、energy、manufacturing 的发现速度都会被拉快。说白了，就是把软件那种快速迭代的节奏，带进物理世界。",
       "publishedAt": "2026-04-03T10:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-05T14:10:03.951Z"
+    "generatedAt": "2026-04-05T14:10:09.956Z",
+    "estimatedReadTime": "3 分钟"
   }
 }
