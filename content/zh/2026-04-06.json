@@ -1,7 +1,8 @@
 {
   "date": "2026-04-06",
-  "summary": "Rauch said v0 now builds physics, not just UI, while Karpathy noted GitHub Gists have weirdly good comments. Levie argued AI efficiency creates more work, not less, and Tan called open source’s golden age.",
-  "items": [
+  "lang": "zh",
+  "summary": "Rauch 说，v0 现在不只是做 UI 了，也开始做 physics。Karpathy 则提到，GitHub Gists 的评论区出奇地好。Levie 认为，AI 提升效率，带来的不是更少工作，而是更多工作。Tan 则称这是 open source 的黄金时代。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-06",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "v0 is now building physics, not just UI",
-      "suggestedSummary": "He showed v0 creating a hyper-realistic moon flag simulation, then getting smarter when fed C++ and Rust references. The wild part: it also optimized itself by moving the physics into a Web Worker, which is a nice flex for Vercel’s tooling stack.",
+      "suggestedTitle": "v0 现在不只是做 UI，还能做物理模拟了",
+      "suggestedSummary": "他演示了 v0 生成一个超逼真的月球旗帜模拟。然后再喂给它 C++ 和 Rust 的参考资料，它就变得更聪明了。更夸张的是，它还自己做了优化，把物理计算挪到 Web Worker 里。这对 Vercel 的 tooling stack 来说，算是很漂亮的一次秀肌肉。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2040879055990632715",
@@ -35,8 +36,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "GitHub Gists have weirdly good comments",
-      "suggestedSummary": "He says gist comments are surprisingly helpful and constructive, with less AI sludge than you’d expect. He’s wondering if it’s the community, the markdown format, or just weaker incentives — and basically wants to post more gists now.",
+      "suggestedTitle": "GitHub Gists 的评论意外地很有质量",
+      "suggestedSummary": "他说，gist 里的评论比想象中更有帮助，也更建设性，AI 味儿没那么重。他在想，这到底是社区氛围、markdown 格式，还是激励机制本来就没那么强。总之，他现在更想多发点 gists 了。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2040806346556428585",
@@ -55,8 +56,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI efficiency creates more work, not less",
-      "suggestedSummary": "He argues AI agents will expand demand in most categories instead of wiping jobs out. More code means more automation, more security, more compliance, more media, more legal work — and even more healthcare ops as scheduling gets cheaper. The big idea: efficiency unlocks second-order demand, so the AI jobs story is way less simple than the doom takes.",
+      "suggestedTitle": "AI 效率会带来更多工作，而不是更少",
+      "suggestedSummary": "他认为，AI agent 不会把大多数行业的需求打没，反而会把需求做大。代码更多了，就需要更多 automation、更多 security、更多 compliance、更多 media、更多 legal work。甚至 healthcare ops 也会变多，因为 scheduling 变便宜了。核心观点很简单：效率会释放二阶需求。所以，AI 对 jobs 的影响，远比“会不会毁掉工作”这种说法复杂得多。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2040967947275948357",
@@ -75,8 +76,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
       "title": "Garry Tan",
-      "suggestedTitle": "Open source is having its golden age",
-      "suggestedSummary": "He says the open source era is back in force, with the kind of momentum that makes builders move faster and ship more. He also keeps pushing the pro-innovation line on self-driving cars, arguing they should be legalized instead of slowed down.",
+      "suggestedTitle": "开源正迎来黄金时代",
+      "suggestedSummary": "他说，开源时代又强势回来了。这股势头会让 builder 们跑得更快，发得更多。他也继续站在 pro-innovation 这边支持自动驾驶，认为它们该被合法化，而不是被拖慢。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2040981159233134793",
@@ -107,8 +108,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "GPT-5.4’s claws need thinking mode on",
-      "suggestedSummary": "He says GPT-5.4’s claws look pretty good, but they come off dumb unless you turn thinking on. That’s a useful reminder for AI product folks: model capability alone isn’t enough if the default behavior hides it.",
+      "suggestedTitle": "GPT-5.4 的 claws 需要开启 thinking mode",
+      "suggestedSummary": "他说，GPT-5.4 的 claws 看起来挺不错，但如果不打开 thinking mode，就会显得有点笨。这对做 AI 产品的人是个提醒：光有 model capability 还不够，默认行为如果把能力藏起来，效果还是会打折。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2040901103483490753",
@@ -127,8 +128,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Make the agent your product marketer",
-      "suggestedSummary": "She argues that for AI-native skills and apps, the agent is the interface — so it should explain features, benefits, and how to use the thing, not just execute tasks. In other words: bake evangelism into the AGENTS.md prompt so the product sells itself through the agent. She also makes the case for resisting AI summaries when the content matters and reading the original deeply instead.",
+      "suggestedTitle": "让 agent 成为你的产品营销",
+      "suggestedSummary": "她的观点是：对 AI-native 的技能和 app 来说，agent 就是界面。所以它不该只负责执行任务，还要讲清楚功能、价值，以及怎么用。换句话说，就是把 evangelism 直接写进 AGENTS.md prompt，让产品通过 agent 自己把自己卖出去。她还认为，当内容很重要时，别急着看 AI summary，最好直接深入读原文。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2041031588000252279",
@@ -153,8 +154,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "LLMs shouldn’t get a freer pass than ERs",
-      "suggestedSummary": "He’s drawing a sharp line between healthcare rules and AI behavior: if emergency rooms can’t refuse patients, why should an LLM be allowed to refuse medical advice? It’s a pointed argument for treating AI in high-stakes domains like a regulated service, not a casual chatbot.",
+      "suggestedTitle": "LLM 不该比 ERs 拿到更宽松的豁免",
+      "suggestedSummary": "他把医疗规则和 AI 行为划了条很清楚的线：如果 emergency rooms 不能拒收病人，为什么 LLM 就能拒绝给医疗建议？他的核心观点很直接：在高风险领域，AI 应该按受监管的服务来管，而不是当成随便聊聊的 chatbot。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2041016861027193239",
@@ -173,8 +174,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "AI coding loop: build, review, repeat",
-      "suggestedSummary": "He’s describing a new dev workflow: spot a feature, hand it to Claude Code, have Codex review the plan, then iterate. As a seed investor and former operator, he’s basically saying AI is now the front end of product engineering — not just a helper, but part of the loop.",
+      "suggestedTitle": "AI coding loop：构建、review、重复",
+      "suggestedSummary": "他在讲一种新的 dev workflow：先发现一个 feature，丢给 Claude Code，再让 Codex review 方案，然后继续迭代。作为 seed investor 和前 operator，他的意思其实很直接：AI 现在已经成了 product engineering 的前端，不只是个 helper，而是 loop 里的一部分。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2040953390356889646",
@@ -205,8 +206,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "OpenAI skips roadmaps, ships in short bursts",
-      "suggestedSummary": "OpenAI’s Codex product lead says the team avoids medium-term roadmaps entirely: they plan either the next 8 weeks or the next year, but not the awkward middle. The bet is simple — keep a long-term direction, then stack short-term shipping bets that move toward it. Peter Yang surfaces it as a clean look at how a top AI team actually operates.",
+      "suggestedTitle": "OpenAI 不做中期 roadmap，只做短周期交付",
+      "suggestedSummary": "OpenAI 的 Codex 产品负责人说，团队完全避开中期 roadmap：他们只看接下来 8 周，或者接下来 1 年，但不会碰中间那段尴尬的空档。思路很简单——先定住长期方向，再用一连串短期交付去往那个方向推进。Peter Yang 把这件事提炼出来，给了我们一个很清楚的视角，看看顶级 AI 团队到底是怎么运作的。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2040954866567364758",
@@ -229,23 +230,27 @@
       ],
       "publishedAt": "2026-04-06T00:48:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-06",
       "source": "Latent Space",
-      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
+      "title": "Moonlake：Causal World Models 应该是多模态、可交互、且高效的 —— 与 Chris Manning 和 Fan-yun Sun 对谈",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "Moonlake bets world models need actions, not just pixels",
-      "suggestedSummary": "**The Takeaway:** World models only matter if they can predict consequences of action, not just generate pretty video.\n\n- Moonlake’s contrarian bet is that structure beats brute-force pixels: if you want planning, consistency, and causality, you need abstractions, not endless frame prediction.\n- Their definition is stricter than most: a world model must be action-conditioned, interactive, and able to answer “what changes if I do this?” over minutes, not just the next frame.\n- They’re not anti-scale; they’re anti-waste. The goal is to use cognitive tools like language, code, and physics engines to compress the problem instead of burning five orders of magnitude more data.\n\nChris Manning, a longtime NLP researcher, and Fan-yun Sun, who came out of PhD work with NVIDIA on interactive worlds and synthetic data, are building Moonlake around a simple complaint: modern video models look smart but don’t actually understand the world they depict. As Manning puts it, “the visuals do look fantastic, [but] those visuals actually aren't accompanied by an understanding of the three d world.” That gap matters because real intelligence is about long-horizon action, not frame-by-frame imitation.\n\nTheir philosophy is bluntly anti-hype. A model that can render a bowling lane is not the same as a model that can help you learn bowling. Sun’s framing is sharper: if the system can’t let you practice, test choices, and see the consequences, it’s not yet a world model. That’s why Moonlake leans on reasoning traces, symbolic abstractions, and tool use rather than pure generation. The point isn’t to reject diffusion or scale; it’s to move the intelligence into a more compact representation first, then recover fidelity later. Or, as Manning puts it, “you want the structure… to be able to much more efficiently learn.”",
+      "suggestedTitle": "Moonlake 认为 world models 需要 action，不只是像素",
+      "suggestedSummary": "**核心结论：** world models 只有能预测 action 的后果才有意义，不只是生成好看的视频。\n\n- Moonlake 的反直觉判断是：结构比暴力堆像素更重要。想做 planning、保持一致性、理解 causality，就需要 abstraction，而不是无止境地预测下一帧。\n- 他们对 world model 的定义比大多数人更严格：它必须是 action-conditioned、interactive，而且要能回答“如果我这么做，会变什么？”而且要看分钟级的变化，不只是下一帧。\n- 他们不是反对 scale，而是反对浪费。目标是用 language、code 和 physics engine 这类 cognitive tools 去压缩问题，而不是靠多烧五个数量级的数据。\n\nChris Manning 是做 NLP 多年的研究者，Fan-yun Sun 则来自 NVIDIA 相关的 PhD 工作，方向是 interactive worlds 和 synthetic data。他们在 Moonlake 上的出发点很简单：现在很多 video model 看起来很聪明，但其实并不理解它们在描述的世界。Manning 说得很直接：“画面确实很惊艳，［但］这些画面其实并没有伴随着对三维世界的理解。” 这个 gap 很关键，因为真正的 intelligence 关心的是长时程 action，不是逐帧模仿。\n\n他们的理念也很明确，甚至有点反 hype。一个能把 bowling lane 画出来的 model，不等于一个能帮你学 bowling 的 model。Sun 的说法更尖锐：如果系统不能让你练习、测试选择、看到后果，那它还不算 world model。这也是 Moonlake 为什么更依赖 reasoning trace、symbolic abstraction 和 tool use，而不是纯生成。重点不是否定 diffusion 或 scale，而是先把 intelligence 压到更紧凑的 representation 里，再把 fidelity 补回来。或者用 Manning 的话说，“你需要 structure……这样才能更高效地学习。”",
       "publishedAt": "2026-04-02T17:55:29.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 26,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-06T14:19:02.254Z"
+    "generatedAt": "2026-04-06T14:19:11.083Z",
+    "estimatedReadTime": "5 分钟"
   }
 }

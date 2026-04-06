@@ -1,7 +1,8 @@
 {
   "date": "2026-04-06",
+  "lang": "en",
   "summary": "Rauch said v0 now builds physics, not just UI, while Karpathy noted GitHub Gists have weirdly good comments. Levie argued AI efficiency creates more work, not less, and Tan called open source’s golden age.",
-  "items": [
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-06",
       "source": "X",
@@ -229,7 +230,9 @@
       ],
       "publishedAt": "2026-04-06T00:48:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-06",
       "source": "Latent Space",
@@ -241,11 +244,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 26,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-06T14:19:02.254Z"
+    "generatedAt": "2026-04-06T14:19:02.448Z",
+    "estimatedReadTime": "5 min"
   }
 }

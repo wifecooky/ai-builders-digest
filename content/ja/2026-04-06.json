@@ -1,7 +1,8 @@
 {
   "date": "2026-04-06",
-  "summary": "Rauch said v0 now builds physics, not just UI, while Karpathy noted GitHub Gists have weirdly good comments. Levie argued AI efficiency creates more work, not less, and Tan called open source’s golden age.",
-  "items": [
+  "lang": "ja",
+  "summary": "Rauchは、v0がもはやUIだけでなくphysicsまで構築するようになったと述べた。  \nKarpathyは、GitHub Gistsのコメントが妙に優秀だと指摘した。  \nLevieは、AIの効率化は仕事を減らすのではなく、むしろ増やすと主張した。  \nTanは、open sourceの黄金期だと語った。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-06",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "v0 is now building physics, not just UI",
-      "suggestedSummary": "He showed v0 creating a hyper-realistic moon flag simulation, then getting smarter when fed C++ and Rust references. The wild part: it also optimized itself by moving the physics into a Web Worker, which is a nice flex for Vercel’s tooling stack.",
+      "suggestedTitle": "v0はもはやUIだけでなく物理演算も作る",
+      "suggestedSummary": "v0が、超リアルな月面の旗のシミュレーションを生成する様子を示した。さらにC++とRustの参考資料を与えると、より賢くなった。驚きなのはそこだけではない。物理演算をWeb Workerに移し、自分で最適化までやってみせたのだ。Vercelのツールスタックにとっては、かなりの見せ場である。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2040879055990632715",
@@ -35,8 +36,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "GitHub Gists have weirdly good comments",
-      "suggestedSummary": "He says gist comments are surprisingly helpful and constructive, with less AI sludge than you’d expect. He’s wondering if it’s the community, the markdown format, or just weaker incentives — and basically wants to post more gists now.",
+      "suggestedTitle": "GitHub Gistsのコメントは妙に良い",
+      "suggestedSummary": "gistのコメントは、驚くほど役に立ち、建設的だという。思ったよりAIのノイズも少ない。コミュニティの性質なのか、markdown形式のおかげなのか、それとも単にインセンティブが弱いだけなのかを考えている。要するに、今後はもっとgistを投稿したいと思っている。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2040806346556428585",
@@ -55,8 +56,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI efficiency creates more work, not less",
-      "suggestedSummary": "He argues AI agents will expand demand in most categories instead of wiping jobs out. More code means more automation, more security, more compliance, more media, more legal work — and even more healthcare ops as scheduling gets cheaper. The big idea: efficiency unlocks second-order demand, so the AI jobs story is way less simple than the doom takes.",
+      "suggestedTitle": "AIの効率化は仕事を減らすのではなく、増やす",
+      "suggestedSummary": "彼は、AI agentは多くの分野で仕事を消すのではなく、需要を広げると主張する。コードが増えれば、automationも、securityも、complianceも、mediaも、legal workも増える。さらに、schedulingが安くなることで、healthcare opsも増える。要点はこうだ。効率化は二次的な需要を解放する。だから、AI jobsの話は悲観論が言うほど単純ではない。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2040967947275948357",
@@ -75,8 +76,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
       "title": "Garry Tan",
-      "suggestedTitle": "Open source is having its golden age",
-      "suggestedSummary": "He says the open source era is back in force, with the kind of momentum that makes builders move faster and ship more. He also keeps pushing the pro-innovation line on self-driving cars, arguing they should be legalized instead of slowed down.",
+      "suggestedTitle": "オープンソースは黄金期を迎えている",
+      "suggestedSummary": "彼は、オープンソースの時代が再び勢いを取り戻したと述べている。開発者がより速く動き、より多くをリリースしたくなるような勢いがあるという。さらに、自動運転車についても引き続きイノベーション推進の立場を取り、足を引っ張るのではなく合法化すべきだと主張している。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2040981159233134793",
@@ -107,8 +108,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "GPT-5.4’s claws need thinking mode on",
-      "suggestedSummary": "He says GPT-5.4’s claws look pretty good, but they come off dumb unless you turn thinking on. That’s a useful reminder for AI product folks: model capability alone isn’t enough if the default behavior hides it.",
+      "suggestedTitle": "GPT-5.4の爪はthinking modeをオンにする必要がある",
+      "suggestedSummary": "彼は、GPT-5.4の爪はかなり良さそうだと言う。だが、thinkingをオンにしないと、間抜けに見える。これはAI product担当にとって有用な注意喚起だ。modelの能力だけでは十分ではない。デフォルトの挙動がそれを隠してしまうなら、意味がない。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2040901103483490753",
@@ -127,8 +128,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Make the agent your product marketer",
-      "suggestedSummary": "She argues that for AI-native skills and apps, the agent is the interface — so it should explain features, benefits, and how to use the thing, not just execute tasks. In other words: bake evangelism into the AGENTS.md prompt so the product sells itself through the agent. She also makes the case for resisting AI summaries when the content matters and reading the original deeply instead.",
+      "suggestedTitle": "agentをプロダクトマーケターにせよ",
+      "suggestedSummary": "彼女は、AI-nativeなスキルやアプリではagentこそがインターフェースだと論じる。だからこそ、単にタスクを実行するだけでなく、機能、利点、使い方まで説明すべきだという。要するに、evangelismをAGENTS.mdのpromptに組み込み、agent経由でプロダクトが自走して売れるようにせよ、という話だ。さらに、内容が重要なときはAI summaryに頼らず、元の文章を深く読むべきだとも主張している。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2041031588000252279",
@@ -153,8 +154,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "LLMs shouldn’t get a freer pass than ERs",
-      "suggestedSummary": "He’s drawing a sharp line between healthcare rules and AI behavior: if emergency rooms can’t refuse patients, why should an LLM be allowed to refuse medical advice? It’s a pointed argument for treating AI in high-stakes domains like a regulated service, not a casual chatbot.",
+      "suggestedTitle": "LLMsにERより甘い扱いは許されない",
+      "suggestedSummary": "医療のルールとAIの振る舞いを鋭く切り分けている。救急外来が患者を拒めないなら、なぜLLMが医療アドバイスを拒めるのか。高リスク領域のAIは、気軽なチャットボットではなく、規制されたサービスとして扱うべきだという主張である。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2041016861027193239",
@@ -173,8 +174,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "AI coding loop: build, review, repeat",
-      "suggestedSummary": "He’s describing a new dev workflow: spot a feature, hand it to Claude Code, have Codex review the plan, then iterate. As a seed investor and former operator, he’s basically saying AI is now the front end of product engineering — not just a helper, but part of the loop.",
+      "suggestedTitle": "AI coding loop: ビルド、レビュー、リピート",
+      "suggestedSummary": "彼が描いているのは、新しい開発ワークフローだ。機能を見つけたら Claude Code に渡す。次に Codex に計画をレビューさせる。そして反復する。シード投資家であり元オペレーターでもある彼の主張は要するにこうだ。AI は今やプロダクトエンジニアリングのフロントエンドであり、単なる補助ではなく、ループの一部だということだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2040953390356889646",
@@ -205,8 +206,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "OpenAI skips roadmaps, ships in short bursts",
-      "suggestedSummary": "OpenAI’s Codex product lead says the team avoids medium-term roadmaps entirely: they plan either the next 8 weeks or the next year, but not the awkward middle. The bet is simple — keep a long-term direction, then stack short-term shipping bets that move toward it. Peter Yang surfaces it as a clean look at how a top AI team actually operates.",
+      "suggestedTitle": "OpenAIはroadmapを飛ばし、短いサイクルでshipする",
+      "suggestedSummary": "OpenAIのCodex product leadによると、チームは中期のroadmapを完全に避けている。計画するのは次の8週間か、次の1年だけだ。その中間の中途半端な期間は見ない。賭けは単純だ。長期の方向性を保ちつつ、それに向かう短期のshipping betを積み重ねる。Peter Yangは、トップクラスのAI teamが実際にどう動いているかを示す、端的な視点としてこれを取り上げている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2040954866567364758",
@@ -229,23 +230,27 @@
       ],
       "publishedAt": "2026-04-06T00:48:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-06",
       "source": "Latent Space",
-      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
+      "title": "Moonlake: Causal World ModelsはMultimodal、Interactive、Efficientであるべきだ — Chris ManningとFan-yun Sunとともに",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "Moonlake bets world models need actions, not just pixels",
-      "suggestedSummary": "**The Takeaway:** World models only matter if they can predict consequences of action, not just generate pretty video.\n\n- Moonlake’s contrarian bet is that structure beats brute-force pixels: if you want planning, consistency, and causality, you need abstractions, not endless frame prediction.\n- Their definition is stricter than most: a world model must be action-conditioned, interactive, and able to answer “what changes if I do this?” over minutes, not just the next frame.\n- They’re not anti-scale; they’re anti-waste. The goal is to use cognitive tools like language, code, and physics engines to compress the problem instead of burning five orders of magnitude more data.\n\nChris Manning, a longtime NLP researcher, and Fan-yun Sun, who came out of PhD work with NVIDIA on interactive worlds and synthetic data, are building Moonlake around a simple complaint: modern video models look smart but don’t actually understand the world they depict. As Manning puts it, “the visuals do look fantastic, [but] those visuals actually aren't accompanied by an understanding of the three d world.” That gap matters because real intelligence is about long-horizon action, not frame-by-frame imitation.\n\nTheir philosophy is bluntly anti-hype. A model that can render a bowling lane is not the same as a model that can help you learn bowling. Sun’s framing is sharper: if the system can’t let you practice, test choices, and see the consequences, it’s not yet a world model. That’s why Moonlake leans on reasoning traces, symbolic abstractions, and tool use rather than pure generation. The point isn’t to reject diffusion or scale; it’s to move the intelligence into a more compact representation first, then recover fidelity later. Or, as Manning puts it, “you want the structure… to be able to much more efficiently learn.”",
+      "suggestedTitle": "Moonlakeは、world modelsにはpixelだけでなくactionが必要だと賭ける",
+      "suggestedSummary": "**要点:** world modelsが意味を持つのは、きれいなvideoを生成することではなく、actionの結果を予測できるときだけである。\n\n- Moonlakeの逆張りは、構造が総当たりのpixel生成に勝つというものだ。planning、一貫性、因果性が欲しいなら、延々とframeを予測するのではなく、抽象化が必要である。\n- 彼らの定義は多くの流派より厳しい。world modelはaction-conditionedで、interactiveであり、「これをしたら何が変わるのか」に分単位で答えられなければならない。次のframeだけでは足りない。\n- 彼らはscaleに反対しているわけではない。無駄に反対しているのだ。language、code、physics engineのような認知ツールを使い、5桁多くdataを燃やす代わりに問題を圧縮するのが狙いである。\n\n長年NLPを研究してきたChris Manningと、NVIDIAでinteractive worldsとsynthetic dataのPhD研究をしてきたFan-yun Sunは、Moonlakeを一つの単純な不満から作っている。現代のvideo modelは賢そうに見えるが、描いている世界を本当には理解していないのだ。Manningはこう言う。「visualsは本当に素晴らしく見えるが、そのvisualsには3D worldの理解が伴っていない」。このギャップが重要なのは、本当のintelligenceがframeごとの模倣ではなく、長期のactionにあるからだ。\n\n彼らの哲学は、はっきりとhypeに冷ややかである。bowling laneをrenderできるmodelと、bowlingを学ぶ助けになるmodelは同じではない。Sunの言い方はさらに鋭い。systemが練習をさせ、選択を試し、その結果を見せられないなら、それはまだworld modelではない。だからMoonlakeは、純粋な生成よりもreasoning trace、symbolic abstraction、tool useに寄っている。狙いはdiffusionやscaleを否定することではない。まずintelligenceをよりコンパクトな表現に移し、その後でfidelityを取り戻すことだ。Manningの言葉を借りれば、「structureが必要なのは、もっと効率よく学べるようにするため」である。",
       "publishedAt": "2026-04-02T17:55:29.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 26,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-06T14:19:02.254Z"
+    "generatedAt": "2026-04-06T14:19:20.449Z",
+    "estimatedReadTime": "5 分"
   }
 }
