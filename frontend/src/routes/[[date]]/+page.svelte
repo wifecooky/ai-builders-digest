@@ -5,6 +5,7 @@
   import BuilderCard from '$lib/components/BuilderCard.svelte';
   import PodcastCard from '$lib/components/PodcastCard.svelte';
   import BlogCard from '$lib/components/BlogCard.svelte';
+  import { cjkBreak } from '$lib/actions/cjk-break.js';
 
   let { data } = $props();
   const app = getContext('app');
@@ -120,7 +121,7 @@
             style="text-shadow: 0 0 7px rgba(129, 140, 248, 0.3);">
             TL;DR
           </p>
-          <p class="text-sm text-cyber-text leading-relaxed">{content.summary}</p>
+          <p class="text-sm text-cyber-text leading-relaxed" use:cjkBreak={currentLang}>{content.summary}</p>
         </div>
       </section>
     {/if}
@@ -241,7 +242,7 @@
                 {/if}
               </div>
               {#if preview?.summary?.[currentLang]}
-                <p class="text-[11px] text-cyber-text-muted mt-1.5 leading-relaxed line-clamp-2">{preview.summary[currentLang]}</p>
+                <p class="text-[11px] text-cyber-text-muted mt-1.5 leading-relaxed line-clamp-2" use:cjkBreak={currentLang}>{preview.summary[currentLang]}</p>
               {/if}
             </a>
           {/each}

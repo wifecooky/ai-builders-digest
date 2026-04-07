@@ -1,7 +1,11 @@
 <script>
+  import { getContext } from 'svelte';
   import { renderMarkdown } from '$lib/markdown.js';
+  import { cjkBreak } from '$lib/actions/cjk-break.js';
 
   let { item, index = 0, delay = 0, onShareX, onCopy, copiedId } = $props();
+  const app = getContext('app');
+  let currentLang = $derived(app.currentLang);
 
   let displayTitle = $derived(item.suggestedTitle || item.title);
   let displaySummary = $derived(item.suggestedSummary || '');
@@ -43,7 +47,7 @@
   </div>
 
   <!-- Headline -->
-  <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mb-2 tracking-tight">
+  <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mb-2 tracking-tight" use:cjkBreak={currentLang}>
     {#if item.url}
       <a href={item.url} target="_blank" rel="noopener noreferrer" class="hover:text-cyber-{style.color} transition-colors duration-200 no-underline">
         {displayTitle}
@@ -54,7 +58,7 @@
   </h3>
 
   <!-- Summary -->
-  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 mb-3 space-y-2">
+  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 mb-3 space-y-2" use:cjkBreak={currentLang}>
     {@html renderedSummary}
   </div>
 

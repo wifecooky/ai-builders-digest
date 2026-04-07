@@ -25,6 +25,14 @@ html {
   background: var(--color-cyber-bg);
 }
 
+/* ========== CJK line breaking ==========
+   keep-all: never break inside CJK phrase clusters
+   break-word: fallback for long strings (URLs, code) that would overflow */
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
 /* ========== Light theme overrides ========== */
 
 [data-theme="light"] {

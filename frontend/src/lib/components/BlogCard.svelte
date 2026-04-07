@@ -1,6 +1,7 @@
 <script>
   import { getContext } from 'svelte';
   import { renderMarkdown } from '$lib/markdown.js';
+  import { cjkBreak } from '$lib/actions/cjk-break.js';
 
   let { article, delay = 0 } = $props();
   const app = getContext('app');
@@ -24,7 +25,7 @@
     {/if}
   </div>
 
-  <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mb-3 tracking-tight">
+  <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mb-3 tracking-tight" use:cjkBreak={currentLang}>
     {#if article.url}
       <a href={article.url} target="_blank" rel="noopener noreferrer" class="hover:text-cyber-green transition-colors duration-200 no-underline">{article.title}</a>
     {:else}
@@ -33,10 +34,10 @@
   </h3>
 
   {#if displayTitle !== article.title}
-    <p class="text-[12px] text-cyber-green/70 font-bold mb-2">{displayTitle}</p>
+    <p class="text-[12px] text-cyber-green/70 font-bold mb-2" use:cjkBreak={currentLang}>{displayTitle}</p>
   {/if}
 
-  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 space-y-2">
+  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 space-y-2" use:cjkBreak={currentLang}>
     {#key renderedSummary}{@html renderedSummary}{/key}
   </div>
 

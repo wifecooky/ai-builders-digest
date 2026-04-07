@@ -1,7 +1,11 @@
 <script>
+  import { getContext } from 'svelte';
   import { renderMarkdown } from '$lib/markdown.js';
+  import { cjkBreak } from '$lib/actions/cjk-break.js';
 
   let { article, delay = 0 } = $props();
+  const app = getContext('app');
+  let currentLang = $derived(app.currentLang);
 
   let displayTitle = $derived(article.suggestedTitle || article.title);
   let displaySummary = $derived(article.suggestedSummary || '');
@@ -18,7 +22,7 @@
     </span>
     <div class="flex-1 min-w-0">
       <span class="text-[10px] text-cyber-magenta/70 tracking-wider uppercase font-display">{article.source}</span>
-      <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mt-1 tracking-tight">
+      <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mt-1 tracking-tight" use:cjkBreak={currentLang}>
         {#if article.url}
           <a href={article.url} target="_blank" rel="noopener noreferrer" class="hover:text-cyber-magenta transition-colors duration-200 no-underline">{article.title}</a>
         {:else}
@@ -29,10 +33,10 @@
   </div>
 
   {#if displayTitle !== article.title}
-    <p class="text-[12px] text-cyber-magenta/70 font-bold mb-2 italic">{displayTitle}</p>
+    <p class="text-[12px] text-cyber-magenta/70 font-bold mb-2 italic" use:cjkBreak={currentLang}>{displayTitle}</p>
   {/if}
 
-  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 space-y-2">
+  <div class="text-[13px] text-cyber-text leading-relaxed opacity-85 space-y-2" use:cjkBreak={currentLang}>
     {#key renderedSummary}{@html renderedSummary}{/key}
   </div>
 

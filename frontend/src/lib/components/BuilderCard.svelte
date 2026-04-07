@@ -1,7 +1,11 @@
 <script>
+  import { getContext } from 'svelte';
   import { renderMarkdown } from '$lib/markdown.js';
+  import { cjkBreak } from '$lib/actions/cjk-break.js';
 
   let { article, index = 0, delay = 0, onShareX, onCopy, copiedId, highlight = false } = $props();
+  const app = getContext('app');
+  let currentLang = $derived(app.currentLang);
 
   let displayTitle = $derived(article.suggestedTitle || article.title);
   let displaySummary = $derived(article.suggestedSummary || '');
@@ -53,12 +57,12 @@
       </div>
 
       <!-- Headline -->
-      <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mb-3 tracking-tight">
+      <h3 class="text-base sm:text-lg font-bold leading-snug text-cyber-heading mb-3 tracking-tight" use:cjkBreak={currentLang}>
         {displayTitle}
       </h3>
 
       <!-- Summary -->
-      <div class="text-[13px] text-cyber-text leading-relaxed mb-4 opacity-85 space-y-2">
+      <div class="text-[13px] text-cyber-text leading-relaxed mb-4 opacity-85 space-y-2" use:cjkBreak={currentLang}>
         {#key renderedSummary}{@html renderedSummary}{/key}
       </div>
 

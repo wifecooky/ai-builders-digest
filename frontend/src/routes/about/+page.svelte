@@ -2,6 +2,7 @@
   import { getContext } from 'svelte';
   import config from '$lib/site-config.js';
   import SubscribeForm from '$lib/components/SubscribeForm.svelte';
+  import { cjkBreak } from '$lib/actions/cjk-break.js';
 
   const app = getContext('app');
   let currentLang = $derived(app.currentLang);
@@ -82,7 +83,7 @@
     <h1 class="font-display text-2xl sm:text-4xl font-black tracking-tight text-cyber-heading mb-6">
       {about.title[currentLang]}
     </h1>
-    <p class="text-[13px] sm:text-sm text-cyber-text/80 leading-[1.9] max-w-2xl">
+    <p class="text-[13px] sm:text-sm text-cyber-text/80 leading-[1.9] max-w-2xl" use:cjkBreak={currentLang}>
       {about.overview[currentLang]}
     </p>
     <div class="gradient-line mt-8"></div>
@@ -117,7 +118,7 @@
               <span class="font-mono text-[10px] text-cyber-cyan/30 tabular-nums">{item.step}</span>
               <span class="font-display text-[11px] sm:text-[12px] font-bold tracking-[0.15em] text-cyber-heading uppercase">{item.name}</span>
             </div>
-            <p class="text-[12px] sm:text-[13px] text-cyber-text/60 leading-relaxed">
+            <p class="text-[12px] sm:text-[13px] text-cyber-text/60 leading-relaxed" use:cjkBreak={currentLang}>
               {item.desc}
             </p>
           </div>
@@ -151,7 +152,7 @@
   <!-- Audience -->
   <section class="mb-14 sm:mb-20 animate-in" style="animation-delay: 800ms">
     <div class="rounded-sm px-5 sm:px-6 py-4 sm:py-5 border border-cyber-border/40 bg-cyber-surface/20">
-      <p class="text-[11px] sm:text-[12px] text-cyber-text/80 leading-[1.8]">
+      <p class="text-[11px] sm:text-[12px] text-cyber-text/80 leading-[1.8]" use:cjkBreak={currentLang}>
         {about.policyAudience[currentLang]}
       </p>
     </div>
@@ -163,7 +164,7 @@
       <p class="text-[10px] font-display tracking-[0.15em] text-cyber-text-muted/70 uppercase mb-2">
         {disclaimerTitle[currentLang]}
       </p>
-      <p class="text-[11px] sm:text-[12px] text-cyber-text-muted/90 leading-[1.8]">
+      <p class="text-[11px] sm:text-[12px] text-cyber-text-muted/90 leading-[1.8]" use:cjkBreak={currentLang}>
         {about.disclaimer[currentLang]}
       </p>
     </div>
