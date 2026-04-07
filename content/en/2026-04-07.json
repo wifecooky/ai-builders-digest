@@ -1,7 +1,8 @@
 {
   "date": "2026-04-07",
+  "lang": "en",
   "summary": "Levie said agents won’t erase work, just push it up a layer; Yang argued they’ll shrink teams, not ambition. Garry Tan flagged an unpatched file leak in Claude’s coding env, while Kothari called Anthropic’s revenue ramp absurdly fast.",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-04-07",
       "source": "X",
@@ -189,7 +190,9 @@
       ],
       "publishedAt": "2026-04-06T18:27:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-07",
       "source": "Latent Space",
@@ -201,11 +204,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 11,
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-07T14:31:47.576Z"
+    "generatedAt": "2026-04-07T14:31:47.795Z",
+    "estimatedReadTime": "4 min"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-04-07",
-  "summary": "Levie said agents won’t erase work, just push it up a layer; Yang argued they’ll shrink teams, not ambition. Garry Tan flagged an unpatched file leak in Claude’s coding env, while Kothari called Anthropic’s revenue ramp absurdly fast.",
-  "items": [
+  "lang": "ja",
+  "summary": "Levieは、agentsは仕事を消すのではなく、ただ一段上に押し上げるだけだと言った。Yangは、彼らは野心ではなくチームを小さくすると主張した。Garry Tanは、Claudeのcoding envに未修正のfile leakがあると指摘した。一方でKothariは、Anthropicのrevenue rampは異常な速さだと述べた。",
+  "builderInsights": [
     {
       "id": "levie-2026-04-07",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents don’t erase work — they move it up a layer",
-      "suggestedSummary": "He says AI agents don’t eliminate the job; they shift it into planning, prompting, review, and taste. As Box’s CEO puts it, you become the editor and manager of the work, with the annoying parts automated and the judgment-heavy parts still very much intact.",
+      "suggestedTitle": "agentは仕事を消さない。レイヤーを一段上げるだけだ",
+      "suggestedSummary": "彼は、AI agentが仕事をなくすのではなく、planning、prompting、review、tasteへと移すのだと言う。BoxのCEOいわく、仕事のeditor兼managerになるのは自分だ。面倒な部分は自動化されるが、判断が要る部分は今もなおそのまま残る。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2041347596342460439",
@@ -29,8 +30,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI agents will shrink teams, not ambition",
-      "suggestedSummary": "He says coding agents are already eating the first 80% of knowledge work, so docs, slides, and analytics start from a near-finished draft instead of a blank page. His bigger bet: tiny 2-3 person teams with a swarm of agents will outcompete bloated orgs, while personal agents get good enough to nudge how you spend your time.",
+      "suggestedTitle": "AI agentsはチームを小さくするが、野心は縮めない",
+      "suggestedSummary": "彼は、coding agentsがすでに知識労働の最初の80%を食い始めていると言う。だから docs、slides、analytics は白紙からではなく、ほぼ完成した下書きから始まる。さらに大きな賭けは、2〜3人の小さなチームがagentの群れを率い、肥大化した組織を上回ることだ。personal agentsも十分に賢くなり、時間の使い方にまで影響を与えるようになる。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2041331383344443795",
@@ -61,8 +62,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
       "title": "Garry Tan",
-      "suggestedTitle": "Claude coding env has an unpatched file leak",
-      "suggestedSummary": "He says attackers can exfiltrate user files from Cowork by abusing an unremediated vulnerability in Claude’s coding environment, which now extends into Cowork. The bug was reportedly found earlier by Johann Rehberger, disclosed, and acknowledged by Anthropic — but not fixed.",
+      "suggestedTitle": "Claudeのcoding envに未修正のfile leakがある",
+      "suggestedSummary": "彼によれば、攻撃者はClaudeのcoding environmentにある未解決の脆弱性を悪用し、Coworkからuser filesを流出させられるという。現在その環境はCoworkにも拡張されている。このbugは以前にJohann Rehbergerが発見し、報告済みで、Anthropicも認めていたが、修正されていない。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2041389865426878807",
@@ -93,8 +94,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI products win by cutting features first",
-      "suggestedSummary": "Before shipping an AI product, the real move is to cut features, not pile them on. That’s the kind of ruthless product thinking that keeps builders from turning a clever demo into a bloated mess.",
+      "suggestedTitle": "AI productはまず機能を削ることで勝つ",
+      "suggestedSummary": "AI productを出す前に、本当にやるべきなのは機能を足すことではない。削ることだ。そういう容赦ないproduct思考が、賢いdemoを肥大化した惨事に変えないために必要である。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2041225124490420239",
@@ -119,8 +120,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Anthropic’s revenue ramp is absurdly fast",
-      "suggestedSummary": "He points to Anthropic adding $21B in the last 3 months and hitting an $11B annualized run rate in the last month alone. The takeaway: AI demand is still ripping hard, and the scale-up curve is getting ridiculous fast.",
+      "suggestedTitle": "Anthropicの売上拡大は異常な速さだ",
+      "suggestedSummary": "Nikunj Kothariは、Anthropicが直近3か月で210億ドルを積み上げ、直近1か月だけで年換算110億ドルのランレートに達した点を指摘している。要するに、AI需要はなお猛烈で、スケールアップの曲線は驚くほど急になっているということだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2041291304387444991",
@@ -139,8 +140,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI won’t kill hierarchy — it makes specialization matter more",
-      "suggestedSummary": "He says the idea that AI flattens orgs is silly: agents may trim some middle layers, but specialization and hierarchy still matter because context rots fast. He also said Every’s realtime AI headline tracker now uses @TrySpiral as the lead writer, auto-picking and writing the top stories every 30 minutes.",
+      "suggestedTitle": "AIは階層を殺さない。むしろ専門性の重要性を高める",
+      "suggestedSummary": "彼は、AIが組織をフラットにするという考えはばかげていると言う。agentは中間層をいくつか削るかもしれないが、専門性と階層は依然として重要だ。contextはすぐに劣化するからだ。さらにEveryのリアルタイムAI見出しトラッカーは、今や@TrySpiralを主執筆者として使っているとも述べた。30分ごとに上位記事を自動で選び、執筆している。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2041305658054574561",
@@ -171,8 +172,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "AI security needs AI-speed defenses",
-      "suggestedSummary": "He says AI is rewriting security fast enough that the only real defense is AI on the other side. The post is really a plug for a South Park Commons event with Palo Alto Networks CEO Nikesh Arora, but the core take is clear: machine-speed threats need machine-speed defenses.",
+      "suggestedTitle": "AIセキュリティにはAI速度の防御が必要だ",
+      "suggestedSummary": "彼は、AIがセキュリティを書き換える速度があまりに速く、実質的な防御は向こう側にもAIを置くしかないと言う。この記事は、South Park Commonsのイベント、Palo Alto NetworksのCEO Nikesh Aroraを売り込む色合いが強い。だが核心は明快だ。機械の速度の脅威には、機械の速度の防御が必要だということだ。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2041221371267567745",
@@ -189,23 +190,27 @@
       ],
       "publishedAt": "2026-04-06T18:27:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-07",
       "source": "Latent Space",
-      "title": "Mistral: Voxtral TTS, Forge, Leanstral, &amp; what's next for Mistral 4 — w/ Pavan Kumar Reddy &amp; Guillaume Lample",
+      "title": "Mistral: Voxtral TTS、Forge、Leanstral、そして Mistral 4 の次は何か — Pavan Kumar Reddy & Guillaume Lample とともに",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "Mistral bets on specialized, efficient voice models over one giant omni-model",
-      "suggestedSummary": "**The Takeaway:** Mistral’s voice strategy is simple: ship the smallest model that does one job extremely well, then expand from there.\n\n- Voxtral TTS is built for real-time speech, not flashy demos, and the team chose an autoregressive + flow-matching setup because latency matters more than theoretical elegance.\n- Audio is still an open research field: unlike text, there’s no settled “winner recipe,” so Mistral is willing to try novel encodings, codecs, and architectures in-house.\n- The company’s broader bet is that customers want custom, private, domain-specific models — not a generic giant model that’s expensive and mediocre at their actual use case.\n\n**The Story:** Pavan Kumar Reddy, who leads audio research at Mistral, and Guillaume Lample, the company’s chief scientist, frame voice as the next practical frontier after transcription. Voxtral TTS is Mistral’s first speech-generation model, following earlier audio releases for ASR, multilingual transcription, and real-time streaming. The interesting part isn’t just that it speaks; it’s how it speaks. Pavan describes a new in-house neural audio codec plus an autoregressive flow-matching head, designed to keep generation fast enough for voice agents. As he puts it, the team wanted something that could “do real time streaming,” so they optimized for inference steps and simplicity rather than maximum architectural novelty.\n\nGuillaume’s bigger point is strategic: Mistral doesn’t want to chase a single bloated omni-model. Instead, it’s building targeted systems for customers who care about privacy, cost, and proprietary data. Many clients have sensitive data that can’t leave the company, or niche language/domain data that closed models never learn well. That’s why Mistral sells deployment, fine-tuning, and tooling alongside models — because the real advantage comes when a model is trained on “your entire company knowledge,” not just the public internet. Voice is just the latest proof of that philosophy: specialized models beat generic ones when the job is specific and the constraints are real.",
+      "suggestedTitle": "Mistral は巨大な omni-model ではなく、特化型で効率的な音声モデルに賭ける",
+      "suggestedSummary": "**要点:** Mistral の音声戦略はシンプルだ。まず、1つの仕事を極めてうまくこなす最小のモデルを出す。そこから広げていく。\n\n- Voxtral TTS は派手なデモではなく、リアルタイム音声向けに作られている。チームが autoregressive + flow-matching の構成を選んだのは、理論上の美しさより latency が重要だからだ。\n- 音声はまだ研究途上の分野だ。テキストと違い、定番の「勝ち筋」はまだ固まっていない。だから Mistral は、新しい encoding、codec、architecture を社内で試すことに前向きだ。\n- 同社の大きな賭けは、顧客が求めているのはカスタムで、private で、domain-specific な model だという点にある。実際の use case では高価で中途半端な巨大 generic model ではない。\n\n**ストーリー:** Mistral で audio research を率いる Pavan Kumar Reddy と、同社の chief scientist である Guillaume Lample は、音声を transcription の次に来る実用的なフロンティアとして位置づけている。Voxtral TTS は Mistral 初の speech-generation model であり、ASR、multilingual transcription、real-time streaming に向けた先行する audio release に続くものだ。面白いのは、単に話せることではない。どう話すかにある。Pavan は、新しい社内開発の neural audio codec と autoregressive flow-matching head を説明する。これは voice agent 向けに、生成を十分速く保つための設計だ。彼の言葉を借りれば、チームが求めたのは「real time streaming ができる」ものだった。そのため、最大限の architecture の新規性よりも、inference steps とシンプルさを優先した。\n\nGuillaume のより大きな主張は戦略面にある。Mistral は、1つの肥大化した omni-model を追いかけたくない。代わりに、privacy、cost、proprietary data を重視する顧客向けに、的を絞った system を作っている。多くの顧客は、会社の外に出せない機密データを抱えている。あるいは、closed model では十分に学習されないニッチな言語や domain のデータを持っている。だから Mistral は model に加えて deployment、fine-tuning、tooling も売る。真の強みは、model が public internet だけでなく「会社全体の知識」で学習されたときに生まれるからだ。音声は、その思想を示す最新の証拠にすぎない。仕事が明確で制約が厳しいなら、generic な model より specialized な model のほうが勝つのである。",
       "publishedAt": "2026-03-30T19:25:21.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 11,
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-07T14:31:47.576Z"
+    "generatedAt": "2026-04-07T14:32:06.311Z",
+    "estimatedReadTime": "4 分"
   }
 }
