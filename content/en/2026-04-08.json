@@ -1,7 +1,8 @@
 {
   "date": "2026-04-08",
+  "lang": "en",
   "summary": "Albert teased Anthropic’s Mythos Preview, Cat Wu juiced Claude Code’s CLI tricks, and Peter Steinberger patched CodexBar with 2 providers plus billing fixes. Levie said agents are eating knowledge work, while Nikunj Kothari preached retention over launch hype.",
-  "items": [
+  "builderInsights": [
     {
       "id": "alexalbert-2026-04-08",
       "source": "X",
@@ -293,7 +294,9 @@
       ],
       "publishedAt": "2026-04-08T04:36:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-08",
       "source": "Latent Space",
@@ -305,11 +308,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 35,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-08T14:32:22.438Z"
+    "generatedAt": "2026-04-08T14:32:22.634Z",
+    "estimatedReadTime": "6 min"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-04-08",
-  "summary": "Albert teased Anthropic’s Mythos Preview, Cat Wu juiced Claude Code’s CLI tricks, and Peter Steinberger patched CodexBar with 2 providers plus billing fixes. Levie said agents are eating knowledge work, while Nikunj Kothari preached retention over launch hype.",
-  "items": [
+  "lang": "zh",
+  "summary": "Albert 预热了 Anthropic 的 Mythos Preview，Cat Wu 把 Claude Code 的 CLI 技巧又往前推了一把，Peter Steinberger 给 CodexBar 补了 2 个 provider，还修了 billing。Levie 说，agents 正在吞掉 knowledge work；Nikunj Kothari 则强调，别只盯着 launch hype，retention 才是关键。",
+  "builderInsights": [
     {
       "id": "alexalbert-2026-04-08",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Anthropic is already teeing up Mythos Preview",
-      "suggestedSummary": "They say Claude Mythos Preview is now in the hands of launch partners through Project Glasswing, just two months after Claude Opus 4.6. The vibe is big: Anthropic’s Alex Albert calls Glasswing one of the most consequential moments he’s seen there, which suggests this isn’t just another model drop. ",
+      "suggestedTitle": "Anthropic 已经在为 Mythos Preview 铺路",
+      "suggestedSummary": "他们说，Claude Mythos Preview 现在已经通过 Project Glasswing 交到 launch partners 手里了。距离 Claude Opus 4.6 才过去两个月。这个信号很强。Anthropic 的 Alex Albert 说，Glasswing 是他在那里见过最关键的时刻之一。这说明这不只是又一次 model 发布。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2041579950332113155",
@@ -41,8 +42,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Open-ended verification burns tokens fast",
-      "suggestedSummary": "He says one of the biggest lessons from reviewing a bunch of calls and transcripts is that open-ended verification can chew through tokens without actually improving the output. He’s planning to write up how to do it more efficiently — a useful note for anyone building LLM workflows at Anthropic or elsewhere.",
+      "suggestedTitle": "开放式验证很烧 token",
+      "suggestedSummary": "他说，回看一堆 calls 和 transcripts 之后，最大的收获之一就是：开放式验证会很快吃掉 token，但不一定真的把结果做得更好。他打算整理一版更高效的做法。对在 Anthropic 或别处做 LLM workflow 的人来说，这条很有参考价值。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2041722125510377705",
@@ -67,8 +68,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "No extra buttons — just click, draw, chat",
-      "suggestedSummary": "Cursor’s design bet is pure flow: fewer controls, more direct manipulation, and AI woven into the work instead of bolted on. The pitch is simple but strong — let people stay in the zone and make software without fighting the UI.",
+      "suggestedTitle": "不要多余按钮——直接点、画、聊",
+      "suggestedSummary": "Cursor 的设计押注很纯粹：少一点控制，多一点直接操作，让 AI 融进工作流，而不是后面硬加上去。这个思路很简单，但很有力——让人一直待在状态里，专心做软件，不用跟 UI 较劲。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2041564082034372956",
@@ -87,8 +88,8 @@
       "authorHandle": "_catwu",
       "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "title": "Cat Wu",
-      "suggestedTitle": "Claude Code’s hidden CLI tricks get a power-up",
-      "suggestedSummary": "Run `/powerup` to surface the Claude Code CLI features the team actually uses. It’s a small but useful nudge toward making the tool feel less like a black box and more like a power-user workflow.",
+      "suggestedTitle": "Claude Code 的隐藏 CLI 技巧升级了",
+      "suggestedSummary": "运行 `/powerup`，就能把 Claude Code CLI 里团队真正在用的功能都翻出来。这是个小改动，但很实用。它能让这个工具少一点黑盒感，更像一套给 power user 用的工作流。",
       "tweets": [
         {
           "url": "https://x.com/_catwu/status/2041655441864978552",
@@ -107,8 +108,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Designers think in products, not just pixels",
-      "suggestedSummary": "They argue that designers and engineers often do their best product thinking in the abstract — but once Figma or the IDE is open, they default to making the thing instead of framing the problem. The takeaway: more designers should move into PM roles, because they’re already wired to think in product terms.",
+      "suggestedTitle": "设计师想的是产品，不只是像素",
+      "suggestedSummary": "他们的观点是，设计师和工程师在抽象层面往往最会做产品思考。但一旦打开 Figma 或 IDE，大家就会下意识开始做东西，而不是先把问题定义清楚。结论很直接：更多设计师应该转去做 PM，因为他们本来就更擅长用产品视角思考。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2041495924682244275",
@@ -127,8 +128,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents are eating knowledge work, not just coding",
-      "suggestedSummary": "He says the jump from chatbot to real agent is here: Box Agent can now take an RFP, hunt through source docs, run tools, and draft the response while you do something else. His bigger point is that frontier model gains are still compounding fast, and that’s about to push agentic workflows into legal, finance, consulting, sales, and beyond.",
+      "suggestedTitle": "Agents 正在吞掉知识工作，不只是 coding",
+      "suggestedSummary": "他认为，从 chatbot 到真正的 agent，这一步已经到了。Box Agent 现在可以接住一份 RFP，去源文档里查资料，调用 tools，顺手把回复草稿写出来，而你可以去忙别的。更大的判断是，frontier model 的能力还在快速叠加，这会很快把 agentic workflows 推进到 legal、finance、consulting、sales，甚至更多领域。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2041732610179703100",
@@ -153,8 +154,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
       "title": "Garry Tan",
-      "suggestedTitle": "Markdown is becoming the new code layer",
-      "suggestedSummary": "He says we’re back in LISPy territory: code is data and data is code again, except the weird modern twist is Markdown. He also points out a Claude Code quirk where bash can still append to files outside the workspace, which is a reminder that agent tooling is only as safe as its escape hatches.",
+      "suggestedTitle": "Markdown 正在变成新的 code layer",
+      "suggestedSummary": "他说我们又回到了 LISPy 的老路：code 是 data，data 也是 code。只是这次有点怪，Markdown 成了新的中间层。他还提到 Claude Code 里一个小坑：bash 还是能往 workspace 外的文件追加内容。这也提醒我们，agent 工具到底安不安全，关键看它留了多少 escape hatch。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2041750093414731888",
@@ -185,8 +186,8 @@
       "authorHandle": "kevinweil",
       "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
       "title": "Kevin Weil",
-      "suggestedTitle": "Prism turns paper review into a workflow",
-      "suggestedSummary": "Paper Review in Prism is meant to act like a careful technical reviewer, not a grammar checker: it checks math, derivations, notation, units, structure, and whether claims are actually supported. The output lands as an editable LaTeX review file inside the project, so authors can fix issues in the same workspace where they wrote the paper.",
+      "suggestedTitle": "Prism 把论文审稿变成工作流",
+      "suggestedSummary": "Prism 里的 Paper Review 不是在当语法检查器，而是更像一个认真负责的技术审稿人：它会检查数学、推导、符号、单位、结构，以及结论是不是有足够证据支撑。输出会以可编辑的 LaTeX review file 形式直接放进项目里。作者可以在写论文的同一个 workspace 里把问题改掉。",
       "tweets": [
         {
           "url": "https://x.com/kevinweil/status/2041592093718749659",
@@ -217,8 +218,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Stop chasing launch hype; ship for retention",
-      "suggestedSummary": "He says too many early founders are optimizing for views and fundraising instead of product and retention — and it shows up fast when you check changelogs and see weeks of nothing. His advice: spend that energy on customers who pay; the VCs will notice later.",
+      "suggestedTitle": "别追发布时的热度了，先把留存做出来",
+      "suggestedSummary": "他说，太多早期 founder 一门心思盯着曝光和融资，而不是产品和留存。你去看 changelog，很快就能发现问题：好几周都没什么更新。建议很直接：把这股劲儿用在愿意付费的客户身上。VC 迟早会注意到。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2041757065354293760",
@@ -243,8 +244,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "CodexBar adds 2 providers and fixes billing weirdness",
-      "suggestedSummary": "CodexBar 0.20 is out with Perplexity and OpenCode Go support, plus a nicer account switcher that doesn’t force a re-login. He also fixed the Claude token/cost inflation bug and merged session usage into provider history, so the menu bar now tracks 16 providers without the accounting mess.",
+      "suggestedTitle": "CodexBar 新增 2 个 provider，还修好了 billing 的怪问题",
+      "suggestedSummary": "CodexBar 0.20 已发布，支持 Perplexity 和 OpenCode Go。账号切换器也更顺手了，不用再重新登录。Peter 还修掉了 Claude token/cost 被虚增的 bug，并把 session usage 合并进 provider history。现在菜单栏能跟踪 16 个 provider，账也不会乱了。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2041731877787025448",
@@ -275,8 +276,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI turns private notes into one-person podcasts",
-      "suggestedSummary": "She introduced a Personalized Podcast skill that turns anything into a podcast with two AI hosts, publishes it as an RSS feed, and plays it in your normal podcast app. Her favorite use case is remixing meeting transcripts so the AIs “eavesdrop” and react — a neat example of her “content for one” thesis.",
+      "suggestedTitle": "AI 把私密笔记变成一个人的 podcast",
+      "suggestedSummary": "她推出了一个 Personalized Podcast skill，能把任何内容变成由两个 AI host 共同主持的 podcast，再以 RSS feed 的形式发布，直接在你平时用的 podcast app 里播放。她最喜欢的用法，是把 meeting transcript 重新混音，让 AI 像在“偷听”一样做出反应——这很好地说明了她“content for one”的想法。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2041736976630739000",
@@ -293,23 +294,27 @@
       ],
       "publishedAt": "2026-04-08T04:36:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-08",
       "source": "Latent Space",
-      "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier &amp; Symphony",
+      "title": "极限 Harness Engineering：给 Token 亿万富翁造系统——1M LOC、每天 1B toks、0% 人类代码、0% 人类 review — Ryan Lopopolo, OpenAI Frontier & Symphony",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "Harness engineering turns code into the product and the process",
-      "suggestedSummary": "**The Takeaway:** Ryan Lopopolo’s core bet is that the fastest way to scale software is to make the agent the primary engineer and the harness the real product.\n\n**Key Insights**\n- He started with a brutal constraint: no human-written code, forcing the team to make the model do the job instead of “helping” it.\n- The real bottleneck wasn’t tokens or GPUs; it was human attention, so the system was redesigned to minimize synchronous review and push decisions into automation.\n- Good agentic software is built for the model’s appetite for text, docs, tests, traces, and prompts—not for human prettiness.\n\n**The Story**\nRyan Lopopolo works on frontier product exploration at OpenAI Frontier, building enterprise agent deployments with governance and safety. His background spans Snowflake, Brex, Stripe, and Citadel, which explains the mix of operator discipline and AI maximalism. His team spent months building a greenfield app with “0% human code” and eventually “0% human review” in the hot path, using Codex to write product code, tests, CI, docs, dashboards, and even repo-management scripts.\n\nThe philosophy is blunt: if the model is the worker, the harness is the workplace. That meant retooling build systems until they finished in under a minute, adding observability so the agent could diagnose itself, and encoding standards into markdown, skills, and review agents. Ryan’s favorite move is to turn every lesson into durable text: “The models fundamentally crave text.” When a timeout bug appears, he doesn’t just patch it; he has Codex update reliability docs so the fix becomes policy.\n\nHis bigger point is contrarian but practical: software teams should stop optimizing for human legibility first. As models improve, they can propose abstractions, resolve merge conflicts, and close loops across the stack. The job of the engineer shifts upward—to define invariants, set boundaries, and let the agent chew through the rest.",
+      "suggestedTitle": "Harness engineering 把 code 变成 product，也把 process 变成 product",
+      "suggestedSummary": "**核心结论：** Ryan Lopopolo 的核心判断很直接：想把 software 规模做上去，最快的办法不是多招人，而是让 agent 成为主工程师，让 harness 成为真正的 product。\n\n**关键洞察**\n- 一开始就卡死一个狠约束：不写任何 human-written code。这样团队只能逼 model 真干活，而不是只做“辅助”。\n- 真正的瓶颈不是 token 也不是 GPU，而是 human attention。所以系统被重构成尽量减少同步 review，把决策尽量塞进 automation。\n- 好的 agentic software，得围着 model 的胃口来设计：text、docs、tests、traces、prompts。不是围着 human 的审美来。\n\n**故事**\nRyan Lopopolo 负责 OpenAI Frontier 的 frontier product exploration，做 enterprise agent deployments，同时管 governance 和 safety。他之前在 Snowflake、Brex、Stripe、Citadel 都待过，所以你能看到他身上那种 operator discipline 和 AI maximalism 的混合气质。团队花了几个月做一个 greenfield app，做到“0% human code”，最后甚至把 hot path 里的“0% human review”也跑通了。Codex 被用来写 product code、tests、CI、docs、dashboards，甚至 repo-management scripts。\n\n他的思路很直白：如果 model 是 worker，那 harness 就是 workplace。于是他们把 build system 一路重做，压到 1 分钟内完成；再加上 observability，让 agent 能自己定位问题；同时把标准写进 markdown、skills 和 review agents 里。Ryan 最喜欢的一招，是把每次教训都沉淀成稳定的 text：\"The models fundamentally crave text.\" 遇到 timeout bug，他不会只打个补丁了事，而是让 Codex 顺手更新 reliability docs，把修复变成 policy。\n\n他更大的观点有点反直觉，但很实用：software team 别再先把 human legibility 放在第一位。随着 model 变强，它们可以自己提 abstraction、处理 merge conflicts、把整条 stack 的闭环跑起来。工程师的工作会往上移——定义 invariants、设边界，然后让 agent 把剩下的活吃掉。",
       "publishedAt": "2026-04-07T17:14:26.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 35,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-08T14:32:22.438Z"
+    "generatedAt": "2026-04-08T14:32:32.732Z",
+    "estimatedReadTime": "6 分钟"
   }
 }
