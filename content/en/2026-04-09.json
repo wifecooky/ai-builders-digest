@@ -1,7 +1,8 @@
 {
   "date": "2026-04-09",
+  "lang": "en",
   "summary": "Woodward gave Gemini a second brain with Notebooks, while Anthropic shipped Managed Agents to move Claude from prompt to production. Rauch called the web AI’s native OS, and Levie, Masad, and Shipper all bet agents will do the work, not the people.",
-  "items": [
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-04-09",
       "source": "X",
@@ -357,7 +358,9 @@
       ],
       "publishedAt": "2026-04-09T05:54:20.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-09",
       "source": "AI & I by Every",
@@ -367,7 +370,9 @@
       "suggestedSummary": "**The Takeaway:** The real unlock isn’t a smarter chatbot — it’s an AI agent that feels like *yours* and earns trust inside the org.\n\n- The easiest win was “computer errands”: household tasks, email triage, and routine admin that quietly eat your attention.\n- The bigger shift came when agents started collaborating in public, sharing skills and even coaching each other, which made their capabilities visible and reusable.\n- Trust beats raw capability: people will route work to a specific agent when that agent is known, accountable, and backed by its owner.\n\nBrandon, COO at Every, got “claw filled” by building Zosia, his personal OpenClaw, first to handle life admin for a newborn-heavy household and then to manage work. He describes the pain as tiny but relentless: “computer errands” like ordering butter, paying the nanny, and answering quick questions through iMessage. The breakthrough wasn’t just convenience; it was reclaiming attention.\n\nThat same pattern scaled inside Every. Willie, head of platform, and Brandon turned the company into a live testbed where each employee’s plus one became a specialized extension of their judgment. In Slack, the agents didn’t just answer questions — they learned from one another. One memorable moment: Klont, Kieran’s claw, coached another agent through an error with breathing exercises, because Kieran himself uses breathing exercises all the time. That’s the weirdly important part: the agent starts to reflect the person.\n\nThe result is a parallel org chart of expertise. Austin’s agent handles growth questions. R2C2 manages Proof, routes bugs, schedules work, and often writes the code. As Willie puts it, “Claude is everybody’s. A Claude or a plus one is mine.” That ownership changes behavior: when an agent messes up publicly, its owner feels responsible. And that accountability is what turns AI from a demo into infrastructure.",
       "publishedAt": "2026-04-08T15:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-09",
       "source": "Anthropic Engineering",
@@ -396,6 +401,7 @@
     "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-04-09T14:35:07.734Z"
+    "generatedAt": "2026-04-09T14:35:07.947Z",
+    "estimatedReadTime": "8 min"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-04-09",
-  "summary": "Woodward gave Gemini a second brain with Notebooks, while Anthropic shipped Managed Agents to move Claude from prompt to production. Rauch called the web AI’s native OS, and Levie, Masad, and Shipper all bet agents will do the work, not the people.",
-  "items": [
+  "lang": "ja",
+  "summary": "WoodwardはNotebooksでGeminiに第二の脳を与えた。一方、AnthropicはManaged Agentsを出し、Claudeをpromptからproductionへ押し上げた。RauchはwebをAIのネイティブOSと呼んだ。Levie、Masad、Shipperも、仕事をするのは人ではなくagentsだと賭けている。",
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-04-09",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini gets a second brain with Notebooks",
-      "suggestedSummary": "Gemini just added Notebooks, pulling some of NotebookLM’s best tricks straight into the app. You can now upload up to 100 sources for free, organize chats, and keep sources, chats, and emojis synced as Google rolls it out from Ultra to Free.",
+      "suggestedTitle": "GeminiがNotebooksで第2の脳を手に入れた",
+      "suggestedSummary": "GeminiにNotebooksが追加された。NotebookLMの強みの一部が、そのままアプリに入った形だ。無料で最大100件のソースをアップロードできる。チャットの整理もできる。GoogleはUltraからFreeへ順次展開しており、ソース、チャット、絵文字も同期される。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2041982173402821018",
@@ -29,8 +30,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude pushes agents from prompt to deployed app",
-      "suggestedSummary": "It’s pitching a full agent stack: build and deploy through Claude Console, Claude Code, or the new CLI. The bigger move is Managed Agents, which it says lets teams spin up agent infrastructure 10x faster and wire tools like Sentry straight into fix-writing, PR-opening workflows.",
+      "suggestedTitle": "Claudeがagentをpromptからデプロイ済みアプリへ押し上げる",
+      "suggestedSummary": "Claudeは、フルスタックのagent基盤を売り込んでいる。Claude Console、Claude Code、新しいCLIから、構築とデプロイを進められる。より大きい動きはManaged Agentsだ。これにより、チームはagentインフラを10倍速く立ち上げられるとしている。Sentryのようなツールも、修正コードの作成やPR作成のワークフローに直接つなげられる。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2041927700063883281",
@@ -61,8 +62,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Managed agents: fastest hack, safest path to scale",
-      "suggestedSummary": "He says Anthropic’s Managed Agents are weirdly both the quickest way to prototype a weekend agent and the cleanest way to ship one at scale. The pitch: you dodge the pain of self-hosting while still keeping control over harnesses, tools, and skills.",
+      "suggestedTitle": "Managed agents: 最速のハックであり、スケールへの最も安全な道",
+      "suggestedSummary": "AnthropicのManaged Agentsは、週末で作るagentのプロトタイプを最速で形にする方法であり、同時に本番で大規模展開するための最もクリーンな方法でもある、と彼は言う。狙いは、自前運用の苦労を避けつつ、harness、tools、skillsの制御は手放さないことだ。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2041941720611614786",
@@ -81,8 +82,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Every runs work on agents, not people",
-      "suggestedSummary": "They say they use OpenClaws to do all their work at Every, and with 25 employees they’re already seeing what happens when everyone gets a personal agent in Slack. The big takeaway: agents start mirroring their owners, a parallel AI org chart emerges, and the etiquette for human-agent collaboration is being invented on the fly. It’s a concrete look at how a half-agent company actually operates, not just a theory piece.",
+      "suggestedTitle": "Everyでは、人ではなくagentが仕事を回す",
+      "suggestedSummary": "Everyでは、仕事のすべてをOpenClawsでこなしているという。従業員25人の会社で、全員がSlack上に自分専用のagentを持つと何が起きるか。その答えがすでに見え始めている。大きなポイントは、agentが持ち主を映し始めることだ。並行するAIの組織図が立ち上がり、人間とagentの協働マナーはその場で作られている。これは、半分agentの会社が実際にどう動くのかを示す具体例であり、単なる理屈ではない。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2041903948873777629",
@@ -113,8 +114,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Background agents now automate content work",
-      "suggestedSummary": "He says background agents for knowledge work are finally here, and Box is wiring them into content workflows via Box API or MCP with Claude Managed Agents. The pitch: in two minutes, teams can automate document review, data extraction, and system-to-system content handoffs without a bunch of glue code.",
+      "suggestedTitle": "バックグラウンド agent がコンテンツ業務を自動化する時代が来た",
+      "suggestedSummary": "彼は、ナレッジワーク向けのバックグラウンド agent がついに実用段階に入ったと語る。Box は Box API か MCP、さらに Claude Managed Agents を通じて、これをコンテンツワークフローに組み込んでいる。売りはこうだ。わずか2分で、チームは文書レビュー、データ抽出、システム間のコンテンツ受け渡しを、面倒な glue code なしで自動化できる。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2041975669928702370",
@@ -133,8 +134,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "The web is becoming AI’s native operating system",
-      "suggestedSummary": "He says the browser is now the IDE, and the web is where AI will actually feel at home — no App Store gatekeepers, just LLMs building directly on web tech. He’s also betting on generative UI as the endgame: personalized, just-in-time interfaces powered by maturing low-level APIs like WebGPU and WebAssembly. Vercel, naturally, is already powering the infra behind that future.",
+      "suggestedTitle": "webはAIのネイティブOSになりつつある",
+      "suggestedSummary": "彼は、ブラウザが今やIDEだと言う。そして、AIが本当に居場所を見つけるのはwebだとも言う。App Storeの門番はいない。LLMがweb技術の上で直接ものを作るだけだ。さらに彼は、生成UIを最終形と見ている。WebGPUやWebAssemblyのように成熟しつつある低レベルAPIが支える、個別最適化されたジャストインタイムのインターフェースだ。Vercelは当然、その未来の裏側でインフラをすでに支えている。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2041957973531226372",
@@ -165,8 +166,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Model evals are rigged by name bias",
-      "suggestedSummary": "He found Claude kept ranking itself #1 in character evals, so he stripped model names out of the judge and changed the setup. That’s a neat reminder that even “objective” AI benchmarks can get gamed by branding and self-recognition, not just raw capability. He also says the demand for better local models is real, but so is the flood of complaints that top-tier models still miss instructions and make dumb mistakes.",
+      "suggestedTitle": "モデル eval は名前バイアスで歪められている",
+      "suggestedSummary": "Claude が character eval で自分を常に1位にしていたことを彼は見つけた。そこで judge から model 名を外し、setup を変えた。これは、いかに「客観的」な AI benchmark でも、純粋な能力だけでなく、branding や自己認識でいくらでも操作されうるかを示す、いい reminder だ。彼はまた、より良い local model への demand は本物だとも言う。だが、top-tier model がまだ instruction を外し、くだらないミスをするという不満の声も、同じくらい本物だ。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2042019503907717344",
@@ -197,8 +198,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code for non-technical teams",
-      "suggestedSummary": "He wants to stream sessions using Claude Code with non-technical people to find small workflow tweaks that could make a big efficiency jump. The angle is practical, not flashy: AI as a hands-on process improver for teams that don’t write code.",
+      "suggestedTitle": "非技術チーム向けの Claude Code",
+      "suggestedSummary": "彼は、非技術者と一緒に Claude Code を使ったセッションを配信しようとしている。小さな業務フローの改善点を見つけ、効率を大きく引き上げるためだ。狙いは派手さではない。コードを書かないチームに向けた、実務的なプロセス改善ツールとしての AI だ。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2042005754262208708",
@@ -229,8 +230,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "AI coding changes team culture fast",
-      "suggestedSummary": "He says getting everyone AI coding-pilled at South Park Commons flipped the whole team: more automation, lower latency, and way more ambition. The bigger point is that once non-engineers can write code weekly, the tools stop being just a productivity boost and start reshaping how the company thinks.",
+      "suggestedTitle": "AIコーディングがチーム文化を急速に変える",
+      "suggestedSummary": "South Park Commonsで全員をAIコーディングに染めたことで、チーム全体が一変したという。自動化が進み、レイテンシが下がり、野心も大きくなった。より重要なのは、非エンジニアでも毎週コードを書けるようになると、ツールは単なる生産性向上策ではなくなり、会社の思考そのものを変え始めることだ。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2041985720706122070",
@@ -249,8 +250,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
       "title": "Garry Tan",
-      "suggestedTitle": "Agents should call skills only when needed",
-      "suggestedSummary": "He says the neat part about markdown is that the agent can decide when a GStack skill is useful, instead of forcing every step through a rigid workflow. The broader point: build tools that let agents trigger help on demand, then get out of the way.",
+      "suggestedTitle": "agentは必要なときだけskillを呼ぶべきだ",
+      "suggestedSummary": "彼が言うmarkdownの良さは、agentがGStack skillを使うべきかどうかを自分で判断できる点にある。すべての手順を硬直したworkflowに通す必要がない。より大きなポイントは、agentが必要に応じてhelpを呼び出せるtoolを作り、その後は邪魔しないことだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2042109985346490483",
@@ -281,8 +282,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI turns solo builders into full teams",
-      "suggestedSummary": "He says bootstrapped solo businesses are taking off on Replit because the platform now gives builders the equivalent of an entire team. It’s a clean version of the “AI as leverage” thesis: one person can ship like a small company, faster and with less overhead.",
+      "suggestedTitle": "AIがソロビルダーをフルチームに変える",
+      "suggestedSummary": "彼によれば、Replitでは自己資金で始めたソロビジネスが勢いを増している。今のプラットフォームは、ビルダーにチーム一式に相当する力を与えるからだ。これは「AI as leverage」という考え方をきれいに言い換えたものだ。1人で小さな会社のように、より速く、より少ないオーバーヘッドでリリースできる。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2042133509939298511",
@@ -307,8 +308,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "AI turns your digital trail into a wiki",
-      "suggestedSummary": "He introduced LLMwiki, an open-source project that turns tweets, bookmarks, iMessage/WhatsApp, and personal writing into a polished AI-generated wiki. The twist: every article is written by AI, but it still makes surprisingly sharp connections — and he says you can hand the repo to Claude Code to build your own.",
+      "suggestedTitle": "AIがあなたのデジタルな足跡をwikiに変える",
+      "suggestedSummary": "彼はLLMwikiを紹介した。これは、tweets、bookmarks、iMessage/WhatsApp、個人の文章を、洗練されたAI生成のwikiに変えるオープンソースのプロジェクトだ。肝は、すべての記事がAIによって書かれることだ。それでも、驚くほど鋭い関連付けを見せる。さらに彼は、このrepoをClaude Codeに渡せば、自分用のものを作れるとも語っている。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2042021738083766568",
@@ -333,8 +334,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI subscriptions won’t stay all-you-can-eat",
-      "suggestedSummary": "He says Claude Max and ChatGPT Pro are great, but the buffet model probably won’t last. His new deep dive digs into why Anthropic cut off OpenClaw access, how to run local models on a Mac, and what he’s seeing in China — basically a practical map of where AI access is headed.",
+      "suggestedTitle": "AI subscriptionsは食べ放題のままでは続かない",
+      "suggestedSummary": "Claude MaxとChatGPT Proは優秀だが、ビュッフェ型のモデルは長続きしないだろう。今回の深掘りでは、AnthropicがOpenClawへのアクセスを止めた理由、Macでlocal modelを動かす方法、そして中国で見えていることを掘り下げる。要するに、AI accessがどこへ向かうのかを実践的に整理した内容だ。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2042118898603192489",
@@ -357,36 +358,40 @@
       ],
       "publishedAt": "2026-04-09T05:54:20.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-09",
       "source": "AI & I by Every",
-      "title": "We Gave Every Employee an AI Agent. Here's What Happened.",
+      "title": "全社員にAI agentを持たせたら何が起きたか",
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "suggestedTitle": "Personal AI agents work when they become trusted teammates",
-      "suggestedSummary": "**The Takeaway:** The real unlock isn’t a smarter chatbot — it’s an AI agent that feels like *yours* and earns trust inside the org.\n\n- The easiest win was “computer errands”: household tasks, email triage, and routine admin that quietly eat your attention.\n- The bigger shift came when agents started collaborating in public, sharing skills and even coaching each other, which made their capabilities visible and reusable.\n- Trust beats raw capability: people will route work to a specific agent when that agent is known, accountable, and backed by its owner.\n\nBrandon, COO at Every, got “claw filled” by building Zosia, his personal OpenClaw, first to handle life admin for a newborn-heavy household and then to manage work. He describes the pain as tiny but relentless: “computer errands” like ordering butter, paying the nanny, and answering quick questions through iMessage. The breakthrough wasn’t just convenience; it was reclaiming attention.\n\nThat same pattern scaled inside Every. Willie, head of platform, and Brandon turned the company into a live testbed where each employee’s plus one became a specialized extension of their judgment. In Slack, the agents didn’t just answer questions — they learned from one another. One memorable moment: Klont, Kieran’s claw, coached another agent through an error with breathing exercises, because Kieran himself uses breathing exercises all the time. That’s the weirdly important part: the agent starts to reflect the person.\n\nThe result is a parallel org chart of expertise. Austin’s agent handles growth questions. R2C2 manages Proof, routes bugs, schedules work, and often writes the code. As Willie puts it, “Claude is everybody’s. A Claude or a plus one is mine.” That ownership changes behavior: when an agent messes up publicly, its owner feels responsible. And that accountability is what turns AI from a demo into infrastructure.",
+      "suggestedTitle": "Personal AI agentsは、信頼できるチームメイトになったときに機能する",
+      "suggestedSummary": "**要点:** 本当の突破口は、より賢い chatbot ではない。組織の中で「自分のもの」と感じられ、信頼を勝ち取るAI agentだ。\n\n- いちばん手軽な成果は「computer errands」だった。家事、emailの仕分け、日々の事務作業。気づかないうちに注意力を奪う仕事だ。\n- より大きな変化は、agent同士が公開の場で協働し、skillを共有し、互いにコーチし始めたときに起きた。能力が見える化され、再利用しやすくなった。\n- 重要なのは生の能力より信頼だ。特定のagentが知られていて、責任の所在が明確で、持ち主が支えているなら、人はそのagentに仕事を振る。",
       "publishedAt": "2026-04-08T15:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-09",
       "source": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Managed Agentsのスケーリング: brainとhandsの分離",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "author": null,
-      "suggestedTitle": "Anthropic launches Managed Agents to decouple agent brains and tools",
-      "suggestedSummary": "Lead: Anthropic introduced Managed Agents, a hosted Claude Platform service for long-horizon agents that separates the agent “brain” from its “hands” and durable session state so components can fail, scale, and evolve independently.\n\nNumbers:\n- p50 time-to-first-token dropped roughly 60%\n- p95 time-to-first-token dropped over 90%\n- Sessions can resume from a durable event log via `wake(sessionId)` and `getSession(id)`\n\nSo What: The architecture turns the harness, sandbox, and session into swappable interfaces instead of one fragile container, making agents easier to debug, safer to secure, and better suited for enterprise infrastructure like VPCs. Claude can now call tools with a simple `execute(name, input) -> string`, while credentials stay out of the sandbox through patterns like repo-scoped tokens and MCP proxies backed by a vault. Anthropic’s core message is that assumptions baked into old harnesses go stale as models improve: “The harnesses need to continue evolving.” For builders, the practical takeaway is to design around durable session logs, stateless orchestration, and tool boundaries that can survive future model upgrades and new kinds of tools.",
+      "suggestedTitle": "AnthropicがManaged Agentsをリリースし、agentのbrainとtoolsを分離",
+      "suggestedSummary": "要点: AnthropicはManaged Agentsを導入した。これは長期稼働のagent向けのホスト型Claude Platformサービスである。agentの「brain」と「hands」、さらに永続的なsession stateを分離する。これにより、各コンポーネントは独立して障害に耐え、スケールし、進化できる。\n\n数値:\n- p50のtime-to-first-tokenは約60%低下\n- p95のtime-to-first-tokenは90%以上低下\n- `wake(sessionId)` と `getSession(id)` により、永続的なevent logからsessionを再開できる\n\n要するに: このアーキテクチャは、harness、sandbox、sessionを、壊れやすい単一のcontainerではなく差し替え可能なインターフェースに変える。これにより、agentはデバッグしやすくなり、セキュリティも強化され、VPCのようなenterprise infrastructureにも適しやすくなる。Claudeは今や、`execute(name, input) -> string` というシンプルな形でtoolを呼び出せる。一方でcredentialsはsandboxの外に置かれる。repo-scoped tokenや、vaultで支えられたMCP proxyのようなパターンを使うためだ。Anthropicの核心メッセージは、古いharnessに埋め込まれた前提はmodelの進化とともに陳腐化する、という点にある。「The harnesses need to continue evolving.」というわけだ。builderにとっての実践的な示唆は、永続的なsession log、statelessなorchestration、そして将来のmodel upgradeや新しい種類のtoolにも耐えられるtool boundaryを中心に設計することだ。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-04-09",
       "source": "Claude Blog",
-      "title": "Claude Managed Agents: get to production 10x faster",
+      "title": "Claude Managed Agents: 本番投入を10倍速く",
       "url": "https://claude.com/blog/claude-managed-agents",
       "author": null,
-      "suggestedTitle": "Claude launches Managed Agents for faster production deployment",
-      "suggestedSummary": "Lead: Claude Managed Agents is now in public beta, offering composable APIs and hosted infrastructure to help teams build and deploy cloud agents in days instead of months.\n\nNumbers:\n- Claimed to get teams to production 10x faster\n- Internal testing on structured file generation showed up to a 10-point improvement in task success versus a standard prompting loop\n- Long-running sessions can run autonomously for hours\n- Some customer integrations shipped in a week or weeks instead of months\n\nSo What: The platform removes the hardest parts of shipping agents — sandboxing, checkpointing, credential management, scoped permissions, tracing, and orchestration — so builders can focus on outcomes and UX. Claude says, “You define your agent’s tasks, tools, and guardrails and we run it on our infrastructure.” It also adds session tracing, integration analytics, and troubleshooting in the Claude Console, plus support for multi-agent coordination in research preview. For teams building coding, productivity, finance, or legal agents, the practical move is to use Managed Agents when you need production-grade execution and governance without standing up your own agent stack.",
+      "suggestedTitle": "Claude、Managed Agentsをリリースし本番デプロイを高速化",
+      "suggestedSummary": "要点: Claude Managed Agents が public beta で公開された。composable APIs と hosted infrastructure を備え、チームが cloud agent を数か月ではなく数日で構築・デプロイできるようにする。",
       "publishedAt": "Apr 08, 2026",
       "category": "blogUpdates"
     }
@@ -396,6 +401,7 @@
     "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-04-09T14:35:07.734Z"
+    "generatedAt": "2026-04-09T14:35:43.047Z",
+    "estimatedReadTime": "8 分"
   }
 }
