@@ -1,7 +1,8 @@
 {
   "date": "2026-04-10",
+  "lang": "en",
   "summary": "Karpathy said free ChatGPT lagged while frontier coding models didn’t. Albert pushed cheap-to-smart escalation, Rauch said cloud infra went agent-native, and OpenAI’s next leap looked like autonomy—not chat.",
-  "items": [
+  "builderInsights": [
     {
       "id": "alexalbert-2026-04-10",
       "source": "X",
@@ -299,7 +300,9 @@
       ],
       "publishedAt": "2026-04-09T23:22:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-10",
       "source": "Unsupervised Learning",
@@ -311,11 +314,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 20,
     "totalTweets": 41,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-10T14:22:50.321Z"
+    "generatedAt": "2026-04-10T14:22:50.535Z",
+    "estimatedReadTime": "6 min"
   }
 }

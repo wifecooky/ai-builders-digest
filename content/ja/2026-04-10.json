@@ -1,7 +1,8 @@
 {
   "date": "2026-04-10",
-  "summary": "Karpathy said free ChatGPT lagged while frontier coding models didn’t. Albert pushed cheap-to-smart escalation, Rauch said cloud infra went agent-native, and OpenAI’s next leap looked like autonomy—not chat.",
-  "items": [
+  "lang": "ja",
+  "summary": "Karpathyは、無料のChatGPTはもたついたが、最先端のcoding modelsはそうではなかったと言った。Albertは、安いモデルから賢いモデルへ段階的に切り替える方針を推した。Rauchは、cloud infraがagent-nativeになったと述べた。そしてOpenAIの次の飛躍は、chatではなくautonomyにあるように見えた。",
+  "builderInsights": [
     {
       "id": "alexalbert-2026-04-10",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Let the cheap model escalate to the smart one",
-      "suggestedSummary": "Letting Sonnet “phone a friend” by calling Opus boosts performance and cuts total cost, because it stops wasting tokens on hard problems. It’s a clean routing pattern for Anthropic-style systems: use the cheaper model first, then escalate only when the task actually needs it.",
+      "suggestedTitle": "安いモデルにまず任せ、賢いモデルへエスカレートさせる",
+      "suggestedSummary": "SonnetがOpusに「電話で相談」する形で呼び出すと、性能が上がり、総コストも下がる。難しい問題に token を無駄遣いしなくて済むからだ。Anthropic流のシステムでは、きれいなルーティングパターンになる。まず安いモデルを使い、本当に必要なときだけエスカレートさせればよい。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2042329150086922574",
@@ -29,8 +30,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Prompting stays a core skill for agent work",
-      "suggestedSummary": "He says prompting won’t fade — it’ll stay a high-leverage skill, like writing or public speaking, because it’s really how humans talk to agents through the harness. The bigger goal, from Anthropic’s Claude Code side, is to widen the bandwidth between people and agents so they understand each other better. He also points to the Monitor Tool as a strong example: you have to ask Claude Code to use it, but it can watch a dev server and catch errors.",
+      "suggestedTitle": "Promptingはagent workの中核スキルのままだ",
+      "suggestedSummary": "彼は、promptingは消えないと言う。writingやpublic speakingのように、高いレバレッジを持つスキルとして残るという。実際には、harnessを通じて人間がagentとやり取りする方法そのものだからだ。AnthropicのClaude Code側から見たより大きな目標は、人とagentの間のbandwidthを広げ、互いの理解を深めることにある。彼はMonitor Toolも強い例として挙げる。Claude Codeに使うよう指示する必要はあるが、dev serverを監視し、errorを検知できるからだ。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2042335178388103559",
@@ -55,8 +56,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "Free ChatGPT is lagging; frontier coding models aren’t",
-      "suggestedSummary": "He says people are arguing past each other because they’re using very different versions of AI: the free, older stuff that still fumbles obvious questions versus the paid frontier models that can spend an hour restructuring codebases or hunting vulnerabilities. His bigger point is that technical domains like programming and math are pulling ahead fastest because they have clear rewards, so RL can actually push them hard.",
+      "suggestedTitle": "無料のChatGPTは遅れている。frontier coding modelsはそうではない",
+      "suggestedSummary": "彼は、人々がかみ合わない議論をしているのは、まったく違う版のAIを前提にしているからだと言う。無料で古いものは、まだ明らかな質問でもつまずく。一方で、有料のfrontier modelsは、コードベースの再構成や脆弱性の探索に1時間を費やせる。彼の本質的な主張は、programmingやmathのような技術領域が最速で先行していることだ。報酬が明確だからであり、RLが本当に強く押し込めるからだ。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2042341482531864741",
@@ -81,8 +82,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini is unlocking full-length AI music",
-      "suggestedSummary": "Google’s Gemini app is opening up Lyria 3 so anyone can generate up to five full songs a day, with 30-second clips still available after that. The pitch is simple: images, video, and now music — let users bring the ideas, and Gemini supplies the tools.",
+      "suggestedTitle": "Geminiがフル尺AI音楽を解放する",
+      "suggestedSummary": "GoogleのGemini appがLyria 3を開放し、誰でも1日最大5曲のフルソングを生成できるようになる。5曲を超えた後も、30秒クリップは引き続き使える。狙いはシンプルだ。画像、video、そして今度は音楽。ユーザーがアイデアを持ち込み、Geminiがツールを提供する。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2042318148851188151",
@@ -107,8 +108,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Cloud infra is becoming agent-native",
-      "suggestedSummary": "He says the cloud is shifting from serving developers to serving coding agents: think long-running compute, sandboxes, token delivery, and infrastructure that’s self-configuring, self-healing, and self-securing. The punchline is that Vercel’s next act is helping agents both build and run software, not just ship websites.",
+      "suggestedTitle": "Cloud infraはagent-nativeになりつつある",
+      "suggestedSummary": "彼は、cloudがdevelopers向けからcoding agents向けへ移りつつあると語る。長時間動くcompute、sandbox、token delivery、そしてself-configuring、self-healing、self-securingなインフラを想定している。要するに、Vercelの次の役割は、websiteを出すだけでなく、agentsがsoftwareを作り、動かすのを支えることだ。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2042358253510963384",
@@ -133,8 +134,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents will unlock software demand everywhere",
-      "suggestedSummary": "He says companies are massively underestimating how much software and automation AI will create in “non-software” work — from pharma simulations to healthcare workflows to bank analysis. The big shift is agents lowering the cost enough that long-running, background automation becomes practical, not just chat. At Box, he sees the bottleneck now moving to compliance, security, and messy legacy data, not demand.",
+      "suggestedTitle": "Agentsがあらゆる場所でsoftware需要を解き放つ",
+      "suggestedSummary": "彼は、企業がAIによって「non-software」業務にどれほどsoftwareとautomationが生まれるかを、過小評価しすぎていると言う。pharmaのシミュレーションからhealthcareのワークフロー、bankの分析まで含まれる。大きな変化は、agentsがコストを十分に下げ、chatだけでなく、長時間動くバックグラウンドのautomationが現実的になることだ。Boxでは、ボトルネックは需要ではなく、compliance、security、そして厄介なレガシーdataへ移っていると見ている。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2042469771275329594",
@@ -165,8 +166,8 @@
       "authorHandle": "_catwu",
       "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "title": "Cat Wu",
-      "suggestedTitle": "Claude Code setup got a lot faster",
-      "suggestedSummary": "They say Claude Code now sets up much faster with Bedrock and Vertex, which should make it easier for teams to wire Anthropic’s coding tool into enterprise cloud stacks. Small tweak, but the kind that removes friction where adoption usually stalls.",
+      "suggestedTitle": "Claude Codeのセットアップが大幅に高速化",
+      "suggestedSummary": "Claude CodeはBedrockとVertexでセットアップがかなり速くなったという。これで、チームがAnthropicのcoding toolをenterprise cloud stackに組み込みやすくなるはずだ。小さな変更だが、導入が止まりがちな摩擦を減らす類のものだ。",
       "tweets": [
         {
           "url": "https://x.com/_catwu/status/2042345489778331915",
@@ -185,8 +186,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI assistants work, but still don’t feel personal",
-      "suggestedSummary": "He says Claude Code can be a decent personal assistant replacement, but it still doesn’t feel as “mine” as OpenClaw — even though no model matches Opus for that workflow. He’s basically drawing the line between useful automation and tools people actually want to live in.",
+      "suggestedTitle": "AI assistantsは機能するが、まだpersonalに感じない",
+      "suggestedSummary": "彼は、Claude Codeはpersonal assistantの代替として十分使えると言う。ただし、OpenClawほど「自分のもの」という感じはまだない。しかも、そのワークフローではOpusに匹敵するmodelもない。要するに、彼は有用な自動化と、人が実際に住みたくなるtoolの境界線を引いている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2042472016566239320",
@@ -217,8 +218,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI helps where you’re weak, not where you’re fluent",
-      "suggestedSummary": "She says she rarely uses AI for writing because she actually enjoys it — and the back-and-forth usually makes it slower, not faster. Her real win is using AI outside her comfort zone, like coding, which is the cleaner take on where these tools actually save time.",
+      "suggestedTitle": "AIは得意なところではなく、苦手なところで役立つ",
+      "suggestedSummary": "彼女は、執筆にはほとんどAIを使わないという。書くこと自体が好きだからだ。しかも、やり取りが増えるほど、速くなるどころか遅くなることが多い。本当に効くのは、コーディングのような自分の得意圏外でAIを使う場面だ。こうしたツールが実際に時間を節約するのはどこか。その答えを、より明快に示している。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2042379962339246105",
@@ -249,8 +250,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
       "title": "Garry Tan",
-      "suggestedTitle": "Open-source memory for agent stacks",
-      "suggestedSummary": "He says GBrain gives OpenClaw and Hermes Agent “perfect total recall” across 10,000+ markdown files, basically turning them into a mini-AGI setup. It’s MIT-licensed, works with the same install script on Hermes Agent, and he’s already using it in his own stack.",
+      "suggestedTitle": "agent stack向けのオープンソース記憶",
+      "suggestedSummary": "彼によれば、GBrainはOpenClawとHermes Agentに10,000以上のmarkdownファイルをまたいだ「完全な総記憶」を与える。要するに、mini-AGIのような構成に変えるということだ。MITライセンスで、Hermes Agentでも同じinstall scriptで動く。しかも、彼自身のstackでもすでに使っている。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2042497872114090069",
@@ -281,8 +282,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Crypto winter has numbed even Satoshi drama",
-      "suggestedSummary": "He joked that it’s such a deep crypto winter that even a John Carreyrou Satoshi theory barely moves the timeline. The real signal is the apathy: after years of hype, another “who is Satoshi?” thread just doesn’t land.",
+      "suggestedTitle": "暗号資産の冬はSatoshi騒動さえ鈍らせた",
+      "suggestedSummary": "彼は、暗号資産の冬があまりに深く、John CarreyrouによるSatoshi説ですらタイムラインをほとんど動かさないと冗談を飛ばした。本当のシグナルは無関心だ。何年も誇大宣伝が続いたあとでは、また「Satoshiは誰か？」というスレッドが出ても、もう響かない。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2042382660568305816",
@@ -299,23 +300,27 @@
       ],
       "publishedAt": "2026-04-09T23:22:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-10",
       "source": "Unsupervised Learning",
-      "title": "Ep 84: OpenAI’s Chief Scientist on Continual Learning Hype, RL Beyond Code, &amp; Future Alignment Directions",
+      "title": "Ep 84: OpenAIのChief Scientistが語る Continual Learning ブーム、Codeを超えるRL、そして今後のAlignmentの方向性",
       "url": "https://www.youtube.com/@RedpointAI",
-      "suggestedTitle": "OpenAI sees autonomy, not chat, as the next leap in AI",
-      "suggestedSummary": "**The Takeaway:** The real frontier isn’t smarter prompts — it’s models that can work autonomously for days and learn from the world.\n\n**Key Insights**\n- OpenAI’s chief scientist treats coding, math, and physics as proving grounds, not endpoints: they’re valuable because they’re measurable, hard, and transferable to research.\n- The next bottleneck is no longer raw intelligence alone; it’s teaching models to evaluate partial progress, sustain long-horizon work, and generalize beyond cleanly verifiable tasks.\n- He’s skeptical that today’s RL pipelines are the final answer for business use cases, and thinks context learning may become the more data-efficient path.\n\n**The Story**\nJakub Pachocki, OpenAI’s chief scientist, is thinking less about flashy demos and more about what it takes for models to become real collaborators. He says the company’s internal shift is already visible in coding: “we use Codex for the majority of actual coding,” which he sees as evidence that autonomy is moving from theory into daily work.\n\nFor him, math benchmarks were never just trophies — they were a “North Star” because they’re brutally clear about success and failure. That same logic now extends to research. OpenAI is watching for models that can discover new things, not just answer questions, and he believes the jump from short tasks to long-horizon work is the key transition.\n\nHis view on alignment is equally pragmatic: the hard problem is generalization. Models need to learn what “good partial progress” looks like, especially when the task is messy, open-ended, or tied to the real world. That’s why he thinks the future of AI won’t be a single universal harness, but systems that “meet you where you are” — whether that’s Slack, code, or a scientific workflow.\n\nThe punchline: the next wave won’t just be more capable models. It’ll be models that can stay on task, adapt to context, and eventually run for “a couple days” with enough autonomy to produce genuinely useful work.",
+      "suggestedTitle": "OpenAIは次のAIの飛躍をchatではなくautonomyに見る",
+      "suggestedSummary": "**要点:** 本当のフロンティアは、より賢いpromptではない。何日も自律的に動き、世界から学べるmodelだ。\n\n**主な洞察**\n- OpenAIのchief scientistは、coding、math、physicsをゴールではなく実証の場として捉えている。価値があるのは、測定しやすく、難しく、researchにも転用できるからだ。\n- 次のボトルネックは、もはや生のintelligenceだけではない。途中経過を評価し、長い時間軸の仕事を維持し、きれいに検証できるtaskを超えてgeneralizeする力をmodelに教えることだ。\n- 彼は、今のRL pipelineがbusiness use caseの最終解だとは見ていない。むしろcontext learningのほうが、よりdata-efficientな道になる可能性があると考えている。\n\n**ストーリー**\nOpenAIのchief scientistであるJakub Pachockiは、派手なdemoよりも、modelが本当のcollaboratorになるには何が必要かを考えている。社内の変化はすでにcodingに表れているという。彼は「実際のcodingの大半でCodexを使っている」と述べており、autonomyが理論から日々の仕事へ移りつつある証拠だと見ている。\n\n彼にとってmath benchmarkは、単なるトロフィーではなかった。成功と失敗が極めて明快だからこそ、North Starだったのだ。同じ発想は今、researchにも広がっている。OpenAIが見ているのは、質問に答えるだけでなく、新しい発見をするmodelだ。短いtaskから長いhorizonの仕事へ移ることが、重要な転換点だと彼は考えている。\n\nalignmentに対する彼の見方も実務的だ。難題はgeneralizationである。modelは、「良い途中経過」が何かを学ばなければならない。taskが曖昧で、open-endedで、現実世界に結びついているほど、それは難しくなる。だから彼は、AIの未来は単一の万能harnessではなく、Slackでもcodeでもscientific workflowでも、その場に合わせて動くsystemになると考えている。\n\n要するに、次の波で重要なのは、ただ能力の高いmodelではない。taskに張り付き、contextに適応し、最終的には「a couple days」動き続けて、本当に役立つ仕事を生み出せるmodelだ。",
       "publishedAt": "2026-04-09T13:25:11.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 20,
     "totalTweets": 41,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-10T14:22:50.321Z"
+    "generatedAt": "2026-04-10T14:23:14.242Z",
+    "estimatedReadTime": "6 分"
   }
 }
