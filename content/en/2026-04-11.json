@@ -1,7 +1,8 @@
 {
   "date": "2026-04-11",
+  "lang": "en",
   "summary": "Claude pushed into Word with tracked edits, and Claude Code moved planning to the web with auto mode approvals. Garry Tan called agents the Altair BASIC era, while Aaron Levie warned software without a real API gets left behind.",
-  "items": [
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-11",
       "source": "X",
@@ -331,7 +332,9 @@
       ],
       "publishedAt": "2026-04-10T16:19:42.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-11",
       "source": "The MAD Podcast with Matt Turck",
@@ -341,7 +344,9 @@
       "suggestedSummary": "**The Takeaway:** The next software leap won’t come from smarter models alone, but from making them safe, local, and easy to trust.\n\n- Felix Rieseberg says Anthropic’s new Mythos preview feels like a real step-function jump, especially at finding security flaws and writing code, but the bigger surprise is how much product work still sits around the model.\n- His contrarian take: the bottleneck isn’t raw capability anymore; it’s packaging, onboarding, and letting AI operate where people already work — on their laptops, files, and browsers.\n- Cowork’s “secret sauce” is almost embarrassingly simple: a virtual machine, text-file skills, and memory stored as instructions, not some magical database layer.\n\nRieseberg, who leads engineering for Claude Cowork at Anthropic after stints at Slack, Stripe, and Notion, comes at AI like a product engineer obsessed with how real people actually work. His point is that models are now good enough to handle long, messy, multi-step tasks — the hard part is turning that power into something humans will actually use without babysitting it.\n\nThat’s why he keeps coming back to local-first design. “I have a strong belief that the data that is relevant for your work probably lives in two different places,” he says: on your computer and in the cloud. For him, asking users to upload everything to a remote system is both a trust problem and a practical mess, especially when banks, logins, and security checks get involved.\n\nCowork reflects that philosophy. It gives Claude its own sandboxed computer, lets users define skills in plain markdown, and stores memory as text files. The result is less sci-fi than it sounds — and more useful. As Rieseberg puts it, “most of the buttons you add and most of the product services you build are probably more for the human than they are for the model.”",
       "publishedAt": "2026-04-10T11:30:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-11",
       "source": "Anthropic Engineering",
@@ -381,6 +386,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 4,
-    "generatedAt": "2026-04-11T14:11:07.496Z"
+    "generatedAt": "2026-04-11T14:11:07.712Z",
+    "estimatedReadTime": "8 min"
   }
 }

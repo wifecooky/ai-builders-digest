@@ -1,7 +1,8 @@
 {
   "date": "2026-04-11",
-  "summary": "Claude pushed into Word with tracked edits, and Claude Code moved planning to the web with auto mode approvals. Garry Tan called agents the Altair BASIC era, while Aaron Levie warned software without a real API gets left behind.",
-  "items": [
+  "lang": "ja",
+  "summary": "ClaudeはWordにtracked editsを押し込み、Claude Codeはplanningをwebへ移し、auto mode approvalsを導入した。Garry TanはagentsをAltair BASIC時代になぞらえ、Aaron Levieはreal APIのないsoftwareは置き去りにされると警告した。",
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-11",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude moves into Word with tracked edits",
-      "suggestedSummary": "Claude for Word is now in beta, letting people draft, edit, and revise docs from the sidebar while preserving formatting and showing tracked changes. Anthropic is also tying Word, Excel, and PowerPoint together so Claude can carry context across open documents in one conversation.",
+      "suggestedTitle": "ClaudeがWordに進出、変更履歴付き編集に対応",
+      "suggestedSummary": "Claude for Wordがbetaになった。サイドバーから文書の下書き、編集、修正ができる。書式は保たれ、変更履歴も表示される。AnthropicはさらにWord、Excel、PowerPointをつなぎ、1回の会話で開いている文書をまたいでClaudeが文脈を引き継げるようにしている。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2042670343173574705",
@@ -35,8 +36,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "China’s AI scene runs on late nights and VPNs",
-      "suggestedSummary": "He says Chinese AI work culture is built around 11am-to-11pm days, young teams, and heavy use of US tools like Claude Code through VPNs. The bigger picture: government backing is strong, Beijing is the main hub, and even one-person startups are being pushed with subsidies as youth unemployment stays ugly.",
+      "suggestedTitle": "中国のAIシーンは深夜労働とVPNで回っている",
+      "suggestedSummary": "彼によれば、中国のAIの働き方は午前11時から午後11時までの勤務、若いチーム、そしてVPN経由でClaude CodeのようなUSツールを多用することを軸にしている。より大きな構図では、政府の後押しは強く、北京が主要ハブだ。若年失業率が厳しい中、1人スタートアップにまで補助金を出して押し上げている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2042772055905689977",
@@ -55,8 +56,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code moves planning to the web",
-      "suggestedSummary": "Claude Code’s new /ultraplan mode pushes implementation planning into the browser: Claude drafts the plan on the web, you can edit it there, then run it either on the web or back in terminal. The pitch is simple — planning is mostly about reading code and intent, so it doesn’t need a local interactive loop, and it uses about the same tokens and rate limits as plan mode.",
+      "suggestedTitle": "Claude CodeがプランニングをWebへ移す",
+      "suggestedSummary": "Claude Codeの新しい /ultraplan モードは、実装プランニングをブラウザに押し出す。ClaudeがWeb上でプランを下書きし、そこで編集できる。その後はWeb上でも、ターミナルに戻しても実行できる。狙いはシンプルだ。プランニングの本質は、コードと意図を読むことにある。だからローカルの対話ループは要らない。しかも、使う token と rate limit は plan mode とほぼ同じだ。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2042673325139427724",
@@ -87,8 +88,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Software needs a real API or gets left behind",
-      "suggestedSummary": "He says enterprise CIOs and AI leaders are converging on one thing: vendors without a solid headless/API mode are at risk in the next 3-5 years. The bigger shift, from the Box CEO’s view, is that software has to be useful to agents as much as to humans — which could force new business models, but also open up way more workflows and revenue.",
+      "suggestedTitle": "ソフトウェアには本物のAPIが必要だ。さもなくば置いていかれる",
+      "suggestedSummary": "企業のCIOとAIリーダーは、ある一点で収束しつつある。堅牢なheadless/APIモードを持たないベンダーは、今後3〜5年で危ういということだ。BoxのCEOの見方では、より大きな変化は、ソフトウェアが人間だけでなくagentにも使える必要がある点にある。これは新しいビジネスモデルを迫る一方で、はるかに多くのワークフローと収益機会を開く可能性がある。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2042759653281456218",
@@ -107,8 +108,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "VC is mostly timing, conviction, and integrity",
-      "suggestedSummary": "He boils early-stage investing down to 11 blunt lessons: get on the flight, don’t trust weekend momentum, and remember that conviction doesn’t come from the data room. His bigger point is that the best founders can argue both sides cleanly, and the best VCs are the ones who keep asking hard questions without pretending they’re smarter than the market.",
+      "suggestedTitle": "VCはほぼタイミング、確信、誠実さだ",
+      "suggestedSummary": "彼はアーリーステージ投資を11の率直な教訓に要約する。まず飛行機に乗れ。週末の勢いは信用するな。そして、確信はデータルームからは生まれないことを忘れるな、という話だ。さらに大きなポイントは、優れたfounderは両方の立場を明快に論じられることだ。優れたVCは、市場より自分たちのほうが賢いふりをせず、厳しい問いを投げ続ける者だ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2042758851074588945",
@@ -133,8 +134,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Domain envy, not a product take",
-      "suggestedSummary": "He just says Skillshare would be a killer domain to own now — more flex than insight. As Linear’s head of product, it reads like a quick hit of startup-brain, not something actionable.",
+      "suggestedTitle": "ドメインへの羨望であって、プロダクト論ではない",
+      "suggestedSummary": "彼が言っているのは、今 Skillshare のドメインを持っていたら最高だというだけだ。洞察というより、見せびらかしに近い。Linear の Head of Product として見ると、実行可能な示唆ではなく、スタートアップ脳の軽い一発芸に見える。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2042643133003919689",
@@ -153,8 +154,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI doom ideology can spill into violence",
-      "suggestedSummary": "He says the “rationalist” AI-doomer mindset he warned about two years ago is now showing up in real-world violence, pointing to the alleged Sam Altman Molotov attacker as evidence. He also throws in a sharper geopolitical jab: if American enterprise needs saving, maybe China’s open models and Europe’s platform regulation end up doing the job.",
+      "suggestedTitle": "AI破滅思想は暴力に波及しうる",
+      "suggestedSummary": "彼は、2年前に警告した「rationalist」系のAI破滅論者の思考が、いま現実の暴力として表れていると述べる。証拠として、Sam AltmanへのMolotov攻撃の容疑者を挙げている。さらに、より鋭い地政学的な皮肉も差し込む。米国のenterpriseを救う必要があるなら、最終的にその役を担うのはChinaのopen modelとEuropeのplatform規制かもしれない、という見立てだ。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2042833728305795370",
@@ -185,8 +186,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Claude agents land in Every’s first app",
-      "suggestedSummary": "He says Every’s first app built with Claude Managed agents is live: @TrySpiral. That’s the real signal here — they’re not just talking about AI workflows, they’re shipping one into a product people can actually use.",
+      "suggestedTitle": "Claude agentsがEveryの最初のアプリに搭載された",
+      "suggestedSummary": "彼によれば、Claude Managed agentsで作られたEveryの最初のアプリが公開された。@TrySpiralだ。ここで本当に重要なのはそこだ。AI workflowsを語っているだけではない。実際に人が使えるproductへ落とし込んでいるのである。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2042683598801690691",
@@ -217,8 +218,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI fluency means building, not just prompting",
-      "suggestedSummary": "She argues the fastest way to understand AI is to become a builder: use coding tools to learn, not just to ship faster. Her other take is more practical than flashy — stop asking models to merely summarize long content and instead have them remix it into formats that surface better insights, like magazine articles or Socratic dialogues. She also sketches the new default workflow as Markdown, CSV/JSON, and HTML replacing the old Word/Excel/PowerPoint stack.",
+      "suggestedTitle": "AI fluencyとは、promptingだけでなく、buildすることだ",
+      "suggestedSummary": "彼女は、AIを最速で理解する方法はbuilderになることだと主張する。coding toolsを使い、ただ速くshipするためではなく、学ぶために使うべきだという。もう一つの主張は、派手さより実用性に寄っている。長い内容を単に要約させるのはやめ、magazine記事やSocratic dialogueのように、よりよいinsightを引き出せる形式へremixさせるべきだという。さらに、新しいデフォルトのworkflowはMarkdown、CSV/JSON、HTMLであり、古いWord/Excel/PowerPointのstackに取って代わるものだと描いている。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2042846640130920574",
@@ -249,8 +250,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "AI agents are still in the Altair BASIC era",
-      "suggestedSummary": "He says the current setup for getting OpenClaw, GBrain, and an LLM knowledge wiki talking to your phone is still annoyingly rough — basically the Altair BASIC phase of agents. But he’s also pointing to a future where a strong PM-style devex review can be automated, so founders can “just do things now” instead of wrestling tooling.",
+      "suggestedTitle": "AI agentはまだAltair BASIC時代にある",
+      "suggestedSummary": "OpenClaw、GBrain、LLM knowledge wikiをスマートフォンにつなぐ今の構成は、まだやたらと扱いづらい。要するに、agentのAltair BASIC期だという話だ。だが彼は、強いPM型のdevex reviewまで自動化できる未来も示している。そうなれば、founderはtoolingと格闘する代わりに、「今すぐやる」だけでよくなる。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2042838538077770025",
@@ -281,8 +282,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Free software means instant product rewrites",
-      "suggestedSummary": "He says the wild part of \"free\" software is how fast you can change it: hate the UI, push a new one; performance sucks, refactor the data layer and let automation optimize it. That’s a classic builder take from an ex-Facebook, ex-Dropbox CTO — software stops being a fixed thing and starts behaving more like clay.",
+      "suggestedTitle": "フリーソフトウェアは即座のプロダクト書き換えを意味する",
+      "suggestedSummary": "彼が言う「free」なsoftwareの面白さは、変えられる速さにある。UIが気に入らなければ、新しいものを投入すればいい。性能が悪ければ、data layerをリファクタリングし、automationに最適化させればいい。これは元Facebook、元DropboxのCTOらしいbuilderの視点だ。softwareは固定されたものではなくなり、粘土のように扱えるようになる。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2042736543891362058",
@@ -313,8 +314,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Anthropic’s Cowork bets on non-technical agents",
-      "suggestedSummary": "He says Claude Cowork is Anthropic’s answer to a simple gap: Claude Code was powerful, but too technical for most people. The conversation digs into why the product was built fast, how it uses VMs, tools, memory, and local files, and why the real bottleneck in an AI-agent world may shift from execution to taste and trust.",
+      "suggestedTitle": "AnthropicのCoworkは非技術系agentを狙う",
+      "suggestedSummary": "彼によれば、Claude CoworkはAnthropicが埋めようとしている単純なギャップへの答えだ。Claude Codeは強力だったが、多くの人には技術的すぎた。対談では、なぜこのプロダクトを急いで作ったのか、VM、tools、memory、local filesをどう使っているのか、そしてAI-agentの世界で本当のボトルネックがexecutionからtasteとtrustへ移る可能性がある理由を掘り下げている。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2042638665260671192",
@@ -331,47 +332,51 @@
       ],
       "publishedAt": "2026-04-10T16:19:42.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-11",
       "source": "The MAD Podcast with Matt Turck",
-      "title": "Anthropic’s Felix Rieseberg: Claude Cowork, Mythos, and the SaaS Extinction",
+      "title": "AnthropicのFelix Rieseberg: Claude Cowork、Mythos、そしてSaaSの消滅",
       "url": "https://www.youtube.com/@DataDrivenNYC/videos",
-      "suggestedTitle": "AI’s real bottleneck is trust, not intelligence",
-      "suggestedSummary": "**The Takeaway:** The next software leap won’t come from smarter models alone, but from making them safe, local, and easy to trust.\n\n- Felix Rieseberg says Anthropic’s new Mythos preview feels like a real step-function jump, especially at finding security flaws and writing code, but the bigger surprise is how much product work still sits around the model.\n- His contrarian take: the bottleneck isn’t raw capability anymore; it’s packaging, onboarding, and letting AI operate where people already work — on their laptops, files, and browsers.\n- Cowork’s “secret sauce” is almost embarrassingly simple: a virtual machine, text-file skills, and memory stored as instructions, not some magical database layer.\n\nRieseberg, who leads engineering for Claude Cowork at Anthropic after stints at Slack, Stripe, and Notion, comes at AI like a product engineer obsessed with how real people actually work. His point is that models are now good enough to handle long, messy, multi-step tasks — the hard part is turning that power into something humans will actually use without babysitting it.\n\nThat’s why he keeps coming back to local-first design. “I have a strong belief that the data that is relevant for your work probably lives in two different places,” he says: on your computer and in the cloud. For him, asking users to upload everything to a remote system is both a trust problem and a practical mess, especially when banks, logins, and security checks get involved.\n\nCowork reflects that philosophy. It gives Claude its own sandboxed computer, lets users define skills in plain markdown, and stores memory as text files. The result is less sci-fi than it sounds — and more useful. As Rieseberg puts it, “most of the buttons you add and most of the product services you build are probably more for the human than they are for the model.”",
+      "suggestedTitle": "AIの本当のボトルネックは知能ではなく信頼だ",
+      "suggestedSummary": "**要点:** 次のソフトウェアの飛躍は、より賢いモデルだけからは生まれない。安全で、ローカルで、信頼しやすい形にすることから生まれる。\n\n- Felix Riesebergは、Anthropicの新しいMythos previewは本物の段差的な進化だと言う。特に、security flawsの発見とcodeの記述でそう感じるという。ただ、もっと意外なのは、modelの周りにまだどれだけ多くのproduct workが残っているかだ。\n- 彼の逆張りの見方では、ボトルネックはもはや生のcapabilityではない。packaging、onboarding、そして人々がすでに働いている場所、つまりlaptop、file、browser上でAIを動かせるかどうかだ。\n- Coworkの「secret sauce」は驚くほど単純だ。virtual machine、text fileのskills、そしてmemoryを特別なdatabase layerではなくinstructionsとして保存すること。 \n\nSlack、Stripe、Notionでの経験を経てAnthropicでClaude Coworkのengineeringを率いるRiesebergは、実際の人間がどう働くかに強くこだわるproduct engineerとしてAIに向き合っている。彼の主張は、modelはもう長くて散らかったmulti-step taskを十分こなせるというものだ。本当に難しいのは、その力を、人が付きっきりで見張らなくても実際に使えるものへ変えることだ。\n\nだからこそ、彼はlocal-first designに何度も立ち返る。「仕事に関係するdataは、おそらく2つの場所にあるという強い信念がある」と彼は言う。自分のcomputerの中とcloudだ。すべてをremote systemにuploadさせるのは、彼にとってtrustの問題でもあり、実務上の厄介事でもある。特にbank、login、security checkが絡むとそうだ。\n\nCoworkはその思想を反映している。Claudeに専用のsandboxed computerを与え、ユーザーはplain markdownでskillsを定義できる。memoryはtext fileとして保存される。見た目ほどsci-fiではないが、実用性は高い。Riesebergの言葉を借りれば、「追加するbuttonの大半も、作るproduct serviceの大半も、modelより人間のためのものだろう」だ。",
       "publishedAt": "2026-04-10T11:30:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-11",
       "source": "Anthropic Engineering",
-      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "title": "agentic coding evalsにおけるインフラノイズの定量化",
       "url": "https://www.anthropic.com/engineering/infrastructure-noise",
       "author": null,
-      "suggestedTitle": "Anthropic: agentic coding scores shift with infrastructure setup",
-      "suggestedSummary": "**Lead:** Anthropic found that infrastructure choices can move agentic coding benchmark scores by as much as the leaderboard gaps people use to rank models, and argues that eval resource settings should be treated as a first-class variable.\n\n**Numbers:**\n- On Terminal-Bench 2.0, the gap between the most- and least-resourced setups was **6 percentage points**.\n- Strict enforcement produced **5.8% infra errors**; at **3x headroom**, errors fell to **2.1%**; uncapped dropped to **0.5%**.\n- The strict-to-3x improvement in infra errors was significant (**p < 0.001**), while score changes from **1x to 3x** were within noise (**p = 0.40**).\n- On SWE-bench, scores rose monotonically with RAM, reaching **+1.54 points** at **5x** baseline.\n\n**So What:** Resource limits don’t just stabilize evals; past a threshold, they change what the benchmark measures by enabling heavier tools, bigger installs, and more memory-intensive strategies. Anthropic recommends specifying both guaranteed allocation and hard kill threshold per task, and calibrating the band so floor and ceiling scores stay within noise. As the post puts it, “a 2-point lead on a leaderboard might reflect a genuine capability difference, or it might reflect that one eval ran on beefier hardware.” For builders and buyers, the takeaway is blunt: don’t trust small leaderboard deltas unless the eval configuration is documented and matched.",
+      "suggestedTitle": "Anthropic: agentic codingスコアはインフラ設定で変動する",
+      "suggestedSummary": "**要点:** Anthropicは、インフラの選び方次第でagentic codingのベンチマークスコアが、モデル順位を分けるリーダーボード差と同じくらい動きうると示した。evalのリソース設定は第一級の変数として扱うべきだと主張している。\n\n**数値:**\n- Terminal-Bench 2.0では、最もリソースが多い設定と最も少ない設定の差は**6ポイント**だった。\n- 厳格な制限では**infra errorsが5.8%**だった。**3x headroom**では**2.1%**まで低下した。上限なしでは**0.5%**まで下がった。\n- infra errorsの厳格設定から3xへの改善は有意だった（**p < 0.001**）。一方、**1xから3x**のスコア変化はノイズの範囲内だった（**p = 0.40**）。\n- SWE-benchでは、スコアはRAMに応じて単調に上昇し、ベースラインの**5x**で**+1.54ポイント**に達した。\n\n**つまり:** リソース制限はevalを安定化させるだけではない。ある閾値を超えると、より重いツール、大きなインストール、よりメモリを食う戦略が使えるようになり、ベンチマークが測るもの自体が変わる。Anthropicは、各タスクごとに保証される割り当てとハードなkill thresholdの両方を明記し、下限と上限のスコアがノイズの範囲内に収まるよう帯域を調整することを勧めている。記事の言い方を借りれば、「リーダーボードでの2ポイント差は、純粋な能力差かもしれないし、片方のevalがより強力なhardwareで走っただけかもしれない」。作る側にも買う側にも、結論は明快だ。eval設定が文書化され、揃っていないなら、小さなリーダーボード差は信用するな。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpswwwanth-2026-04-11",
       "source": "Anthropic Engineering",
-      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title": "Claude Codeのauto mode: permissionを飛ばすより安全な方法",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "author": null,
-      "suggestedTitle": "Anthropic adds auto mode to Claude Code with classifier-based approvals",
-      "suggestedSummary": "**Lead:** Anthropic launched **auto mode for Claude Code**, a new permission mode that skips most manual approval prompts by using model-based classifiers and prompt-injection checks to block dangerous actions while letting routine work run unattended.\n\n**Numbers:**\n- Manual prompts are accepted **93%** of the time, contributing to approval fatigue.\n- On **10,000** real internal tool calls, the full pipeline cut false positives to **0.4%**.\n- On **52** real overeager actions, the deployed pipeline had a **17% false-negative rate**.\n- On **1,000** synthetic exfiltration attempts, the full pipeline reached **5.7% FNR**.\n\n**So What:** Auto mode is aimed at teams that want more autonomy than manual approvals but more protection than `--dangerously-skip-permissions`. It uses two defenses: a server-side prompt-injection probe on tool outputs, and a transcript classifier that gates risky actions like force-pushes, credential hunting, external data sharing, and shared-infra changes. Anthropic says the classifier is intentionally conservative: “**The classifier is deliberately conservative**,” and the system is designed so “**the agent shouldn’t be able to hide a dangerous operation behind a benign-looking wrapper.**” For builders, the practical takeaway is that routine in-repo edits can flow without friction, while higher-risk actions still get blocked or escalated. Auto mode is not a replacement for careful human review on high-stakes infrastructure, but it is a safer middle ground for everyday coding agents.",
+      "suggestedTitle": "AnthropicがclassifierベースのapprovalでClaude Codeにauto modeを追加",
+      "suggestedSummary": "**Lead:** Anthropicは**Claude Codeのauto mode**をリリースした。これは新しいpermission modeだ。model-based classifierとprompt-injectionチェックを使い、危険な操作を止めつつ、ほとんどの手動approval promptを省く。定型作業は人手なしで進められる。\n\n**Numbers:**\n- 手動promptの承認率は**93%**だ。approval fatigueの一因になっている。\n- 実際の社内tool call **10,000**件では、full pipelineによりfalse positiveは**0.4%**まで下がった。\n- 実際の過剰反応した操作 **52**件では、deployed pipelineのfalse-negative rateは**17%**だった。\n- 合成したexfiltration試行 **1,000**件では、full pipelineのFNRは**5.7%**に達した。\n\n**So What:** auto modeは、手動approvalより自律性が高く、`--dangerously-skip-permissions`より保護が強いものを求めるチーム向けだ。防御は2つある。1つはtool outputに対するserver-sideのprompt-injection probe。もう1つはtranscript classifierだ。後者が、force-push、credential hunting、外部へのdata共有、shared-infraの変更といったリスクの高い操作を遮断する。Anthropicはclassifierを意図的に保守的にしているという。「**The classifier is deliberately conservative**」であり、システムは「**the agent shouldn’t be able to hide a dangerous operation behind a benign-looking wrapper.**」ように設計されている。builderにとっての実用的なポイントは明快だ。通常のrepo内編集は摩擦なく流せる。一方で、より危険な操作は引き続きブロックされるか、上位にエスカレートされる。auto modeは、重要なインフラでの慎重な人間レビューの代わりではない。だが、日常的なcoding agentにとっては、より安全な中間地点だ。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-04-11",
       "source": "Claude Blog",
-      "title": "Harnessing Claude’s intelligence",
+      "title": "Claudeの知能を活かす",
       "url": "https://claude.com/blog/harnessing-claudes-intelligence",
       "author": null,
-      "suggestedTitle": "Anthropic: Build less around Claude as it gets smarter",
-      "suggestedSummary": "**Lead:** Anthropic says Claude is “grown more than it is built,” and argues agent harnesses should evolve with the model by using what Claude already knows, asking what can be removed, and setting tighter boundaries only where needed.\n\n**Numbers:**\n- Claude 3.5 Sonnet hit **49% on SWE-bench Verified** using only bash and a text editor.\n- On BrowseComp, letting **Opus 4.6** filter its own tool outputs improved accuracy from **45.3% to 61.6%**.\n- Spawning subagents with Opus 4.6 added **2.8%** over the best single-agent runs.\n- On BrowseComp, **Opus 4.5** reached **68%** and **Opus 4.6** reached **84%** with the same compaction setup.\n- On BrowseComp-Plus, a memory folder lifted **Sonnet 4.5** from **60.4% to 67.2%**.\n\n**So What:** Builders should shift orchestration from the harness to Claude where possible: use general tools like bash, let Claude manage filtering and context, and rely on skills, compaction, subagents, and memory folders for long-horizon work. Anthropic’s core advice is to keep pruning old guardrails as capability improves: “what can I stop doing?” For UX, security, and observability, promote only the actions that truly need dedicated tools or confirmation gates. The practical takeaway: re-test your assumptions every model step-change, or your harness will become dead weight.",
+      "suggestedTitle": "Anthropic: Claudeが賢くなるほど、Claude中心の設計を減らせ",
+      "suggestedSummary": "**要点:** Anthropicは、Claudeは「作られたというより、育った」と述べている。agentのハーネスはモデルとともに進化すべきだとも主張する。Claudeがすでに知っていることを活用し、何を削れるかを問い、必要な場面だけ境界を厳しくするべきだという。\n\n**数値:**\n- Claude 3.5 Sonnetは、bashとテキストエディタだけで **SWE-bench Verified 49%** を記録した。\n- BrowseCompでは、**Opus 4.6** に自分の tool 出力をフィルタさせると、精度が **45.3%から61.6%** に向上した。\n- Opus 4.6でsubagentを生成すると、最良の単一agent実行をさらに **2.8%** 上回った。\n- BrowseCompでは、同じcompaction設定で **Opus 4.5** が **68%**、**Opus 4.6** が **84%** に到達した。\n- BrowseComp-Plusでは、memory folderにより **Sonnet 4.5** が **60.4%から67.2%** に上がった。\n\n**要するに:** ビルダーは、可能な限りオーケストレーションをハーネスからClaudeへ移すべきだ。bashのような汎用ツールを使い、フィルタリングとコンテキスト管理はClaudeに任せる。長期の作業では、skills、compaction、subagent、memory folderを頼るべきだ。Anthropicの核心的な助言は、能力が上がるたびに古いガードレールを削ることだ。「何をやめられるか」を考えよ、というわけだ。UX、security、observabilityでは、専用ツールや確認ゲートが本当に必要な操作だけを前面に出すべきだ。実務上の教訓は明快だ。モデルが大きく変わるたびに前提を再検証しなければ、ハーネスはただの重荷になる。",
       "publishedAt": "Apr 02, 2026",
       "category": "blogUpdates"
     }
@@ -381,6 +386,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 4,
-    "generatedAt": "2026-04-11T14:11:07.496Z"
+    "generatedAt": "2026-04-11T14:11:40.128Z",
+    "estimatedReadTime": "8 分"
   }
 }
