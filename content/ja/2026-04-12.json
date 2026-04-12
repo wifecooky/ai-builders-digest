@@ -1,7 +1,8 @@
 {
   "date": "2026-04-12",
-  "summary": "Thariq said Claude Code now handles TurboTax pain, while Rauch called microVM sandboxes the new compute layer. Aditya Agarwal pushed memory over loops, and Levie argued AI won’t shrink law—it’ll inflate it.",
-  "items": [
+  "lang": "ja",
+  "summary": "Thariqは、Claude Codeが今やTurboTaxの面倒を処理すると述べた。  \nRauchは、microVM sandboxesを新しいcompute layerと呼んだ。  \nAditya Agarwalは、loopよりmemoryを重視するよう主張した。  \nLevieは、AIはlawを縮小しない。むしろ膨らませると論じた。",
+  "builderInsights": [
     {
       "id": "trq212-2026-04-12",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code now handles TurboTax pain",
-      "suggestedSummary": "Claude Code added a TurboTax connector, so tax procrastination just got a lot less painful. It’s a small but very real example of AI agents moving from chat to actually doing annoying life admin inside the tools people already use.",
+      "suggestedTitle": "Claude CodeがTurboTaxの面倒を処理するようになった",
+      "suggestedSummary": "Claude CodeにTurboTaxコネクタが追加された。これで税金の先延ばしは、かなり楽になった。AI agentが、ただ会話する段階から、人々がすでに使っているツールの中で面倒な生活事務を実際にこなす段階へ移りつつある、小さいが非常に現実的な例だ。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2043138221836746762",
@@ -29,8 +30,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "MicroVM sandboxes are the new compute layer",
-      "suggestedSummary": "Vercel Sandbox is now the fastest microVM-based sandbox, and he says customers are seeing the real win in production: better performance and reliability, not just lab benchmarks. The pitch is bigger than sandboxes — this is the foundation for coding agents, parallel compute, and whatever weird workloads come next.",
+      "suggestedTitle": "MicroVMサンドボックスは新しいコンピュート層である",
+      "suggestedSummary": "Vercel Sandboxは、いまや最速のMicroVMベースのサンドボックスだ。Guillermo Rauchは、顧客が本当に得ている成果は本番環境での性能と信頼性だと言う。ラボのベンチマークだけではない。話はサンドボックス以上のものだ。これはcoding agent、並列コンピュート、そして次に来る奇妙なワークロードの土台である。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2043020059896091016",
@@ -49,8 +50,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "VCs want cheap in, rich out — avoid the mercenaries",
-      "suggestedSummary": "He says some VCs preach low valuations when they’re investing, then flip and push for the highest mark possible once they’re on the cap table. His advice: back missionaries, not mercenaries, and backchannel anyone joining your round because the goodwill disappears fast when things get rough.",
+      "suggestedTitle": "VCは安く入り、高く出たい — mercenariesは避けよ",
+      "suggestedSummary": "彼は、一部のVCは投資する側では低い valuationを説くのに、cap tableに入った途端、最高の評価額を求めると指摘する。助言は明快だ。missionariesを支え、mercenariesは避けよ。ラウンドに加わる相手は裏で確認しておけ。状況が悪くなると、善意はすぐに消えるからだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2043092455550259341",
@@ -69,8 +70,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Make the agent keep working, not just planning",
-      "suggestedSummary": "He’s testing a stricter agent mode in OpenClaw that forces GPT-5.x to keep reading code, calling tools, and making changes instead of stopping at a polite plan. He’s also making the harness pluggable, so Codex or other SDKs can run the agent loop — with Codex taking over threads, resume, compaction, and app-server execution in one setup.",
+      "suggestedTitle": "agentを計画だけで終わらせず、動かし続ける",
+      "suggestedSummary": "OpenClawで、より厳格なagentモードを試している。GPT-5.xにコードを読み続けさせ、toolを呼び出し、変更を加えさせる。丁寧な計画を出した時点で止めないためだ。さらにharnessをプラグイン化し、Codexや他のSDKでもagent loopを回せるようにしている。Codexはこの構成で、thread、resume、compaction、app-server executionをまとめて担う。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2043136624469619050",
@@ -101,8 +102,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI won’t shrink law — it’ll inflate it",
-      "suggestedSummary": "AI will likely create more lawyers, not fewer: more people will ask legal questions, more exotic issues will need review, and AI itself is spawning fresh IP, privacy, and compliance work. He points to the PC/internet era as precedent — when professions get more efficient, demand often rises instead of falling.",
+      "suggestedTitle": "AIは法務を縮小しない。むしろ膨張させる",
+      "suggestedSummary": "AIは、弁護士を減らすのではなく、増やす可能性が高い。法的な質問をする人は増え、より特殊な論点の確認も必要になる。さらにAI自体が、新たなIP、privacy、complianceの仕事を生み出している。彼は前例としてPC／internet時代を挙げる。職業の効率が上がると、需要は下がるどころか、むしろ増えることが多いからだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2043192337111924930",
@@ -127,8 +128,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Agents need memory, not just loops",
-      "suggestedSummary": "He says the real line between a true agent and a looped LLM is long-horizon memory management. The most interesting part of Claude Code, in his view, is its 3-tier memory architecture — a reminder that agent quality is mostly a memory problem, not a prompt problem.",
+      "suggestedTitle": "agentに必要なのはloopではなくmemoryである",
+      "suggestedSummary": "彼によれば、本物のagentとloopを回すLLMを分ける本質は、長期的なmemory管理にある。Claude Codeで最も興味深いのは、3層のmemoryアーキテクチャだという。agentの品質は、ほとんどmemoryの問題であって、promptの問題ではないという示唆である。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2043144970060939487",
@@ -147,8 +148,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Figma’s AI-era design play is coming into focus",
-      "suggestedSummary": "He teased a chat with Figma CEO Dylan Field on whether AI can learn design taste, plus the bigger question of whether design systems help or hurt creativity. The real hook: how Figma plans to compete once AI starts eating more of the design workflow.",
+      "suggestedTitle": "FigmaのAI時代のデザイン戦略が見えてきた",
+      "suggestedSummary": "Figma CEOのDylan Fieldとの対談を予告した。AIがデザインのセンスを学べるのか。さらに、デザインシステムが創造性を後押しするのか、それとも妨げるのかという、より大きな論点も扱う。本題はそこだ。AIがデザインのワークフローをさらに食い始めたとき、Figmaがどう競争するのかである。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2042950869734567998",
@@ -167,8 +168,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Thin harnesses, fat skills win agentic work",
-      "suggestedSummary": "He argues agentic systems should keep the harness thin: memory and skills live in markdown, and the brain sits in a git repo the harness just reads. After 3 months of open source used by tens of thousands of agentic engineers a day, his counterpoint is basically: don’t let the wrapper become the product.",
+      "suggestedTitle": "薄いハーネス、厚いスキルが agentic work を制す",
+      "suggestedSummary": "彼は、agentic system ではハーネスを薄く保つべきだと主張する。memory と skill は markdown に置き、brain は git repo に置く。ハーネスはそれを読むだけでいい。オープンソースを3か月運用し、1日あたり数万人の agentic engineer に使われた後での彼の反論は、要するにこうだ。wrapper を product にするな、ということである。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2043198783006355747",
@@ -199,8 +200,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Agents make collaboration optional, not central",
-      "suggestedSummary": "She argues the most efficient team structure is basically anti-teamwork: one person owns a task end-to-end and works with agents. Human communication, in her view, should shrink to deciding what to build, defining what “good” looks like, and the parts that actually need empathy or creativity — not status updates and handoffs.",
+      "suggestedTitle": "agentによってコラボレーションは必須ではなくなる",
+      "suggestedSummary": "彼女は、最も効率的なチーム構成は、基本的にアンチ・チームワークだと主張する。1人がタスクを最初から最後まで責任を持ち、agentと一緒に進める形だ。人間同士のコミュニケーションは、何を作るかを決めること、何をもって「良い」とするかを定義すること、そして共感や創造性が本当に必要な部分にまで縮むべきだという。進捗共有や引き継ぎのためではない。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2043202553538925031",
@@ -225,8 +226,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI customer service is basically solved",
-      "suggestedSummary": "He says the AI customer service market is already crowded enough that it’s basically a solved problem. That’s a blunt take from a FirstMark VC, and it suggests the real differentiation now is elsewhere in the stack, not in yet another support bot.",
+      "suggestedTitle": "AI customer serviceは実質的に解決済みだ",
+      "suggestedSummary": "彼は、AI customer service市場はすでに十分に競争が激しく、もはや実質的に解決済みの問題だと言う。FirstMarkのVCによるかなり率直な見方だ。今の差別化は、サポートbotをもう1つ作ることではなく、stackの別の部分にあることを示している。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2043114808875077789",
@@ -237,23 +238,27 @@
       ],
       "publishedAt": "2026-04-11T23:51:44.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-12",
       "source": "No Priors",
-      "title": "The Agentic Economy: How AI Agents Will Transform the Financial System with Circle Co-Founder and CEO Jeremy Allaire",
+      "title": "The Agentic Economy: AI Agentsが金融システムをどう変えるか — Circle共同創業者兼CEO Jeremy Allaireとともに",
       "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "suggestedTitle": "Stablecoins are becoming the rails for machine-to-machine finance",
-      "suggestedSummary": "**The Takeaway:** Jeremy Allaire thinks the next financial system won’t be built for humans first — it’ll be built for AI agents.\n\n- Stablecoins aren’t a crypto side quest; they’re a full-reserve, internet-native dollar system designed to be safer and more useful than legacy banking.\n- The real unlock isn’t speculation, it’s programmable money: software can now move value, settle contracts, and coordinate economic activity in real time.\n- Circle’s bet with Arc is contrarian to crypto’s old “anti-government” vibe: mainstream finance needs known validators, deterministic finality, and compliance baked in.\n\nAllaire, co-founder and CEO of Circle, has spent more than a decade chasing the same idea: “a protocol for dollars on the internet.” That started as a way to move money instantly and globally, but his philosophy has sharpened into something bigger. He argues that stablecoins like USDC are the practical answer to the old banking problem of leverage and fragility — a safer, full-reserve form of money backed by short-duration Treasuries, repos, and cash. In his view, that’s why stablecoins matter more than most crypto assets: they’re not trying to escape the system, they’re trying to fix it.\n\nHis sharper point is about what comes next. As AI agents begin doing real work, buying services from each other, and coordinating across companies and borders, they’ll need financial infrastructure that works “globally, interoperably, instantly.” That’s where blockchain becomes less like a casino and more like an operating system. Allaire sees Arc as an “economic operating system” built for this machine economy, with USDC as the native money layer.\n\nThe twist: he’s not romantic about decentralization for its own sake. He wants infrastructure that financial institutions can actually trust. Or as he put it, the goal is to support “the real economy’s activity, not a kind of shadow economy.”",
+      "suggestedTitle": "Stablecoinはmachine-to-machine financeのレールになりつつある",
+      "suggestedSummary": "**要点:** Jeremy Allaireは、次の金融システムは人間向けに先に作られるのではないと考えている。AI agents向けに作られるのだ。\n\n- Stablecoinはcryptoの脇道ではない。フルリザーブで、インターネットネイティブなドル・システムだ。従来の銀行より安全で、より使いやすいよう設計されている。\n- 本当の突破口は投機ではない。プログラマブルマネーだ。ソフトウェアが今や価値を移動し、契約を決済し、経済活動をリアルタイムで調整できる。\n- CircleのArcへの賭けは、cryptoの古い「反政府」的な空気とは逆張りだ。主流の金融には、既知のvalidator、deterministic finality、そしてコンプライアンスの組み込みが必要である。\n\nCircleの共同創業者兼CEOであるAllaireは、10年以上にわたって同じ発想を追い続けてきた。「インターネット上のドルのためのprotocol」だ。出発点は、資金を即時かつグローバルに動かす方法だった。しかし彼の思想は、より大きなものへと研ぎ澄まされてきた。彼は、USDCのようなstablecoinこそ、レバレッジと脆弱性という古い銀行問題への実用的な答えだと主張する。短期国債、repo、cashで裏付けられた、より安全なフルリザーブの通貨だという見方である。彼に言わせれば、stablecoinが多くのcrypto assetより重要なのはそのためだ。システムから逃げようとしているのではない。システムを修正しようとしているのだ。\n\n彼の主張の核心は、その先にある。AI agentsが実際に仕事をこなし、互いにサービスを購入し、企業や国境をまたいで調整し始めると、必要になるのは「グローバルで、相互運用可能で、即時に動く」金融インフラだ。そこでblockchainは、カジノというよりOSに近い存在になる。AllaireはArcを、このmachine economyのために作られた「economic operating system」だと見ている。USDCがネイティブなmoney layerだ。\n\nひねりはここにある。彼は、decentralizationをそれ自体のために美化していない。金融機関が本当に信頼できるインフラを求めているのだ。彼の言葉を借りれば、目標は「real economyの活動」を支えることであり、「shadow economy」のようなものではない。",
       "publishedAt": "2026-04-09T10:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 11,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-12T14:13:02.145Z"
+    "generatedAt": "2026-04-12T14:13:24.092Z",
+    "estimatedReadTime": "6 分"
   }
 }

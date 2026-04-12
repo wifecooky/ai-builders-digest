@@ -1,7 +1,8 @@
 {
   "date": "2026-04-12",
+  "lang": "en",
   "summary": "Thariq said Claude Code now handles TurboTax pain, while Rauch called microVM sandboxes the new compute layer. Aditya Agarwal pushed memory over loops, and Levie argued AI won’t shrink law—it’ll inflate it.",
-  "items": [
+  "builderInsights": [
     {
       "id": "trq212-2026-04-12",
       "source": "X",
@@ -237,7 +238,9 @@
       ],
       "publishedAt": "2026-04-11T23:51:44.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-12",
       "source": "No Priors",
@@ -249,11 +252,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 11,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-12T14:13:02.145Z"
+    "generatedAt": "2026-04-12T14:13:02.357Z",
+    "estimatedReadTime": "6 min"
   }
 }
