@@ -1,7 +1,8 @@
 {
   "date": "2026-04-13",
-  "summary": "Amjad Masad said Apple’s 50th has turned into a PR disaster, while Aaron Levie argued agents would create more work, not cut jobs. Rauch pushed engineers into the customer hot seat, and Claude warned teams to harden security fast.",
-  "items": [
+  "lang": "ja",
+  "summary": "Amjad Masadは、Appleの50周年がPR disasterになったと述べた。一方、Aaron Levieは、agentsは仕事を減らすのではなく、むしろ増やすと主張した。Rauchはengineersをcustomer hot seatに送り込み、Claudeはteamsにsecurityを急いで強化するよう警告した。",
+  "builderInsights": [
     {
       "id": "amasad-2026-04-13",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Apple’s 50th is turning into a PR disaster",
-      "suggestedSummary": "He says Apple is on track to become the most hated company in the world on its 50th birthday. It’s a blunt shot from Replit’s CEO at how badly Apple is handling its current moment.",
+      "suggestedTitle": "Appleの50周年がPR disasterになりつつある",
+      "suggestedSummary": "彼は、Appleが50周年を迎える頃には世界で最も嫌われる会社になりかねないと言う。ReplitのCEOが、Appleの今の局面への対応のまずさを痛烈に批判したものだ。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2043394289326289243",
@@ -29,8 +30,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents won’t kill jobs — they’ll create more work",
-      "suggestedSummary": "He says enterprise AI is shifting from chat to agents that actually execute work, but the real bottleneck is change management, legacy systems, and compute budgets. The punchline: companies aren’t using agents to replace people so much as to unlock work they couldn’t justify before, which means engineers become the ones wiring up and operating the automation layer.",
+      "suggestedTitle": "agentは仕事を奪わない。むしろ仕事を増やす",
+      "suggestedSummary": "彼は、enterprise AIがchatから、実際に仕事を実行するagentへ移行していると語る。だが本当のボトルネックは、change management、legacy systems、compute budgetsだ。要するに、企業はagentで人を置き換えるというより、これまで正当化できなかった仕事を動かすために使っている。その結果、engineerはautomation layerをつなぎ込み、運用する側になる。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2043426157367095397",
@@ -55,8 +56,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Put your engineers in the customer hot seat",
-      "suggestedSummary": "He says the fastest way to improve a product is to put engineering leads directly in a group chat with your most demanding customers, then ship fast and take the feedback head-on. Vercel already does this for v0, and he’s inviting committed users to join the loop.",
+      "suggestedTitle": "エンジニアを顧客の最前線に置け",
+      "suggestedSummary": "最速でプロダクトを改善する方法は、エンジニアリングのリードを最も要求の厳しい顧客とのグループチャットに直接入れることだという。そこから素早く ship し、フィードバックを真正面から受け止める。Vercel はすでに v0 でこれを実践している。彼は、熱量の高いユーザーにもその輪に加わってほしいと呼びかけている。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2043381737754120592",
@@ -75,8 +76,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Anthropic feels like early Facebook, for better and worse",
-      "suggestedSummary": "He says Anthropic has the same early-Facebook energy: fun, naive, bottoms-up hacker culture, and intense mission alignment. The warning label is there too — they may be taking themselves a bit too seriously, but winning tends to paper over that.",
+      "suggestedTitle": "Anthropicは初期Facebookのようだ。良くも悪くも",
+      "suggestedSummary": "彼によれば、Anthropicには初期Facebookと同じ空気がある。楽しく、素朴で、ボトムアップのハッカー文化があり、missionへの強い一体感もある。だが警告もある。少し自分たちを真面目に捉えすぎているかもしれない。それでも、勝てばそうした点はだいたい見えなくなる。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2043501400626491758",
@@ -95,8 +96,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Agentic engineering: fat skills, fat code, thin harness",
-      "suggestedSummary": "He says the cleanest lesson from this year is to split work by layer: fuzzy human judgment goes into markdown skills, perfect deterministic stuff stays in code, and the harness should stay thin. It’s a practical YC-style rule for building agents without turning the whole stack into spaghetti.",
+      "suggestedTitle": "Agentic engineering: 太い skills、太い code、薄い harness",
+      "suggestedSummary": "彼が言う今年の最もきれいな教訓は、仕事をレイヤーごとに分けることだ。曖昧な人間の判断は markdown skills に入れる。完全に決定的なものは code に残す。そして harness は薄く保つべきだ。これは、スタック全体を spaghetti にせずに agent を作るための、実践的な YC 流のルールである。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2043581361798500602",
@@ -127,8 +128,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Build in the suburbs, not the city",
-      "suggestedSummary": "He says more founders should copy DoorDash: start just outside the obvious battlegrounds, where ambitious people are tired of brutal commutes and hyper-competitive city markets. The bet is that suburban startup hubs — and the coworking, infra, and companies around them — will keep growing, especially for more experienced builders.",
+      "suggestedTitle": "都市ではなく郊外で作れ",
+      "suggestedSummary": "彼は、もっと多くのfounderがDoorDashを真似るべきだと言う。明白な激戦区の少し外で始めるのだ。そこは、野心ある人々が過酷な通勤と過当競争の都市市場に疲れている場所である。賭けは、郊外のstartup hub、そしてその周辺のcoworking、インフラ、企業が今後も伸び続けるという点にある。特に、経験を積んだbuilderにとってはそうだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2043374140443553885",
@@ -147,8 +148,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Claude nerf rumors don’t add up",
-      "suggestedSummary": "He points out that the feed and Claude subreddit are suddenly full of people saying Opus got nerfed — then asks the obvious question: why would Anthropic kneecap its own model? It’s a clean little reality check on how fast model-quality rumors spread before anyone has evidence.",
+      "suggestedTitle": "Claude nerfの噂は筋が通らない",
+      "suggestedSummary": "彼は、feedとClaude subredditが突然「Opusがnerfされた」と言う人であふれていると指摘する。そこで当然の疑問を投げる。なぜAnthropicが自社のmodelを自ら弱体化させるのか。証拠が出る前にmodel qualityの噂がどれほど速く広がるかを示す、簡潔な現実チェックだ。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2043491799478718953",
@@ -179,8 +180,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Vibe-coded a Marie Kondo tab cleaner",
-      "suggestedSummary": "She built an open-sourced Chrome new-tab page that attacks tab chaos head-on: grouped tabs by domain, one-click duplicate cleanup, batch-close for easy wins, and a save-for-later checklist. The fun part is the polish — swoosh sounds and confetti when you close tabs — which makes the whole thing feel less like a utility and more like a tiny productivity game.",
+      "suggestedTitle": "Marie Kondo風のタブ整理ツールをvibe codingした",
+      "suggestedSummary": "オープンソースのChrome新規タブページを作り、タブの混乱に真正面から挑んだ。ドメインごとにタブをグループ化し、重複タブはワンクリックで整理。まとめて閉じて手早く片付けられ、あとで見る用のチェックリストもある。面白いのは仕上げだ。タブを閉じると、スウッシュ音と紙吹雪が出る。単なるユーティリティではなく、小さな生産性ゲームのように感じられる。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2043418831885086911",
@@ -203,25 +204,29 @@
       ],
       "publishedAt": "2026-04-12T19:59:49.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-13",
       "source": "Latent Space",
-      "title": "Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why &quot;This Time Is Different&quot;",
+      "title": "Marc Andreessenが「ブラウザの死」、Pi + OpenClaw、そして「今回は違う」の理由を内省する",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "AI’s boom is real—but the buildout could still overrun demand",
-      "suggestedSummary": "**The Takeaway:** AI is not a hype bubble in the usual sense; it’s an 80-year research stack finally cashing out in real products.\n\n- The contrarian point: the “this time is different” line is usually poison, but here the difference is that the core bets are already working in the wild.\n- The real risk isn’t that AI stops improving; it’s that companies overbuild infrastructure faster than the market can absorb it, just like telecom in 2000.\n- The messy part is adoption, not capability: models may leap ahead, but institutions, regulation, and human behavior move in slow, uneven ways.\n\nMarc Andreessen, cofounder of Andreessen Horowitz, frames the current AI wave as a long-delayed payoff rather than a sudden miracle. He points back to the original neural network work in 1943, the Dartmouth-era ambitions, the 1980s expert-systems boom, AlexNet in 2013, transformers in 2017, and then the recent sequence of LLMs, reasoning models, agents, and self-improvement. His line is blunt: this is an “**eighty year overnight success**.”\n\nWhat changed, in his view, is not just that models got bigger. It’s that the skeptics’ best arguments have been broken one by one. First, LLMs looked like fancy autocomplete. Then reasoning models showed they could tackle real tasks. Then coding proved the point in the hardest practical domain. Now agents and automated research are pushing the frontier again. That’s why he says, “**now it’s working**.”\n\nBut Andreessen is just as interested in the second-order problem: capital allocation. He warns that AI infrastructure can still repeat the dot-com mistake if everyone assumes demand will keep doubling forever. The difference this time is that the biggest spenders are Microsoft, Amazon, Google, Meta, Nvidia, OpenAI, and Anthropic—not thinly capitalized telecom startups. And for now, the spend is being soaked up immediately because compute is still scarce. The big question isn’t whether AI matters. It’s who builds for the next model without getting flattened by it.",
+      "suggestedTitle": "AIブームは本物だが、インフラ整備が需要を上回る恐れは残る",
+      "suggestedSummary": "**要点:** AIは、よくある意味でのバブルではない。80年にわたる研究の積み重ねが、ようやく実際のプロダクトとして回収され始めた段階だ。\n\n- 逆張りの論点はこうだ。「今回は違う」はたいてい危険な決まり文句だが、今回は中核の賭けがすでに現場で機能している。\n- 本当のリスクは、AIの進化が止まることではない。企業が需要を市場の吸収速度より速く積み上げ、2000年の通信業界のようにインフラを過剰構築してしまうことだ。\n- 厄介なのは能力ではなく普及だ。モデルは急速に先へ進むかもしれないが、制度、規制、人間の行動は遅く、しかも不均一にしか動かない。\n\nAndreessen Horowitzの共同創業者であるMarc Andreessenは、現在のAIの波を突然の奇跡ではなく、長く遅れていた回収局面として捉える。彼は1943年の初期 neural network研究、Dartmouth時代の野心、1980年代の expert systemsブーム、2013年のAlexNet、2017年の transformers、そして最近のLLM、reasoning models、agents、self-improvementの連鎖へと話をつなぐ。彼の言葉は率直だ。これは「**eighty year overnight success**」だという。\n\n彼の見方では、変わったのはモデルが大きくなったことだけではない。懐疑論者の有力な反論が、一つずつ崩れていったことだ。最初、LLMは高級な autocompleteに見えた。次に reasoning modelsが、実務のタスクにも対応できると示した。さらに codingが、最も難しい実用領域でそれを証明した。今では agentsと自動化された researchが、再びフロンティアを押し広げている。だから彼は「**now it’s working**」と言う。\n\nだがAndreessenが同じくらい注目しているのは、二次的な問題、つまり資本配分だ。彼は、誰もが需要は永遠に倍々で伸びると考えれば、AI infrastructureはドットコム崩壊の失敗を繰り返しかねないと警告する。今回の違いは、最大の支出主体がMicrosoft、Amazon、Google、Meta、Nvidia、OpenAI、Anthropicであり、資本力の乏しい telecom startupではないことだ。そして今のところ、その支出は即座に吸収されている。computeがまだ希少だからだ。大きな問いは、AIが重要かどうかではない。次の modelに向けて構築しながら、その modelに押しつぶされないのは誰か、である。",
       "publishedAt": "2026-04-03T16:57:46.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-13",
       "source": "Claude Blog",
-      "title": "Preparing your security program for AI-accelerated offense",
+      "title": "AI加速型の攻撃に備えるセキュリティプログラムの準備",
       "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
       "author": null,
-      "suggestedTitle": "Claude urges AI-era security hardening across patching, detection, and IR",
-      "suggestedSummary": "**Lead:** Claude says AI is shrinking exploit timelines and recommends a defensive reset: patch faster, automate triage, scan code with frontier models, and design systems to assume breach.\n\n**Numbers:**\n- The post warns that within the next **24 months**, “vast numbers of bugs” could be found and chained into exploits by AI.\n- Internet-facing apps should be patched within **24 hours** of an exploit becoming available.\n- Security teams should plan for an **order-of-magnitude increase** in vulnerability findings.\n\n**So What:**\nFor builders, the message is to move from manual, spreadsheet-driven security to automated, model-assisted workflows. Priorities include closing the patch gap with CISA KEV and EPSS, scanning dependencies and code continuously, tightening build provenance with SLSA, and reducing blast radius with zero trust, short-lived tokens, and hardware-bound identity. Claude also argues for AI in the loop: “If you implement one thing from this section, implement this” — the section on AI vulnerability scanning. The practical takeaway is clear: use AI to find bugs, triage alerts, draft fixes, and run red-team style checks before attackers do, while humans keep final authority on containment and disclosure.",
+      "suggestedTitle": "ClaudeがAI時代のセキュリティ強化を、パッチ適用、検知、IR全体で促す",
+      "suggestedSummary": "**要点:** Claudeは、AIがexploitまでの時間を短縮していると指摘する。そこで防御側にも立て直しを勧める。パッチはより速く当てる。triageは自動化する。frontier modelsでcodeをスキャンする。そして、侵害を前提にsystemを設計する。\n\n**数値:**\n- このpostは、今後**24か月**以内に、AIによって「vast numbers of bugs」が見つかり、連鎖してexploit化される可能性があると警告している。\n- Internet-facingなappは、exploitが利用可能になってから**24時間以内**にpatchを当てるべきだ。\n- security teamは、vulnerability発見数が**1桁増える**ことを見込んで計画すべきだ。\n\n**要するに:**\nbuilderに求められるのは、手作業でspreadsheet頼みのsecurityから、automatedでmodel支援型のworkflowへ移ることだ。優先事項は、CISA KEVとEPSSを使ってpatchの遅れを埋めること、dependencyとcodeを継続的にscanすること、SLSAでbuild provenanceを厳格化すること、そしてzero trust、短命なtoken、hardwareに結びついたidentityでblast radiusを小さくすることだ。Claudeは、AIをloopに入れるべきだとも主張する。「このsectionから1つだけ実装するなら、これを実装せよ」――それがAI vulnerability scanningのsectionだ。実務上の結論は明快だ。AIでbugを見つけ、alertをtriageし、fix案を起こし、attackersより先にred-team風のcheckを回す。一方で、containmentとdisclosureの最終判断は人間が握るべきだ。",
       "publishedAt": "Apr 10, 2026",
       "category": "blogUpdates"
     }
@@ -231,6 +236,7 @@
     "totalTweets": 19,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-13T14:31:53.405Z"
+    "generatedAt": "2026-04-13T14:32:13.486Z",
+    "estimatedReadTime": "5 分"
   }
 }

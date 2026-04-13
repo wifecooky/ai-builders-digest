@@ -1,7 +1,8 @@
 {
   "date": "2026-04-13",
+  "lang": "en",
   "summary": "Amjad Masad said Apple’s 50th has turned into a PR disaster, while Aaron Levie argued agents would create more work, not cut jobs. Rauch pushed engineers into the customer hot seat, and Claude warned teams to harden security fast.",
-  "items": [
+  "builderInsights": [
     {
       "id": "amasad-2026-04-13",
       "source": "X",
@@ -203,7 +204,9 @@
       ],
       "publishedAt": "2026-04-12T19:59:49.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-13",
       "source": "Latent Space",
@@ -213,7 +216,9 @@
       "suggestedSummary": "**The Takeaway:** AI is not a hype bubble in the usual sense; it’s an 80-year research stack finally cashing out in real products.\n\n- The contrarian point: the “this time is different” line is usually poison, but here the difference is that the core bets are already working in the wild.\n- The real risk isn’t that AI stops improving; it’s that companies overbuild infrastructure faster than the market can absorb it, just like telecom in 2000.\n- The messy part is adoption, not capability: models may leap ahead, but institutions, regulation, and human behavior move in slow, uneven ways.\n\nMarc Andreessen, cofounder of Andreessen Horowitz, frames the current AI wave as a long-delayed payoff rather than a sudden miracle. He points back to the original neural network work in 1943, the Dartmouth-era ambitions, the 1980s expert-systems boom, AlexNet in 2013, transformers in 2017, and then the recent sequence of LLMs, reasoning models, agents, and self-improvement. His line is blunt: this is an “**eighty year overnight success**.”\n\nWhat changed, in his view, is not just that models got bigger. It’s that the skeptics’ best arguments have been broken one by one. First, LLMs looked like fancy autocomplete. Then reasoning models showed they could tackle real tasks. Then coding proved the point in the hardest practical domain. Now agents and automated research are pushing the frontier again. That’s why he says, “**now it’s working**.”\n\nBut Andreessen is just as interested in the second-order problem: capital allocation. He warns that AI infrastructure can still repeat the dot-com mistake if everyone assumes demand will keep doubling forever. The difference this time is that the biggest spenders are Microsoft, Amazon, Google, Meta, Nvidia, OpenAI, and Anthropic—not thinly capitalized telecom startups. And for now, the spend is being soaked up immediately because compute is still scarce. The big question isn’t whether AI matters. It’s who builds for the next model without getting flattened by it.",
       "publishedAt": "2026-04-03T16:57:46.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-13",
       "source": "Claude Blog",
@@ -231,6 +236,7 @@
     "totalTweets": 19,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-13T14:31:53.405Z"
+    "generatedAt": "2026-04-13T14:31:53.620Z",
+    "estimatedReadTime": "5 min"
   }
 }
