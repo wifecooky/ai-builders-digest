@@ -1,7 +1,8 @@
 {
   "date": "2026-04-14",
+  "lang": "en",
   "summary": "Rauch said the moat moved from code to the code factory, while Levie argued every team now needed an agent wrangler. Cursor leaned into customizable multi-agent views, Replit added region controls, and No Priors backed Periodic Labs’ bet that AI could learn atoms by running experiments.",
-  "items": [
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-14",
       "source": "X",
@@ -253,7 +254,9 @@
       ],
       "publishedAt": "2026-04-14T02:34:40.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-14",
       "source": "No Priors",
@@ -265,11 +268,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 25,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-14T14:33:54.520Z"
+    "generatedAt": "2026-04-14T14:33:54.730Z",
+    "estimatedReadTime": "5 min"
   }
 }

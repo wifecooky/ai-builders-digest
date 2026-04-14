@@ -1,7 +1,8 @@
 {
   "date": "2026-04-14",
-  "summary": "Rauch said the moat moved from code to the code factory, while Levie argued every team now needed an agent wrangler. Cursor leaned into customizable multi-agent views, Replit added region controls, and No Priors backed Periodic Labs’ bet that AI could learn atoms by running experiments.",
-  "items": [
+  "lang": "zh",
+  "summary": "Rauch 说，护城河已经从 code 转到了 code factory；Levie 则认为，现在每个团队都需要一个 agent wrangler。Cursor 在可定制的 multi-agent 视图上继续加码，Replit 加了 region controls，而 No Priors 则押注 Periodic Labs：AI 可以通过做实验来学会原子。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-14",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "The moat moves from code to the code factory",
-      "suggestedSummary": "He says off-the-shelf coding agents break down in big monorepos, so companies are building their own AI software factories with custom knowledge, workflows, and integrations. Vercel just open sourced Open Agents, a reference platform for cloud coding agents, and he’s betting the real advantage is now the means of production — not the code itself.",
+      "suggestedTitle": "护城河正在从 code 转向 code factory",
+      "suggestedSummary": "他说，现成的 coding agent 一到大型 monorepo 里就容易失灵。所以很多公司开始自己搭 AI software factory，把自有知识、工作流和 integrations 都接进去。Vercel 刚刚开源了 Open Agents，这是一个面向 cloud coding agents 的 reference platform。他押注的真正优势，已经变成了生产工具本身，而不是 code 本身。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2043869656931529034",
@@ -29,8 +30,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Every team needs an agent wrangler now",
-      "suggestedSummary": "He says enterprises are about to create a new role: the agent deployer/manager, someone who finds the highest-leverage workflows and wires agents into them. Think 100x faster lead triage, contract review, onboarding, and knowledge ops — with the hard part being context, evals, human handoffs, and ongoing KPI management. As Box’s CEO, he’s basically arguing this becomes a core operating function, not a centralized AI side quest.",
+      "suggestedTitle": "现在每个 team 都需要一个 agent wrangler",
+      "suggestedSummary": "他认为，企业很快会冒出一个新角色：agent deployer/manager。这个人负责找出最值得放大的 workflows，再把 agent 接进去。比如把 lead triage、contract review、onboarding 和 knowledge ops 提速 100 倍。难点不在接入本身，而在 context、evals、human handoffs，还有持续的 KPI 管理。作为 Box 的 CEO，他的意思很明确：这会变成核心运营职能，不再是一个集中式的 AI side quest。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2043883641366032638",
@@ -49,8 +50,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Agent engineering is clustering in a tiny hotspot",
-      "suggestedSummary": "He says ~80% of the world’s agent and AI engineering happens in just three square miles — a blunt reminder that the ecosystem is still highly concentrated. He also notes Cognition usage has roughly doubled globally after two launches, with people getting creative once they can compose agents and make them proactive.",
+      "suggestedTitle": "agent engineering 正在向一个很小的热点聚集",
+      "suggestedSummary": "他说，全球大约 80% 的 agent 和 AI engineering 都发生在仅仅三平方英里里。这很直接地提醒我们，这个生态还是高度集中。 他还提到，Cognition 在两次 launch 之后，全球 usage 大约翻了一倍。现在大家一旦能把 agents 组合起来，让它们更 proactive，就开始玩出更多花样。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2043786360012845509",
@@ -81,8 +82,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI coding splits into pirates and architects",
-      "suggestedSummary": "Software engineering in 2026, he says, needs two roles: the pirate who hacks fast to find value, and the architect who turns the mess into something durable. As CEO of Every, he’s basically arguing that AI speeds up exploration, but the real edge is still in cleaning up and systematizing what works.",
+      "suggestedTitle": "AI coding 分成 pirates 和 architects",
+      "suggestedSummary": "他认为，到了 2026 年，software engineering 需要两种角色：pirate 负责快速 hack，尽快找到价值；architect 负责把一团乱麻整理成能长期用的东西。作为 Every 的 CEO，他的核心观点其实很简单：AI 会加速探索，但真正的优势，还是把有效的东西收拾干净，并系统化。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2043819933675450455",
@@ -113,8 +114,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor is leaning into customizable multi-agent views",
-      "suggestedSummary": "They teased more ways to split the workspace up, down, left, and right — plus more customizations and multi-agent views coming to Cursor. It reads like a push to make the editor feel less like one chat box and more like a configurable command center for serious AI coding.",
+      "suggestedTitle": "Cursor 正在往可定制的 multi-agent 视图上发力",
+      "suggestedSummary": "他们预告了更多拆分 workspace 的方式，可以上下左右随意分。还会有更多自定义选项和 multi-agent 视图加入 Cursor。整体感觉就是，想把 editor 从一个 chat box，变成更像给认真做 AI coding 用的可配置指挥中心。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2043891602381500583",
@@ -139,8 +140,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit adds region control for compliance-heavy apps",
-      "suggestedSummary": "You can now configure app hosting region in Replit, a practical move for teams dealing with privacy rules and data residency. It’s a small feature with big enterprise implications: less friction for regulated customers, more reason to trust the platform.",
+      "suggestedTitle": "Replit 为合规要求高的 app 增加了 region 控制",
+      "suggestedSummary": "现在你可以在 Replit 里配置 app 的 hosting region 了。对那些要处理隐私规则和 data residency 的团队来说，这很实用。功能不大，但对 enterprise 的意义不小：让受监管客户少一点阻力，也更容易信任这个平台。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2043948524908490953",
@@ -171,8 +172,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Unlimited tokens may be the best retention perk",
-      "suggestedSummary": "He says frontier labs have a sneaky advantage: truly unlimited tokens. In his telling, people join a hot agentic startup, hit token caps and cost constraints, then bounce back to the lab where they can just build without watching every inference bill.",
+      "suggestedTitle": "无限 token 可能是最强的留人福利",
+      "suggestedSummary": "他认为，frontier labs 有个很隐蔽的优势：真正无限的 token。按他的说法，很多人先加入一家火热的 agentic startup，结果很快撞上 token 上限和成本约束。最后又回到 lab，因为在那里可以放心 build，不用盯着每一笔 inference 账单。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2043833945251561584",
@@ -197,8 +198,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain gets voice, search, and security polish",
-      "suggestedSummary": "He says GBrain is basically his own OpenClaw/Hermes agent setup, now with opinionated search, skill packs, and a voice agent built on OpenAI Realtime — with Gemini Live next. He also shipped v0.9.3, adding search tuning, evals, CJK query support, better health checks, and security hotfixes.",
+      "suggestedTitle": "GBrain 加上了语音、搜索和安全优化",
+      "suggestedSummary": "他说，GBrain 基本上就是他自己的 OpenClaw/Hermes agent 方案。现在它加了更有主见的 search、skill packs，还有一个基于 OpenAI Realtime 的 voice agent。下一步会接 Gemini Live。他还发布了 v0.9.3，加入了 search 调优、evals、CJK query 支持、更好的 health checks，以及安全 hotfixes。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2043948971568312473",
@@ -229,8 +230,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI tooling is becoming a productivity trap",
-      "suggestedSummary": "He says the real question with OpenClaw, Claude Code, and similar tools is whether they’re actually getting work done — or just making the setup itself feel productive. He also argues OpenAI has a problem if GPT integration isn’t as good as Opus inside OpenClaw, because that’s now the baseline users expect.",
+      "suggestedTitle": "AI tooling 正在变成生产力陷阱",
+      "suggestedSummary": "他觉得，OpenClaw、Claude Code 这类工具的关键问题，不是它们看起来多能干，而是到底有没有真的把活干完，还是只让配置和折腾本身显得很“productive”。他还说，如果 OpenAI 在 OpenClaw 里的 GPT integration 不如 Opus，那就是个问题。因为这已经是用户默认会拿来对比的 baseline 了。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2043880587623313826",
@@ -253,23 +254,27 @@
       ],
       "publishedAt": "2026-04-14T02:34:40.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-14",
       "source": "No Priors",
-      "title": "AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus",
+      "title": "AI for Atoms：Periodic Labs 如何用实验重塑材料工程，联合创始人 Liam Fedus 详解",
       "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "suggestedTitle": "Periodic Labs wants AI to learn atoms by running experiments",
-      "suggestedSummary": "**The Takeaway:** AI gets truly useful in science only when it stops guessing from text and starts learning from experiments.\n\n- Physicists fit AI well because they’re trained to be principled, skeptical, and comfortable with hard systems, not vibes.\n- For materials and chemistry, literature is noisy; the real edge comes from a closed loop of simulation, experiment, and error-checking.\n- The winning architecture isn’t one giant model—it’s a language-model orchestrator calling specialized atomic models and tools.\n\nLiam Fedus, co-founder of Periodic Labs and one of the creators of ChatGPT, keeps circling back to the same idea: language models were the start, not the destination. His path runs from physics and dark matter research to Google Brain, then OpenAI, where he worked on productionizing GPT-4 and helped build ChatGPT. That background matters, because his view of AI is unusually grounded: the next leap won’t come from bigger chatbots alone, but from systems that can touch reality.\n\nHis core argument is blunt: “Science ultimately isn’t sitting in a room thinking really hard. You have to conduct experiments.” Periodic is built around that premise. Instead of treating data as a static corpus, it uses experimental results as part of an active loop—spotting anomalies, comparing against simulations and literature, then choosing the next experiments. That’s a very different game from training on the internet.\n\nFedus is also skeptical of the idea that intelligence just scales smoothly. In his view, these systems are “spiky”: world-class in one domain, surprisingly weak in another. That’s why Periodic leans on language models as an orchestration layer, while specialized neural nets handle atomic systems, symmetry, and control. The bigger vision is simple and ambitious: give humanity “agency for atomic rearrangement synthesis” and speed up the physical world the way software has already accelerated the digital one.",
+      "suggestedTitle": "Periodic Labs 想让 AI 通过做实验来学习原子",
+      "suggestedSummary": "**核心结论：** AI 只有从“读文本猜答案”转向“靠实验学东西”，才会真正对科学有用。\n\n- Physicist 很适合做这件事，因为他们受过训练，讲原则、会怀疑、也能和复杂系统硬碰硬，不会只看感觉。\n- 对 materials 和 chemistry 来说，文献噪音很大。真正的优势来自一个闭环：simulation、experiment 和 error-checking 连起来跑。\n- 最强的架构不是一个巨型 model，而是一个 language-model orchestrator，去调用专门的 atomic models 和 tools。\n\nLiam Fedus 是 Periodic Labs 的 co-founder，也是 ChatGPT 的创造者之一。他一直在反复强调同一件事：language models 只是起点，不是终点。他的经历从 physics 和 dark matter research 开始，后来去了 Google Brain，再到 OpenAI，负责把 GPT-4 做到 production，并参与构建 ChatGPT。这个背景很重要，因为他的 AI 观非常落地：下一次跃迁不会只靠更大的 chatbot，而是靠能真正接触现实的系统。\n\n他的核心观点很直接：“Science 归根结底不是坐在房间里拼命想。你得做实验。” Periodic 就是围绕这个前提搭起来的。它不把 data 当成静态语料，而是把 experimental results 放进一个主动闭环里：先找异常，再和 simulation、literature 对照，然后决定下一轮实验做什么。这和在 internet 上训练模型，完全不是一回事。\n\nFedus 也不太认同 intelligence 会平滑地一路 scale 上去。在他看来，这些系统更像“spiky”的：某个领域强到离谱，换个领域又弱得出奇。所以 Periodic 把 language models 当作 orchestration layer，再让专门的 neural nets 负责 atomic systems、symmetry 和 control。更大的愿景也很清楚：给人类“agency for atomic rearrangement synthesis”，把物理世界的迭代速度，像 software 之于 digital world 那样提上来。",
       "publishedAt": "2026-04-03T10:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 25,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-14T14:33:54.520Z"
+    "generatedAt": "2026-04-14T14:34:04.328Z",
+    "estimatedReadTime": "5 分钟"
   }
 }
