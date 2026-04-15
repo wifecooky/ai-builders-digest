@@ -1,7 +1,8 @@
 {
   "date": "2026-04-15",
+  "lang": "en",
   "summary": "Woodward said Gemini’s turning into a test-prep machine, Albert called Claude Code the whole workspace, and Cat Wu shipped a desktop control center with parallel sessions and review tools. Rauch also argued agent builders need elastic Postgres, not vibes.",
-  "items": [
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-04-15",
       "source": "X",
@@ -327,7 +328,9 @@
       ],
       "publishedAt": "2026-04-15T04:17:06.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-15",
       "source": "Training Data",
@@ -337,7 +340,9 @@
       "suggestedSummary": "**The Takeaway:** Marketing is shifting from ranking for humans to being legible, useful, and quotable to agents.\n\n- Agents don’t just summarize the web; they crawl far wider than people do, so the long tail matters more than the old top-3 SEO game.\n- The biggest mistake is treating this like SEO 2.0: content now has to be discovered and consumed by AI, not merely indexed for humans.\n- Platform differences are real: Gemini leans on YouTube, ChatGPT often pulls Reddit or LinkedIn, and Claude is getting more web-hungry over time.\n\nJames Cadwallader, cofounder and CEO of ProFound, thinks marketing has entered a new operating system. His company helps brands understand how they appear inside AI search and agentic answers across models like ChatGPT, Claude, Gemini, and Grok. His core argument is blunt: “the biggest platform shift in the history of marketing” is underway, because the consumer is being replaced by an agent making the buying journey on their behalf.\n\nThat changes the job. In the old world, marketers optimized for human attention and the top few blue links. Now, Cadwallader says, agents use “orders of magnitude wider” surface area, sometimes pulling from dozens of pages for a single query. That means brands need content that is not just keyword-rich, but structurally legible to models. For software especially, he pushes beyond legibility into usability and interoperability: can the agent actually troubleshoot, compare, and recommend your product?\n\nHe’s also skeptical of the idea that AI content is automatically junk. His view is that the real constraint is originality. If models already know everything on the internet, marketers have to give them something they don’t know. Or, as he puts it, humans are now “a fleshy API between reality and the Internet.”",
       "publishedAt": "2026-04-14T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-15",
       "source": "Claude Blog",
@@ -355,6 +360,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-15T14:31:57.707Z"
+    "generatedAt": "2026-04-15T14:31:57.920Z",
+    "estimatedReadTime": "8 min"
   }
 }

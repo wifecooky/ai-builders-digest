@@ -1,7 +1,8 @@
 {
   "date": "2026-04-15",
-  "summary": "Woodward said Gemini’s turning into a test-prep machine, Albert called Claude Code the whole workspace, and Cat Wu shipped a desktop control center with parallel sessions and review tools. Rauch also argued agent builders need elastic Postgres, not vibes.",
-  "items": [
+  "lang": "ja",
+  "summary": "Woodwardは、Geminiが試験対策マシンになりつつあると述べた。AlbertはClaude Codeをワークスペース全体だと呼んだ。Cat Wuは、parallel sessionsとreview toolsを備えたdesktop control centerを出荷した。Rauchもまた、agent buildersに必要なのはvibesではなく、elasticなPostgresだと主張した。",
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-04-15",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini is turning into a test-prep machine",
-      "suggestedSummary": "Gemini now has NEET practice tests for India’s biggest medical exam, with more subjects and countries on the way. It’s a pretty clear signal that Google wants Gemini to be useful for high-stakes studying, not just chat. ",
+      "suggestedTitle": "Geminiは受験対策マシンへと変わりつつある",
+      "suggestedSummary": "Geminiに、インド最大の医学試験向けNEETの模擬試験が追加された。今後は対象科目も国も増える見込みだ。GoogleがGeminiを、単なる会話相手ではなく、重要な試験勉強に役立つ存在にしたい意図はかなり明確である。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2044149482548580689",
@@ -29,8 +30,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Claude Code is becoming the whole workspace",
-      "suggestedSummary": "He says the new Claude Code desktop app ships with a bunch of feature and performance upgrades, and now he barely needs other apps — or even a terminal — for most work. That’s a pretty strong signal Anthropic is pushing Claude from chatbot into full-on work surface.",
+      "suggestedTitle": "Claude Codeがワークスペース全体になりつつある",
+      "suggestedSummary": "彼によれば、新しいClaude Codeのデスクトップアプリには、機能面と性能面のアップグレードが大量に入っている。今では、ほとんどの作業で他のアプリすら、あるいはterminalさえも、ほぼ不要になったという。これは、AnthropicがClaudeをチャットボットから本格的な作業用の画面へ押し上げている、かなり強いシグナルだ。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2044144091395699055",
@@ -49,8 +50,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI agents need services, not just software",
-      "suggestedSummary": "He says enterprise AI agents won’t kill the forward-deployed engineer — they’ll make that role more important. Selling agents is really selling a workflow, which means vendors need domain expertise, system wiring, and change management or adoption will stall.",
+      "suggestedTitle": "AI agentにはソフトウェアだけでなくサービスが必要だ",
+      "suggestedSummary": "彼は、企業向けAI agentはforward-deployed engineerを不要にするのではなく、その役割をより重要にすると述べる。agentを売ることは、実質的にworkflowを売ることだ。つまりvendorには、ドメイン知識、system wiring、change managementが必要になる。そうでなければ、adoptionは失速する。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2044225408972009842",
@@ -69,8 +70,8 @@
       "authorHandle": "_catwu",
       "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "title": "Cat Wu",
-      "suggestedTitle": "Claude Code gets a desktop control center",
-      "suggestedSummary": "Claude Code on desktop is now the place to juggle multiple sessions across local and cloud, with git status, pinned runs, and drag-and-drop layouts. She also says Routines can kick off Claude Code on a schedule, from GitHub events, or via other APIs — basically turning it into an automation layer, not just a chat box.",
+      "suggestedTitle": "Claude Codeがデスクトップのコントロールセンターに",
+      "suggestedSummary": "デスクトップ版のClaude Codeが、ローカルとクラウドをまたぐ複数セッションの管理拠点になった。git status、ピン留めした実行、ドラッグ＆ドロップのレイアウトにも対応する。さらにCat Wuは、RoutinesでClaude Codeをスケジュール実行できると語る。GitHub eventsや他のAPIからも起動できる。つまり、ただのチャットボックスではなく、automation layerへと変わりつつあるということだ。",
       "tweets": [
         {
           "url": "https://x.com/_catwu/status/2044212251717186007",
@@ -95,8 +96,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI builds faster when you keep cutting",
-      "suggestedSummary": "She says the real work on Tab Out wasn’t adding features — it was deleting them. What started as an LLM-heavy tab manager got stripped down into a pure Chrome extension with fully local storage, because the useful part was simply seeing tabs clearly and closing them fast. Her takeaway: Claude will happily overbuild unless you keep it on a leash.",
+      "suggestedTitle": "削るほどAIは速くなる",
+      "suggestedSummary": "Tab Outで本当に必要だった作業は、機能追加ではなく削除だったという。LLMを多用したtab managerとして始まったものは、最終的に純粋なChrome extensionへと削ぎ落とされた。storageも完全にlocalにした。役に立ったのは、tabsを見やすくして、素早く閉じられることだけだったからだ。彼女の結論は明快だ。Claudeは放っておくと平気で作り込みすぎる。だから、常に手綱を握っておく必要がある。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2044211269767704929",
@@ -127,8 +128,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Vibe coding won’t save hard systems",
-      "suggestedSummary": "He says simple workflows will get vibe-coded away, but real systems still take time, persistence, and ugly details. The Slack notification system is his example: you can prototype fast, but quality and depth still have to be earned.",
+      "suggestedTitle": "vibe codingでは難しいシステムは救えない",
+      "suggestedSummary": "彼は、単純なワークフローはvibe codingで置き換えられていくが、本物のシステムにはなお時間と粘り強さ、そして泥臭い細部が必要だと言う。例として挙げるのはSlackの通知システムだ。プロトタイプはすぐ作れる。だが、品質と深さは結局、積み上げて獲得するしかない。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2044277884777574565",
@@ -153,8 +154,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI turns one-off apps into a reusable skill",
-      "suggestedSummary": "He says the stuff he used to hack together as one-off conversion apps is now just a skill, which is the real shift: AI is making app-building repeatable instead of bespoke. He also flagged a practical Replit update for Indian builders — you can now build and pay with Razorpay, which removes a real bit of friction.",
+      "suggestedTitle": "AIが一発物のアプリを再利用可能なスキルに変える",
+      "suggestedSummary": "彼は、以前は変換アプリとしてその場しのぎで作っていたものが、今ではただのスキルになったと言う。ここが本当の変化だ。AIはアプリ開発を、個別対応ではなく繰り返し可能なものにしている。さらに、Indianのビルダー向けに実用的なReplitのアップデートも指摘した。これでRazorpayを使ってビルドも支払いもできるようになり、実際の摩擦がひとつ減る。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2044277183766770029",
@@ -179,8 +180,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Agent builders need elastic Postgres, not vibes",
-      "suggestedSummary": "He says anyone building an agent coding platform should pair app generation with a highly elastic, Postgres-compatible database. It’s a quiet product nudge, but the point is clear: if AI is going to spin up apps fast, the backend has to keep up — and Vercel’s DSQL is the example he points to.",
+      "suggestedTitle": "agent builderにはelastic Postgresではなく、vibesではない",
+      "suggestedSummary": "彼は、agent coding platformを作るなら、app generationと高いelastic性を持つPostgres互換databaseを組み合わせるべきだと言う。控えめなproductの示唆だが、言いたいことは明快だ。AIがappを高速に立ち上げるなら、backendもそれについていかなければならない。そして、その例として彼が挙げるのがVercelのDSQLだ。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2044067044325503404",
@@ -199,8 +200,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI is making VC advice weirdly uniform",
-      "suggestedSummary": "He jokes that AI is giving every VC the same investment advice, which is exactly the problem: the more everyone leans on the same tools, the more herd thinking sneaks in. It’s a pointed reminder from the FirstMark VC and MAD Landscape author that “independent thinking” is getting harder to prove, not easier.",
+      "suggestedTitle": "AIがVCの助言を妙に画一化している",
+      "suggestedSummary": "彼は、AIがすべてのVCに同じ投資助言を与えていると冗談めかして語る。だが、それこそが問題だ。誰もが同じツールに頼るほど、群集心理は入り込みやすくなる。FirstMark VCでありMAD Landscapeの著者でもある彼からの、鋭い指摘だ。「独立した思考」は証明しにくくなる一方で、容易にはならない。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2044176459443404984",
@@ -219,8 +220,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Big companies miss big — count wins, not losses",
-      "suggestedSummary": "He says people overreact to Google and Meta’s misses because their execution unit is massive. The right lens, especially for a product leader at Linear, is to count the wins that come with that scale instead of fixating on the obvious failures.",
+      "suggestedTitle": "大企業は大きく外す。損失ではなく勝利を数えよ",
+      "suggestedSummary": "彼は、GoogleやMetaの失敗に人々が過剰反応するのは、実行の単位があまりに巨大だからだと言う。Linearのプロダクトリーダーにとって、特に正しい見方は、その規模が生む勝利を数えることだ。目につく失敗にばかり気を取られるべきではない。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2044089885842186498",
@@ -239,8 +240,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain is a free, open-source personal brain",
-      "suggestedSummary": "He says GBrain is MIT-licensed and built in about 12 days, powered by his GStack coding toolkit and a deep OpenClaw addiction. The pitch: his own instance is already over 17,000 pages and “knows” him, so this is less demo and more a living personal knowledge system.",
+      "suggestedTitle": "GBrainは無料のオープンソース個人脳だ",
+      "suggestedSummary": "GBrainはMITライセンスで、約12日で作ったという。GStackのcoding toolkitと、OpenClawへの深い依存で動いているらしい。本人のインスタンスはすでに17,000ページ超で、彼自身を「知っている」という。つまり、これは単なるデモではない。生きた個人知識システムだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2044314985518772243",
@@ -271,8 +272,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "An AI agent for cleaning up your Mac",
-      "suggestedSummary": "They introduced Sparkle v4, an @every app that acts like a desktop janitor: it scans your filesystem, suggests an organization system, and deep-cleans junk like old installers, duplicates, and screenshots with permission. The bigger pitch is that it keeps your Mac tidy in the background on a schedule, so chaos doesn’t creep back in.",
+      "suggestedTitle": "Macを片付けるAI agent",
+      "suggestedSummary": "Sparkle v4を発表した。@every appで、デスクトップの管理人のように動く。ファイルシステムをスキャンし、整理方法を提案する。許可を得たうえで、古いインストーラー、重複ファイル、スクリーンショットなどの不要物を徹底的に削除する。より大きな売りは、スケジュールに従ってバックグラウンドでMacを整頓し続けることだ。これで、混乱が再び入り込むのを防げる。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2044079868841783779",
@@ -303,8 +304,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI gets you to average fast; taste makes it great",
-      "suggestedSummary": "He says AI output isn’t the finish line — it’s raw material. In his chat with Dylan, the point is that agents can generate endless options, but you still have to judge, shape, and push past the average with taste. That’s a useful frame for anyone building with Claude Code or similar tools: the model speeds exploration, but the human still decides what’s worth keeping.",
+      "suggestedTitle": "AIはすぐ平均点に到達させる。だが、良さを決めるのはtasteだ",
+      "suggestedSummary": "彼は、AIの出力はゴールではなく、素材にすぎないと言う。Dylanとの対話では、agentは無限に選択肢を生み出せるが、それでも人間が判断し、形を整え、tasteで平均点を超えていく必要がある、という点が核心だ。Claude Codeや同種のツールで何かを作る人にとって、これは有用な見方である。modelは探索を加速するが、何を残すかを決めるのは人間だ。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2044268754981576908",
@@ -327,25 +328,29 @@
       ],
       "publishedAt": "2026-04-15T04:17:06.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-15",
       "source": "Training Data",
-      "title": "From SEO to Agent-Led Growth: Profound’s James Cadwallader",
+      "title": "SEOからAgent主導の成長へ: ProFoundのJames Cadwallader",
       "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "suggestedTitle": "Marketing now has to persuade agents, not just people",
-      "suggestedSummary": "**The Takeaway:** Marketing is shifting from ranking for humans to being legible, useful, and quotable to agents.\n\n- Agents don’t just summarize the web; they crawl far wider than people do, so the long tail matters more than the old top-3 SEO game.\n- The biggest mistake is treating this like SEO 2.0: content now has to be discovered and consumed by AI, not merely indexed for humans.\n- Platform differences are real: Gemini leans on YouTube, ChatGPT often pulls Reddit or LinkedIn, and Claude is getting more web-hungry over time.\n\nJames Cadwallader, cofounder and CEO of ProFound, thinks marketing has entered a new operating system. His company helps brands understand how they appear inside AI search and agentic answers across models like ChatGPT, Claude, Gemini, and Grok. His core argument is blunt: “the biggest platform shift in the history of marketing” is underway, because the consumer is being replaced by an agent making the buying journey on their behalf.\n\nThat changes the job. In the old world, marketers optimized for human attention and the top few blue links. Now, Cadwallader says, agents use “orders of magnitude wider” surface area, sometimes pulling from dozens of pages for a single query. That means brands need content that is not just keyword-rich, but structurally legible to models. For software especially, he pushes beyond legibility into usability and interoperability: can the agent actually troubleshoot, compare, and recommend your product?\n\nHe’s also skeptical of the idea that AI content is automatically junk. His view is that the real constraint is originality. If models already know everything on the internet, marketers have to give them something they don’t know. Or, as he puts it, humans are now “a fleshy API between reality and the Internet.”",
+      "suggestedTitle": "マーケティングは人間だけでなくagentを説得する必要がある",
+      "suggestedSummary": "**要点:** マーケティングは、人間向けの順位争いから、agentにとって読み取れ、役に立ち、引用しやすいものへと移行している。\n\n- agentは単にWebを要約するだけではない。人間よりはるかに広くクロールするため、昔のトップ3 SEOゲームよりロングテールの重要性が増している。\n- 最大の誤りは、これをSEO 2.0として扱うことだ。今のコンテンツは、人間向けにインデックスされるだけでなく、AIに発見され、消費される必要がある。\n- プラットフォームごとの差は大きい。GeminiはYouTubeに寄り、ChatGPTはRedditやLinkedInをよく拾い、Claudeは時間とともにさらにWebを欲するようになっている。\n\nProFoundの共同創業者兼CEOであるJames Cadwalladerは、マーケティングが新しいオペレーティングシステムに入ったと考えている。同社は、ChatGPT、Claude、Gemini、Grokのようなモデル全体で、ブランドがAI検索やagent的な回答の中でどう見えるかを理解する手助けをしている。彼の核心的な主張は率直だ。消費者は、自分の代わりに購買の旅を進めるagentに置き換わりつつあるため、「マーケティング史上最大のプラットフォーム転換」が進行中だという。\n\nそれで仕事は変わる。以前は、マーケターは人間の注意と、上位の青いリンク数件を最適化していた。だが今は、agentが「桁違いに広い」範囲を使うとCadwalladerは言う。1つのクエリで数十ページを参照することもある。つまりブランドには、単にキーワードが豊富なだけでなく、モデルにとって構造的に読み取りやすいコンテンツが必要だ。特にソフトウェアでは、彼は読み取りやすさを超えて、使いやすさと相互運用性まで求める。agentは実際にあなたの製品をトラブルシュートし、比較し、推奨できるのか、という話だ。\n\n彼は、AIコンテンツが自動的にゴミになるという見方にも懐疑的だ。彼の考えでは、本当の制約は独自性だ。モデルがすでにインターネット上のすべてを知っているなら、マーケターは彼らが知らないものを渡さなければならない。あるいは彼の言い方を借りれば、人間は今や「現実とインターネットの間にある肉のAPI」だ。",
       "publishedAt": "2026-04-14T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-15",
       "source": "Claude Blog",
-      "title": "Redesigning Claude Code on desktop for parallel agents",
+      "title": "デスクトップ版Claude Codeを並列agent向けに再設計",
       "url": "https://claude.com/blog/claude-code-desktop-redesign",
       "author": null,
-      "suggestedTitle": "Claude Code desktop adds parallel sessions and built-in review tools",
-      "suggestedSummary": "Lead: Claude Code’s redesigned desktop app is built for parallel agent workflows, adding a new sidebar for managing multiple sessions plus integrated tools for reviewing and shipping work without leaving the app.\n\nNumbers:\n- Available now for Claude Code users on Pro, Max, Team, and Enterprise plans, and via the Claude API.\n- SSH support now extends to Mac alongside Linux.\n- Three view modes are included: Verbose, Normal, and Summary.\n\nSo What: The update turns Claude Code into more of an orchestration workspace than a single-chat interface: you can run sessions across repos, branch into side chats, edit files, run tests, inspect diffs, and preview outputs in one place. The app also matches CLI plugins, supports drag-and-drop layouts, and streams responses as Claude generates them. Anthropic says the redesign is meant for “how agentic coding actually feels now: many things in flight, and you in the orchestrator seat.” For builders, the practical takeaway is simple: if you’re already using Claude Code, you can now keep more of the coding loop inside the desktop app instead of bouncing between terminal, editor, and browser.",
+      "suggestedTitle": "Claude Code desktopに並列セッションと内蔵レビュー toolsを追加",
+      "suggestedSummary": "要点: 再設計されたClaude Codeのdesktop appは、並列agentワークフロー向けに作られている。複数セッションを管理する新しいサイドバーを追加し、appを離れずに作業のレビューとリリースまで行える統合toolsも備える。",
       "publishedAt": "Apr 14, 2026",
       "category": "blogUpdates"
     }
@@ -355,6 +360,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-15T14:31:57.707Z"
+    "generatedAt": "2026-04-15T14:32:21.966Z",
+    "estimatedReadTime": "8 分"
   }
 }
