@@ -1,7 +1,8 @@
 {
   "date": "2026-04-16",
-  "summary": "Rauch said teams were building their own design factories, while Steinberger called open-source AI security a full-time arms race. Masad priced OSS trust in compute, and Woodward shipped Gemini on Mac in 100 days.",
-  "items": [
+  "lang": "ja",
+  "summary": "Rauchは、各チームが独自のdesign factoryを作っていると述べた。  \nSteinbergerは、open-source AI securityをフルタイムのarms raceだと呼んだ。  \nMasadは、OSSへの信頼をcomputeで値付けした。  \nWoodwardは、Mac上のGeminiを100日で出荷した。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-16",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Teams are building their own design factories",
-      "suggestedSummary": "He says the future of design isn’t one killer SaaS tool — it’s every team spinning up a custom internal \"design factory\" for exactly their needs. His example: Shader Lab, built with Claude Code, Three.js, Next.js, and Vercel for Basement Studio, is a sign that assembling software from building blocks is getting easier than buying the right product.",
+      "suggestedTitle": "チームは自前のデザイン工場を作っている",
+      "suggestedSummary": "彼は、デザインの未来は1つの最強SaaSツールにあるのではないと言う。各チームが、自分たちの要件にぴったり合うカスタムの社内「デザイン工場」を立ち上げる時代だということだ。例として挙げるのは、Basement Studio向けにClaude Code、Three.js、Next.js、Vercelで作られたShader Labだ。ソフトウェアを部品から組み立てるほうが、適切な製品を買うより簡単になりつつある兆しだ。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2044445445636972578",
@@ -35,8 +36,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Open-source AI security is now a full-time arms race",
-      "suggestedSummary": "He says the last 4 months turned OpenClaw into a much harder target: sandboxing, allow-lists, and per-access exec prompts, all hammered on by hundreds of security researchers. His bigger point is blunt — if you’re shipping open-source AI harnesses and not publishing advisories, you’re leaving users blind while attackers keep iterating.",
+      "suggestedTitle": "オープンソースAIセキュリティは今やフルタイムの軍拡競争だ",
+      "suggestedSummary": "彼によれば、この4か月でOpenClawは格段に攻めにくい対象になった。サンドボックス化、allow-list、アクセスごとのexec promptが導入され、何百人ものセキュリティ研究者が徹底的に検証したからだ。彼の本質的な指摘は明快だ。オープンソースのAI harnessを出しているのにadvisoryを公開しないなら、攻撃者が改善を重ねる一方で、ユーザーは何も見えないままだ。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2044482797449150520",
@@ -67,8 +68,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "OSS trust should be priced in compute",
-      "suggestedSummary": "He argues that if frontier models can fully automate vuln hunting, open-source packages need a new trust signal: a visible metric for how much compute was spent securing them. In his example, a repo like linux would show a huge “security spend” score — basically turning hardening into a public badge, not a hidden chore.",
+      "suggestedTitle": "OSSの信頼はcomputeで価格付けすべきだ",
+      "suggestedSummary": "彼は、frontier modelがvuln huntingを完全に自動化できるなら、open-source packageには新しい信頼シグナルが必要だと主張する。つまり、どれだけのcomputeを使ってそれを守ったかを示す、見える指標だ。彼の例では、linuxのようなrepoは巨大な「security spend」スコアを表示することになる。要するに、hardeningを隠れた雑務ではなく、公開されたバッジに変えるということだ。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2044440298995228816",
@@ -93,8 +94,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Human judgment is still the moat",
-      "suggestedSummary": "He says the real edge isn’t just AI speed — it’s the long grind to clarity, depth, and persistence that machines still don’t have. Even if Claude can one-shot a system diagram, getting to that level of precision still takes a human who cares.",
+      "suggestedTitle": "人間の判断こそが依然として堀である",
+      "suggestedSummary": "本当の強みはAIの速さだけではない、と彼は言う。明晰さ、深さ、粘り強さに至るまでの長い積み重ねだ。そこは、まだ機械が持っていない。Claudeがsystem diagramを一発で描けたとしても、その精度にたどり着くには、そこまで気にかける人間が必要だ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2044596515088499194",
@@ -119,8 +120,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini lands on Mac, built in 100 days",
-      "suggestedSummary": "They shipped Gemini on Mac: a fully native Swift app with 100+ features built by a small team in under 100 days. The pitch is speed and polish — lightning-fast, 100% native, and clearly aimed at making Gemini feel like a real desktop product, not just a web wrapper.",
+      "suggestedTitle": "Gemini、Macに登場。100日で構築",
+      "suggestedSummary": "GeminiをMac向けにリリースした。小規模チームが100日未満で作り上げた、100以上の機能を備える完全ネイティブのSwift appだ。売りは速度と仕上がりの良さである。圧倒的に速く、100% native。Geminiを、単なるweb wrapperではなく、本物のdesktop productとして感じさせる狙いがはっきりしている。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2044452203596071052",
@@ -145,8 +146,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Agents get a custom UI layer in Cursor",
-      "suggestedSummary": "Cursor is adding /canvas, a way to build custom interfaces for agents instead of forcing everything through a chat box. It’s a small-looking feature with a big implication: agent workflows are moving from text-only prompts to actual product surfaces.",
+      "suggestedTitle": "Cursorでagent向けのカスタムUIレイヤーが使えるようになる",
+      "suggestedSummary": "Cursorは/canvasを追加する。agentのために、すべてをchat boxに押し込むのではなく、カスタムインターフェースを作れる仕組みだ。見た目は小さな機能だが、意味は大きい。agentのワークフローは、text-onlyのpromptから実際のプロダクト画面へ移りつつある。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2044493859821129992",
@@ -165,8 +166,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI won’t shrink work — it moves the bottleneck",
-      "suggestedSummary": "AI speeds up one part of the process, then the constraint pops up somewhere else, so total demand for humans can actually rise. He points to legal, security, healthcare, sales, and even new company formation as places where automation creates more downstream work — not less. The real risk, he says, is standing still while competitors use AI to outbuild, out-sell, and out-serve you.",
+      "suggestedTitle": "AIは仕事を縮小しない。ボトルネックを移すだけだ",
+      "suggestedSummary": "AIは工程の一部を高速化する。すると、制約は別の場所に現れる。結果として、人手への総需要はむしろ増えうる。彼は、legal、security、healthcare、sales、そして新しい会社の立ち上げまで挙げる。そこでは、automationが下流の仕事を減らすのではなく、増やすからだ。本当のリスクは、競合がAIでより速く作り、より多く売り、よりよく顧客対応するのに、自分だけが立ち止まることだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2044621545348481285",
@@ -185,8 +186,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "China trip reveals the real AI competition",
-      "suggestedSummary": "He says every product builder should visit China at least once, because the country’s AI work culture, EV ecosystem, and absurdly cheap delivery economy are hard to grasp from the outside. The takeaway is less travelogue, more warning: if you build products, you need to understand how fast China moves and how different the operating model is.",
+      "suggestedTitle": "中国訪問で見えた、AI競争の本当の姿",
+      "suggestedSummary": "彼は、すべてのプロダクトビルダーは一度は中国を訪れるべきだと言う。中国のAIの仕事文化、EVエコシステム、そして異常なほど安い配送経済は、外からではなかなかつかめないからだ。要するに、これは旅の記録というより警告である。プロダクトを作るなら、中国の動きの速さと、オペレーティングモデルの違いを理解する必要がある。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2044433121580634178",
@@ -211,8 +212,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "OpenClaw is now sandboxed and secure",
-      "suggestedSummary": "He says OpenClaw is past the “it’s insecure” era: add a Docker sandbox, mitmproxy logging firewall, and Clawvisor, and you’re good to go. He also notes GBrain’s git+Postgres setup handles multiple agents at once cleanly.",
+      "suggestedTitle": "OpenClawはサンドボックス化され、安全になった",
+      "suggestedSummary": "彼は、OpenClawはもう「危険だ」と言われる段階を抜けたと言う。Dockerサンドボックス、mitmproxyのログ付きファイアウォール、Clawvisorを足せば、もう十分だとも述べる。さらに、GBrainのgit+Postgres構成は、複数のagentを同時にきれいにさばけると指摘する。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2044677189896220927",
@@ -243,8 +244,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI roadmaps now expire in a month",
-      "suggestedSummary": "Claude Cowork’s roadmap is only one month long, because AI is moving too fast to plan much further out. The takeaway is blunt: ship, evaluate, iterate — then do it again.",
+      "suggestedTitle": "AIのロードマップは今や1か月で陳腐化する",
+      "suggestedSummary": "Claude Coworkのロードマップは1か月分しかない。AIの進化が速すぎて、それ以上先を計画できないからだ。要点は明快だ。作って、評価して、改善する。そしてまた繰り返す。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2044534930684719394",
@@ -269,8 +270,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "1M context is powerful — and messy",
-      "suggestedSummary": "Claude Code’s 1M context window is a double-edged sword: it unlocks bigger tasks, but it also makes context pollution easier if you don’t manage sessions well. He points to autocompact controls, including setting your own threshold, so power users can effectively dial the window down — e.g. 400k — when that’s the better tradeoff.",
+      "suggestedTitle": "1M contextは強力だが、厄介でもある",
+      "suggestedSummary": "Claude Codeの1M context windowは諸刃の剣だ。より大きなタスクをこなせる一方で、session管理が甘いとcontext pollutionも起きやすくなる。彼はautocompactの制御に触れ、自分でthresholdを設定できる点を挙げている。これによりpower userは、必要ならwindowを実質的に下げられる。たとえば400kだ。そちらのほうがトレードオフとして優れている場合がある。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2044654705780179011",
@@ -301,8 +302,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Meta’s AI comeback is turning into a real platform play",
-      "suggestedSummary": "He says Meta’s AI story has moved from the Llama 4 flop to the “turn”: more hiring, Zuck coding again, an Opus-ish model GA, and acquisitions like Dreamer and Manus to build an AI OS/prosumer layer. He also argues subagents are just optimization — the real leap is agents that compose and manage other agents, which is why Cognition’s new Spaces launch matters.",
+      "suggestedTitle": "MetaのAI復活は、実際のプラットフォーム戦略へと変わりつつある",
+      "suggestedSummary": "彼は、MetaのAIストーリーがLlama 4の失敗から「転換点」へ移ったと見る。採用は増え、Zuckは再びコードを書き、Opus級のモデルがGAになった。さらにDreamerやManusのような買収で、AI OSとprosumer層を作ろうとしているとも述べる。加えて、subagentsは単なる最適化にすぎず、本当の飛躍は他のagentを組み立て、管理するagentだと主張する。だからこそ、Cognitionの新しいSpacesリリースが重要だという。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2044636275375067440",
@@ -333,8 +334,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Play is the fastest way to find model limits",
-      "suggestedSummary": "She argues that in AI, “play” isn’t fluff — it’s the job: poking at models non-utilitarianly is often where the best discoveries come from. She also showed off Frontend Slides in @AnyGenIO, saying once you make slides with HTML, it’s hard to go back.",
+      "suggestedTitle": "Playはmodelの限界を見つける最速の方法だ",
+      "suggestedSummary": "AIでは、「play」は余計なものではない。むしろ本業だと彼女は主張する。実用性を度外視してmodelを突くことこそ、最良の発見につながることが多いという。さらに @AnyGenIO の Frontend Slides も披露した。HTMLでslideを作ると、もう元には戻れないとも語った。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2044653928592064541",
@@ -357,23 +358,27 @@
       ],
       "publishedAt": "2026-04-16T05:47:39.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-16",
       "source": "AI & I by Every",
-      "title": "The AI Model Built for What LLMs Can't Do",
+      "title": "LLMではできないことのために作られたAI Model",
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "suggestedTitle": "Verifiable AI beats token guessing for mission-critical work",
-      "suggestedSummary": "**The Takeaway:** Eve is betting that the next useful AI won’t be a better guesser — it’ll be a model you can inspect, verify, and trust.\n\n- LLMs are great at generating output, but they’re still “playing a guessing game,” which makes them expensive and shaky for mission-critical tasks.\n- Energy-based models (EBMs) skip tokens entirely, so they can evaluate whole states at once instead of predicting one word or action at a time.\n- The real edge is not just accuracy — it’s visibility: EBMs can be checked internally during training and externally after the fact.\n\nEve, founder and CEO of Logical Intelligence, is building around a blunt premise: if AI is going to touch software, chips, cars, or anything else where failure matters, “correctness” can’t be an afterthought. Her company works on both LLMs and EBMs, but the long-term bet is on energy-based reasoning models with latent variables — a mouthful she also calls Kona. Her argument is that LLMs are black boxes that only let you judge the final answer, while EBMs let you see the model’s internal state as it learns.\n\nShe keeps coming back to a simple contrast: language models are forced to translate everything into tokens, even when the task is spatial, physical, or mechanical. That’s why she says using LLMs for things like driving or circuit control is like using “the literature department everywhere.” EBMs, by contrast, build an energy landscape and search for the lowest, most probable state. In her couch example, the model isn’t guessing the next word — it’s learning the most likely configuration.\n\nHer core philosophy is practical, not mystical: if you need milliseconds, sparse data, or verifiable output, don’t ask a language model to pretend it’s a physics engine. “We don’t have to,” she says. “There are EBMs.”",
+      "suggestedTitle": "検証可能なAIは、ミッションクリティカルな仕事で token の当てずっぽうに勝つ",
+      "suggestedSummary": "**要点:** Eve は、次に本当に役立つAIは、より上手に当てるモデルではないと見ている。検査でき、検証でき、信頼できるモデルだ。\n\n- LLM は出力生成は得意だが、いまも「当てずっぽうのゲーム」をしているにすぎない。そのため、ミッションクリティカルなタスクでは高コストで不安定だ。\n- Energy-based models（EBMs）は token を完全に使わない。だから、1語ずつ、あるいは1アクションずつ予測するのではなく、状態全体を一度に評価できる。\n- 本当の強みは精度だけではない。可視性だ。EBMs は学習中に内部でチェックでき、後から外部でも検証できる。\n\nLogical Intelligence の founder 兼 CEO である Eve は、率直な前提に基づいて動いている。AI が software、chip、car、あるいは失敗が許されないあらゆる領域に触れるなら、「正しさ」は後回しにできない。彼女の会社は LLM と EBM の両方に取り組んでいるが、長期的な賭けは latent variables を持つ energy-based reasoning model にある。彼女はこれを Kona とも呼ぶ。彼女の主張はこうだ。LLM は black box で、最終回答しか評価できない。一方で EBM は、学習しながら model の内部状態を見られる。\n\n彼女は何度も、シンプルな対比に立ち返る。language model は、タスクが空間的、物理的、機械的であっても、すべてを token に変換することを強いられる。だから彼女は、運転や circuit control のような用途に LLM を使うのは「どこでも文学部を使うようなもの」だと言う。これに対して EBM は、energy landscape を作り、最も低く、最も確からしい state を探す。彼女の couch の例では、model は次の単語を当てているのではない。最もありそうな configuration を学んでいるのだ。\n\n彼女の中核にある哲学は、神秘的ではなく実用的だ。ミリ秒単位の応答、疎な data、あるいは検証可能な output が必要なら、language model に physics engine のふりをさせるな。\"We don’t have to,\" と彼女は言う。\"There are EBMs.\"",
       "publishedAt": "2026-04-15T15:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 16,
     "totalTweets": 36,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-16T14:33:16.421Z"
+    "generatedAt": "2026-04-16T14:33:38.558Z",
+    "estimatedReadTime": "7 分"
   }
 }

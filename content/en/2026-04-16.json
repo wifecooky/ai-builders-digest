@@ -1,7 +1,8 @@
 {
   "date": "2026-04-16",
+  "lang": "en",
   "summary": "Rauch said teams were building their own design factories, while Steinberger called open-source AI security a full-time arms race. Masad priced OSS trust in compute, and Woodward shipped Gemini on Mac in 100 days.",
-  "items": [
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-16",
       "source": "X",
@@ -357,7 +358,9 @@
       ],
       "publishedAt": "2026-04-16T05:47:39.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-16",
       "source": "AI & I by Every",
@@ -369,11 +372,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 16,
     "totalTweets": 36,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-16T14:33:16.421Z"
+    "generatedAt": "2026-04-16T14:33:16.638Z",
+    "estimatedReadTime": "7 min"
   }
 }
