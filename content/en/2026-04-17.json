@@ -1,7 +1,8 @@
 {
   "date": "2026-04-17",
+  "lang": "en",
   "summary": "Anthropic launched Managed Agents to decouple agent infra, while Claude Code defaulted to xhigh effort and got a usage-focused upgrade. Rauch said agents need durability over clever prompts, and Swyx split AI engineering into slop vs rigor.",
-  "items": [
+  "builderInsights": [
     {
       "id": "alexalbert-2026-04-17",
       "source": "X",
@@ -349,7 +350,9 @@
       ],
       "publishedAt": "2026-04-17T00:57:34.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-17",
       "source": "Latent Space",
@@ -359,7 +362,9 @@
       "suggestedSummary": "**The Takeaway:** Notion’s edge isn’t hype—it’s knowing when to wait, when to rebuild, and when to ship anyway.\n\n- They rebuilt custom agents four or five times because the models were “too dumb” and the context was too short; patience beat premature polish.\n- Their real advantage is not raw AI capability but product judgment: “not swimming upstream” and spotting when the river changes direction.\n- The company treats agents as the future interface, so every product team now has to build for both humans and agents—not just bolt AI on top.\n\nSimon Last, Notion’s cofounder, and Sarah Sachs, who leads much of the AI org, describe a team that’s been grinding on agents since late 2022. Early attempts failed because tool calling didn’t really exist yet, and even when it did, reliability wasn’t good enough for background work. The breakthrough came later, but the lesson wasn’t “wait for better models” so much as learn how to read the moment: build ahead of capability, but don’t keep forcing a dead end.\n\nSarah’s framing is the sharpest: the job is to keep the company from “swimming upstream,” while also preparing for the current to shift. That shows up in how Notion runs AI. They don’t worship hackathons, but they do use them to spread fluency. They don’t rely on top-down ideas; they let prototypes from curious builders become real products. And they don’t treat evals as bureaucracy—they’ve built an “agent dev velocity” org so teams can own their own tests and keep shipping safely.\n\nThe result is a culture where “demos over memos” isn’t a slogan, it’s the operating system. Notion’s bet is that the software factory future won’t come from one giant agent, but from a lot of small, well-instrumented ones working inside a product people already trust.",
       "publishedAt": "2026-04-15T00:31:14.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-17",
       "source": "Anthropic Engineering",
@@ -388,6 +393,7 @@
     "totalTweets": 45,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-04-17T14:25:33.852Z"
+    "generatedAt": "2026-04-17T14:25:34.077Z",
+    "estimatedReadTime": "8 min"
   }
 }

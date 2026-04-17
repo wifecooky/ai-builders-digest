@@ -1,7 +1,8 @@
 {
   "date": "2026-04-17",
-  "summary": "Anthropic launched Managed Agents to decouple agent infra, while Claude Code defaulted to xhigh effort and got a usage-focused upgrade. Rauch said agents need durability over clever prompts, and Swyx split AI engineering into slop vs rigor.",
-  "items": [
+  "lang": "ja",
+  "summary": "AnthropicはManaged Agentsを公開し、agent infrastructureの分離を進めた。一方でClaude Codeはデフォルトをxhigh effortにし、usage重視のアップグレードを受けた。Rauchは、agentsには巧妙なpromptよりdurabilityが必要だと述べた。SwyxはAI engineeringをslopとrigorに分けた。",
+  "builderInsights": [
     {
       "id": "alexalbert-2026-04-17",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Opus 4.7 gets more predictable, more polished",
-      "suggestedSummary": "He says Opus 4.7 is notably better at async work, instruction-following, and token control, with a new xhigh effort level that makes output more predictable. It also stops downscaling high-res images and shows more taste in UIs, slides, and docs — the kind of quality-of-life upgrades that matter in real workflows.",
+      "suggestedTitle": "Opus 4.7はより予測しやすく、より洗練されたものになった",
+      "suggestedSummary": "Opus 4.7は、非同期作業、指示の追従、token制御がかなり改善されたという。新しいxhigh effort levelにより、出力の予測可能性も上がった。さらに、高解像度画像を勝手に縮小しなくなった。UI、スライド、docsでもよりセンスが出るようになっており、実務のワークフローで効く品質向上だ。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2044788914813292583",
@@ -29,8 +30,8 @@
       "authorHandle": "_catwu",
       "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "title": "Cat Wu",
-      "suggestedTitle": "Claude Code now defaults to xhigh effort",
-      "suggestedSummary": "They said Claude Code is now set to xhigh by default for Opus 4.7, with `/effort` letting you dial it up or down. The bigger point: the model is getting better at verifying its own changes, so they’re pushing teams to bake testing workflows into `claude.md` or a `/verify-app` skill.",
+      "suggestedTitle": "Claude Codeはデフォルトでxhigh effortになった",
+      "suggestedSummary": "Claude Codeは、Opus 4.7でデフォルトがxhighに設定されたという話だ。`/effort`で強さを上下できる。より重要なのは、modelが自分の変更を検証する精度を上げている点だ。そのため、チームにはテストのワークフローを`claude.md`か`/verify-app` skillに組み込むよう促している。",
       "tweets": [
         {
           "url": "https://x.com/_catwu/status/2044815645699928273",
@@ -61,8 +62,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Agents need durability, not just clever prompts",
-      "suggestedSummary": "He says the real hard part of agents and backends is durability: models go down, APIs rate-limit, databases stall, and you still get paged. His pitch is that Workflow SDK gives backend apps the same kind of reliability Next.js brought to frontend dev, with self-hosting and multi-cloud from day one.",
+      "suggestedTitle": "agentに必要なのは、賢いpromptではなくdurabilityだ",
+      "suggestedSummary": "彼が言う本当の難所は、agentとbackendのdurabilityである。modelは落ちる。APIはrate limitをかける。databaseは詰まる。それでも呼び出しは飛んでくる。彼の主張は、Workflow SDKがfrontend devにもたらしたのと同じ種類のreliabilityをbackend appに与える、というものだ。self-hostingとmulti-cloudを初日から備えている。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2044858872842826102",
@@ -87,8 +88,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Web apps can become iOS apps for under $10",
-      "suggestedSummary": "He says you can turn a web app into an iOS app for less than $10, which is the kind of distribution hack founders actually care about. The other posts are Replit promos — 50% off for running parallel agents faster, plus EU deployment — but the main signal is still: ship once, reach mobile cheaply.",
+      "suggestedTitle": "Web appを$10未満でiOS appにできる",
+      "suggestedSummary": "Web appを$10未満でiOS appに変えられるという話だ。創業者が本当に気にするのは、こうした配布の抜け道である。ほかの投稿はReplitの宣伝だ。parallel agentを高速に動かす利用料が50%オフで、EUへのデプロイもある。だが主なシグナルは変わらない。1回shipして、mobileに安く届くということだ。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2044953138957025707",
@@ -119,8 +120,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Codex turns enterprise content into agent fuel",
-      "suggestedSummary": "The new Codex is another step toward agents that can code, use tools, and run long tasks in the background for knowledge workers. He says the Box plugin makes that especially powerful, since it lets enterprise content flow across apps to automate things like reports, data rooms, contracts, onboarding, and invoices.",
+      "suggestedTitle": "Codexが企業コンテンツをagentの燃料に変える",
+      "suggestedSummary": "新しいCodexは、codeを書き、toolを使い、長時間のtaskをバックグラウンドで回せるagentへ向かう、また一歩だ。彼によれば、Box pluginがそれを特に強力にする。企業コンテンツがappをまたいで流れ、report、data room、contract、onboarding、invoiceの自動化に使えるからだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2044855448722100720",
@@ -139,8 +140,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor’s design stack is becoming its own product",
-      "suggestedSummary": "He says he uses different models for different jobs: Opus 4.7 for planning, Composer 2 for building and iterating, and Codex/GPT-5.4 for the nasty bugs. That’s a pretty clear signal Cursor is turning model choice into workflow design, not just a chat box with autocomplete.\n\nHe also teased Baby Glass, a new prototyping environment with @flowstated that lets designers remix ideas in code using the same shared components behind Cursor 3’s interface.",
+      "suggestedTitle": "Cursorのデザインスタックは独自のプロダクトになりつつある",
+      "suggestedSummary": "彼は用途ごとに別のモデルを使っていると言う。計画にはOpus 4.7、構築と反復にはComposer 2、厄介なバグにはCodex/GPT-5.4だ。これは、Cursorがモデル選択を単なるチャットボックスのオートコンプリートではなく、ワークフロー設計そのものに変えつつある、かなり明確なサインである。\n\nさらに彼はBaby Glassも予告した。@flowstatedと組んだ新しいプロトタイピング環境で、Cursor 3のインターフェースの裏側にある共通コンポーネントを使い、デザイナーがコード上でアイデアをリミックスできる。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2044982132859400342",
@@ -165,8 +166,8 @@
       "authorHandle": "kevinweil",
       "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
       "title": "Kevin Weil",
-      "suggestedTitle": "OpenAI ships a science model for real labs",
-      "suggestedSummary": "They launched GPT-Rosalind, a frontier model tuned for biology, drug discovery, and translational medicine, with built-in knowledge of the databases and tools researchers actually use. They’re gating access for qualified customers because of bio-safety concerns, and also shipping a Life Sciences plugin for Codex to everyone.",
+      "suggestedTitle": "OpenAIが実験室向けのscience modelをリリース",
+      "suggestedSummary": "OpenAIはGPT-Rosalindをリリースした。biology、drug discovery、translational medicine向けに調整したfrontier modelであり、研究者が実際に使うdatabaseやtoolの知識を組み込んでいる。bio-safety上の懸念があるため、アクセスは資格のあるcustomerに限定している。あわせて、Codex向けのLife Sciences pluginも全員に提供する。",
       "tweets": [
         {
           "url": "https://x.com/kevinweil/status/2045004924682195027",
@@ -197,8 +198,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code gets a usage-focused upgrade",
-      "suggestedSummary": "They’re rolling out updates to Claude Code’s /usage flow after talking with users about helping them get more out of the tool. Anthropic is also adding a curated “What’s New” docs section and monthly “what we shipped” webinars, which feels like a push to make the product easier to follow as it moves fast.",
+      "suggestedTitle": "Claude Codeがusage重視のアップデートを受ける",
+      "suggestedSummary": "Claude Codeの/usageフローに、ユーザーとの対話を踏まえたアップデートを順次展開している。ツールをもっと使いこなせるようにするためだ。Anthropicは、厳選した「What’s New」ドキュメント欄と、毎月の「what we shipped」ウェビナーも追加する。動きの速いプロダクトを追いやすくする狙いがあるようだ。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2044893587691958320",
@@ -229,8 +230,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "HTML is becoming the playground for agents",
-      "suggestedSummary": "She says the best use of time is deep talk, deep read, and deep play — especially the kind of random AI experiments that lead somewhere unexpected. Her bigger point: HTML is now the medium agents can actually work in, and she’s already turning frontend slides into video to prove it.",
+      "suggestedTitle": "HTMLはagentの遊び場になりつつある",
+      "suggestedSummary": "彼女は、時間の最善の使い方は deep talk、deep read、deep play だと言う。特に、思わぬ方向に転がるランダムなAI実験が重要だという。より大きな主張は、HTMLが今やagentが実際に動ける媒体になったことだ。彼女はその証拠として、すでに frontend のスライドを video に変えている。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2044891980178792560",
@@ -261,8 +262,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI workflows need a second agent to grade the first",
-      "suggestedSummary": "He says the practical move is to spin up a separate eval agent that does simple yes/no checks on another agent’s output, then keeps it working until everything passes. He’s already using that pattern for YouTube thumbnails and titles, which is a neat glimpse of how AI work is turning into agent-on-agent QA instead of one-shot prompting.",
+      "suggestedTitle": "AIワークフローには、最初のagentを採点する2つ目のagentが必要だ",
+      "suggestedSummary": "実用的なやり方は、別のeval agentを立ち上げることだという。そのagentが、別のagentの出力に対して単純なyes/noチェックを行う。そして、すべてが通るまで動かし続ける。彼はすでにこのパターンをYouTubeのサムネイルとタイトルに使っている。AIの仕事が、一発のpromptではなく、agent同士のQAへと変わりつつあることがよく分かる。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2045007422084051168",
@@ -293,8 +294,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain Voice is getting its own e2e Gemini tests",
-      "suggestedSummary": "He says he and his team had to build proper end-to-end Gemini Live tests themselves, and that work is headed into GBrain Voice with an open-source release soon. The other updates are just maintenance: more /ship robustness and security fixes for GBrain.",
+      "suggestedTitle": "GBrain Voiceが独自のe2e Geminiテストを持つようになる",
+      "suggestedSummary": "本人によれば、チームは適切なend-to-endのGemini Liveテストを自前で構築する必要があった。その作業はGBrain Voiceに取り込まれ、近くオープンソースでリリースされる。ほかのアップデートは保守対応にすぎない。/shipの堅牢性向上と、GBrainのセキュリティ修正だ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2045023061746004324",
@@ -325,8 +326,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "AI engineering is splitting into slop vs rigor",
-      "suggestedSummary": "He says the biggest divide in AI engineering right now is between the fast-and-loose “slop cannons” and the more disciplined builders. Putting those two camps on separate days at the @aiDotEngineer talks is, in his view, accidentally a pretty accurate map of where the field is headed.",
+      "suggestedTitle": "AI engineeringはslopとrigorに分かれつつある",
+      "suggestedSummary": "彼によれば、今のAI engineeringで最大の分断は、雑に速く進める「slop cannons」と、より規律あるbuilderの間にある。@aiDotEngineerのtalksでこの2陣営を別日に分けたのは、意図せずして、この分野がどこへ向かっているかをかなり正確に示す地図になっているという見方だ。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2044943315938975801",
@@ -349,36 +350,40 @@
       ],
       "publishedAt": "2026-04-17T00:57:34.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-17",
       "source": "Latent Space",
-      "title": "Notion’s Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future — Simon Last &amp; Sarah Sachs of Notion",
+      "title": "NotionのToken Town: 5回の再構築、100以上のTools、MCP vs CLIs、そしてSoftware Factoryの未来 — NotionのSimon Last & Sarah Sachs",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "suggestedTitle": "Notion bets on agents, but only after the models earn it",
-      "suggestedSummary": "**The Takeaway:** Notion’s edge isn’t hype—it’s knowing when to wait, when to rebuild, and when to ship anyway.\n\n- They rebuilt custom agents four or five times because the models were “too dumb” and the context was too short; patience beat premature polish.\n- Their real advantage is not raw AI capability but product judgment: “not swimming upstream” and spotting when the river changes direction.\n- The company treats agents as the future interface, so every product team now has to build for both humans and agents—not just bolt AI on top.\n\nSimon Last, Notion’s cofounder, and Sarah Sachs, who leads much of the AI org, describe a team that’s been grinding on agents since late 2022. Early attempts failed because tool calling didn’t really exist yet, and even when it did, reliability wasn’t good enough for background work. The breakthrough came later, but the lesson wasn’t “wait for better models” so much as learn how to read the moment: build ahead of capability, but don’t keep forcing a dead end.\n\nSarah’s framing is the sharpest: the job is to keep the company from “swimming upstream,” while also preparing for the current to shift. That shows up in how Notion runs AI. They don’t worship hackathons, but they do use them to spread fluency. They don’t rely on top-down ideas; they let prototypes from curious builders become real products. And they don’t treat evals as bureaucracy—they’ve built an “agent dev velocity” org so teams can own their own tests and keep shipping safely.\n\nThe result is a culture where “demos over memos” isn’t a slogan, it’s the operating system. Notion’s bet is that the software factory future won’t come from one giant agent, but from a lot of small, well-instrumented ones working inside a product people already trust.",
+      "suggestedTitle": "Notionはagentに賭ける。ただし、modelがその価値を証明してからだ",
+      "suggestedSummary": "**要点:** Notionの強みは hype ではない。いつ待つか、いつ再構築するか、いつそのまま ship するかを知っていることだ。\n\n- custom agents は model が「too dumb」で context も短すぎたため、4回か5回も再構築した。性急な磨き込みより、忍耐が勝った。\n- 本当の優位性は生のAI能力ではなく、product judgment にある。「swimming upstream」しないこと。そして、川の流れが変わる瞬間を見抜くことだ。\n- 同社は agents を未来の interface と見なしている。そのため今では、すべての product team が人間だけでなく agent にも向けて作らなければならない。AIを後付けするだけでは足りない。\n\nNotionのcofounderであるSimon Lastと、AI orgの多くを率いるSarah Sachsは、2022年後半からagentにひたすら取り組んできたチームについて語る。初期の試みは失敗した。tool calling がまだ本当に存在していなかったからだ。存在するようになってからも、background work に使えるほどの reliability はなかった。ブレイクスルーは後になって訪れた。ただし教訓は「より良い model を待て」ではない。むしろ、その瞬間を読むことだ。capability を先回りして作る。ただし、行き止まりを無理に押し続けてはいけない。\n\nSarahの整理は特に鋭い。仕事は、会社が「swimming upstream」しないようにしつつ、流れが変わる備えも整えることだ。NotionのAI運営には、その考え方が表れている。hackathon を崇拝はしないが、fluency を広げるためには使う。上から降ってきたアイデアには頼らない。好奇心の強い builder たちの prototype を、本物の product に育てる。そして evals を官僚主義として扱わない。各 team が自分たちの test を持ち、安全に ship し続けられるように、「agent dev velocity」org を作っている。\n\nその結果生まれるのは、「demos over memos」がスローガンではなく operating system になっている文化だ。Notionの賭けは、software factory の未来は巨大な1つの agent からは来ない、というものだ。すでに人々が信頼している product の中で、よく計測された小さな agent がたくさん動くことで実現するのだ。",
       "publishedAt": "2026-04-15T00:31:14.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-17",
       "source": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Managed Agentsのスケーリング: brainとhandsを分離する",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "author": null,
-      "suggestedTitle": "Anthropic launches Managed Agents to decouple agent infrastructure",
-      "suggestedSummary": "Lead: Anthropic introduced Managed Agents, a hosted Claude Platform service for running long-horizon agents with a durable session log, stateless harness, and isolated sandbox so the system can evolve without rewiring the whole stack.\n\nNumbers:\n- p50 time-to-first-token dropped roughly 60%.\n- p95 time-to-first-token dropped over 90%.\n- The architecture supports many brains and many hands, with tools exposed through a simple `execute(name, input) -> string` interface.\n\nSo What: For builders, the big shift is architectural: Claude’s “brain” no longer has to live inside the same container as its tools, state, or credentials. That improves reliability, makes debugging possible, and lets teams connect agents to external infrastructure like a VPC without peering everything into one box. It also tightens security by keeping tokens out of the sandbox and routing access through vault-backed proxies or bundled auth. Anthropic’s core message is that harness assumptions age quickly as models improve: “We expect harnesses to continue evolving.” Managed Agents is meant to be the stable layer underneath that evolution, while still supporting context recovery, retries, and custom tools via MCP.",
+      "suggestedTitle": "AnthropicがManaged Agentsをリリースし、agent infrastructureを分離",
+      "suggestedSummary": "Lead: AnthropicはManaged Agentsを導入した。これは、長期にわたるagentを動かすためのホスト型Claude Platformサービスである。耐久性のあるsession log、statelessなharness、分離されたsandboxを備え、システム全体を組み替えずに進化できるようにする。 Numbers: p50のtime-to-first-tokenは約60%低下した。p95のtime-to-first-tokenは90%以上低下した。アーキテクチャはmany brainsとmany handsを支える。toolは、`execute(name, input) -> string`というシンプルなinterfaceで公開される。 So What: builderにとって大きな変化はアーキテクチャだ。Claudeの「brain」は、tool、state、credentialと同じcontainer内にある必要がなくなった。これでreliabilityが向上し、debuggingが可能になる。さらに、VPCのような外部インフラにagentをつなぎやすくなり、すべてを1つの箱にpeeringする必要もなくなる。tokenをsandboxの外に置き、vault-backed proxyやbundled auth経由でaccessを通すことで、securityも強化される。Anthropicの核心メッセージは、modelが進化するにつれてharnessの前提はすぐ古くなる、というものだ。「We expect harnesses to continue evolving.」Managed Agentsは、その進化の下で安定したlayerになることを狙っている。同時に、context recovery、retry、MCP経由のcustom toolも支える。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-04-17",
       "source": "Claude Blog",
-      "title": "Claude Managed Agents: get to production 10x faster",
+      "title": "Claude Managed Agents: 本番投入を10倍速く",
       "url": "https://claude.com/blog/claude-managed-agents",
       "author": null,
-      "suggestedTitle": "Claude launches Managed Agents for faster production deployment",
-      "suggestedSummary": "**Lead:** Claude Managed Agents is now in public beta, offering composable APIs and hosted infrastructure to build, run, and govern cloud agents in days instead of months.\n\n**Numbers:**\n- Claimed to help teams ship agents “10x faster”\n- Internal testing on structured file generation improved task success by up to 10 points versus a standard prompting loop\n- Long-running sessions can persist for hours, even across disconnections\n- Some customer integrations shipped in weeks instead of months; one team deployed specialist agents within a week\n\n**So What:** Builders can skip the hardest parts of productionizing agents—sandboxing, checkpointing, permissions, auth, tracing, and orchestration—and focus on the user experience. Claude runs the agent harness, manages tool use, context, and recovery, while the Console exposes session tracing, integration analytics, and troubleshooting. The platform also supports multi-agent coordination in research preview and lets teams choose between autonomous execution and tighter prompt-and-response control. As the post puts it, “You define your agent’s tasks, tools, and guardrails and we run it on our infrastructure.” For teams shipping coding, productivity, finance, or legal agents, this means faster launches and less custom infra work.",
+      "suggestedTitle": "Claude、Managed Agentsをリリースし本番デプロイを高速化",
+      "suggestedSummary": "**要点:** Claude Managed Agentsがpublic betaで提供開始となった。composable APIsとhosted infrastructureにより、cloud agentsを数か月ではなく数日で構築・実行・管理できる。\n\n**数値:**\n- チームのagent出荷を「10x faster」にするとしている\n- structured file generationに関する内部テストでは、標準的なprompting loopと比べてtask successが最大10ポイント向上した\n- 長時間動くsessionは、切断をまたいでも数時間持続できる\n- 一部のcustomer integrationは数か月ではなく数週間でリリースされ、あるチームはspecialist agentsを1週間以内にデプロイした\n\n**要するに:** builderは、agentの本番化で最も大変な部分を飛ばせる。sandboxing、checkpointing、permissions、auth、tracing、orchestrationだ。代わりにuser experienceに集中できる。Claudeがagent harnessを動かし、tool use、context、recoveryを管理する。Consoleではsession tracing、integration analytics、troubleshootingも見られる。platformはresearch previewでmulti-agent coordinationにも対応する。autonomous executionと、より厳密なprompt-and-response controlのどちらかも選べる。投稿の言葉を借りれば、「You define your agent’s tasks, tools, and guardrails and we run it on our infrastructure.」となる。coding、productivity、finance、legalのagentを出すチームにとっては、リリースが速くなり、custom infra workも減る。",
       "publishedAt": "Apr 08, 2026",
       "category": "blogUpdates"
     }
@@ -388,6 +393,7 @@
     "totalTweets": 45,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-04-17T14:25:33.852Z"
+    "generatedAt": "2026-04-17T14:25:56.750Z",
+    "estimatedReadTime": "8 分"
   }
 }
