@@ -1,7 +1,8 @@
 {
   "date": "2026-04-18",
-  "summary": "Weil folded OpenAI for Science into core teams, while Google split Flow into music-making and Josh Woodward added remix control. Albert and Peter Yang showed Claude Design turning taste into production-grade assets, and Levie, Ryo Lu, and No Priors all argued AI wins when it serves workflows, not replaces them.",
-  "items": [
+  "lang": "zh",
+  "summary": "Weil 把 OpenAI for Science 并入了核心团队；Google 则把 Flow 拆成了音乐创作和 remix 控制两块。Albert、Peter Yang 还展示了 Claude Design，怎么把审美直接变成 production-grade assets。Levie、Ryo Lu 和 No Priors 也都在强调同一个点：AI 真正赢的时候，是它服务 workflow，而不是试图取代 workflow。",
+  "builderInsights": [
     {
       "id": "kevinweil-2026-04-18",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "kevinweil",
       "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
       "title": "Kevin Weil",
-      "suggestedTitle": "OpenAI for Science gets folded into core teams",
-      "suggestedSummary": "He says today’s his last day at OpenAI, where he helped launch OpenAI for Science and then moved from product into research. The big takeaway: he thinks accelerating science is one of the most positive things AGI can unlock, and now that effort is being decentralized across the company.",
+      "suggestedTitle": "OpenAI for Science 并入核心团队",
+      "suggestedSummary": "他说今天是他在 OpenAI 的最后一天。他先帮忙启动了 OpenAI for Science，后来又从 product 转到了 research。核心意思很明确：他认为加速科学进展，是 AGI 能解锁的最正面的事情之一。现在，这项工作会分散到公司各个团队里继续推进。",
       "tweets": [
         {
           "url": "https://x.com/kevinweil/status/2045230426210648348",
@@ -29,8 +30,8 @@
       "authorHandle": "GoogleLabs",
       "authorBio": "Google’s home for our latest AI tools and experiments.",
       "title": "Google Labs",
-      "suggestedTitle": "Google splits Flow into music-making too",
-      "suggestedSummary": "They’re expanding Flow beyond images and video with Flow Music, a standalone site for creating, sharing, and remixing original songs from natural-language prompts. It’s the same “type what you imagine, get a finished asset” pitch — now for tracks and playlists.",
+      "suggestedTitle": "Google 把 Flow 也拆到音乐创作上了",
+      "suggestedSummary": "他们把 Flow 的能力从图片和视频继续扩到音乐，推出了 Flow Music。它是一个独立网站，可以用自然语言 prompt 创建、分享和 remix 原创歌曲。核心还是那套“你描述想法，直接拿到成品”的思路，只不过这次对象变成了 track 和 playlist。",
       "tweets": [
         {
           "url": "https://x.com/GoogleLabs/status/2045250788864495874",
@@ -49,8 +50,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Claude turns taste into production-grade design",
-      "suggestedSummary": "He says anyone with a vision can now produce high-quality designs with a little help from Claude. That’s the bigger story: Anthropic’s tools are pushing design from specialist craft toward something founders and product teams can iterate on fast.",
+      "suggestedTitle": "Claude 把审美变成了生产级设计",
+      "suggestedSummary": "他说，只要有想法，任何人现在都能在 Claude 的帮助下做出高质量设计。更大的看点是：Anthropic 的工具正在把设计从专业手艺，推向一个创始人和产品团队都能快速迭代的方向。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2045165630421364853",
@@ -75,8 +76,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents will make enterprise software headless",
-      "suggestedSummary": "He says enterprise platforms have to go headless because agents will use them 100X more than people do. That flips the old seat-based model: humans buy seats, agents drive consumption, and systems of record like Salesforce or Box can unlock way more use cases than they ever did before.",
+      "suggestedTitle": "agent 会让 enterprise software 变成 headless",
+      "suggestedSummary": "他说，enterprise platform 必须走向 headless，因为 agent 的使用量会比人高出 100 倍。这会把老的 seat-based 模式彻底翻过来：人买 seat，agent 拉动 consumption，而 Salesforce 或 Box 这类 system of record 能解锁的 use case，也会比以前多得多。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2045355693050655048",
@@ -101,8 +102,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Google Flow Music adds remix control",
-      "suggestedSummary": "ProducerAI has been rebranded as Google Flow Music, with the same goal: give creators more control over their tracks. The new remix feature is the real hook here — more hands-on editing, less black-box generation.",
+      "suggestedTitle": "Google Flow Music 增加 remix 控制",
+      "suggestedSummary": "ProducerAI 已经改名为 Google Flow Music，但目标没变：让创作者更好地掌控自己的 track。真正的亮点是新的 remix 功能——更偏手动编辑，少一点黑盒式生成。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2045305262362530043",
@@ -121,8 +122,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Best agents need harness, models, and portability",
-      "suggestedSummary": "The best agent isn’t just about a stronger model — it’s the combo of a solid harness, good models, and the ability to run anywhere. That’s a very Cursor-shaped take: the product wins by wrapping the model in the right workflow, not by betting on raw intelligence alone.",
+      "suggestedTitle": "最好的 agent 需要 harness、model 和 portability",
+      "suggestedSummary": "最好的 agent 不只是靠更强的 model。关键是三件事：一个靠谱的 harness、好的 model，以及能到处跑的能力。这很像 Cursor 的思路：产品赢在把 model 包进合适的 workflow 里，而不是只押注原始 intelligence。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2045336089867825157",
@@ -141,8 +142,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI is getting good at spotting tiny app fixes",
-      "suggestedSummary": "He says a feature he’s been using is especially good at anticipating small but important improvements to an app. That’s a very Replit-ish take: the best AI tools don’t just generate code, they nudge builders toward cleaner products and faster iteration.",
+      "suggestedTitle": "AI 越来越擅长发现 app 里的小修小补",
+      "suggestedSummary": "他说，他最近在用的一个 feature，特别擅长提前发现那些看起来不大、但很关键的 app 改进点。这很有 Replit 的味道：最好的 AI 工具不只是帮你写 code，还会推着 builder 往更干净的产品和更快的迭代走。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2045350848985968796",
@@ -173,8 +174,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Anthropic’s product blitz is accelerating fast",
-      "suggestedSummary": "He says Anthropic Labs is on a generational run, pointing to Claude Code, Skills, Claude Cowork, and Claude Design as the latest proof. The takeaway: Anthropic is no longer just shipping models — it’s building a full AI work suite around Claude.",
+      "suggestedTitle": "Anthropic 的 product blitz 正在快速加速",
+      "suggestedSummary": "他认为 Anthropic Labs 正处在一波罕见的强势周期里。Claude Code、Skills、Claude Cowork 和 Claude Design 就是最新的证明。结论很明确：Anthropic 已经不只是发 model 了，它在围绕 Claude 搭一整套 AI 工作套件。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2045211226272129274",
@@ -193,8 +194,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Claude Design turns prompts into full product assets",
-      "suggestedSummary": "He’s showing off Claude Design as a legit multi-format builder: videos, slides, websites, mobile apps, even a design system. The takeaway is pretty simple — AI is moving from “help me write” to “help me ship the whole thing,” which is exactly the kind of practical workflow Roblox product folks care about.",
+      "suggestedTitle": "Claude Design 把 prompt 变成完整产品资产",
+      "suggestedSummary": "他在展示 Claude Design 现在已经是个能干活的多格式 builder：视频、slides、网站、mobile app，甚至连 design system 都能做。核心意思很简单：AI 正在从“帮我写”走向“帮我把整套东西做出来”。这正是 Roblox 产品团队会觉得实用的工作流。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2045335553059746259",
@@ -225,8 +226,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "He’s backing teams that outbuild the models",
-      "suggestedSummary": "He says Fintool was already doing heavy reasoning before the models caught up, and calls it a “magical” product with a killer team now headed to Microsoft. He also gushes over a former Opendoor engineer starting a new company, basically saying he’d wire money before YC because the talent was that obvious.",
+      "suggestedTitle": "他在押注那些比模型更会做事的团队",
+      "suggestedSummary": "他说，Fintool 在模型追上来之前，就已经在做很重的 reasoning 了。他还把它形容成一个“magical”的产品，团队也很强，现在已经去了 Microsoft。他还对一位前 Opendoor engineer 新开的公司赞不绝口，基本意思是：人才太明显了，甚至在 YC 之前他就愿意直接打钱。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2045250489189908534",
@@ -257,8 +258,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Opus 4.7 gets a full vibe check",
-      "suggestedSummary": "He says every Claude model has its own level of helpfulness, and Anthropic’s Alex Albert explains why that matters for Opus 4.7. Every also published a full breakdown of how it performs on coding, writing, spreadsheets, and more — basically a practical read on where the model actually helps.",
+      "suggestedTitle": "Opus 4.7 做了全面 vibe check",
+      "suggestedSummary": "他说，每个 Claude model 都有自己的 helpfulness 水平。Anthropic 的 Alex Albert 也解释了这件事为什么对 Opus 4.7 很重要。Every 还发了一份完整拆解，讲它在 coding、writing、spreadsheets 等场景里的表现——基本上就是一份实用版指南，告诉你这个 model 到底在哪些地方真能帮上忙。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2045246172022149537",
@@ -289,8 +290,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "HTML beats image gen for many graphics",
-      "suggestedSummary": "She says designing with code often works better than image models, and she’s been making most of her graphics in HTML instead of Nano Banana. The bigger point: output quality isn’t the same as good design, and LLMs aren’t “writers” just because they can spit out text.",
+      "suggestedTitle": "很多图形场景里，HTML 比 image gen 更好用",
+      "suggestedSummary": "她觉得，用 code 来做设计，很多时候比 image model 更靠谱。她最近也一直在用 HTML 做大部分图，而不是 Nano Banana。更关键的是，输出质量不等于好设计。LLM 能吐出文本，不代表它们就是“writer”。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2045394997630099922",
@@ -307,23 +308,27 @@
       ],
       "publishedAt": "2026-04-18T06:52:23.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-18",
       "source": "No Priors",
-      "title": "Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott",
+      "title": "在 AI 时代扩展全球组织：ServiceNow CEO Bill McDermott",
       "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "suggestedTitle": "AI wins when it serves workflows, not replaces them",
-      "suggestedSummary": "**The Takeaway:** The real moat in enterprise AI is not model cleverness; it’s owning the workflow, context, and accountability.\n\n- ServiceNow’s edge isn’t “doing AI,” it’s being the control tower that connects models, clouds, security, and systems of record.\n- McDermott argues that for enterprise buyers, a software mistake is far less forgivable than a human one—so deterministic workflows still matter.\n- His leadership philosophy is blunt: confidence comes from work, and “a shot” is the most valuable thing you can give people.\n\nBill McDermott, CEO of ServiceNow and a veteran of Xerox and SAP, frames his career as a long lesson in customer obsession and disciplined execution. He started by buying a deli at 16, not because he was a natural entrepreneur, but because it consolidated multiple jobs into one and gave him control. That experience shaped his core belief: “the customer and the customer alone determines whether you win or lose.”\n\nThat same thinking drives his view of AI. He’s not buying the hype that language models will simply swallow enterprise software. Instead, he sees a split between answering questions and actually closing work. A model can suggest steps; a platform can route the case through HR, finance, legal, compliance, and risk until it’s resolved. His line is sharp: “People that run businesses understand that people make mistakes. They never will forgive software for making a mistake.”\n\nMcDermott’s bigger bet is that AI should amplify human ambition, not erase it. He wants ServiceNow to be the “AI control tower for business reinvention,” integrating hyperscalers, models, and enterprise systems while extending into security and operational technology. The philosophy underneath it is old-school but timely: opportunity matters, people matter, and the best technology is the one that helps humans do harder things faster without losing trust.",
+      "suggestedTitle": "AI 真正赢的时候，是它服务 workflow，而不是取代 workflow",
+      "suggestedSummary": "**核心结论：** 企业 AI 的真正护城河，不是 model 有多聪明，而是你能不能掌控 workflow、context 和 accountability。\n\n- ServiceNow 的优势不在于“做 AI”，而在于它像一个 control tower，把 models、cloud、security 和 systems of record 串起来。\n- McDermott 认为，对 enterprise 买家来说，软件出错比人出错更难被原谅。所以 deterministic workflows 还是很重要。\n- 他的 leadership philosophy 很直接：confidence 来自工作，而“a shot”是你能给人的最有价值的东西。",
       "publishedAt": "2026-04-17T20:44:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 16,
     "totalTweets": 33,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-18T14:13:37.782Z"
+    "generatedAt": "2026-04-18T14:13:46.131Z",
+    "estimatedReadTime": "7 分钟"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-04-18",
+  "lang": "en",
   "summary": "Weil folded OpenAI for Science into core teams, while Google split Flow into music-making and Josh Woodward added remix control. Albert and Peter Yang showed Claude Design turning taste into production-grade assets, and Levie, Ryo Lu, and No Priors all argued AI wins when it serves workflows, not replaces them.",
-  "items": [
+  "builderInsights": [
     {
       "id": "kevinweil-2026-04-18",
       "source": "X",
@@ -307,7 +308,9 @@
       ],
       "publishedAt": "2026-04-18T06:52:23.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-18",
       "source": "No Priors",
@@ -319,11 +322,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 16,
     "totalTweets": 33,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-18T14:13:37.782Z"
+    "generatedAt": "2026-04-18T14:13:37.998Z",
+    "estimatedReadTime": "7 min"
   }
 }

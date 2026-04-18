@@ -1,7 +1,8 @@
 {
   "date": "2026-04-18",
-  "summary": "Weil folded OpenAI for Science into core teams, while Google split Flow into music-making and Josh Woodward added remix control. Albert and Peter Yang showed Claude Design turning taste into production-grade assets, and Levie, Ryo Lu, and No Priors all argued AI wins when it serves workflows, not replaces them.",
-  "items": [
+  "lang": "ja",
+  "summary": "WeilはOpenAI for Scienceをコアチームに統合した。一方でGoogleはFlowを音楽制作とリミックス制御に分割した。Josh Woodwardがその舵を取った。AlbertとPeter Yangは、Claude Designがセンスを本番運用レベルのアセットに変える様子を示した。Levie、Ryo Lu、そしてNo Priorsはいずれも、AIはワークフローに奉仕するときにこそ勝つのであり、置き換えるときではないと主張した。",
+  "builderInsights": [
     {
       "id": "kevinweil-2026-04-18",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "kevinweil",
       "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
       "title": "Kevin Weil",
-      "suggestedTitle": "OpenAI for Science gets folded into core teams",
-      "suggestedSummary": "He says today’s his last day at OpenAI, where he helped launch OpenAI for Science and then moved from product into research. The big takeaway: he thinks accelerating science is one of the most positive things AGI can unlock, and now that effort is being decentralized across the company.",
+      "suggestedTitle": "OpenAI for Scienceがコアチームに統合される",
+      "suggestedSummary": "彼によれば、今日がOpenAIでの最後の日だという。OpenAI for Scienceの立ち上げに関わり、その後はプロダクトからresearchへ移った。要点は明快だ。科学の加速は、AGIが解き放てる最も前向きなものの一つだと彼は考えている。そして今、その取り組みは会社全体に分散されつつある。",
       "tweets": [
         {
           "url": "https://x.com/kevinweil/status/2045230426210648348",
@@ -29,8 +30,8 @@
       "authorHandle": "GoogleLabs",
       "authorBio": "Google’s home for our latest AI tools and experiments.",
       "title": "Google Labs",
-      "suggestedTitle": "Google splits Flow into music-making too",
-      "suggestedSummary": "They’re expanding Flow beyond images and video with Flow Music, a standalone site for creating, sharing, and remixing original songs from natural-language prompts. It’s the same “type what you imagine, get a finished asset” pitch — now for tracks and playlists.",
+      "suggestedTitle": "Google、Flowを音楽制作にも分割",
+      "suggestedSummary": "GoogleはFlowを画像と動画の枠を超えて拡張し、Flow Musicを追加する。自然言語のpromptからオリジナル曲を作成、共有、リミックスできる独立サイトだ。発想は同じで、「思い描いたものを入力すれば、完成した素材が手に入る」というもの。今度はトラックとプレイリストが対象になる。",
       "tweets": [
         {
           "url": "https://x.com/GoogleLabs/status/2045250788864495874",
@@ -49,8 +50,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Claude turns taste into production-grade design",
-      "suggestedSummary": "He says anyone with a vision can now produce high-quality designs with a little help from Claude. That’s the bigger story: Anthropic’s tools are pushing design from specialist craft toward something founders and product teams can iterate on fast.",
+      "suggestedTitle": "Claudeがセンスを本番品質のデザインに変える",
+      "suggestedSummary": "彼は、ビジョンさえあれば誰でもClaudeの少しの助けで高品質なデザインを作れると言う。こちらが本質だ。Anthropicのツールは、デザインを専門職の技から、創業者やプロダクトチームが素早く反復できるものへ押し上げている。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2045165630421364853",
@@ -75,8 +76,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents will make enterprise software headless",
-      "suggestedSummary": "He says enterprise platforms have to go headless because agents will use them 100X more than people do. That flips the old seat-based model: humans buy seats, agents drive consumption, and systems of record like Salesforce or Box can unlock way more use cases than they ever did before.",
+      "suggestedTitle": "agentがenterprise softwareをheadlessにする",
+      "suggestedSummary": "彼は、enterprise platformはheadless化せざるを得ないと言う。agentが人間の100倍は使うからだ。これで従来のseatベースのモデルはひっくり返る。人間がseatを買い、agentが消費を回す。SalesforceやBoxのようなsystem of recordは、これまで以上に多くのuse caseを解き放てるようになる。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2045355693050655048",
@@ -101,8 +102,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Google Flow Music adds remix control",
-      "suggestedSummary": "ProducerAI has been rebranded as Google Flow Music, with the same goal: give creators more control over their tracks. The new remix feature is the real hook here — more hands-on editing, less black-box generation.",
+      "suggestedTitle": "Google Flow Musicがリミックス制御を追加",
+      "suggestedSummary": "ProducerAIはGoogle Flow Musicへとリブランドされた。狙いは変わらない。クリエイターにトラックの制御権をもっと渡すことだ。新しいリミックス機能こそが本命である。より手を動かす編集ができ、ブラックボックス的な生成は減る。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2045305262362530043",
@@ -121,8 +122,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Best agents need harness, models, and portability",
-      "suggestedSummary": "The best agent isn’t just about a stronger model — it’s the combo of a solid harness, good models, and the ability to run anywhere. That’s a very Cursor-shaped take: the product wins by wrapping the model in the right workflow, not by betting on raw intelligence alone.",
+      "suggestedTitle": "最高のagentにはハーネス、model、そして可搬性が必要だ",
+      "suggestedSummary": "最高のagentは、強いmodelだけでは成り立たない。重要なのは、堅牢なハーネス、良いmodel、そしてどこでも動かせることの組み合わせだ。これはいかにもCursorらしい見方だ。productは、生の知能だけに賭けるのではなく、modelを適切なworkflowで包み込むことで勝つ。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2045336089867825157",
@@ -141,8 +142,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI is getting good at spotting tiny app fixes",
-      "suggestedSummary": "He says a feature he’s been using is especially good at anticipating small but important improvements to an app. That’s a very Replit-ish take: the best AI tools don’t just generate code, they nudge builders toward cleaner products and faster iteration.",
+      "suggestedTitle": "AIは小さなアプリ改善を見つけるのがうまくなっている",
+      "suggestedSummary": "彼によれば、最近使っている機能は、アプリに対する小さいが重要な改善を先回りして提案するのが特にうまいという。いかにもReplitらしい見方だ。最高のAIツールはコードを生成するだけではない。作り手をよりきれいなプロダクトと速いイテレーションへと後押しする。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2045350848985968796",
@@ -173,8 +174,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Anthropic’s product blitz is accelerating fast",
-      "suggestedSummary": "He says Anthropic Labs is on a generational run, pointing to Claude Code, Skills, Claude Cowork, and Claude Design as the latest proof. The takeaway: Anthropic is no longer just shipping models — it’s building a full AI work suite around Claude.",
+      "suggestedTitle": "Anthropicのプロダクト攻勢は急速に加速している",
+      "suggestedSummary": "彼は、Anthropic Labsが世代をまたぐ好調期にあると述べ、Claude Code、Skills、Claude Cowork、Claude Designをその最新の証拠として挙げている。要点は明快だ。Anthropicはもはやモデルを出すだけの存在ではない。Claudeを中心に、AI業務スイート全体を構築している。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2045211226272129274",
@@ -193,8 +194,8 @@
       "authorHandle": "petergyang",
       "authorBio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Claude Design turns prompts into full product assets",
-      "suggestedSummary": "He’s showing off Claude Design as a legit multi-format builder: videos, slides, websites, mobile apps, even a design system. The takeaway is pretty simple — AI is moving from “help me write” to “help me ship the whole thing,” which is exactly the kind of practical workflow Roblox product folks care about.",
+      "suggestedTitle": "Claude Designがpromptを完成度の高いproduct assetsへ変える",
+      "suggestedSummary": "彼はClaude Designを、本物のマルチフォーマットbuilderとして見せている。video、slide、website、mobile app、さらにはdesign systemまで作れる。要するに、AIは「書くのを手伝う」段階から、「全部まとめてshipするのを手伝う」段階へ移っている。こうした実用的なworkflowは、まさにRobloxのproduct担当が重視するものだ。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2045335553059746259",
@@ -225,8 +226,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "He’s backing teams that outbuild the models",
-      "suggestedSummary": "He says Fintool was already doing heavy reasoning before the models caught up, and calls it a “magical” product with a killer team now headed to Microsoft. He also gushes over a former Opendoor engineer starting a new company, basically saying he’d wire money before YC because the talent was that obvious.",
+      "suggestedTitle": "モデルを上回るチームに賭けている",
+      "suggestedSummary": "Fintoolは、モデルが追いつく前から重い推論をこなしていたという。彼はこれを「magical」なプロダクトだと評し、今やMicrosoftへ向かう強力なチームを高く評価している。さらに、元Opendoorのエンジニアが立ち上げた新会社にも熱を上げている。才能があまりに明白なので、YCより先に送金したいとまで言っている。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2045250489189908534",
@@ -257,8 +258,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Opus 4.7 gets a full vibe check",
-      "suggestedSummary": "He says every Claude model has its own level of helpfulness, and Anthropic’s Alex Albert explains why that matters for Opus 4.7. Every also published a full breakdown of how it performs on coding, writing, spreadsheets, and more — basically a practical read on where the model actually helps.",
+      "suggestedTitle": "Opus 4.7が本格的なvibe checkを受ける",
+      "suggestedSummary": "彼は、Claudeの各モデルにはそれぞれ異なるhelpfulnessの水準があると言う。AnthropicのAlex Albertは、それがOpus 4.7にとってなぜ重要かを説明する。Everyも、coding、writing、spreadsheetsなどでの性能を徹底的に分解した。要するに、このモデルが実際にどこで役立つのかを実用目線で読める内容だ。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2045246172022149537",
@@ -289,8 +290,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "HTML beats image gen for many graphics",
-      "suggestedSummary": "She says designing with code often works better than image models, and she’s been making most of her graphics in HTML instead of Nano Banana. The bigger point: output quality isn’t the same as good design, and LLMs aren’t “writers” just because they can spit out text.",
+      "suggestedTitle": "多くのグラフィックではHTMLが画像生成を上回る",
+      "suggestedSummary": "彼女は、コードでデザインするほうが画像モデルよりうまくいくことが多いと言う。実際、最近はグラフィックの大半をNano BananaではなくHTMLで作っている。より大きな論点は、出力の品質と良いデザインは同じではないということだ。LLMがテキストを吐き出せるからといって、それだけで「writer」になるわけでもない。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2045394997630099922",
@@ -307,23 +308,27 @@
       ],
       "publishedAt": "2026-04-18T06:52:23.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-18",
       "source": "No Priors",
-      "title": "Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott",
+      "title": "AI時代におけるグローバル組織のスケーリングをServiceNow CEO Bill McDermottと考える",
       "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "suggestedTitle": "AI wins when it serves workflows, not replaces them",
-      "suggestedSummary": "**The Takeaway:** The real moat in enterprise AI is not model cleverness; it’s owning the workflow, context, and accountability.\n\n- ServiceNow’s edge isn’t “doing AI,” it’s being the control tower that connects models, clouds, security, and systems of record.\n- McDermott argues that for enterprise buyers, a software mistake is far less forgivable than a human one—so deterministic workflows still matter.\n- His leadership philosophy is blunt: confidence comes from work, and “a shot” is the most valuable thing you can give people.\n\nBill McDermott, CEO of ServiceNow and a veteran of Xerox and SAP, frames his career as a long lesson in customer obsession and disciplined execution. He started by buying a deli at 16, not because he was a natural entrepreneur, but because it consolidated multiple jobs into one and gave him control. That experience shaped his core belief: “the customer and the customer alone determines whether you win or lose.”\n\nThat same thinking drives his view of AI. He’s not buying the hype that language models will simply swallow enterprise software. Instead, he sees a split between answering questions and actually closing work. A model can suggest steps; a platform can route the case through HR, finance, legal, compliance, and risk until it’s resolved. His line is sharp: “People that run businesses understand that people make mistakes. They never will forgive software for making a mistake.”\n\nMcDermott’s bigger bet is that AI should amplify human ambition, not erase it. He wants ServiceNow to be the “AI control tower for business reinvention,” integrating hyperscalers, models, and enterprise systems while extending into security and operational technology. The philosophy underneath it is old-school but timely: opportunity matters, people matter, and the best technology is the one that helps humans do harder things faster without losing trust.",
+      "suggestedTitle": "AIはワークフローに奉仕してこそ勝つ。置き換えるだけではない",
+      "suggestedSummary": "【要点】エンタープライズAIの本当の堀は、modelの賢さではない。ワークフロー、コンテキスト、責任の所在を握ることだ。\n\n- ServiceNowの強みは「AIをやること」ではない。model、cloud、security、system of recordをつなぐコントロールタワーであることだ。\n- McDermottは、エンタープライズの買い手にとって、softwareのミスは人間のミスよりはるかに許されにくいと見る。だからこそ、deterministicなワークフローが今も重要だ。\n- 彼のリーダーシップ哲学は明快だ。自信は仕事から生まれる。そして人に与えられる最も価値あるものは「a shot」だ。\n\nServiceNowのCEOであり、XeroxとSAPで経験を積んだBill McDermottは、自身のキャリアを、顧客への執着と規律ある実行を学び続けた長い道のりとして語る。16歳でデリを買ったのも、天性の起業家だったからではない。複数の仕事を1つにまとめ、自分でコントロールできるようにするためだった。この経験が、彼の核となる信念を形づくった。「勝つか負けるかを決めるのは、顧客ただ一人だ」。\n\n同じ考え方が、彼のAI観を動かしている。language modelがenterprise softwareをそのまま飲み込む、という大げさな話は信じていない。彼が見るのは、質問に答えることと、実際に仕事を完了させることの分岐だ。modelは次の手順を提案できる。だがplatformは、案件をHR、finance、legal、compliance、riskへ振り分け、解決まで運べる。彼の言葉は鋭い。「businessを運営する人間は、人がミスをすることを理解している。softwareがミスをすることだけは、決して許さない」。\n\nMcDermottの大きな賭けは、AIは人間の野心を消すのではなく、増幅すべきだという点にある。彼はServiceNowを「business reinventionのためのAI control tower」にしたいと考えている。hyperscaler、model、enterprise systemを統合しつつ、securityとoperational technologyにも広げていく構想だ。その根底にある哲学は古典的だが、今の時代にこそ刺さる。機会は重要だ。人も重要だ。そして最高のtechnologyとは、人間がより難しいことを、信頼を失わずに、より速くやれるようにするものだ。",
       "publishedAt": "2026-04-17T20:44:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 16,
     "totalTweets": 33,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-18T14:13:37.782Z"
+    "generatedAt": "2026-04-18T14:13:56.386Z",
+    "estimatedReadTime": "7 分"
   }
 }
