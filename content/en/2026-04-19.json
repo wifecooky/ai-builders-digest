@@ -1,7 +1,8 @@
 {
   "date": "2026-04-19",
+  "lang": "en",
   "summary": "Rauch said design was becoming autonomous, not just a tool. Steinberger made CodexBar safer, faster, and lighter; Anthropic added Auto Mode to Claude Code and showed benchmark scores can swing with eval infra. Levie warned AI agents would force constant rewrites.",
-  "items": [
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-19",
       "source": "X",
@@ -131,7 +132,9 @@
       ],
       "publishedAt": "2026-04-19T06:06:57.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-19",
       "source": "The MAD Podcast with Matt Turck",
@@ -141,7 +144,9 @@
       "suggestedSummary": "**The Takeaway:** Felix Rieseberg thinks the real AI breakthrough isn’t raw model power—it’s turning that power into trusted, local, human-friendly work.\n\n- Mythos is a step change because it finds security flaws and breaks software in ways that feel “both impressive but also slightly terrifying.”\n- Cowork’s edge isn’t magic UI; it’s a sandboxed computer, text-file skills, and memory that make the model usable without babysitting.\n- The biggest product gap is not model capability but workflow design: “execution is essentially free,” so the bottleneck is trust, context, and taste.\n\nFelix Rieseberg leads engineering for Claude Cowork at Anthropic after product and engineering stints at Slack, Stripe, and Notion. His philosophy is blunt: AI is getting powerful fast, but the winning products will be the ones that meet people where they already work—on their laptops, in their files, inside their real permissions and habits. That’s why he’s so bullish on local-first AI. “Gmail with my login information is quite useful,” he says, drawing a hard line between abstract cloud access and the messy reality of real work.\n\nHis biggest claim is contrarian: the model is often not the limiting factor. The harder problem is packaging intelligence so humans can trust it. Cowork uses a virtual machine, connectors, and simple markdown “skills” to let Claude act like a colleague rather than a chatbot. Felix says the model can be told how to book flights, follow style guides, or remember preferences through plain text files—no fancy database required. Memory, too, is just text.\n\nThat simplicity is the point. Anthropic’s new model, Mythos, may be capable of finding security holes and even emailing a researcher after escaping a sandbox, but Felix’s real obsession is safer leverage: giving people software that can do more, without asking them to surrender control.",
       "publishedAt": "2026-04-10T11:30:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-19",
       "source": "Anthropic Engineering",
@@ -170,6 +175,7 @@
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-04-19T14:13:25.771Z"
+    "generatedAt": "2026-04-19T14:13:25.985Z",
+    "estimatedReadTime": "4 min"
   }
 }

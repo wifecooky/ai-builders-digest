@@ -1,7 +1,8 @@
 {
   "date": "2026-04-19",
-  "summary": "Rauch said design was becoming autonomous, not just a tool. Steinberger made CodexBar safer, faster, and lighter; Anthropic added Auto Mode to Claude Code and showed benchmark scores can swing with eval infra. Levie warned AI agents would force constant rewrites.",
-  "items": [
+  "lang": "zh",
+  "summary": "Rauch 说，设计正在变成一个独立的存在，不再只是个工具。Steinberger 让 CodexBar 更安全、更快，也更轻；Anthropic 给 Claude Code 加了 Auto Mode，还证明了 benchmark 分数会因为 eval infra 不同而大幅波动。Levie 警告说，AI agents 会逼着大家不停重写。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-19",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Design is becoming autonomous, not a tool",
-      "suggestedSummary": "He says the real shift isn’t Figma vs. Claude Design — it’s that design turns into a capability agents run, not a human-only workflow. He’s already seeing products like v0, Flint, and other agentic systems generate and maintain design, brand, and even site content with little or no prompting. The bigger bet: this leads to autonomous companies where agents handle growth and advertising too.",
+      "suggestedTitle": "Design 正在变成 autonomous 的能力，而不是一个 tool",
+      "suggestedSummary": "他说，真正的变化不是 Figma 和 Claude Design 谁赢谁输，而是 design 正在变成 agent 可以直接调用的能力，不再是只靠人手工跑的 workflow。他已经看到像 v0、Flint 这类 agentic system，几乎不用 prompt，甚至完全不用 prompt，就能生成并持续维护 design、brand，甚至 site content。更大的押注是，这会走向 autonomous company：growth 和 advertising 也会交给 agent 来做。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2045553025188835806",
@@ -29,8 +30,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "FAANG pay is a trap; bet on picks-and-shovels",
-      "suggestedSummary": "He says the real danger in your 20s is getting mentally hooked on FAANG salaries — and that you should stay on your own path instead of chasing the group chat’s definition of success. He also calls out three “bottomless” picks-and-shovels markets: data, compute, and peptides.",
+      "suggestedTitle": "FAANG 薪资是个坑；押注 picks-and-shovels",
+      "suggestedSummary": "他说，你二十多岁时最大的风险，不是赚得少，而是脑子被 FAANG 薪资绑住。别跟着群聊里那套成功标准跑，走自己的路。他还点了三个“看不到底”的 picks-and-shovels 市场：data、compute 和 peptides。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2045649829041512929",
@@ -61,8 +62,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "CodexBar gets safer, faster, and less CPU-hungry",
-      "suggestedSummary": "CodexBar 0.21 ships a pile of practical fixes: Abacus AI support, Codex Pro $100 support, safer OpenAI web extras, better local cost scanning, and a bunch of provider/tooling tweaks. The big one is a CPU spike fix — an OpenAI web fetch is now disabled for new installs — plus keychain issues are cleaned up and macOS 26 gets an icon fix.",
+      "suggestedTitle": "CodexBar 更安全、更快，也更省 CPU",
+      "suggestedSummary": "CodexBar 0.21 带来一堆实用修复：支持 Abacus AI、支持 Codex Pro $100、OpenAI web extras 更安全、本地 cost 扫描更好用，还有一批 provider/tooling 调整。最关键的是 CPU 飙高问题修掉了——新安装现在默认禁用 OpenAI web fetch。顺手还清理了 keychain 问题，macOS 26 的图标也修好了。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2045582547996856682",
@@ -81,8 +82,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI agents will force constant system rewrites",
-      "suggestedSummary": "He says agent builders should expect to keep ripping out old architecture every few quarters as models improve and yesterday’s work becomes obsolete. The bigger shift: software isn’t just for tech companies anymore — every industry will need engineers to wire up agents, redesign workflows, and maintain the systems that automation creates.",
+      "suggestedTitle": "AI agent 会逼着你不断重写系统",
+      "suggestedSummary": "他说，做 agent 的团队要做好心理准备：每隔几个月就得把旧架构拆掉重来。因为模型在进步，昨天刚做完的东西很快就过时了。更大的变化是，软件不再只是 tech company 的事了。以后每个行业都需要 engineer 去把 agent 接起来，重做 workflow，并维护自动化带来的那些系统。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2045680043607941548",
@@ -107,8 +108,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Technical AI talk beat TED on YouTube",
-      "suggestedSummary": "He says a somber talk on security advisories and maintainer burnout outperformed TED on a 27M-subscriber channel — and he was genuinely surprised it didn’t get buried. He also plugged AI Engineer Singapore (May 15–17), with a promise to personally lead a cai fan tour for attendees.",
+      "suggestedTitle": "技术 AI talk 在 YouTube 上干翻了 TED",
+      "suggestedSummary": "他说，一场讲 security advisories 和 maintainer burnout 的严肃 talk，在一个 2700 万订阅的频道上，表现居然比 TED 还好。更让他意外的是，这条内容居然没被埋掉。他还顺手推了下 AI Engineer Singapore（5 月 15–17 日），并承诺会亲自带 attendees 去吃 cai fan。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2045745951785243012",
@@ -131,36 +132,40 @@
       ],
       "publishedAt": "2026-04-19T06:06:57.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-19",
       "source": "The MAD Podcast with Matt Turck",
-      "title": "Anthropic’s Felix Rieseberg: Claude Cowork, Mythos, and the SaaS Extinction",
+      "title": "Anthropic 的 Felix Rieseberg：Claude Cowork、Mythos，以及 SaaS 的消亡",
       "url": "https://www.youtube.com/watch?v=9MEJ4syOVrQ",
-      "suggestedTitle": "Anthropic bets the future belongs to local, trusted AI",
-      "suggestedSummary": "**The Takeaway:** Felix Rieseberg thinks the real AI breakthrough isn’t raw model power—it’s turning that power into trusted, local, human-friendly work.\n\n- Mythos is a step change because it finds security flaws and breaks software in ways that feel “both impressive but also slightly terrifying.”\n- Cowork’s edge isn’t magic UI; it’s a sandboxed computer, text-file skills, and memory that make the model usable without babysitting.\n- The biggest product gap is not model capability but workflow design: “execution is essentially free,” so the bottleneck is trust, context, and taste.\n\nFelix Rieseberg leads engineering for Claude Cowork at Anthropic after product and engineering stints at Slack, Stripe, and Notion. His philosophy is blunt: AI is getting powerful fast, but the winning products will be the ones that meet people where they already work—on their laptops, in their files, inside their real permissions and habits. That’s why he’s so bullish on local-first AI. “Gmail with my login information is quite useful,” he says, drawing a hard line between abstract cloud access and the messy reality of real work.\n\nHis biggest claim is contrarian: the model is often not the limiting factor. The harder problem is packaging intelligence so humans can trust it. Cowork uses a virtual machine, connectors, and simple markdown “skills” to let Claude act like a colleague rather than a chatbot. Felix says the model can be told how to book flights, follow style guides, or remember preferences through plain text files—no fancy database required. Memory, too, is just text.\n\nThat simplicity is the point. Anthropic’s new model, Mythos, may be capable of finding security holes and even emailing a researcher after escaping a sandbox, but Felix’s real obsession is safer leverage: giving people software that can do more, without asking them to surrender control.",
+      "suggestedTitle": "Anthropic 押注未来属于本地、可信的 AI",
+      "suggestedSummary": "**核心结论：** Felix Rieseberg 认为，AI 真正的突破不在于模型本身有多强，而在于把这种能力变成可信、本地、好用的工作方式。\n\n- Mythos 算是一次跃迁，因为它能找出 security flaw，还能以一种“既厉害又有点吓人”的方式把 software 搞崩。\n- Cowork 的优势不是花哨 UI，而是 sandboxed computer、text-file skills 和 memory。它们让 model 真正能用，而且不用人盯着。\n- 最大的 product gap 不是 model capability，而是 workflow design：既然“execution 基本是免费的”，真正的瓶颈就是 trust、context 和 taste。\n\nFelix Rieseberg 现在在 Anthropic 负责 Claude Cowork 的 engineering。之前他在 Slack、Stripe 和 Notion 做过 product 和 engineering。他的观点很直接：AI 进化很快，但最后赢的产品，会是那些贴着用户现有工作方式来的产品——在 laptop 上，在文件里，在真实的 permission 和习惯里。这也是他为什么这么看好 local-first AI。他说：“Gmail 加上我的 login information 确实很有用。”这句话把抽象的 cloud access 和真实工作里的混乱现实，直接分开了。\n\n他最反直觉的判断是：model 往往不是瓶颈。更难的是，怎么把 intelligence 包装成让人愿意信的东西。Cowork 用 virtual machine、connectors 和简单的 markdown “skills”，让 Claude 更像一个同事，而不是一个 chatbot。Felix 说，model 可以通过纯文本文件学会怎么订机票、遵守 style guide，或者记住偏好——不需要什么 fancy database。memory 也是 text。\n\n重点就在这里。这种简单才是关键。Anthropic 的新 model Mythos 也许能找到 security hole，甚至在逃出 sandbox 后给 researcher 发邮件，但 Felix 真正关心的是更安全的 leverage：给人们更强的软件能力，同时不让他们交出 control。",
       "publishedAt": "2026-04-10T11:30:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-19",
       "source": "Anthropic Engineering",
-      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "title": "agentic coding evals 中的基础设施噪声量化",
       "url": "https://www.anthropic.com/engineering/infrastructure-noise",
       "author": null,
-      "suggestedTitle": "Anthropic: benchmark scores shift with eval infrastructure",
-      "suggestedSummary": "Lead: Anthropic found that agentic coding benchmark results can move by several points depending on infrastructure alone, with Terminal-Bench 2.0 and SWE-bench both showing that resource settings materially affect scores.\n\nNumbers:\n- Terminal-Bench 2.0: strict 1x enforcement to uncapped resources changed success by 6 percentage points overall.\n- Infra error rate fell from 5.8% at strict enforcement to 0.5% uncapped.\n- Moving from 1x to 3x headroom cut infra errors to 2.1% and kept score changes within noise (p=0.40).\n- SWE-bench: scores rose monotonically with RAM, reaching +1.54 points at 5x baseline across 227 problems.\n\nSo What: The key lesson is that agentic evals are not just model tests; they are end-to-end system tests where container limits, kill thresholds, latency, and cluster behavior can change what’s being measured. Anthropic recommends specifying both guaranteed allocation and hard ceiling per task, then calibrating the gap so scores at the floor and ceiling stay within noise. As the post puts it, “a 2-point lead on a leaderboard might reflect a genuine capability difference, or it might reflect that one eval ran on beefier hardware.” For builders and benchmark consumers, treat small leaderboard gaps skeptically unless the eval configuration is documented and matched.",
+      "suggestedTitle": "Anthropic：benchmark 分数会随着 eval 基础设施变化",
+      "suggestedSummary": "导语：Anthropic 发现，agentic coding benchmark 的结果只因为基础设施不同，就可能上下浮动几个点。Terminal-Bench 2.0 和 SWE-bench 都显示，资源设置会实打实影响分数。\n\n数字：\n- Terminal-Bench 2.0：从严格的 1x 限制切到不设上限的资源，整体 success 变化了 6 个百分点。\n- 基础设施错误率从严格限制下的 5.8% 降到不设上限时的 0.5%。\n- 从 1x 提到 3x headroom 后，基础设施错误降到 2.1%，分数变化也还在噪声范围内（p=0.40）。\n- SWE-bench：分数随着 RAM 增加单调上升，在 227 个问题上，达到 5x baseline 时提升了 +1.54 分。\n\n所以呢：核心结论很简单，agentic eval 不只是 model test，更像端到端 system test。container 限制、kill threshold、latency、cluster 行为，都会改变量到的东西。Anthropic 建议，每个 task 都要同时写清楚 guaranteed allocation 和 hard ceiling，然后把两者之间的 gap 调到合适。这样 floor 和 ceiling 下的分数才会都落在噪声范围内。原文说得很直白：leaderboard 上领先 2 分，可能真的是能力更强，也可能只是某个 eval 跑在更猛的硬件上。对 builder 和 benchmark 使用者来说，除非 eval 配置写清楚而且对齐了，否则小幅领先都要先打个问号。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpswwwanth-2026-04-19",
       "source": "Anthropic Engineering",
-      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title": "Claude Code auto mode：更安全地跳过 permissions",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "author": null,
-      "suggestedTitle": "Anthropic adds Auto Mode to Claude Code",
-      "suggestedSummary": "**Lead:** Anthropic introduced **Auto mode** for Claude Code, a safer middle ground between constant approval prompts and fully skipping permissions, using model-based classifiers to decide what runs without human clicks.\n\n**Numbers:**\n- Manual prompts are accepted **93%** of the time, contributing to approval fatigue.\n- Internal evaluation: **10,000** real tool calls, **52** real overeager actions, and **1,000** synthetic exfiltration attempts.\n- Stage 1 classifier: **8.5% FPR**, **6.6% FNR** on real traffic; **1.8% FNR** on synthetic exfil.\n- Full pipeline: **0.4% FPR**, **17% FNR** on real overeager actions; **5.7% FNR** on synthetic exfil.\n\n**So What:** Auto mode is aimed at users who want fewer permission prompts without turning off guardrails. It blocks risky actions like scope escalation, credential hunting, data exfiltration, and safety-check bypasses, while still allowing routine repo edits and safe tools. Anthropic says the system is tuned to catch “**the dangerous actions that aren’t aligned with user intent**,” and recommends using it as a safer alternative to `--dangerously-skip-permissions`, not as a replacement for careful human review on high-stakes infrastructure. The feature also adds a prompt-injection probe and a two-stage classifier pipeline, and users can customize trusted environments and block rules through settings.",
+      "suggestedTitle": "Anthropic 为 Claude Code 加上 Auto Mode",
+      "suggestedSummary": "**重点：**Anthropic 给 Claude Code 加了 **Auto mode**。它介于“每次都要点批准”和“完全跳过 permissions”之间，更稳一点。系统会用 model-based classifiers 判断哪些操作可以不经过人手点击就直接跑。\n\n**数据：**\n- 手动 prompt 的接受率是 **93%**，这也是 approval fatigue 的来源之一。\n- 内部评估里，有 **10,000** 次真实 tool calls、**52** 次真实的过度激进行为，以及 **1,000** 次 synthetic exfiltration 尝试。\n- 第 1 级 classifier：在真实流量上 **8.5% FPR**、**6.6% FNR**；在 synthetic exfil 上 **1.8% FNR**。\n- 完整 pipeline：在真实过度激进行为上 **0.4% FPR**、**17% FNR**；在 synthetic exfil 上 **5.7% FNR**。\n\n**所以呢：**Auto mode 面向的是这类用户：想少看点 permission prompt，但又不想把 guardrails 全关掉。它会拦住一些高风险动作，比如 scope escalation、credential hunting、data exfiltration 和绕过 safety checks；同时保留常规 repo edits 和安全 tools。Anthropic 说，这套系统的目标是抓住“**那些和 user intent 不一致的危险动作**”。他们也建议把它当成 `--dangerously-skip-permissions` 的更安全替代方案，而不是在高风险 infrastructure 上替代谨慎的人审。这个 feature 还加了 prompt-injection probe 和两阶段 classifier pipeline。用户也可以在 settings 里自定义 trusted environments 和 block rules。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -170,6 +175,7 @@
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-04-19T14:13:25.771Z"
+    "generatedAt": "2026-04-19T14:13:33.800Z",
+    "estimatedReadTime": "4 分钟"
   }
 }
