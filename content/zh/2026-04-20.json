@@ -1,7 +1,8 @@
 {
   "date": "2026-04-20",
-  "summary": "Rauch said an AI-accelerated attack exposed Vercel’s weak link, while Kothari warned AI will supercharge attacks too. Garry Tan called Claude Code the new app factory, and Peter Yang noted agents still flaked on boring cron jobs.",
-  "items": [
+  "lang": "zh",
+  "summary": "Rauch 说，一次 AI 加速的攻击暴露了 Vercel 的薄弱环节；Kothari 则警告，AI 也会把攻击能力直接拉满。Garry Tan 把 Claude Code 称作新的 app factory，Peter Yang 则指出，agents 在那些枯燥的 cron jobs 上还是会掉链子。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-20",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "AI-accelerated attack exposed Vercel’s weak link",
-      "suggestedSummary": "He says a Vercel employee was compromised through a breached AI platform customer account, then the attacker used that foothold to reach Vercel environments. The company thinks the group was highly sophisticated — and possibly sped up by AI — but says customer impact looks limited and it’s already pushing new env-var security controls plus secret rotation guidance.",
+      "suggestedTitle": "AI 加速的攻击暴露了 Vercel 的薄弱环节",
+      "suggestedSummary": "他说，一名 Vercel 员工是通过一个被入侵的 AI platform 客户账号被攻破的。之后，攻击者借着这个立足点进入了 Vercel 的环境。公司认为这伙人手法很高明，甚至可能借助了 AI 提速。不过它也表示，客户影响看起来有限，而且已经在推进新的 env-var 安全控制和 secret rotation 指南。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2045995362499076169",
@@ -29,8 +30,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI won’t shrink jobs — it’ll make them harder",
-      "suggestedSummary": "AI productivity gains won’t replace most roles so much as raise the bar: when everyone gets better tools, the job itself expands. He argues the engineer, paralegal, editor, and analyst of the future will be judged on bigger, more complex work — not the old baseline tasks.",
+      "suggestedTitle": "AI 不会缩减岗位，只会把工作门槛抬高",
+      "suggestedSummary": "AI 带来的生产力提升，不会替代大多数岗位，更多是把标准拉高。工具人人都有了，工作本身也会扩张。他的观点是，未来的 engineer、paralegal、editor 和 analyst，考核的不是以前那些基础活，而是更大、更复杂的工作。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2046067263326028108",
@@ -49,8 +50,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI shifts teams from building to listening",
-      "suggestedSummary": "She argues product teams should spend way more time talking to users and customers, because AI is making execution cheap while problem selection gets more important. With smaller teams and fewer internal meetings, the real edge becomes understanding the problem — then handing the messy implementation to agents.",
+      "suggestedTitle": "AI 让团队从“做”转向“听”",
+      "suggestedSummary": "她认为，产品团队应该花更多时间和用户、客户聊。因为 AI 正在把执行变得很便宜，而问题选择变得更重要。团队更小了，内部会议也更少了。真正的优势，变成了先把问题想清楚，再把那些乱七八糟的实现交给 agent。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2045810170245386713",
@@ -69,8 +70,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "AI will supercharge attacks, not just defenses",
-      "suggestedSummary": "Cybersecurity is headed for a bigger market because attack volume will keep rising as model capabilities improve. The real weak point stays the same: humans, which means infra providers and security teams are about to get a lot more pressure.",
+      "suggestedTitle": "AI 会先把攻击能力拉满，不只是防守",
+      "suggestedSummary": "随着 model 能力继续提升，攻击数量只会越来越多，所以 cybersecurity 市场还会继续变大。真正的短板其实没变：还是人。这也意味着 infra provider 和 security team 接下来会承受更大的压力。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2046007615512256624",
@@ -101,8 +102,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI agents still flake on boring cron jobs",
-      "suggestedSummary": "He says OpenClaw + GPT couldn’t reliably handle a simple weekly stats recap email, even after a lot of back-and-forth and model switching. The takeaway is blunt: agentic workflows still feel brittle for mundane follow-through, and he’s hoping GPT-5.5 or similar finally makes them dependable.",
+      "suggestedTitle": "AI agent 还是搞不定那些无聊的 cron job",
+      "suggestedSummary": "他说，OpenClaw + GPT 连一个简单的每周数据汇总邮件都没法稳定搞定。中间来回折腾了很多次，还切过好几个 model。结论很直接：agentic workflow 在这种日常收尾任务上还是很脆，靠不住。他希望 GPT-5.5 或类似的模型，能终于把这件事做稳。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2046036593199497615",
@@ -133,8 +134,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Serverless went headless; diligence got harder",
-      "suggestedSummary": "He jokes that VCs should do more diligence, but software has gotten so abstract — first serverless, now headless — there’s less surface area left to inspect. The real point: in a world of thinner infrastructure, investors need sharper judgment, not just more checklists.",
+      "suggestedTitle": "Serverless 变成了 headless；尽调更难了",
+      "suggestedSummary": "他开玩笑说，VC 应该多做点尽调。但软件已经抽象到离谱了——先是 serverless，现在又是 headless——能检查的表面越来越少。真正的意思是：在基础设施越来越薄的世界里，投资人需要更强的判断力，而不只是更多 checklist。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2045987462409826604",
@@ -159,8 +160,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Claude Code is becoming the new app factory",
-      "suggestedSummary": "He says he spots a need in his own workflow, has Claude Code build it, then ships it open source. The latest example is GStack v1.4, which adds a new /make-pdf skill and is built to work well with OpenClaw/Hermes and Claude Code as a tool. He’s also pushing OpenClaw to replace crons and subagents where possible, with better plugin APIs as the real fix.",
+      "suggestedTitle": "Claude Code 正在变成新的 app factory",
+      "suggestedSummary": "他说，自己先在工作流里发现一个需求，然后让 Claude Code 把它做出来，再开源发布。最新的例子是 GStack v1.4，新增了一个 /make-pdf skill，并且专门针对 OpenClaw/Hermes 和把 Claude Code 当作工具来协作的场景做了优化。他也在推动 OpenClaw 尽量替代 crons 和 subagents，真正的解法还是更好的 plugin APIs。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2046097200292511968",
@@ -191,8 +192,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Bad PR can be the best PR",
-      "suggestedSummary": "He argues that sounding bad at PR can actually make people trust you more, because it reads as less polished and less deceptive. He also frames some press releases as basically asking for a fake choice — like picking a red or green Lambo instead of questioning the purchase itself.",
+      "suggestedTitle": "糟糕的 PR 反而可能是最好的 PR",
+      "suggestedSummary": "他认为，PR 做得不够“漂亮”，反而更容易让人信任你。因为这会显得没那么精修，也没那么像在刻意误导。他还把一些 press release 形容成在逼你做一个假选择——比如让你在红色和绿色的 Lambo 里二选一，而不是去质疑这笔买卖本身。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2045910980597530836",
@@ -215,23 +216,27 @@
       ],
       "publishedAt": "2026-04-19T17:02:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-20",
       "source": "Unsupervised Learning",
-      "title": "Ep 84: OpenAI’s Chief Scientist on Continual Learning Hype, RL Beyond Code, &amp; Future Alignment Directions",
+      "title": "第84期：OpenAI 首席科学家谈持续学习热潮、超越代码的 RL，以及未来的对齐方向",
       "url": "https://www.youtube.com/watch?v=vK1qEF3a3WM",
-      "suggestedTitle": "OpenAI is betting on longer-horizon autonomy, not just smarter chatbots",
-      "suggestedSummary": "**The Takeaway:** The real frontier isn’t chatty AI — it’s models that can work for days, verify progress, and discover things.\n\n- Math and coding became the proving ground because they’re hard but checkable; that same logic is now being pushed into messier domains like science, medicine, and law.\n- The next leap isn’t “more prompts,” it’s longer autonomy: models that can evaluate partial progress, use more compute at test time, and keep going on open-ended tasks.\n- OpenAI’s internal focus has shifted from benchmark bragging rights to practical research leverage, because “the models are going to drive a lot of that.”\n\nAko Paioki, OpenAI’s chief scientist, sounds less interested in hype than in the mechanics of making AI useful. His view is that coding tools like Codex are a signal, not the destination: OpenAI already uses them for most actual coding, and he expects the pattern to extend into research workflows. The same goes for math. Benchmarks like IMO problems mattered because they were a clean North Star — “Math is very measurable,” he says — but the deeper value was training models to reason over long, difficult, verifiable tasks.\n\nThat’s why he keeps returning to horizon length. A model doesn’t need to be told “go solve alignment” tomorrow; it needs to get better at making partial progress on a long project, checking itself, and staying useful over time. He thinks RL will matter beyond code, but not as a copy-paste of today’s pipelines. The bigger shift may be models that adapt through context and existing interfaces — Slack, tools, workflows — rather than forcing companies to build bespoke harnesses around them.\n\nThe most revealing line: “We are no longer really purely building brains in the sky.” The message is clear: the company is optimizing for models that can touch the real world, accelerate research, and eventually become collaborators, not just assistants.",
+      "suggestedTitle": "OpenAI 正在押注更长周期的自主能力，而不只是更聪明的聊天机器人",
+      "suggestedSummary": "**核心结论：** 真正的前沿不是会聊天的 AI，而是能连续工作几天、自己验证进展、还能发现新东西的模型。\n\n- 数学和编程之所以先成了试金石，是因为它们难，但结果可验证。现在，这套逻辑正被推到更混乱的领域，比如科学、医疗和法律。\n- 下一步不是“更多 prompt”，而是更长的自主执行：模型能评估阶段性进展，在测试时用更多 compute，并且能把开放式任务持续做下去。\n- OpenAI 内部的重点，已经从 benchmark 上刷分，转向更实用的研究杠杆。因为“模型会驱动很多这类事情”。\n\nAko Paioki，OpenAI 的首席科学家，听起来更关心怎么把 AI 真正做有用，而不是追 hype。他的看法是，像 Codex 这样的 coding 工具只是一个信号，不是终点：OpenAI 自己已经把它用在大部分真实 coding 里了，他也预计这个模式会扩展到 research workflow。数学也是一样。像 IMO 题这样的 benchmark 之所以重要，是因为它们很干净，像一个明确的 North Star——“Math is very measurable，”他说——但更深的价值，是训练模型去处理长周期、难、而且可验证的任务。\n\n所以他一直在强调 horizon length。模型不需要明天就被要求“去解决 alignment”；它需要先学会在一个长项目里推进到一半、自己检查自己、并且长期保持有用。他认为 RL 会在 code 之外继续发挥作用，但不会简单照搬今天的 pipeline。更大的变化，可能是模型通过 context 和现有接口来适应环境——Slack、tools、workflow——而不是逼公司围着它们单独搭一套 harness。\n\n最值得玩味的一句话是：“We are no longer really purely building brains in the sky.” 这句话意思很明确：OpenAI 现在优化的，不只是空中楼阁式的智能，而是能接触真实世界、加速 research、最终成为 collaborator，而不只是 assistant 的模型。",
       "publishedAt": "2026-04-09T13:25:11.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-20T14:32:18.344Z"
+    "generatedAt": "2026-04-20T14:32:26.336Z",
+    "estimatedReadTime": "5 分钟"
   }
 }

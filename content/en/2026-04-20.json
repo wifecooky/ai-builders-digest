@@ -1,7 +1,8 @@
 {
   "date": "2026-04-20",
+  "lang": "en",
   "summary": "Rauch said an AI-accelerated attack exposed Vercel’s weak link, while Kothari warned AI will supercharge attacks too. Garry Tan called Claude Code the new app factory, and Peter Yang noted agents still flaked on boring cron jobs.",
-  "items": [
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-20",
       "source": "X",
@@ -215,7 +216,9 @@
       ],
       "publishedAt": "2026-04-19T17:02:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-20",
       "source": "Unsupervised Learning",
@@ -227,11 +230,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-20T14:32:18.344Z"
+    "generatedAt": "2026-04-20T14:32:18.562Z",
+    "estimatedReadTime": "5 min"
   }
 }
