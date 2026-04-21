@@ -1,7 +1,8 @@
 {
   "date": "2026-04-21",
-  "summary": "Rauch said delete isn’t rotation, Levie argued agents need operators, not just users, and Steinberger kept OpenClaw pushing AI into real workflows. Shipper backed two-agent setups, while Claude warned teams to harden security now.",
-  "items": [
+  "lang": "ja",
+  "summary": "Rauchは、deleteはrotationではないと述べた。Levieは、agentsにはusersだけでなくoperatorsが必要だと主張した。Steinbergerは、OpenClawを通じてAIを実際のworkflowへ押し込んだ。Shipperは2-agent構成を支持した。一方でClaudeは、チームは今すぐsecurityを強化すべきだと警告した。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-21",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Delete isn’t rotation — keys can still live elsewhere",
-      "suggestedSummary": "He says the security bulletin is the source of truth after the incident, and that Vercel directly contacted customers likely affected. The bigger point: deleting an env var or account on Vercel doesn’t invalidate the underlying key — you have to rotate it with the vendor, or it can keep working elsewhere.",
+      "suggestedTitle": "削除はローテーションではない — keyは別の場所で生き続ける",
+      "suggestedSummary": "彼は、incident後の source of truth は security bulletin だと言う。Vercelは、影響を受けた可能性が高い customer に直接連絡したとも述べている。より重要なのは、Vercel上で env var や account を削除しても、元の key は無効化されない点だ。vendor 側で rotate しなければ、別の場所で動き続ける可能性がある。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2046406894269747668",
@@ -35,8 +36,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI agents need operators, not just users",
-      "suggestedSummary": "Moving from chatbot demos to real process automation takes real work: mapping workflows, wiring internal systems, building evals, and deciding where humans stay in the loop. He says companies will need dedicated people — often from IT, engineering, or the business side — to own that automation layer as AI becomes part of day-to-day operations.",
+      "suggestedTitle": "AI agentsにはユーザーだけでなくオペレーターが必要だ",
+      "suggestedSummary": "chatbotのデモから本当の業務自動化へ移るには、相応の作業が要る。ワークフローを整理し、社内システムをつなぎ、evalを構築し、どこで人をループに残すかを決める必要がある。彼は、AIが日常業務の一部になるにつれ、企業にはその自動化レイヤーを担う専任の人材が必要になると言う。多くはIT、エンジニアリング、あるいは事業部門の出身だ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2046397816755634340",
@@ -55,8 +56,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "OpenClaw keeps turning AI into real workflows",
-      "suggestedSummary": "He shipped two practical upgrades: `wacli 0.6.0` tightens security and reliability for the WhatsApp CLI, while `gog 0.13` adds a pile of Gmail/Docs/Slides/Sheets automation features. The bigger signal is the OpenClaw work with Tencent: they’re using evals to improve harness performance and pushing fixes back upstream, which is exactly how open source AI tools should mature.",
+      "suggestedTitle": "OpenClawはAIを実務のワークフローへと変え続けている",
+      "suggestedSummary": "彼は実用的なアップグレードを2つ出した。`wacli 0.6.0`はWhatsApp CLIのセキュリティと信頼性を強化し、`gog 0.13`はGmail/Docs/Slides/Sheetsの自動化機能を大量に追加した。より大きな示唆はTencentとのOpenClawの取り組みだ。evalsを使ってharnessの性能を改善し、修正を upstream に戻している。これこそ、オープンソースAIツールが成熟していく正しい形である。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2046375922031321401",
@@ -87,8 +88,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Two agents beat one for AI work",
-      "suggestedSummary": "He’s arguing that agentic workflows get better when you run multiple agents instead of trusting a single model to do everything. He also says Opus 4.7 is already solid at code reviews, which is a pretty practical benchmark for where these models are useful today.",
+      "suggestedTitle": "AI作業では1つより2つのagentが勝つ",
+      "suggestedSummary": "彼は、1つのmodelに何でも任せるより、複数のagentを走らせたほうがagentic workflowは良くなると主張している。さらに、Opus 4.7はすでにcode reviewで十分に優秀だとも述べている。これは、こうしたmodelが今どこで実用的なのかを測る、かなり現実的なbenchmarkだ。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2046272643133825458",
@@ -119,8 +120,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI agents are moving into design, not just code",
-      "suggestedSummary": "He says the fun part of agents isn’t only coding with them — it’s designing with them too. He also argues Codex’s frontend design gap is easy to patch with an AI design tool, and calls out Pencil as his favorite.",
+      "suggestedTitle": "AI agentはコードだけでなくデザインにも入り込んでいる",
+      "suggestedSummary": "彼は、agentの面白さは一緒にコードを書くことだけではないと言う。一緒にデザインすることにもあるという。さらに、Codexのフロントエンドデザインの弱点はAI design toolで簡単に埋められると主張する。お気に入りとしてPencilも挙げている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2046434474603446535",
@@ -151,8 +152,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Agents should think in HTML, not XML",
-      "suggestedSummary": "She argues agents are more fluent when they can express themselves in HTML — and that same idea makes slide generation look better too. It’s a small but pointed take from a builder who clearly wants agent outputs to be more legible, flexible, and useful.",
+      "suggestedTitle": "agentはXMLではなくHTMLで考えるべきだ",
+      "suggestedSummary": "彼女は、agentはHTMLで表現できるほうが流暢に振る舞えると主張する。さらに、その発想はスライド生成の見栄えも良くするという。agentの出力を、より読みやすく、柔軟で、実用的にしたいという、作り手らしい小さくも鋭い見方だ。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2046454622852657264",
@@ -171,8 +172,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI won’t price at human wages",
-      "suggestedSummary": "He argues the “AI TAM equals the human labor market” take is backwards: like every labor-automation wave before it, AI services should price near marginal cost plus a normal margin. That means the real market is huge, but not because software gets billed like people do.",
+      "suggestedTitle": "AIは人件費では値付けされない",
+      "suggestedSummary": "彼は、「AI TAMは人間の労働市場に等しい」という見方は逆だと論じる。これまでの労働自動化の波と同じく、AIサービスの価格は限界費用に通常のマージンを乗せた水準に落ち着くはずだ。つまり、実際の市場は巨大だが、それはソフトウェアが人間のように課金されるからではない。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2046284478151086178",
@@ -191,8 +192,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "OpenAI’s Sky deal may be the real computer-use win",
-      "suggestedSummary": "He says the Codex x Sky acquisition looks like one of OpenAI’s best deals of the year, because it finally makes “real” computer use feel usable instead of demoware. The bigger point: after years of flashy vision demos, agentic computer control is only now becoming practical.",
+      "suggestedTitle": "OpenAIのSky買収は、実はcomputer-useの本命かもしれない",
+      "suggestedSummary": "彼によれば、Codex x Skyの買収はOpenAIにとって今年屈指の好取引に見える。というのも、ようやく「本物」のcomputer useがデモ用の見せ物ではなく、実用的に感じられるようになったからだ。より大きな論点は、何年にもわたる派手なvisionデモのあとで、agentによるcomputer controlがようやく実用段階に入ったことだ。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2046388765820661939",
@@ -215,25 +216,29 @@
       ],
       "publishedAt": "2026-04-21T00:41:16.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-21",
       "source": "No Priors",
-      "title": "The Agentic Economy: How AI Agents Will Transform the Financial System with Circle Co-Founder and CEO Jeremy Allaire",
+      "title": "Agentic Economy: Circle共同創業者兼CEO Jeremy Allaireと見る、AI Agentが金融システムをどう変えるか",
       "url": "https://www.youtube.com/watch?v=eyobeqMdbeI",
-      "suggestedTitle": "Stablecoins are becoming the rails for an AI-run economy",
-      "suggestedSummary": "**The Takeaway:** Jeremy Allaire thinks the real breakthrough isn’t crypto speculation — it’s using stablecoins and blockchains as the payment layer for machines.\n\n**Key Insights**\n- Stablecoins are basically “full reserve money” for the internet: safer, more liquid, and designed to avoid the leverage that broke traditional banking.\n- The next big user of money may not be a person at all; AI agents will need to pay each other, hire services, and settle contracts in real time.\n- Circle’s Arc is built less like a rebel blockchain and more like financial infrastructure: known validators, deterministic finality, compliance, and USDC as the native money.\n\n**The Story**\nJeremy Allaire, co-founder and CEO of Circle, has spent more than a decade chasing one idea: a protocol for dollars on the internet. His philosophy is rooted in sound-money thinking and a reaction to financial crises — especially the kind of leverage and fragility that made the 2008 meltdown possible. His answer is stablecoins: digital dollars backed by short-duration Treasuries and cash, not fractional-reserve games.\n\nWhat’s changed is the use case. Circle’s USDC isn’t just for trading or remittances anymore; it’s becoming the default plumbing for software. Allaire argues that AI agents will increasingly do real economic work, and they’ll need money that moves instantly, globally, and programmatically. As he put it, “the agentic economy is being born as we speak.”\n\nThat’s why Circle is pushing Arc, which Allaire describes as “an economic operating system.” It’s designed for the mainstream economy, not a shadow one: financial institutions can run validators, USDC is the base currency, and settlement is final in hundreds of milliseconds. The bigger bet is philosophical: contracts, corporations, and even parts of labor may become software machines themselves. In Allaire’s world, money is no longer just a store of value — it’s an API for autonomous commerce.",
+      "suggestedTitle": "StablecoinはAI駆動の経済を支えるレールになりつつある",
+      "suggestedSummary": "**要点:** Jeremy Allaireは、本当のブレークスルーはcrypto投機ではないと見る。stablecoinとblockchainを、機械のための決済レイヤーとして使うことだ。\n\n**主な示唆**\n- Stablecoinは、インターネット向けの「full reserve money」に近い存在だ。より安全で、より流動性が高い。従来の銀行を壊したレバレッジも避ける設計だ。\n- 次の巨大なmoneyの使い手は、人間ではないかもしれない。AI agentは互いに支払い、サービスを発注し、契約をリアルタイムで決済する必要がある。\n- CircleのArcは、反逆的なblockchainというより金融インフラに近い。既知のvalidator、deterministic finality、compliance、そしてネイティブmoneyとしてのUSDCを備える。\n\n**ストーリー**\nCircleの共同創業者兼CEOであるJeremy Allaireは、10年以上にわたり1つのアイデアを追い続けてきた。インターネット上のdollar向けprotocolだ。彼の思想の根底にあるのは、sound-moneyの考え方と金融危機への反発である。特に、2008年の崩壊を可能にしたレバレッジと脆さへの反省だ。その答えがstablecoinだ。fractional-reserveの仕組みではなく、短期Treasuryとcashで裏付けられたデジタルdollarである。\n\n変わったのは用途だ。CircleのUSDCは、もはや取引やremittanceのためだけのものではない。softwareの標準的な配管になりつつある。Allaireは、AI agentが今後ますます実際の経済活動を担うようになり、そのためには即時に、グローバルに、programmaticに動くmoneyが必要になると主張する。彼の言葉を借りれば、「agentic economyは今この瞬間にも生まれている」のである。\n\nだからこそCircleはArcを推している。Allaireはこれを「economic operating system」と呼ぶ。狙いは影の経済ではなく、主流の経済だ。金融機関はvalidatorを運用でき、USDCが基軸通貨となり、settlementは数百ミリ秒で確定する。より大きな賭けは思想にある。契約、企業、さらには労働の一部までもが、software machineそのものになるかもしれない。Allaireの世界では、moneyはもはや価値の保存手段だけではない。自律的なcommerceのためのAPIである。",
       "publishedAt": "2026-04-09T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-21",
       "source": "Claude Blog",
-      "title": "Preparing your security program for AI-accelerated offense",
+      "title": "AI加速型攻撃に備えるセキュリティプログラムの準備",
       "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
       "author": null,
-      "suggestedTitle": "Claude urges AI-era security hardening now",
-      "suggestedSummary": "**Lead:** Claude says AI is collapsing the time, cost, and skill needed to find and exploit bugs, and recommends that security teams immediately harden patching, vulnerability management, testing, and incident response for an era of AI-accelerated offense.\n\n**Numbers:**\n- “Within the next 24 months,” the company expects AI models to uncover vast numbers of long-dormant bugs and chain them into exploits.\n- Patch internet-facing applications within **24 hours** of an exploit becoming available; other vulnerabilities should be fixed within **days**.\n- Plan for an **order-of-magnitude increase** in vulnerability findings and remediation workload.\n- Run tabletop exercises for **five simultaneous incidents**, not just one critical CVE.\n\n**So What:** The practical message is to shift from manual, spreadsheet-driven security to automated, model-assisted defense: patch KEV items first, use EPSS to prioritize the rest, add AI-assisted triage and code review, scan your own code with the same tools attackers will use, and tighten access with zero trust, hardware-bound identity, and short-lived tokens. Claude also argues for proactive exposure reduction and faster incident handling: “delay is now the primary risk.” For builders, the near-term play is clear—automate patching, integrate SAST and AI scanning into CI/CD, and prepare your org to absorb far more findings without slowing releases.",
+      "suggestedTitle": "Claudeが今すぐ求めるAI時代のセキュリティ強化",
+      "suggestedSummary": "**要点:** Claudeは、AIがバグの発見と悪用に必要な時間、コスト、スキルを一気に削っていると指摘する。セキュリティチームには、AI加速型攻撃の時代に備え、パッチ適用、脆弱性管理、テスト、インシデント対応を直ちに強化するよう勧めている。\n\n**数字:**\n- 「今後24か月以内に」、同社はAIモデルが長年放置されてきた大量のバグを見つけ、それらをつないで exploit に仕立てると見ている。\n- インターネットに公開されたアプリケーションは、exploit が利用可能になってから **24時間以内** にパッチを当てるべきだ。その他の脆弱性も **数日以内** に修正すべきである。\n- 脆弱性の発見件数と修正作業は、**桁違い** に増える前提で計画する必要がある。\n- 重大な CVE が1件起きる想定ではなく、**5件の同時インシデント** を想定して机上演習を行うべきだ。\n\n**要するに:** 実務上のメッセージは、手作業でスプレッドシート頼みのセキュリティから、automated で model-assisted な防御へ移ることだ。まず KEV を優先してパッチを当て、残りは EPSS で優先順位を付ける。AI支援のトリアージとコードレビューを加える。攻撃者が使うのと同じツールで自社コードをスキャンする。さらに、zero trust、hardware-bound identity、短命な token でアクセスを締める。Claudeは、事前の露出削減と迅速なインシデント対応も主張する。「遅れこそが今や最大のリスクだ」というわけだ。ビルダーにとって当面の打ち手は明快である。パッチ適用を自動化し、SAST と AIスキャンを CI/CD に組み込み、リリースを止めずに今よりはるかに多くの検出結果をさばける体制を整えることだ。",
       "publishedAt": "Apr 10, 2026",
       "category": "blogUpdates"
     }
@@ -243,6 +248,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-21T14:32:47.079Z"
+    "generatedAt": "2026-04-21T14:33:09.731Z",
+    "estimatedReadTime": "5 分"
   }
 }

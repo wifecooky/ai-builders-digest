@@ -1,7 +1,8 @@
 {
   "date": "2026-04-21",
+  "lang": "en",
   "summary": "Rauch said delete isn’t rotation, Levie argued agents need operators, not just users, and Steinberger kept OpenClaw pushing AI into real workflows. Shipper backed two-agent setups, while Claude warned teams to harden security now.",
-  "items": [
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-21",
       "source": "X",
@@ -215,7 +216,9 @@
       ],
       "publishedAt": "2026-04-21T00:41:16.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-21",
       "source": "No Priors",
@@ -225,7 +228,9 @@
       "suggestedSummary": "**The Takeaway:** Jeremy Allaire thinks the real breakthrough isn’t crypto speculation — it’s using stablecoins and blockchains as the payment layer for machines.\n\n**Key Insights**\n- Stablecoins are basically “full reserve money” for the internet: safer, more liquid, and designed to avoid the leverage that broke traditional banking.\n- The next big user of money may not be a person at all; AI agents will need to pay each other, hire services, and settle contracts in real time.\n- Circle’s Arc is built less like a rebel blockchain and more like financial infrastructure: known validators, deterministic finality, compliance, and USDC as the native money.\n\n**The Story**\nJeremy Allaire, co-founder and CEO of Circle, has spent more than a decade chasing one idea: a protocol for dollars on the internet. His philosophy is rooted in sound-money thinking and a reaction to financial crises — especially the kind of leverage and fragility that made the 2008 meltdown possible. His answer is stablecoins: digital dollars backed by short-duration Treasuries and cash, not fractional-reserve games.\n\nWhat’s changed is the use case. Circle’s USDC isn’t just for trading or remittances anymore; it’s becoming the default plumbing for software. Allaire argues that AI agents will increasingly do real economic work, and they’ll need money that moves instantly, globally, and programmatically. As he put it, “the agentic economy is being born as we speak.”\n\nThat’s why Circle is pushing Arc, which Allaire describes as “an economic operating system.” It’s designed for the mainstream economy, not a shadow one: financial institutions can run validators, USDC is the base currency, and settlement is final in hundreds of milliseconds. The bigger bet is philosophical: contracts, corporations, and even parts of labor may become software machines themselves. In Allaire’s world, money is no longer just a store of value — it’s an API for autonomous commerce.",
       "publishedAt": "2026-04-09T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-21",
       "source": "Claude Blog",
@@ -243,6 +248,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-21T14:32:47.079Z"
+    "generatedAt": "2026-04-21T14:32:47.305Z",
+    "estimatedReadTime": "5 min"
   }
 }

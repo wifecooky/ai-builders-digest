@@ -1,7 +1,8 @@
 {
   "date": "2026-04-21",
-  "summary": "Rauch said delete isn’t rotation, Levie argued agents need operators, not just users, and Steinberger kept OpenClaw pushing AI into real workflows. Shipper backed two-agent setups, while Claude warned teams to harden security now.",
-  "items": [
+  "lang": "zh",
+  "summary": "Rauch 说，delete 不算 rotation。Levie 认为，agent 需要的是 operator，不只是 user。Steinberger 则一直在推动 OpenClaw，把 AI 真正塞进实际 workflow 里。Shipper 支持 two-agent setup，而 Claude 提醒团队，现在就该把 security 加固起来。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-04-21",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Delete isn’t rotation — keys can still live elsewhere",
-      "suggestedSummary": "He says the security bulletin is the source of truth after the incident, and that Vercel directly contacted customers likely affected. The bigger point: deleting an env var or account on Vercel doesn’t invalidate the underlying key — you have to rotate it with the vendor, or it can keep working elsewhere.",
+      "suggestedTitle": "删除不等于轮换——key 可能还在别处继续生效",
+      "suggestedSummary": "他说，事故之后要以 security bulletin 为准，Vercel 也已经直接联系了可能受影响的客户。更关键的是：在 Vercel 上删掉 env var 或 account，并不会让底层 key 失效。你得去 vendor 那边做 rotate，不然它还是可能在别处继续用。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2046406894269747668",
@@ -35,8 +36,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI agents need operators, not just users",
-      "suggestedSummary": "Moving from chatbot demos to real process automation takes real work: mapping workflows, wiring internal systems, building evals, and deciding where humans stay in the loop. He says companies will need dedicated people — often from IT, engineering, or the business side — to own that automation layer as AI becomes part of day-to-day operations.",
+      "suggestedTitle": "AI agents 需要 operators，不只是 users",
+      "suggestedSummary": "从 chatbot demo 走到真正的流程自动化，得下真功夫：梳理 workflows，打通 internal systems，搭建 evals，还要想清楚哪些环节需要 humans stay in the loop。他的意思是，随着 AI 变成日常运营的一部分，公司会需要专门的人来负责这层 automation，通常来自 IT、engineering，或者 business 侧。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2046397816755634340",
@@ -55,8 +56,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "OpenClaw keeps turning AI into real workflows",
-      "suggestedSummary": "He shipped two practical upgrades: `wacli 0.6.0` tightens security and reliability for the WhatsApp CLI, while `gog 0.13` adds a pile of Gmail/Docs/Slides/Sheets automation features. The bigger signal is the OpenClaw work with Tencent: they’re using evals to improve harness performance and pushing fixes back upstream, which is exactly how open source AI tools should mature.",
+      "suggestedTitle": "OpenClaw 持续把 AI 变成真正能落地的 workflow",
+      "suggestedSummary": "他这次发了两个实用升级：`wacli 0.6.0` 把 WhatsApp CLI 的安全性和稳定性都往上提了一截；`gog 0.13` 则加了一堆 Gmail/Docs/Slides/Sheets 的自动化功能。更值得关注的是和 Tencent 一起做的 OpenClaw：他们在用 evals 提升 harness performance，还把修复往 upstream 回推。这才是 open source AI tools 该有的成熟方式。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2046375922031321401",
@@ -87,8 +88,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Two agents beat one for AI work",
-      "suggestedSummary": "He’s arguing that agentic workflows get better when you run multiple agents instead of trusting a single model to do everything. He also says Opus 4.7 is already solid at code reviews, which is a pretty practical benchmark for where these models are useful today.",
+      "suggestedTitle": "两个 agent 比一个更适合 AI 工作",
+      "suggestedSummary": "他的观点是，agentic workflow 用多个 agent 一起跑，效果会比只信一个 model 去包办一切更好。他还说 Opus 4.7 在 code review 上已经挺能打了，这其实是个很实用的 benchmark，能看出这些 model 现在到底适合干什么。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2046272643133825458",
@@ -119,8 +120,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI agents are moving into design, not just code",
-      "suggestedSummary": "He says the fun part of agents isn’t only coding with them — it’s designing with them too. He also argues Codex’s frontend design gap is easy to patch with an AI design tool, and calls out Pencil as his favorite.",
+      "suggestedTitle": "AI agent 正在进入 design，不只是 code",
+      "suggestedSummary": "他说，agent 好玩的地方不只是拿来写 code，也包括和它们一起做 design。他还认为，Codex 在 frontend design 上的短板，用一个 AI design tool 很容易补上，并点名 Pencil 是他最喜欢的。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2046434474603446535",
@@ -151,8 +152,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Agents should think in HTML, not XML",
-      "suggestedSummary": "She argues agents are more fluent when they can express themselves in HTML — and that same idea makes slide generation look better too. It’s a small but pointed take from a builder who clearly wants agent outputs to be more legible, flexible, and useful.",
+      "suggestedTitle": "agent 应该用 HTML 思考，而不是 XML",
+      "suggestedSummary": "她认为，agent 用 HTML 来表达自己会更顺手。这个思路也能让 slide 生成效果更好。这个观点不算大，但很有锋芒。出自一位 builder，显然她想让 agent 的输出更易读、更灵活，也更有用。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2046454622852657264",
@@ -171,8 +172,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI won’t price at human wages",
-      "suggestedSummary": "He argues the “AI TAM equals the human labor market” take is backwards: like every labor-automation wave before it, AI services should price near marginal cost plus a normal margin. That means the real market is huge, but not because software gets billed like people do.",
+      "suggestedTitle": "AI 不会按人类工资来定价",
+      "suggestedSummary": "他认为“AI TAM 就等于人类劳动力市场”这个说法本末倒置了。和之前每一轮劳动自动化浪潮一样，AI services 的定价更接近边际成本加正常利润，而不是按人头收费。也就是说，真正的市场会很大，但不是因为 software 会像人一样被计费。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2046284478151086178",
@@ -191,8 +192,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "OpenAI’s Sky deal may be the real computer-use win",
-      "suggestedSummary": "He says the Codex x Sky acquisition looks like one of OpenAI’s best deals of the year, because it finally makes “real” computer use feel usable instead of demoware. The bigger point: after years of flashy vision demos, agentic computer control is only now becoming practical.",
+      "suggestedTitle": "OpenAI 收购 Sky 这笔交易，可能才是真正的 computer-use 大胜",
+      "suggestedSummary": "他认为，Codex x Sky 这笔收购，很可能是 OpenAI 今年最值的一笔。因为它终于让“真正的” computer use 变得能用，而不是只停留在 demo 层面。更关键的是：过去几年那些花哨的 vision demo 之后，agentic computer control 直到现在才开始真正落地。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2046388765820661939",
@@ -215,25 +216,29 @@
       ],
       "publishedAt": "2026-04-21T00:41:16.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-21",
       "source": "No Priors",
-      "title": "The Agentic Economy: How AI Agents Will Transform the Financial System with Circle Co-Founder and CEO Jeremy Allaire",
+      "title": "Agentic Economy：AI Agents 将如何重塑金融系统——Circle 联合创始人兼 CEO Jeremy Allaire 访谈",
       "url": "https://www.youtube.com/watch?v=eyobeqMdbeI",
-      "suggestedTitle": "Stablecoins are becoming the rails for an AI-run economy",
-      "suggestedSummary": "**The Takeaway:** Jeremy Allaire thinks the real breakthrough isn’t crypto speculation — it’s using stablecoins and blockchains as the payment layer for machines.\n\n**Key Insights**\n- Stablecoins are basically “full reserve money” for the internet: safer, more liquid, and designed to avoid the leverage that broke traditional banking.\n- The next big user of money may not be a person at all; AI agents will need to pay each other, hire services, and settle contracts in real time.\n- Circle’s Arc is built less like a rebel blockchain and more like financial infrastructure: known validators, deterministic finality, compliance, and USDC as the native money.\n\n**The Story**\nJeremy Allaire, co-founder and CEO of Circle, has spent more than a decade chasing one idea: a protocol for dollars on the internet. His philosophy is rooted in sound-money thinking and a reaction to financial crises — especially the kind of leverage and fragility that made the 2008 meltdown possible. His answer is stablecoins: digital dollars backed by short-duration Treasuries and cash, not fractional-reserve games.\n\nWhat’s changed is the use case. Circle’s USDC isn’t just for trading or remittances anymore; it’s becoming the default plumbing for software. Allaire argues that AI agents will increasingly do real economic work, and they’ll need money that moves instantly, globally, and programmatically. As he put it, “the agentic economy is being born as we speak.”\n\nThat’s why Circle is pushing Arc, which Allaire describes as “an economic operating system.” It’s designed for the mainstream economy, not a shadow one: financial institutions can run validators, USDC is the base currency, and settlement is final in hundreds of milliseconds. The bigger bet is philosophical: contracts, corporations, and even parts of labor may become software machines themselves. In Allaire’s world, money is no longer just a store of value — it’s an API for autonomous commerce.",
+      "suggestedTitle": "Stablecoin 正在变成 AI 驱动经济的底层支付网络",
+      "suggestedSummary": "**核心结论：** Jeremy Allaire 认为，真正的突破不是 crypto 投机，而是把 stablecoin 和 blockchain 当成机器的支付层。\n\n**关键洞察**\n- Stablecoin 本质上就是互联网里的“full reserve money”：更安全、更有流动性，也刻意避开了传统银行业那种把杠杆玩崩的老路。\n- 下一批真正的大额 money user 可能根本不是人；AI agents 需要彼此付款、调用服务、实时结算 contract。\n- Circle 的 Arc 走的不是“反叛 blockchain”路线，更像金融基础设施：已知 validators、deterministic finality、compliance，以及把 USDC 直接做成原生 money。\n\n**故事主线**\nJeremy Allaire 是 Circle 的联合创始人兼 CEO。十多年里，他一直盯着同一个目标：给互联网做一套美元 protocol。他的思路来自 sound-money，也来自对金融危机的反思——尤其是 2008 年那种由杠杆和脆弱性一起引爆的崩盘。于是他的答案是 stablecoin：由短久期美债和现金支持的数字美元，不是那种靠 fractional-reserve 玩法撑起来的东西。\n\n变化在于 use case。Circle 的 USDC 早就不只是拿来 trading 或 remittance 了；它正在变成软件的默认底层管道。Allaire 认为，AI agents 会越来越多地承担真实经济工作，而它们需要一种能瞬时、全球、可编程流动的 money。用他的话说，\"the agentic economy is being born as we speak.\" \n\n这也是 Circle 推 Arc 的原因。Allaire 把它称作 “an economic operating system”。它不是给边缘世界用的，而是给主流经济准备的：金融机构可以跑 validators，USDC 是 base currency，settlement 在几百毫秒内就能 final。更大的赌注其实是理念层面：contract、corporation，甚至一部分 labor，未来都可能变成 software machine。按 Allaire 的设想，money 不再只是 value store，而是 autonomous commerce 的 API。",
       "publishedAt": "2026-04-09T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-21",
       "source": "Claude Blog",
-      "title": "Preparing your security program for AI-accelerated offense",
+      "title": "为 AI 加速攻击做安全准备",
       "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
       "author": null,
-      "suggestedTitle": "Claude urges AI-era security hardening now",
-      "suggestedSummary": "**Lead:** Claude says AI is collapsing the time, cost, and skill needed to find and exploit bugs, and recommends that security teams immediately harden patching, vulnerability management, testing, and incident response for an era of AI-accelerated offense.\n\n**Numbers:**\n- “Within the next 24 months,” the company expects AI models to uncover vast numbers of long-dormant bugs and chain them into exploits.\n- Patch internet-facing applications within **24 hours** of an exploit becoming available; other vulnerabilities should be fixed within **days**.\n- Plan for an **order-of-magnitude increase** in vulnerability findings and remediation workload.\n- Run tabletop exercises for **five simultaneous incidents**, not just one critical CVE.\n\n**So What:** The practical message is to shift from manual, spreadsheet-driven security to automated, model-assisted defense: patch KEV items first, use EPSS to prioritize the rest, add AI-assisted triage and code review, scan your own code with the same tools attackers will use, and tighten access with zero trust, hardware-bound identity, and short-lived tokens. Claude also argues for proactive exposure reduction and faster incident handling: “delay is now the primary risk.” For builders, the near-term play is clear—automate patching, integrate SAST and AI scanning into CI/CD, and prepare your org to absorb far more findings without slowing releases.",
+      "suggestedTitle": "Claude 呼吁现在就加强 AI 时代的安全防护",
+      "suggestedSummary": "**重点：** Claude 认为，AI 正在把发现和利用漏洞所需的时间、成本和技能门槛一起打下来。它建议安全团队立刻强化补丁管理、漏洞管理、测试和 incident response，去适应 AI 加速攻击的时代。\n\n**数据点：**\n- 公司预计，在未来 **24 个月** 内，AI models 会挖出大量长期潜伏的 bug，并把它们串成 exploits。\n- 面向互联网的应用，一旦 exploit 可用，必须在 **24 小时** 内打补丁；其他漏洞要在 **几天内** 修掉。\n- 要按 **数量级增长** 来预估漏洞发现量和修复工作量。\n- tabletop exercise 不能只演练一个关键 CVE，而是要按 **5 个同时发生的 incident** 来准备。\n\n**核心意思：** 实操上，就是从手工、靠表格驱动的安全流程，切到自动化、模型辅助的防御。先修 KEV，再用 EPSS 给剩下的漏洞排优先级。加上 AI 辅助的 triage 和 code review。用攻击者会用的同样工具扫描自己的代码。再把访问控制收紧到 zero trust、hardware-bound identity 和短生命周期 token。Claude 还强调，要主动减少暴露面，并把 incident handling 提速：**delay 现在是主要风险。** 对 builder 来说，短期最该做的很明确——自动化 patching，把 SAST 和 AI scanning 接进 CI/CD，并让组织能吞下更多 findings，同时别拖慢 release。",
       "publishedAt": "Apr 10, 2026",
       "category": "blogUpdates"
     }
@@ -243,6 +248,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-21T14:32:47.079Z"
+    "generatedAt": "2026-04-21T14:32:57.477Z",
+    "estimatedReadTime": "5 分钟"
   }
 }
