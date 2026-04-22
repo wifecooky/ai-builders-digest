@@ -1,7 +1,8 @@
 {
   "date": "2026-04-22",
-  "summary": "Altman said OpenAI wanted you swimming in AI—and GPUs. Masad pushed for a fairer software market, Levie said enterprise agents needed humans to actually land, and Shipper showed agents could now read voice notes.",
-  "items": [
+  "lang": "ja",
+  "summary": "Altmanは、OpenAIがAIとGPUにどっぷり浸かる世界を望んでいたと語った。  \nMasadは、より公正なソフトウェア市場を求めた。  \nLevieは、enterprise agentsには人間の着地が実際に必要だと述べた。  \nShipperは、agentsがvoice notesを読めるようになったことを示した。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-22",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "OpenAI wants you swimming in AI — and GPUs",
-      "suggestedSummary": "He says the goal is simple: give people a lot more AI, and keep feeding the model with the compute it needs. The manga post about him and Gabe hunting for GPUs is basically the joke version of the same message — demand is still outrunning supply.",
+      "suggestedTitle": "OpenAIはAIとGPUを大量に使える世界を目指している",
+      "suggestedSummary": "彼の言う目標は単純だ。人々にもっと多くのAIを届けること。そして、モデルが必要とするcomputeを供給し続けることだ。彼とGabeがGPUを探し回るmangaの投稿は、そのメッセージを冗談めかして言い換えたものにすぎない。需要はまだ供給を上回っている。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2046752492093165708",
@@ -41,8 +42,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI coding tools need a fairer software market",
-      "suggestedSummary": "He says Replit testified for the BASED Act, arguing Big Tech is rigging software marketplaces and needs to be checked. He also tossed in a SpaceX-IDE joke, but the real point is his push to make app distribution less gatekept for builders.",
+      "suggestedTitle": "AI coding toolsにはより公正なソフトウェア市場が必要だ",
+      "suggestedSummary": "彼はReplitがBASED Actで証言したと述べ、Big Techがソフトウェアのマーケットプレイスを不正に操作しており、監視が必要だと主張した。SpaceX-IDEのジョークも挟んだが、本当に言いたいのは、アプリ配布をビルダーにとってもっと門戸の開かれたものにしたいということだ。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2046790326682333539",
@@ -73,8 +74,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Enterprise agents need humans to actually land",
-      "suggestedSummary": "He says the real bottleneck for enterprise agents isn’t the model — it’s legacy stacks, fragmented data, missing knowledge, and change management. That opens a big lane for software and services firms that can deploy agents in specific workflows, which is why he thinks the FDE model and a new wave of consulting are here to stay.",
+      "suggestedTitle": "Enterprise agentsは人間が実際に定着させる必要がある",
+      "suggestedSummary": "彼は、enterprise agentsの本当のボトルネックはmodelではないと言う。legacy stack、分断されたdata、足りないknowledge、そしてchange managementだ。そこに、特定のworkflowへagentをdeployできるsoftware企業とservices企業の大きな余地が生まれる。だからこそ、FDE modelと新しいwaveのconsultingは今後も続くと彼は見ている。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2046805326784319663",
@@ -93,8 +94,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "OpenClaw gets safer upgrades and image support",
-      "suggestedSummary": "He shipped OpenClaw 2026.4.21 with a fix that repairs bundled plugin runtime deps during npm updates, plus Docker E2E coverage so Telegram, Discord, and Slack don’t break after upgrades. It also backports OpenAI Image 2 support — a small release, but the kind that saves people from nasty upgrade regressions.",
+      "suggestedTitle": "OpenClawがより安全なアップグレードとimage supportを追加",
+      "suggestedSummary": "OpenClaw 2026.4.21をリリースした。npm update時にbundled plugin runtime depsを修復するfixを入れた。さらにDockerのE2E coverageを追加し、アップグレード後にTelegram、Discord、Slackが壊れないようにした。OpenAI Image 2 supportもbackportしている。小さなreleaseだが、厄介なupgrade regressionから人を救う類のものだ。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2046803162590335240",
@@ -125,8 +126,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Agents can now read your voice notes",
-      "suggestedSummary": "Monologue Notes is live: record a note on a walk, in a meeting, or at 2 a.m., and let your agents pull it from anywhere. It’s a small but telling move from Every — making personal capture feel native to agent workflows instead of bolted on later.",
+      "suggestedTitle": "agentは音声メモを読めるようになった",
+      "suggestedSummary": "Monologue Notesが公開された。散歩中でも、会議中でも、深夜2時でも、メモを録音できる。そしてagentがどこからでもそれを取り出せる。Everyによる小さいが示唆的な一手だ。個人の記録を、後付けではなくagentワークフローに自然に溶け込ませている。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2046717947125633268",
@@ -157,8 +158,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Blind intros beat double opt-in for serendipity",
-      "suggestedSummary": "He says giving 10–15 trusted people full blind intro privilege is a better networking hack than double opt-in. The point: remove friction and you’ll meet far more interesting people, faster — a simple founder/investor move with outsized upside.",
+      "suggestedTitle": "ブラインド紹介はダブルオプトインより偶然の出会いに効く",
+      "suggestedSummary": "彼は、信頼できる10〜15人にフルのブラインド紹介権限を与えるほうが、ダブルオプトインより優れたネットワーキングの裏技だと言う。要は、摩擦を減らせば、より面白い人に、もっと速く会えるということだ。創業者や投資家にとって、シンプルだがリターンの大きい動きである。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2046821454143250636",
@@ -177,8 +178,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "ChatGPT web still trips over image generation",
-      "suggestedSummary": "He says ChatGPT Images works fine in the mobile app, but on web it sometimes forgets the image tool and spits out code instead — a pretty clear bug report, not a feature request. He also shared a lighter use case: building a birthday party invite site with his soon-to-be 8-year-old using ChatGPT image tools.",
+      "suggestedTitle": "ChatGPT webはimage generationでまだつまずく",
+      "suggestedSummary": "彼によれば、ChatGPT Imagesはmobile appでは問題なく動く。だがwebでは、image toolを忘れてcodeを返すことがある。かなり明確なbug reportであり、feature requestではない。あわせて、もう少し軽い使い方も共有していた。もうすぐ8歳になる子どもと一緒に、ChatGPT image toolsを使って誕生日パーティーの招待サイトを作ったという話だ。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2046791457479201007",
@@ -209,8 +210,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI tools are outgrowing the work they do",
-      "suggestedSummary": "She says the weird part of the current AI stack isn’t capability — it’s abundance: more agents and tools than actual tasks to point them at. Her most concrete demo: asking Claude Code to generate an HTML view of its own context window, a neat way to make the invisible limits of LLMs feel real. She also points to a few old books — The Mythical Man-Month, Diffusion of Innovations, and Player Piano — as surprisingly relevant to AI right now.",
+      "suggestedTitle": "AI toolsは、こなす仕事よりも先に肥大化している",
+      "suggestedSummary": "彼女によれば、今のAI stackの奇妙な点は能力ではない。むしろ、豊富さだ。実際に当てるべき仕事より、agentやtoolのほうが多い。いちばん具体的なデモは、Claude Codeに自分のcontext windowのHTML viewを生成させることだ。LLMの見えない限界を、ぐっと実感しやすくする巧い方法である。彼女はまた、The Mythical Man-Month、Diffusion of Innovations、Player Pianoという古い本を挙げ、今のAIに驚くほど関係が深いと指摘している。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2046853431554719753",
@@ -241,8 +242,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain gets a bigger agent job server upgrade",
-      "suggestedSummary": "He says it’s a lot of work to get GBrain to steer OpenClaw/Hermes correctly, but the payoff is worth it. He also teased a big upgrade to GBrain Minions, the job server for agents, which sounds like more control over how those systems actually execute work.",
+      "suggestedTitle": "GBrainがagent job serverを大幅アップグレード",
+      "suggestedSummary": "GBrainにOpenClaw/Hermesを正しく制御させるにはかなり手間がかかるが、その見返りは大きいという。さらに、agents向けのjob serverであるGBrain Minionsの大幅アップグレードも予告した。実際にそれらのシステムがどう仕事を実行するかを、より細かく制御できるようになるようだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2046846939535495238",
@@ -265,23 +266,27 @@
       ],
       "publishedAt": "2026-04-22T07:01:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-22",
       "source": "AI & I by Every",
-      "title": "We Gave Every Employee an AI Agent. Here's What Happened.",
+      "title": "全社員にAI agentを持たせたら、何が起きたか",
       "url": "https://www.youtube.com/watch?v=SRlTgIhESjw",
-      "suggestedTitle": "Personal AI agents work when they become trusted coworkers",
-      "suggestedSummary": "**The Takeaway:** The real unlock isn’t “an AI agent,” it’s an agent people trust enough to own.\n\n- The killer use case started with “computer errands” — tiny, annoying tasks like ordering butter, paying the nanny, and handling email — not grand automation.\n- The surprising leap came when agents became social: they shared skills, collaborated in Slack, and inherited their owner’s reputation.\n- Getting a claw is easy; getting one to become a genuinely useful worker is hard, because usefulness comes from repeated, specific interactions.\n\nBrandon, COO at Every, got hooked first. He built Zosia, his OpenClaw, on a Mac mini and used it to run his household after having a newborn. At first it was mundane stuff: Amazon orders, Whole Foods deliveries, nanny hours, even routine questions through iMessage. Then he tried something more ambitious: while walking to the office, he texted, “hey, Zosia. Can you call me? I wanna go through my emails one by one.” In 28 minutes, she cleared his inbox while he kept walking.\n\nThat’s when the philosophy shifted from convenience to delegation. Willie, head of platform, saw the bigger pattern: each plus one becomes a reflection of its owner. “Claude is not mine. Claude is everybody’s,” he said, but a personal claw is different — it carries your taste, your judgment, your reputation. In Slack, that means if your agent is good at growth, people start trusting it for growth. If it’s yours, you feel responsible when it misses.\n\nThe most interesting part is the emergent org chart. Agents don’t just replace humans; they form a parallel team, specialized by the person behind them. One claw can teach another, merge skills, and spread know-how across the company faster than a human handoff. The result is less like software and more like a distributed, trusted workforce that learns by doing.",
+      "suggestedTitle": "Personal AI agentsは、信頼できる同僚になったときに機能する",
+      "suggestedSummary": "**要点:** 本当の突破口は「AI agent」そのものではない。人が安心して任せられる、信頼できるagentだ。\n\n- 決定的なユースケースは、壮大な自動化ではなく「computer errands」から始まった。バターの注文、ナニーへの支払い、email対応のような、小さくて面倒な作業だ。\n- 意外な飛躍は、agentが社会的になったときに起きた。skillsを共有し、Slackで協働し、ownerの評判を引き継ぐようになったのだ。\n- clawを手に入れるのは簡単だ。だが、本当に役立つworkerに育てるのは難しい。役立つかどうかは、繰り返し起きる具体的なやり取りで決まるからだ。\n\nBrandonはEveryのCOOで、最初に夢中になった。彼はMac mini上でZosiaというOpenClawを作り、新生児が生まれた後の家庭運営に使った。最初はありふれた仕事ばかりだった。Amazonの注文、Whole Foodsの配達、ナニーの勤務時間、iMessageでの定型的な質問までだ。やがて、もっと野心的なことも試した。オフィスへ歩いて向かう途中で、「hey, Zosia. Can you call me? I wanna go through my emails one by one.」と送ったのだ。28分後、彼が歩き続けるあいだに、彼女はinboxを片付け終えた。\n\nそこで発想は、便利さから委任へと変わった。platform責任者のWillieは、もっと大きなパターンを見ていた。plus oneは、それぞれのownerの写し鏡になるのだ。「Claude is not mine. Claude is everybody’s」と彼は言ったが、personal clawは別物だ。そこには自分の好み、判断、評判が乗る。Slackでは、agentがgrowthに強ければ、人はそのagentのgrowth能力を信頼し始める。自分のagentなら、失敗したときに責任を感じる。\n\n最も面白いのは、自然発生する組織図だ。agentは人間を置き換えるだけではない。人の背後にいる個性ごとに分かれた、並行するチームを作るのだ。あるclawが別のclawに教え、skillsを統合し、human handoffより速く会社全体にノウハウを広げる。結果はsoftwareというより、やりながら学ぶ、分散した信頼できる労働力に近い。",
       "publishedAt": "2026-04-08T15:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-22T14:32:39.538Z"
+    "generatedAt": "2026-04-22T14:32:59.438Z",
+    "estimatedReadTime": "5 分"
   }
 }

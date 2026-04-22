@@ -1,7 +1,8 @@
 {
   "date": "2026-04-22",
-  "summary": "Altman said OpenAI wanted you swimming in AI—and GPUs. Masad pushed for a fairer software market, Levie said enterprise agents needed humans to actually land, and Shipper showed agents could now read voice notes.",
-  "items": [
+  "lang": "zh",
+  "summary": "Altman 说，OpenAI 想让你彻底泡在 AI 里——还有 GPU 里。Masad 主张软件市场要更公平；Levie 说 enterprise agents 不能只会跑，得真能落地；Shipper 则展示了 agents 现在已经能读 voice notes 了。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-22",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "OpenAI wants you swimming in AI — and GPUs",
-      "suggestedSummary": "He says the goal is simple: give people a lot more AI, and keep feeding the model with the compute it needs. The manga post about him and Gabe hunting for GPUs is basically the joke version of the same message — demand is still outrunning supply.",
+      "suggestedTitle": "OpenAI 想让你泡在 AI 里，也泡在 GPU 里",
+      "suggestedSummary": "他说，目标很简单：让大家用上更多 AI，同时继续给模型喂足它需要的 compute。那张他和 Gabe 满世界找 GPU 的漫画，基本就是把同一个意思换成了玩笑版：需求还是跑在供给前面。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2046752492093165708",
@@ -42,7 +43,7 @@
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
       "suggestedTitle": "AI coding tools need a fairer software market",
-      "suggestedSummary": "He says Replit testified for the BASED Act, arguing Big Tech is rigging software marketplaces and needs to be checked. He also tossed in a SpaceX-IDE joke, but the real point is his push to make app distribution less gatekept for builders.",
+      "suggestedSummary": "他说 Replit 为 BASED Act 作证，认为 Big Tech 正在操纵 software marketplace，得有人出来管一管。他还顺手开了个 SpaceX-IDE 的玩笑，但重点其实很明确：他想让 app distribution 别再被少数平台卡得太死，让 builders 更容易拿到入口。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2046790326682333539",
@@ -73,8 +74,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Enterprise agents need humans to actually land",
-      "suggestedSummary": "He says the real bottleneck for enterprise agents isn’t the model — it’s legacy stacks, fragmented data, missing knowledge, and change management. That opens a big lane for software and services firms that can deploy agents in specific workflows, which is why he thinks the FDE model and a new wave of consulting are here to stay.",
+      "suggestedTitle": "企业 agent 真正落地，离不开人",
+      "suggestedSummary": "他说，enterprise agent 的真正瓶颈不是 model，而是老旧 stack、数据割裂、知识缺口，还有 change management。这个问题给 software 和 services 公司留出了很大空间。只要它们能把 agent 部署到具体 workflow 里，就有机会做成生意。所以他认为 FDE model 和新一波 consulting 都会长期存在。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2046805326784319663",
@@ -93,8 +94,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "OpenClaw gets safer upgrades and image support",
-      "suggestedSummary": "He shipped OpenClaw 2026.4.21 with a fix that repairs bundled plugin runtime deps during npm updates, plus Docker E2E coverage so Telegram, Discord, and Slack don’t break after upgrades. It also backports OpenAI Image 2 support — a small release, but the kind that saves people from nasty upgrade regressions.",
+      "suggestedTitle": "OpenClaw 升级更稳了，还加了 image support",
+      "suggestedSummary": "他发布了 OpenClaw 2026.4.21。这个版本修了一个问题：npm update 时会顺手把 bundled plugin runtime deps 修回来。还补了 Docker E2E coverage，升级后 Telegram、Discord 和 Slack 不会轻易炸掉。顺带还 backport 了 OpenAI Image 2 support。版本不大，但能帮人避开很烦的 upgrade regression。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2046803162590335240",
@@ -125,8 +126,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Agents can now read your voice notes",
-      "suggestedSummary": "Monologue Notes is live: record a note on a walk, in a meeting, or at 2 a.m., and let your agents pull it from anywhere. It’s a small but telling move from Every — making personal capture feel native to agent workflows instead of bolted on later.",
+      "suggestedTitle": "agent 现在可以读你的语音笔记了",
+      "suggestedSummary": "Monologue Notes 已经上线：你可以在散步时、开会时，或者凌晨 2 点录一条笔记，然后让你的 agent 从任何地方把它拉出来。这个动作不大，但很说明问题——Every 在把个人记录做成 agent workflow 里原生的一部分，而不是后面再硬塞进去。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2046717947125633268",
@@ -157,8 +158,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Blind intros beat double opt-in for serendipity",
-      "suggestedSummary": "He says giving 10–15 trusted people full blind intro privilege is a better networking hack than double opt-in. The point: remove friction and you’ll meet far more interesting people, faster — a simple founder/investor move with outsized upside.",
+      "suggestedTitle": "盲目引荐比 double opt-in 更能带来意外惊喜",
+      "suggestedSummary": "他说，给 10–15 个你信得过的人完整的 blind intro 权限，比 double opt-in 更像一个高效的 networking hack。核心很简单：把摩擦降到最低，你就能更快认识更多有意思的人。这是个很朴素的 founder/investor 动作，但回报往往大得离谱。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2046821454143250636",
@@ -177,8 +178,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "ChatGPT web still trips over image generation",
-      "suggestedSummary": "He says ChatGPT Images works fine in the mobile app, but on web it sometimes forgets the image tool and spits out code instead — a pretty clear bug report, not a feature request. He also shared a lighter use case: building a birthday party invite site with his soon-to-be 8-year-old using ChatGPT image tools.",
+      "suggestedTitle": "ChatGPT web 还会在 image generation 上翻车",
+      "suggestedSummary": "他说，ChatGPT Images 在 mobile app 里用起来没问题，但在 web 端有时会忘了 image tool，直接吐出 code。这个更像是个明确的 bug report，不是 feature request。他还分享了一个更轻松的用法：和自己快满 8 岁的孩子一起，用 ChatGPT image tools 做一个生日派对邀请网站。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2046791457479201007",
@@ -209,8 +210,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI tools are outgrowing the work they do",
-      "suggestedSummary": "She says the weird part of the current AI stack isn’t capability — it’s abundance: more agents and tools than actual tasks to point them at. Her most concrete demo: asking Claude Code to generate an HTML view of its own context window, a neat way to make the invisible limits of LLMs feel real. She also points to a few old books — The Mythical Man-Month, Diffusion of Innovations, and Player Piano — as surprisingly relevant to AI right now.",
+      "suggestedTitle": "AI tools 的增长速度已经超过了它们实际能做的工作",
+      "suggestedSummary": "她觉得，当前 AI stack 最怪的地方不是能力不够，而是太多了：agent 和工具比真正能派上用场的任务还多。她最具体的 demo 是让 Claude Code 生成一个 HTML 视图，展示它自己的 context window。这个做法很巧，能把 LLM 的隐形边界变得很直观。她还提到几本老书——The Mythical Man-Month、Diffusion of Innovations 和 Player Piano——说它们放到今天看，和 AI 也意外地对得上。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2046853431554719753",
@@ -241,8 +242,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain gets a bigger agent job server upgrade",
-      "suggestedSummary": "He says it’s a lot of work to get GBrain to steer OpenClaw/Hermes correctly, but the payoff is worth it. He also teased a big upgrade to GBrain Minions, the job server for agents, which sounds like more control over how those systems actually execute work.",
+      "suggestedTitle": "GBrain 获得更大的 agent job server 升级",
+      "suggestedSummary": "他说，要让 GBrain 正确引导 OpenClaw/Hermes，工作量不小，但回报很值。他还暗示 GBrain Minions 会有一次大升级。它是 agents 的 job server，听起来会让这些系统在实际执行任务时有更多控制权。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2046846939535495238",
@@ -265,23 +266,27 @@
       ],
       "publishedAt": "2026-04-22T07:01:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-22",
       "source": "AI & I by Every",
-      "title": "We Gave Every Employee an AI Agent. Here's What Happened.",
+      "title": "我们给每位员工都配了一个 AI agent。结果如何？",
       "url": "https://www.youtube.com/watch?v=SRlTgIhESjw",
-      "suggestedTitle": "Personal AI agents work when they become trusted coworkers",
-      "suggestedSummary": "**The Takeaway:** The real unlock isn’t “an AI agent,” it’s an agent people trust enough to own.\n\n- The killer use case started with “computer errands” — tiny, annoying tasks like ordering butter, paying the nanny, and handling email — not grand automation.\n- The surprising leap came when agents became social: they shared skills, collaborated in Slack, and inherited their owner’s reputation.\n- Getting a claw is easy; getting one to become a genuinely useful worker is hard, because usefulness comes from repeated, specific interactions.\n\nBrandon, COO at Every, got hooked first. He built Zosia, his OpenClaw, on a Mac mini and used it to run his household after having a newborn. At first it was mundane stuff: Amazon orders, Whole Foods deliveries, nanny hours, even routine questions through iMessage. Then he tried something more ambitious: while walking to the office, he texted, “hey, Zosia. Can you call me? I wanna go through my emails one by one.” In 28 minutes, she cleared his inbox while he kept walking.\n\nThat’s when the philosophy shifted from convenience to delegation. Willie, head of platform, saw the bigger pattern: each plus one becomes a reflection of its owner. “Claude is not mine. Claude is everybody’s,” he said, but a personal claw is different — it carries your taste, your judgment, your reputation. In Slack, that means if your agent is good at growth, people start trusting it for growth. If it’s yours, you feel responsible when it misses.\n\nThe most interesting part is the emergent org chart. Agents don’t just replace humans; they form a parallel team, specialized by the person behind them. One claw can teach another, merge skills, and spread know-how across the company faster than a human handoff. The result is less like software and more like a distributed, trusted workforce that learns by doing.",
+      "suggestedTitle": "个人 AI agent 只有在变成可信赖的同事时才真正好用",
+      "suggestedSummary": "**核心结论：** 真正的突破不是“一个 AI agent”，而是一个大家愿意放心交给它事情的 agent。\n\n- 最先跑通的 killer use case 不是宏大的自动化，而是“computer errands”——那些琐碎又烦人的小事，比如订黄油、付 nanny 工资、处理 email。\n- 真正让人意外的跃迁，是 agent 开始具备社交属性：它们共享技能，在 Slack 里协作，还会继承 owner 的 reputation。\n- 拿到一个 claw 很容易，让它变成真正有用的 worker 很难。因为 usefulness 来自反复、具体的 interaction。\n\nBrandon，Every 的 COO，最先上头。他在 Mac mini 上搭了自己的 Zosia，也就是他的 OpenClaw。家里刚有 newborn 时，他就靠它来打理家务。最开始都是些很日常的事：Amazon 下单、Whole Foods 配送、nanny 工时，甚至连一些 routine 问题都通过 iMessage 处理。后来他试了个更激进的玩法：走去 office 的路上，他发消息说，“hey, Zosia. Can you call me? I wanna go through my emails one by one.” 28 分钟后，她把他的 inbox 清空了，而他还在继续走路。\n\n从那一刻起，思路就从 convenience 转向 delegation。平台负责人 Willie 看到了更大的模式：每个 plus one 都会变成 owner 的镜像。“Claude is not mine. Claude is everybody’s,” 他说。但 personal claw 不一样。它带着你的 taste、你的 judgment、你的 reputation。放到 Slack 里就是：如果你的 agent 擅长 growth，大家就会开始把 growth 相关的事交给它。它是你的，你就会在它失手时感到自己也有责任。\n\n最有意思的是那个自然长出来的 org chart。Agent 不只是替代人。它们还会形成一支平行团队，而且会按背后的人来分工。一个 claw 可以教另一个，合并 skills，把 know-how 在公司里扩散得比人类交接快得多。最后呈现出来的，不太像 software，更像一支分布式、可信赖、靠做事不断学习的 workforce。",
       "publishedAt": "2026-04-08T15:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-22T14:32:39.538Z"
+    "generatedAt": "2026-04-22T14:32:49.543Z",
+    "estimatedReadTime": "5 分钟"
   }
 }

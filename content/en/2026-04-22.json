@@ -1,7 +1,8 @@
 {
   "date": "2026-04-22",
+  "lang": "en",
   "summary": "Altman said OpenAI wanted you swimming in AI—and GPUs. Masad pushed for a fairer software market, Levie said enterprise agents needed humans to actually land, and Shipper showed agents could now read voice notes.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-04-22",
       "source": "X",
@@ -265,7 +266,9 @@
       ],
       "publishedAt": "2026-04-22T07:01:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-22",
       "source": "AI & I by Every",
@@ -277,11 +280,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-22T14:32:39.538Z"
+    "generatedAt": "2026-04-22T14:32:39.704Z",
+    "estimatedReadTime": "5 min"
   }
 }
