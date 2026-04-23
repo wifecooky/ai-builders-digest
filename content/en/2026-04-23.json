@@ -1,7 +1,8 @@
 {
   "date": "2026-04-23",
+  "lang": "en",
   "summary": "Claude added interactive charts and Claude Code desktop with parallel sessions; Josh Woodward shipped Gemini conversation branching. Amjad Masad said static analysis lifted LLMs 90%+, while Aaron Levie and Guillermo Rauch framed agents and petabyte-scale hunts as the new battleground.",
-  "items": [
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-23",
       "source": "X",
@@ -293,7 +294,9 @@
       ],
       "publishedAt": "2026-04-23T07:47:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-23",
       "source": "AI & I by Every",
@@ -303,7 +306,9 @@
       "suggestedSummary": "**The Takeaway:** The winning model isn’t full automation — it’s putting humans at the edges where judgment, taste, and ownership matter most.\n\n**Key Insights**\n- Compound Engineering treats AI work like a sandwich: humans set the frame, agents do the middle, and humans return at the end to judge and polish.\n- The most valuable human moments are not constant oversight, but the two places AI struggles most: ambiguous problem framing and final taste-based refinement.\n- As more of the rote middle gets automated, the job shifts toward product thinking, management, and making things that feel personal, beautiful, and “yours.”\n\n**The Story**\nKieran, GM of Quora and creator of the Compound Engineering framework used inside Every, built his approach by asking a practical question: how do you get AI to do better work faster without flattening the human out of it? His answer is a workflow with planning, execution, review, and a “compound” step that stores lessons back into the repo so agents improve over time. But the deeper insight is where humans belong. Early on, humans should be deeply in the loop for ideation and problem framing; later, they should step back and let the model execute. At the end, they should come back with taste. As he puts it, “the beginning and the end, and the middles can be automated pretty well.”\n\nThat’s why he pushes back on the idea that humans should always stay involved. The real leverage is knowing when to think hard and when to hand off. He compares it to music: the middle is practice, but the performance is where something alive happens. The same is true in software, design, and writing. If you want the output to be yours, it can’t be fully outsourced. The bar keeps rising, so the human edge becomes less about grinding through tasks and more about making something that “feels great.”",
       "publishedAt": "2026-04-22T18:53:47.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-23",
       "source": "Claude Blog",
@@ -321,6 +326,7 @@
     "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-23T14:42:58.657Z"
+    "generatedAt": "2026-04-23T14:42:58.876Z",
+    "estimatedReadTime": "7 min"
   }
 }

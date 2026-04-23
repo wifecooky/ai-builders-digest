@@ -1,7 +1,8 @@
 {
   "date": "2026-04-23",
-  "summary": "Claude added interactive charts and Claude Code desktop with parallel sessions; Josh Woodward shipped Gemini conversation branching. Amjad Masad said static analysis lifted LLMs 90%+, while Aaron Levie and Guillermo Rauch framed agents and petabyte-scale hunts as the new battleground.",
-  "items": [
+  "lang": "ja",
+  "summary": "Claudeはインタラクティブなチャートを追加し、Claude Code desktopでは並列セッションを実現した。Josh WoodwardはGeminiの会話分岐を出荷した。Amjad Masadは、静的解析によってLLMの精度が90%以上引き上がったと述べた。一方で、Aaron LevieとGuillermo Rauchは、エージェントとペタバイト規模の探索を新たな戦場だと位置づけた。",
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-23",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude adds interactive charts in Cowork",
-      "suggestedSummary": "Interactive charts and diagrams are now in Claude Cowork, and it’s in beta for all paid plans. It’s a small but useful step toward making Claude feel less like a chat box and more like a real work surface for analysis and planning.",
+      "suggestedTitle": "ClaudeがCoworkにインタラクティブなチャートを追加",
+      "suggestedSummary": "インタラクティブなチャートと図表が、Claude Coworkで使えるようになった。全有料プランでbeta提供だ。Claudeを単なるチャットボックスではなく、分析と計画のための実用的な作業面に近づける、小さいが有用な一歩である。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2047047633416397076",
@@ -29,8 +30,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "AI makes product overcooking way too easy",
-      "suggestedSummary": "They argue that most bad products aren’t broken by one bad choice, but by a pile of reasonable additions nobody said no to. With AI dropping the cost of shipping to near zero, teams can now add features, concepts, and polish endlessly — and end up with a noisier, less coherent product.",
+      "suggestedTitle": "AIでプロダクトを過剰に盛り込みやすくなりすぎた",
+      "suggestedSummary": "彼らは、多くのダメなプロダクトは1つの致命的な判断で壊れるのではないと言う。むしろ、誰も止めなかった妥当な追加が積み重なって崩れるのだ。AIでリリースコストがほぼゼロまで下がった今、チームは機能も概念も仕上げも際限なく足せる。結果として、より騒がしく、まとまりのないプロダクトになる。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2046957675079237668",
@@ -49,8 +50,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "ChatGPT agents make headless software the new battleground",
-      "suggestedSummary": "He says the new ChatGPT agents are a huge shift because they can plug into tools and data directly, which is what knowledge work agents need to go mainstream. His Box example shows the play: enterprise content becomes a secure knowledge source, while agents generate answers and content on the fly across Box via MCP and CLI. The bigger takeaway is that headless platforms and enterprise agent builders just got a lot more interesting.",
+      "suggestedTitle": "ChatGPT agentsがheadless softwareを新たな戦場にする",
+      "suggestedSummary": "彼は、新しいChatGPT agentsが大きな転換点だと見ている。toolsやdataに直接つながれるからだ。これは、knowledge work agentsが主流になるために必要な条件である。Boxの例がその狙いを示している。enterprise contentは安全なknowledge sourceになり、agentsはMCPとCLIを通じてBox上で答えやcontentをその場で生成する。より大きな示唆は、headless platformとenterprise agent builderの重要性が一気に増したことだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2047028112626749645",
@@ -69,8 +70,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Petabyte-scale hunt for a wider credential theft ring",
-      "suggestedSummary": "He says Vercel’s security team dug through nearly a petabyte of logs and found the attacker wasn’t just tied to the original Context.ai compromise — they were distributing malware to steal tokens and keys across providers. Vercel is now working with Microsoft, AWS, and Wiz, warning other victims to rotate creds while they keep shipping product fixes.",
+      "suggestedTitle": "より広範な credential theft ring を追うペタバイト規模の捜査",
+      "suggestedSummary": "彼によれば、Vercel の security team はほぼ 1 ペタバイトの logs を掘り下げた。その結果、攻撃者は元の Context.ai 侵害に結びついていただけではなかった。各 provider をまたいで token と key を盗む malware をばらまいていたのだ。Vercel は現在、Microsoft、AWS、Wiz と連携している。他の被害者には creds のローテーションを促しつつ、product fixes のリリースを続けている。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2047150411170320808",
@@ -89,8 +90,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini gets conversation branching",
-      "suggestedSummary": "He says a papercut fix for conversation branching is rolling out to 20% now, with a wider ramp coming. Small feature, but it matters: branching makes it easier to explore alternate paths without nuking the original thread.",
+      "suggestedTitle": "Geminiで会話の分岐が可能に",
+      "suggestedSummary": "会話の分岐に関する小さな不具合修正が、まず20%に展開されているという。今後さらに広げる予定だ。小さな機能だが、重要だ。分岐があれば、元のスレッドを壊さずに別の経路を試しやすくなる。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2047147030351642914",
@@ -109,8 +110,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Static analysis boosts LLMs by 90%+",
-      "suggestedSummary": "Replit says you can squeeze significantly better performance out of current-gen LLMs by pairing them with static analysis tools — in some cases, 90%+ better. He also pointed to Replit Agent now being callable from Gemini Enterprise, which is a neat distribution win for the product.",
+      "suggestedTitle": "静的解析でLLMの性能が90%超向上",
+      "suggestedSummary": "Replitによれば、静的解析ツールと組み合わせることで、現行世代のLLMから大幅に高い性能を引き出せるという。ケースによっては90%超の改善もある。さらに、Replit AgentがGemini Enterpriseから呼び出せるようになった点も指摘した。これは製品にとって見事な配信面での勝利だ。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2047156858214035590",
@@ -141,8 +142,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Craft beats AI slop in the last 10%",
-      "suggestedSummary": "He says AI can generate the bulk of a thing, but the part that matters is the final 10% where taste and manual polish turn it into something worth keeping. That’s the real edge: everyone can ship faster, but only people who care about craft will make work they’re proud of.",
+      "suggestedTitle": "最後の10%ではAIの粗製乱造よりクラフトが勝つ",
+      "suggestedSummary": "AIで物の大半は作れる。だが本当に重要なのは最後の10%だ。そこでは、センスと手作業の磨き込みが、残す価値のあるものに変える。これが本当の強みである。誰でもより速く出せる。だが、クラフトにこだわる人だけが、自分で誇れる仕事を作れる。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2047124883071816189",
@@ -173,8 +174,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Bigger skills, fewer branches, less context bloat",
-      "suggestedSummary": "He says the trick is to DRY up adjacent skills into bigger ones with branching params, instead of piling on lots of tiny resolvers. His take: shorter resolvers mean less context bloat, and that usually works better.",
+      "suggestedTitle": "より大きなスキル、より少ない分岐、より少ないコンテキスト肥大",
+      "suggestedSummary": "コツは、隣接するスキルを分岐パラメータ付きでより大きな単位にDRY化することだという。細かい resolver を大量に積み上げるのではなく、という話だ。彼の見立てでは、resolver が短いほどコンテキスト肥大は抑えられる。たいていはこちらのほうがうまくいく。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2047184243164651648",
@@ -205,8 +206,8 @@
       "authorHandle": "nikunj",
       "authorBio": "@railway x @meter shill",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Real-time generated pixels are coming",
-      "suggestedSummary": "Every pixel will be generated in real time — not maybe, just when. He points to a demo as a glimpse of where UI is headed: less static rendering, more on-the-fly generation.",
+      "suggestedTitle": "リアルタイム生成ピクセルの時代が来る",
+      "suggestedSummary": "すべてのピクセルはリアルタイムで生成される。たぶん、ではない。必ずそうなる。彼はあるデモを、UIが向かう先を示す手がかりとして挙げる。静的なレンダリングは減り、その場での生成が増える。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2047052668246589574",
@@ -237,8 +238,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Humans stay at the edges of AI work",
-      "suggestedSummary": "He says LLMs already write better code than most engineers, so the real human job is framing the problem and judging the output at the end. In his convo with Cora Computer’s Kieran Klaassen, he pushes the “AI sandwich” idea: models do the filling, while humans bookend the process and keep the repo learning via compound engineering. The punchline: one engineer can now ship like a small team if they know when to step in and when to let agents run.",
+      "suggestedTitle": "AI仕事の端に人間が残る",
+      "suggestedSummary": "彼は、LLMはすでに大半のエンジニアより良いコードを書くと言う。だから人間の本当の仕事は、問題をどう切り出すかを決め、最後に出力を見極めることだ。Cora ComputerのKieran Klaassenとの対話では、「AI sandwich」発想を押し出す。モデルが中身を担い、人間は前後を挟み、compound engineeringでrepoに学習を蓄積していく。要するに、いつ介入し、いつagentに任せるかを知っていれば、1人のエンジニアでも小さなチーム並みにshipできるという話だ。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2047027510014046497",
@@ -269,8 +270,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Image generation is becoming an agent loop",
-      "suggestedSummary": "GPT-Image-2-Thinking isn’t just a better image model — it’s an image agent with search, Photoshop, and self-review in the loop. The point: once generation takes minutes, the winner is the system that can iterate, composite, and correct itself, not the one-shot model. He says this is the text-to-image version of how Gemini Flash Vision broke image-to-text benchmarks with agentic looping.",
+      "suggestedTitle": "Image generationはagent loopになりつつある",
+      "suggestedSummary": "GPT-Image-2-Thinkingは、単なるより優れたimage modelではない。search、Photoshop、self-reviewをloopに組み込んだimage agentだ。要点は明快だ。generationに数分かかるなら、勝つのはone-shot modelではない。反復し、compositeし、自分で修正できるsystemだ。彼はこれを、Gemini Flash Visionがagentic loopingでimage-to-textのbenchmarkを崩した流れの、text-to-image版だと言っている。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2047220793419989457",
@@ -293,25 +294,29 @@
       ],
       "publishedAt": "2026-04-23T07:47:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-23",
       "source": "AI & I by Every",
-      "title": "The AI Sandwich: Where Humans Excel in an AI World",
+      "title": "AIサンドイッチ: AI時代に人間が強い領域",
       "url": "https://www.youtube.com/watch?v=G0LTv8hQ5Cs",
-      "suggestedTitle": "Humans should frame and polish; AI should do the middle",
-      "suggestedSummary": "**The Takeaway:** The winning model isn’t full automation — it’s putting humans at the edges where judgment, taste, and ownership matter most.\n\n**Key Insights**\n- Compound Engineering treats AI work like a sandwich: humans set the frame, agents do the middle, and humans return at the end to judge and polish.\n- The most valuable human moments are not constant oversight, but the two places AI struggles most: ambiguous problem framing and final taste-based refinement.\n- As more of the rote middle gets automated, the job shifts toward product thinking, management, and making things that feel personal, beautiful, and “yours.”\n\n**The Story**\nKieran, GM of Quora and creator of the Compound Engineering framework used inside Every, built his approach by asking a practical question: how do you get AI to do better work faster without flattening the human out of it? His answer is a workflow with planning, execution, review, and a “compound” step that stores lessons back into the repo so agents improve over time. But the deeper insight is where humans belong. Early on, humans should be deeply in the loop for ideation and problem framing; later, they should step back and let the model execute. At the end, they should come back with taste. As he puts it, “the beginning and the end, and the middles can be automated pretty well.”\n\nThat’s why he pushes back on the idea that humans should always stay involved. The real leverage is knowing when to think hard and when to hand off. He compares it to music: the middle is practice, but the performance is where something alive happens. The same is true in software, design, and writing. If you want the output to be yours, it can’t be fully outsourced. The bar keeps rising, so the human edge becomes less about grinding through tasks and more about making something that “feels great.”",
+      "suggestedTitle": "人間は前後を担い、AIは中身を担うべきだ",
+      "suggestedSummary": "**要点:** 勝ち筋は完全自動化ではない。判断、センス、責任が重要な両端に人間を置くことだ。\n\n**主な示唆**\n- Compound EngineeringはAIの仕事をサンドイッチのように捉える。人間が枠組みを決め、agentが中身を進め、最後に人間が戻って判断し、磨き上げる。\n- 人間の価値が最も高いのは、常時の監視ではない。AIが最も苦手とする2か所、つまり曖昧な問題設定と、最後のセンスに基づく仕上げだ。\n- 単純作業の中身が自動化されるほど、仕事はプロダクト思考、マネジメント、そして個人的で、美しく、「自分のもの」と感じられるものを作る方向へ移る。\n\n**ストーリー**\nQuoraのGMであり、Every内で使われているCompound Engineeringフレームワークの生みの親でもあるKieranは、実務的な問いからこのアプローチを作った。どうすれば、人間らしさを失わせずにAIにもっと速く、もっと良い仕事をさせられるのか。彼の答えは、計画、実行、レビュー、そして学びをrepoに保存してagentが時間とともに改善する「compound」ステップを含むワークフローだ。\n\nだが、より深い示唆は人間の居場所にある。初期段階では、アイデア出しと問題設定に人間が深く関わるべきだ。後半では、モデルに実行を任せる。そして最後に、センスを持って戻ってくる。彼の言葉を借りれば、「最初と最後は人間で、中身はかなりうまく自動化できる」。\n\nだからこそ、常に人間が関与し続けるべきだという考えには彼は反論する。本当のレバレッジは、いつ深く考え、いつ手放すかを見極めることだ。彼はそれを音楽にたとえる。中身は練習だが、演奏の瞬間にこそ何か生きたものが立ち上がる。ソフトウェアでも、デザインでも、文章でも同じだ。成果物を本当に自分のものにしたいなら、完全に外注することはできない。基準は上がり続ける。だから人間の強みは、ただ作業をこなすことではなく、「気持ちいい」と感じられるものを作ることへ移っていく。",
       "publishedAt": "2026-04-22T18:53:47.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-23",
       "source": "Claude Blog",
-      "title": "Redesigning Claude Code on desktop for parallel agents",
+      "title": "デスクトップ版Claude Codeを並列agent向けに再設計",
       "url": "https://claude.com/blog/claude-code-desktop-redesign",
       "author": null,
-      "suggestedTitle": "Claude Code desktop adds parallel sessions and in-app review tools",
-      "suggestedSummary": "Lead: Claude Code’s redesigned desktop app is built for parallel agent workflows, adding a new sidebar for managing multiple sessions, drag-and-drop workspace layout, an integrated terminal and file editor, and faster review tools.\n\nNumbers:\n- Available now for Claude Code users on Pro, Max, Team, and Enterprise plans, plus via the Claude API.\n- SSH support now extends to Mac as well as Linux.\n- Three view modes are included: Verbose, Normal, and Summary.\n\nSo What: The update is aimed at developers orchestrating several tasks at once—refactors, bug fixes, and test-writing passes—without leaving the app. You can run sessions across repos, branch into side chats, inspect diffs, edit files, run tests, and preview HTML or PDFs in one place. The company says the app is designed for “how agentic coding actually feels now: many things in flight, and you in the orchestrator seat.” For teams, plugin parity with the CLI and centralized management means the desktop experience should slot into existing workflows with minimal friction. If you’re already using Claude Code, update the app and start consolidating session management, review, and shipping into a single workspace.",
+      "suggestedTitle": "Claude Codeのデスクトップ版が並列セッションとアプリ内レビュー機能を追加",
+      "suggestedSummary": "要点: 再設計されたClaude Codeのデスクトップアプリは、並列agentワークフロー向けに作られている。複数セッションを管理する新しいサイドバー、ドラッグ&ドロップでのワークスペース配置、統合されたターミナルとファイルエディタ、より高速なレビュー機能を備える。",
       "publishedAt": "Apr 14, 2026",
       "category": "blogUpdates"
     }
@@ -321,6 +326,7 @@
     "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-23T14:42:58.657Z"
+    "generatedAt": "2026-04-23T14:43:45.254Z",
+    "estimatedReadTime": "7 分"
   }
 }

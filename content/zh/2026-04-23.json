@@ -1,7 +1,8 @@
 {
   "date": "2026-04-23",
-  "summary": "Claude added interactive charts and Claude Code desktop with parallel sessions; Josh Woodward shipped Gemini conversation branching. Amjad Masad said static analysis lifted LLMs 90%+, while Aaron Levie and Guillermo Rauch framed agents and petabyte-scale hunts as the new battleground.",
-  "items": [
+  "lang": "zh",
+  "summary": "Claude 加了交互式图表，还推出了支持并行会话的 Claude Code desktop；Josh Woodward 也上线了 Gemini 的对话分支。Amjad Masad 说，静态分析能把 LLM 的效果拉高 90%+。Aaron Levie 和 Guillermo Rauch 则把 agents 和 PB 级检索，直接定义成了新的主战场。",
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-23",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude adds interactive charts in Cowork",
-      "suggestedSummary": "Interactive charts and diagrams are now in Claude Cowork, and it’s in beta for all paid plans. It’s a small but useful step toward making Claude feel less like a chat box and more like a real work surface for analysis and planning.",
+      "suggestedTitle": "Claude 在 Cowork 里加入了交互式图表",
+      "suggestedSummary": "现在，Claude Cowork 里已经支持交互式图表和示意图了。所有付费方案都能先体验 beta。这个更新不算大，但很实用。它让 Claude 不再只是个聊天框，而更像一个真正能拿来做分析和规划的工作台。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2047047633416397076",
@@ -29,8 +30,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "AI makes product overcooking way too easy",
-      "suggestedSummary": "They argue that most bad products aren’t broken by one bad choice, but by a pile of reasonable additions nobody said no to. With AI dropping the cost of shipping to near zero, teams can now add features, concepts, and polish endlessly — and end up with a noisier, less coherent product.",
+      "suggestedTitle": "AI 让产品“过度烹饪”变得太容易了",
+      "suggestedSummary": "他们的观点是，大多数糟糕的产品，不是被某个致命错误搞坏的，而是被一堆看起来都合理、但没人喊停的加法慢慢拖垮的。现在有了 AI，交付成本几乎降到零。团队就更容易不停往里加功能、概念和打磨，最后做出来的产品反而更吵、更乱，也更不连贯。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2046957675079237668",
@@ -49,8 +50,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "ChatGPT agents make headless software the new battleground",
-      "suggestedSummary": "He says the new ChatGPT agents are a huge shift because they can plug into tools and data directly, which is what knowledge work agents need to go mainstream. His Box example shows the play: enterprise content becomes a secure knowledge source, while agents generate answers and content on the fly across Box via MCP and CLI. The bigger takeaway is that headless platforms and enterprise agent builders just got a lot more interesting.",
+      "suggestedTitle": "ChatGPT agents 让 headless software 成了新战场",
+      "suggestedSummary": "他认为新的 ChatGPT agents 是个大转折。因为它们可以直接接入 tools 和 data，这正是 knowledge work agents 想要走向主流的关键。Box 的例子很说明问题：enterprise content 变成了安全的 knowledge source，而 agents 通过 MCP 和 CLI，能在 Box 里边生成答案，边生成内容。更大的信号是，headless platforms 和 enterprise agent builders 一下子变得更有看头了。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2047028112626749645",
@@ -69,8 +70,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Petabyte-scale hunt for a wider credential theft ring",
-      "suggestedSummary": "He says Vercel’s security team dug through nearly a petabyte of logs and found the attacker wasn’t just tied to the original Context.ai compromise — they were distributing malware to steal tokens and keys across providers. Vercel is now working with Microsoft, AWS, and Wiz, warning other victims to rotate creds while they keep shipping product fixes.",
+      "suggestedTitle": "PB 级排查，追踪更大范围的凭证盗窃团伙",
+      "suggestedSummary": "他说，Vercel 的 security team 翻了接近 1 PB 的 logs，发现攻击者不只是和最初的 Context.ai 失陷有关。对方还在分发 malware，跨多个 provider 偷 token 和 key。Vercel 现在正和 Microsoft、AWS、Wiz 一起处理这件事，同时提醒其他受害者尽快 rotate creds。他们也在继续推进产品修复。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2047150411170320808",
@@ -89,8 +90,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini gets conversation branching",
-      "suggestedSummary": "He says a papercut fix for conversation branching is rolling out to 20% now, with a wider ramp coming. Small feature, but it matters: branching makes it easier to explore alternate paths without nuking the original thread.",
+      "suggestedTitle": "Gemini 支持对话分支了",
+      "suggestedSummary": "他说，针对对话分支这个小痛点的修复现在已经开始推给 20% 的用户，后面还会继续扩大范围。功能不大，但很关键：分支能让你更容易试探不同路径，又不会把原来的 thread 搞没。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2047147030351642914",
@@ -109,8 +110,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Static analysis boosts LLMs by 90%+",
-      "suggestedSummary": "Replit says you can squeeze significantly better performance out of current-gen LLMs by pairing them with static analysis tools — in some cases, 90%+ better. He also pointed to Replit Agent now being callable from Gemini Enterprise, which is a neat distribution win for the product.",
+      "suggestedTitle": "静态分析让 LLM 性能提升 90%+",
+      "suggestedSummary": "Replit 说，把现有一代 LLM 和静态分析工具配合起来，能明显榨出更好的效果。有些场景里，提升甚至能超过 90%。他还提到，Replit Agent 现在已经可以从 Gemini Enterprise 里直接调用了，这对产品分发来说是个不错的加分项。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2047156858214035590",
@@ -141,8 +142,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Craft beats AI slop in the last 10%",
-      "suggestedSummary": "He says AI can generate the bulk of a thing, but the part that matters is the final 10% where taste and manual polish turn it into something worth keeping. That’s the real edge: everyone can ship faster, but only people who care about craft will make work they’re proud of.",
+      "suggestedTitle": "最后 10% 里，craft 才能打败 AI slop",
+      "suggestedSummary": "他说，AI 可以把大部分东西生成出来，但真正决定成败的是最后那 10%。这部分要靠品味和手工打磨，才能把东西变成值得留下的作品。真正的优势也在这里：大家都能更快交付，但只有在乎 craft 的人，才能做出自己真正拿得出手的东西。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2047124883071816189",
@@ -173,8 +174,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Bigger skills, fewer branches, less context bloat",
-      "suggestedSummary": "He says the trick is to DRY up adjacent skills into bigger ones with branching params, instead of piling on lots of tiny resolvers. His take: shorter resolvers mean less context bloat, and that usually works better.",
+      "suggestedTitle": "技能做大，分支做少，减少 context 膨胀",
+      "suggestedSummary": "他觉得，关键是把相邻的 skills 通过 branching params 合并成更大的 skill，而不是堆一堆很小的 resolver。他的观点是：resolver 越短，context 膨胀越少，通常效果也更好。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2047184243164651648",
@@ -205,8 +206,8 @@
       "authorHandle": "nikunj",
       "authorBio": "@railway x @meter shill",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Real-time generated pixels are coming",
-      "suggestedSummary": "Every pixel will be generated in real time — not maybe, just when. He points to a demo as a glimpse of where UI is headed: less static rendering, more on-the-fly generation.",
+      "suggestedTitle": "实时生成的像素要来了",
+      "suggestedSummary": "每个像素都会实时生成。不是“也许”，而是“什么时候”的问题。他拿一个 demo 当作 UI 未来的预览：少一点静态渲染，多一点按需生成。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2047052668246589574",
@@ -237,8 +238,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Humans stay at the edges of AI work",
-      "suggestedSummary": "He says LLMs already write better code than most engineers, so the real human job is framing the problem and judging the output at the end. In his convo with Cora Computer’s Kieran Klaassen, he pushes the “AI sandwich” idea: models do the filling, while humans bookend the process and keep the repo learning via compound engineering. The punchline: one engineer can now ship like a small team if they know when to step in and when to let agents run.",
+      "suggestedTitle": "人类站在 AI 工作的边缘",
+      "suggestedSummary": "他说，LLM 写代码已经比大多数工程师更强了。所以人类真正的工作，不是埋头写每一行代码，而是把问题定义清楚，最后再判断输出对不对。和 Cora Computer 的 Kieran Klaassen 聊的时候，他又把“AI sandwich”这个说法往前推了一步：模型负责中间那层馅，前后两端由人来把关，让 repo 通过 compound engineering 持续学起来。结论很直接：一个工程师现在只要知道什么时候该亲自上，什么时候该放手让 agent 跑，就能干出以前像一个小团队才能交付的活。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2047027510014046497",
@@ -269,8 +270,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Image generation is becoming an agent loop",
-      "suggestedSummary": "GPT-Image-2-Thinking isn’t just a better image model — it’s an image agent with search, Photoshop, and self-review in the loop. The point: once generation takes minutes, the winner is the system that can iterate, composite, and correct itself, not the one-shot model. He says this is the text-to-image version of how Gemini Flash Vision broke image-to-text benchmarks with agentic looping.",
+      "suggestedTitle": "Image generation 正在变成一个 agent loop",
+      "suggestedSummary": "GPT-Image-2-Thinking 不只是一个更强的 image model。它更像一个带 search、Photoshop 和 self-review 的 image agent。重点是：一旦生成要花几分钟，赢的就不是一次出图最强的 model，而是能反复迭代、合成、修正自己的 system。他说，这就像 Gemini Flash Vision 当初靠 agentic looping，把 image-to-text benchmark 直接打穿一样。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2047220793419989457",
@@ -293,25 +294,29 @@
       ],
       "publishedAt": "2026-04-23T07:47:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-23",
       "source": "AI & I by Every",
-      "title": "The AI Sandwich: Where Humans Excel in an AI World",
+      "title": "AI 三明治：人类在 AI 世界里的优势在哪",
       "url": "https://www.youtube.com/watch?v=G0LTv8hQ5Cs",
-      "suggestedTitle": "Humans should frame and polish; AI should do the middle",
-      "suggestedSummary": "**The Takeaway:** The winning model isn’t full automation — it’s putting humans at the edges where judgment, taste, and ownership matter most.\n\n**Key Insights**\n- Compound Engineering treats AI work like a sandwich: humans set the frame, agents do the middle, and humans return at the end to judge and polish.\n- The most valuable human moments are not constant oversight, but the two places AI struggles most: ambiguous problem framing and final taste-based refinement.\n- As more of the rote middle gets automated, the job shifts toward product thinking, management, and making things that feel personal, beautiful, and “yours.”\n\n**The Story**\nKieran, GM of Quora and creator of the Compound Engineering framework used inside Every, built his approach by asking a practical question: how do you get AI to do better work faster without flattening the human out of it? His answer is a workflow with planning, execution, review, and a “compound” step that stores lessons back into the repo so agents improve over time. But the deeper insight is where humans belong. Early on, humans should be deeply in the loop for ideation and problem framing; later, they should step back and let the model execute. At the end, they should come back with taste. As he puts it, “the beginning and the end, and the middles can be automated pretty well.”\n\nThat’s why he pushes back on the idea that humans should always stay involved. The real leverage is knowing when to think hard and when to hand off. He compares it to music: the middle is practice, but the performance is where something alive happens. The same is true in software, design, and writing. If you want the output to be yours, it can’t be fully outsourced. The bar keeps rising, so the human edge becomes less about grinding through tasks and more about making something that “feels great.”",
+      "suggestedTitle": "人类负责框架和打磨；AI 负责中间部分",
+      "suggestedSummary": "**核心结论：** 真正赢的不是全自动化，而是把人放在最需要判断、品味和 ownership 的两端。\n\n**关键洞察**\n- Compound Engineering 把 AI 工作看成一个三明治：人类先定框架，agent 负责中间，最后再由人回来做判断和打磨。\n- 人类最有价值的时刻，不是一直盯着，而是 AI 最容易卡住的两处：模糊的问题定义，以及最后基于品味的精修。\n- 随着大量重复性的中间工作被自动化，人的角色会更偏向 product thinking、管理，以及做出那种让人觉得有个人味、好看、而且“是自己的”东西。\n\n**故事**\nKieran 是 Quora 的 GM，也是 Every 内部用的 Compound Engineering framework 的创造者。他是从一个很实际的问题出发的：怎么让 AI 更快做出更好的工作，同时又不把人的价值抹掉？他的答案是一套 workflow：planning、execution、review，再加一个“compound”步骤，把经验写回 repo，让 agent 随着时间变强。更深一层的洞察，是人应该站在哪些位置。前期，人要深度参与 ideation 和 problem framing；后期，就该退一步，让 model 去执行。最后，再带着品味回来收尾。用他的话说，就是“开头和结尾要有人，中间大部分都可以很好地自动化”。\n\n所以他不认同“人必须始终参与”这个说法。真正的杠杆，在于知道什么时候该认真想，什么时候该放手交出去。他把这件事比作音乐：中间是练习，真正让作品活起来的是演出。软件、design、writing 也是一样。如果你想让产出真的属于你，就不可能完全外包出去。标准只会越来越高，所以人的优势会越来越少体现在埋头堆任务上，而更多体现在做出那种“感觉很好”的东西。",
       "publishedAt": "2026-04-22T18:53:47.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-04-23",
       "source": "Claude Blog",
-      "title": "Redesigning Claude Code on desktop for parallel agents",
+      "title": "在 desktop 上重做 Claude Code，支持 parallel agents",
       "url": "https://claude.com/blog/claude-code-desktop-redesign",
       "author": null,
-      "suggestedTitle": "Claude Code desktop adds parallel sessions and in-app review tools",
-      "suggestedSummary": "Lead: Claude Code’s redesigned desktop app is built for parallel agent workflows, adding a new sidebar for managing multiple sessions, drag-and-drop workspace layout, an integrated terminal and file editor, and faster review tools.\n\nNumbers:\n- Available now for Claude Code users on Pro, Max, Team, and Enterprise plans, plus via the Claude API.\n- SSH support now extends to Mac as well as Linux.\n- Three view modes are included: Verbose, Normal, and Summary.\n\nSo What: The update is aimed at developers orchestrating several tasks at once—refactors, bug fixes, and test-writing passes—without leaving the app. You can run sessions across repos, branch into side chats, inspect diffs, edit files, run tests, and preview HTML or PDFs in one place. The company says the app is designed for “how agentic coding actually feels now: many things in flight, and you in the orchestrator seat.” For teams, plugin parity with the CLI and centralized management means the desktop experience should slot into existing workflows with minimal friction. If you’re already using Claude Code, update the app and start consolidating session management, review, and shipping into a single workspace.",
+      "suggestedTitle": "Claude Code desktop 新增 parallel sessions 和内置 review 工具",
+      "suggestedSummary": "Lead: Claude Code 重新设计后的 desktop app 是为 parallel agent workflows 打造的。它加了一个新的 sidebar，用来管理多个 session；支持 drag-and-drop 的 workspace layout；还集成了 terminal 和 file editor，以及更快的 review 工具。\n\nNumbers:\n- 现在已向 Claude Code 的 Pro、Max、Team 和 Enterprise 用户开放，也可通过 Claude API 使用。\n- SSH support 现在除了 Linux，也扩展到了 Mac。\n- 内置三种 view mode：Verbose、Normal 和 Summary。\n\nSo What: 这次更新主要面向那些要同时协调多项任务的 developer，比如 refactor、bug fix 和 test-writing，尽量不用离开 app。你可以在多个 repo 里跑 session，切到 side chat，查看 diff，编辑文件，跑 test，还能直接预览 HTML 或 PDF，全都在一个地方完成。公司说，这个 app 的设计就是为了贴近“agentic coding 现在真实的感觉：很多事情同时在飞，而你坐在 orchestrator 的位置上。” 对 team 来说，CLI 的 plugin parity 和 centralized management 也意味着 desktop 体验能更顺滑地接进现有 workflow，几乎不用额外磨合。如果你已经在用 Claude Code，直接更新 app，就能把 session management、review 和 shipping 收拢到一个 workspace 里。",
       "publishedAt": "Apr 14, 2026",
       "category": "blogUpdates"
     }
@@ -321,6 +326,7 @@
     "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-23T14:42:58.657Z"
+    "generatedAt": "2026-04-23T14:43:27.755Z",
+    "estimatedReadTime": "7 分钟"
   }
 }
