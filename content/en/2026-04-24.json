@@ -1,7 +1,8 @@
 {
   "date": "2026-04-24",
+  "lang": "en",
   "summary": "Altman said Codex moved from demo to company-wide rollout, while Claude shipped persistent cross-session memory and everyday-life connectors. Masad shrugged off “Chinese distillation” panic, and Dan Shipper/Peter Yang said GPT-5.5 finally just does the work and clears game-build tests.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-04-24",
       "source": "X",
@@ -277,7 +278,9 @@
       ],
       "publishedAt": "2026-04-24T04:55:46.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-24",
       "source": "Unsupervised Learning",
@@ -287,7 +290,9 @@
       "suggestedSummary": "**The Takeaway:** The real shift isn’t “AI is everywhere” — it’s that coding agents have become the proving ground for a new market structure.\n\n- The infrastructure layer is finally settling into a usable pattern: agents now look like LLMs with tools, a file system, and “skills” as the minimal viable packaging format.\n- The biggest winners won’t just be model companies or apps; they’ll be the “outsourced AI teams” that sit between frontier models and messy enterprise workflows.\n- In coding, the market is still in capability-exploration mode, which means spending more, trying weirder things, and chasing speed can matter more than efficiency.\n\nSwix, the founder behind the AI Engineer events and a close observer of the developer ecosystem, argues that the last year has been less about neat product categories and more about constant adaptation. He thinks the infrastructure chaos is easing, but only because the industry has converged on a simple shape: “skills,” APIs, and agent-friendly tooling. That doesn’t mean the game is over; it means the rules are clearer.\n\nHis sharper point is that the AI coding wars are already enormous — with OpenAI, Anthropic, Cursor, and Cognition all fighting for a market that has exploded in under a year. He sees this as a momentum game, not a mean-reversion story. The mistake is assuming coding is saturated when it may still be compounding. “Why if it went from 10 to 50% in the past year, why can’t it keep going?” he asks.\n\nThat same logic applies to infra, chips, and even go-to-market. Agents are now the primary users in many systems, which means products need to be API-first, CLI-friendly, and built for machine consumption. The bigger lesson: if you want to know where AI is headed next, watch coding — because it’s the first place where the market is rewarding raw capability over polish.",
       "publishedAt": "2026-04-23T13:00:24.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-24",
       "source": "Anthropic Engineering",
@@ -327,6 +332,7 @@
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-04-24T14:31:57.018Z"
+    "generatedAt": "2026-04-24T14:31:57.229Z",
+    "estimatedReadTime": "7 min"
   }
 }

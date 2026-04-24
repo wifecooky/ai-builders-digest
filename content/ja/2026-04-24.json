@@ -1,7 +1,8 @@
 {
   "date": "2026-04-24",
-  "summary": "Altman said Codex moved from demo to company-wide rollout, while Claude shipped persistent cross-session memory and everyday-life connectors. Masad shrugged off “Chinese distillation” panic, and Dan Shipper/Peter Yang said GPT-5.5 finally just does the work and clears game-build tests.",
-  "items": [
+  "lang": "ja",
+  "summary": "Altmanは、Codexがデモから全社展開へ移ったと述べた。Claudeは、セッションをまたぐ永続メモリと日常生活向けコネクタを実装した。Masadは「Chinese distillation」騒ぎを一蹴した。Dan ShipperとPeter Yangは、GPT-5.5がついに黙って仕事をこなし、ゲームビルドのテストも通すと述べた。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-24",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "Codex is moving from demo to company-wide rollout",
-      "suggestedSummary": "He says OpenAI and NVIDIA just tested a new way to deploy Codex across an entire company, and it actually worked. That’s the interesting part: this is less about a flashy AI demo and more about pushing coding agents into real enterprise workflows.",
+      "suggestedTitle": "Codexはデモから全社展開へ移行している",
+      "suggestedSummary": "OpenAIとNVIDIAは、Codexを会社全体に展開する新しい方法を試した。そして実際にうまくいったという。ここが面白い点だ。これは派手なAIデモの話ではない。coding agentを実際の企業ワークフローに押し込む話である。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2047403771416940715",
@@ -41,8 +42,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Open AI beats panic about “Chinese distillation”",
-      "suggestedSummary": "He says US politicians are fearmongering about Chinese distillation while Chinese scientists are sharing real AI breakthroughs openly. His take: these advances aren’t about hoarding data, and they help everyone — including small and maybe even big US labs.",
+      "suggestedTitle": "Open AIは「Chinese distillation」へのパニックに勝つ",
+      "suggestedSummary": "彼は、米国の政治家たちがChinese distillationをめぐって恐怖をあおっている一方で、中国の科学者たちは本物のAIブレークスルーを公に共有していると述べる。彼の見方では、こうした進歩はデータの囲い込みとは無関係であり、小規模な米国のlabはもちろん、場合によっては大規模なlabにも利益をもたらす。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2047547275682214384",
@@ -73,8 +74,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude adds persistent memory for agents",
-      "suggestedSummary": "Memory on Claude Managed Agents is now in public beta, so agents can learn from every session instead of starting from scratch. Anthropic says the memory layer is built to balance performance and flexibility, and developers can export and manage memories via the API to keep control.",
+      "suggestedTitle": "Claudeがagent向けの永続メモリを追加",
+      "suggestedSummary": "Claude Managed AgentsのMemoryがpublic betaになった。これにより、agentは毎回ゼロから始めず、各セッションから学習できる。Anthropicによると、このMemory layerは性能と柔軟性の両立を狙って設計されている。開発者はAPI経由でMemoryをexportし、管理もできるため、制御を保てる。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2047421846463623579",
@@ -105,8 +106,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI won’t cut work — it expands it",
-      "suggestedSummary": "He says AI isn’t shrinking workloads; it’s making more work worth starting. At Box, he’s seeing agents turn “never got done” tasks into 3-hour rabbit holes, and even make some ongoing work economical to hire out. He also says GPT-5.5 is a real step up for enterprise knowledge work, with Box’s evals showing a 10-point accuracy jump on complex content tasks.",
+      "suggestedTitle": "AIは仕事を削らない。仕事を拡張する",
+      "suggestedSummary": "彼は、AIは業務量を減らすのではなく、着手する価値のある仕事を増やしていると言う。Boxでは、agentが「いつまでも終わらなかった」タスクを3時間の深掘り案件に変え、継続的な仕事の一部まで外注しやすくしているという。さらにGPT-5.5は、enterpriseのknowledge workにおいて本物の飛躍だとも述べる。Boxのevalでは、複雑なコンテンツタスクのaccuracyが10ポイント上がった。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2047540230694350958",
@@ -137,8 +138,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "SF wins by packing weird builders together",
-      "suggestedSummary": "He says San Francisco’s edge isn’t just talent or VC — it’s a culture where curious, humble builders keep showing up, jamming, and pushing weird ideas until they work. He points to a design talk at South Park Commons and a mind-bending pixel-generation demo as proof that the city’s density of builders is what keeps producing outsized breakthroughs.",
+      "suggestedTitle": "SFは変わり者のbuilderを詰め込むことで勝つ",
+      "suggestedSummary": "彼によれば、San Franciscoの強みは talent や VC だけではない。好奇心が強く、謙虚な builder たちが集まり、試行錯誤し、変わったアイデアを動くまで押し込む文化にある。South Park Commons での design talk と、目を疑うような pixel generation demo を例に挙げ、builder の密度こそが、桁外れの breakthrough を生み続ける理由だと語る。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2047421448449630379",
@@ -157,8 +158,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "GPT-5.5 stops planning and just does the work",
-      "suggestedSummary": "He says many models can outline a great plan, then hesitate — but OpenAI’s GPT-5.5 actually follows through. His take is that this is a real behavior shift, not just a benchmark bump, and he’s framing it as a practical upgrade for anyone using AI to get work done.",
+      "suggestedTitle": "GPT-5.5は計画をやめ、ただ仕事をこなす",
+      "suggestedSummary": "多くのモデルは優れた計画を立てられるが、そのあとでためらうと彼は言う。だがOpenAIのGPT-5.5は実際にやり切る。彼の見方では、これは単なるベンチマークの上昇ではなく、実際の振る舞いの変化だ。AIを使って仕事を進める人にとっての実用的なアップグレードとして位置づけている。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2047455920377012375",
@@ -189,8 +190,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain gets smarter with graph + vector search",
-      "suggestedSummary": "He says GBrain’s new evals show a big jump when you layer graph search and vector search on top of grep across knowledge wikis. He’s also pushing more of his OpenClaw cron jobs and subagents onto GBrain Minions, with stability work aimed at making that infra stick.",
+      "suggestedTitle": "graph + vector searchでGBrainがさらに賢くなる",
+      "suggestedSummary": "彼によれば、GBrainの新しいevalでは、knowledge wiki全体に対してgrepを起点にgraph searchとvector searchを重ねると、大きく性能が伸びるという。さらに、OpenClawのcron jobsとsubagentをGBrain Minionsへもっと移している。狙いは、そのインフラを安定して定着させることだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2047584723531444465",
@@ -221,8 +222,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "GPT-5.5 finally clears the game-build test",
-      "suggestedSummary": "He says GPT-5.5 plus Codex is the first model combo that actually built a working F-Zero-style game in his recurring benchmark. That’s a pretty clean signal that the new stack is moving from demos to real, playable output — and he’s already using it to spin up bots to race against.",
+      "suggestedTitle": "GPT-5.5がついにゲーム構築ベンチマークを突破",
+      "suggestedSummary": "彼によれば、GPT-5.5とCodexの組み合わせが、彼の定期ベンチマークで初めて実際に動くF-Zero風ゲームを構築したモデルの組み合わせだという。これは、新しいスタックがデモから実際に遊べる出力へ移りつつある、かなり明確なシグナルだ。彼はすでに、それを使って対戦相手となるbotを立ち上げている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2047502897412468770",
@@ -253,8 +254,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "M&A is about to outpace fundraising",
-      "suggestedSummary": "He says the startup market is tilting hard toward acquisitions: the seed-to-A gap is widening, 2021 zombiecorns are finally getting cleaned up, and talent is flowing to big token factories. His blunt takeaway as an FPV Ventures partner: there are plenty of founders, but very few real entrepreneurs — don’t start a company unless you can’t do anything else.",
+      "suggestedTitle": "M&Aはfundraisingを追い抜こうとしている",
+      "suggestedSummary": "彼は、startup市場がacquisitionへ大きく傾いていると言う。seedからAのギャップは広がり、2021年のzombiecornsもようやく整理されつつある。さらに、talentは大きなtoken factoryへ流れている。FPV Venturesのpartnerとしての率直な結論はこうだ。founderはたくさんいるが、本物のentrepreneurはごく少ない。ほかにやることがないのでなければ、companyを始めるべきではない。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2047539976766931067",
@@ -277,47 +278,51 @@
       ],
       "publishedAt": "2026-04-24T04:55:46.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-24",
       "source": "Unsupervised Learning",
-      "title": "Ep 85: Has AI Infra Stabilized, FM Vibe Shift, &amp; What&apos;s Next for Coding Agents",
+      "title": "Ep 85: AI Infraは安定したのか、FMのVibe Shift、そしてCoding Agentsの次は何か",
       "url": "https://www.youtube.com/@RedpointAI",
-      "suggestedTitle": "AI infra is stabilizing, but coding agents are just getting started",
-      "suggestedSummary": "**The Takeaway:** The real shift isn’t “AI is everywhere” — it’s that coding agents have become the proving ground for a new market structure.\n\n- The infrastructure layer is finally settling into a usable pattern: agents now look like LLMs with tools, a file system, and “skills” as the minimal viable packaging format.\n- The biggest winners won’t just be model companies or apps; they’ll be the “outsourced AI teams” that sit between frontier models and messy enterprise workflows.\n- In coding, the market is still in capability-exploration mode, which means spending more, trying weirder things, and chasing speed can matter more than efficiency.\n\nSwix, the founder behind the AI Engineer events and a close observer of the developer ecosystem, argues that the last year has been less about neat product categories and more about constant adaptation. He thinks the infrastructure chaos is easing, but only because the industry has converged on a simple shape: “skills,” APIs, and agent-friendly tooling. That doesn’t mean the game is over; it means the rules are clearer.\n\nHis sharper point is that the AI coding wars are already enormous — with OpenAI, Anthropic, Cursor, and Cognition all fighting for a market that has exploded in under a year. He sees this as a momentum game, not a mean-reversion story. The mistake is assuming coding is saturated when it may still be compounding. “Why if it went from 10 to 50% in the past year, why can’t it keep going?” he asks.\n\nThat same logic applies to infra, chips, and even go-to-market. Agents are now the primary users in many systems, which means products need to be API-first, CLI-friendly, and built for machine consumption. The bigger lesson: if you want to know where AI is headed next, watch coding — because it’s the first place where the market is rewarding raw capability over polish.",
+      "suggestedTitle": "AI infraは安定しつつあるが、coding agentsはまだ始まったばかりだ",
+      "suggestedSummary": "**要点:** 本当の変化は「AIがどこにでもある」ことではない。coding agentsが、新しい市場構造の試金石になったことだ。\n\n- infrastructure層はようやく実用的な形に落ち着きつつある。今のagentsは、LLMにtools、file system、そして最小実用のパッケージ形式としての「skills」を足したものに見える。\n- 最大の勝者はmodel companiesやappsだけではない。frontier modelsと、厄介なenterprise workflowsの間に入る「outsourced AI teams」になる。\n- codingでは、marketはまだ capability exploration の段階にある。だから、効率よりも、より多く使い、より変わったことを試し、速度を追うことのほうが重要になりうる。\n\nAI Engineer eventsの創設者であり、developer ecosystemを長く見てきたSwixは、この1年は整ったproduct categoriesの話というより、絶え間ない適応の連続だったと見る。infrastructureの混乱は和らぎつつあるが、それは業界が「skills」「API」「agent-friendly tooling」という単純な形に収束したからにすぎない。ゲームが終わったわけではない。ルールが見えやすくなっただけだ。\n\n彼のより鋭い指摘は、AI coding warsがすでに巨大だという点にある。OpenAI、Anthropic、Cursor、Cognitionが、1年足らずで爆発したmarketを奪い合っている。彼はこれを平均回帰の話ではなく、勢いのゲームだと見ている。codingはもう飽和した、と決めつけるのが間違いなのだ。まだ複利的に伸びる途中かもしれない。「この1年で10%から50%に伸びたなら、なぜこの先も伸びないと言えるのか」と彼は問う。\n\n同じ理屈はinfra、chips、そしてgo-to-marketにも当てはまる。今や多くのsystemで主な利用者はagentsだ。だからproductはAPI-firstである必要がある。CLI-friendlyでなければならない。machine consumptionを前提に作る必要がある。\n\nより大きな教訓はこうだ。AIが次にどこへ向かうか知りたいなら、codingを見よ。そこが、見た目の洗練より生の能力が最初に評価される場所だからだ。",
       "publishedAt": "2026-04-23T13:00:24.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-24",
       "source": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
+      "title": "最近の Claude Code 品質報告に関するアップデート",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "author": null,
-      "suggestedTitle": "Anthropic fixes three Claude Code regressions, resets limits",
-      "suggestedSummary": "**Lead:** Anthropic says recent quality complaints about Claude Code came from three separate product-side changes—not the API or core models—and all have now been fixed in v2.1.116.\n\n**Numbers:**\n- 3 distinct issues affected Claude Code, Claude Agent SDK, and Claude Cowork\n- Fixes landed on April 7, April 10, and April 20\n- The prompt change caused a 3% drop in broader evals\n- Usage limits are being reset for all subscribers as of April 23\n\n**So What:** The company is tightening release controls because the regressions made Claude feel “less intelligent,” forgetful, and overly terse in some sessions. One bug repeatedly dropped prior reasoning after idle sessions, another defaulted users from high to medium effort, and a prompt tweak to reduce verbosity hurt coding quality. Anthropic says it will broaden internal testing on the exact public build, expand code review context, add per-model evals and prompt ablations, and use soak periods plus gradual rollouts for any change that could trade off against intelligence. As the post puts it, “We take reports about degradation very seriously.”",
+      "suggestedTitle": "Anthropic、Claude Code の3件の regression を修正し、limits をリセット",
+      "suggestedSummary": "**要点:** Anthropic は、Claude Code に関する最近の品質への不満は、API や core models ではなく、product 側の3つの別々の変更に起因すると説明した。これらはすべて v2.1.116 で修正済みだ。\n\n**数字:**\n- 3つの distinct issues が Claude Code、Claude Agent SDK、Claude Cowork に影響した\n- 修正は 4月7日、4月10日、4月20日に反映された\n- prompt の変更で、より広い evals が 3% 低下した\n- 4月23日時点で、すべての subscriber の usage limits をリセット中だ\n\n**要するに:** 同社は release 管理を厳格化している。regression により、Claude が一部の session で「より賢くない」、忘れっぽい、そして過度に簡潔だと感じられたからだ。ある bug は idle session 後に以前の reasoning を繰り返し落とし、別の bug はユーザーの effort を high から medium に default していた。さらに、冗長さを抑えるための prompt 調整が coding quality を損ねた。Anthropic は、実際の public build そのものに対する internal testing を広げ、code review の context を拡張し、model ごとの evals と prompt ablations を追加し、intelligence とトレードオフになり得る変更には soak period と段階的な rollout を使う方針だ。投稿はこう締めている。「We take reports about degradation very seriously.」",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-04-24",
       "source": "Claude Blog",
-      "title": "New connectors in Claude for everyday life",
+      "title": "Claudeに日常向けconnectorが追加",
       "url": "https://claude.com/blog/connectors-for-everyday-life",
       "author": null,
-      "suggestedTitle": "Claude adds everyday-life connectors for travel, shopping, and more",
-      "suggestedSummary": "Lead: Claude is expanding its connector ecosystem beyond work tools to include everyday apps like AllTrails, Instacart, Audible, TripAdvisor, TurboTax, Uber, and more, so users can act on personal tasks directly inside chat.\n\nNumbers:\n- Claude directory has grown to 200+ connectors since launching in July 2025.\n- New connectors include 15+ consumer services, from travel and dining to taxes and rides.\n- Connectors are available on all plans; mobile is in beta.\n\nSo What: The big shift is that Claude now surfaces the right app dynamically based on your intent, context, and preferences, then keeps the workflow in one thread. Anthropic says, “Claude suggests the right app for what you’re doing,” and if multiple connectors fit, it shows options ranked by usefulness. For builders, this means a larger distribution surface for apps that can be installed into Claude’s directory, while users get a more agentic assistant that can recommend, compare, and prepare actions without leaving the conversation. Privacy and control remain central: no ads, no sponsored placements, app data isn’t used to train models, and Claude must ask before booking or purchasing on your behalf.",
+      "suggestedTitle": "Claudeが旅行、買い物などの日常用途にconnectorを追加",
+      "suggestedSummary": "要点: Claudeは、AllTrails、Instacart、Audible、TripAdvisor、TurboTax、Uberなどの日常アプリまでconnector ecosystemを広げている。chatの中で、個人のタスクをそのまま実行できるようにする狙いだ。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-04-24",
       "source": "Claude Blog",
-      "title": "Built-in memory for Claude Managed Agents",
+      "title": "Claude Managed Agents の組み込み memory",
       "url": "https://claude.com/blog/claude-managed-agents-memory",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents get built-in cross-session memory",
-      "suggestedSummary": "**Lead:** Claude Managed Agents now ship with public beta memory, letting agents learn from every session through a filesystem-based layer that’s designed for long-running, production use.\n\n**Numbers:**\n- Public beta available today\n- Rakuten says first-pass errors fell by **97%**\n- Wisedocs reports verification sped up by **30%**\n- Memory stores can be shared across multiple agents with different access scopes\n\n**So What:** This removes a major piece of custom infrastructure for teams building persistent agents: memory is portable, API-manageable, and auditable, with export, rollback, and redaction built in. Because memories are stored as files and mounted directly onto the filesystem, Claude can use the same bash and code execution tools it already relies on, while keeping “full control over what agents retain.” The practical payoff is better continuity across sessions, fewer repeated mistakes, and easier enterprise governance. Teams can use org-wide read-only stores, per-user read/write stores, and concurrent agents without overwriting each other. In short, Claude is positioning memory as a native capability for agents that need to improve over time, not a separate retrieval system you have to assemble yourself.",
+      "suggestedTitle": "Claude Managed Agents にセッション横断の built-in memory",
+      "suggestedSummary": "**要点:** Claude Managed Agents に public beta の memory が追加された。filesystem ベースの layer により、agent は各 session から学習できる。長期稼働の production 利用を前提に設計されている。\n\n**数字:**\n- public beta は本日利用可能\n- Rakuten は初回エラーが **97%** 減少したと述べている\n- Wisedocs は verification が **30%** 高速化したと報告\n- memory store は、異なる access scope を持つ複数の agent で共有できる\n\n**要するに:** persistent な agent を作るチームにとって、大きな custom infrastructure が不要になる。memory は portable で、API から管理でき、監査も可能だ。export、rollback、redaction も組み込まれている。memory は file として保存され、filesystem に直接 mount される。そのため Claude は、すでに使っている bash と code execution tools を同じように使える。一方で、agent が何を保持するかは「完全に制御」できる。実務上の利点は、session をまたいだ継続性の向上、同じミスの繰り返しの減少、enterprise governance の簡素化だ。組織全体の read-only store、ユーザーごとの read/write store、同時実行する agent を、互いに上書きせずに運用できる。要するに Claude は、memory を別個の retrieval system ではなく、時間とともに改善する必要がある agent のための native capability として位置づけている。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     }
@@ -327,6 +332,7 @@
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-04-24T14:31:57.018Z"
+    "generatedAt": "2026-04-24T14:32:23.101Z",
+    "estimatedReadTime": "7 分"
   }
 }
