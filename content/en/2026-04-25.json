@@ -1,7 +1,8 @@
 {
   "date": "2026-04-25",
+  "lang": "en",
   "summary": "Altman dropped GPT-5.5 into the API, and Cursor’s Ryo Lu bet on it plus Composer 2. Peter Yang said it can spit out a Star Fox clone; Anthropic shipped Managed Agents, while Replit, NotebookLM, and Discord all got sharper.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-04-25",
       "source": "X",
@@ -365,7 +366,9 @@
       ],
       "publishedAt": "2026-04-24T20:18:19.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-25",
       "source": "No Priors",
@@ -375,7 +378,9 @@
       "suggestedSummary": "**The Takeaway:** SAP’s AI thesis is simple: enterprise value comes from reengineering workflows, data, and verification—not flashy demos.\n\n- The real moat isn’t model quality; it’s scale, context, and outcomes across messy enterprise systems.\n- AI in the company is moving from “software as a service” to “service as a software,” with agents embedded into work, not bolted on.\n- LLMs are great for unstructured work, but SAP still sees predictive/tabular models as essential for planning, forecasting, and finance.\n\nPhilipp Herzig, CTO of SAP, frames the company as the “operating system” of a business: finance, HR, supply chain, procurement, sales, and logistics all tied together for 400,000 customers. His point is that SAP has survived every tech cycle because customers don’t buy technology for its own sake—they buy outcomes. That’s why he thinks AI is a business-model transition, not just a technology transition.\n\nThe hard part, in his view, is not building a chatbot. It’s teaching AI to do the right thing at scale across thousands of documents, 20,000 APIs, and wildly different employee contexts. “The biggest challenge… is how do you teach the AI to do the right thing at scale,” he says. That’s why SAP is pushing generative UI, agentic workflows, and what he calls “agent mining”: capturing the tribal knowledge hidden in Slack, Teams, and human judgment, then turning it into a data flywheel.\n\nHe’s also blunt about limits. LLMs shine in text-heavy, unstructured tasks like consulting and support, but forecasting demand, cash flow, or payment delays still needs classical predictive models. In other words: the future isn’t one model to rule them all. It’s a stack where agents, structured data, evals, and predictive systems work together to make enterprises faster—and more reliable.",
       "publishedAt": "2026-04-23T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-25",
       "source": "Anthropic Engineering",
@@ -393,6 +398,7 @@
     "totalTweets": 28,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-25T14:15:17.254Z"
+    "generatedAt": "2026-04-25T14:15:17.470Z",
+    "estimatedReadTime": "8 min"
   }
 }

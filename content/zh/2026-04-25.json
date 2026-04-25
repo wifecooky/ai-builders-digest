@@ -1,7 +1,8 @@
 {
   "date": "2026-04-25",
-  "summary": "Altman dropped GPT-5.5 into the API, and Cursor’s Ryo Lu bet on it plus Composer 2. Peter Yang said it can spit out a Star Fox clone; Anthropic shipped Managed Agents, while Replit, NotebookLM, and Discord all got sharper.",
-  "items": [
+  "lang": "zh",
+  "summary": "Altman 把 GPT-5.5 放进了 API，Cursor 的 Ryo Lu 也押注了它和 Composer 2。Peter Yang 说它能直接做出一个 Star Fox 克隆版；Anthropic 则发布了 Managed Agents。与此同时，Replit、NotebookLM 和 Discord 也都变得更强了。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-25",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "GPT-5.5 lands in the API",
-      "suggestedSummary": "He said GPT-5.5 and GPT-5.5 Pro are now available in the API, which is the only tweet here with real substance. The rest is just a generic good-week pat on the back and a heart emoji, so the news is simple: OpenAI shipped a new model family for builders.",
+      "suggestedTitle": "GPT-5.5 上线 API",
+      "suggestedSummary": "他说，GPT-5.5 和 GPT-5.5 Pro 现在已经可以在 API 里用了。这条 tweet 里真正有料的也就这一句。剩下就是常见的“周末不错，大家干得漂亮”再加个心形 emoji。所以消息很简单：OpenAI 给 builders 发了一个新的 model family。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2047823357635354814",
@@ -41,8 +42,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor bets on GPT-5.5 + Composer 2",
-      "suggestedSummary": "Cursor’s design lead says he’s fully switched to GPT-5.5 plus Composer 2, calling it the sweet spot for intelligence, speed, and cost. He also points users to /multitask, a way to break out of the queue and juggle more work at once.",
+      "suggestedTitle": "Cursor 押注 GPT-5.5 + Composer 2",
+      "suggestedSummary": "Cursor 的 design lead 说，他已经彻底切到 GPT-5.5 加 Composer 2 了。他觉得这套组合在 intelligence、speed 和 cost 之间最平衡。 他还推荐 /multitask，用来跳出 queue，一次并行处理更多工作。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2047879353313431649",
@@ -67,8 +68,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI productivity will drive more hiring, not less",
-      "suggestedSummary": "He argues Jevons paradox applies to AI: the better it gets at boosting productivity, the more work companies will take on — and the more people they’ll hire around it. His examples are practical: small businesses finally building software, sales teams generating more leads, and marketing teams adding specialists once AI handles the heavy lifting.",
+      "suggestedTitle": "AI 提升 productivity，反而会带来更多招聘，而不是更少",
+      "suggestedSummary": "他认为 Jevons paradox 也适用于 AI：AI 越能提升 productivity，企业就越会接更多活，也会围绕它招更多人。他举的例子很实在：小企业终于能自己做 software 了，sales team 能生成更多 leads，marketing team 在 AI 扛下重活后，也会开始补充更多 specialist。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2047747142308274645",
@@ -87,8 +88,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Discord DMs, now readable without login hacks",
-      "suggestedSummary": "He shipped discrawl 0.6.0, and the big upgrade is simple: it can now read Discord DMs without custom login tricks that risk getting blocked. He also notes it’s read-only by design — no sending slop to humans.",
+      "suggestedTitle": "Discord DMs 现在不用登录 hack 也能读了",
+      "suggestedSummary": "他发布了 discrawl 0.6.0。最大升级很直接：现在不用自定义登录 trick 也能读取 Discord DMs 了，也就不用再担心被封。它从设计上就是只读的，不会往人类那边发 slop。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2047871519762567468",
@@ -113,8 +114,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit wants to steal your app in one click",
-      "suggestedSummary": "He says you can import Vercel or Lovable apps into Replit with a few clicks. That’s a classic platform move: make switching so easy that “lock-in” starts working in reverse.",
+      "suggestedTitle": "Replit 想一键把你的 app 偷过来",
+      "suggestedSummary": "他说，你只要点几下，就能把 Vercel 或 Lovable 的 app 导入 Replit。这就是典型的平台打法：把迁移做得足够简单，让“锁定效应”开始反过来起作用。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2047747978690232550",
@@ -133,8 +134,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "He’s calling out tech money buying politics",
-      "suggestedSummary": "He says a tech centimillionaire is trying to buy an election while backing candidates who want to “murder all capitalists” and “destroy the schools.” It’s a blunt anti-left, anti-dark-money shot from the YC president, aimed squarely at the current political circus.",
+      "suggestedTitle": "他在点名科技钱买政治",
+      "suggestedSummary": "他说，一个科技圈的亿万富翁在试图用钱买下选举，同时还在支持那些想“干掉所有资本家”和“毁掉学校”的候选人。这是 YC 总裁对左派和黑金政治的一记直球，矛头直接对准了眼下这场政治闹剧。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2047883265516924976",
@@ -153,8 +154,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "NotebookLM gets smarter source organization",
-      "suggestedSummary": "NotebookLM can now auto-label and categorize sources, which should make messy research piles a lot easier to wrangle. It’s a small feature, but the kind that saves real time once you’re juggling a bunch of docs.",
+      "suggestedTitle": "NotebookLM 的 source 组织更聪明了",
+      "suggestedSummary": "NotebookLM 现在可以自动给 source 打标签、分类了。这样一来，乱糟糟的 research 材料会好整理很多。功能不大，但当你手上堆着一堆 docs 时，它能真省时间。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2047795981534847413",
@@ -173,8 +174,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Project codenames are forever—choose wisely",
-      "suggestedSummary": "He says product teams keep pretending project codenames are temporary, but they stick around forever. It’s a small warning, but a real one: pick names like they’ll end up in docs, Slack, and postmortems for years.",
+      "suggestedTitle": "项目代号一旦起了，就会一直跟着你——慎重选",
+      "suggestedSummary": "他说，产品团队总爱把项目代号当成临时用的，结果它们往往会一直留着。这个提醒不大，但很真实：起名时就要按它会在 docs、Slack 和 postmortems 里待很多年去选。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2047861559075250687",
@@ -205,8 +206,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Humans learn faster; AI knows more",
-      "suggestedSummary": "He argues the real edge is split: AI can hold more knowledge than any one person, but humans still learn faster. That’s a neat framing for where AI tools actually win today — scale and recall, not self-directed adaptation.",
+      "suggestedTitle": "人类学得更快；AI 知道得更多",
+      "suggestedSummary": "他认为真正的优势是分开的：AI 能装下的知识量，远超任何一个人，但人类学得还是更快。这正好点出了今天 AI 工具真正擅长的地方——规模和检索，而不是自我驱动的适应。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2047797874600161334",
@@ -231,8 +232,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Europe doesn’t want to outsource intelligence",
-      "suggestedSummary": "He says combining Cohere and Aleph Alpha is a telling moment: outside the US, there’s real resistance to handing “intelligence” over to a few American platforms. The bigger point is geopolitical — in a chaotic world, AI sovereignty is becoming a business and policy issue, not just a tech one.",
+      "suggestedTitle": "欧洲不想把 intelligence 外包出去",
+      "suggestedSummary": "他认为，把 Cohere 和 Aleph Alpha 放在一起看，是个很有代表性的信号：在美国之外，很多人其实不愿意把“intelligence”交给少数几家美国平台。更大的问题是地缘政治。在这个越来越混乱的世界里，AI sovereignty 已经不只是技术问题，也成了商业和政策问题。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2047721904438493482",
@@ -251,8 +252,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Hot skills today become tomorrow’s posttrain targets",
-      "suggestedSummary": "He says the skills everyone is chasing now will just become the next post-training data targets — a neat way of saying the market keeps moving up a level. He also notes that serious AI engineering is finally coming from the C-suite, calling out Vercel as a good example of what more companies should do.",
+      "suggestedTitle": "今天人人都在追的技能，明天就会变成 posttrain 的目标",
+      "suggestedSummary": "他说，现在大家拼命追的那些技能，最后都会变成下一轮 post-training 的数据目标。意思很简单：市场总会往更高一层走。他还提到，真正像样的 AI engineering 终于开始从 C-suite 里冒出来了，并点名 Vercel，觉得更多公司都该这么做。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2047749587163877668",
@@ -283,8 +284,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "GPT-5.5 can crank out a Star Fox clone",
-      "suggestedSummary": "He showed GPT-5.5 and Codex building a Star Fox-style game in about 15 minutes of prompting, then called out the weirdly impressive part: the model playtests its own game for fun. It’s a neat demo of how far fast iteration with AI coding tools has come, especially for product folks watching what’s possible.",
+      "suggestedTitle": "GPT-5.5 能快速做出一个 Star Fox 克隆版",
+      "suggestedSummary": "他演示了 GPT-5.5 和 Codex 只用大约 15 分钟的 prompt，就搭出一个 Star Fox 风格的游戏。然后他点出了最离谱、也最让人印象深刻的地方：这个 model 还会自己 playtest 自己做的游戏，纯粹是觉得好玩。这很直观地说明，AI coding tools 让快速迭代已经走到了什么程度。对关注产品可能性的人来说，这个 demo 很有参考价值。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2047882580603899915",
@@ -315,8 +316,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Design without intent is just hallucination",
-      "suggestedSummary": "He says the real core of design is understanding, not output: a design is an intention, and output without intention is basically hallucination. He also riffs on the pre-AI flood of “weather apps” and “dashboards” on Dribbble/Behance as proof that shiny output has always been easy to fake.",
+      "suggestedTitle": "没有意图的设计，不过是幻觉",
+      "suggestedSummary": "他说，设计的真正核心不是产出，而是理解。设计本质上是一种意图；没有意图的产出，基本就是幻觉。他还提到，在 AI 之前，Dribbble/Behance 上就已经满是各种“weather apps”和“dashboards”了，这正好说明：好看的输出一直都很容易伪造。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2047758400948408831",
@@ -347,8 +348,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Post-prompting is coming fast",
-      "suggestedSummary": "He says we’re heading into a post-prompting world, where the old “type a prompt, get an answer” interface stops being the main way people use AI. That’s the kind of shift a former Facebook engineer and Dropbox CTO would flag early: the real product opportunity is moving from prompting to systems that do the work for you.",
+      "suggestedTitle": "后 prompt 时代来得很快",
+      "suggestedSummary": "他认为，我们正在走向一个 post-prompting 的世界。以前那种“输入 prompt，拿到答案”的交互方式，不会再是人们用 AI 的主入口了。这个判断很像一位前 Facebook 工程师、Dropbox CTO 会提前看出来的方向：真正的产品机会，正在从 prompting 转向能替你把事做完的系统。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2047772143585468617",
@@ -365,25 +366,29 @@
       ],
       "publishedAt": "2026-04-24T20:18:19.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-25",
       "source": "No Priors",
-      "title": "SAP: Bringing the ‘Operating System’ of a Company into the AI Era with CTO Philipp Herzig",
+      "title": "SAP：CTO Philipp Herzig 谈如何把公司的“操作系统”带入 AI 时代",
       "url": "https://www.youtube.com/watch?v=5u7AjPardvo",
-      "suggestedTitle": "SAP bets AI wins by reengineering outcomes, not just chatbots",
-      "suggestedSummary": "**The Takeaway:** SAP’s AI thesis is simple: enterprise value comes from reengineering workflows, data, and verification—not flashy demos.\n\n- The real moat isn’t model quality; it’s scale, context, and outcomes across messy enterprise systems.\n- AI in the company is moving from “software as a service” to “service as a software,” with agents embedded into work, not bolted on.\n- LLMs are great for unstructured work, but SAP still sees predictive/tabular models as essential for planning, forecasting, and finance.\n\nPhilipp Herzig, CTO of SAP, frames the company as the “operating system” of a business: finance, HR, supply chain, procurement, sales, and logistics all tied together for 400,000 customers. His point is that SAP has survived every tech cycle because customers don’t buy technology for its own sake—they buy outcomes. That’s why he thinks AI is a business-model transition, not just a technology transition.\n\nThe hard part, in his view, is not building a chatbot. It’s teaching AI to do the right thing at scale across thousands of documents, 20,000 APIs, and wildly different employee contexts. “The biggest challenge… is how do you teach the AI to do the right thing at scale,” he says. That’s why SAP is pushing generative UI, agentic workflows, and what he calls “agent mining”: capturing the tribal knowledge hidden in Slack, Teams, and human judgment, then turning it into a data flywheel.\n\nHe’s also blunt about limits. LLMs shine in text-heavy, unstructured tasks like consulting and support, but forecasting demand, cash flow, or payment delays still needs classical predictive models. In other words: the future isn’t one model to rule them all. It’s a stack where agents, structured data, evals, and predictive systems work together to make enterprises faster—and more reliable.",
+      "suggestedTitle": "SAP 押注 AI：不是只做 chatbot，而是重构业务结果",
+      "suggestedSummary": "**核心结论：** SAP 的 AI 逻辑很简单：企业价值来自重构工作流、数据和验证，而不是炫酷 demo。\n\n- 真正的护城河不是 model quality，而是规模、context，以及跨复杂企业系统的结果。\n- 公司里的 AI 正在从“software as a service”走向“service as a software”，agent 不再是外挂，而是直接嵌进工作流。\n- LLM 很擅长处理非结构化工作，但 SAP 仍然认为 predictive/tabular models 对 planning、forecasting 和 finance 至关重要。\n\nSAP CTO Philipp Herzig 把 SAP 定位成企业的“operating system”：finance、HR、supply chain、procurement、sales 和 logistics 全部串起来，服务 400,000 家客户。他的意思是，SAP 能穿过每一轮技术周期，靠的不是客户为了技术本身买单，而是为了结果买单。所以他认为，AI 不是单纯的技术升级，而是 business model 的转变。\n\n在他看来，难点不是做一个 chatbot，而是让 AI 在成千上万份文档、20,000 个 API，以及完全不同的员工 context 里，都能稳定做对事。\"The biggest challenge… is how do you teach the AI to do the right thing at scale,\" 他说。也正因为这样，SAP 正在推进 generative UI、agentic workflows，以及他所说的“agent mining”：把藏在 Slack、Teams 和人工判断里的隐性知识抓出来，再变成一个 data flywheel。\n\n他对限制也说得很直白。LLM 很适合 text-heavy、非结构化任务，比如 consulting 和 support。但 demand、cash flow 或 payment delays 的预测，还是得靠传统 predictive models。换句话说，未来不是一个 model 包打天下，而是一整套 stack：agent、structured data、evals 和 predictive systems 协同工作，让企业跑得更快，也更稳。",
       "publishedAt": "2026-04-23T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-25",
       "source": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Scaling Managed Agents：把 brain 和 hands 拆开",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "author": null,
-      "suggestedTitle": "Anthropic launches Managed Agents with decoupled architecture",
-      "suggestedSummary": "**Lead:** Anthropic introduced **Managed Agents**, a hosted Claude Platform service for long-horizon agents that separates the agent “brain” from its “hands” and session state so each can scale, fail, and evolve independently.\n\n**Numbers:**\n- **p50 time-to-first-token dropped ~60%**\n- **p95 time-to-first-token dropped over 90%**\n- The architecture supports **many brains** and **many hands** without tying them to a single container\n\n**So What:** For builders, the big shift is architectural: the harness no longer lives inside the sandbox, sessions are durable outside the runtime, and tools are accessed through stable interfaces like `execute(name, input) → string`, `wake(sessionId)`, and `getEvents()`. That means better recovery from failures, easier integration with VPCs and custom infrastructure, and stronger security because credentials never need to be exposed to sandboxed code. Anthropic’s core message is that assumptions about what Claude can’t do will go stale, so the platform is designed to outlast today’s implementation. As the post puts it, the goal is a system for “programs as yet unthought of.”",
+      "suggestedTitle": "Anthropic 发布 Managed Agents，采用解耦架构",
+      "suggestedSummary": "**重点：** Anthropic 推出了 **Managed Agents**。这是一个托管在 Claude Platform 上的 service，面向长周期 agent。它把 agent 的“brain”和“hands”以及 session state 分开，这样每一层都能独立扩展、独立故障、独立演进。\n\n**数据：**\n- **p50 time-to-first-token 下降约 60%**\n- **p95 time-to-first-token 下降超过 90%**\n- 这套架构能支持 **many brains** 和 **many hands**，而不用把它们绑死在单个 container 里\n\n**核心意思：** 对 builder 来说，最大的变化是架构层面的。harness 不再塞在 sandbox 里，session 也不再依赖 runtime 才能活着，而是放到外部持久化。tool 通过稳定接口来访问，比如 `execute(name, input) → string`、`wake(sessionId)` 和 `getEvents()`。这样一来，故障恢复更稳，和 VPC、custom infrastructure 的集成也更简单。安全性也更好，因为 credentials 不需要暴露给 sandboxed code。Anthropic 想传达的核心信息是：别把今天 Claude 做不到的事当成长期限制。这个 platform 的设计目标，是能撑到未来的实现方式。原文最后那句话说得很直白：目标是一个能服务于“尚未被想到的 programs”的 system。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -393,6 +398,7 @@
     "totalTweets": 28,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-25T14:15:17.254Z"
+    "generatedAt": "2026-04-25T14:15:30.347Z",
+    "estimatedReadTime": "8 分钟"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-04-25",
-  "summary": "Altman dropped GPT-5.5 into the API, and Cursor’s Ryo Lu bet on it plus Composer 2. Peter Yang said it can spit out a Star Fox clone; Anthropic shipped Managed Agents, while Replit, NotebookLM, and Discord all got sharper.",
-  "items": [
+  "lang": "ja",
+  "summary": "AltmanはGPT-5.5をAPIに投入した。CursorのRyo Luは、それとComposer 2に賭けた。Peter Yangは、Star Foxのクローンを吐き出せると語った。AnthropicはManaged Agentsを出荷した。Replit、NotebookLM、Discordもそろって切れ味を増した。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-25",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "GPT-5.5 lands in the API",
-      "suggestedSummary": "He said GPT-5.5 and GPT-5.5 Pro are now available in the API, which is the only tweet here with real substance. The rest is just a generic good-week pat on the back and a heart emoji, so the news is simple: OpenAI shipped a new model family for builders.",
+      "suggestedTitle": "GPT-5.5がAPIに登場",
+      "suggestedSummary": "GPT-5.5とGPT-5.5 ProがAPIで利用可能になったと彼は述べた。ここで実質的な内容があるのは、この一文だけだ。残りは、よくある「いい週だった」という肩たたきとハートの絵文字にすぎない。要するに、OpenAIがbuilder向けに新しいmodel familyをリリースした、という話である。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2047823357635354814",
@@ -41,8 +42,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor bets on GPT-5.5 + Composer 2",
-      "suggestedSummary": "Cursor’s design lead says he’s fully switched to GPT-5.5 plus Composer 2, calling it the sweet spot for intelligence, speed, and cost. He also points users to /multitask, a way to break out of the queue and juggle more work at once.",
+      "suggestedTitle": "CursorはGPT-5.5 + Composer 2に賭ける",
+      "suggestedSummary": "Cursorのデザイン責任者は、GPT-5.5とComposer 2に完全移行したと語る。知能、速度、コストのバランスが最適だという。さらに、/multitaskも案内している。これはキューから抜け出し、より多くの作業を同時にさばくための手段だ。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2047879353313431649",
@@ -67,8 +68,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI productivity will drive more hiring, not less",
-      "suggestedSummary": "He argues Jevons paradox applies to AI: the better it gets at boosting productivity, the more work companies will take on — and the more people they’ll hire around it. His examples are practical: small businesses finally building software, sales teams generating more leads, and marketing teams adding specialists once AI handles the heavy lifting.",
+      "suggestedTitle": "AIの生産性向上は、採用を減らすのではなく増やす",
+      "suggestedSummary": "彼は、Jevons paradoxがAIにも当てはまると主張する。AIが生産性向上に優れるほど、企業はより多くの仕事を引き受けるようになる。そして、その周辺でより多くの人を採用することになる。例は実務的だ。小規模企業がついにsoftwareを作れるようになる。sales teamはより多くのleadを生み出す。marketing teamは、AIが重い作業を担うようになった後でspecialistを増やす。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2047747142308274645",
@@ -87,8 +88,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Discord DMs, now readable without login hacks",
-      "suggestedSummary": "He shipped discrawl 0.6.0, and the big upgrade is simple: it can now read Discord DMs without custom login tricks that risk getting blocked. He also notes it’s read-only by design — no sending slop to humans.",
+      "suggestedTitle": "ログインの裏技なしでDiscordのDMが読めるようになった",
+      "suggestedSummary": "discrawl 0.6.0をリリースした。大きなアップデートは単純だ。カスタムのログイン手順なしでDiscordのDMを読めるようになった。ブロックされるリスクがあるやり方は不要になった。なお、設計上は読み取り専用だ。人間にslopを送ることはない。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2047871519762567468",
@@ -113,8 +114,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit wants to steal your app in one click",
-      "suggestedSummary": "He says you can import Vercel or Lovable apps into Replit with a few clicks. That’s a classic platform move: make switching so easy that “lock-in” starts working in reverse.",
+      "suggestedTitle": "Replitはワンクリックであなたのappを奪おうとしている",
+      "suggestedSummary": "彼によれば、VercelやLovableのappを数クリックでReplitにimportできるという。これは典型的なplatform戦略だ。乗り換えをあまりに簡単にして、「lock-in」が逆向きに働くようにするのである。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2047747978690232550",
@@ -133,8 +134,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "He’s calling out tech money buying politics",
-      "suggestedSummary": "He says a tech centimillionaire is trying to buy an election while backing candidates who want to “murder all capitalists” and “destroy the schools.” It’s a blunt anti-left, anti-dark-money shot from the YC president, aimed squarely at the current political circus.",
+      "suggestedTitle": "tech moneyがpoliticsを買おうとしていると批判",
+      "suggestedSummary": "YC presidentの彼は、tech centimillionaireがelectionを買おうとしていると指摘する。同時に、その人物は「capitalistsを全員murderする」「schoolsをdestroyする」と主張するcandidateも支援しているという。YC presidentによる、leftとdark moneyへの率直な批判だ。今のpolitical circusを真正面から狙い撃ちにしている。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2047883265516924976",
@@ -153,8 +154,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "NotebookLM gets smarter source organization",
-      "suggestedSummary": "NotebookLM can now auto-label and categorize sources, which should make messy research piles a lot easier to wrangle. It’s a small feature, but the kind that saves real time once you’re juggling a bunch of docs.",
+      "suggestedTitle": "NotebookLMがソース整理をより賢くする",
+      "suggestedSummary": "NotebookLMがソースを自動でラベル付けし、分類できるようになった。散らかった調査資料をかなり扱いやすくするはずだ。小さな機能だが、複数のdocを同時に扱うようになると、かなりの時間を節約できる。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2047795981534847413",
@@ -173,8 +174,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Project codenames are forever—choose wisely",
-      "suggestedSummary": "He says product teams keep pretending project codenames are temporary, but they stick around forever. It’s a small warning, but a real one: pick names like they’ll end up in docs, Slack, and postmortems for years.",
+      "suggestedTitle": "プロジェクトのコードネームは永遠だ。賢く選べ",
+      "suggestedSummary": "彼は、プロダクトチームがプロジェクトのコードネームを一時的なものだと装い続けていると言う。だが、実際にはずっと残る。小さな警告だが、軽く見てはいけない。名前は、何年も docs、Slack、postmortems に載る前提で付けるべきだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2047861559075250687",
@@ -205,8 +206,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Humans learn faster; AI knows more",
-      "suggestedSummary": "He argues the real edge is split: AI can hold more knowledge than any one person, but humans still learn faster. That’s a neat framing for where AI tools actually win today — scale and recall, not self-directed adaptation.",
+      "suggestedTitle": "人間はより速く学び、AIはより多くを知る",
+      "suggestedSummary": "彼は、本当の優位性は分かれていると論じる。AIは一人の人間より多くの知識を保持できるが、人間はなお学習が速い。これは、AI toolsが今どこで本当に勝つのかをうまく切り取った見方だ。勝ち筋は自己適応ではなく、スケールと想起にある。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2047797874600161334",
@@ -231,8 +232,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Europe doesn’t want to outsource intelligence",
-      "suggestedSummary": "He says combining Cohere and Aleph Alpha is a telling moment: outside the US, there’s real resistance to handing “intelligence” over to a few American platforms. The bigger point is geopolitical — in a chaotic world, AI sovereignty is becoming a business and policy issue, not just a tech one.",
+      "suggestedTitle": "ヨーロッパは知能の外部委託を望んでいない",
+      "suggestedSummary": "CohereとAleph Alphaの統合は象徴的な出来事だという。米国の外では、「知能」を少数のAmerican platformに渡すことへの強い抵抗がある。より大きな論点は地政学だ。混乱した世界では、AI sovereigntyは単なる技術課題ではなく、ビジネスと政策の問題になりつつある。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2047721904438493482",
@@ -251,8 +252,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Hot skills today become tomorrow’s posttrain targets",
-      "suggestedSummary": "He says the skills everyone is chasing now will just become the next post-training data targets — a neat way of saying the market keeps moving up a level. He also notes that serious AI engineering is finally coming from the C-suite, calling out Vercel as a good example of what more companies should do.",
+      "suggestedTitle": "今注目のスキルは、やがて次のpost-trainingの対象になる",
+      "suggestedSummary": "今みんなが追いかけているスキルは、結局は次のpost-training dataの対象になるだけだ、と彼は言う。市場がさらに上の段階へ動き続ける、という見事な言い方だ。さらに、真剣なAI engineeringがようやくC-suiteから出てきたとも指摘する。Vercelを、その方向で他の会社も見習うべき好例として挙げている。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2047749587163877668",
@@ -283,8 +284,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "GPT-5.5 can crank out a Star Fox clone",
-      "suggestedSummary": "He showed GPT-5.5 and Codex building a Star Fox-style game in about 15 minutes of prompting, then called out the weirdly impressive part: the model playtests its own game for fun. It’s a neat demo of how far fast iteration with AI coding tools has come, especially for product folks watching what’s possible.",
+      "suggestedTitle": "GPT-5.5でStar Fox風のクローンを一気に作れる",
+      "suggestedSummary": "彼はGPT-5.5とCodexが、約15分のpromptだけでStar Fox風のゲームを作る様子を示した。さらに、妙に印象的な点として、モデルが自分のゲームを遊んでテストすることを挙げた。AI coding toolsでの高速な反復がどこまで進んだかを示す、手堅いデモだ。特に、何が可能かを見ているプロダクト担当には刺さる。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2047882580603899915",
@@ -315,8 +316,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Design without intent is just hallucination",
-      "suggestedSummary": "He says the real core of design is understanding, not output: a design is an intention, and output without intention is basically hallucination. He also riffs on the pre-AI flood of “weather apps” and “dashboards” on Dribbble/Behance as proof that shiny output has always been easy to fake.",
+      "suggestedTitle": "意図のないデザインはただの幻覚だ",
+      "suggestedSummary": "彼は、デザインの本質は出力ではなく理解にあると言う。デザインとは意図であり、意図のない出力は要するに幻覚だというわけだ。さらに、AI以前にDribbbleやBehanceであふれていた「weather apps」や「dashboards」にも触れる。見栄えのいい出力は、昔からいくらでも偽装できた証拠だとしている。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2047758400948408831",
@@ -347,8 +348,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Post-prompting is coming fast",
-      "suggestedSummary": "He says we’re heading into a post-prompting world, where the old “type a prompt, get an answer” interface stops being the main way people use AI. That’s the kind of shift a former Facebook engineer and Dropbox CTO would flag early: the real product opportunity is moving from prompting to systems that do the work for you.",
+      "suggestedTitle": "ポスト-promptingが急速に来ている",
+      "suggestedSummary": "彼は、post-promptingの時代に向かっていると言う。古い「promptを打ち込んで答えを得る」インターフェースは、AIの主な使い方ではなくなっていく。元FacebookエンジニアでDropboxのCTOなら、こうした変化を早めに見抜くのも不思議ではない。本当のプロダクト機会は、promptingから、作業を代行するシステムへ移っているのだ。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2047772143585468617",
@@ -365,25 +366,29 @@
       ],
       "publishedAt": "2026-04-24T20:18:19.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-25",
       "source": "No Priors",
-      "title": "SAP: Bringing the ‘Operating System’ of a Company into the AI Era with CTO Philipp Herzig",
+      "title": "SAP: CTO Philipp Herzigが語る、企業の「オペレーティングシステム」をAI時代へ持ち込む方法",
       "url": "https://www.youtube.com/watch?v=5u7AjPardvo",
-      "suggestedTitle": "SAP bets AI wins by reengineering outcomes, not just chatbots",
-      "suggestedSummary": "**The Takeaway:** SAP’s AI thesis is simple: enterprise value comes from reengineering workflows, data, and verification—not flashy demos.\n\n- The real moat isn’t model quality; it’s scale, context, and outcomes across messy enterprise systems.\n- AI in the company is moving from “software as a service” to “service as a software,” with agents embedded into work, not bolted on.\n- LLMs are great for unstructured work, but SAP still sees predictive/tabular models as essential for planning, forecasting, and finance.\n\nPhilipp Herzig, CTO of SAP, frames the company as the “operating system” of a business: finance, HR, supply chain, procurement, sales, and logistics all tied together for 400,000 customers. His point is that SAP has survived every tech cycle because customers don’t buy technology for its own sake—they buy outcomes. That’s why he thinks AI is a business-model transition, not just a technology transition.\n\nThe hard part, in his view, is not building a chatbot. It’s teaching AI to do the right thing at scale across thousands of documents, 20,000 APIs, and wildly different employee contexts. “The biggest challenge… is how do you teach the AI to do the right thing at scale,” he says. That’s why SAP is pushing generative UI, agentic workflows, and what he calls “agent mining”: capturing the tribal knowledge hidden in Slack, Teams, and human judgment, then turning it into a data flywheel.\n\nHe’s also blunt about limits. LLMs shine in text-heavy, unstructured tasks like consulting and support, but forecasting demand, cash flow, or payment delays still needs classical predictive models. In other words: the future isn’t one model to rule them all. It’s a stack where agents, structured data, evals, and predictive systems work together to make enterprises faster—and more reliable.",
+      "suggestedTitle": "SAP、chatbotだけでなく成果を再設計してAIで勝つ",
+      "suggestedSummary": "**要点:** SAPのAI戦略はシンプルだ。企業価値は、派手なデモではなく、ワークフロー、データ、検証の再設計から生まれる。\n\n- 本当の堀はmodelの品質ではない。大規模さ、文脈、そして厄介なenterprise systemsをまたいだ成果だ。\n- 企業内のAIは「software as a service」から「service as a software」へ移りつつある。agentは後付けではなく、仕事の中に埋め込まれる。\n- LLMは非構造化の仕事に強い。一方でSAPは、planning、forecasting、financeには今もpredictive/tabular modelsが不可欠だと見ている。\n\nSAPのCTOであるPhilipp Herzigは、同社をビジネスの「オペレーティングシステム」と位置づける。finance、HR、supply chain、procurement、sales、logisticsが、40万社の顧客向けにひとつにつながっているという見立てだ。彼の主張は、顧客がtechnologyそのものを買うのではなく、成果を買うという点にある。だからこそ彼は、AIはtechnologyの転換ではなく、business modelの転換だと考えている。\n\n彼の見方では、難しいのはchatbotを作ることではない。何千ものdocument、2万のAPI、そしてまったく異なるemployee contextをまたいで、AIに正しいことを大規模にやらせることだ。「最大の課題は…AIに正しいことを大規模にやらせる方法だ」と彼は言う。そのためSAPは、generative UI、agentic workflows、そして彼が「agent mining」と呼ぶものを推進している。Slack、Teams、人間の判断の中に埋もれた暗黙知を取り出し、data flywheelへ変える取り組みだ。\n\n限界についても彼は率直だ。LLMは、consultingやsupportのようなテキスト中心で非構造化な仕事では力を発揮する。一方で、需要、cash flow、支払い遅延の予測には、今も古典的なpredictive modelsが必要だ。要するに、未来は万能の単一modelではない。agent、structured data、evals、predictive systemsが連携するstackだ。企業をより速く、より信頼できるものにするためのstackである。",
       "publishedAt": "2026-04-23T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-25",
       "source": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Managed Agentsのスケーリング: brainとhandsを分離する",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "author": null,
-      "suggestedTitle": "Anthropic launches Managed Agents with decoupled architecture",
-      "suggestedSummary": "**Lead:** Anthropic introduced **Managed Agents**, a hosted Claude Platform service for long-horizon agents that separates the agent “brain” from its “hands” and session state so each can scale, fail, and evolve independently.\n\n**Numbers:**\n- **p50 time-to-first-token dropped ~60%**\n- **p95 time-to-first-token dropped over 90%**\n- The architecture supports **many brains** and **many hands** without tying them to a single container\n\n**So What:** For builders, the big shift is architectural: the harness no longer lives inside the sandbox, sessions are durable outside the runtime, and tools are accessed through stable interfaces like `execute(name, input) → string`, `wake(sessionId)`, and `getEvents()`. That means better recovery from failures, easier integration with VPCs and custom infrastructure, and stronger security because credentials never need to be exposed to sandboxed code. Anthropic’s core message is that assumptions about what Claude can’t do will go stale, so the platform is designed to outlast today’s implementation. As the post puts it, the goal is a system for “programs as yet unthought of.”",
+      "suggestedTitle": "Anthropic、分離アーキテクチャのManaged Agentsをリリース",
+      "suggestedSummary": "**要点:** Anthropicは、長期稼働のagent向けにホスト型のClaude Platformサービス「Managed Agents」を発表した。agentの「brain」と「hands」、そしてsession stateを分離し、それぞれを独立してスケール、障害対応、進化できるようにした。\n\n**数値:**\n- **p50のtime-to-first-tokenが約60%低下**\n- **p95のtime-to-first-tokenが90%以上低下**\n- このアーキテクチャは、単一のcontainerに縛られず、**many brains** と **many hands** を支えられる\n\n**要点:** builderにとっての大きな変化は、アーキテクチャにある。harnessはもはやsandboxの内部に存在しない。sessionはruntimeの外で永続化される。toolは `execute(name, input) → string`、`wake(sessionId)`、`getEvents()` のような安定したinterface経由で扱う。これにより、障害からの復旧がしやすくなり、VPCやcustom infrastructureとの統合も容易になる。さらに、credentialをsandboxed codeに露出させる必要がないため、securityも強化される。Anthropicの核心メッセージは、Claudeにできないことに関する前提はすぐに古くなる、というものだ。そのため、このplatformは今日のimplementationより長く持つよう設計されている。記事が述べるように、目標は「まだ誰も思いついていないprograms」のためのsystemである。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -393,6 +398,7 @@
     "totalTweets": 28,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-25T14:15:17.254Z"
+    "generatedAt": "2026-04-25T14:15:43.693Z",
+    "estimatedReadTime": "8 分"
   }
 }
