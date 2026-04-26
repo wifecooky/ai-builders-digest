@@ -1,7 +1,8 @@
 {
   "date": "2026-04-26",
-  "summary": "Altman said OpenAI still lags on frontend but wins on brains. Levie bet on weird future talent, Masad said every company turns into a cybersecurity company, and Tan showed Claude Code with a browser sidecar.",
-  "items": [
+  "lang": "zh",
+  "summary": "Altman 说，OpenAI 在前端上还是落后，但在“脑子”上赢了。Levie 押注的是那种很怪、但很有未来感的人才。Masad 说，最后每家公司都会变成 cybersecurity company。Tan 则展示了带 browser sidecar 的 Claude Code。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-26",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "OpenAI still lags on frontend, but wins on brains",
-      "suggestedSummary": "He says the team still gets outclassed on frontend polish, but the model stack is now “IQmog” strong — and they’ll fix the weak spots. The vibe is classic Altman: self-aware, a little memey, and basically saying the product is getting smart fast even if the UI isn’t perfect yet.",
+      "suggestedTitle": "OpenAI 在 frontend 上还是落后，但在 intelligence 上赢了",
+      "suggestedSummary": "他说，团队在 frontend 的精致度上还是会被别人压一头。不过 model stack 现在已经强到接近 “IQmog” 级别了，剩下的短板他们会补上。这个味道很 Altman：自知、带点 meme 感，核心意思就是产品的聪明程度在飞快提升，哪怕 UI 还没完全打磨好。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2048165186482389253",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI erases experience gaps — find the weird future talent",
-      "suggestedSummary": "AI is creating leverage that used to take years of experience, so ambitious people can punch way above their weight much earlier. He says companies should actively hunt for these “from the future” operators and put them in key roles, because they’ll show where work is headed next.",
+      "suggestedTitle": "AI 抹平经验差距——去找那些来自未来的人才",
+      "suggestedSummary": "AI 正在把过去要靠多年经验才能拿到的杠杆，直接摆到眼前。野心够强的人，可以更早打出远超自己资历的表现。他说，公司应该主动去找这些“来自未来”的操盘手，把他们放到关键岗位上，因为他们最能看清工作接下来会怎么变。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2048223146063609965",
@@ -61,8 +62,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Every company becomes a cybersecurity company",
-      "suggestedSummary": "He’s drawing the next big shift: after internet, software, and AI, the real battleground in 2025+ is security. The implication is blunt — as AI spreads everywhere, defending systems becomes table stakes for every company, not just the security vendors.",
+      "suggestedTitle": "每家公司都会变成 cybersecurity 公司",
+      "suggestedSummary": "他在指向下一个大转折：经历了 internet、software 和 AI 之后，2025 年以后真正的主战场是 security。意思很直接——随着 AI 无处不在，保护系统不再只是 security vendor 的事，而是每家公司都得具备的基本功。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2048265772775162078",
@@ -81,8 +82,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Shipping AI tools that keep getting sharper",
-      "suggestedSummary": "He’s pushing out real product updates, not vibes: Summarize 0.14.0 adds GPT-5.5 Fast mode, Reddit thread extraction in the browser extension, local PDF extraction, and a bunch of compatibility fixes. CodexBar 0.23 also landed with Mistral support, GPT-5.5 pricing, cleaner UI, and reliability work — classic founder-mode iteration on AI tooling.",
+      "suggestedTitle": "持续打磨、越做越锋利的 AI 工具",
+      "suggestedSummary": "他在推的不是空话，是真正的产品更新：Summarize 0.14.0 加了 GPT-5.5 Fast mode、浏览器扩展里的 Reddit thread 提取、local PDF extraction，还有一堆兼容性修复。CodexBar 0.23 也上线了，支持 Mistral、GPT-5.5 pricing、界面更干净，外加一轮 reliability 优化——典型的 founder-mode，在 AI tooling 上持续迭代。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2048275589224628677",
@@ -113,8 +114,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "How you ask matters more than the model",
-      "suggestedSummary": "He says we never really see the model itself — only the version shaped by how we question it. That’s a neat reminder from the Every CEO that prompt design isn’t a side quest; it’s part of the product.",
+      "suggestedTitle": "你怎么问，比模型本身更重要",
+      "suggestedSummary": "他说，我们其实从来没真正看到过模型本身。我们看到的，只有被提问方式塑造出来的那个版本。Every 的 CEO 这个提醒挺到位：prompt 设计不是旁支任务，它就是产品的一部分。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2048026505461080076",
@@ -133,8 +134,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Most work happens before the keyboard",
-      "suggestedSummary": "Writing is just the last step; the real work happens in your head first. She extends that to product, design, and engineering too: the artifact is easy, the thinking is the hard part.",
+      "suggestedTitle": "大部分工作都发生在敲键盘之前",
+      "suggestedSummary": "写作只是最后一步。真正的工作，先在脑子里完成。她也把这点延伸到 product、design 和 engineering：产出物很容易，难的是思考本身。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2048101948826751429",
@@ -153,8 +154,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Kids already expect AI to build games instantly",
-      "suggestedSummary": "He says a 7-year-old using Codex already reveals the new baseline: if AI can’t spin up a pet-dragon game on demand, it feels broken. He also floated a practical ask for human-curated skill repos in design, coding, and product — less slop, more signal — while admitting he still has to get Codex to fix his OpenClaw setup.",
+      "suggestedTitle": "小孩已经默认 AI 能立刻做出游戏",
+      "suggestedSummary": "他说，一个 7 岁小孩用 Codex 的反应，其实已经说明了新的基线：如果 AI 不能按需快速搭出一个“宠物龙”游戏，那它就显得不对劲。他还提了个很实用的需求：在 design、coding 和 product 这些领域，最好有人工整理过的 skill repo。少点 slop，多点 signal。与此同时，他也承认，自己还得让 Codex 帮他把 OpenClaw 的环境修好。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2048220045726322934",
@@ -185,8 +186,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Claude Code gets a browser sidecar",
-      "suggestedSummary": "He’s shipping GStack Browser as a way to control your browser side-by-side with Claude Code, with a simple `/open-gstack-browser` skill to launch it. He also released GBrain v0.22, tightening search, retrieval, and evals with the eval system split into its own repo to keep things lean.",
+      "suggestedTitle": "Claude Code 多了个 browser sidecar",
+      "suggestedSummary": "他在推 GStack Browser，让你能和 Claude Code 并排控制浏览器。启动也很简单，用一个 `/open-gstack-browser` skill 就行。他还发布了 GBrain v0.22，把 search、retrieval 和 evals 都收紧了。eval system 也拆到单独的 repo 里，整体更轻了。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2048290087318773807",
@@ -217,8 +218,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Bleeding-edge adoption is a trap",
-      "suggestedSummary": "Being first sounds cool, but it means constantly rewiring your process as the market churns. The better spot is a couple steps behind: new enough to matter, stable enough to survive the hype cycle.",
+      "suggestedTitle": "前沿采用是个坑",
+      "suggestedSummary": "抢先上新听起来很酷，但这意味着你得随着市场变化不断重构流程。更好的位置是落后两步：够新，能派上用场；又够稳，能扛住 hype cycle。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2048210021553405955",
@@ -241,23 +242,27 @@
       ],
       "publishedAt": "2026-04-26T01:18:17.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-26",
       "source": "No Priors",
-      "title": "Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott",
+      "title": "AI 时代下的全球组织扩张：ServiceNow CEO Bill McDermott",
       "url": "https://www.youtube.com/watch?v=tNNFJa5pUEg",
-      "suggestedTitle": "AI wins when it fits workflow, not when it replaces it",
-      "suggestedSummary": "**The Takeaway:** In enterprise, AI is most powerful as a layer on top of trusted platforms—not a replacement for them.\n\n- Bill McDermott argues the real moat is workflow, context, and accountability; “AI think, but workflow acts.”\n- He’s blunt that businesses forgive people for mistakes, but “they never will forgive software for making a mistake.”\n- His contrarian bet: the cost of rebuilding serious enterprise software with models, tokens, and GPU spend can be 10x higher than using a platform.\n\nMcDermott, the CEO of ServiceNow and a veteran of SAP and Xerox, frames his leadership philosophy as a product of early hustle: buying a deli at 16, learning customers one by one, and earning confidence through work. That background shaped a simple worldview—opportunity matters, but execution matters more. He says leadership is about giving people “a shot,” then building the discipline to make it count.\n\nOn AI, he rejects the panic around “SaaSpocalypse” thinking. ServiceNow’s pitch is not that language models are unimportant—they are—but that they’re incomplete without the enterprise fabric underneath. LLMs can recommend steps, but they don’t close the case across HR, finance, legal, and compliance. That’s why he sees ServiceNow as the “AI control tower for business reinvention,” integrating models, hyperscalers, systems of record, and security into one operating layer.\n\nHis broader point is philosophical as much as strategic: technology should amplify human ambition, not erase it. The future belongs to companies that combine AI speed with human trust, because in the enterprise, reliability is the product.",
+      "suggestedTitle": "AI 真正起作用的地方，是贴合 workflow，而不是替代它",
+      "suggestedSummary": "**核心结论：** 在 enterprise 里，AI 最强的用法不是替代 trusted platform，而是在它们上面再加一层。  \n\n- Bill McDermott 认为，真正的 moat 来自 workflow、context 和 accountability；“AI think, but workflow acts.”  \n- 他话说得很直：人犯错，business 还能原谅；但“they never will forgive software for making a mistake.”  \n- 他的反直觉判断是：如果用 models、tokens 和 GPU spend 去重建一套严肃的 enterprise software，成本可能比直接基于 platform 做高 10 倍。  \n\nMcDermott 是 ServiceNow 的 CEO，也在 SAP 和 Xerox 干过。他把自己的 leadership philosophy 归结为早年的折腾：16 岁买下一个 deli，学着一个个搞定 customers，再靠 work 赚来 confidence。那段经历塑造了他很简单的世界观——机会重要，但 execution 更重要。他说，leadership 就是先给人一个 “shot”，然后把纪律和节奏搭起来，让这个机会真的落地。  \n\n谈到 AI，他不认同外界对 “SaaSpocalypse” 的焦虑。ServiceNow 的观点不是说 language models 不重要——它们很重要——而是说，少了 enterprise fabric，它们就不完整。LLM 可以建议下一步怎么做，但它没法跨 HR、finance、legal 和 compliance 把 case 真正收尾。所以他把 ServiceNow 看成 business reinvention 的 “AI control tower”，把 models、hyperscalers、systems of record 和 security 整合到同一层 operating layer 里。  \n\n他更大的观点，既是哲学，也是 strategy：technology 应该放大人的 ambition，而不是把人抹掉。未来属于那些能把 AI speed 和 human trust 结合起来的公司。因为在 enterprise 里，reliability 本身就是 product。",
       "publishedAt": "2026-04-17T20:44:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 25,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-26T14:15:03.285Z"
+    "generatedAt": "2026-04-26T14:15:10.706Z",
+    "estimatedReadTime": "5 分钟"
   }
 }

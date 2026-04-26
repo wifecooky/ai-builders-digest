@@ -1,7 +1,8 @@
 {
   "date": "2026-04-26",
-  "summary": "Altman said OpenAI still lags on frontend but wins on brains. Levie bet on weird future talent, Masad said every company turns into a cybersecurity company, and Tan showed Claude Code with a browser sidecar.",
-  "items": [
+  "lang": "ja",
+  "summary": "Altmanは、OpenAIはfrontendではまだ遅れているが、頭脳では勝っていると語った。  \nLevieは、奇妙な未来のtalentに賭けた。  \nMasadは、すべてのcompanyはcybersecurity companyになると言った。  \nTanは、browser sidecar付きのClaude Codeを披露した。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-26",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "OpenAI still lags on frontend, but wins on brains",
-      "suggestedSummary": "He says the team still gets outclassed on frontend polish, but the model stack is now “IQmog” strong — and they’ll fix the weak spots. The vibe is classic Altman: self-aware, a little memey, and basically saying the product is getting smart fast even if the UI isn’t perfect yet.",
+      "suggestedTitle": "OpenAIはfrontendではまだ遅れを取るが、頭脳では勝っている",
+      "suggestedSummary": "彼は、チームがまだfrontendの洗練度で見劣りすると語る。一方で、model stackは今や「IQmog」級に強いとも言う。弱い部分はこれから直すという話だ。空気感はいつものAltmanだ。自己認識があり、少しミームっぽい。そして要するに、UIがまだ完璧でなくても、productは急速に賢くなっていると言っている。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2048165186482389253",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI erases experience gaps — find the weird future talent",
-      "suggestedSummary": "AI is creating leverage that used to take years of experience, so ambitious people can punch way above their weight much earlier. He says companies should actively hunt for these “from the future” operators and put them in key roles, because they’ll show where work is headed next.",
+      "suggestedTitle": "AIが経験差を消す — 未来から来たような人材を見つけよ",
+      "suggestedSummary": "AIは、これまで何年もの経験が必要だったレバレッジを生み出している。だから野心のある人は、ずっと早い段階で実力以上の成果を出せる。彼は、こうした「未来から来た」ようなオペレーターを企業が積極的に探し、重要な役割に置くべきだと言う。そうした人材が、仕事の次の行き先を示すからだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2048223146063609965",
@@ -61,8 +62,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Every company becomes a cybersecurity company",
-      "suggestedSummary": "He’s drawing the next big shift: after internet, software, and AI, the real battleground in 2025+ is security. The implication is blunt — as AI spreads everywhere, defending systems becomes table stakes for every company, not just the security vendors.",
+      "suggestedTitle": "すべての会社はサイバーセキュリティ企業になる",
+      "suggestedSummary": "彼は次の大きな変化を描いている。インターネット、ソフトウェア、AIの次に、2025年以降の本当の戦場はセキュリティだという見立てだ。含意は明快である。AIがあらゆる場所に広がるほど、システムを守ることはセキュリティベンダーだけでなく、すべての会社にとっての必須条件になる。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2048265772775162078",
@@ -81,8 +82,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Shipping AI tools that keep getting sharper",
-      "suggestedSummary": "He’s pushing out real product updates, not vibes: Summarize 0.14.0 adds GPT-5.5 Fast mode, Reddit thread extraction in the browser extension, local PDF extraction, and a bunch of compatibility fixes. CodexBar 0.23 also landed with Mistral support, GPT-5.5 pricing, cleaner UI, and reliability work — classic founder-mode iteration on AI tooling.",
+      "suggestedTitle": "切れ味を増し続けるAIツールを出荷する",
+      "suggestedSummary": "彼は雰囲気ではなく、実際のプロダクトアップデートを次々と出している。Summarize 0.14.0ではGPT-5.5 Fast mode、browser extensionでのReddit thread抽出、ローカルPDF抽出、そして多数の互換性修正が入った。CodexBar 0.23もリリースされ、Mistral対応、GPT-5.5の価格設定、よりすっきりしたUI、信頼性向上の作業が加わった。AI toolingをひたすら磨き込む、まさに founder mode の反復である。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2048275589224628677",
@@ -113,8 +114,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "How you ask matters more than the model",
-      "suggestedSummary": "He says we never really see the model itself — only the version shaped by how we question it. That’s a neat reminder from the Every CEO that prompt design isn’t a side quest; it’s part of the product.",
+      "suggestedTitle": "どう問うかのほうが、モデルそのものより重要だ",
+      "suggestedSummary": "彼は、私たちが本当に見ているのはモデルそのものではなく、どう問いかけるかで形づくられた版だけだと言う。Every CEOからの、prompt designは脇役ではなくプロダクトの一部だという、よい再確認だ。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2048026505461080076",
@@ -133,8 +134,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Most work happens before the keyboard",
-      "suggestedSummary": "Writing is just the last step; the real work happens in your head first. She extends that to product, design, and engineering too: the artifact is easy, the thinking is the hard part.",
+      "suggestedTitle": "作業の大半はキーボードに触れる前に終わっている",
+      "suggestedSummary": "書くのは最後の一手にすぎない。本当の作業は、まず頭の中で起きる。彼女はそれを product、design、engineering にも広げている。成果物を作るのは簡単だ。難しいのは、考えることだ。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2048101948826751429",
@@ -153,8 +154,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Kids already expect AI to build games instantly",
-      "suggestedSummary": "He says a 7-year-old using Codex already reveals the new baseline: if AI can’t spin up a pet-dragon game on demand, it feels broken. He also floated a practical ask for human-curated skill repos in design, coding, and product — less slop, more signal — while admitting he still has to get Codex to fix his OpenClaw setup.",
+      "suggestedTitle": "子どもはもう、AIがゲームを即座に作るのを当たり前だと思っている",
+      "suggestedSummary": "彼は、Codexを使う7歳児が新しい基準をすでに示していると言う。AIが頼んだとおりにペットドラゴンのゲームを立ち上げられなければ、壊れているように感じるのだ。さらに、デザイン、コーディング、プロダクトの分野で、人が選んだskill repoが欲しいとも提案した。ノイズを減らし、シグナルを増やすという話だ。とはいえ、自分のOpenClaw環境の修正は、まだCodexにやらせる必要があるとも認めている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2048220045726322934",
@@ -185,8 +186,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Claude Code gets a browser sidecar",
-      "suggestedSummary": "He’s shipping GStack Browser as a way to control your browser side-by-side with Claude Code, with a simple `/open-gstack-browser` skill to launch it. He also released GBrain v0.22, tightening search, retrieval, and evals with the eval system split into its own repo to keep things lean.",
+      "suggestedTitle": "Claude Codeにブラウザー用サイドカーが追加",
+      "suggestedSummary": "Claude Codeと並べてブラウザーを操作できる手段として、GStack Browserをリリースした。起動用に、シンプルな`/open-gstack-browser` skillも用意している。あわせてGBrain v0.22も公開した。search、retrieval、evalsを強化し、eval systemは別repoに分離して全体を軽量に保っている。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2048290087318773807",
@@ -217,8 +218,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Bleeding-edge adoption is a trap",
-      "suggestedSummary": "Being first sounds cool, but it means constantly rewiring your process as the market churns. The better spot is a couple steps behind: new enough to matter, stable enough to survive the hype cycle.",
+      "suggestedTitle": "最先端採用は罠だ",
+      "suggestedSummary": "最初に飛びつくのは格好いい。だが市場が揺れるたびに、プロセスを組み替え続けることになる。狙うべきは少し後ろの位置だ。新しさは十分にあり、しかも hype cycle を生き残れるだけの安定感もある。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2048210021553405955",
@@ -241,23 +242,27 @@
       ],
       "publishedAt": "2026-04-26T01:18:17.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-26",
       "source": "No Priors",
-      "title": "Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott",
+      "title": "AI時代におけるグローバル組織のスケーリング：ServiceNow CEO Bill McDermott",
       "url": "https://www.youtube.com/watch?v=tNNFJa5pUEg",
-      "suggestedTitle": "AI wins when it fits workflow, not when it replaces it",
-      "suggestedSummary": "**The Takeaway:** In enterprise, AI is most powerful as a layer on top of trusted platforms—not a replacement for them.\n\n- Bill McDermott argues the real moat is workflow, context, and accountability; “AI think, but workflow acts.”\n- He’s blunt that businesses forgive people for mistakes, but “they never will forgive software for making a mistake.”\n- His contrarian bet: the cost of rebuilding serious enterprise software with models, tokens, and GPU spend can be 10x higher than using a platform.\n\nMcDermott, the CEO of ServiceNow and a veteran of SAP and Xerox, frames his leadership philosophy as a product of early hustle: buying a deli at 16, learning customers one by one, and earning confidence through work. That background shaped a simple worldview—opportunity matters, but execution matters more. He says leadership is about giving people “a shot,” then building the discipline to make it count.\n\nOn AI, he rejects the panic around “SaaSpocalypse” thinking. ServiceNow’s pitch is not that language models are unimportant—they are—but that they’re incomplete without the enterprise fabric underneath. LLMs can recommend steps, but they don’t close the case across HR, finance, legal, and compliance. That’s why he sees ServiceNow as the “AI control tower for business reinvention,” integrating models, hyperscalers, systems of record, and security into one operating layer.\n\nHis broader point is philosophical as much as strategic: technology should amplify human ambition, not erase it. The future belongs to companies that combine AI speed with human trust, because in the enterprise, reliability is the product.",
+      "suggestedTitle": "AIはワークフローに合うときに勝つ。置き換えるときではない",
+      "suggestedSummary": "**要点:** エンタープライズでは、AIは既存の信頼できるプラットフォームを置き換えるものではなく、その上に重なるレイヤーとして最も強力だ。\n\n- Bill McDermottは、真の堀はワークフロー、コンテキスト、説明責任にあると語る。「AIは考えるが、ワークフローが動く」というわけだ。\n- 彼は率直だ。企業は人のミスは許しても、「ソフトウェアがミスをしたことは決して許さない」と言う。\n- 彼の逆張りの賭けはこうだ。モデル、token、GPUの支出を使って本格的なエンタープライズソフトウェアを作り直すコストは、プラットフォームを使う場合の10倍になりうる。\n\nServiceNowのCEOであり、SAPとXeroxで経験を積んだMcDermottは、自身のリーダーシップ哲学を若い頃の泥臭い行動力の産物として語る。16歳でデリを買い、客を一人ずつ覚え、仕事で信頼を勝ち取った。その経験が、機会は重要だが、実行はそれ以上に重要だという単純な世界観を形づくった。彼によれば、リーダーシップとは人に「チャンス」を与え、その価値を最大化する規律を築くことだ。\n\nAIについては、「SaaSpocalypse」的な不安を退ける。ServiceNowの主張は、language modelが重要でないということではない。重要だが、その下にあるエンタープライズの基盤がなければ不完全だということだ。LLMは次の手順を提案できる。だが、HR、finance、legal、complianceをまたいで案件を完了させることはできない。だからこそ彼は、ServiceNowを「ビジネス再創造のためのAI control tower」と見ている。models、hyperscalers、systems of record、securityを1つのオペレーティングレイヤーに統合する存在だ。\n\n彼の主張は、戦略であると同時に哲学でもある。テクノロジーは人間の野心を消すのではなく、増幅すべきだ。未来をつかむのは、AIのスピードと人間の信頼を両立させる企業だ。エンタープライズでは、信頼性こそがプロダクトだからだ。",
       "publishedAt": "2026-04-17T20:44:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 25,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-26T14:15:03.285Z"
+    "generatedAt": "2026-04-26T14:15:18.703Z",
+    "estimatedReadTime": "5 分"
   }
 }
