@@ -1,7 +1,8 @@
 {
   "date": "2026-04-27",
-  "summary": "Altman called for an agent-first reset of OSes and the internet, while Rauch said coding agents were the base layer of superintelligence. Levie argued AI hid hard parts instead of killing jobs, and Anthropic shipped Auto mode for safer no-prompt Claude Code.",
-  "items": [
+  "lang": "zh",
+  "summary": "Altman 呼吁把 OS 和互联网重置成 agent-first。Rauch 说，coding agents 是 superintelligence 的底层。Levie 认为，AI 只是把难点藏起来了，不是把工作干掉了。Anthropic 还给 Claude Code 上了 Auto mode，主打更安全的 no-prompt。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-27",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "OSes and the internet need an agent-first reset",
-      "suggestedSummary": "He says it’s time to seriously rethink operating systems and user interfaces — and even the internet itself — so they work equally well for people and agents. That’s the bigger signal here: OpenAI’s Sam Altman is pushing past chatbots and toward a world where software is built for humans and AI to use side by side.",
+      "suggestedTitle": "OS 和 internet 需要一次 agent-first 重置",
+      "suggestedSummary": "他认为，现在该认真重新思考 operating systems 和 user interfaces 了，甚至连 internet 本身也要一起重构。目标很简单：让它们对人和 agent 都同样好用。更大的信号是，OpenAI 的 Sam Altman 已经不满足于 chatbots 了。他在推动一个更大的方向：软件要为人和 AI 并肩使用而设计。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2048554097985593849",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI doesn’t kill jobs — it hides the hard parts",
-      "suggestedSummary": "He says people massively overestimate how easy it is to automate a whole role after seeing AI handle one task. The real work is the messy last mile: data access, context, review, and plugging outputs into business processes — which is why Box’s CEO is skeptical of the loudest job-loss predictions.",
+      "suggestedTitle": "AI 不会干掉工作——它只是把难点藏起来了",
+      "suggestedSummary": "他说，很多人看到 AI 搞定一个任务后，就会严重高估它自动化整个岗位的难度。真正的活儿，往往都卡在最后一公里：数据访问、上下文、review，还有把输出接进业务流程。也正因为这样，Box 的 CEO 对那些最夸张的裁员预测一直很怀疑。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2048576989930619185",
@@ -67,8 +68,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Coding agents are the base layer of superintelligence",
-      "suggestedSummary": "He argues coding agents will become the foundation of superintelligence because programming is really just proficiency with computers — bash, filesystems, installs, configs, the whole stack. The bigger point: agents that can inspect and improve their own code could start self-optimizing, with humans keeping the audit trail. As Vercel’s CEO, he’s basically saying coding fluency is the shortest path to models that understand and reshape software.",
+      "suggestedTitle": "Coding agents 是 superintelligence 的基础层",
+      "suggestedSummary": "他认为，coding agents 会成为 superintelligence 的底座，因为 programming 本质上就是熟练掌握 computers——bash、filesystem、install、config，这一整套都得懂。更关键的是，能检查并改进自己 code 的 agent，可能会开始 self-optimizing，而 humans 只需要保留 audit trail。作为 Vercel 的 CEO，他的意思其实很直接：coding fluency 是让 models 理解并重塑 software 的最快路径。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2048523195305902341",
@@ -87,8 +88,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Local AI tooling, backed up like real infra",
-      "suggestedSummary": "He’s shipping practical dev tools, not AI fluff: `wacrawl 0.2.0` adds encrypted Git backup/restore for WhatsApp Desktop archives, and `birdclaw` turns tweet archives into local storage with GitHub backups and daily bookmark imports. He also says OpenClaw’s test suite was CPU-bound until moving local runs to Blacksmith, where Codex can spin up 32 vCPU instances and blast through tests.",
+      "suggestedTitle": "本地 AI 工具，按真实 infra 的方式做备份",
+      "suggestedSummary": "他在做的是实用的 dev tools，不是 AI 空话：`wacrawl 0.2.0` 给 WhatsApp Desktop archives 加了加密的 Git backup/restore；`birdclaw` 把 tweet archives 变成本地存储，还带 GitHub backups 和每天导入 bookmarks。 他还提到，OpenClaw 的 test suite 之前一直卡在 CPU 上，后来把本地跑测迁到 Blacksmith，Codex 就能拉起 32 vCPU 实例，直接把 tests 跑穿。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2048660875007914176",
@@ -119,8 +120,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Agents need a constitution, not a prompt",
-      "suggestedSummary": "He says the secret to an articulate agent is splitting it into three docs: SOUL.md for voice and values, USER.md for a deep model of the person, and AGENTS.md for operational rules. His point is blunt: generic instructions get you generic chatbot sludge; specific, opinionated guidance makes the agent feel alive.",
+      "suggestedTitle": "agent 需要的是宪法，不是 prompt",
+      "suggestedSummary": "他说，要让 agent 说话有味道，关键是把它拆成三份文档：SOUL.md 管语气和价值观，USER.md 用来建立对这个人的深度模型，AGENTS.md 负责操作规则。他的意思很直接：泛泛的指令只会产出一坨通用 chatbot 垃圾；具体、带立场的指导，才能让 agent 真正活起来。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2048669695344046090",
@@ -151,8 +152,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "MCP turns a fitness app into a Claude-controlled toy",
-      "suggestedSummary": "He built an MCP server for his mobile fitness app so Claude/Codex can pull workout stats and update routines directly. It’s a small demo, but it shows how quickly AI assistants become useful once they can actually touch your apps and data. He also called out Google Photos for missing an obvious Gemini feature: prompting a highlight reel from your family photos.",
+      "suggestedTitle": "MCP 把一个 fitness app 变成了 Claude 控制的玩具",
+      "suggestedSummary": "他给自己的 mobile fitness app 搭了一个 MCP server，这样 Claude/Codex 就能直接拉取 workout stats，顺手更新 routines。这个 demo 不大，但它很直观地说明了一点：AI assistants 一旦真的能碰到你的 apps 和 data，立刻就会变得有用。他还点名了 Google Photos，觉得它少了一个很明显的 Gemini 功能：直接用家人照片生成 highlight reel。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2048611053333041158",
@@ -175,25 +176,29 @@
       ],
       "publishedAt": "2026-04-27T03:51:51.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-27",
       "source": "AI & I by Every",
-      "title": "The AI Model Built for What LLMs Can't Do",
+      "title": "为 LLM 做不到的事而生的 AI Model",
       "url": "https://www.youtube.com/watch?v=Q-i8ZSUCtIc",
-      "suggestedTitle": "Deterministic AI beats token guessing for mission-critical work",
-      "suggestedSummary": "**The Takeaway:** Eve argues that if correctness matters, language-model-style guessing is the wrong tool; you want models that can verify themselves as they reason.\n\n- EBMs are built to be inspectable and non-autoregressive, so they don’t “guess the next token” the way LLMs do.\n- For mission-critical systems, external checks aren’t enough: the model itself should expose structure you can verify in real time.\n- The big advantage is efficiency: fewer tokens, less compute, better fit for sparse data, spatial reasoning, and hardware/software correctness.\n\nEve, founder and CEO of Logical Intelligence, is pushing a blunt thesis: AI should stop pretending everything is a language problem. Her company builds both LLM prototypes and energy-based models, but the long game is EBMs—systems designed for “deterministic AI” and “verifiable AI” in places like code generation, chip design, and control systems. Her core complaint is that LLMs are black boxes that play a costly guessing game, even when you bolt on external verifiers like Lean4. That may be fine for drafting text; it’s shaky for a plane, a car, or a circuit.\n\nHer analogy is simple and memorable: an LLM is like navigating with one turn at a time, while an EBM has the bird’s-eye view. “If you see there’s a hole, you’re gonna choose a different route.” EBMs, she says, build an energy landscape of possible states, then minimize it to find the most likely outcome. That makes them better for non-language tasks like spatial reasoning, where the world is better represented as structure than as tokens.\n\nShe also leans hard on latent variables as a kind of internal knowledge store—less a rulebook than a compact model of how the world works. The point isn’t just prediction; it’s understanding enough to adapt when the environment changes.",
+      "suggestedTitle": "Deterministic AI 比 token 猜测更适合关键任务",
+      "suggestedSummary": "**核心结论：** Eve 认为，如果 correctness 很重要，靠 language-model 式的猜测就是用错工具。你需要的是能边推理边自证的 model。\\n\\n- EBM 的设计目标是可检查、非 autoregressive，所以它们不会像 LLM 那样“猜下一个 token”。\\n- 对关键系统来说，外部检查还不够。model 本身就该把结构暴露出来，方便实时验证。\\n- 最大优势是效率：更少的 token、更低的 compute，也更适合 sparse data、spatial reasoning，以及 hardware/software correctness。\\n\\nEve 是 Logical Intelligence 的 founder 和 CEO。她的观点很直接：AI 别再假装一切都是 language problem 了。她的公司同时在做 LLM prototype 和 energy-based model，但长期方向是 EBM——也就是为“deterministic AI”和“verifiable AI”设计的系统，适合 code generation、chip design、control systems 这类场景。她的核心吐槽是，LLM 本质上是 black box，哪怕你外面再挂一层 Lean4 之类的 verifier，它还是在做一场昂贵的猜测游戏。写文案可能还行，但放到飞机、汽车或者 circuit 上，就很悬。\\n\\n她的类比很简单，也很有画面感：LLM 像是一次只看一个转弯在导航，而 EBM 是直接看全局俯视图。她说：“如果你看到前面有个洞，你就会选另一条路。” 她解释，EBM 会先构建一个可能状态的 energy landscape，再去最小化它，找到最可能的结果。所以它们更适合 non-language task，比如 spatial reasoning。因为很多时候，世界更适合用 structure 来表示，而不是 token。\\n\\n她还很强调 latent variables，把它们看成一种内部知识库——与其说是 rulebook，不如说是对世界如何运作的紧凑模型。重点不只是 prediction，而是要理解到足够深，才能在环境变化时继续适应。",
       "publishedAt": "2026-04-15T15:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-27",
       "source": "Anthropic Engineering",
-      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title": "Claude Code auto mode：更安全地跳过 permissions",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "author": null,
-      "suggestedTitle": "Anthropic adds Auto mode to Claude Code for safer no-prompt work",
-      "suggestedSummary": "**Lead:** Anthropic introduced **Auto mode for Claude Code**, a new permission mode that replaces constant human approval prompts with model-based classifiers to let routine actions run while blocking dangerous ones.\n\n**Numbers:**\n- Manual prompts are accepted **93%** of the time, contributing to approval fatigue.\n- On **10,000** real internal tool calls, the full pipeline cut false positives to **0.4%**.\n- On **52** real overeager actions, the deployed pipeline had a **17% false-negative rate**.\n- On **1,000** synthetic exfiltration attempts, the full pipeline reached **5.7% FNR**.\n- Stage 1 alone: **8.5% FPR** and **6.6% FNR** on real traffic.\n\n**So What:** Auto mode is aimed at teams that want more autonomy than manual approvals but more protection than `--dangerously-skip-permissions`. Anthropic says it blocks risky behaviors like destructive deletes, credential hunting, exfiltration, and safety-check bypasses, while letting safe in-repo edits proceed without latency. The system combines a prompt-injection probe on inputs with a two-stage transcript classifier on outputs; as the post puts it, “**Auto mode is meant for the first group**” of users who want to skip prompts, “**and for tasks where the second group’s approval overhead isn’t worth the marginal safety.**” It’s not positioned as a replacement for careful review on high-stakes infrastructure, but as a safer default for everyday agentic coding.",
+      "suggestedTitle": "Anthropic 为 Claude Code 加上 Auto mode，让无 prompt 工作更安全",
+      "suggestedSummary": "**重点：**Anthropic 推出了 **Claude Code 的 Auto mode**。这是一个新的 permission mode。它用 model-based classifiers 替代频繁的人类 approval prompt，让常规操作直接跑，同时拦住危险动作。\n\n**数据：**\n- 手动 prompt 的接受率是 **93%**，这也带来了 approval fatigue。\n- 在 **10,000** 次真实内部 tool call 上，完整 pipeline 把 false positive 降到了 **0.4%**。\n- 在 **52** 个真实的过度激进行为上，部署后的 pipeline 的 false-negative rate 是 **17%**。\n- 在 **1,000** 次 synthetic exfiltration 尝试上，完整 pipeline 的 FNR 达到 **5.7%**。\n- 只看 Stage 1：真实流量上的 **FPR 是 8.5%**，**FNR 是 6.6%**。\n\n**结论：**Auto mode 面向这类团队：想要比手动 approval 更高的 autonomy，但又不想直接用 `--dangerously-skip-permissions` 这种激进开关。Anthropic 说，它会拦住 destructive deletes、credential hunting、exfiltration 和 safety-check bypass 这类高风险行为，同时让安全的 in-repo edits 继续跑，不增加 latency。这个系统把输入侧的 prompt-injection probe 和输出侧的 two-stage transcript classifier 组合在一起。文中原话是，**“Auto mode is meant for the first group”**——也就是那些想跳过 prompt 的用户，**“and for tasks where the second group’s approval overhead isn’t worth the marginal safety.”** 它不是要替代高风险基础设施上的人工 review，而是给日常 agentic coding 提供一个更安全的默认选项。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -203,6 +208,7 @@
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-27T14:39:04.989Z"
+    "generatedAt": "2026-04-27T14:39:14.107Z",
+    "estimatedReadTime": "4 分钟"
   }
 }

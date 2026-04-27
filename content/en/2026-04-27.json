@@ -1,7 +1,8 @@
 {
   "date": "2026-04-27",
+  "lang": "en",
   "summary": "Altman called for an agent-first reset of OSes and the internet, while Rauch said coding agents were the base layer of superintelligence. Levie argued AI hid hard parts instead of killing jobs, and Anthropic shipped Auto mode for safer no-prompt Claude Code.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-04-27",
       "source": "X",
@@ -175,7 +176,9 @@
       ],
       "publishedAt": "2026-04-27T03:51:51.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-27",
       "source": "AI & I by Every",
@@ -185,7 +188,9 @@
       "suggestedSummary": "**The Takeaway:** Eve argues that if correctness matters, language-model-style guessing is the wrong tool; you want models that can verify themselves as they reason.\n\n- EBMs are built to be inspectable and non-autoregressive, so they don’t “guess the next token” the way LLMs do.\n- For mission-critical systems, external checks aren’t enough: the model itself should expose structure you can verify in real time.\n- The big advantage is efficiency: fewer tokens, less compute, better fit for sparse data, spatial reasoning, and hardware/software correctness.\n\nEve, founder and CEO of Logical Intelligence, is pushing a blunt thesis: AI should stop pretending everything is a language problem. Her company builds both LLM prototypes and energy-based models, but the long game is EBMs—systems designed for “deterministic AI” and “verifiable AI” in places like code generation, chip design, and control systems. Her core complaint is that LLMs are black boxes that play a costly guessing game, even when you bolt on external verifiers like Lean4. That may be fine for drafting text; it’s shaky for a plane, a car, or a circuit.\n\nHer analogy is simple and memorable: an LLM is like navigating with one turn at a time, while an EBM has the bird’s-eye view. “If you see there’s a hole, you’re gonna choose a different route.” EBMs, she says, build an energy landscape of possible states, then minimize it to find the most likely outcome. That makes them better for non-language tasks like spatial reasoning, where the world is better represented as structure than as tokens.\n\nShe also leans hard on latent variables as a kind of internal knowledge store—less a rulebook than a compact model of how the world works. The point isn’t just prediction; it’s understanding enough to adapt when the environment changes.",
       "publishedAt": "2026-04-15T15:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-27",
       "source": "Anthropic Engineering",
@@ -203,6 +208,7 @@
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-27T14:39:04.989Z"
+    "generatedAt": "2026-04-27T14:39:05.219Z",
+    "estimatedReadTime": "4 min"
   }
 }

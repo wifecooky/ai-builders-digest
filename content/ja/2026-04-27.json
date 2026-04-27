@@ -1,7 +1,8 @@
 {
   "date": "2026-04-27",
-  "summary": "Altman called for an agent-first reset of OSes and the internet, while Rauch said coding agents were the base layer of superintelligence. Levie argued AI hid hard parts instead of killing jobs, and Anthropic shipped Auto mode for safer no-prompt Claude Code.",
-  "items": [
+  "lang": "ja",
+  "summary": "Altmanは、OSとインターネットのagent-firstな再設計を求めた。Rauchは、coding agentsがsuperintelligenceの基盤層だと述べた。Levieは、AIは仕事を奪うのではなく、難所を覆い隠していると主張した。Anthropicは、より安全なno-promptのClaude Code向けにAuto modeを出荷した。",
+  "builderInsights": [
     {
       "id": "sama-2026-04-27",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "OSes and the internet need an agent-first reset",
-      "suggestedSummary": "He says it’s time to seriously rethink operating systems and user interfaces — and even the internet itself — so they work equally well for people and agents. That’s the bigger signal here: OpenAI’s Sam Altman is pushing past chatbots and toward a world where software is built for humans and AI to use side by side.",
+      "suggestedTitle": "OSとインターネットはagent-firstへと再設計が必要だ",
+      "suggestedSummary": "彼は、operating systemsとuser interfacesを本気で見直す時期だと言う。人間にもagentにも同じように使えるようにするべきだという話だ。さらに、その対象はインターネットそのものにも及ぶ。ここでの本質はそこにある。OpenAIのSam Altmanは、chatbotsの先へ進み、人間とAIが並んで使うsoftwareの世界へ押し出している。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2048554097985593849",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI doesn’t kill jobs — it hides the hard parts",
-      "suggestedSummary": "He says people massively overestimate how easy it is to automate a whole role after seeing AI handle one task. The real work is the messy last mile: data access, context, review, and plugging outputs into business processes — which is why Box’s CEO is skeptical of the loudest job-loss predictions.",
+      "suggestedTitle": "AIは仕事を奪うのではない。難所を見えにくくするのだ",
+      "suggestedSummary": "彼は、AIが1つのタスクをこなしただけで、役割全体の自動化が簡単だと人々が過大評価しすぎていると言う。実際の仕事は、最後の面倒な区間だ。データへのアクセス、文脈の把握、レビュー、そして出力を業務プロセスに組み込むこと。だからこそ、BoxのCEOは、派手な雇用喪失予測に懐疑的である。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2048576989930619185",
@@ -67,8 +68,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Coding agents are the base layer of superintelligence",
-      "suggestedSummary": "He argues coding agents will become the foundation of superintelligence because programming is really just proficiency with computers — bash, filesystems, installs, configs, the whole stack. The bigger point: agents that can inspect and improve their own code could start self-optimizing, with humans keeping the audit trail. As Vercel’s CEO, he’s basically saying coding fluency is the shortest path to models that understand and reshape software.",
+      "suggestedTitle": "Coding agentsはsuperintelligenceの基盤層である",
+      "suggestedSummary": "彼の主張は、coding agentsがsuperintelligenceの土台になるというものだ。programmingとは、要するにcomputerを使いこなす力にすぎない。bash、filesystem、install、config、そしてstack全体だ。さらに重要なのは、自分のcodeを検査し、改善できるagentだ。そうしたagentは自己最適化を始める可能性がある。その一方で、人間はaudit trailを保つ。VercelのCEOとして彼が言っているのは、coding fluencyこそがsoftwareを理解し、作り変えるmodelsへの最短経路だということだ。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2048523195305902341",
@@ -87,8 +88,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Local AI tooling, backed up like real infra",
-      "suggestedSummary": "He’s shipping practical dev tools, not AI fluff: `wacrawl 0.2.0` adds encrypted Git backup/restore for WhatsApp Desktop archives, and `birdclaw` turns tweet archives into local storage with GitHub backups and daily bookmark imports. He also says OpenClaw’s test suite was CPU-bound until moving local runs to Blacksmith, where Codex can spin up 32 vCPU instances and blast through tests.",
+      "suggestedTitle": "ローカルAIツール群を、実インフラ並みにバックアップする",
+      "suggestedSummary": "彼が出しているのは、実用的なdev toolであって、AIの空疎な話ではない。`wacrawl 0.2.0` は、WhatsApp Desktopのアーカイブに対して、暗号化されたGitバックアップと復元を追加した。`birdclaw` は、tweetアーカイブをローカルストレージに変え、GitHubバックアップと毎日のbookmark取り込みも行う。さらに彼は、OpenClawのtest suiteはローカル実行をBlacksmithに移すまでCPUがボトルネックだったとも述べている。そこではCodexが32 vCPUのインスタンスを立ち上げ、testを一気に回せる。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2048660875007914176",
@@ -119,8 +120,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Agents need a constitution, not a prompt",
-      "suggestedSummary": "He says the secret to an articulate agent is splitting it into three docs: SOUL.md for voice and values, USER.md for a deep model of the person, and AGENTS.md for operational rules. His point is blunt: generic instructions get you generic chatbot sludge; specific, opinionated guidance makes the agent feel alive.",
+      "suggestedTitle": "agentに必要なのはpromptではなく憲法である",
+      "suggestedSummary": "流暢なagentを作る秘訣は、3つのドキュメントに分けることだという。SOUL.mdは声と価値観、USER.mdは相手の深いモデル、AGENTS.mdは運用ルールを担う。主張は明快だ。汎用的な指示では、ありきたりな chatbot の泥沼しか生まれない。具体的で、はっきりとした方針こそが、agentに生命感を与える。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2048669695344046090",
@@ -151,8 +152,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "MCP turns a fitness app into a Claude-controlled toy",
-      "suggestedSummary": "He built an MCP server for his mobile fitness app so Claude/Codex can pull workout stats and update routines directly. It’s a small demo, but it shows how quickly AI assistants become useful once they can actually touch your apps and data. He also called out Google Photos for missing an obvious Gemini feature: prompting a highlight reel from your family photos.",
+      "suggestedTitle": "MCPでフィットネスアプリがClaude操作の玩具になる",
+      "suggestedSummary": "彼は自分のモバイルフィットネスアプリ向けにMCP serverを作った。これでClaude/Codexがワークアウトの統計を取得し、ルーティンを直接更新できる。小さなデモだが、AI assistantが実際にアプリやデータに触れられるようになると、どれだけ早く実用的になるかを示している。さらにGoogle Photosについても、家族写真からハイライト reel を生成するという明らかなGemini機能がないと指摘した。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2048611053333041158",
@@ -175,25 +176,29 @@
       ],
       "publishedAt": "2026-04-27T03:51:51.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-27",
       "source": "AI & I by Every",
-      "title": "The AI Model Built for What LLMs Can't Do",
+      "title": "LLMができないことのために作られたAIモデル",
       "url": "https://www.youtube.com/watch?v=Q-i8ZSUCtIc",
-      "suggestedTitle": "Deterministic AI beats token guessing for mission-critical work",
-      "suggestedSummary": "**The Takeaway:** Eve argues that if correctness matters, language-model-style guessing is the wrong tool; you want models that can verify themselves as they reason.\n\n- EBMs are built to be inspectable and non-autoregressive, so they don’t “guess the next token” the way LLMs do.\n- For mission-critical systems, external checks aren’t enough: the model itself should expose structure you can verify in real time.\n- The big advantage is efficiency: fewer tokens, less compute, better fit for sparse data, spatial reasoning, and hardware/software correctness.\n\nEve, founder and CEO of Logical Intelligence, is pushing a blunt thesis: AI should stop pretending everything is a language problem. Her company builds both LLM prototypes and energy-based models, but the long game is EBMs—systems designed for “deterministic AI” and “verifiable AI” in places like code generation, chip design, and control systems. Her core complaint is that LLMs are black boxes that play a costly guessing game, even when you bolt on external verifiers like Lean4. That may be fine for drafting text; it’s shaky for a plane, a car, or a circuit.\n\nHer analogy is simple and memorable: an LLM is like navigating with one turn at a time, while an EBM has the bird’s-eye view. “If you see there’s a hole, you’re gonna choose a different route.” EBMs, she says, build an energy landscape of possible states, then minimize it to find the most likely outcome. That makes them better for non-language tasks like spatial reasoning, where the world is better represented as structure than as tokens.\n\nShe also leans hard on latent variables as a kind of internal knowledge store—less a rulebook than a compact model of how the world works. The point isn’t just prediction; it’s understanding enough to adapt when the environment changes.",
+      "suggestedTitle": "決定論的AIは、ミッションクリティカルな仕事でtoken guessingに勝る",
+      "suggestedSummary": "**要点:** Eveは、正確性が重要なら、language-model型の推測は間違った道具だと主張する。必要なのは、推論しながら自分で検証できるモデルだ。\n\n- EBMは検査可能で、non-autoregressiveに作られている。そのため、LLMのように「次のtokenを予測する」ことはしない。\n- ミッションクリティカルなシステムでは、外部チェックだけでは足りない。モデル自体が、リアルタイムで検証できる構造を見せるべきだ。\n- 大きな利点は効率だ。必要なtokenが少なく、computeも少ない。疎なデータ、空間推論、ハードウェア/ソフトウェアの正しさにも向いている。\n\nLogical Intelligenceの創業者兼CEOであるEveは、AIはあらゆるものをlanguage problemとして扱うのをやめるべきだ、という率直な持論を押し出している。同社はLLMのプロトタイプとenergy-based modelsの両方を作っているが、長期戦の本命はEBMだ。コード生成、chip design、control systemsのような領域で、「deterministic AI」と「verifiable AI」のために設計されたシステムである。彼女の根本的な不満は、LLMが黒箱であり、Lean4のような外部verifierを後付けしても、なお高くつく推測ゲームをしている点にある。文章の下書きならそれでよいかもしれない。だが、飛行機や車、回路では危うい。\n\n彼女のたとえは単純で印象的だ。LLMは一手ずつ曲がりながら進むナビのようなものだ。一方でEBMは、鳥瞰図を持っている。「穴があると見えたら、別のルートを選ぶことになる。」Eveによれば、EBMはあり得る状態のenergy landscapeを作り、それを最小化して最もありそうな結果を見つける。だから、世界をtokenの列よりも構造として表したほうがよい空間推論のような非言語タスクに強い。\n\nさらに彼女はlatent variablesを、内部の知識ストアのようなものとして強く重視する。rulebookというより、世界の仕組みを圧縮したモデルだ。狙いは予測だけではない。環境が変わっても適応できるだけの理解を持つことにある。",
       "publishedAt": "2026-04-15T15:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-04-27",
       "source": "Anthropic Engineering",
-      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title": "Claude CodeのAuto mode: permissionsを飛ばすより安全な方法",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "author": null,
-      "suggestedTitle": "Anthropic adds Auto mode to Claude Code for safer no-prompt work",
-      "suggestedSummary": "**Lead:** Anthropic introduced **Auto mode for Claude Code**, a new permission mode that replaces constant human approval prompts with model-based classifiers to let routine actions run while blocking dangerous ones.\n\n**Numbers:**\n- Manual prompts are accepted **93%** of the time, contributing to approval fatigue.\n- On **10,000** real internal tool calls, the full pipeline cut false positives to **0.4%**.\n- On **52** real overeager actions, the deployed pipeline had a **17% false-negative rate**.\n- On **1,000** synthetic exfiltration attempts, the full pipeline reached **5.7% FNR**.\n- Stage 1 alone: **8.5% FPR** and **6.6% FNR** on real traffic.\n\n**So What:** Auto mode is aimed at teams that want more autonomy than manual approvals but more protection than `--dangerously-skip-permissions`. Anthropic says it blocks risky behaviors like destructive deletes, credential hunting, exfiltration, and safety-check bypasses, while letting safe in-repo edits proceed without latency. The system combines a prompt-injection probe on inputs with a two-stage transcript classifier on outputs; as the post puts it, “**Auto mode is meant for the first group**” of users who want to skip prompts, “**and for tasks where the second group’s approval overhead isn’t worth the marginal safety.**” It’s not positioned as a replacement for careful review on high-stakes infrastructure, but as a safer default for everyday agentic coding.",
+      "suggestedTitle": "AnthropicがClaude CodeにAuto modeを追加し、promptなし作業をより安全に",
+      "suggestedSummary": "**Lead:** Anthropicは**Claude Code向けのAuto mode**を導入した。これは新しいpermission modeであり、常時の人間によるapproval promptを、model-based classifierに置き換える。通常の操作は通しつつ、危険な操作は止める仕組みだ。\n\n**Numbers:**\n- 手動promptは**93%**の確率で受け入れられており、approval fatigueの一因になっている。\n- 実際の社内tool call **10,000**件では、full pipelineによりfalse positiveは**0.4%**まで下がった。\n- 実際の過剰な操作 **52**件では、deployed pipelineのfalse-negative rateは**17%**だった。\n- 合成したexfiltration試行 **1,000**件では、full pipelineは**5.7% FNR**に達した。\n- Stage 1単体では、実トラフィックで**8.5% FPR**、**6.6% FNR**だった。\n\n**So What:** Auto modeは、手動approvalよりは自律性が高く、`--dangerously-skip-permissions`よりは保護が強いものを求めるチーム向けだ。Anthropicによれば、破壊的なdelete、credential hunting、exfiltration、safety-check bypassのような危険な挙動はブロックする。一方で、repo内の安全なeditはlatencyなしで進める。システムは、入力に対するprompt-injection probeと、出力に対する2段階のtranscript classifierを組み合わせる。投稿の言い方を借りれば、\"**Auto mode is meant for the first group**\"、つまりpromptを飛ばしたいユーザー向けであり、\"**and for tasks where the second group’s approval overhead isn’t worth the marginal safety.**\" ということだ。高リスクなinfrastructureでの慎重なreviewの代替ではない。日常的なagentic codingのための、より安全なdefaultとして位置づけられている。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -203,6 +208,7 @@
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-04-27T14:39:04.989Z"
+    "generatedAt": "2026-04-27T14:39:27.313Z",
+    "estimatedReadTime": "4 分"
   }
 }
