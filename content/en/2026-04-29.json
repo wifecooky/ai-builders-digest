@@ -1,7 +1,8 @@
 {
   "date": "2026-04-29",
+  "lang": "en",
   "summary": "Claude and Claude Code pushed into creative tools and papercuts, while Rauch said devtools now served agents more than humans. Masad warned free dev tools wouldn’t survive bot abuse, and Peter Steinberger showed AI commit bots already reviewed, fixed, and re-reviewed.",
-  "items": [
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-29",
       "source": "X",
@@ -267,11 +268,14 @@
       "category": "builderInsights"
     }
   ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 14,
     "totalTweets": 34,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-29T14:43:01.452Z"
+    "generatedAt": "2026-04-29T14:43:01.663Z",
+    "estimatedReadTime": "5 min"
   }
 }

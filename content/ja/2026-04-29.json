@@ -1,7 +1,8 @@
 {
   "date": "2026-04-29",
-  "summary": "Claude and Claude Code pushed into creative tools and papercuts, while Rauch said devtools now served agents more than humans. Masad warned free dev tools wouldn’t survive bot abuse, and Peter Steinberger showed AI commit bots already reviewed, fixed, and re-reviewed.",
-  "items": [
+  "lang": "ja",
+  "summary": "ClaudeとClaude Codeは、クリエイティブツールと細かな不便さの領域に押し込まれた。一方でRauchは、devtoolsは今や人間よりもagentのためにあると述べた。Masadは、無料のdev toolsはbot abuseに耐えられないと警告した。さらにPeter Steinbergerは、AI commit botがすでにreviewし、修正し、再reviewしている様子を示した。",
+  "builderInsights": [
     {
       "id": "claudeai-2026-04-29",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude plugs into creative tools, not just chat",
-      "suggestedSummary": "Claude now hooks into Blender, Autodesk Fusion, and a stack of creative apps like Adobe, Ableton, Canva, SketchUp, and Resolume. The pitch is simple: let designers and engineers debug scenes, batch changes, and even build 3D models through conversation instead of clicking around. It’s also backing Blender’s open-source development fund, which is a nice signal it wants to be part of the ecosystem, not just sit on top of it.",
+      "suggestedTitle": "Claudeはチャットだけでなく、クリエイティブツールに組み込まれる",
+      "suggestedSummary": "Claudeは今、Blender、Autodesk Fusion、そしてAdobe、Ableton、Canva、SketchUp、Resolumeといったクリエイティブアプリ群に接続する。狙いはシンプルだ。デザイナーやエンジニアが、会話だけでシーンのデバッグや一括変更、さらには3Dモデルの作成までできるようにすることだ。Blenderのオープンソース開発基金も支援している。単に上に乗るだけでなく、エコシステムの一部になりたいという良いシグナルだ。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2049143442601546054",
@@ -41,8 +42,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Free dev tools won’t survive bot abuse",
-      "suggestedSummary": "Free services are getting crushed by human-level bots, and he says GitHub’s growth is already making that obvious. His fix: micro-payments — even cents per git push — to cut spam without forcing KYC, with Bitcoin as a possible rail. He also tossed in a lighter note that AI-made slides are finally good enough that he actually enjoys making them now.",
+      "suggestedTitle": "無料のdev toolsはbot abuseに耐えられない",
+      "suggestedSummary": "無料サービスは、人間並みのbotに押しつぶされつつある。彼によれば、GitHubの成長がその事実をすでに明らかにしている。対策はmicro-paymentだ。git pushごとに数セントでも取れば、KYCを強いずにspamを減らせる。Bitcoinをその送金経路に使う案もある。さらに軽い話として、AIで作ったslidesがついに十分な品質になり、今では作るのを本当に楽しめるようになったとも語っている。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2049245424624820412",
@@ -73,8 +74,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Devtools are now for agents, not humans",
-      "suggestedSummary": "Vercel is hiring for Labs to build the devtools of the AI era, and the pitch is blunt: the old stack was for humans, the new one is for agents. He points to @ctatedev’s agent-browser, portless, skills, chat, just-bash, and json-render as proof — 22.8M+ downloads and counting.",
+      "suggestedTitle": "Devtoolsはagent向けであり、人間向けではない",
+      "suggestedSummary": "Vercelは、AI時代のdevtoolsを作るためにLabsで採用を進めている。売り文句は率直だ。旧来のstackは人間向けで、新しいstackはagent向けだという。彼は、その証拠として@ctatedevのagent-browser、portless、skills、chat、just-bash、json-renderを挙げる。ダウンロード数は22.8M超で、なお増え続けている。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2049216048831025232",
@@ -93,8 +94,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents won’t kill software jobs — they’ll multiply them",
-      "suggestedSummary": "He says agentic coding is a huge boost for developers, IT teams, and domain experts who want to automate workflows or wire systems together. But it’s not a free pass for everyone to casually build and maintain complex software — the real upside is 100X more software, not everyone becoming a full-time builder.",
+      "suggestedTitle": "agentはsoftware jobsを奪わない — それらを増やす",
+      "suggestedSummary": "彼は、agentic codingは、workflowを自動化したり、system同士をつなげたりしたいdeveloper、IT team、domain expertにとって大きな追い風だと言う。だが、誰もが気軽に複雑なsoftwareを作って保守できる、という話ではない。本当の上振れは、全員がフルタイムのbuilderになることではなく、softwareが100倍増えることだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2049333853777764495",
@@ -119,8 +120,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "AI commit bots now review, fix, and re-review",
-      "suggestedSummary": "He’s wiring Codex into every commit on main so it hunts regressions and security issues, then spins up more agents to fix and re-check the fix — up to five loops deep. It’s already caught one of his own bugs in the first 10 minutes, which is a pretty strong demo of agentic CI actually doing useful work.",
+      "suggestedTitle": "AI commit botがレビューし、修正し、再レビューする時代",
+      "suggestedSummary": "彼はmainへの全commitにCodexをつなぎ込んでいる。regressionとsecurity issueを探させ、さらに別のagentを立ち上げて修正し、その修正を再チェックさせる。最大5ループまで回す設計だ。すでに最初の10分で自分のbugを1つ見つけており、agentic CIが実際に役立つ仕事をする、かなり強いデモになっている。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2049356949523730699",
@@ -151,8 +152,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Apps need to be built for agent browsers",
-      "suggestedSummary": "He says the next software wave is \"Codex-native\" and friends: apps designed to live inside an agent’s in-app browser, where both the human and the model share full context. His example is PostHog inside Codex, where the agent can write queries, inspect results, and even kick off PRs or DB requests — way tighter than an agent trapped in your browser.",
+      "suggestedTitle": "アプリはagent browser向けに作るべきだ",
+      "suggestedSummary": "彼は、次のソフトウェアの波は「Codex-native」だと言う。しかも、その仲間たちも同じだ。アプリは、agentのアプリ内browserの中で生きるように設計されるべきだ。そこでは、人間とmodelが完全なコンテキストを共有する。例として挙げるのは、Codex内のPostHogだ。agentはqueryを書き、結果を確認できる。PRやDB requestまで起動できる。自分のbrowserに閉じ込められたagentより、はるかに密接に連携できる。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2049236793761976357",
@@ -183,8 +184,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI should generate SVGs, not images",
-      "suggestedSummary": "She argues the better move is to have AI generate SVGs so illustrations blend cleanly into product design, especially for HTML slides. She’s already using QuiverAI inside AnyGenIO’s Frontend Slides feature, which makes the point feel less like theory and more like a workflow shift.",
+      "suggestedTitle": "AIは画像ではなくSVGを生成すべきだ",
+      "suggestedSummary": "彼女は、AIにはSVGを生成させるほうがよいと主張する。そうすれば、イラストをプロダクトデザインにきれいに溶け込ませられる。特にHTMLスライドではその利点が大きい。彼女はすでに AnyGenIO の Frontend Slides 機能の中で QuiverAI を使っている。もはや理屈ではなく、ワークフローの転換として見えている。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2049258231042805806",
@@ -209,8 +210,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI builders are playing with a bigger sandbox",
-      "suggestedSummary": "He says solo AI builders now have the world as their playground, and that’s the real shift. He also floated a fun benchmark idea for models: judge them by which game era they can one-shot or build through in 30 minutes — and thinks we’re still in the NES era.",
+      "suggestedTitle": "AI builderたちは、より大きなサンドボックスで遊んでいる",
+      "suggestedSummary": "彼は、今やソロのAI builderが世界そのものを遊び場にしていると言う。そこに本当の変化があるとも見ている。さらにmodel向けに面白いbenchmark案も出した。どのゲーム時代を一発でクリアできるか、あるいは30分で作り切れるかで評価するというものだ。まだNES時代の段階だとも考えている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2049347897310003443",
@@ -241,8 +242,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code is chasing the annoying papercuts",
-      "suggestedSummary": "He says the team is hunting down the worst Claude Code bugs, from hangs during big file writes to other “white whales.” They’re also making the no-flicker renderer good enough to become the default, so expect a steadier editor experience soon.",
+      "suggestedTitle": "Claude Codeは厄介な細かい不具合を追っている",
+      "suggestedSummary": "彼によると、チームはClaude Codeの最悪のバグを片っ端から潰している。大きなファイル書き込み中のハングから、ほかの「白鯨」までだ。さらに、ちらつきのないレンダラーをデフォルトにできる水準まで仕上げている。だから、近いうちにエディタ体験はもっと安定するはずだ。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2049252080892973563",
@@ -267,11 +268,14 @@
       "category": "builderInsights"
     }
   ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 14,
     "totalTweets": 34,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-29T14:43:01.452Z"
+    "generatedAt": "2026-04-29T14:43:21.926Z",
+    "estimatedReadTime": "5 分"
   }
 }
