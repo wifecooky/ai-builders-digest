@@ -1,7 +1,8 @@
 {
   "date": "2026-04-30",
-  "summary": "Josh Woodward said Gemini can now generate and export files, while Ryo Lu framed Cursor as a local-cloud agent stack. Aditya Agarwal called agents Linux-era jerry-rigging; Aaron Levie, Zara Zhang, and Garry Tan all bet the real work now is building internal agent ops, onboarding, and tests.",
-  "items": [
+  "lang": "ja",
+  "summary": "Josh Woodwardは、Geminiがファイルの生成とエクスポートに対応したと述べた。Ryo Luは、Cursorをローカル・クラウドのエージェント・スタックとして位置づけた。Aditya Agarwalは、エージェントをLinux時代の場当たり的な継ぎはぎだと呼んだ。Aaron Levie、Zara Zhang、Garry Tanはいずれも、今の本当の仕事は社内のエージェント運用、オンボーディング、テストを作ることだと見ている。",
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-04-30",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini can now generate and export files",
-      "suggestedSummary": "Gemini now turns prompts straight into Docs, Word, PDFs, Sheets, Excel, Slides, and more — no copy-paste cleanup needed. Google’s pushing it everywhere at once, which makes Gemini feel less like a chat app and more like a real document factory.",
+      "suggestedTitle": "Geminiはファイルの生成とエクスポートに対応",
+      "suggestedSummary": "Geminiはpromptから直接、Docs、Word、PDF、Sheets、Excel、Slidesなどを生成できるようになった。コピー＆ペーストでの手直しはもういらない。Googleはこれを一気にあらゆる場所へ展開している。その結果、Geminiはただのチャットアプリではなく、本物のドキュメント工場のように見えてくる。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2049524400131838436",
@@ -29,8 +30,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Agents are still Linux-era jerry-rigging",
-      "suggestedSummary": "He says today’s agents are developer toys, not consumer products: too brittle, too chatty, and way too dependent on browser/computer hacks. The real engine is iterative tool-calling and code generation, and the next big leap may be dynamic interfaces instead of yet another chat box. His take: the “always-on” agent that keeps state and adapts is the thing worth betting on.",
+      "suggestedTitle": "agentはまだLinux時代の継ぎはぎ仕事だ",
+      "suggestedSummary": "彼は、今のagentは開発者向けの玩具であり、消費者向け製品ではないと言う。壊れやすく、会話がくどく、browserやcomputerのハックに依存しすぎているからだ。本当のエンジンは、反復的なtool-callingとcode generationである。次の大きな飛躍は、また別のchat boxではなく、dynamic interfacesかもしれない。彼が賭ける価値があると見るのは、stateを保持し、状況に応じて適応し続ける「always-on」のagentだ。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2049530878083379427",
@@ -49,8 +50,8 @@
       "authorHandle": "kevinweil",
       "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
       "title": "Kevin Weil",
-      "suggestedTitle": "AI should free radiologists to treat, not read",
-      "suggestedSummary": "He argues the real job of a radiologist isn’t staring at x-rays — it’s curing people. If AI can speed up image interpretation, doctors can spend more time actually helping patients and see more of them.",
+      "suggestedTitle": "AIは放射線科医を、画像を読む仕事から患者を治す仕事へ解放すべきだ",
+      "suggestedSummary": "彼は、放射線科医の本当の仕事はX線画像を見つめることではなく、人を治すことだと主張する。AIが画像の解釈を速められれば、医師は患者を実際に助ける時間を増やせる。より多くの患者も診られるようになる。",
       "tweets": [
         {
           "url": "https://x.com/kevinweil/status/2049584046213378229",
@@ -69,8 +70,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Internal agent engineers are the next big role",
-      "suggestedSummary": "He says companies will need a new kind of internal FDE: technical people who wire secure, governed agents into systems like Box, Salesforce, and Workday. The real shift isn’t automating jobs, it’s automating whole business processes — and he thinks that becomes a major role at Box and everywhere else.",
+      "suggestedTitle": "社内 agent engineer が次の大きな役割だ",
+      "suggestedSummary": "同氏は、企業には新しい種類の社内 FDE が必要になると言う。Box、Salesforce、Workday のようなシステムに、セキュアでガバナンスの効いた agent をつなぎ込む技術者だ。本当の変化は、仕事を自動化することではない。業務プロセス全体を自動化することだ。そしてそれが Box をはじめ、あらゆる企業で大きな役割になると見ている。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2049714403050918067",
@@ -89,8 +90,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor is turning agents into a local-cloud stack",
-      "suggestedSummary": "Build your own agent systems with Cursor using the same multi-model harness across local and cloud. It’s a clear push to make agent workflows feel less like a demo and more like infrastructure you can actually wire into real software work.",
+      "suggestedTitle": "Cursorはagentをローカル・クラウドのスタックへ変えている",
+      "suggestedSummary": "Cursorを使えば、ローカルとクラウドをまたいで同じマルチモデルのハーネスで自前のagentシステムを組める。これは、agentワークフローを単なるデモではなく、実際のソフトウェア開発に組み込めるインフラへ近づける明確な動きだ。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2049529609725804575",
@@ -109,8 +110,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Design-to-engine handoff, rebuilt from scratch",
-      "suggestedSummary": "They say Linear is reinventing design-to-engine handoff from first principles, which sounds like a shot at the whole Figma-to-code mess. As head of product, Nan Yu is framing it as a clean-slate workflow problem, not just another integration.",
+      "suggestedTitle": "デザインからエンジニアへの引き継ぎを、ゼロから再構築",
+      "suggestedSummary": "Linearは、デザインからエンジニアへの引き継ぎを第一原理から作り直しているという。Figmaからコードへのごちゃついた流れ全体に切り込む話にも聞こえる。プロダクト責任者のNan Yuは、これを単なる連携の話ではなく、白紙から見直すワークフローの問題として捉えている。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2049593061043265940",
@@ -129,8 +130,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Codex review now runs inside clawsweeper",
-      "suggestedSummary": "He integrated Codex review into clawsweeper, using a similar system prompt so it behaves like /review. The setup also automerges and loops until it stops finding new issues — basically an agentic code review treadmill.",
+      "suggestedTitle": "Codex reviewがclawsweeper内で動作するようになった",
+      "suggestedSummary": "Codex reviewをclawsweeperに統合した。/reviewと同じように振る舞うよう、似たsystem promptを使っている。設定には自動マージも含まれる。新しいissueが見つからなくなるまでループし続ける。要するに、agenticなcode reviewのループ装置だ。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2049521170177732836",
@@ -161,8 +162,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI makes everyone feel the pain of ops",
-      "suggestedSummary": "He joked that now everyone gets to experience the classic founder rite of passage: getting paged at dinner because the site is down. It’s a funny little reminder from the Replit CEO that as more people build software, more people also inherit the joy of keeping it alive.",
+      "suggestedTitle": "AIが全員にopsの痛みを味わわせる",
+      "suggestedSummary": "彼は、今や誰もが創業者の通過儀礼を体験できると冗談を飛ばした。夕食中にサイトが落ち、ページャーで呼び出されるあの定番だ。ソフトウェアを作る人が増えるほど、それを生かし続ける苦労もまた増える。ReplitのCEOからの、そんな小さなユーモア混じりの警句である。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2049729530059960571",
@@ -193,8 +194,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "He’s hardening onboarding with full E2E tests",
-      "suggestedSummary": "He finally built a full end-to-end harness for installing gbrain on openclaw, so onboarding can be tested instead of hoped for. He also notes graphs are increasingly inferred from frontmatter attributes, pushing more of the setup to happen automatically.",
+      "suggestedTitle": "フルE2Eテストでオンボーディングを強化している",
+      "suggestedSummary": "openclaw上でgbrainをインストールするためのフル end-to-end ハーネスをようやく構築した。これで、オンボーディングは祈るものではなく、テストできるようになる。さらに、graphはfrontmatter属性から推論されることが増えており、セットアップの多くが自動で進む方向に向かっていると指摘している。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2049760595294249234",
@@ -225,8 +226,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Internal tools become HR for agents",
-      "suggestedSummary": "She argues IT and internal tools teams should be treated less like ticket fixers and more like “HR for agents” — the layer that onboards, manages, and supports AI workers. It’s a clean framing for how org charts may need to change as agents become part of the workforce.",
+      "suggestedTitle": "内部ツールは agent の人事部になる",
+      "suggestedSummary": "彼女は、IT と internal tools のチームを、単なるチケット処理係として見るべきではないと主張する。むしろ「agent の人事部」として扱うべきだという。つまり、AI worker を受け入れ、管理し、支える層だ。agent が workforce の一部になるにつれ、組織図も変える必要がある。その見立てを、すっきりと示している。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2049599305825341518",
@@ -245,8 +246,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Claude’s web UI is getting sluggish",
-      "suggestedSummary": "He says Claude’s basic web UI is now randomly taking 3–5 seconds to respond, which is a rough look for a product people expect to feel instant. It’s a small complaint, but for AI tools, latency is the product — and even a few seconds can kill the experience.",
+      "suggestedTitle": "Claudeのweb UIが重くなっている",
+      "suggestedSummary": "彼によれば、Claudeの基本的なweb UIが、今ではランダムに3〜5秒かけて応答するという。即時性が期待されるプロダクトとしては、かなり印象が悪い。小さな不満に見えるが、AIツールではレイテンシこそがプロダクトだ。数秒の遅れでも、体験は簡単に台無しになる。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2049678384058511376",
@@ -277,8 +278,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Base models are still underused playgrounds",
-      "suggestedSummary": "He says people are too busy mourning the completions API to notice how much weird stuff you can still do with base models and finetunes. The real opportunity, in his view, is experimenting harder with non-obvious uses instead of waiting for the perfect product surface.",
+      "suggestedTitle": "base modelは今も使い切られていない遊び場だ",
+      "suggestedSummary": "彼は、completions APIの終わりを嘆くことに気を取られすぎていて、base modelやfinetuneでまだどれだけ奇妙なことができるかに気づいていないと言う。彼の見立てでは、本当の機会は、完璧なproduct surfaceを待つことではない。もっと非自明な使い方を、さらに攻めて試すことにある。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2049678324633632821",
@@ -309,8 +310,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Agents are becoming the new shoppers",
-      "suggestedSummary": "He says the agent economy is already showing up in payments: people still won’t let AI buy a couch, but they’ll happily delegate low-stakes purchases. Stripe’s view of 2% of global GDP also shows fraud shifting up the stack — from stolen cards to stolen free-trial tokens and compute credits — while AI companies are scaling faster than any SaaS cohort Stripe has tracked.",
+      "suggestedTitle": "agentが新しい買い物客になりつつある",
+      "suggestedSummary": "彼は、agent経済はすでに決済の領域に現れていると言う。人々はまだAIにソファを買わせる気にはならないが、リスクの低い買い物なら喜んで任せる。Stripeが見る世界GDPの2%という視点からも、fraudが上流へ移っていることがわかる。盗まれたカードから、盗まれたfree-trial tokenやcompute creditへと移っているのだ。一方でAI企業は、Stripeが追跡してきたどのSaaS cohortよりも速くスケールしている。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2049513886634983761",
@@ -333,23 +334,27 @@
       ],
       "publishedAt": "2026-04-29T15:39:23.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-30",
       "source": "AI & I by Every",
-      "title": "How Stripe Is Building for an Agent-native World",
+      "title": "Stripeがエージェントネイティブな世界に向けて構築しているもの",
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "suggestedTitle": "Stripe sees agents turning fraud and pricing into full-funnel problems",
-      "suggestedSummary": "**The Takeaway:** The internet is shifting from human-first to agent-first, and that rewrites fraud, billing, and trust.\n\n- Fraud is no longer just stolen cards at checkout; in AI, attackers steal compute, credits, and unpaid usage across the whole customer lifecycle.\n- The old SaaS playbook breaks fast: free trials, virtual cards, and seat-based pricing all become leaky when every prompt and API call has real cost.\n- Stripe’s edge is breadth: it’s pushing fraud detection upstream into sign-up, and across payment methods, processors, and even agent commerce.\n\nEmily, Stripe’s head of data and AI, frames the shift bluntly: “the Internet has this new kind of actor on it.” Her point isn’t that AI is making websites smarter; it’s that agents are becoming the dominant users of the web, and every layer of the stack has to adapt. That means payments, identity, fraud, billing, and developer tools all need to be rebuilt for software that acts on behalf of people—or directly with other software.\n\nThe most immediate pain is fraud. In AI businesses, the thing being stolen isn’t just money; it’s expensive inference. Emily says fraudsters are abusing free trials, spinning up multi-accounts, and racking up unpaid usage. One company saw only 4% of free trials convert, while each trial cost $25 in LLM spend—turning into “$625 per payer” before revenue even started. Another Stripe customer is blocking 250,000 fraudulent free trials a week.\n\nStripe’s response is to move Radar from checkout to sign-up and beyond, because fraud is now a “full funnel problem, not a transaction problem alone.” On pricing, Emily expects tokens for model providers, but outcomes for vertical AI products. Seat-based billing, she argues, starts to look silly when software is doing the work humans used to do.",
+      "suggestedTitle": "Stripeは、エージェントが不正利用と価格設定をフルファネルの問題に変えると見ている",
+      "suggestedSummary": "**要点:** インターネットは人間中心からエージェント中心へ移りつつある。これが、不正利用、課金、信頼の前提を書き換える。\n\n- 不正利用はもはや、決済時に盗まれたカードだけの話ではない。AIでは、攻撃者がcompute、credits、未払いの利用分を顧客ライフサイクル全体で盗む。\n- 旧来のSaaSの定石はすぐに崩れる。free trial、virtual card、seat-based pricingは、すべてのpromptとAPI callに実コストが乗ると、抜け穴だらけになる。\n- Stripeの強みは幅広さだ。不正検知をsign-upの前段に押し上げ、payment method、processor、さらにはagent commerceまで横断している。\n\nStripeのdata and AI責任者Emilyは、この変化を率直にこう表現する。「the Internet has this new kind of actor on it.」彼女が言いたいのは、AIがWebサイトを賢くしているという話ではない。agentがWebの主要な利用者になりつつあり、stackのあらゆる層がそれに適応しなければならないということだ。つまり、payments、identity、fraud、billing、developer toolsのすべてを、人の代わりに動く、あるいは他のsoftwareと直接やり取りするsoftware向けに作り直す必要がある。\n\n最も差し迫った痛みは不正利用だ。AI businessでは、盗まれているのは金だけではない。高価なinferenceだ。Emilyによれば、fraudsterはfree trialを悪用し、multi-accountを量産し、未払いの利用分を積み上げている。ある会社では、free trialの登録が4%しか有料転換しなかった。一方で、trial 1件あたりのLLM spendは25ドルだった。収益が立つ前に「1人の有料顧客あたり625ドル」になっていたわけだ。別のStripe customerは、週に25万件の不正なfree trialを遮断している。\n\nStripeの対応は、Radarをcheckoutからsign-upへ、さらにその先へと移すことだ。不正利用はもはや「transactionの問題だけではなく、full funnel problem」だからだ。pricingについてEmilyは、model providerにはtoken課金が残る一方、vertical AI productではoutcome課金が主流になると見ている。softwareが人間の代わりに仕事をするなら、seat-based billingはばかばかしく見えてくる、というのが彼女の見立てだ。",
       "publishedAt": "2026-04-29T15:23:55.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-30T14:41:00.291Z"
+    "generatedAt": "2026-04-30T14:41:31.745Z",
+    "estimatedReadTime": "7 分"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-04-30",
+  "lang": "en",
   "summary": "Josh Woodward said Gemini can now generate and export files, while Ryo Lu framed Cursor as a local-cloud agent stack. Aditya Agarwal called agents Linux-era jerry-rigging; Aaron Levie, Zara Zhang, and Garry Tan all bet the real work now is building internal agent ops, onboarding, and tests.",
-  "items": [
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-04-30",
       "source": "X",
@@ -333,7 +334,9 @@
       ],
       "publishedAt": "2026-04-29T15:39:23.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-30",
       "source": "AI & I by Every",
@@ -345,11 +348,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-30T14:41:00.291Z"
+    "generatedAt": "2026-04-30T14:41:00.503Z",
+    "estimatedReadTime": "7 min"
   }
 }

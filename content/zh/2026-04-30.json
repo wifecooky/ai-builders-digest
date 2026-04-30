@@ -1,7 +1,8 @@
 {
   "date": "2026-04-30",
-  "summary": "Josh Woodward said Gemini can now generate and export files, while Ryo Lu framed Cursor as a local-cloud agent stack. Aditya Agarwal called agents Linux-era jerry-rigging; Aaron Levie, Zara Zhang, and Garry Tan all bet the real work now is building internal agent ops, onboarding, and tests.",
-  "items": [
+  "lang": "zh",
+  "summary": "Josh Woodward 说，Gemini 现在已经能生成并导出文件了；Ryo Lu 则把 Cursor 定位成一套 local-cloud agent stack。Aditya Agarwal 直接把 agents 形容成 Linux 时代那种东拼西凑的做法；Aaron Levie、Zara Zhang 和 Garry Tan 也都押注，真正要做的事已经变成搭建内部 agent ops、onboarding 和 tests。",
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-04-30",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Gemini can now generate and export files",
-      "suggestedSummary": "Gemini now turns prompts straight into Docs, Word, PDFs, Sheets, Excel, Slides, and more — no copy-paste cleanup needed. Google’s pushing it everywhere at once, which makes Gemini feel less like a chat app and more like a real document factory.",
+      "suggestedTitle": "Gemini 现在可以直接生成并导出文件",
+      "suggestedSummary": "Gemini 现在能把 prompt 直接变成 Docs、Word、PDF、Sheets、Excel、Slides 等文件，不用再手动复制粘贴、清理格式。Google 也在同时把它推到各个场景里，这让 Gemini 更像一个真正的文档工厂，而不只是聊天 app。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2049524400131838436",
@@ -29,8 +30,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Agents are still Linux-era jerry-rigging",
-      "suggestedSummary": "He says today’s agents are developer toys, not consumer products: too brittle, too chatty, and way too dependent on browser/computer hacks. The real engine is iterative tool-calling and code generation, and the next big leap may be dynamic interfaces instead of yet another chat box. His take: the “always-on” agent that keeps state and adapts is the thing worth betting on.",
+      "suggestedTitle": "Agents 还是 Linux 时代那套拼装活",
+      "suggestedSummary": "他说，今天的 agents 还是开发者玩具，不是面向消费者的产品：太脆，太爱废话，而且过度依赖 browser/computer 的各种 hack。真正的引擎，其实是反复的 tool-calling 和 code generation。下一次大跃迁，可能不是再来一个 chat box，而是 dynamic interfaces。他的判断是：那个能持续保持 state、还能随时调整的“always-on” agent，才值得下注。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2049530878083379427",
@@ -49,8 +50,8 @@
       "authorHandle": "kevinweil",
       "authorBio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
       "title": "Kevin Weil",
-      "suggestedTitle": "AI should free radiologists to treat, not read",
-      "suggestedSummary": "He argues the real job of a radiologist isn’t staring at x-rays — it’s curing people. If AI can speed up image interpretation, doctors can spend more time actually helping patients and see more of them.",
+      "suggestedTitle": "AI 应该让放射科医生把时间花在治疗上，而不是读片上",
+      "suggestedSummary": "他认为，放射科医生真正的工作不是盯着 x-ray 看，而是治病救人。要是 AI 能把影像解读提速，医生就能把更多时间用在真正帮患者上，也能看更多病人。",
       "tweets": [
         {
           "url": "https://x.com/kevinweil/status/2049584046213378229",
@@ -69,8 +70,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Internal agent engineers are the next big role",
-      "suggestedSummary": "He says companies will need a new kind of internal FDE: technical people who wire secure, governed agents into systems like Box, Salesforce, and Workday. The real shift isn’t automating jobs, it’s automating whole business processes — and he thinks that becomes a major role at Box and everywhere else.",
+      "suggestedTitle": "内部 agent engineer 会成为下一个大角色",
+      "suggestedSummary": "他说，企业会需要一种新的内部 FDE：懂技术的人，把安全、可治理的 agent 接到 Box、Salesforce、Workday 这类系统里。真正的变化不是自动化岗位，而是自动化整套业务流程。他认为，这会在 Box 以及其他公司都变成一个重要角色。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2049714403050918067",
@@ -89,8 +90,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor is turning agents into a local-cloud stack",
-      "suggestedSummary": "Build your own agent systems with Cursor using the same multi-model harness across local and cloud. It’s a clear push to make agent workflows feel less like a demo and more like infrastructure you can actually wire into real software work.",
+      "suggestedTitle": "Cursor 正在把 agent 变成本地-云端栈",
+      "suggestedSummary": "用 Cursor 搭建你自己的 agent 系统。它在本地和云端都用同一套 multi-model harness。这个方向很明确：让 agent workflow 不再像 demo，而是更像能真正接进软件开发流程的基础设施。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2049529609725804575",
@@ -109,8 +110,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Design-to-engine handoff, rebuilt from scratch",
-      "suggestedSummary": "They say Linear is reinventing design-to-engine handoff from first principles, which sounds like a shot at the whole Figma-to-code mess. As head of product, Nan Yu is framing it as a clean-slate workflow problem, not just another integration.",
+      "suggestedTitle": "从零重做 design-to-engine handoff",
+      "suggestedSummary": "他们说，Linear 正在从第一性原理重做 design-to-engine handoff。听起来像是在直接挑战整个 Figma-to-code 的乱局。作为产品负责人，Nan Yu 把这件事定义成一个从零开始的 workflow 问题，而不只是又一个 integration。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2049593061043265940",
@@ -129,8 +130,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Codex review now runs inside clawsweeper",
-      "suggestedSummary": "He integrated Codex review into clawsweeper, using a similar system prompt so it behaves like /review. The setup also automerges and loops until it stops finding new issues — basically an agentic code review treadmill.",
+      "suggestedTitle": "Codex review 现在在 clawsweeper 里跑了",
+      "suggestedSummary": "他把 Codex review 集成进了 clawsweeper，还用了类似的 system prompt，让它的行为跟 /review 一样。这个配置还会自动 merge，并且不断循环，直到不再发现新问题为止——基本上就是一个 agentic code review 跑步机。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2049521170177732836",
@@ -161,8 +162,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "AI makes everyone feel the pain of ops",
-      "suggestedSummary": "He joked that now everyone gets to experience the classic founder rite of passage: getting paged at dinner because the site is down. It’s a funny little reminder from the Replit CEO that as more people build software, more people also inherit the joy of keeping it alive.",
+      "suggestedTitle": "AI 让每个人都感受到 ops 的痛",
+      "suggestedSummary": "他开玩笑说，现在每个人都能体验到创始人的经典成年礼：正吃着晚饭，突然被 pager 叫醒，因为网站挂了。Replit CEO 这句话挺有意思，也提醒我们一件事：随着越来越多人开始写 software，越来越多人也得接手把它养活下去这份“快乐”。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2049729530059960571",
@@ -193,8 +194,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "He’s hardening onboarding with full E2E tests",
-      "suggestedSummary": "He finally built a full end-to-end harness for installing gbrain on openclaw, so onboarding can be tested instead of hoped for. He also notes graphs are increasingly inferred from frontmatter attributes, pushing more of the setup to happen automatically.",
+      "suggestedTitle": "他在用完整的 E2E tests 加固 onboarding",
+      "suggestedSummary": "他终于给在 openclaw 上安装 gbrain 搭了一个完整的 end-to-end harness。这样 onboarding 就能真正测试，而不是靠祈祷。 他还提到，graphs 越来越多地从 frontmatter attributes 里推断出来，这让更多 setup 可以自动完成。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2049760595294249234",
@@ -225,8 +226,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Internal tools become HR for agents",
-      "suggestedSummary": "She argues IT and internal tools teams should be treated less like ticket fixers and more like “HR for agents” — the layer that onboards, manages, and supports AI workers. It’s a clean framing for how org charts may need to change as agents become part of the workforce.",
+      "suggestedTitle": "内部工具会变成 agent 的 HR",
+      "suggestedSummary": "她的观点是，IT 和内部工具团队不该再只是“修 ticket 的人”，而要更像 agent 的“HR”——负责 onboarding、管理和支持 AI 员工的那一层。这个说法很清楚，也说明了当 agent 逐渐进入 workforce，组织架构可能得跟着怎么变。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2049599305825341518",
@@ -245,8 +246,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Claude’s web UI is getting sluggish",
-      "suggestedSummary": "He says Claude’s basic web UI is now randomly taking 3–5 seconds to respond, which is a rough look for a product people expect to feel instant. It’s a small complaint, but for AI tools, latency is the product — and even a few seconds can kill the experience.",
+      "suggestedTitle": "Claude 的 web UI 变慢了",
+      "suggestedSummary": "他说，Claude 最基础的 web UI 现在会随机卡 3 到 5 秒才响应。对一个大家本来就期待它“秒回”的产品来说，这观感挺糟的。这个吐槽看起来不大，但对 AI 工具来说，延迟就是产品本身。哪怕慢几秒，也足够把体验拖垮。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2049678384058511376",
@@ -277,8 +278,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Base models are still underused playgrounds",
-      "suggestedSummary": "He says people are too busy mourning the completions API to notice how much weird stuff you can still do with base models and finetunes. The real opportunity, in his view, is experimenting harder with non-obvious uses instead of waiting for the perfect product surface.",
+      "suggestedTitle": "base model 还是被低估的 playground",
+      "suggestedSummary": "他觉得，大家忙着为 completions API 退场惋惜，反而没注意到 base model 和 finetune 还能玩出多少花样。在他看来，真正的机会不是等一个完美的 product surface，而是更大胆地去试那些不那么显眼的用法。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2049678324633632821",
@@ -309,8 +310,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Agents are becoming the new shoppers",
-      "suggestedSummary": "He says the agent economy is already showing up in payments: people still won’t let AI buy a couch, but they’ll happily delegate low-stakes purchases. Stripe’s view of 2% of global GDP also shows fraud shifting up the stack — from stolen cards to stolen free-trial tokens and compute credits — while AI companies are scaling faster than any SaaS cohort Stripe has tracked.",
+      "suggestedTitle": "agent 正在变成新的 shopper",
+      "suggestedSummary": "他说，agent economy 已经开始体现在 payments 里了：大家还是不会放心让 AI 去买沙发，但把低风险的购物交给它，倒是很愿意。Stripe 对全球 GDP 2% 的视角也说明，fraud 正在往上游转移——从 stolen cards 转到 stolen free-trial tokens 和 compute credits。与此同时，AI companies 的增长速度，也比 Stripe 见过的任何 SaaS cohort 都更快。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2049513886634983761",
@@ -333,23 +334,27 @@
       ],
       "publishedAt": "2026-04-29T15:39:23.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-04-30",
       "source": "AI & I by Every",
-      "title": "How Stripe Is Building for an Agent-native World",
+      "title": "Stripe 如何为 agent-native 世界做准备",
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "suggestedTitle": "Stripe sees agents turning fraud and pricing into full-funnel problems",
-      "suggestedSummary": "**The Takeaway:** The internet is shifting from human-first to agent-first, and that rewrites fraud, billing, and trust.\n\n- Fraud is no longer just stolen cards at checkout; in AI, attackers steal compute, credits, and unpaid usage across the whole customer lifecycle.\n- The old SaaS playbook breaks fast: free trials, virtual cards, and seat-based pricing all become leaky when every prompt and API call has real cost.\n- Stripe’s edge is breadth: it’s pushing fraud detection upstream into sign-up, and across payment methods, processors, and even agent commerce.\n\nEmily, Stripe’s head of data and AI, frames the shift bluntly: “the Internet has this new kind of actor on it.” Her point isn’t that AI is making websites smarter; it’s that agents are becoming the dominant users of the web, and every layer of the stack has to adapt. That means payments, identity, fraud, billing, and developer tools all need to be rebuilt for software that acts on behalf of people—or directly with other software.\n\nThe most immediate pain is fraud. In AI businesses, the thing being stolen isn’t just money; it’s expensive inference. Emily says fraudsters are abusing free trials, spinning up multi-accounts, and racking up unpaid usage. One company saw only 4% of free trials convert, while each trial cost $25 in LLM spend—turning into “$625 per payer” before revenue even started. Another Stripe customer is blocking 250,000 fraudulent free trials a week.\n\nStripe’s response is to move Radar from checkout to sign-up and beyond, because fraud is now a “full funnel problem, not a transaction problem alone.” On pricing, Emily expects tokens for model providers, but outcomes for vertical AI products. Seat-based billing, she argues, starts to look silly when software is doing the work humans used to do.",
+      "suggestedTitle": "Stripe 看到 agents 正把 fraud 和 pricing 变成全漏斗问题",
+      "suggestedSummary": "**核心结论：** Internet 正在从 human-first 转向 agent-first。这会重写 fraud、billing 和 trust 的规则。\n\n- Fraud 不再只是 checkout 里被盗刷的 card。到了 AI 场景，攻击者偷的是 compute、credits，还有整个 customer lifecycle 里的未付 usage。\n- 旧的 SaaS playbook 很快就失灵了。free trial、virtual card、seat-based pricing，在每个 prompt 和 API call 都有真实成本时，都会开始漏。\n- Stripe 的优势在于覆盖面广。它把 fraud detection 往前推到 sign-up 阶段，也覆盖更多 payment methods、processors，甚至 agent commerce。\n\nEmily 是 Stripe 的 head of data and AI。她把这次变化说得很直接：\"the Internet has this new kind of actor on it.\" 她的意思不是 AI 让 website 更聪明了，而是 agents 正在变成 web 的主力用户。整个 stack 的每一层都得跟着变。payments、identity、fraud、billing、developer tools，都要为代表人做事、或者直接和其他 software 协作的软件重做一遍。\n\n最先爆发的是 fraud。在 AI business 里，被偷的东西不只是 money，而是昂贵的 inference。Emily 说，fraudsters 正在滥用 free trial，批量起 multi-account，还在疯狂堆 unpaid usage。某家公司只有 4% 的 free trial 会转化，但每个 trial 的 LLM spend 要 $25。还没开始赚钱，成本就已经变成了“每个 payer $625”。Stripe 的另一个 customer 每周能拦下 250,000 个 fraudulent free trial。\n\nStripe 的应对方式，是把 Radar 从 checkout 往前推到 sign-up，甚至更早。因为现在的 fraud 已经是“full funnel problem，不只是 transaction problem”。在 pricing 上，Emily 认为 model provider 会继续按 token 计费，但 vertical AI product 更适合按 outcome 计费。她觉得 seat-based billing 也越来越说不通了。毕竟现在干活的是 software，不是人。",
       "publishedAt": "2026-04-29T15:23:55.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-04-30T14:41:00.291Z"
+    "generatedAt": "2026-04-30T14:41:15.003Z",
+    "estimatedReadTime": "7 分钟"
   }
 }
