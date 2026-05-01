@@ -1,7 +1,8 @@
 {
   "date": "2026-05-01",
-  "summary": "Karpathy said LLMs were new software, not just faster software. Rauch, Steinberger, and Cat Wu shipped agent upgrades, while Levie, Masad, and Agarwal bet agents ate UI, made Replit its own customer, and turned AI into both attack and defense.",
-  "items": [
+  "lang": "ja",
+  "summary": "Karpathyは、LLMは単なる高速なsoftwareではなく、新しいsoftwareだと言った。  \nRauch、Steinberger、Cat Wuはagentのupgradeを出した。  \n一方でLevie、Masad、Agarwalは、agentがUIを食うと賭けた。  \nReplitを自社のcustomerに変え、AIをattackとdefenseの両方にした。",
+  "builderInsights": [
     {
       "id": "karpathy-2026-05-01",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "LLMs aren’t just faster software — they’re new software",
-      "suggestedSummary": "He says the real shift isn’t coding speedups: LLMs can power things that were basically impossible before, like image-in/image-out apps with no classical code, install instructions written in Markdown, and knowledge bases over messy unstructured data. He also argues LLMs stay jagged because what labs train on is shaped by economics and verifiability, which is why they can refactor a giant codebase one minute and give absurd advice the next. The bigger bet: an agent-native economy where products are built to be legible to models, not just humans.",
+      "suggestedTitle": "LLMは単なる高速なソフトウェアではない。新しいソフトウェアである",
+      "suggestedSummary": "彼が言う本当の変化は、コーディングの高速化ではない。LLMは、以前はほぼ不可能だったものを動かせる。たとえば、従来のコードなしで動くimage-in/image-outアプリ、Markdownで書かれたインストール手順、雑然とした非構造データの上に成り立つknowledge baseだ。さらに彼は、LLMがぎこちなさを残すのは、labsが学習させる対象が経済性と検証可能性に左右されるからだと主張する。そのため、巨大なcodebaseを一瞬でrefactorできる一方で、次の瞬間にはとんでもない助言も出す。より大きな賭けは、agent-nativeな経済圏だ。そこでは、製品は人間だけでなくモデルにとっても読み取りやすいように作られる。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2049907410303865030",
@@ -35,8 +36,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "OpenClaw got a serious agent upgrade",
-      "suggestedSummary": "He says OpenClaw now works way better in group chats after changing how the agents talk, and that the codex harness beats plain GPT for this use case. The pitch is simple: enable both and you get a much stronger setup. He also hints at a broader security push with help from Nvidia, OpenAI, Microsoft, GitHub, Tencent Hunyuan, Convex, Atlassian, and Blacksmith.",
+      "suggestedTitle": "OpenClawがagentを大幅アップグレード",
+      "suggestedSummary": "彼によれば、agent同士の会話の仕方を変えたことで、OpenClawはグループチャットでかなり使いやすくなったという。さらに、この用途では plain GPT より codex harness のほうが優れているとも述べている。要点はシンプルだ。両方を有効にすれば、はるかに強力な構成になる。加えて、Nvidia、OpenAI、Microsoft、GitHub、Tencent Hunyuan、Convex、Atlassian、Blacksmith の協力を得た、より広いセキュリティ強化にも言及している。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2050003238498226541",
@@ -67,8 +68,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Vercel’s v0 imagines a GitHub clone in 2 prompts",
-      "suggestedSummary": "He asked v0 what it would look like if Vercel shipped GitHub, and got a full concept back in just two prompts. It’s a neat flex for the CEO: AI isn’t just helping build features, it’s starting to sketch entire products on demand.",
+      "suggestedTitle": "Vercelのv0が2つのpromptでGitHubクローンを構想",
+      "suggestedSummary": "VercelがGitHubを出したらどうなるかをv0に尋ねたところ、わずか2つのpromptで完成度の高いコンセプトが返ってきた。CEOにとってはなかなかの見せ場だ。AIは機能開発を手伝うだけではない。今では、要求に応じて製品全体の構想まで描き始めている。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2049959307941179678",
@@ -87,8 +88,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents will eat UI; APIs become the product",
-      "suggestedSummary": "He says software has to go headless because agents won’t click around your UI — they’ll talk straight to your APIs. His Box take: people still buy seats, but those seats need bundled API usage, while agent-only work will push software toward consumption pricing and outcome-based APIs.",
+      "suggestedTitle": "agentがUIを食い尽くし、APIがproductになる",
+      "suggestedSummary": "彼の主張は、softwareはheadlessである必要があるというものだ。agentはUIをクリックして回るのではなく、APIに直接話しかけるからだ。Boxでの見立てでは、今後も人はseatを買う。ただし、そのseatにはbundled API usageが必要になる。さらに、agent-onlyの仕事が増えるほど、softwareはconsumption pricingとoutcome-based APIへ向かう。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2050051426446152159",
@@ -107,8 +108,8 @@
       "authorHandle": "_catwu",
       "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "title": "Cat Wu",
-      "suggestedTitle": "Claude Code now scans repos for vulnerabilities",
-      "suggestedSummary": "Claude Security is in public beta inside Claude Code on the web, so you can point it at a repo, get validated vulnerability findings, and fix them without leaving the editor. It’s a neat push toward making security part of the normal coding loop instead of a separate workflow.",
+      "suggestedTitle": "Claude Codeがリポジトリをスキャンし、脆弱性を検出するようになった",
+      "suggestedSummary": "Claude Securityが、web版のClaude Code内でpublic betaとして利用可能になった。リポジトリを指定すれば、検証済みの脆弱性を見つけ、そのままeditorを離れずに修正できる。セキュリティを別のワークフローではなく、通常のコーディングの流れに組み込もうとする、よい一歩だ。",
       "tweets": [
         {
           "url": "https://x.com/_catwu/status/2049964403177689130",
@@ -127,8 +128,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit is its own first customer",
-      "suggestedSummary": "He says Replit treats itself as customer zero, not just a dogfooding exercise, and expects internal usage to deliver insane ROI. The point is simple: if the product can’t justify itself inside the company, it’s not ready for everyone else.",
+      "suggestedTitle": "Replitは自社の最初の顧客である",
+      "suggestedSummary": "彼は、Replitが自社を単なるdogfoodingの対象ではなく、customer zeroとして扱っていると言う。社内利用でとんでもないROIを出すことを期待しているのだ。要点は単純である。社内でその価値を正当化できないproductなら、まだ他の誰にも出す段階ではない。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2049934937688854993",
@@ -153,8 +154,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Big models will run the OS, not just apps",
-      "suggestedSummary": "He says MCPs and CLIs are the early proof that “big” models will orchestrate our lives, starting in the terminal, then computer use, then the whole OS. The takeaway is blunt: if your product isn’t in the path of these models using you, you’ll get routed around.",
+      "suggestedTitle": "大規模モデルはアプリではなくOSを動かす",
+      "suggestedSummary": "彼は、MCPとCLIが「大規模」モデルが私たちの生活をオーケストレーションする初期の証拠だと語る。まずはterminalから始まり、次にcomputer useへ進み、やがてOS全体に広がるという見立てだ。要点は明快だ。あなたのproductが、これらのモデルがあなたを使う経路に入っていなければ、迂回される。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2050053311408296334",
@@ -179,8 +180,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "AI is now both the attack and the defense",
-      "suggestedSummary": "He says cybersecurity just hit a new inflection point: attackers have AI, and defenders need it too. In a South Park Commons chat with Palo Alto Networks CEO Nikesh Arora, he argues the only way to keep up is to use AI to find bad code faster, clean up stack chaos, and raise the security floor.",
+      "suggestedTitle": "AIは攻撃でもあり防御でもある",
+      "suggestedSummary": "彼は、サイバーセキュリティが新たな転換点に入ったと言う。攻撃側はAIを手にし、防御側もAIが必要だ。South Park CommonsでのPalo Alto Networks CEO Nikesh Aroraとの対談で、彼は追いつく唯一の方法は、AIで悪いコードをより速く見つけ、stackの混乱を片付け、セキュリティの底上げを図ることだと論じている。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2049941075872113145",
@@ -211,8 +212,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain is a new layer for personal AI",
-      "suggestedSummary": "He says GBrain has already separated itself from similar tools and fits a different lane: personal AI setups like OpenClaw and Hermes, not perfect needle-in-a-haystack retrieval. He’s also pushing the MIT-licensed open source project as a drop-in boost for anyone building a Karpathy-style knowledge wiki.",
+      "suggestedTitle": "GBrainは個人向けAIの新しいレイヤーだ",
+      "suggestedSummary": "彼によれば、GBrainはすでに似たツール群から頭ひとつ抜けている。狙っている領域も違う。OpenClawやHermesのような個人向けAIの構成だ。完璧なneedle-in-a-haystack retrievalではない。MITライセンスのオープンソースプロジェクトとしても推している。Andrej Karpathy流のknowledge wikiを作る人なら、そのまま差し込める強化策だという。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2050096324100682097",
@@ -243,8 +244,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Opinionated systems win by staying flexible",
-      "suggestedSummary": "He argues that “no opinion” is still a strong opinion: every product encodes a worldview in its primitives, visibility, and abstractions. The real design work, especially for Cursor, is reducing concepts to durable essentials so beginners aren’t boxed in and power users can keep extending the system.",
+      "suggestedTitle": "意見のあるシステムは、柔軟さを保つことで勝つ",
+      "suggestedSummary": "彼は、「意見がない」こともまた強い意見だと論じる。あらゆるプロダクトは、primitive、可視性、抽象化の中に世界観を埋め込んでいる。特にCursorにおける本当の設計作業は、概念を長く使える本質まで削ぎ落とすことだ。そうすれば、初心者は枠にはめられず、上級ユーザーはシステムを拡張し続けられる。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2049873259974611002",
@@ -275,8 +276,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Coding agents are breaking containment",
-      "suggestedSummary": "He says the breakout theme of the year is coding agents breaking containment — and that it’s not just for developers anymore. In a talk for AIE EU, he argued tiny teams can use agents to run real businesses at scale, pointing to @aidotengineer serving ~1M developers a month while leaning on tools like Devin, Town, and OpenClaw.",
+      "suggestedTitle": "coding agentsが制御を破っている",
+      "suggestedSummary": "彼によれば、今年のブレイクアウトテーマはcoding agentsが制御を破ることだという。しかも、開発者だけの話ではない。AIE EU向けの講演で、彼は小さなチームでもagentを使って実際のビジネスを大規模に回せると主張した。@aidotengineerがDevin、Town、OpenClawのようなツールを活用しながら、月間約100万人のdevelopersにサービスを提供している点を挙げている。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2050084459291324673",
@@ -299,25 +300,29 @@
       ],
       "publishedAt": "2026-05-01T05:26:38.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-01",
       "source": "Training Data",
-      "title": "Demis Hassabis on Building DeepMind, AlphaFold, and the Final Stretch to AGI",
+      "title": "Demis HassabisがDeepMind、AlphaFold、そしてAGIへの最後の追い込みを築くまで",
       "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "suggestedTitle": "Demis Hassabis: build AI as a tool first, then use it to rewrite science",
-      "suggestedSummary": "**The Takeaway:** Hassabis treats AGI as a long game: build a powerful tool first, then use it to accelerate science, medicine, and understanding itself.\n\n- He didn’t stumble into AI; he planned for it as a teenager and used games, neuroscience, and startups as stepping stones toward DeepMind.\n- His biggest startup lesson was brutal and practical: be “five years ahead of your time, not fifty years ahead.”\n- He sees AlphaFold as proof that AI can compress years of wet-lab work into mostly in-silico exploration, with biology becoming a simulator-driven science.\n\nDemis Hassabis, the neuroscientist-founder behind DeepMind and Isomorphic Labs, comes across less like a hype man and more like a disciplined strategist. He says the through-line in his career was always AI: games were the funding vehicle, neuroscience was the inspiration, and DeepMind was the vehicle for the real mission. The early win with Theme Park showed him that people loved interacting with intelligent systems; the failed ambition of Republic taught him that timing matters as much as vision.\n\nHis philosophy is refreshingly unsentimental. DeepMind’s original mission was “step one, solve intelligence… step two, use it to solve everything else.” That second step is where he’s most energized: AI for science, especially biology, weather, and eventually social systems through simulation. He argues that biology is the perfect domain for machine learning because it’s messy, emergent, and full of weak signals that humans can’t hold in their heads. The goal is to make the computer do 99% of the search, leaving the lab for validation.\n\nOn AGI, he’s still concrete rather than mystical: build “an incredibly intelligent and useful and precise tool” first, then cross the next Rubicon. And he’s still thinking in big, philosophical terms too: “I actually think information is most fundamental.”",
+      "suggestedTitle": "Demis Hassabis: まずAIを道具として作り、そこから科学を書き換える",
+      "suggestedSummary": "**要点:** HassabisはAGIを長期戦として捉えている。まず強力な道具を作る。そしてそれを使って、科学、医療、そして理解そのものを加速させる。\\n\\n- 彼はAIに偶然たどり着いたのではない。10代のころから計画していた。ゲーム、神経科学、スタートアップを、DeepMindへ向かう踏み石として使った。\\n- 彼の最大のスタートアップ教訓は、容赦なく実践的だ。「時代の5年先を行け。50年先を行くな」というものだ。\\n- AlphaFoldは、AIが何年分ものwet-lab作業を、ほぼin-silicoの探索に圧縮できる証拠だと彼は見ている。生物学は、シミュレーター駆動の科学になりつつある。\\n\\nDeepMindとIsomorphic Labsの背後にいる神経科学者兼創業者、Demis Hassabisは、煽るタイプというより、規律ある戦略家に見える。彼によれば、キャリアを貫く一本線は最初からAIだった。ゲームは資金調達の手段であり、神経科学は着想の源であり、DeepMindは本当の使命のための器だった。Theme Parkでの初期の成功は、人々が知的なシステムとの対話を好むことを示した。Republicの野心的な失敗は、ビジョンと同じくらいタイミングが重要だと教えた。\\n\\n彼の哲学は、驚くほど感傷がない。DeepMindの当初の使命は「第一段階、知能を解く。第二段階、それを使って他のすべてを解く」だった。彼が最も熱を入れているのは、その第二段階だ。科学のためのAI。とくに生物学、気象、そして最終的にはシミュレーションを通じた社会システムである。彼は、生物学こそmachine learningに最適な領域だと主張する。複雑で、創発的で、人間の頭では抱えきれない弱いシグナルに満ちているからだ。目標は、探索の99%をcomputerにやらせ、labは検証に残すことだ。\\n\\nAGIについても、彼の考えは神秘的ではなく具体的だ。まず「信じられないほど知的で、有用で、精密なtool」を作る。そして次のRubiconを越える。しかも彼は、依然として大きく哲学的なことも考えている。「私は、情報こそが最も根本的だと思っている」",
       "publishedAt": "2026-04-30T17:12:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-01",
       "source": "Claude Blog",
-      "title": "Redesigning Claude Code on desktop for parallel agents",
+      "title": "デスクトップ版 Claude Code を並列 agent 向けに再設計",
       "url": "https://claude.com/blog/claude-code-desktop-redesign",
       "author": null,
-      "suggestedTitle": "Claude Code desktop adds parallel sessions and built-in tools",
-      "suggestedSummary": "**Lead:** Claude Code’s redesigned desktop app is now available, built for parallel agent workflows with a new sidebar, drag-and-drop workspace layout, integrated terminal and file editor, and faster review tools.\n\n**Numbers:**\n- Available now for Claude Code users on **Pro, Max, Team, and Enterprise** plans, and via the **Claude API**.\n- **SSH support** now extends to **Mac and Linux**.\n- Three interface modes: **Verbose, Normal, Summary**.\n\n**So What:** The update turns Claude Code into more of an orchestration hub: you can run multiple sessions across repos, branch into side chats without contaminating the main thread, and keep everything organized as work merges or closes. Claude says the app is built for “**how agentic coding actually feels now: many things in flight, and you in the orchestrator seat**.” Builders can now review diffs, run tests, edit files, and preview HTML/PDFs without leaving the app, while plugin parity and remote-session support make it fit existing workflows. The practical takeaway: less context switching, faster iteration, and a desktop experience that can replace a chunk of the terminal-editor shuffle.",
+      "suggestedTitle": "Claude Code のデスクトップ版が並列セッションと内蔵ツールを追加",
+      "suggestedSummary": "**要点:** 再設計された Claude Code のデスクトップアプリが利用可能になった。新しいサイドバー、ドラッグ＆ドロップのワークスペースレイアウト、統合された terminal とファイルエディタ、さらに高速なレビュー機能を備え、並列 agent ワークフロー向けに作られている。\n\n**数値:**\n- Claude Code ユーザー向けに、**Pro, Max, Team, Enterprise** プランで現在利用可能。**Claude API** 経由でも使える。\n- **SSH support** は **Mac** と **Linux** にも拡張された。\n- インターフェースモードは 3 種類。**Verbose, Normal, Summary**。\n\n**意味するところ:** 今回のアップデートで、Claude Code はより orchestration hub に近づいた。複数のセッションを repo をまたいで走らせられる。メインのスレッドを汚さずに side chat に分岐できる。work が merge されたり close されたりしても、全体を整理したまま保てる。Claude はこのアプリを「**how agentic coding actually feels now: many things in flight, and you in the orchestrator seat**」のために作ったとしている。builder はアプリを離れずに diff を review し、test を実行し、file を edit し、HTML/PDF を preview できる。plugin の互換性と remote-session support により、既存の workflow にもそのままなじむ。実用上のポイントは、context switching が減り、iteration が速くなり、terminal と editor を行き来する手間の一部を desktop 体験で置き換えられることだ。",
       "publishedAt": "Apr 14, 2026",
       "category": "blogUpdates"
     }
@@ -327,6 +332,7 @@
     "totalTweets": 41,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-01T14:23:07.216Z"
+    "generatedAt": "2026-05-01T14:23:31.898Z",
+    "estimatedReadTime": "7 分"
   }
 }

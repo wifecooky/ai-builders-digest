@@ -1,7 +1,8 @@
 {
   "date": "2026-05-01",
+  "lang": "en",
   "summary": "Karpathy said LLMs were new software, not just faster software. Rauch, Steinberger, and Cat Wu shipped agent upgrades, while Levie, Masad, and Agarwal bet agents ate UI, made Replit its own customer, and turned AI into both attack and defense.",
-  "items": [
+  "builderInsights": [
     {
       "id": "karpathy-2026-05-01",
       "source": "X",
@@ -299,7 +300,9 @@
       ],
       "publishedAt": "2026-05-01T05:26:38.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-01",
       "source": "Training Data",
@@ -309,7 +312,9 @@
       "suggestedSummary": "**The Takeaway:** Hassabis treats AGI as a long game: build a powerful tool first, then use it to accelerate science, medicine, and understanding itself.\n\n- He didn’t stumble into AI; he planned for it as a teenager and used games, neuroscience, and startups as stepping stones toward DeepMind.\n- His biggest startup lesson was brutal and practical: be “five years ahead of your time, not fifty years ahead.”\n- He sees AlphaFold as proof that AI can compress years of wet-lab work into mostly in-silico exploration, with biology becoming a simulator-driven science.\n\nDemis Hassabis, the neuroscientist-founder behind DeepMind and Isomorphic Labs, comes across less like a hype man and more like a disciplined strategist. He says the through-line in his career was always AI: games were the funding vehicle, neuroscience was the inspiration, and DeepMind was the vehicle for the real mission. The early win with Theme Park showed him that people loved interacting with intelligent systems; the failed ambition of Republic taught him that timing matters as much as vision.\n\nHis philosophy is refreshingly unsentimental. DeepMind’s original mission was “step one, solve intelligence… step two, use it to solve everything else.” That second step is where he’s most energized: AI for science, especially biology, weather, and eventually social systems through simulation. He argues that biology is the perfect domain for machine learning because it’s messy, emergent, and full of weak signals that humans can’t hold in their heads. The goal is to make the computer do 99% of the search, leaving the lab for validation.\n\nOn AGI, he’s still concrete rather than mystical: build “an incredibly intelligent and useful and precise tool” first, then cross the next Rubicon. And he’s still thinking in big, philosophical terms too: “I actually think information is most fundamental.”",
       "publishedAt": "2026-04-30T17:12:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-01",
       "source": "Claude Blog",
@@ -327,6 +332,7 @@
     "totalTweets": 41,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-01T14:23:07.216Z"
+    "generatedAt": "2026-05-01T14:23:07.421Z",
+    "estimatedReadTime": "7 min"
   }
 }
