@@ -1,7 +1,8 @@
 {
   "date": "2026-05-02",
+  "lang": "en",
   "summary": "Levie said agents will swell systems of record, not replace them. Masad marked Replit’s 10th with 24 hours free, Anthropic fixed Claude Code regressions and added connectors plus cross-session memory, and Steinberger called Codex’s /goal mode the real deal.",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-05-02",
       "source": "X",
@@ -221,7 +222,9 @@
       ],
       "publishedAt": "2026-05-02T01:01:01.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-02",
       "source": "No Priors",
@@ -231,7 +234,9 @@
       "suggestedSummary": "**The Takeaway:** The winners in AI won’t just own models — they’ll own the workflow signal, the compute, and the post-training loop.\n\n- Custom models are already the default for serious AI companies; Baseten says 90-95% of its tokens are on tailored inference, not vanilla open-source weights.\n- The application layer survives because companies own unique user signal and workflow data that frontier labs can’t easily copy.\n- The real bottleneck isn’t just GPUs — it’s supply, operations, and capital structure, which is why inference is starting to look like an infrastructure-finance business.\n\nTuhin Srivastava, CEO of Baseten, is building what he calls the inference cloud, and his view is blunt: the market has moved from “can AI work?” to “how fast can we customize it?” He says open-source models have crossed a capability threshold, post-training is now mainstream, and customers increasingly want to “own their inference more and more.” That shift is why Baseten has scaled 30x in a year.\n\nHis core argument is that the durable moat lives in workflows, not just model weights. A company like Abridge, for example, captures clinician edits and downstream actions inside hospital systems — signal a frontier lab can’t access. That lets the application layer train better models on its own reward data. In Tuhin’s words, “the thing that is valuable to a company is the user signal that they can gather that only they can gather.”\n\nHe’s equally sharp on infrastructure. Baseten runs 90 clusters across 18 clouds and still sits in the mid-90s on utilization. Capacity is so tight that the company holds a daily 4 p.m. meeting just to manage supply. And because inference is sticky, the software layer matters: “GPUs as a service is not sticky,” but integrated inference software is.\n\nHis bet: the next moat is a mix of custom models, compute access, and the ability to turn production usage into better models faster.",
       "publishedAt": "2026-05-01T19:34:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-02",
       "source": "Anthropic Engineering",
@@ -271,6 +276,7 @@
     "totalTweets": 28,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-05-02T14:18:07.448Z"
+    "generatedAt": "2026-05-02T14:18:07.660Z",
+    "estimatedReadTime": "6 min"
   }
 }

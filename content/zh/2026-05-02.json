@@ -1,7 +1,8 @@
 {
   "date": "2026-05-02",
-  "summary": "Levie said agents will swell systems of record, not replace them. Masad marked Replit’s 10th with 24 hours free, Anthropic fixed Claude Code regressions and added connectors plus cross-session memory, and Steinberger called Codex’s /goal mode the real deal.",
-  "items": [
+  "lang": "zh",
+  "summary": "Levie 说，agents 会让系统记录变得更庞大，不会取代它们。Masad 用 24 小时免费庆祝了 Replit 10 周年，Anthropic 修复了 Claude Code 的回归问题，还加了 connectors 和跨会话 memory；Steinberger 则说 Codex 的 /goal mode 才是真东西。",
+  "builderInsights": [
     {
       "id": "levie-2026-05-02",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents will swell systems of record, not replace them",
-      "suggestedSummary": "He says the real AI winner is the software that sits underneath agent-heavy workflows: guardrails, security, compliance, data, and records. More agents means more code, contracts, invoices, and payments — which should lift the systems that manage all that work, not just the flashy front-end tools.",
+      "suggestedTitle": "Agents 会让 systems of record 变大，不会取代它们",
+      "suggestedSummary": "他认为，真正的 AI 赢家，是那些藏在 agent-heavy workflows 底下的软件：guardrails、security、compliance、data 和 records。Agent 越多，code、contracts、invoices 和 payments 就越多。结果应该是，把这些工作管起来的 systems of record 受益，而不是只让那些炫目的前端工具吃到红利。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2050295657836277764",
@@ -35,8 +36,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Asset seizure talk could blow up California’s tax base",
-      "suggestedSummary": "He argues that proposing asset-seizure measures is a fast way to scare off wealthy taxpayers and crater California’s revenue base. The point is blunt: middle-class taxpayers would end up eating the lost billions.",
+      "suggestedTitle": "资产没收的提法可能会把加州税基搞崩",
+      "suggestedSummary": "他认为，提出资产没收这类措施，等于在用最快的方式把高净值纳税人吓跑，直接打击加州的财政收入。话说得很直白：最后补上这笔数十亿美元缺口的，还是中产纳税人。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2050365216421241152",
@@ -61,8 +62,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "AI + Stripe for a tiny paid side project",
-      "suggestedSummary": "He says he built a house-hunting report product with Railway, Conductor, and Claude, then wired in Stripe so each report sells basically at cost. It’s a scrappy first paid project, and he’s even offering promo codes to people actively house hunting in exchange for feedback.",
+      "suggestedTitle": "AI + Stripe 做了个很小的付费 side project",
+      "suggestedSummary": "他说自己用 Railway、Conductor 和 Claude 搭了一个看房报告产品，然后接上了 Stripe。现在每份报告基本就是按成本价卖。这个项目很粗糙，但算是他第一个真正收费的项目。他还在给正在找房的人发 promo code，换一些反馈。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2050407946438467878",
@@ -93,8 +94,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Ignore the product, and you’re already dying",
-      "suggestedSummary": "He says the fastest way to kill a company is to obsess over everything except the product. It’s a blunt reminder from the Bevel Health co-founder and former Dropbox CTO: if the product isn’t getting better, nothing else matters.",
+      "suggestedTitle": "别盯着别的，产品才是命根子",
+      "suggestedSummary": "他觉得，最快把公司搞死的办法，就是除了产品什么都盯。Bevel Health 联合创始人、前 Dropbox CTO 这句话很直接：如果产品没有变好，其他一切都没意义。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2050229509840900434",
@@ -113,8 +114,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Treat coding agents like cofounders, not employees",
-      "suggestedSummary": "She says the best way to use coding agents is as a cofounder: don’t just hand them tasks, bring them the problem, context, and ask for their take. That’s a useful mental shift for builders using AI — less command-and-control, more collaborative problem solving.",
+      "suggestedTitle": "把 coding agent 当合伙人，不要当员工",
+      "suggestedSummary": "她的意思是，最好的用法是把 coding agent 当成合伙人。别只丢给它任务。把问题、上下文都给它，再问它怎么看。对用 AI 搭产品的人来说，这个思路很有用：少一点命令控制，多一点协作式解决问题。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2050445806428438734",
@@ -145,8 +146,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Codex’s new /goal mode is the real deal",
-      "suggestedSummary": "He says Codex’s new /goal feature “slaps,” which is about as strong a product endorsement as you’ll get from an AI tinkerer. He also joked that he had to pay up to get xAI working again, so the subtext is clear: these tools are getting good enough that people are willing to fight through friction to keep using them.",
+      "suggestedTitle": "Codex 的新 /goal 模式真的很能打",
+      "suggestedSummary": "他说 Codex 新的 /goal 功能 “slaps”，这已经是 AI 爱好者能给出的很强的产品背书了。他还开玩笑说，为了让 xAI 重新跑起来，他不得不先付钱。潜台词很明显：这些工具已经好到让人愿意忍着各种麻烦继续用下去。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2050440893786685837",
@@ -177,8 +178,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit turns 10 and goes free for 24 hours",
-      "suggestedSummary": "Replit is marking its 10th birthday by making the product free for 24 hours, a neat flex for a company that’s spent the last decade trying to make coding accessible. The bigger message: this wasn’t a quick startup win — it’s been a 2011-era mission to help millions learn and ship.",
+      "suggestedTitle": "Replit 10 周年，免费开放 24 小时",
+      "suggestedSummary": "Replit 用把产品免费开放 24 小时来庆祝 10 岁生日。这波操作挺有底气，也很符合这家公司过去十年一直在做的事：让 coding 更容易上手。更重要的是，这不是一波短平快的 startup 成功故事，而是从 2011 年就开始的长期 mission：帮更多人学会并把东西真正 ship 出去。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2050479551537619413",
@@ -197,8 +198,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Humans still learn faster than models",
-      "suggestedSummary": "He argues the key asymmetry in AI is simple: models know more than any one person, but people still learn faster than models do. That’s the real edge for builders at Every — use the model for breadth, then let human speed turn it into judgment.",
+      "suggestedTitle": "人类学得还是比模型快",
+      "suggestedSummary": "他认为，AI 里最关键的不对称其实很简单：模型知道的东西比任何一个人都多，但人类学得还是比模型快。对 Every 的 builder 来说，这才是真正的优势——先用模型铺开广度，再靠人类的速度把它变成判断。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2050380001279975517",
@@ -221,47 +222,51 @@
       ],
       "publishedAt": "2026-05-02T01:01:01.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-02",
       "source": "No Priors",
-      "title": "Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud",
+      "title": "Baseten CEO Tuhin Srivastava 谈 AI inference 紧张局面、custom models 和构建 inference cloud",
       "url": "https://www.youtube.com/watch?v=XAbKflCncDo",
-      "suggestedTitle": "Inference is becoming the real AI moat, not just a commodity",
-      "suggestedSummary": "**The Takeaway:** The winners in AI won’t just own models — they’ll own the workflow signal, the compute, and the post-training loop.\n\n- Custom models are already the default for serious AI companies; Baseten says 90-95% of its tokens are on tailored inference, not vanilla open-source weights.\n- The application layer survives because companies own unique user signal and workflow data that frontier labs can’t easily copy.\n- The real bottleneck isn’t just GPUs — it’s supply, operations, and capital structure, which is why inference is starting to look like an infrastructure-finance business.\n\nTuhin Srivastava, CEO of Baseten, is building what he calls the inference cloud, and his view is blunt: the market has moved from “can AI work?” to “how fast can we customize it?” He says open-source models have crossed a capability threshold, post-training is now mainstream, and customers increasingly want to “own their inference more and more.” That shift is why Baseten has scaled 30x in a year.\n\nHis core argument is that the durable moat lives in workflows, not just model weights. A company like Abridge, for example, captures clinician edits and downstream actions inside hospital systems — signal a frontier lab can’t access. That lets the application layer train better models on its own reward data. In Tuhin’s words, “the thing that is valuable to a company is the user signal that they can gather that only they can gather.”\n\nHe’s equally sharp on infrastructure. Baseten runs 90 clusters across 18 clouds and still sits in the mid-90s on utilization. Capacity is so tight that the company holds a daily 4 p.m. meeting just to manage supply. And because inference is sticky, the software layer matters: “GPUs as a service is not sticky,” but integrated inference software is.\n\nHis bet: the next moat is a mix of custom models, compute access, and the ability to turn production usage into better models faster.",
+      "suggestedTitle": "Inference 正在变成真正的 AI moat，而不只是 commodity",
+      "suggestedSummary": "**核心结论：** AI 里的赢家，不会只拥有 model。它们还会掌握 workflow signal、compute，以及 post-training loop。\n\n- 对认真做 AI 的公司来说，custom models 早就成了默认选项；Baseten 说，它 90-95% 的 token 都跑在定制 inference 上，不是原生 open-source weights。\n- application layer 之所以能活下来，是因为公司握着独有的 user signal 和 workflow data，frontier labs 很难照搬。\n- 真正的瓶颈不只是 GPU。还有 supply、operations 和 capital structure。所以 inference 现在越来越像一门 infrastructure-finance 生意。",
       "publishedAt": "2026-05-01T19:34:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-02",
       "source": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
+      "title": "Claude Code 近期质量反馈更新",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "author": null,
-      "suggestedTitle": "Anthropic fixes three Claude Code regressions, resets limits",
-      "suggestedSummary": "**Lead:** Anthropic says recent quality complaints about Claude Code came from three separate product changes—not the API or core model—and all have now been fixed, with usage limits reset for subscribers.\n\n**Numbers:**\n- Issues were resolved by **April 20 (v2.1.116)**.\n- The default reasoning-effort change was rolled back on **April 7**.\n- The caching bug was fixed on **April 10**.\n- The verbosity prompt change was reverted on **April 20**.\n- Anthropic says one evaluation showed a **3% drop** from the prompt change.\n\n**So What:** The practical takeaway is that Claude Code users should now see restored behavior, with defaults set back to **high** effort for most models and **xhigh** for Opus 4.7. Anthropic also says the API was unaffected, but the product-layer bugs made Claude seem “forgetful,” repetitive, or less intelligent because different slices of traffic were hit at different times. The company is tightening prompt-change controls, broadening per-model evals, adding soak periods and gradual rollouts, and improving internal code review. As Anthropic put it, “This isn’t the experience users should expect from Claude Code.”",
+      "suggestedTitle": "Anthropic 修复了 Claude Code 的三个回归问题，并重置了使用限制",
+      "suggestedSummary": "**重点：** Anthropic 说，最近关于 Claude Code 质量下降的反馈，来自三个独立的产品层改动，不是 API，也不是核心 model。现在这些问题都已经修好，订阅用户的 usage limits 也已重置。\n\n**数字：**\n- 这些问题在 **4 月 20 日（v2.1.116）** 已全部解决。\n- 默认 reasoning-effort 的改动在 **4 月 7 日** 回滚。\n- caching bug 在 **4 月 10 日** 修复。\n- verbosity prompt 的改动在 **4 月 20 日** 撤回。\n- Anthropic 说，有一次 evaluation 显示，这个 prompt 改动带来了 **3%** 的下降。\n\n**结论：** 现在 Claude Code 用户应该能看到行为恢复正常了。大多数 model 的默认设置已经调回 **high** effort，Opus 4.7 则是 **xhigh**。Anthropic 也强调，API 没受影响。问题出在 product layer 的 bug 上，所以 Claude 才会显得“健忘”、重复，或者没那么聪明，因为不同流量切片在不同时间段受到了影响。公司现在在收紧 prompt 改动的管控，扩大按 model 的 eval，增加 soak period 和渐进式 rollout，也在加强内部 code review。Anthropic 的原话是：\"This isn’t the experience users should expect from Claude Code.\"",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-02",
       "source": "Claude Blog",
-      "title": "New connectors in Claude for everyday life",
+      "title": "Claude 新增日常生活 connectors",
       "url": "https://claude.com/blog/connectors-for-everyday-life",
       "author": null,
-      "suggestedTitle": "Claude adds everyday-life connectors for travel, shopping, and more",
-      "suggestedSummary": "**Lead:** Claude is expanding its connector ecosystem beyond work tools to include everyday apps like AllTrails, Instacart, Audible, Tripadvisor, TurboTax, Uber, and more, with smarter in-chat suggestions for the right service.\n\n**Numbers:**\n- Claude’s directory has grown to **200+ connectors** since launching in July 2025.\n- New connectors include **AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, and Viator**.\n- Connectors are available on **all plans**; **mobile is in beta**.\n\n**So What:** This makes Claude more useful as an action layer across daily life: ask for a hike, a reservation, a grocery cart, or a flight, and Claude can surface the right app inside the same conversation. Anthropic says the system is ad-free, has no sponsored answers, and that “**before it books or purchases something on your behalf, it’s designed to check with you first**.” For builders, the message is clear: if your product would benefit from being callable inside Claude, you can submit it to the directory and reach users where they already work and plan.",
+      "suggestedTitle": "Claude 加入旅行、购物等日常场景 connectors",
+      "suggestedSummary": "**重点：** Claude 正在把 connector 生态从工作工具扩展到日常 app。现在已经包括 AllTrails、Instacart、Audible、Tripadvisor、TurboTax、Uber 等。它还能在对话里更聪明地推荐合适的 service。\n\n**数据：**\n- 自 2025 年 7 月上线以来，Claude 的 directory 已经扩到 **200+ connectors**。\n- 新增 connectors 包括 **AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、Tripadvisor、Uber、Uber Eats 和 Viator**。\n- connectors 支持 **所有 plans**；**mobile 还在 beta**。\n\n**意义：** 这让 Claude 更像日常生活里的 action layer。你可以直接让它帮你找徒步路线、订餐厅、加购 groceries，或者查航班。Claude 会在同一个对话里把对应 app 拉出来。Anthropic 说，这套系统没有广告，也不会给 sponsored answers，而且“**在它代表你预订或购买任何东西之前，设计上会先跟你确认**。” 对 builders 来说，信号很明确：如果你的 product 适合在 Claude 里被调用，就可以提交到 directory，让用户在他们已经在用来工作和规划的地方直接找到你。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-02",
       "source": "Claude Blog",
-      "title": "Built-in memory for Claude Managed Agents",
+      "title": "Claude Managed Agents 的内置 memory",
       "url": "https://claude.com/blog/claude-managed-agents-memory",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents now have built-in cross-session memory",
-      "suggestedSummary": "**Lead:** Claude Managed Agents now ship with public beta memory, letting agents learn across sessions through a filesystem-based memory layer that’s designed for production control and portability.\n\n**Numbers:**\n- Rakuten says memory cut first-pass errors by **97%**.\n- Wisedocs reports verification is **30% faster**.\n- Memory supports **multiple agents concurrently** on the same store without overwriting each other.\n\n**So What:** For builders, this removes the need to bolt on custom retrieval or memory infrastructure: memories are stored as files, can be exported and managed via the API, and come with scoped permissions, audit logs, rollback, and redaction. Anthropic says the system is tuned so “**our latest models save more comprehensive, well-organized memories and are more discerning about what to remember**.” Teams can share org-wide or per-user stores, trace what each agent learned in the Claude Console, and use memory to carry context, avoid repeated mistakes, and speed up long-running workflows.",
+      "suggestedTitle": "Claude Managed Agents 现在自带跨 session memory",
+      "suggestedSummary": "**Lead:** Claude Managed Agents 现在进入 public beta memory。agent 可以跨 session 学习了。底层是一个基于 filesystem 的 memory layer，主打 production 级控制和可移植性。\n\n**Numbers:**\n- Rakuten 说，memory 让首轮错误率下降了 **97%**。\n- Wisedocs 表示，verification 速度快了 **30%**。\n- 同一个 store 上可以 **并发跑多个 agent**，而且不会互相覆盖。\n\n**So What:** 对 builder 来说，这基本省掉了自己拼 custom retrieval 或 memory infrastructure 的麻烦。memory 以文件形式存储，可以通过 API 导出和管理，还带有 scoped permissions、audit logs、rollback 和 redaction。Anthropic 说，这套系统调过之后，\"**our latest models save more comprehensive, well-organized memories and are more discerning about what to remember**.\" 团队可以共享 org-wide 或 per-user store，在 Claude Console 里追踪每个 agent 学到了什么。也可以用 memory 传递 context，减少重复犯错，加快长流程 workflow。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     }
@@ -271,6 +276,7 @@
     "totalTweets": 28,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-05-02T14:18:07.448Z"
+    "generatedAt": "2026-05-02T14:18:16.908Z",
+    "estimatedReadTime": "6 分钟"
   }
 }

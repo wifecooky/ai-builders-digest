@@ -1,0 +1,282 @@
+{
+  "date": "2026-05-02",
+  "lang": "ja",
+  "summary": "Levieは、agentsはsystems of recordを置き換えるのではなく、肥大化させると述べた。MasadはReplitの10周年を24時間無料で祝った。AnthropicはClaude Codeのregressionを修正し、connectorとcross-session memoryを追加した。SteinbergerはCodexの/goal modeを本物だと評した。",
+  "builderInsights": [
+    {
+      "id": "levie-2026-05-02",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "agentはsystems of recordを置き換えるのではなく、肥大化させる",
+      "suggestedSummary": "彼は、真のAI勝者はagent中心のワークフローの下にあるsoftwareだと言う。guardrails、security、compliance、data、recordsである。agentが増えれば、code、contract、invoice、paymentも増える。そうなれば、派手なフロントエンドツールだけでなく、その仕事全体を管理するsystems of recordが押し上げられるはずだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2050295657836277764",
+          "text": "Atlassian’s results surprised Wall Street, but it shouldn’t be a surprise. The simple heuristic for the future of software is that when there are 100X more agents than people, which parts of software will grow because agents are doing more work that the underlying software is tied to.\n\nIf the world generates more code, generates more leads, reviews more contracts, processes more invoices, creates more designs, transacts with more payments, and so on, what are the underlying systems that are managing that work? That will give you a hint as to what happens next.\n\nThese agents still need guardrails, security, compliance, workflows to be tied to, data stored, and so on. Those parts of the system of record ecosystem will only go up over time in a world of 100X more untrusted (and trusted) agents used in your workflows.",
+          "likes": 430,
+          "retweets": 48
+        },
+        {
+          "url": "https://x.com/levie/status/2050240083325030404",
+          "text": "When I talk to enterprises outside of Silicon Valley, most of the use-cases they have in mind with AI are to augment and accelerate how they work, simply because of how much more they can do right now.\n\nMost companies are not satisfied with how much they’re doing, and they’re always constrained by some bottleneck. So they’re looking at processes that are slow and inefficient and wondering if AI can make it so they can ship more product, speed up customer onboarding, better resolve customer issues, more comprehensively understand their customers, and more. \n\nThey’re also bringing intelligence to work that would have never been possible to do before. Tech jobs got concentrated in valley and the tech industry, and enterprises or SMBs have not been able to build the products or bring automation to most areas of work. AI lets them do so now. This will be true of many other fields.\n\nAnd in the areas where there may be some cost cutting, usually that’s in service of funding another area of growth, or it’s temporary. AI cost cutting quickly gets eroded when your competition uses AI to better serve the customer and compete more effectively.",
+          "likes": 232,
+          "retweets": 18
+        }
+      ],
+      "publishedAt": "2026-05-01T19:25:52.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-05-02",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "資産差し押さえの議論はカリフォルニアの税収基盤を吹き飛ばしかねない",
+      "suggestedSummary": "彼は、資産差し押さえ策を掲げるのは富裕層の納税者を一気に遠ざけ、カリフォルニアの税収基盤を崩壊させる近道だと主張する。要点は明快だ。失われた数十億ドルの穴埋めは、結局は中間層の納税者が負うことになる。",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2050365216421241152",
+          "text": "How to drive the billionaires out and ruin the California tax base in one fell swoop: propose asset seizure measures\n\nMake it make sense! Middle class taxpayers will take on all the billions in tax revenue lost https://t.co/MMVeHAPwMB",
+          "likes": 463,
+          "retweets": 30
+        },
+        {
+          "url": "https://x.com/garrytan/status/2050348984171192773",
+          "text": "https://t.co/l1ilGEu4Lh",
+          "likes": 11,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-05-02T00:02:16.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-05-02",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "小さな有料サイドプロジェクトにAI + Stripeを組み込む",
+      "suggestedSummary": "彼はRailway、Conductor、Claudeを使って、家探しレポートのプロダクトを作ったという。さらにStripeを組み込み、各レポートをほぼ原価で売れるようにした。かなり手探りの初めての有料プロジェクトだ。家探し中の人には、フィードバックと引き換えにプロモコードまで提供している。",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2050407946438467878",
+          "text": "Look Ma, I'm at $36,500 in ARR 💀 https://t.co/mdj702sZyg https://t.co/Y3r0hLiL5g",
+          "likes": 179,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/nikunj/status/2050355231486316818",
+          "text": "@Railway @conductor_build @claudeai @stripe If you are actively house hunting, send me a DM. I'll send you a promo code for half the cost in exchange for feedback. \n\nMain website is here: https://t.co/tMABSHz9wm",
+          "likes": 8,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/nikunj/status/2050353986742698400",
+          "text": "Built using @Railway, @conductor_build &amp; @claudeai. \n\nThis is also my first \"paid\" project (thanks @stripe) since each report costs me $8-$9 so selling this mostly at cost. \n\nSee an example report here: https://t.co/80fKpE7qvt",
+          "likes": 20,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-05-02T02:52:03.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-05-02",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "プロダクトを無視した時点で、もう死にかけている",
+      "suggestedSummary": "彼は、会社を最速で殺す方法は、プロダクト以外のあらゆることに執着することだと言う。Bevel Healthの共同創業者で元Dropbox CTOによる、率直な警告だ。プロダクトが良くなっていないなら、他のことは何も意味を持たない。",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2050229509840900434",
+          "text": "The best way to kill your company? Focus on everything except the product. https://t.co/PGQJi8xYHV https://t.co/4z6cSPIff5",
+          "likes": 83,
+          "retweets": 8
+        }
+      ],
+      "publishedAt": "2026-05-01T15:03:01.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-05-02",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "coding agentは社員ではなく共同創業者として扱え",
+      "suggestedSummary": "彼女は、coding agentの最善の使い方は共同創業者として扱うことだと言う。単にタスクを渡すのではない。問題と文脈を持ち込み、意見を求めるのだ。AIを使うbuilderにとって、これは有用な発想の転換である。命令と管理を減らし、協働的な問題解決を増やすのである。",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2050445806428438734",
+          "text": "https://t.co/Ljhblwn1TS",
+          "likes": 71,
+          "retweets": 8
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2050326543797469415",
+          "text": "I realized a lot of people treat coding agents as their employee, whereas I actually treat it as my cofounder\n\nI don't just give orders. I present problems, describe the situation, and ask for their opinion",
+          "likes": 74,
+          "retweets": 6
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2050280810302062927",
+          "text": "I have used Cleanshot every single day for the past 8 years and I'm not even exaggerating. https://t.co/gmyUfEYfYv",
+          "likes": 96,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-05-02T05:22:30.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-05-02",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "Codexの新しい /goal mode は本物だ",
+      "suggestedSummary": "彼は、Codexの新しい /goal feature が「slaps」だと言う。AI好きから出る賛辞としては、かなり強い部類だ。さらに、xAI をまた動かすために金を払う羽目になったとも冗談めかして語った。つまり、こういう tools は、多少の摩擦があっても使い続けたいと思わせるほど良くなっているということだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2050440893786685837",
+          "text": "I love this. https://t.co/yMnySVcMaj",
+          "likes": 52,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/steipete/status/2050384648119734683",
+          "text": "told codex I had to pay up to make @xai work again. https://t.co/GXglxd8paK",
+          "likes": 433,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/steipete/status/2050275598178586921",
+          "text": "The new /goal feature in codex slaps. https://t.co/IR5QyFYoVM",
+          "likes": 2020,
+          "retweets": 46
+        }
+      ],
+      "publishedAt": "2026-05-02T05:02:59.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-05-02",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "Replitが10周年を迎え、24時間無料開放",
+      "suggestedSummary": "Replitは10周年を記念し、24時間プロダクトを無料にする。コードを誰でも扱えるようにしてきたこの会社にとって、なかなか粋なアピールだ。より大きなメッセージは、これは一発屋のstartup成功ではないということだ。2011年から続く、何百万人もの学習とリリースを支える使命なのだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2050479551537619413",
+          "text": "Replit, turned 10 🎂\n\nTo celebrate we’re making it totally free for 24 hours starting at 5am PT.\n\nBut our work—to make coding accessible for all—goes back to 2011.\n\nWatch the highlights from the journey:\n\nIt’s been an honor to help millions learn &amp; ship. Here is to the next 10! https://t.co/5vWdSOw9P0",
+          "likes": 22,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-05-02T07:36:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-05-02",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "人間はまだモデルより速く学べる",
+      "suggestedSummary": "彼は、AIにおける重要な非対称性は単純だと論じる。モデルはどの一人の人間よりも多くを知っている。しかし、人間はまだモデルより速く学べる。Every のビルダーにとっての本当の強みはそこにある。モデルで広く拾い、人間の速さでそれを判断へ変えるのだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2050380001279975517",
+          "text": "interesting discussion about this: https://t.co/a6mHh6B2Iw",
+          "likes": 0,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/danshipper/status/2050363982813552820",
+          "text": "also, fwiw if anyone wants to pay to see me do this feel free to subscribe to @every:\n\nhttps://t.co/9wRhOCVapS",
+          "likes": 0,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/danshipper/status/2050304359024759242",
+          "text": "this is correct and the reason is simple:\n\nmodels know more than any individual human. but any individual human learns faster than models do https://t.co/vo4BGFKv5A",
+          "likes": 93,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-05-02T01:01:01.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-02",
+      "source": "No Priors",
+      "title": "Baseten CEO Tuhin Srivastavaが語るAI Inference逼迫、Custom Models、そしてInference Cloudの構築",
+      "url": "https://www.youtube.com/watch?v=XAbKflCncDo",
+      "suggestedTitle": "Inferenceはもはやコモディティではなく、真のAI moatになりつつある",
+      "suggestedSummary": "**要点:** AIの勝者はmodelだけを握るのではない。workflow signal、compute、post-training loopまで握ることになる。\n\n- SeriousなAI企業では、custom modelsがすでに標準だ。Basetenによれば、tokenの90〜95%はvanillaなopen-source weightsではなく、tailored inferenceに使われている。\n- application layerが生き残るのは、企業がfrontier labsには簡単に真似できない独自のuser signalとworkflow dataを持っているからだ。\n- 本当のボトルネックはGPUだけではない。供給、運用、資本構造だ。だからこそ、inferenceはインフラ・ファイナンスのビジネスに見え始めている。\n\nBasetenのCEO、Tuhin Srivastavaは、自らがinference cloudと呼ぶものを構築している。彼の見方は明快だ。市場は「AIは動くのか？」から「どれだけ速くカスタマイズできるのか？」へ移ったという。open-source modelsはcapabilityの閾値を超え、post-trainingはすでに主流になった。顧客はますます「自分たちのinferenceをより自分たちで持ちたい」と考えている。この変化が、Basetenが1年で30倍に拡大した理由だ。\n\n彼の中核的な主張は、持続的なmoatはmodel weightsだけでなくworkflowに宿る、というものだ。たとえばAbridgeのような企業は、病院システム内でclinicianの修正や下流のアクションを取り込んでいる。これはfrontier labにはアクセスできないsignalだ。だからapplication layerは、自社のreward dataでより良いmodelを学習できる。Tuhinの言葉を借りれば、「企業にとって価値があるのは、自分たちだけが集められるuser signalだ」。\n\n彼はインフラにも鋭い。Basetenは18のcloudにまたがって90のclusterを運用し、それでもutilizationは90台半ばを維持している。capacityは極端に逼迫しており、供給管理のためだけに毎日午後4時の会議を開いている。そしてinferenceはstickyなので、software layerが重要になる。「GPU as a serviceはstickyではない」が、統合されたinference softwareは違う。\n\n彼の賭けはこうだ。次のmoatは、custom models、compute access、そしてproduction usageをより速く良いmodelへ変える能力の組み合わせになる。",
+      "publishedAt": "2026-05-01T19:34:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-05-02",
+      "source": "Anthropic Engineering",
+      "title": "最近の Claude Code 品質報告についてのアップデート",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "author": null,
+      "suggestedTitle": "Anthropic、Claude Code の3件の回帰を修正し、制限をリセット",
+      "suggestedSummary": "**要点:** Anthropic は、Claude Code をめぐる最近の品質への不満は、API やコア model ではなく、別々の3つの product 変更に起因すると説明した。これらはすべて修正済みで、subscriber 向けの usage limits もリセットされた。\n\n**数値:**\n- 問題は **4月20日（v2.1.116）** までに解消された。\n- default の reasoning-effort 変更は **4月7日** にロールバックされた。\n- caching の bug は **4月10日** に修正された。\n- verbosity prompt の変更は **4月20日** に元に戻された。\n- Anthropic によると、ある evaluation では prompt 変更により **3%の低下** が確認された。\n\n**要するに:** 実務上の意味は、Claude Code のユーザーは現在、挙動が元に戻っているはずだということだ。多くの model では default が **high** effort に、Opus 4.7 では **xhigh** に戻されている。Anthropic は API には影響がなかったとも述べている。ただし product 層の bug により、異なる traffic の区画が時期をずらして影響を受けたため、Claude は「忘れっぽい」「冗長だ」「賢くない」と見えた。Anthropic は prompt 変更の管理を厳格化し、model ごとの evaluation を拡大し、soak period と段階的 rollout を導入し、内部 code review も改善する方針だ。同社は「これはユーザーが Claude Code に期待すべき体験ではない」と述べている。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpsclaudec-2026-05-02",
+      "source": "Claude Blog",
+      "title": "Claudeに日常生活向けの新しいconnector",
+      "url": "https://claude.com/blog/connectors-for-everyday-life",
+      "author": null,
+      "suggestedTitle": "Claudeが旅行、買い物などの日常生活向けconnectorを追加",
+      "suggestedSummary": "**要点:** Claudeはconnectorのエコシステムを仕事用ツールの外へ広げ、AllTrails、Instacart、Audible、Tripadvisor、TurboTax、Uberなどの日常アプリを取り込んでいる。チャット内では、適切なサービスをより賢く提案する。\n\n**数字:**\n- Claudeのdirectoryは、2025年7月のリリース以来、**200以上のconnector**に増えた。\n- 新しいconnectorには **AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, Viator** が含まれる。\n- connectorは**全プラン**で利用できる。**mobileはbeta**だ。\n\n**意味するところ:** これでClaudeは、日常生活全体をまたぐアクション層としてさらに便利になる。ハイキング、予約、買い物カゴ、フライトを頼めば、Claudeが同じ会話の中で適切なアプリを表示できる。Anthropicによれば、このシステムは広告なしで、スポンサー付き回答もない。また、「**before it books or purchases something on your behalf, it’s designed to check with you first**」とのことだ。builderにとってのメッセージは明快だ。自社productがClaude内から呼び出せると価値が高まるなら、directoryに登録して、ユーザーがすでに仕事や予定管理をしている場所に届ければよい。",
+      "publishedAt": "Apr 23, 2026",
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpsclaudec-2026-05-02",
+      "source": "Claude Blog",
+      "title": "Claude Managed Agentsの組み込みmemory",
+      "url": "https://claude.com/blog/claude-managed-agents-memory",
+      "author": null,
+      "suggestedTitle": "Claude Managed Agentsにセッションをまたぐ組み込みmemoryが追加",
+      "suggestedSummary": "**要点:** Claude Managed Agentsにpublic betaのmemoryが搭載された。filesystemベースのmemory layerにより、agentはセッションをまたいで学習できる。productionでの制御性と移植性を意識した設計だ。\n\n**数値:**\n- Rakutenによると、memoryで初回回答の誤りが**97%**減った。\n- Wisedocsは、verificationが**30%**高速化したと報告している。\n- memoryは、同じstore上で**複数のagentを同時に**扱える。互いに上書きしない。\n\n**意味すること:** builderにとって、custom retrievalやmemory infrastructureを後付けする必要がなくなる。memoryはfileとして保存され、API経由でexportと管理ができる。権限のスコープ設定、audit logs、rollback、redactionも備える。Anthropicによれば、このシステムは「**our latest models save more comprehensive, well-organized memories and are more discerning about what to remember**」ように調整されている。チームはorg-wideまたはuserごとのstoreを共有できる。Claude Consoleで各agentが何を学んだかも追跡できる。memoryを使えば、contextを引き継ぎ、同じミスの繰り返しを避け、長時間動くworkflowを高速化できる。",
+      "publishedAt": "Apr 23, 2026",
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 12,
+    "totalTweets": 28,
+    "totalPodcasts": 1,
+    "totalBlogs": 3,
+    "generatedAt": "2026-05-02T14:18:27.642Z",
+    "estimatedReadTime": "6 分"
+  }
+}
