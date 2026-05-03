@@ -1,7 +1,8 @@
 {
   "date": "2026-05-03",
-  "summary": "Altman said smarter models still beat cheaper ones. Anthropic shipped Managed Agents for long-running Claude work, while Masad and Shipper pushed the same thesis: agents are turning prompting into orchestration and sitting beside every app.",
-  "items": [
+  "lang": "ja",
+  "summary": "Altmanは、より賢いモデルは依然として安価なモデルを上回ると述べた。Anthropicは、長時間稼働するClaude向けにManaged Agentsを出した。MasadとShipperも同じ主張を押し出した。agentはpromptingをorchestrationへ変え、あらゆるappの隣に座る存在になりつつある。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-03",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "Smarter models still beat cheaper ones",
-      "suggestedSummary": "He says he keeps wanting models to get cheaper and faster, but the real unlock is still raw intelligence. That’s a pretty clean read from the OpenAI CEO: optimization matters, but capability is still the main game.",
+      "suggestedTitle": "より賢いモデルは、依然として安いモデルを上回る",
+      "suggestedSummary": "彼は、モデルがもっと安く、もっと速くなってほしいと常に思っていると言う。だが、真の突破口は今も生の知能だ。OpenAIのCEOとしてはかなり明快な見立てだ。最適化は重要だが、主戦場はやはり能力である。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2050671161915371998",
@@ -41,8 +42,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Crabbox gets remote Linux runs and replay",
-      "suggestedSummary": "Crabbox 0.3.0 is out, and it’s turning dirty worktrees into remote Linux runs with GitHub browser login, live run replay, durable events, AWS image creation, and Cloudflare Access. He also says the package got leaner by moving almost everything into extensions, which should help with the npm dependency/slowness complaints.",
+      "suggestedTitle": "Crabboxがremote Linux runsとreplayに対応",
+      "suggestedSummary": "Crabbox 0.3.0がリリースされた。dirty worktreesをremote Linux runsに変え、GitHub browser login、live run replay、durable events、AWS image creation、Cloudflare Accessを備える。さらに、ほぼすべてをextensionsへ移したことでpackageが軽くなったとも述べている。npm dependencyの重さや遅さへの不満に効くはずだ。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2050735979477008412",
@@ -73,8 +74,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI doesn’t kill jobs — it unlocks pent-up demand",
-      "suggestedSummary": "He argues AI won’t replace engineers so much as make them 2x–5x more capable, which pushes companies to hire more and tackle projects they previously couldn’t afford. The bigger point: once every bank, manufacturer, retailer, and SMB gets the same model leverage tech companies have, a lot of “unmet needs” suddenly become worth building for — across engineering, marketing, legal, finance, and design.",
+      "suggestedTitle": "AIは仕事を奪うのではない。潜在需要を解放する",
+      "suggestedSummary": "彼の主張は、AIがエンジニアを置き換えるというより、2倍から5倍は高い能力を引き出すというものだ。その結果、企業は採用を増やし、これまで手が届かなかったプロジェクトにも取り組めるようになる。さらに大きいのは、銀行、メーカー、小売、SMBのすべてが、テック企業と同じモデルのレバレッジを手にしたときだ。これまでの「未充足のニーズ」の多くが、突然、作る価値のあるものになる。対象は engineering、marketing、legal、finance、design にまたがる。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2050684160151617603",
@@ -93,8 +94,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Oakland taxes high, services still lousy",
-      "suggestedSummary": "He says Oakland is charging more than comparable cities while delivering some of the worst services, with 44% of Measure E revenue already earmarked for union raises. His broader point: dysfunction gets dressed up in moral language, and anyone asking where the money went gets treated like the problem.",
+      "suggestedTitle": "オークランドの税金は高いのに、サービスは相変わらずひどい",
+      "suggestedSummary": "オークランドは、同規模の都市より高い料金を取りながら、最悪レベルのサービスしか提供していないという話だ。Measure Eの収入の44%は、すでに労組の賃上げに充てる予定になっている。彼の主張の核心はこうだ。機能不全は道徳的な言葉で飾られ、金がどこへ消えたのかを問う人間のほうが問題扱いされる。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2050775806574751816",
@@ -119,8 +120,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI agents are becoming file janitors",
-      "suggestedSummary": "He’s using Codex and Claude Code to clean up local files and Google Drive like a digital Marie Kondo — but only after asking for a plan first, since these are semi-dangerous ops. The takeaway: with enough permissions, AI is already useful for boring admin work that most people keep putting off.",
+      "suggestedTitle": "AI agentはファイル整理係になりつつある",
+      "suggestedSummary": "彼はCodexとClaude Codeを使い、ローカルファイルやGoogle Driveを片付けている。デジタル版のMarie Kondoだ。ただし、まず計画を出させてからにしている。こうした操作は半ば危険だからだ。要するに、十分な権限があれば、AIはすでに多くの人が先送りにしている地味な事務作業で役に立つ。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2050623358488997917",
@@ -151,8 +152,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Enterprise sales and token resale win, not vibes",
-      "suggestedSummary": "They said Vibe-kanban’s shutdown is a useful postmortem: even with 30k MAU, the business missed the two things that seem to matter most right now — enterprise sales and token resale. The bigger takeaway is the software-engineering retrospective from 2021–2025: a lot of “cool” products still die when the monetization model doesn’t.",
+      "suggestedTitle": "企業向け営業とtoken resaleが勝つ。雰囲気ではない",
+      "suggestedSummary": "Vibe-kanbanのshutdownは、役立つpostmortemだと言われている。30k MAUがあっても、今いちばん重要に見える2つ、つまり企業向け営業とtoken resaleを取り逃したからだ。より大きな教訓は、2021〜2025年のsoftware-engineering retrospectiveにある。monetization modelが合わなければ、いくら「cool」なproductでも死ぬことは多い。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2050753293601935777",
@@ -171,8 +172,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "VCs are optimizing for downside, not returns",
-      "suggestedSummary": "He says too many funds are doing deals for the safety of a token-factory bailout instead of actually swinging for 5–10x outcomes. The bigger gripe: incentives have drifted toward AUM-maxxing and “deploy baby deploy,” which he thinks is a short-sighted way to waste time and capital.",
+      "suggestedTitle": "VCはリターンではなく下振れリスクを最適化している",
+      "suggestedSummary": "彼は、あまりに多くのファンドが、実際に5〜10倍の成果を狙うのではなく、token-factory救済の安全策を前提に案件を進めていると言う。さらに大きな不満は、インセンティブがAUM-maxxingと「deploy baby deploy」に傾きすぎていることだ。彼はそれを、時間と資本を無駄にする近視眼的なやり方だと見ている。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2050779734116856137",
@@ -197,8 +198,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Parallel agents turn prompting into orchestration",
-      "suggestedSummary": "He says “prompt” now means something bigger, but the core game hasn’t changed: you’re still steering systems, just with more moving parts. His other note — 10 projects, 10 parallel agents each — points to the Replit CEO’s view of AI work shifting from single-shot prompting to managing swarms of agents.",
+      "suggestedTitle": "parallel agentsがpromptingをorchestrationに変える",
+      "suggestedSummary": "彼は「prompt」の意味が今ではもっと大きくなったと言う。だが、ゲームの本質は変わっていない。今もシステムを操っているだけで、動く要素が増えただけだ。もう一つの指摘は、10 projectsにそれぞれ10 parallel agentsを置くというものだ。これは、ReplitのCEOが見ているAI workが、単発のpromptingからagentの群れを管理する形へ移っていることを示している。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2050801714656424140",
@@ -230,7 +231,7 @@
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
       "suggestedTitle": "Continuous agents will sit beside every app",
-      "suggestedSummary": "He says this is the default work pattern for the next decade: an agent running continuously on the left, with the app you and the agent use on the right. It’s a clean codex-native workflow thesis from the Every CEO — and he’s already pointing people to a tool called Proof to try it.",
+      "suggestedSummary": "彼は、これが今後10年の標準的な仕事の形だと言う。左側でagentが常時動き、右側で自分とagentが使うappが並ぶ構図だ。EveryのCEOによる、すっきりしたcodex-nativeのワークフロー仮説であり、すでにProofというtoolを試すよう人々に勧めている。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2050608311888941301",
@@ -253,25 +254,29 @@
       ],
       "publishedAt": "2026-05-02T16:08:14.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-03",
       "source": "Training Data",
-      "title": "OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck",
+      "title": "OpenAIのGreg Brockman: なぜ人間の注意が新たなボトルネックなのか",
       "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "suggestedTitle": "Greg Brockman says attention, not code, is the real constraint",
-      "suggestedSummary": "**The Takeaway:** AI is making execution cheap, so the scarce resource is now human judgment.\n\n- OpenAI’s real bottleneck isn’t ideas or demand — it’s compute, and Brockman says they still want more of it.\n- The big shift isn’t just smarter models; it’s context. If the AI doesn’t know what’s happening, you’re wasting its power.\n- The hardest problem ahead is governance: deciding what to auto-approve, what to escalate, and what still needs a human signature.\n\nGreg Brockman, OpenAI cofounder and president, frames the company less like a lab and more like a machine for turning compute into intelligence. His line is blunt: “We buy, rent, build, compute, and we resell it at a margin.” That model only works because demand keeps outrunning supply — and because the models keep getting better as more compute is poured in.\n\nBut the sharper insight is about how work changes around the models. Brockman argues that the breakthrough isn’t just capability, it’s context: AI is becoming useful when it can see your meetings, your files, your history, and your workflows. Otherwise, you’re stuck doing the dumbest part yourself — explaining the situation to the machine. That’s why he thinks the next wave is about harnesses, memory, and systems that let AI act inside real work, not just answer prompts.\n\nHe’s also unusually clear that speed needs guardrails. OpenAI still wants a human accountable for merged code, and Brockman says the company is building security, observability, and escalation systems because “human attention is going to be this incredibly scarce resource.” The future, in his view, isn’t humans replaced — it’s humans promoted to judge what matters while agents handle the rest.",
+      "suggestedTitle": "Greg Brockmanは、コードではなく注意力こそが本当の制約だと言う",
+      "suggestedSummary": "**要点:** AIで実行は安くなる。だから今いちばん希少なのは人間の判断だ。\n\n- OpenAIの本当のボトルネックはアイデアでも需要でもない。computeであり、Brockmanはまだもっと必要だと言う。\n- 大きな変化は、モデルが賢くなることだけではない。contextだ。AIが状況を知らなければ、その力は無駄になる。\n- これから最も難しいのはガバナンスだ。何を自動承認し、何をエスカレートし、何にまだ人間の署名が必要かを決めることだ。\n\nGreg Brockmanは、OpenAIのcofounderでpresidentだ。同社を研究所というより、computeをintelligenceに変える機械として捉えている。彼の言い方は率直だ。「We buy, rent, build, compute, and we resell it at a margin.」このモデルが成り立つのは、需要が供給を上回り続けているからだ。さらに、より多くのcomputeを投入するほどモデルが良くなるからでもある。\n\nだが、より鋭い論点は、モデルの周りで仕事がどう変わるかだ。Brockmanは、ブレークスルーは能力だけではなくcontextだと主張する。AIが会議、ファイル、履歴、ワークフローを見られるとき、初めて本当に役に立つ。そうでなければ、人間がいちばん愚かな作業を自分でやることになる。つまり、機械に状況を説明する作業だ。だから彼は、次の波はharness、memory、そしてAIがpromptに答えるだけでなく実際の仕事の中で動けるシステムにあると考えている。\n\n彼はまた、スピードには明確なガードレールが必要だとも言う。OpenAIはいまも、mergeされたcodeには人間の責任者が必要だと考えている。Brockmanによれば、同社はsecurity、observability、escalationのシステムを構築している。なぜなら「human attention is going to be this incredibly scarce resource」だからだ。彼の見立てでは、未来は人間が置き換えられる世界ではない。何が重要かを人間が判断し、残りをagentが処理する世界だ。",
       "publishedAt": "2026-05-01T18:32:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-03",
       "source": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Managed Agentsのスケーリング: brainとhandsの分離",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "author": null,
-      "suggestedTitle": "Anthropic launches Managed Agents for long-running Claude work",
-      "suggestedSummary": "Lead: Anthropic introduced Managed Agents, a hosted Claude Platform service that decouples the agent “brain” from its “hands” and session state so long-horizon work can run through stable interfaces even as models and harnesses change.\n\nNumbers:\n- p50 time-to-first-token dropped roughly 60%.\n- p95 time-to-first-token dropped over 90%.\n- The system exposes a small set of interfaces: `execute(name, input) -> string`, `provision({resources})`, `wake(sessionId)`, `getSession(id)`, and `emitEvent(id, event)`.\n\nSo What: For builders, the key shift is architectural: Claude’s harness no longer lives inside the sandbox/container, credentials stay out of untrusted code, and session state becomes durable and inspectable outside the context window. That makes failures easier to recover from, supports VPC and custom-tool integrations, and lets one brain talk to many hands without coupling everything to a single container. Anthropic’s framing is explicit: “The harness leaves the container,” and the goal is a “meta-harness” that can outlast any specific implementation. In practice, this means you can plug in Claude Code, task-specific harnesses, MCP tools, or future sandboxes without redesigning the whole stack.",
+      "suggestedTitle": "Anthropicが長時間のClaude作業向けにManaged Agentsをリリース",
+      "suggestedSummary": "要点: AnthropicはManaged Agentsを導入した。これはホスト型のClaude Platformサービスであり、agentの「brain」と「hands」、そしてsession stateを切り離す。これにより、modelやharnessが変わっても、安定したinterfaceを通じて長期タスクを実行できる。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -281,6 +286,7 @@
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-03T14:17:56.986Z"
+    "generatedAt": "2026-05-03T14:18:15.242Z",
+    "estimatedReadTime": "6 分"
   }
 }

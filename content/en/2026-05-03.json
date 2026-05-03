@@ -1,7 +1,8 @@
 {
   "date": "2026-05-03",
+  "lang": "en",
   "summary": "Altman said smarter models still beat cheaper ones. Anthropic shipped Managed Agents for long-running Claude work, while Masad and Shipper pushed the same thesis: agents are turning prompting into orchestration and sitting beside every app.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-05-03",
       "source": "X",
@@ -253,7 +254,9 @@
       ],
       "publishedAt": "2026-05-02T16:08:14.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-03",
       "source": "Training Data",
@@ -263,7 +266,9 @@
       "suggestedSummary": "**The Takeaway:** AI is making execution cheap, so the scarce resource is now human judgment.\n\n- OpenAI’s real bottleneck isn’t ideas or demand — it’s compute, and Brockman says they still want more of it.\n- The big shift isn’t just smarter models; it’s context. If the AI doesn’t know what’s happening, you’re wasting its power.\n- The hardest problem ahead is governance: deciding what to auto-approve, what to escalate, and what still needs a human signature.\n\nGreg Brockman, OpenAI cofounder and president, frames the company less like a lab and more like a machine for turning compute into intelligence. His line is blunt: “We buy, rent, build, compute, and we resell it at a margin.” That model only works because demand keeps outrunning supply — and because the models keep getting better as more compute is poured in.\n\nBut the sharper insight is about how work changes around the models. Brockman argues that the breakthrough isn’t just capability, it’s context: AI is becoming useful when it can see your meetings, your files, your history, and your workflows. Otherwise, you’re stuck doing the dumbest part yourself — explaining the situation to the machine. That’s why he thinks the next wave is about harnesses, memory, and systems that let AI act inside real work, not just answer prompts.\n\nHe’s also unusually clear that speed needs guardrails. OpenAI still wants a human accountable for merged code, and Brockman says the company is building security, observability, and escalation systems because “human attention is going to be this incredibly scarce resource.” The future, in his view, isn’t humans replaced — it’s humans promoted to judge what matters while agents handle the rest.",
       "publishedAt": "2026-05-01T18:32:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-03",
       "source": "Anthropic Engineering",
@@ -281,6 +286,7 @@
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-03T14:17:56.986Z"
+    "generatedAt": "2026-05-03T14:17:57.202Z",
+    "estimatedReadTime": "6 min"
   }
 }
