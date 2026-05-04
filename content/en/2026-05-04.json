@@ -1,7 +1,8 @@
 {
   "date": "2026-05-04",
+  "lang": "en",
   "summary": "Altman pushed Agents SDK 2.0, while Levie said enterprise agents will spawn a new services layer. Karpathy said software is shifting from code to context; Masad said Replit’s agent swarm is already doing real work.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-05-04",
       "source": "X",
@@ -213,7 +214,9 @@
       ],
       "publishedAt": "2026-05-04T06:48:41.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-04",
       "source": "Training Data",
@@ -225,11 +228,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 10,
     "totalTweets": 24,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-04T14:42:21.022Z"
+    "generatedAt": "2026-05-04T14:42:21.257Z",
+    "estimatedReadTime": "4 min"
   }
 }

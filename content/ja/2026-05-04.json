@@ -1,7 +1,8 @@
 {
   "date": "2026-05-04",
-  "summary": "Altman pushed Agents SDK 2.0, while Levie said enterprise agents will spawn a new services layer. Karpathy said software is shifting from code to context; Masad said Replit’s agent swarm is already doing real work.",
-  "items": [
+  "lang": "ja",
+  "summary": "AltmanはAgents SDK 2.0を押し出した。一方でLevieは、enterprise agentsが新しいservices layerを生むと述べた。Karpathyは、softwareがcodeからcontextへ移行しつつあると語った。Masadは、Replitのagent swarmがすでに実務をこなしていると述べた。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-04",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "Agents SDK 2.0 deserves more attention",
-      "suggestedSummary": "He says OpenAI’s Agents SDK 2.0 is underrated, which is a pretty direct signal that the company thinks the agent tooling story still has room to run. The rest is a warm public shoutout to Greg Brockman’s technical grit and importance to OpenAI’s decade-long arc.",
+      "suggestedTitle": "Agents SDK 2.0 はもっと注目されるべきだ",
+      "suggestedSummary": "Sam Altman は、OpenAI の Agents SDK 2.0 は過小評価されていると述べた。これは、同社が agent ツールの話にはまだ伸びしろがあると見ている、かなり直接的なシグナルだ。残りは、Greg Brockman の技術的な粘り強さと、OpenAI の10年にわたる歩みにおける重要性をたたえる、温かい公開メッセージである。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2050998576671859003",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Enterprise agents will spawn a whole services layer",
-      "suggestedSummary": "He says the real bottleneck isn’t the model — it’s everything around it: secure data access, entitlements, logging, process docs, evals, and new human+agent workflows. That complexity means a big market opens up for consultants, internal agent teams, and vertical AI vendors that can actually get agents into production. He also argues AI should be treated like a utility, not a being — less mysticism, more systems design.",
+      "suggestedTitle": "Enterprise agentsが新たなservices layerを生む",
+      "suggestedSummary": "彼が言う本当のボトルネックはmodelではない。周辺すべてだ。secure data access、entitlements、logging、process docs、evals、そして新しいhuman+agent workflowsである。この複雑さが、consultants、internal agent teams、そしてagentを実際にproductionへ持ち込めるvertical AI vendorsに大きな市場を開く。さらに彼は、AIは存在ではなくutilityとして扱うべきだとも主張する。神秘化より、systems designである。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2051057677984469277",
@@ -67,8 +68,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "RepoBar gets smarter, cheaper, and more useful",
-      "suggestedSummary": "He shipped RepoBar 0.4.0, and the tiny menubar app is starting to feel genuinely handy: persistent SQLite caching, fewer API calls, visible rate limits, better Issues/PR loading, and archive fallback support. It’s a classic power-user polish pass — less noise, more signal, and a tool that should get better the more you use it.",
+      "suggestedTitle": "RepoBar がより賢く、より安く、より便利に",
+      "suggestedSummary": "RepoBar 0.4.0 をリリースした。小さな menubar アプリが、かなり実用的になってきた。SQLite の永続キャッシュ、API 呼び出しの削減、rate limit の可視化、Issues/PR の読み込み改善、archive fallback 対応だ。まさに power user 向けの磨き込みで、ノイズは減り、シグナルは増えた。使うほど良くなるツールになっている。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2051088325100831046",
@@ -99,8 +100,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit’s agent swarm is doing real work",
-      "suggestedSummary": "He says Replit now has 10 active, 198 draft, and 700+ done tasks, and claims there’s more agentic parallelism happening there than anywhere else online. The bigger signal: marathon vibe coding can still ship a lot in a day, which is exactly the kind of founder energy he’s trying to productize.",
+      "suggestedTitle": "Replitのagent swarmは実際に仕事をしている",
+      "suggestedSummary": "彼によれば、Replitには今、10件のactive、198件のdraft、700件超のdone taskがあるという。さらに、オンライン上のどこよりも多くのagentic parallelismがそこで起きていると主張している。より大きなシグナルは、マラソン級のvibe codingでも1日にかなりの量をshipできることだ。まさに彼がproductizeしようとしている、founder energyの型である。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2051167532523074015",
@@ -131,8 +132,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Own your prompts, own your future",
-      "suggestedSummary": "He says personal AI only matters if you control the stack: your prompts, your data, your context. That’s the pitch behind GBrain being open source — a bet that AI should make individuals harder to capture by institutions, not easier.",
+      "suggestedTitle": "promptを自分で持て。未来も自分で持て。",
+      "suggestedSummary": "彼は、personal AI が本当に意味を持つのは、stackを自分で制御できる場合だけだと言う。つまり、prompt、data、contextだ。GBrain を open source にしているのは、その主張のためだ。AI は個人を institutions に取り込まれやすくするのではなく、むしろ取り込まれにくくすべきだという賭けである。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2051110206466302136",
@@ -163,8 +164,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "MacBook lid closed? Keep agents alive with Amphetamine",
-      "suggestedSummary": "He shared a quick Mac workaround for keeping AI agents running after you close your laptop: install Amphetamine, then tweak Session Defaults so nothing gets suspended. It’s a tiny but useful ops tip for anyone running long-lived workflows on a Mac.",
+      "suggestedTitle": "MacBookの蓋を閉じても？ Amphetamineでagentを生かし続ける",
+      "suggestedSummary": "Macでlaptopを閉じたあともAI agentを動かし続けるための、手早い回避策を共有した。Amphetamineをインストールし、Session Defaultsを調整して何もsuspendされないようにするだけだ。Macで長時間のワークフローを回す人には、小さいが役立つopsのヒントである。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2051136319104098445",
@@ -195,8 +196,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI makes weird one-person products viable",
-      "suggestedSummary": "Before AI, even small ideas needed a team, a pitch, and committee approval. Now it’s just you and a coding agent, which means the weird stuff big tech would reject is suddenly cheap enough to ship.",
+      "suggestedTitle": "AIで奇妙な一人プロダクトが成立する",
+      "suggestedSummary": "AI以前は、小さなアイデアでもチーム、ピッチ、委員会の承認が必要だった。今は自分とcoding agentだけでよい。だから、大手techなら却下するような奇妙なものでも、驚くほど安くshipできる。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2051192270632993176",
@@ -213,23 +214,27 @@
       ],
       "publishedAt": "2026-05-04T06:48:41.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-04",
       "source": "Training Data",
-      "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
+      "title": "Andrej Karpathy: Vibe CodingからAgentic Engineeringへ",
       "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "suggestedTitle": "Karpathy says software is shifting from code to context",
-      "suggestedSummary": "**The Takeaway:** The real shift isn’t faster coding — it’s that LLMs are becoming the new runtime, and humans now steer with context.\n\n- Vibe coding lowers the floor for everyone, but agentic engineering is about keeping the quality bar high while letting agents do the heavy lifting.\n- The most valuable work is increasingly in verifiable domains, because models improve fastest where outputs can be checked, rewarded, and iterated on.\n- A lot of “apps” are already obsolete in the new paradigm: if a prompt plus an image can produce the result directly, the old middleware was just scaffolding.\n\nAndrej Karpathy, cofounder of OpenAI and former Tesla AI lead, has moved from explaining modern AI to naming its next phase. His core claim is blunt: software is no longer just explicit code or trained weights — it’s becoming a system where “your programming now turns to prompting,” and the context window is the control surface.\n\nThat’s why he says he felt behind as a programmer in December, when agentic tools stopped feeling like assistants and started feeling like competent collaborators. The change wasn’t gradual. “The chunks just came out fine,” he said, describing the moment he stopped correcting the model and started trusting it. From there, he argues, the right question isn’t how to speed up old workflows, but what new things become possible when the model itself does the work.\n\nHis examples are telling. A menu-scanning app he built suddenly looked unnecessary once he realized Gemini could take the photo and render the result directly. That’s the bigger thesis: many products are still built for humans to click through, when they should be designed for agents to act on. Even then, Karpathy isn’t handing over judgment. Agents can handle the “intern” work, but humans still own taste, specs, and oversight. The ceiling is rising — fast — but the winners will be the people who learn how to direct it.",
+      "suggestedTitle": "Karpathyは、softwareがcodeからcontextへ移ると言う",
+      "suggestedSummary": "**要点:** 本当の変化は、codingが速くなることではない。LLMが新しいruntimeになり、人間はcontextで舵を取るようになることだ。\n\n- Vibe codingは誰にとっても敷居を下げる。だがagentic engineeringの本質は、agentに重い仕事を任せつつ、quality barを高く保つことにある。\n- 価値が高い仕事は、ますますverifiableな領域に集まる。modelは、出力を確認でき、報酬を与えられ、反復できる場所で最も速く良くなるからだ。\n- 新しいパラダイムでは、すでに多くの「app」が時代遅れだ。promptとimageだけで結果を直接出せるなら、昔のmiddlewareはただの足場にすぎない。\n\nAndrej Karpathyは、OpenAIのcofounderであり、元TeslaのAI責任者だ。彼はmodern AIの解説役から、その次の段階に名前を与える側へ移った。彼の主張は明快である。softwareはもはや、明示的なcodeや学習済みweightsだけではない。「your programming now turns to prompting」するシステムになりつつある。そしてcontext windowが、制御面になる。\n\nだからこそ彼は、12月にprogrammerとして遅れを取っている感覚があったと言う。agentic toolsがassistantではなく、有能な協働者のように感じられ始めた時期だ。変化は段階的ではなかった。「chunks just came out fine」と彼は言う。modelを直し続けるのをやめ、信頼し始めた瞬間をそう表現したのだ。そこから先で重要なのは、古いworkflowをどう速くするかではない。model自身が仕事をすることで、何が新しく可能になるかである。\n\n彼の例は示唆的だ。彼が作ったメニューを読み取るappは、Geminiが写真を取り、そのまま結果を直接renderできると気づいた瞬間、不要に見えた。これがより大きな仮説だ。多くのproductは、いまだに人間がクリックして進む前提で作られている。本来はagentが動く前提で設計されるべきなのだ。それでもKarpathyは、判断まで手放してはいない。agentは「intern」の仕事はこなせる。だがtaste、specs、監督は人間の責任だ。上限は急速に上がっている。だが勝つのは、それをどう指揮するかを学ぶ人々である。",
       "publishedAt": "2026-04-30T09:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 10,
     "totalTweets": 24,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-04T14:42:21.022Z"
+    "generatedAt": "2026-05-04T14:42:43.601Z",
+    "estimatedReadTime": "4 分"
   }
 }
