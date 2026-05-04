@@ -16,6 +16,12 @@
     return data.content[lang] ?? data.content['en'];
   });
   let archiveDates = $derived(data.dates.filter(d => d !== data.date));
+  const ARCHIVE_INITIAL_COUNT = 5;
+  let archiveExpanded = $state(false);
+  let visibleArchiveDates = $derived(
+    archiveExpanded ? archiveDates : archiveDates.slice(0, ARCHIVE_INITIAL_COUNT)
+  );
+  let hasMoreArchive = $derived(archiveDates.length > ARCHIVE_INITIAL_COUNT);
 
   const labels = config.labels;
   const SITE_URL = config.site.url;
@@ -229,7 +235,7 @@
         </div>
 
         <div class="space-y-3">
-          {#each archiveDates as d}
+          {#each visibleArchiveDates as d}
             {@const preview = data.archivePreviews?.[d]}
             <a
               href="/{d}"
@@ -247,6 +253,15 @@
             </a>
           {/each}
         </div>
+
+        {#if hasMoreArchive && !archiveExpanded}
+          <button
+            onclick={() => archiveExpanded = true}
+            class="mt-4 w-full py-2 text-[11px] font-mono text-cyber-amber/70 hover:text-cyber-amber border border-cyber-border/30 hover:border-cyber-amber/30 rounded-sm transition-all duration-200 cursor-pointer bg-transparent"
+          >
+            {{ en: `Show all (${archiveDates.length})`, zh: `显示全部 (${archiveDates.length})`, ja: `すべて表示 (${archiveDates.length})` }[currentLang]}
+          </button>
+        {/if}
       </section>
     {/if}
 
