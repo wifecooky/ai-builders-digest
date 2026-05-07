@@ -1,7 +1,8 @@
 {
   "date": "2026-05-07",
-  "summary": "Claude taught agents to grade themselves and remember, while Peter Yang said AI products have to ride the next model wave. Zara Zhang and Training Data both argued coding turned into literacy, with agents doing the overnight grind.",
-  "items": [
+  "lang": "ja",
+  "summary": "Claudeは、agentsに自己採点と記憶を教えた。Peter Yangは、AI productsは次のmodel waveに乗らねばならないと言った。Zara ZhangとTraining Dataは、codingはliteracyになったと主張した。agentsが夜通しのgrunt workを担うからだ。",
+  "builderInsights": [
     {
       "id": "claudeai-2026-05-07",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Agents now grade themselves and remember",
-      "suggestedSummary": "Claude says its new Outcomes feature lets you define a rubric, have a separate grader score the result, and keep the agent iterating until it hits the bar. It’s also teasing Dreaming, which mines past sessions for patterns and turns them into memory so agents improve over time.",
+      "suggestedTitle": "agentが自分で採点し、記憶するようになった",
+      "suggestedSummary": "Claudeによると、新しいOutcomes機能でルーブリックを定義できる。別のgraderが結果を採点し、基準に達するまでagentに反復させ続けられる。さらにDreamingも予告している。過去のセッションからパターンを抽出し、それをmemoryに変えることで、agentは時間とともに改善していくという。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2052067403228455419",
@@ -35,8 +36,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI products need to chase the next model wave",
-      "suggestedSummary": "Dario and Daniela’s take is blunt: build for the exponential, because some products only become viable as models improve. The real action is shifting from chatbots to agentic and Claude Code-style workflows, and even software engineering itself is starting to look like a stepping stone to growing a business.",
+      "suggestedTitle": "AIプロダクトは次の model wave を追うべきだ",
+      "suggestedSummary": "Dario と Daniela の見方は率直だ。指数関数的な伸びを前提に作れ、ということだ。モデルが進化して初めて成立するプロダクトもあるからだ。実際の主戦場は chatbot から agentic なワークフロー、そして Claude Code 型のワークフローへ移っている。さらに software engineering そのものも、ビジネスを育てるための踏み台になりつつある。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2052123472583864780",
@@ -61,8 +62,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Coding becomes literacy; agents run overnight",
-      "suggestedSummary": "She highlights Boris’s take that coding is becoming the new literacy, with thousands of agents running overnight and Claude Code now used mostly on his phone. The bigger point: software work is shifting from hands-on typing to steering fleets of agents, which is a pretty wild change for builders.",
+      "suggestedTitle": "コーディングは読み書き能力になる。agentが夜通し動く",
+      "suggestedSummary": "Borisの見方は、コーディングが新しい読み書き能力になりつつあるという点だ。何千ものagentが夜通し動き、Claude Codeは今では主に彼のスマートフォンで使われている。より大きなポイントは、ソフトウェア開発が手を動かして টাইピングする作業から、agentの群れを指揮する作業へ移っていることだ。builderにとっては、かなり大きな変化である。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2052277868319916402",
@@ -73,23 +74,27 @@
       ],
       "publishedAt": "2026-05-07T06:42:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-07",
       "source": "Training Data",
-      "title": "Anthropic's Boris Cherny: Coding's Printing Press Moment",
+      "title": "AnthropicのBoris Cherny: Codingの印刷機モーメント",
       "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "suggestedTitle": "Coding is becoming a general skill, not a specialist one",
-      "suggestedSummary": "**The Takeaway:** Boris Cherny thinks the real shift isn’t “AI writes code” — it’s that coding is turning into a universal, domain-first skill.\n\n- He built Claude Code for a model that wasn’t ready yet, betting on “product overhang” before the product had obvious PMF.\n- The biggest moat erosion won’t be from AI replacing companies, but from AI weakening switching costs and process-heavy workflows.\n- The future team is cross-disciplinary: at Anthropic, even the PM, designer, finance lead, and researcher code.\n\nCherny, the creator of Claude Code at Anthropic, comes off less like a futurist and more like someone already living in the next workflow. He says the tool started “accidentally” inside Anthropic Labs, and for months it barely worked. The bet was simple: build for the next model, not the current one. That patience paid off once Opus 4 hit and usage inflected hard.\n\nHis bigger claim is sharper: coding is basically solved for him, and the remaining bottleneck is no longer syntax but context. “The best person to write accounting software,” he argues, “is not an engineer, it’s a really good accountant.” In other words, domain expertise is becoming more valuable than raw programming skill.\n\nThat logic extends to teams and business models. He expects more generalists, but not just engineers who can do web plus mobile. He means people who can span product, design, data, and code. On moats, he thinks AI will make switching costs and process power weaker, while network effects and scale still matter. And he’s blunt about the pace: software is headed toward the same kind of democratization reading and writing got after the printing press.",
+      "suggestedTitle": "Codingは専門職ではなく、汎用スキルになりつつある",
+      "suggestedSummary": "**要点:** Boris Chernyは、本当の変化は「AIがcodeを書く」ことではないと考えている。Codingが、ドメイン起点の汎用スキルへと変わりつつあるのだ。",
       "publishedAt": "2026-05-05T09:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 6,
     "totalTweets": 8,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-07T14:53:24.133Z"
+    "generatedAt": "2026-05-07T14:53:33.451Z",
+    "estimatedReadTime": "3 分"
   }
 }

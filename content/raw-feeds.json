@@ -1,41 +1,30 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-07",
   "builders": [
     {
       "source": "x",
-      "name": "Swyx",
-      "handle": "swyx",
-      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "tweets": [
         {
-          "id": "2051115027210346936",
-          "text": "til the show is free on youtube!\n\nhttps://t.co/THkBpFyMsX",
-          "createdAt": "2026-05-04T01:41:45.000Z",
-          "url": "https://x.com/swyx/status/2051115027210346936",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 1,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2052123472583864780",
+          "text": "Some nice quotes from Dario and Daniela from this session:\n\n“I’ve been training these models since 2015, they were really dumb.”\n\n\"Build for the exponential. There are products that are not possible with the current model but could work with later models. This puts a premium on internal experimentation. You have to just try it with the model to see if it works.\"\n\n“Products reach their saturation when models get too good. The ways in which we are making models smarter today are much more evident in agentic and Claude Code workflows than chatbots. You have to think about what the next big thing is.”\n\n“Models are evolving from coding to software engineering to just growing a business.”\n\n“It’s easy to accumulate an extraordinary amount of internal tech debt when you ship that fast. But the models can also help you pay down this debt.\"",
+          "createdAt": "2026-05-06T20:28:57.000Z",
+          "url": "https://x.com/petergyang/status/2052123472583864780",
+          "likes": 100,
+          "retweets": 3,
+          "replies": 5,
+          "isQuote": true,
+          "quotedTweetId": "2052117599744672195"
         },
         {
-          "id": "2051025640657449249",
-          "text": "ok @deepfates @mada299 it took me 3 years to do my second short story but i did one",
-          "createdAt": "2026-05-03T19:46:33.000Z",
-          "url": "https://x.com/swyx/status/2051025640657449249",
-          "likes": 2,
-          "retweets": 0,
-          "replies": 0,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2051025206228218103",
-          "text": "https://t.co/d1TQY3fKFH",
-          "createdAt": "2026-05-03T19:44:50.000Z",
-          "url": "https://x.com/swyx/status/2051025206228218103",
-          "likes": 18,
-          "retweets": 0,
+          "id": "2052117599744672195",
+          "text": "Dario: “We saw 80x growth earlier this year on usage and revenue” \n\n“That’s why we are going to keep acquiring as much compute as we can” https://t.co/Hwj18IV7KB",
+          "createdAt": "2026-05-06T20:05:36.000Z",
+          "url": "https://x.com/petergyang/status/2052117599744672195",
+          "likes": 149,
+          "retweets": 3,
           "replies": 5,
           "isQuote": false,
           "quotedTweetId": null
@@ -44,113 +33,20 @@
     },
     {
       "source": "x",
-      "name": "Peter Yang",
-      "handle": "petergyang",
-      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "name": "Thariq",
+      "handle": "trq212",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "tweets": [
         {
-          "id": "2051136319104098445",
-          "text": "I tweeted this as a joke but it's literally what I'm doing right now lol sigh https://t.co/dEpf9jcFRa",
-          "createdAt": "2026-05-04T03:06:21.000Z",
-          "url": "https://x.com/petergyang/status/2051136319104098445",
-          "likes": 50,
-          "retweets": 1,
-          "replies": 21,
-          "isQuote": true,
-          "quotedTweetId": "2044976766914265097"
-        },
-        {
-          "id": "2051129249348894754",
-          "text": "I caved and downloaded Hermes to try. \n\nFor those of you who have tried both Hermes and OpenClaw what difference do you notice?\n\nNo shilling please, just want some honest opinions",
-          "createdAt": "2026-05-04T02:38:15.000Z",
-          "url": "https://x.com/petergyang/status/2051129249348894754",
-          "likes": 496,
-          "retweets": 11,
-          "replies": 210,
+          "id": "2052250816720056604",
+          "text": "\"everyday we're trying to obtain more compute to pass on to you, we're sorry if it takes sometime but we're going to acquire as much as we can\"\n\nyou heard the man https://t.co/VyfKia1gN7",
+          "createdAt": "2026-05-07T04:54:58.000Z",
+          "url": "https://x.com/trq212/status/2052250816720056604",
+          "likes": 1319,
+          "retweets": 45,
+          "replies": 89,
           "isQuote": false,
           "quotedTweetId": null
-        },
-        {
-          "id": "2050963126234034387",
-          "text": "How to keep your agents running even when your macbook lid is closed:\n\n1. Go to Mac App Store and download Amphetamine\n\n2. Go to Settings → Session Defaults → uncheck everything below\n\nYou're welcome :) https://t.co/mRVEq7c7Ly https://t.co/YUkFqARudk",
-          "createdAt": "2026-05-03T15:38:09.000Z",
-          "url": "https://x.com/petergyang/status/2050963126234034387",
-          "likes": 589,
-          "retweets": 37,
-          "replies": 67,
-          "isQuote": true,
-          "quotedTweetId": "2050773588521992642"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Amjad Masad",
-      "handle": "amasad",
-      "bio": "ceo @replit. civilizationist",
-      "tweets": [
-        {
-          "id": "2051167532523074015",
-          "text": "10 active, 198 draft, 700+ done.\n\nI don’t think there’s more agentic parallelism happening anywhere else on the internet than what happens on @Replit. https://t.co/eoEkNlNsu9",
-          "createdAt": "2026-05-04T05:10:23.000Z",
-          "url": "https://x.com/amasad/status/2051167532523074015",
-          "likes": 134,
-          "retweets": 6,
-          "replies": 18,
-          "isQuote": true,
-          "quotedTweetId": "2051162631067594832"
-        },
-        {
-          "id": "2051166676256014844",
-          "text": "Man, I miss staying up for days hacking https://t.co/Ib6tzs2FLz",
-          "createdAt": "2026-05-04T05:06:59.000Z",
-          "url": "https://x.com/amasad/status/2051166676256014844",
-          "likes": 73,
-          "retweets": 1,
-          "replies": 11,
-          "isQuote": true,
-          "quotedTweetId": "2050904453100745021"
-        },
-        {
-          "id": "2051007848440877242",
-          "text": "Amazing what a single day of marathon vibe coding can achieve. https://t.co/4AUxk6s74i",
-          "createdAt": "2026-05-03T18:35:51.000Z",
-          "url": "https://x.com/amasad/status/2051007848440877242",
-          "likes": 164,
-          "retweets": 12,
-          "replies": 32,
-          "isQuote": true,
-          "quotedTweetId": "2050855056044433601"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Aaron Levie",
-      "handle": "levie",
-      "bio": "ceo @box - your business lives in content. unleash it with AI",
-      "tweets": [
-        {
-          "id": "2051057677984469277",
-          "text": "Whether it’s existing consulting firms, new ones that emerge, FDEs from agent vendors, or new internal agent engineering roles, the amount of work that is going to be created to implement agents in enterprises will exceed anything we imagine today.\n\nThe complexity of implementing agents in any existing organizations is very real. When I talk to large enterprises, as you move from a chat paradigm to agents that participate in meaningful workflows, there are a number of things they need to do.\n\nFirst, you have to get agents to be able to talk to your data securely across your systems. In many cases, enterprises have decades of legacy infrastructure that contain the valuable context for AI agents. That’s going to take a ton of work to go modernize and move to systems that work well with agents. \n\nThen, you need to ensure that you’ve implemented agents with the right access controls and entitlements, the right scopes to be safely used, and have ways of monitoring, logging, and securing the work that they do. \n\nNext, you need to actually document the processes in the organization in a way that agents can utilize for doing the work. You also need to figure out what the new workflow looks like when agents and people are working together on a process, and who steps in where. Just replicating the old workflow will mute the gains. Oh and you likely need to create evals for your top new end-state processes.\n\nFinally, you have to keep up with a rapidly changing set of best practices and architectural shifts happening in the agent space. While it’s fun for people to change their personal productivity tools on a dime, it’s 100X harder to do this in a business process. The speed of change is a blessing and a curse right now for anyone trying to keep a stable system design.\n\nAll of this means that individuals and companies that develop expertise on the above set of components (and more) are going to be needed to help organizations actually implement agents at scale. This is also the rationale for vertical AI agents right now that can go in deep on a business domain and help bring automation to it. \n\nThis is a huge opportunity right now whether you’re doing this internally or as an external business provider.",
-          "createdAt": "2026-05-03T21:53:51.000Z",
-          "url": "https://x.com/levie/status/2051057677984469277",
-          "likes": 1338,
-          "retweets": 162,
-          "replies": 102,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2051009208393589096",
-          "text": "In general, we should treat AI like a utility, not like a being. The more we confuse what AI is the more we will make ourselves go crazy with analogies that will never fully hold true. https://t.co/Ysezok4kUp",
-          "createdAt": "2026-05-03T18:41:15.000Z",
-          "url": "https://x.com/levie/status/2051009208393589096",
-          "likes": 245,
-          "retweets": 21,
-          "replies": 56,
-          "isQuote": true,
-          "quotedTweetId": "2050674460530004300"
         }
       ]
     },
@@ -161,37 +57,15 @@
       "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "tweets": [
         {
-          "id": "2051110206466302136",
-          "text": "This is why GBrain is open source. Why I run my own stack. The explosion in intelligence means building your own context is more important than ever. \n\nIf you own and run your own prompts and your own data, then you earn the ability to think for yourself. \n\nReal freedom.",
-          "createdAt": "2026-05-04T01:22:35.000Z",
-          "url": "https://x.com/garrytan/status/2051110206466302136",
-          "likes": 58,
-          "retweets": 2,
+          "id": "2052007711601291602",
+          "text": "Lulu is like \"The Wolf\" from Pulp Fiction https://t.co/n3lBWxBd3S",
+          "createdAt": "2026-05-06T12:48:57.000Z",
+          "url": "https://x.com/garrytan/status/2052007711601291602",
+          "likes": 165,
+          "retweets": 9,
           "replies": 9,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2051099735176659256",
-          "text": "The goal of Personal AI: civilization where individual humans, augmented by AI, can do consequential work without being captured by extractive institutions. \n\nFreedom to write your prompt and own your data. \n\nThis is the new battleground. \n\n2034 won’t have to be like 1984.",
-          "createdAt": "2026-05-04T00:40:59.000Z",
-          "url": "https://x.com/garrytan/status/2051099735176659256",
-          "likes": 618,
-          "retweets": 65,
-          "replies": 98,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2051089704658010321",
-          "text": "GBrain supports multiple repos, multiple MCP endpoints, and both full oAuth and Bearer Tokens, and all you have to do to get the admin panel is go to OpenClaw or Hermes and ask for the one-time admin login link.\n\nhttps://t.co/yFpFU4pn5b",
-          "createdAt": "2026-05-04T00:01:07.000Z",
-          "url": "https://x.com/garrytan/status/2051089704658010321",
-          "likes": 12,
-          "retweets": 1,
-          "replies": 2,
-          "isQuote": false,
-          "quotedTweetId": null
+          "isQuote": true,
+          "quotedTweetId": "2051740965485113473"
         }
       ]
     },
@@ -202,84 +76,13 @@
       "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "tweets": [
         {
-          "id": "2051192270632993176",
-          "text": "this is the coolest demo I've seen a while, a must-watch for anyone interested in human-agent interaction! https://t.co/syFFu0O790",
-          "createdAt": "2026-05-04T06:48:41.000Z",
-          "url": "https://x.com/zarazhangrui/status/2051192270632993176",
-          "likes": 28,
-          "retweets": 5,
-          "replies": 1,
-          "isQuote": true,
-          "quotedTweetId": "2050243598676013312"
-        },
-        {
-          "id": "2051155065331941873",
-          "text": "Before AI, you couldn't afford to build something small. Because the cost of software development was so high, you had to hire a team, convince other people, justify it to a committee.\n\nNow, it's literally just you and a coding agent. A coding agent doesn't need to be convinced. It will readily build whatever crazy and weird idea you have. So go build something that would get rejected in every big tech company's product review meeting.",
-          "createdAt": "2026-05-04T04:20:50.000Z",
-          "url": "https://x.com/zarazhangrui/status/2051155065331941873",
-          "likes": 49,
-          "retweets": 7,
-          "replies": 12,
-          "isQuote": true,
-          "quotedTweetId": "2050445806428438734"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Nikunj Kothari",
-      "handle": "nikunj",
-      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "tweets": [
-        {
-          "id": "2051096096110502063",
-          "text": "Never give up on your dreams.. persistence has immense alpha. \n\nBullish on this kid 🫡 https://t.co/vgUxB18LM8",
-          "createdAt": "2026-05-04T00:26:31.000Z",
-          "url": "https://x.com/nikunj/status/2051096096110502063",
-          "likes": 181,
-          "retweets": 0,
-          "replies": 3,
-          "isQuote": false,
-          "quotedTweetId": null
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Peter Steinberger",
-      "handle": "steipete",
-      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-      "tweets": [
-        {
-          "id": "2051088325100831046",
-          "text": "Released 🚦RepoBar 0.4.0.\n\nThis one makes the GitHub menu a lot smarter: persistent SQLite caching, fewer wasted API calls, visible rate limits, better Issues/PR loading, archive fallback support.\n\nTiny menubar app, increasingly useful daily tool. https://t.co/KYzCTtXF1O https://t.co/ZKVoVVXqBC",
-          "createdAt": "2026-05-03T23:55:38.000Z",
-          "url": "https://x.com/steipete/status/2051088325100831046",
-          "likes": 1486,
-          "retweets": 83,
-          "replies": 65,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2051044240013083133",
-          "text": "brb calling @sama https://t.co/tORl3zzr3c",
-          "createdAt": "2026-05-03T21:00:28.000Z",
-          "url": "https://x.com/steipete/status/2051044240013083133",
-          "likes": 2031,
-          "retweets": 35,
-          "replies": 112,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2051033065367970195",
-          "text": "New claw beta is up! Id you're on our Discord, you can get the soundtrack. https://t.co/6OTnLxF7ao https://t.co/rOtRP2eORb",
-          "createdAt": "2026-05-03T20:16:03.000Z",
-          "url": "https://x.com/steipete/status/2051033065367970195",
-          "likes": 150,
-          "retweets": 12,
-          "replies": 14,
+          "id": "2052277868319916402",
+          "text": "Most memorable parts of this interview with @bcherny :\n- Boris casually mention that he has \"thousands\" of agents running during the night...\n- Boris saying he almost exclusively uses Claude Code on the phone now\n- Coding will become the new literacy, just like reading and writing\n\nhttps://t.co/BBfH6nSykG",
+          "createdAt": "2026-05-07T06:42:27.000Z",
+          "url": "https://x.com/zarazhangrui/status/2052277868319916402",
+          "likes": 37,
+          "retweets": 6,
+          "replies": 6,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -292,54 +95,43 @@
       "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "tweets": [
         {
-          "id": "2050997402514161781",
-          "text": "no mythos this week! \n\nbut some interesting stuff coming :) https://t.co/OEo0l4aeZR",
-          "createdAt": "2026-05-03T17:54:21.000Z",
-          "url": "https://x.com/danshipper/status/2050997402514161781",
-          "likes": 171,
-          "retweets": 7,
-          "replies": 14,
-          "isQuote": true,
-          "quotedTweetId": "2050946189701329153"
+          "id": "2052050161388634197",
+          "text": "I’ll be at Code with Claude today with @kieranklaassen and @tedescau \n\nCome say hi!",
+          "createdAt": "2026-05-06T15:37:38.000Z",
+          "url": "https://x.com/danshipper/status/2052050161388634197",
+          "likes": 73,
+          "retweets": 2,
+          "replies": 2,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
     {
       "source": "x",
-      "name": "Sam Altman",
-      "handle": "sama",
-      "bio": "AI is cool i guess",
+      "name": "Claude",
+      "handle": "claudeai",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "tweets": [
         {
-          "id": "2050998576671859003",
-          "text": "Agents SDK 2.0 is underrated",
-          "createdAt": "2026-05-03T17:59:01.000Z",
-          "url": "https://x.com/sama/status/2050998576671859003",
-          "likes": 2773,
-          "retweets": 88,
-          "replies": 435,
+          "id": "2052067403228455419",
+          "text": "Outcomes lets you set the bar for quality. You write a rubric, a separate grader checks the output, and the agent iterates until it gets there.\n\nSubscribe to webhooks to get notified when it's done.",
+          "createdAt": "2026-05-06T16:46:09.000Z",
+          "url": "https://x.com/claudeai/status/2052067403228455419",
+          "likes": 580,
+          "retweets": 12,
+          "replies": 9,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2050964040026050727",
-          "text": "impossible to imagine openai succeeding without greg!",
-          "createdAt": "2026-05-03T15:41:46.000Z",
-          "url": "https://x.com/sama/status/2050964040026050727",
-          "likes": 1357,
-          "retweets": 18,
-          "replies": 165,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2050964008480723059",
-          "text": "it has been a real pleasure to work with Greg over the past decade. i feel very lucky.\n\nthis post held up pretty well, but not did not sufficiently highlight his technical brilliance and sheer determination.\n\nhttps://t.co/wi03SGDLjU",
-          "createdAt": "2026-05-03T15:41:39.000Z",
-          "url": "https://x.com/sama/status/2050964008480723059",
-          "likes": 4058,
-          "retweets": 133,
-          "replies": 364,
+          "id": "2052067400690851842",
+          "text": "Dreaming reviews your agent's past sessions, extracts patterns, and curates memories so your agents learn over time.\n\nRequest access: https://t.co/MY2soiuUl3 https://t.co/5q0ZZhKSt1",
+          "createdAt": "2026-05-06T16:46:08.000Z",
+          "url": "https://x.com/claudeai/status/2052067400690851842",
+          "likes": 1124,
+          "retweets": 52,
+          "replies": 31,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -350,19 +142,19 @@
     {
       "source": "podcast",
       "name": "Training Data",
-      "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
-      "guid": "90151d98-433c-11f1-93d1-9316de7fe3e7",
+      "title": "Anthropic's Boris Cherny: Coding's Printing Press Moment",
+      "guid": "d73930f8-47f4-11f1-a018-3b5d50482f68",
       "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "publishedAt": "2026-04-30T09:00:00.000Z",
-      "transcript": "Speaker 1 | 00:02 - 00:42\nWe're so excited for our very first special guest. He has helped build modern AI, then explain modern AI, and then occasionally rename modern AI. He actually helped co found Open AI right inside of this office, was the one who actually got autopilot working at Tesla back in the day and he has a rare gift of making the most complex technical shifts feel both accessible and inevitable. You all know him for having coined the term vibe coding last year, but just in the last few months, he said something even more startling, that he's never felt more behind as a programmer. That's where we're starting today.\n\nSpeaker 1 | 00:42 - 00:44\nThank you, Andre, for joining us.\n\nSpeaker 2 | 00:44 - 00:46\nYeah. Hello. Excited to be here and to kick us off.\n\nSpeaker 1 | 00:46 - 00:59\nOkay. So just a couple months ago, you said that you've never felt more behind as a programmer. That's startling to hear from you of all people. Can you help us unpack that? Was that feeling exhilarating or unsettling?\n\nSpeaker 2 | 00:59 - 01:24\nYeah, a mixture of both for sure. Well, first of all, I guess like as many of you, I've been using agentic tools like LotCode, adjacent things for a while, maybe over the last year as it came out. It was very good at chunks of code, and sometimes it would mess up and you have to edit them, and it was kind of helpful. Then I would say December was this clear point where for me, I was on a break, so I had a bit more time. I think many other people were similar.\n\nSpeaker 2 | 01:24 - 01:43\nAnd I just started to notice that with the latest models, the chunks just came out fine. And then I kept asking for more and just came out fine. And then I can't remember the last time I corrected it. And then I was I just, you know, trusted the system more and more, and then I was bad coding. And so it was kind of a I do think that it was a very stark transition.\n\nSpeaker 2 | 01:43 - 02:27\nI think that a lot of people actually I tried to stress this on Twitter and or X because I think a lot of people experienced AI last year as a chattyptu adjacent thing, but you really had to look again and you had to look as of December because things have changed fundamentally, especially on this agentic coherent workflow that really started to actually work. So I would say that, yeah, it was just that realization that really had me go down the whole rabbit hole of just, you know, Infinity side projects. My side projects folder is, like, extremely full with lots of random things and just by coding all the time. So, yeah, that kind of happened in December, I would say. And I was looking at the repercussions of that since.\n\nSpeaker 1 | 02:27 - 02:49\nYou've talked a lot about this idea of LLMs as a new computer, that it isn't just better software, it's a whole new computing paradigm. And software one point zero was explicit rules. Software two point zero was learned weights. Software three point zero is this. If that's actually true, what does a team build differently the day they actually believe this?\n\nSpeaker 2 | 02:50 - 03:03\nRight. Yeah, exactly. So software one point zero, I'm writing code. Software two point zero, I'm actually programming by creating data sets and training neural networks. So the programming is kind of like arranging data sets and maybe some objectives and neural network architectures.\n\nSpeaker 2 | 03:04 - 03:52\nAnd then what happened is that basically, if you train one of these GPT models or LLMs on a sufficiently large set of tasks, implicitly, because by training on the Internet, you have to multitask all the things that are in the data These actually become kind of like a programmable computer in a certain sense. So software three point zero is kind of about your programming now turns to prompting, and what's in the context window is your lever over the interpreter that is the LLM, that is interpreting your context and performing computation in the digital information space. I guess that's kind of the transition. And I think there's a few examples that really drove it home for me, and maybe that might be instructive. For example, when OpenCLaw came out, when you want to install OpenCLaw, you would expect that normally this is a bash bash script, like a shell script.\n\nSpeaker 2 | 03:52 - 04:29\nSo run the shell script to run to install OpenCLaw. But the thing is that in order to target lots of different platforms and lots of different types of computers you might run-in OpenCLaw, these shell scripts usually balloon up and become extremely complex. But the thing is you're still stuck in a software one point zero universe of wanting to write the code, and actually the OpenCLaw installation is a copy paste of a bunch of text that you're supposed to give to your agent. So basically, it's a little skill of copy paste this and give it to your agent, and it will install OpenCLaw. And the reason this is a lot more powerful is you're working now in the software three point zero paradigm where you don't have to precisely spell out all the individual details of that setup.\n\nSpeaker 2 | 04:29 - 04:48\nThe agent has its own intelligence that it packages up, and then it follows the instructions. It looks at your environment, your computer, and it performs intelligent actions to make things work and debugs things in the loop. It's just so much more powerful. I think that's a very different way of thinking about it. It's just like, what is the piece of text to copy paste to your agent?\n\nSpeaker 2 | 04:48 - 05:15\nThat's the programming paradigm now. I think one more example that comes to mind that is even more extreme than that is when I was building Menujen. So Menujen is this idea where you come to a restaurant, they give you a menu, there's no pictures usually, so I don't know what any of these things are. Usually, I like 30% of the things, have no idea what they are, 50%. I wanted to take a photo of the restaurant menu and to get pictures of what those things might look like in a generic sense.\n\nSpeaker 2 | 05:16 - 06:05\nI've encoded this app that basically lets you upload a photo, and it does all this stuff, and it runs on Vercel, and it basically re renders the menu and it gives you all the items and it gives you a picture that it uses an image generator for to basically OCR all the different titles, use the image generators to get pictures of them, then shows it to you. And then I saw the software three point zero version of this, which blew my mind, which is literally just take your photo, give it to Gemini, and say use Nanobanana to overlay the things onto the menu. Nanobanana basically returned an image that is exactly the picture of the menu that I took, but it actually put into the pixels, it rendered the different things in the menu. And this blew my mind because, actually, all of my menu gen is spurious. It's working in the old paradigm.\n\nSpeaker 2 | 06:05 - 06:32\nThat app shouldn't exist. Yeah, the software three point zero paradigm is a lot more kind of raw. It just your neural network is doing more and more of the work, and your prompt or context is just the image, and the output is an image. There's no need to have any of the app in between. Think that people have to reframe not to work in the existing paradigm of what things existed and just think about it as a speed up of what exists.\n\nSpeaker 2 | 06:33 - 06:52\nIt's actually like new things are available now. And going back to your programming question, it's not even I think that's also an example of working in old mindset because it's not just about programming and programming becoming faster. This is more general information processing that is automatable now. So it's not just even about code. So previous code worked over kind of like structured data, right?\n\nSpeaker 2 | 06:52 - 07:20\nAnd you write code over structured data. But like for example, with my LLM knowledge basis project, basically you get LLMs to create wikis for your organization or for you in person, etcetera. This is not even a program. This is not something that could exist before because there was no there was no code that would create a knowledge base based on a bunch of facts. But now you can just take these documents and basically recompile them in a different way and reorder them and create something that is new and interesting as a reframing of the data.\n\nSpeaker 2 | 07:20 - 07:36\nThese are new things that weren't possible. I think this is something that I keep trying to get back to as to not only what can we do that existed that is faster now, but I think there's new opportunities of just things that couldn't be possible before, I almost think that that's more exciting.\n\nSpeaker 1 | 07:37 - 08:07\nI love the menu gen progression and dichotomy that you laid out, and I think even I'm sure many folks here followed your own progression of programming from last October to early January, February year. If you extrapolate that further, what is the 2026 equivalent for building websites in the '90s, building mobile apps in the 2010s, building SaaS in the last cloud era. What will look completely obvious in hindsight that is still mostly unbuilt today?\n\nSpeaker 2 | 08:07 - 08:38\nWell, going with the example of menu gen, I guess. So a lot of this code shouldn't exist and it's just neural network doing most of the work. I do think that the extrapolation looks very weird because you could basically imagine I don't think yeah. So you could imagine completely neural computers in a certain sense. You feed raw videos Imagine a device, it takes raw videos or audio into basically what's a neural net and uses diffusion to render a UI that is unique for that moment in a certain sense.\n\nSpeaker 2 | 08:40 - 09:03\nI kind of feel like in the early days of computing, actually, people were a little bit confused as to whether computers would look like calculators or computers would look like neural nets. And in fifties and sixties, it was not really obvious which way it would go. And, of course, we went down the calculator path and ended up building classical computing. And then neural nets are currently running virtualized on existing computers. But you could imagine, I think, that a lot of this will flip and that the neural net becomes kind of like the host process.\n\nSpeaker 2 | 09:03 - 09:29\nAnd the CPU has become kind of like the coprocessor. So we saw the diagram of, you know, intelligence compute is going to of neural networks is going to take over and become the dominant spend of flops. So you could imagine something really weird and foreign when where neural nets are doing most of the heavy lifting. They're using tool use as just like, you know, historical appendage for some kinds of, like, deterministic tasks. But what's really running the show is these neural nets that are networked in a certain way.\n\nSpeaker 2 | 09:30 - 09:40\nSo you can imagine something extremely foreign as the extrapolation, but I think we're gonna probably get there sort of piece by piece. That progression is TBD, I would say.\n\nSpeaker 1 | 09:40 - 10:01\nI'd love to talk a little bit about this concept of verifiability, the fact that AI will automate faster and more easily domains where the output can be verified. If that framework is right, what work is about to move much faster than people realize? And what professions do we have that people actually think are safe, but that are actually highly verifiable?\n\nSpeaker 2 | 10:02 - 10:59\nYes. So spent some time writing about verifiability, and basically traditional computers can easily automate what you can specify in code, and this latest round of LLMs can easily automate what you can verify in a certain sense. Because the way this works is that when frontier labs are training these LLMs, these are giant reinforcement learning environments, so they are given verification rewards, and then because of the way that these models are trained, they end up basically progressing and creating these jagged entities that really peak in capability in verifiable domains, like math and code and adjacent, and stagnate and are a little bit rough around the edges when things are not in that space. I think the reason I wrote about verifiability is I'm trying to understand why these things are so jagged. And some of it has to do with how the labs train the models, but I think some of it also has to do with the focus of the labs and what they happen to put into the data distribution.\n\nSpeaker 2 | 11:00 - 11:34\nBecause some things basically are significantly more valuable in economy and end up creating more environments because the labs wanted to work in those settings. So I think code is a good example of that. There's probably lots of verifiable environments they could think about that happen not to make it into the mix because they're just not that useful to have the capability around. But I think to me, big I guess, like the big mystery is the favorite example for a while was that how many letters are are in the strawberry, and the models would famously get this wrong, and it's an example of jaggedness. The models now patch this, I think, but the new one is I wanna go to a car wash to wash my car and it's 50 meters away.\n\nSpeaker 2 | 11:34 - 12:11\nShould I drive or should I walk? And state of the art models today will tell you to walk because it's so close. How is it possible that state of the art Opus 4.7 will simultaneously refactor a 100,000, like, code base a line code base or find zero day vulnerabilities and yet tells me to walk to this car wash? This is insane. And to whatever extent these models remain jagged, it's an indication that number one, maybe something slightly off or number two, you need to actually be in the loop a little bit and you need to treat them as tools and you do have to kind of stay in touch with what they're doing.\n\nSpeaker 2 | 12:12 - 12:40\nAnd so I think all of my writing, long story short, about verifiability, just trying to understand why these things are jagged, is there any pattern to it, and I think it's some kind of a combination of verifiable plus labs care. Maybe one more anecdote that is instructive is from GPT 3.5 to GPT four, people noticed that chess improved a lot. And I think a lot of people thought, oh, well, it's just a progression of the capabilities. But actually, it's more that I think this is public information. I think I saw it on the Internet.\n\nSpeaker 2 | 12:40 - 13:15\nA huge amount of, like, data of chess made it into the pre training set. And just because in the data distribution, basically, the model improved a lot more than it would just by default. So someone at OpenAI decided to add this data, and now you have a capability that just peaked a lot more. And so that's why I think I'm stressing this dimension of it as we are slightly at the mercy of whatever the labs are doing, whatever they happen to put into the mix, and you have to actually explore this thing that they give you that has no manual. And it works in certain settings, but maybe not in some settings, and you have to kind of explore it a little bit.\n\nSpeaker 2 | 13:15 - 13:35\nAnd if you're in the circuits that were part of the RL, you fly. And if you're in the circuits that are out of the data distribution, you're going to struggle. And you have to kind of figure out which which circuits you're in in your application. And if you and if you're not in the circuits, then you have to really look at fine tuning and doing some of your own work because it's not gonna necessarily come out of the LLM out of the box.\n\nSpeaker 1 | 13:36 - 14:04\nI'd love to come back to the concept of jagged intelligence in a little bit. If you are a founder today and thinking about building a company, you are trying to solve a problem that you think is tractable, something that is a domain that is verifiable, But you look around and you think, oh my gosh, well the labs have really, really started getting to escape velocity in the ones that seem most obvious, math, coding, and others. What would your advice be to the founders in the audience?\n\nSpeaker 2 | 14:05 - 14:38\nSo I think maybe that comes to the previous question of, I do think that verifiability because it Let me think. So verifiability makes something tractable in the current paradigm because you can throw a huge amount of RL at it. So maybe one way to see it is that that remains true even if the labs are not focusing on it directly. So if you are in a verifiable setting where you could create these RL environments or examples, then that actually sets you up to potentially do your own fine tuning and you might benefit from that. But that is fundamentally technology that just works.\n\nSpeaker 2 | 14:38 - 15:05\nYou can pull a lever. If you have huge amount of diverse data sets of RL environments, etcetera, you can use your favorite fine tuning framework and and pull the lever and get something that actually works pretty well. So I don't know what the examples of this might be, but I do think there are some very valuable reinforcement learning environments that people could think of that I think are not part of the yeah. I don't wanna give away the answer, but there is one domain that I think is very oh, okay. Sorry.\n\nSpeaker 2 | 15:05 - 15:09\nI don't mean to vague post on on the stage, but there are some examples of this.\n\nSpeaker 1 | 15:09 - 15:13\nOn the flip side, what do you think still feels automatable only from a distance?\n\nSpeaker 2 | 15:14 - 15:41\nI do think that ultimately almost everything can be made verifiable to some extent. Some things easier than others. Because even for things like writing or so on, you can imagine having a council of LLM judges and probably get something reasonable from this kind of an approach. So it's more about what's easy or hard. So I do think that ultimately, yeah, I think\n\nSpeaker 1 | 15:41 - 15:42\nEverything.\n\nSpeaker 2 | 15:42 - 15:44\nEverything is automatable.\n\nSpeaker 1 | 15:45 - 15:56\nAmazing. Okay. So last year, you coined the term vibe coding. And today, we're in a world that feels a little bit more serious, more regentic engineering. What do you think is the difference between the two, and what would you actually call what we're in today?\n\nSpeaker 2 | 15:57 - 16:16\nYeah. So I would say vibe coding is about raising the floor for everyone in terms of what they can do in software. So the floor rises, everyone can vibe code anything, and that's amazing, incredible. But then I would say agentic engineering is about preserving the quality bar of what existed before in professional software. So you're not allowed to introduce vulnerabilities due to vibe coding.\n\nSpeaker 2 | 16:18 - 16:36\nYou're still responsible for your software just as before, but can you go faster? And spoiler is you can, but how do you how do you do that properly? And so to me, agentic engineering, I call it that because I do think it's kind of like an engineering discipline. You have these agents, are these spiky entities. They're a bit fallible, a little bit stochastic, but they are extremely powerful.\n\nSpeaker 2 | 16:36 - 16:59\nHow you coordinate them to go faster without sacrificing your quality bar? Doing that well and correctly is the realm of agentic engineering. So I kind of see them as different. One is about maybe raising the floor and the other is about extrapolating. And what I'm seeing, I think, is there is a very high ceiling on agentic engineer capability.\n\nSpeaker 2 | 17:00 - 17:18\nPeople used to talk about the 10x engineer previously. I think that this is magnified a lot more. 10x is not the speed up you gain. I think it does seem to me like people who are very good at this peak a lot more than 10x from my perspective right now.\n\nSpeaker 1 | 17:18 - 17:38\nI really like that framing. When Sam Altman came to AISent last year, one memorable thing he said was that people of different generations use ChatGPT differently. So if you're in your 30s, you use it as a Google search replacement. But if you're in your teens, ChatGPT is your gateway to the internet. What is the parallel here in coding today?\n\nSpeaker 1 | 17:38 - 17:50\nIf we were to watch two people code using OpenClaw, Cloud Code, Codex, one you'd consider mediocre at it and one you would consider fully AI native. How would you describe the difference?\n\nSpeaker 2 | 17:51 - 18:43\nI mean, think it's just trying to get the most out of the tools that are available, utilizing all of their features, investing into your own setup. So just like previously, all the engineers are used to basically getting the most out of the tools you use, either it's VIM or Versus Code or now it's ClothCode or Codecs or so on. Just investing into your setup and utilizing a lot of the tools that are available to you, and I think it just kind of looks like that. I do think that maybe related thought is a lot of people are maybe hiring for this because they want to hire strong agentic engineers. I do think that what I'm seeing is that most people have still not refactored their hiring process for AgenTeq engineer capability.\n\nSpeaker 2 | 18:43 - 19:17\nIf you're giving out puzzles to solve, then this is still the old paradigm. I would say that hiring has to look like, give me a really big project and see someone implement that big project. Let's write, say, a Twitter clone for agents and then make it really good, make it really secure, and then have some agents simulate some activity on this Twitter. And then I'm gonna use 10 codecs 5.4 x high to try to break your website break that you deployed. They're going to try to basically break it and they should not be able to break it.\n\nSpeaker 2 | 19:17 - 19:28\nMaybe it looks like that, right? Watching people in that setting and building bigger projects and utilizing the tooling is maybe what I would look at for the most part.\n\nSpeaker 1 | 19:28 - 19:34\nAnd as agents do more, what human skill do you think becomes more valuable, not less?\n\nSpeaker 2 | 19:34 - 19:57\nSo, yeah, it's a good question. I think Well, right now the answer is that the agents are cataloged these intern entities, right? So it's remarkable. You basically still have to be in charge of the aesthetics, the judgment, the taste, and a little bit of oversight. Maybe one of my favorite examples of the weirdness of agents is for MenuGen.\n\nSpeaker 2 | 19:57 - 20:30\nYou sign up with a Google account, but you purchase credits using a Stripe account, and both of them have email addresses. And my agent actually tried to basically When you purchase credits, it assigned it using the email address from Stripe to the Google email address. There wasn't a persistent user ID for people. It was trying to match up the email addresses, but you could use different email addresses for your Stripe and your Google and basically would not associate the funds. And so this is the kind of thing that these agents still will make mistakes about.\n\nSpeaker 2 | 20:30 - 20:44\nIt's like, why would you use email addresses to try to cross correlate the funds? They can be arbitrary. You can use different emails, etc. This is such a weird thing to do. I think people have to be in charge of this spec, this plan, and I actually don't even like the plan mode.\n\nSpeaker 2 | 20:46 - 21:22\nObviously it's very useful, but I think there's something more general here where you have to work with your agent to design a spec that is very detailed, and maybe basically the docs, and then get the agents to write them. You're in charge of the oversight and the top level categories, but the agents are doing a lot of the under the hood. So I think you're not caring about some of the details. As an example, also with arrays or tensors in neural networks, there's a ton of details between PyTorch and NumPy and all the different Pandas and so on, for all the different little API details. I already forgot about the keepdims versus keepdim, or whether it's dim or axis or reshape or permute or transpose.\n\nSpeaker 2 | 21:22 - 21:51\nDon't remember this stuff anymore, right? Because you don't have to. This is the kind of details that are handled by the intern because they have very good recall. But you still have to know, for example, that there's underlying tensor, there's an underlying view, and then you can manipulate view of the same storage, or you can have different storage which would be less efficient. And so you still have to have an understanding of what this stuff is doing and some of the fundamentals so that you're not copying memory around unnecessarily and so on, but the details of the APIs are not handed off.\n\nSpeaker 2 | 21:51 - 22:13\nSo you're in charge of the taste, the engineering, the design, and that it makes sense, and that you're asking for the right things, and that you're saying that, okay, these have to be unique user IDs that we're going to tie everything to. And so you're doing some of the design and development, and the engineers are doing the fill in the blanks. And that's currently kind of like where we are, and I think that's what everyone, of course, is seeing, I think, right now.\n\nSpeaker 1 | 22:13 - 22:20\nDo you think there's a chance that this taste and judgment matters less over time, or will the ceiling just keep rising?\n\nSpeaker 2 | 22:21 - 22:52\nYeah, it's a good question. I would say I mean, I'm hoping that it improves. I think probably the reason it doesn't improve right now is, again, it's not part of the RL. There's probably no aesthetics cost or reward or it's not good enough or something like that. I do think that when you actually look at the code, sometimes I get a little bit of a heart attack because it's not like super amazing code necessarily all the time, it's very bloaty, there's a lot of copy paste, and there's awkward abstractions that are brittle, and it works, but it's just really gross.\n\nSpeaker 2 | 22:54 - 23:15\nAnd I do hope that this can improve in future models. A good example also is this micro GPT project, which where I was trying to simplify LLM training to be as simple as possible. The models hate this. They can't do it. I tried to I keep I kept trying to prompt an LLM to simplify more, more, and it just can't you feel like you're outside of the RL circuits.\n\nSpeaker 2 | 23:15 - 23:29\nIt feels like you're obviously you know, you're pulling teeth. It's not like light speed. So I do think that people still remain in charge of this, but I do think that there's nothing fundamental again that's preventing it. It's just the labs haven't done it yet, almost.\n\nSpeaker 1 | 23:30 - 23:59\nSo I'd love to come back to this idea of jagged forms of intelligence. You wrote a little bit about this with a very thought provoking piece around animals versus ghosts. And the idea is that we're not building animals. We are summoning ghosts. And these are jagged forms of intelligence that are shaped by data and reward functions, but not by intrinsic motivation or fun or curiosity or empowerment, things that came about via evolution.\n\nSpeaker 1 | 24:00 - 24:07\nWhy does that framing matter? And what does it actually change about how you build and deploy and evaluate or even trust them?\n\nSpeaker 2 | 24:08 - 24:43\nYeah, I think the reason I wrote about this is because I'm trying to wrap my head around what these things are, right? Because if you have a good model of what they are or are not, then you're going to be more competent at using them. Not sure if it actually has real power. I think it's a little bit of philosophizing, but I do think that think it's just coming to terms with the fact that these things are not animal intelligences. Like if you'll yell at them, they're not going to work better or worse or it doesn't have any impact.\n\nSpeaker 2 | 24:45 - 25:15\nAnd it's all just kind of like these statistical simulation circuits where the substrate is pre training, so like statistics. But then there's RL bolting on top, so it kind of like increases the appendages. And maybe it's just kind of like a mindset of what I'm coming into or what's likely to work or not likely to work or how to modify it. But I don't actually I don't know that I have like, here are the five obvious outcomes of how to make your system better. It's more just being suspicious of it and figuring it out over time.\n\nSpeaker 1 | 25:16 - 25:24\nThat's where it starts. Okay. So you are so deep in working with agents that don't just chat. They have real permissions. They have local context.\n\nSpeaker 1 | 25:24 - 25:30\nThey actually take action on your behalf. What does the world look like when we all start to live in that world?\n\nSpeaker 2 | 25:31 - 25:53\nYeah. I think I think a lot of people probably here are excited about what this agentic you know, native agentic environment looks like, and everything has to be rewritten. Everything is still fundamentally written for humans and has to be moved around. I still use most of the time when I use different frameworks or libraries or things like that, they still have docs that are fundamentally written for humans. This is my favorite pet peeve.\n\nSpeaker 2 | 25:53 - 26:31\nLike, don't why are people still telling me what to do? Like, I don't wanna do anything. What is the thing I should copy paste to my agent? Like, so it's just every time I'm told, you know, go to this URL or something like that, it's just like, oh, you know? So everyone is, I think, excited about how do we decompose the workloads that need to happen into fundamentally sensors over the world, actuators over the world, how do we make it agent native, basically describe it to agents first, and then have a lot of automation around data structures that are very legible to the LLMs.\n\nSpeaker 2 | 26:32 - 27:22\nSo I think, yeah, I'm hoping that there's a lot of agent first infrastructure out there. And that, you know, for MenuGen, famously, when I wrote the not I'm not sure how famously, but when I wrote the blog post about MenuGen, a lot of the work or a lot of the trouble was not even writing the code for MenuGen, it was deploying it in Vercel because I had to work with all these different services and I had to string them up and I had to go through their settings and the menus and, you know, configure my DNS and it was just so annoying. And so that's a good example of I would hope that MenuGen that I could give a prompt to an LLM, build MenuGen, and that I didn't have to touch anything and it's deployed in that same way on the Internet. I think that would be a good kind of a test for whether or not a lot of our infrastructure is becoming more and more agent native. And then ultimately, I would say, yeah, I do think we're going towards a world where there's agent representation for people and for organizations.\n\nSpeaker 2 | 27:23 - 27:38\nAnd I'll have my agent talk to your agent to figure out some of the details of our meetings or things like that. So I do think that that's roughly where things are going, but yeah, I think everyone here is excited about that.\n\nSpeaker 1 | 27:38 - 28:05\nI really like the visual analogy of sensors and actuators. I actually hadn't thought of that. That's super interesting. Okay, I think we have to end on a question about education, because you are probably one of the very best in the world at making complex technical concepts simple and deeply thoughtful about how we design education around it. What still remains worth learning deeply when intelligence gets cheap as we move into the next era of AI?\n\nSpeaker 2 | 28:05 - 28:15\nYeah. There was a tweet that blew my mind recently, I keep thinking about it like every other day. It was something along the lines of, you can outsource your thinking, but you can't outsource your understanding.\n\nSpeaker 1 | 28:17 - 28:19\nI think that's really nicely put.\n\nSpeaker 2 | 28:19 - 28:56\nBecause I'm still part of the system and still has to make it into my brain and I feel like I'm becoming a bottleneck of just even knowing what are we trying to build, why is it worth doing, how do I direct my agents and so on. I do still think that ultimately something has to direct the thinking and the processing and so on. That's still kind of fundamentally constrained somehow by understanding. And this is one reason I also was very excited about all LM knowledge bases, because I feel like that's a way for me to process information. And anytime I see a different projection onto information, I always feel like I gain insight.\n\nSpeaker 2 | 28:56 - 29:32\nSo it's really just a lot of prompts for me to do synthetic data generation kind of over some fixed data. Whenever I read an article, have my wiki that's being built up from these articles, and I love asking questions about things. Think that ultimately these are tools to enhance understanding in a certain way, and this is still kind of like a bit of a bottleneck because then you can't direct the you can't be a good director if you still because the L1s certainly don't excel at understanding. You still are uniquely in charge of that. So yeah, I think tools to that effect, I think, are incredibly interesting and exciting.\n\nSpeaker 1 | 29:32 - 29:42\nI'm excited to be back here in a couple years and to see if we've been fully automated out of the loop, and they actually take care of understanding as well. Thank you so much for joining us, Andre.\n\nSpeaker 2 | 29:42 - 29:42\nThank you.\n\nSpeaker 1 | 29:42 - 29:42\nWe really appreciate it."
+      "publishedAt": "2026-05-05T09:00:00.000Z",
+      "transcript": "Speaker 1 | 00:01 - 00:10\nOkay. I'm excited to introduce our next speaker. Show of hands, who here uses Claude Code? Okay. Show of hands, who here has Claude Code psychosis?\n\nSpeaker 1 | 00:11 - 00:20\nCome on, guys. It's okay. It's okay. My my team lovingly says I have Claude Code psychosis, which may or may not be true. We are delighted to have Boris Cerny with us today.\n\nSpeaker 1 | 00:20 - 00:45\nBoris is the creator, the father of Claude Code, and in the process of doing that, has just had a front row seat to reinventing the modern way of software development. And we're really grateful to you Boris for taking the time to speak with us today. We know that the entirety of software development kinda rests on your shoulders. So thank you for taking an hour of your time to be with us today. And interviewing Boris is Lauren Reether from our team.\n\nSpeaker 1 | 00:45 - 00:46\nThank you.\n\nSpeaker 2 | 00:52 - 00:54\nGetting our chairs. You\n\nSpeaker 3 | 00:56 - 01:01\ntook my you took my opening line. Usually ask who here uses quad code. Those are a lot of hands. That's awesome.\n\nSpeaker 2 | 01:01 - 01:23\nThank you for joining us, Boris. It's very special to have you here. As a room full of builders, I think you are changing building entirely. And so I'm very curious to explore how you think about the future of software, coding, and what we should spend all of our free time on. But I'll give a tiny bit more background on you so that everyone has a little bit more context.\n\nSpeaker 2 | 01:23 - 01:44\nSo beyond creating Cloud Code, Boris is very much an engineer's engineer. You were writing a lot of code through your whole career, writing textbooks about code, including programming in TypeScript. And I think last time we chatted, you hadn't written a single line of code in the last year, or at least so far in 2026, which is quite the change.\n\nSpeaker 3 | 01:45 - 01:57\nThere's also a a little known thing. Back in middle school, I wrote a guide about writing basic for TI 83 plus calculators. And I I just I I searched it. It's actually still on the Internet. It's extremely embarrassing, so please don't search it.\n\nSpeaker 3 | 01:57 - 01:58\nBut it exists.\n\nSpeaker 2 | 01:58 - 02:01\nWe will definitely be finding that. So we're\n\nSpeaker 4 | 02:01 - 02:04\ngonna do I'm start with a few questions here. Maybe we'll\n\nSpeaker 2 | 02:04 - 02:14\nstart with a little bit of the history of Cloud Code, how you started it. And then we're gonna have a lot of audience Q and A for this one. And so start thinking about your questions in the back of your head, and would love to turn it over to you all soon.\n\nSpeaker 3 | 02:15 - 02:25\nYeah. And also, real quick, so for people that use Cloud Code, do people use the CLI mostly? Like, okay, majority CLI? That's a lot. Majority desktop?\n\nSpeaker 3 | 02:26 - 02:32\nK. Majority Versus code or JetBrains IDE? Okay. That's actually not a lot. Okay.\n\nSpeaker 3 | 02:32 - 02:36\nOther? I'm like iOS mostly these days.\n\nSpeaker 4 | 02:36 - 02:37\nYeah.\n\nSpeaker 3 | 02:37 - 02:47\nOkay. Cool. Yeah. So I started Cloud Code kind of accidentally in a lot of ways. I joined this team back in late twenty twenty four.\n\nSpeaker 3 | 02:47 - 02:58\nIt was sort of this incubator within Anthropic called Anthropic Labs. And the team kind of served its purpose. We created QuadCode, MCP, and the desktop app. It was a team. It was just a few of us.\n\nSpeaker 3 | 02:58 - 03:13\nSo very much like innovation team. We built the thing that we wanted to build. We disbanded the team. Now the team's actually back together for round two. Mike Krueger, who's the chief product officer at Anthropic and used to be one of the founders at Instagram, so he's leading that right now.\n\nSpeaker 3 | 03:15 - 03:41\nSo the reason that I started to work on coding is we felt like there was this product overhang. And I'm guessing people here use that word a lot. But we definitely use this word a lot in kind of within the lab. There's this idea that the model can do all this stuff that no product has yet captured. And in late twenty twenty four, when we were looking at coding, the way that we did coding, the state of the art at the time was type ahead.\n\nSpeaker 3 | 03:41 - 03:57\nAs you open your ID and you press tab and you can complete one line at a time. And that was the thing that Sonnet 3.5 enabled for the first time. But the feeling was we could actually go a lot further than that. And the model was almost ready for the next big step. So we don't have to do type ahead anymore.\n\nSpeaker 3 | 03:57 - 04:15\nWe can just have the agent write all of the code. And so I built it, and it just really didn't work for the first six months. It was not very good. It was barely used it for maybe 10% of my code or something like that. And even after we released QuadCode initially, it was not a hit.\n\nSpeaker 3 | 04:16 - 04:33\nThere's a lot of people that used it, but it did not have this exponential growth that it has today. That started with Opus four in May. And I remember that very clearly. That's like when the exponential growth started and then it kind of inflected with every model release. Like it started with Opus four, then 4.5, then 4.6, now 4.7.\n\nSpeaker 3 | 04:33 - 04:50\nIt just kind of keeps inflecting. But essentially, were trying to build this thing that was like pre PMF. And we knew that it wouldn't have PMF for six months because we were building for the next model. And that was the idea pretty much the whole time. And for Anthropic in general, we've always just been very focused.\n\nSpeaker 3 | 04:50 - 05:03\nWe've always cared about business and enterprise and safety and coding. That's just always been kind of the way that we wanted to build. And so at some point, we kind of knew that we wanted to build a product. We didn't know exactly when. So this kind of ended up being the product bet.\n\nSpeaker 2 | 05:04 - 05:20\nIt's an incredible story, especially that it was an accident. So you've said on the record that you think coding is solved. If this is one of the three best for Anthropic, can you tell us more about what you mean by that and what might still not be solved or what second order problems might come?\n\nSpeaker 3 | 05:20 - 05:37\nAll right, I can ask another question for the room. Who writes 100% of their code by hand? Who writes 100% of their code using an agent, like quad code? Okay, who's somewhere in between? Okay, so like 50% solved.\n\nSpeaker 3 | 05:41 - 05:51\nI mean, for me it's 100%. The QuadCode code base, you know, it leaks, so, you know, people know. It's pretty simple. It's just like TypeScript and it's React. Like, there's no big secret.\n\nSpeaker 3 | 05:51 - 06:11\nThere's nothing really complicated. The the reason we picked TypeScript and React is it's very on distribution for the model. So when we started building the code base, the model was not as intelligent as it is today, so the language and the framework mattered a lot. Nowadays, it can write whatever, and it can pick up new languages, new frameworks, it hasn't seen. But back then, you wanted to use something pretty on distribution.\n\nSpeaker 3 | 06:12 - 06:31\nBecause of that, I think fairly early, we got to the point where the model just wrote 100% of the code. And for us, this happened sometime in October, November. And so for me today, the model writes 100% of my code. I write somewhere, usually a few dozen PRs every day. There was a day last week I did 150 PRs in a day.\n\nSpeaker 3 | 06:31 - 06:41\nThat was a record. I was just trying to push to see how far I can get it. But yeah, for me, it's just solved. But this is not the case everywhere. There's very big complicated code bases.\n\nSpeaker 3 | 06:41 - 06:49\nThere's kind of weird languages the model's not good at yet. And then, you know, as everyone here knows, it's it's getting there. Usually, the answer is just wait for the next model.\n\nSpeaker 2 | 06:49 - 06:55\nCan you actually tell us about your personal setup? You walked us through it the other day. It is pretty wild.\n\nSpeaker 3 | 06:55 - 07:05\nYeah. So I shared my personal setup like six months ago or something on on Twitter. And it it's funny. I actually I shared it. I didn't realize that it would be surprising for anyone.\n\nSpeaker 3 | 07:05 - 07:07\nThat was just like the way that I coded.\n\nSpeaker 2 | 07:08 - 07:09\nAnd it's changed since then.\n\nSpeaker 3 | 07:09 - 07:16\nIt's changed. And so now, actually most of my work I do from my phone. And so,\n\nSpeaker 5 | 07:16 - 07:17\nI don't know\n\nSpeaker 3 | 07:17 - 07:33\nif you guys won't be able to see this, but I have, So I have the Quad app. And if you open the Quad app, on the left hand side, there's this little code tab. And I just have a bunch of sessions going. You probably can't see it.\n\nSpeaker 2 | 07:33 - 07:34\nHow many sessions?\n\nSpeaker 3 | 07:34 - 07:48\nUsually, I have maybe five to 10 sessions. And then the sessions usually have a bunch of agents. So I think currently, probably a few 100 agents going. Usually, every night, have a few thousand that are doing deeper work. There's a few ways to manage it.\n\nSpeaker 3 | 07:49 - 08:09\nOne is that you ask Claude to use a bunch of sub agents to do work. Actually the thing that I've been finding myself using more and more is loop. So this is slash loop and it's just like the coolest thing. It's like the simplest thing that works. All it is is you have Claude use Cron to schedule a job for some point in the future, and it's a repeat job.\n\nSpeaker 3 | 08:09 - 08:27\nAnd it can run every minute, every five minutes, every day, kind of however often you want to schedule it. And at this point, I have, like, dozens of loops that are running for stuff. So I have one that's babysitting my PRs, like fixing CI, auto rebasing. I have another one that keeps CI healthy. So, like, if there's, like, a flaky test or whatever, it'll it'll go and fix it.\n\nSpeaker 3 | 08:28 - 08:46\nI have another one that grabs feedback from Twitter and clusters it for me every thirty minutes. So I just have a bunch of these loops running at any time. I feel like loops are the future at this point. If you haven't experimented with it, highly, highly recommend it. And we also just launched routines, which is the same thing but kind of on the server.\n\nSpeaker 3 | 08:46 - 08:49\nSo even if you close your laptop, it keeps going.\n\nSpeaker 2 | 08:50 - 09:03\nSo that's your personal setup. Tell us about what you think teams will look like in the future. How do you extrapolate from all the work you're doing to keep everyone on the team moving forward, understanding the context? Or do you think we need to let go of a lot more to agents to make it work?\n\nSpeaker 3 | 09:05 - 09:27\nI think so. I'd say it's so hard to make predictions, but I'm here to make predictions, so I'll try to make some. I feel like the way that things are going is generally there's going be a lot more generalists than there are today. And today when we talk about generalists, I think largely we're talking about people that are still engineers. So they're still writing code, but maybe they're kind of product engineers.\n\nSpeaker 3 | 09:27 - 09:52\nMaybe when we say generalists, it's like they do iOS and web and server, for example. That's like a generalist in engineering. But I think the thing that we're going to start to see a lot more of is generalists that are cross disciplinary. So this is engineers that are really good at product engineering, but also really great at design, or really great at product and data science and engineering. I don't know, it's something that we're starting to see on our team.\n\nSpeaker 3 | 09:52 - 10:22\nSo actually, like a lot of people on the Cloud Code team are generalists across disciplines. Everyone on our team codes. So our engineering manager, our product manager, our designers, our data scientists, our finance guy, our user researcher, every single person on our team writes code. And so, you know, like there's specialists in something, but now also everyone's just coding. And, you know, I'm seeing some nods, but I bet also it's actually not that surprising to people in this room because I bet you're seeing the same things.\n\nSpeaker 2 | 10:24 - 10:44\nI'll have one more thread of questions and we'll open up to the audience. So we talked a bit about what's changing with coding. I'm curious about what you see changing in the world of software or software products. I think as we see AI making writing code 10 or 100 x cheaper, what happens to the value of the products that are produced with software? Do we have a SaaSpocalypse on our hands?\n\nSpeaker 2 | 10:44 - 10:47\nHow do you think this plays out? And again, you're gonna have make another prediction.\n\nSpeaker 3 | 10:48 - 11:09\nThe SaaSpocalypse question is my favorite question then. I think there's two things that are going to happen, and I don't think either of them is the thing that people have been talking about. Think one is Is anyone here an Acquired listener, like the Acquired podcast? Yeah. It's like the best podcast.\n\nSpeaker 3 | 11:10 - 11:41\nI actually I I got to do an unplugged with them the other week, and I I just I I felt like I got to, like, meet my heroes because they're they're just like the hosts are the best. So they have this idea of seven powers and and this is this is like Hamilton. He kind of wrote he wrote a book about this and this is kind of the seven motes in business. And I think what's gonna happen is because of AI, some of these motes are gonna get more important and some are gonna get less important. And so, like, for example, one that gets less important is switching costs because you can just use the model and you can kind of port from one thing to a different thing.\n\nSpeaker 3 | 11:41 - 12:05\nAnother one that gets less important is process power because for companies whose moat is like a workflows and process and things like this, Quad is getting really good at figuring out process. And especially with 4.7, it can just hill climb anything. So if you give it a target and you tell it to iterate until it's done, it'll just do it. I think this is the first model like that. So I think these are gonna get less important, but I think the previous moats actually still matter.\n\nSpeaker 3 | 12:05 - 12:29\nSo this is like network effects, scale economies, cornered resources, things like that. These are not really changing with AI. I think the second thing is if you look at the number of startups today or maybe in the past ten years, I think the number of startups in the next ten years that are just going to disrupt everything is going to increase 10x. Because right now, you can be a tiny startup. You could build a thing that's as valuable as a large company.\n\nSpeaker 3 | 12:29 - 12:39\nAnd you can actually compete head to head. Because the large company has to evolve their business process. They have to evolve the way they work. They have to retrain everyone to use technology. They're going face a lot of internal resistance to that.\n\nSpeaker 3 | 12:40 - 12:52\nBut, you know, no one here has that problem. If you're starting fresh, then you can kinda build with AI natively from the ground up. So I don't know. I I think it's the best time to build. It's the best time to be a start up.\n\nSpeaker 3 | 12:52 - 12:54\nIt's there's so much disruption coming.\n\nSpeaker 2 | 12:54 - 13:03\nSo there is hope for us after all. Thank you, Boris. I would love to open up to audience questions if anyone has anything they would like to ask. Dan?\n\nSpeaker 5 | 13:08 - 13:24\nHi. Yeah, I'm curious. You said that you built six months before there was product market fit. But now, given that the models are good enough, how much do you attribute the success of QuadCode to the model versus product decisions and the feel of the product?\n\nSpeaker 3 | 13:25 - 13:35\nI think it's probably a mix. Yeah, I think it's a mix. I think if you asked maybe a year ago, the ratio was maybe something like fiftyfifty. Maybe, I don't know, if you asked me six months ago, the mix would be fiftyfifty.\n\nSpeaker 5 | 13:35 - 13:36\nWhat about in two years?\n\nSpeaker 3 | 13:37 - 13:39\nOh, two years, I don't know, dude. We plan in like, we plan one week out.\n\nSpeaker 5 | 13:39 - 13:41\nSix months, sometime in the future.\n\nSpeaker 3 | 13:42 - 14:13\nAnd by the way, I think the reason it was fiftyfifty is, you know, I did YC back in the day. I was like the first hire at a YC company and I did a bunch of startups. And in startups, the thing that they drill into you, and especially in YC over and over, is build something people love. And so it doesn't matter what the product is, it doesn't matter the model and all this stuff, you still in the end have to build a thing that people love. And I think that's why the product matters is we pay so much attention to the little details so that as you use it all day, it's a really great experience.\n\nSpeaker 3 | 14:14 - 14:30\nI think as the model has gotten better, the harness kind of gets less important. And I like, I think that we're thinking about right now is like, how do we evolve the harness? So like, how do we make loops more of a first class thing? How do we make it easier to run a lot of agents? Know, beside, know, like sub agents is one idea.\n\nSpeaker 3 | 14:30 - 14:52\nThere's a bunch more stuff that we're cooking. But I think in a year, the model will be much better aligned. And so all the safety mechanisms that we have today around prompt injection and kind of static verification of commands and permission modes, human in the loop, all this kind of stuff, it's just gonna be less important cause the model will just do the right thing. So yeah, that's my prediction.\n\nSpeaker 2 | 14:52 - 14:53\nThanks. Thank you.\n\nSpeaker 6 | 14:55 - 14:55\nYou want\n\nSpeaker 2 | 14:55 - 14:56\nto toss the box, Dan?\n\nSpeaker 4 | 14:59 - 15:30\nGreat. To zoom out a little bit from software, I think Cloud Code did a cultural change a few months ago where it democratized building software. You can see shop owners building their own software for themselves or even programming microcontrollers to control the light when someone opens the door. Do you see in the future building software becoming a skill like I know Microsoft Office? So it's a thing that everybody can do, not just people in the tech industry?\n\nSpeaker 3 | 15:30 - 15:45\nOh my God. Yes, yes, yes. I think it's going be even more than that. I think it's going to be, I don't know, it's going to be a skill like, yeah, like I know how to send a text message. I I I think, you know, like, I I read my my two genres are essentially sci fi and tech history.\n\nSpeaker 3 | 15:45 - 16:04\nThis is what I read a lot of. And I think in tech history, there's one thing which I think to me is the clearest parallel for what's happening right now. And this is in the fourteen hundreds, the printing press in Europe. And what happened was before the printing press, essentially 10 of the European population was literate. They knew how to read and write.\n\nSpeaker 3 | 16:05 - 16:29\nThey were often employed by kings and lords that were not literate. And their was to read and write, and this is not something that everyone knew how to do. The printing press was invented, then there were two more presses. And in the fifty years after the first printing press, there was more literature published in Europe than in the thousand years before. And over the same period, the cost of literature, cost of a book went down like a 100 x.\n\nSpeaker 3 | 16:29 - 16:50\nAnd then, you know, it took a couple hundred years because, you know, learning to read and write is hard. You need education systems and government and everyone can't be working on farms and so on. But over the next few hundred years, literacy globally went up to like 70%. And so now we can all read and write and you don't need a degree in reading and writing to know how to read and write. Although still there are professional writers and that is a thing that you can do.\n\nSpeaker 3 | 16:50 - 17:15\nSo I think the thing that's about to happen, and it's going to be much faster than fifty years, is software will be a thing that is fully democratized that anyone can do. And there's a lot of corollaries to this. So for example, let's say you're writing accounting software. The best person to write accounting software, I think maybe even today, is not an engineer, it's a really good accountant. Because they know the domain really well and coding is the easy part.\n\nSpeaker 3 | 17:15 - 17:20\nIt's knowing the domain that's the hard part. And I think this is just obviously the future.\n\nSpeaker 7 | 17:22 - 17:39\nSo one of the things Greg said was that you guys are living in the future a little bit because you get to have access to the models and the agents. Cloud Code is an internal tool before you release it. Is the gap between where you guys are in engineering and the rest of the world, is that a month? Is it three months? Is it six months?\n\nSpeaker 7 | 17:39 - 17:42\nAnd is that gap getting bigger or smaller over time?\n\nSpeaker 3 | 17:43 - 17:59\nYeah. So internally, we use the same models everyone else does. For us, the dogfooding is really, really important. So we use the thing that everyone else here does. We use a little bit of Mythos to try it, and then we use a lot of Opus 4.7 to dogfood it and to write most of our code.\n\nSpeaker 3 | 18:00 - 18:19\nI think on the model side, there isn't really a gap. It's pretty much mythos, and that will become some version of some descendant of that will become available at some point to everyone. I think on the product side, there's probably a far larger gap. And that's just related to us changing all of our processes. Like if you talk to people at Anthropic, we use Quad for literally everything.\n\nSpeaker 3 | 18:20 - 18:38\nAnd our quads are talking all day. As my quads are coding in a loop, they will communicate over Slack to talk to other people's quads that are also running in a loop to kind of figure out unknowns. We have no more manually written code anywhere at the company. All of the SQL is written by models. Everything is just built by the models.\n\nSpeaker 3 | 18:38 - 19:06\nSo I think actually the place that we're ahead is not the technology, because the same technology available to us is available to everyone here. Because fundamentally, we are building a platform. And so for us, it's really important that developers can use the same thing that we're using and that we dog food everything that we put out there. But I think there's actually a far bigger weed in the organizational structure and organizational process. And this is a place where hopefully we can talk about it in places like this, and everyone can learn from it and also evolve.\n\nSpeaker 2 | 19:06 - 19:11\nYeah. And I think that's one of the advantages startups have. It's so much easier to start there. Jared?\n\nSpeaker 8 | 19:12 - 19:23\nYeah. Last time we talked, I think you'd mentioned we talked a little bit about multi agent. And I was very encoded at the time at a prior Sequoia event. And you mentioned that there were some things going down the pipeline. There's a thing you're talking you're thinking about.\n\nSpeaker 8 | 19:23 - 19:29\nNow, obviously, there's slash batch. There's slash loop. There's sub teams. There's teams. Can you speak some to either at\n\nSpeaker 3 | 19:29 - 19:30\nthe model level and at\n\nSpeaker 8 | 19:30 - 19:49\nthe harness level, how you're injecting priors in the harness level, how the objective function is changing at the model level to make this experience around delegating work, spinning up agents better. Because so much of the work is parallelizable. You can go do so many things so much faster. And I feel like I have to overlay my own intuition for when to paralyze things rather than the model understanding that you can spin up tens of agents for something.\n\nSpeaker 3 | 19:50 - 20:08\nYeah, I mean on product side it really just comes down to prompting. That's how it is. So we tweak prompts to help the model do stuff in parallel more. But also honestly, as the model gets better it just naturally does this. And so something like Loop, I found actually 4.7, it just starts doing, which is really cool.\n\nSpeaker 3 | 20:08 - 20:23\nIt does something like, I'll tell it, go pull this data query. And it's like, hey, I noticed that the data is changing over time. I'll start a Loop, and I'll give you a report every thirty minutes. And I'm like, great, can you send it to me over Slack? And then it uses the Slack MCP to do that.\n\nSpeaker 3 | 20:23 - 20:37\nSo I think actually over time, it's not on users to figure out how to hold the tools better. And if that's the case, it's actually a product design problem and like, I'm not doing a good job. It's really on the model to do this stuff better, and on us kind of prompting it so it naturally does this.\n\nSpeaker 9 | 20:40 - 20:43\nSo right now it seems like a lot of\n\nSpeaker 3 | 20:43 - 20:43\nus\n\nSpeaker 9 | 20:43 - 21:22\nuse Claude or Codex or these tools in the cloud to do a lot of our computing, but then there are some very vocal advocates of have your AI be local, and I could imagine over time as open way models and other things catch up that this could be more of a possibility for people to get really high quality coding assistance. So I'm curious your vision of, say, the next years or something like that, do you see the trajectory of everyone still really relying on the cloud centralized compute? Or is there a pivot to, oh, we all just have our local agents that we can rely on and they don't get throttled and other benefits?\n\nSpeaker 3 | 21:26 - 21:39\nI don't know. There's maybe a few ways to answer that. I think maybe the most fundamental way to answer that is it doesn't matter. Because I think now we're getting to the point where the model is just able to figure it out. So I think by a couple of years from now, the model is just going to be doing all the code.\n\nSpeaker 3 | 21:39 - 21:50\nIt's going be starting the agents. It's gonna be building the environments. And so if it decides, actually, I'll use local models to do this, that's what it'll do. I don't think these will be decisions that we are making as engineers anymore.\n\nSpeaker 2 | 21:50 - 21:55\nWe have time for a couple more questions so I can toss this out. Jamie?\n\nSpeaker 3 | 21:57 - 21:58\nNice to hear.\n\nSpeaker 2 | 21:58 - 21:59\nThank you.\n\nSpeaker 10 | 21:59 - 22:22\nIt feels like one of the great decisions with Cloud Code was making use of the fact that a lot of developers' tools and workflows are local. But that isn't necessarily always the case for sort of general knowledge work with cloud tools. I'm curious how you're thinking about this with Cowork, of how do you give Cowork enough access to the tools that we use to be powerful the same way that Cloud Code is for developers?\n\nSpeaker 3 | 22:22 - 22:41\nYeah, that's a really great question. I know when I was at a big company, took five years moving all the environments to remote. It's just so much work, especially at a big scale. But for knowledge work, largely, it's there already with Salesforce and Docs and things like that. For us, it's always just the simplest answer.\n\nSpeaker 3 | 22:41 - 22:52\nIt's just MCP. So the same MCP connector that you have in Quad AI, you hook up Salesforce, you hook up Google Docs, Google Calendar, and then a co worker can use that. Quad CLA can use it. Quad Code everywhere can use it.\n\nSpeaker 10 | 22:54 - 23:01\nSPEAKER For the systems that don't have MCPs, do you think that's where computer use is going to be a big opportunity?\n\nSpeaker 3 | 23:01 - 23:16\nSPEAKER Yeah. I think computer use is kind of a catchall. So I think currently, as far as I know, I think Anthropic is pretty far ahead on computers. And so if you use it through co work, it's quite good. So it's able to use pretty much any piece of software that you have on your computer.\n\nSpeaker 3 | 23:16 - 23:32\nIt's very slow, but it does it quite well now, especially with 4.7. Yeah. But I think otherwise, MCP is kind of the answer. It's and, you know, all this stuff just doesn't matter that much. It could be MCP, CLIs, APIs, just some sort of programmatic access because the the model doesn't care.\n\nSpeaker 3 | 23:32 - 23:34\nIt's to to the model is just tokens.\n\nSpeaker 2 | 23:35 - 23:43\nAlright. We have time for one more question. Ryan? Sean, do want to toss the Thank you.\n\nSpeaker 6 | 23:44 - 24:02\nYou've kind of alluded to this, but if like some time ago you saw the product overhang and thought to build a product that would then become more interesting once models got better, could you just talk even in vague terms about the shape of a product you built today that you think becomes much more interesting as models get better in six months to a year?\n\nSpeaker 3 | 24:03 - 24:21\nYeah, quad design, think, is a really good example. It's pretty good today. It's going to get a lot better. There's also a few things that we're cooking up for quad code that are going be landing over the coming weeks, so you'll see those. And then I think loop and batch and things like this around massively paralyzing agents, that's gonna get better.\n\nSpeaker 3 | 24:22 - 24:24\nI think computer use is another good one.\n\nSpeaker 2 | 24:25 - 24:30\nAlright. Boris, thank you so much for joining us. I think we'll be here for a little longer if anyone has questions.\n\nSpeaker 3 | 24:32 - 24:33\nThanks, guys."
     }
   ],
   "blogs": [],
   "stats": {
-    "builderCount": 10,
-    "tweetCount": 24,
+    "builderCount": 6,
+    "tweetCount": 8,
     "podcastCount": 1,
     "blogCount": 0,
-    "feedGeneratedAt": "2026-05-04T08:26:33.142Z"
+    "feedGeneratedAt": "2026-05-07T08:48:12.972Z"
   }
 }

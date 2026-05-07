@@ -1,7 +1,8 @@
 {
   "date": "2026-05-07",
+  "lang": "en",
   "summary": "Claude taught agents to grade themselves and remember, while Peter Yang said AI products have to ride the next model wave. Zara Zhang and Training Data both argued coding turned into literacy, with agents doing the overnight grind.",
-  "items": [
+  "builderInsights": [
     {
       "id": "claudeai-2026-05-07",
       "source": "X",
@@ -73,7 +74,9 @@
       ],
       "publishedAt": "2026-05-07T06:42:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-07",
       "source": "Training Data",
@@ -85,11 +88,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 6,
     "totalTweets": 8,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-07T14:53:24.133Z"
+    "generatedAt": "2026-05-07T14:53:24.353Z",
+    "estimatedReadTime": "3 min"
   }
 }
