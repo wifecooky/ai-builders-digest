@@ -1,7 +1,8 @@
 {
   "date": "2026-05-08",
-  "summary": "Madhu Guru said Google’s AI comeback was a systems game, while Alex Albert credited Claude with helping Firefox crush 15 months of bug fixes. Peter Steinberger called GPT-5.5 refactors automatic, and Ryo Lu pushed idea-to-merge into one flow.",
-  "items": [
+  "lang": "ja",
+  "summary": "Madhu Guruは、GoogleのAI復活はシステムの勝負だったと語った。  \nAlex Albertは、ClaudeがFirefoxの15か月分のバグ修正を一気に片づける助けになったと評価した。  \nPeter Steinbergerは、GPT-5.5によるリファクタリングは自動化されていると述べた。  \nRyo Luは、アイデアからマージまでを一つのフローに押し込んだ。",
+  "builderInsights": [
     {
       "id": "realmadhugur-2026-05-08",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "realmadhuguru",
       "authorBio": "Product Leader at Google - Gemini, Veo, Nano Banana. All opinions mine.",
       "title": "Madhu Guru",
-      "suggestedTitle": "Google’s AI comeback was a systems game",
-      "suggestedSummary": "They say Gemini’s rise wasn’t magic — it came from building the model playbook, the customer feedback loop, and the enterprise business until all the pieces clicked with Gemini 3. That’s a pretty blunt postmortem on how Google went from behind OpenAI and Anthropic to back at the frontier. Also: they’re leaving Google, and the toddler shoutout is doing some heavy lifting.",
+      "suggestedTitle": "GoogleのAI復活はシステムの勝負だった",
+      "suggestedSummary": "Geminiの台頭は魔法ではなかったという話だ。model playbook、customer feedback loop、enterprise businessを積み上げ、Gemini 3で全てのピースが噛み合った。GoogleがOpenAIとAnthropicの後塵を拝していた状態から、再びフロンティアに戻るまでの流れを、かなり率直に総括している。なお、彼らはGoogleを離れる。そして、幼児への言及がかなり効いている。",
       "tweets": [
         {
           "url": "https://x.com/realmadhuguru/status/2052490869320946037",
@@ -29,8 +30,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Claude helped Firefox crush 15 months of bug fixes",
-      "suggestedSummary": "With Claude Mythos Preview, the Firefox team fixed more security bugs in April than in the previous 15 months combined. It’s a strong signal that AI isn’t just writing code — it’s already speeding up real security work in production.",
+      "suggestedTitle": "ClaudeがFirefoxの15か月分のバグ修正を一気に片付けた",
+      "suggestedSummary": "Claude Mythos Previewにより、Firefoxチームは4月だけで、それ以前の15か月分を合わせたよりも多くのセキュリティバグを修正した。AIはコードを書くだけではない。実運用のセキュリティ作業をすでに加速している、強いシグナルだ。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2052468575492088078",
@@ -55,8 +56,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI flattens the easy stuff, so differentiation shifts",
-      "suggestedSummary": "He argues that whenever AI makes a task easy, everyone else gets that same advantage fast — so the real edge moves elsewhere. For software, that means more emphasis on sales, marketing, and customer success; for finance, it’s client engagement. The core question: if everyone can do what you do, what actually makes you stand out?",
+      "suggestedTitle": "AIが簡単な仕事を均し、差別化の軸が移る",
+      "suggestedSummary": "彼の主張はこうだ。AIがある作業を簡単にすると、その優位はすぐに誰にでも広がる。だから本当の差は別の場所へ移る。softwareでは、sales、marketing、customer successの比重が増す。financeでは、client engagementだ。核心は一つ。誰でも同じことができるなら、何が本当に自分を際立たせるのか、という問いである。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2052566788236509254",
@@ -75,8 +76,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "GPT-5.5 makes big refactors feel automatic",
-      "suggestedSummary": "He says `/goal + GPT-5.5` is now good enough to plan huge refactors with end-to-end tests and just execute. That’s the real shift: AI isn’t just helping write code, it’s starting to handle the messy orchestration work that usually slows senior engineers down.",
+      "suggestedTitle": "GPT-5.5で大規模リファクタリングが自動化されたように感じられる",
+      "suggestedSummary": "彼によれば、`/goal + GPT-5.5` で、エンドツーエンドテストまで含めた巨大なリファクタリングを計画し、そのまま実行するには十分な精度に達したという。ここが本質的な変化だ。AIはコードを書くのを手伝うだけではない。これまでシニアエンジニアの足を引っ張っていた、面倒なオーケストレーション作業まで担い始めている。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2052630190346457301",
@@ -107,8 +108,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Idea-to-merge in one flow",
-      "suggestedSummary": "Cursor is pushing the whole loop from idea to merge into one place. It’s a clean signal that the product is moving beyond “AI coding assistant” toward an end-to-end software workflow.",
+      "suggestedTitle": "アイデアからマージまでを一つの流れで",
+      "suggestedSummary": "Cursorは、アイデアからマージまでの一連の流れを一か所にまとめようとしている。これは、同社のプロダクトが「AI coding assistant」を超え、エンドツーエンドのソフトウェアワークフローへ向かっている明確なサインだ。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2052496872586272802",
@@ -127,8 +128,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Weekly 1:1s are a micromanagement trap",
-      "suggestedSummary": "He argues weekly 1:1s are often less about support and more about control — a way for managers to keep people in line instead of letting them do great work. The bigger point: if your job feels overly coddled, he thinks you should find a team that actually pushes you and shows you what high performance looks like.",
+      "suggestedTitle": "Weekly 1:1sはマイクロマネジメントの罠だ",
+      "suggestedSummary": "彼は、週1の1:1は支援というより管理のために使われがちだと主張する。マネージャーが人を縛りつけ、自由に成果を出させないための手段だという見方だ。より大きな論点は、仕事が過保護すぎると感じるなら、本当に背中を押してくれて、高いperformanceがどういうものかを示してくれるteamを探すべきだということだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2052626010332668278",
@@ -159,8 +160,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Anthropic’s API is becoming cloud infrastructure",
-      "suggestedSummary": "He says the AI platform war is here, and the real battle is shifting from model quality to who owns the developer stack. In a quick dispatch from Code with Claude, he and Kieran Klaassen dig into the xAI compute deal, managed agents, and Anthropic turning its API into full cloud infrastructure for builders.",
+      "suggestedTitle": "AnthropicのAPIはクラウドインフラになりつつある",
+      "suggestedSummary": "彼は、AIプラットフォーム戦争はすでに始まっていると言う。勝負の軸は、モデルの性能から、誰が developer stack を握るかへ移りつつある。Code with Claude からの短いレポートで、彼と Kieran Klaassen は xAI の compute deal、managed agents、そして Anthropic が API を builder 向けのフルクラウドインフラへ変えつつある流れを掘り下げる。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2052501376195080381",
@@ -191,8 +192,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI safety isn’t scale — it’s security",
-      "suggestedSummary": "He says frontier AI gets safer through preparedness, defenses, and security work, not just bigger models. In a long convo with OpenAI board member Zico Kolter, he digs into jailbreaks, agent attack surfaces, and why the real risk is how systems are deployed, not just how they’re trained.",
+      "suggestedTitle": "AI safetyはscaleではない。securityだ",
+      "suggestedSummary": "彼は、frontier AIはより大きなモデルだけでなく、備え、defense、securityの取り組みで安全になると語る。OpenAI board memberのZico Kolterとの長い対談では、jailbreak、agentのattack surface、そして本当のリスクは学習方法ではなく、どうdeployされるかにある点を掘り下げている。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2052440964782870727",
@@ -217,8 +218,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Agents get a browser stack with fewer hacks",
-      "suggestedSummary": "He dropped GStack v1.28, adding browser downloads, headed mode, anti-bot handling on headless Linux, and an llms.txt so agents can use the right skills with less guesswork. He also pushed GBrain thin-client mode, so secondary agents can lean on it over MCP instead of spinning up their own server.",
+      "suggestedTitle": "agentがbrowser stackをより少ないhackで使えるようになる",
+      "suggestedSummary": "GStack v1.28をリリースした。browser downloads、headed mode、headless Linuxでのanti-bot handling、そしてllms.txtを追加し、agentが適切なskillsをより少ない推測で使えるようにした。さらにGBrainのthin-client modeも押し出した。これにより、secondary agentは自前でserverを立てずに、MCP経由でGBrainを使える。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2052629679572701455",
@@ -241,23 +242,27 @@
       ],
       "publishedAt": "2026-05-08T06:00:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-08",
       "source": "The MAD Podcast with Matt Turck",
-      "title": "OpenAI Board Member Zico Kolter on the Real Risks of Frontier AI",
+      "title": "OpenAI Board Member Zico Kolterが語る、Frontier AIの本当のリスク",
       "url": "https://www.youtube.com/watch?v=DvyZcCfepeI",
-      "suggestedTitle": "Zico Kolter says AI safety won’t come from bigger models alone",
-      "suggestedSummary": "**The Takeaway:** Frontier AI gets safer only when teams build safety into the system, not by hoping scale fixes it.\n\n- Bigger models improve capabilities by default, but robustness, jailbreak resistance, and misuse prevention do not reliably improve on their own.\n- AI risk is not one problem: mistakes, harmful use, societal effects, and loss of control each need different defenses.\n- Governance matters in practice; OpenAI’s safety committee can slow releases when the evidence isn’t good enough.\n\nZico Kolter, OpenAI board member and chair of its Safety and Security Committee, comes at AI safety from both sides: he runs Carnegie Mellon’s machine learning department and has spent years in AI security research. His core view is blunt: “You can’t just sort of trust models to get safer by getting bigger.” Capability scales fast; safety does not.\n\nThat’s why he pushes layered defenses instead of magical thinking. OpenAI’s preparedness framework, and similar systems at Anthropic and Google, set thresholds for risky capabilities like bio, cyber, and self-improvement. But Kolter says that’s only one slice of the problem. The real safety stack also has to cover model behavior, user misuse, and the broader ecosystem as AI becomes embedded everywhere.\n\nHe’s especially skeptical of the lazy “wait for the next model” mindset. That works for math or coding. It doesn’t work for robustness. As he puts it, “to make models more robust, to make them broadly safer, you need to be explicit in training them for safety.” In other words: safety is engineered, not inherited.\n\nKolter also rejects the cartoonish “doomer vs. accelerationist” framing. He sees most serious researchers in the same camp: excited about the upside, unwilling to ignore the downside. The useful question isn’t whether AI is good or bad. It’s whether the industry is building the governance, monitoring, and release discipline to keep up with what these systems can now do.",
+      "suggestedTitle": "Zico Kolterは、AI safetyはモデルの大型化だけでは実現しないと語る",
+      "suggestedSummary": "**要点:** Frontier AIが安全になるのは、チームが安全性をシステムに組み込んだときだけだ。規模を大きくすれば解決する、という期待ではない。\n\n- 大きなモデルはデフォルトで能力を高める。しかし、robustness、jailbreak resistance、misuse preventionは自動では向上しない。\n- AI riskは1つの問題ではない。ミス、有害な利用、社会的影響、制御喪失は、それぞれ別の防御が必要だ。\n- governanceは実務で重要だ。OpenAIの安全性委員会は、証拠が十分でなければリリースを遅らせられる。\n\nZico Kolterは、OpenAIのboard memberであり、Safety and Security Committeeのchairでもある。AI safetyを見る視点は両面にある。Carnegie Mellonでmachine learning部門を率い、長年AI security researchに携わってきたからだ。彼の核となる見方は明快だ。「モデルが大きくなれば勝手に安全になる、と単純に信じることはできない」。能力は急速に伸びる。しかし、安全性はそうではない。\n\nだからこそ、彼は魔法のような発想ではなく、layered defensesを推す。OpenAIのpreparedness frameworkや、Anthropic、Googleの類似システムは、bio、cyber、self-improvementのような危険な能力に閾値を設けている。だがKolterは、それは問題の一部にすぎないと言う。本当の安全性のstackは、model behavior、user misuse、そしてAIがあらゆる場所に組み込まれていく中での広いecosystemまでカバーしなければならない。\n\n彼が特に懐疑的なのは、「次のモデルを待てばいい」という怠惰な発想だ。mathやcodingならそれで通る。しかし、robustnessには通用しない。彼の言葉を借りれば、「モデルをよりrobustにし、広く安全にするには、安全性のために明示的にtrainingする必要がある」。要するに、安全性は設計するものであり、受け継がれるものではない。\n\nKolterは、漫画的な「doomer vs. accelerationist」という枠組みも退ける。真剣なresearcherの大半は同じ陣営にいると見る。上振れには期待しているが、下振れを無視するつもりはない。重要なのは、AIが良いか悪いかではない。今のシステムができることに追いつくためのgovernance、monitoring、release disciplineを業界が構築できているかどうかだ。",
       "publishedAt": "2026-05-07T11:30:01.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-08T14:33:25.662Z"
+    "generatedAt": "2026-05-08T14:33:43.326Z",
+    "estimatedReadTime": "5 分"
   }
 }

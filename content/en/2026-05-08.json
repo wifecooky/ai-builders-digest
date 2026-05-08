@@ -1,7 +1,8 @@
 {
   "date": "2026-05-08",
+  "lang": "en",
   "summary": "Madhu Guru said Google’s AI comeback was a systems game, while Alex Albert credited Claude with helping Firefox crush 15 months of bug fixes. Peter Steinberger called GPT-5.5 refactors automatic, and Ryo Lu pushed idea-to-merge into one flow.",
-  "items": [
+  "builderInsights": [
     {
       "id": "realmadhugur-2026-05-08",
       "source": "X",
@@ -241,7 +242,9 @@
       ],
       "publishedAt": "2026-05-08T06:00:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-08",
       "source": "The MAD Podcast with Matt Turck",
@@ -253,11 +256,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-08T14:33:25.662Z"
+    "generatedAt": "2026-05-08T14:33:25.883Z",
+    "estimatedReadTime": "5 min"
   }
 }
