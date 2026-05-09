@@ -1,7 +1,8 @@
 {
   "date": "2026-05-09",
-  "summary": "Albert said Claude’s time horizon jumped past rivals, while Askell argued alignment should teach models what to be, not just what to avoid. Levie pushed token budgets over headcount, and Tan said personal software finally turned real.",
-  "items": [
+  "lang": "ja",
+  "summary": "Albertは、Claudeのtime horizonが競合を一気に上回ったと述べた。一方でAskellは、alignmentはモデルに「何を避けるか」だけでなく、「何になるべきか」を教えるべきだと主張した。Levieは人員よりtoken budgetを優先し、Tanはpersonal softwareがついに現実になったと語った。",
+  "builderInsights": [
     {
       "id": "alexalbert-2026-05-09",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "alexalbert__",
       "authorBio": "Research @AnthropicAI. Opinions are my own!",
       "title": "Alex Albert",
-      "suggestedTitle": "Claude’s time horizon jumps past rivals",
-      "suggestedSummary": "An early Claude Mythos Preview snapshot reportedly more than doubles the next-best model on METR’s 80% success-rate benchmark. That’s a big signal that Anthropic is pushing hard on long-horizon task execution, not just chat quality.",
+      "suggestedTitle": "Claudeのtime horizonが競合を突き放す",
+      "suggestedSummary": "初期のClaude Mythos Previewのスナップショットは、METRの80% success-rateベンチマークで次点モデルを2倍以上上回ったと報じられている。これはAnthropicが、会話品質だけでなく、長いtime horizonのタスク実行に強く注力している大きなシグナルだ。",
       "tweets": [
         {
           "url": "https://x.com/alexalbert__/status/2052899864493830590",
@@ -29,8 +30,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "More agent skills, less prompt babysitting",
-      "suggestedSummary": "The more skills you give Codex, the less you have to micromanage it — that’s the core point here. It’s a clean argument for building agents with real capabilities instead of endlessly polishing prompts.",
+      "suggestedTitle": "agentのskillsを増やし、promptの細かな世話を減らす",
+      "suggestedSummary": "Codexに与えるskillsが多いほど、細かく指示を出す必要は減る。ここでの核心はそこだ。終わりのないpromptの磨き込みではなく、実際の能力を持つagentを作るべきだという、筋の通った主張である。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2052971550966440251",
@@ -49,8 +50,8 @@
       "authorHandle": "AmandaAskell",
       "authorBio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
       "title": "Amanda Askell",
-      "suggestedTitle": "Alignment should teach models what to be, not just avoid",
-      "suggestedSummary": "She argues alignment work shouldn’t only be about stopping bad behavior — it should also give models a clear, positive vision of what they’re for and why. That’s a more constructive framing for Anthropic’s safety work: not just constraint, but shaping the model’s character.",
+      "suggestedTitle": "Alignmentは、モデルに何を避けるかだけでなく、何になるべきかを教えるべきだ",
+      "suggestedSummary": "彼女は、alignmentの仕事は悪い振る舞いを止めることだけでは足りないと主張する。モデルが何のためにあり、なぜ存在するのかについて、明確で前向きなビジョンも与えるべきだという。これはAnthropicの安全性の取り組みを、より建設的に捉える枠組みだ。単なる制約ではない。モデルの性格そのものを形づくることだ。",
       "tweets": [
         {
           "url": "https://x.com/AmandaAskell/status/2052928572810256748",
@@ -69,8 +70,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Enterprise will need token budgets, not just headcount",
-      "suggestedSummary": "As agents take on longer-running work, token budgeting becomes a real enterprise planning problem — more like managing headcount, marketing spend, or lunch budgets than classic IT costs. He says companies will need new software and new controls to route compute to the highest-value work, and that this could spawn a startup category of its own.",
+      "suggestedTitle": "Enterpriseにはheadcountだけでなくtoken budgetが必要になる",
+      "suggestedSummary": "agentがより長時間の仕事を担うにつれ、token budgetingは本当のenterpriseの計画課題になる。従来のITコストというより、headcount、marketing spend、lunch budgetを管理する感覚に近い。彼は、computeを最も価値の高い仕事へ振り向けるために、新しいsoftwareと新しいcontrolが必要になると言う。さらに、これが独立したstartup categoryを生む可能性があるとも述べている。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2052903105256382679",
@@ -89,8 +90,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "title": "Thariq",
-      "suggestedTitle": "HTML is replacing markdown for AI-first workflows",
-      "suggestedSummary": "He says he’s stopped writing markdown for most things and now uses Claude Code to generate HTML instead. The take: HTML is becoming the better default for AI-assisted docs and notes, because it’s more flexible and easier for models to shape into something useful.",
+      "suggestedTitle": "HTMLはAI-firstワークフローでmarkdownに取って代わりつつある",
+      "suggestedSummary": "彼は、ほとんどの用途でmarkdownを書くのをやめたと言う。代わりに、Claude CodeでHTMLを生成しているという。要点は、AI支援のドキュメントやノートではHTMLのほうがより良いデフォルトになりつつあることだ。柔軟性が高く、モデルが実用的な形に整えやすいからである。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2052811607454146761",
@@ -121,8 +122,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "YouTube gets a realtime voice copilot",
-      "suggestedSummary": "Built a browser extension that watches YouTube with you and answers questions about what was just said using OpenAI’s Realtime API. The neat bit: it separates the video’s audio from your voice, so it stays quiet unless you actually ask something. Also pushed 32 HTML slide templates into AnyGen, making them plug-and-play even without a coding agent.",
+      "suggestedTitle": "YouTubeにリアルタイム音声copilotが登場",
+      "suggestedSummary": "OpenAIのRealtime APIを使い、YouTubeを一緒に見ながら、直前に何が言われたかを答えるbrowser extensionを作った。面白いのは、動画の音声と自分の声を分離している点だ。だから、実際に質問するまで静かなままでいられる。さらに、32種類のHTML slide templateをAnyGenに追加した。coding agentがなくても、そのまま使えるようにした。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2052977849267892339",
@@ -153,8 +154,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI agents may need seat-like pricing, not tokens",
-      "suggestedSummary": "He argues agent pricing won’t stay purely consumption-based: token costs matter, but enterprise agents also need identities, roles, auth, budgets, and audit logs. That starts to look less like metered API usage and more like a weird new kind of seat model.",
+      "suggestedTitle": "AI agentsにはtoken課金ではなくseat型の価格設定が必要かもしれない",
+      "suggestedSummary": "彼は、agentの価格設定が純粋な従量課金のままでは済まないと論じる。tokenコストは重要だが、enterprise向けagentにはidentity、role、auth、budget、audit logも必要だ。そうなると、meteredなAPI利用というより、奇妙な新しいseatモデルに近づいていく。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2052839798063112303",
@@ -173,8 +174,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Personal software is finally becoming real",
-      "suggestedSummary": "He says the next wave is \"personal software\" — and points to a 1M-token coding agent that supposedly runs on a 128GB MacBook Pro as the proof point. The vibe: AI is pushing serious software creation onto a single machine, which is exactly the kind of shift YC loves to see.",
+      "suggestedTitle": "パーソナルソフトウェアがついに現実になる",
+      "suggestedSummary": "彼は次の波を「パーソナルソフトウェア」だと語る。そして、その証拠として、128GBのMacBook Pro上で動くとされる1M-tokenのcoding agentを挙げる。要するに、AIが本格的なソフトウェア開発を単一のマシンへ押し戻しているのだ。まさにYCが好む変化である。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2052998537344856459",
@@ -205,8 +206,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI hype lags — trade the gap",
-      "suggestedSummary": "He says the market is still 3–4 months behind the AI curve, which creates a real edge for people willing to act before the crowd catches up. His example: Codex will be mainstream hype soon, so the smart money should already be positioning now.",
+      "suggestedTitle": "AI hypeは遅れている — そのギャップを取れ",
+      "suggestedSummary": "彼は、市場はまだAIの流れから3〜4か月遅れていると言う。そこに、群衆が追いつく前に動ける人にとっての本当の優位が生まれる。例として挙げるのがCodexだ。すぐに主流のhypeになるはずで、賢い資金はもう今のうちにポジションを取っておくべきだという。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2052865144066097217",
@@ -229,23 +230,27 @@
       ],
       "publishedAt": "2026-05-08T21:36:05.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-09",
       "source": "AI & I by Every",
-      "title": "The Secrets of Claude's Platform From the Team Who Built It",
+      "title": "Claudeのプラットフォームを作ったチームが明かす、その秘密",
       "url": "https://www.youtube.com/watch?v=lLypHkIVLqc",
-      "suggestedTitle": "Claude’s platform is becoming the agent infrastructure layer, not just an API",
-      "suggestedSummary": "**The Takeaway:** Claude’s platform is shifting from “model access” to the full stack needed to ship autonomous agents fast.\n\n- The real product isn’t a completion endpoint anymore; it’s a set of opinionated primitives that help Claude get better outcomes with less work.\n- The hard part isn’t prompt tinkering — it’s production infrastructure: persistence, sandboxing, credentials, and keeping agents alive at scale.\n- Model and harness are getting tightly coupled, so “generic, hot-swappable” setups are losing ground to model-specific agent design.\n\nAngela, head of product for Claude’s platform at Anthropic, and Caitlin, head of engineering, describe a philosophy that’s more pragmatic than flashy: make the model easier to use by baking in the boring parts. Their view is that the platform should evolve toward “whatever it’s like the set of primitives and infrastructure that enables you to basically get the outcome as fast as possible.” That means messages API, file systems, skills, code execution, web search, memory, and managed infrastructure — not just tokens in and out.\n\nTheir sharpest point is that most teams misjudge where the pain lives. People assume harness engineering is the hard part, but the wall usually shows up later: “everyone hits an infrastructure wall.” Once an agent works in a Mac mini or a quick prototype, production becomes a mess of uptime, state, storage, security, and long-running jobs. That’s why Claude Managed Agents exists: Anthropic built the thing it kept rebuilding for itself.\n\nThey also argue the old “generic harness, swap models later” mindset is fading. As models diverge, the best results come from pairing the harness and model more deliberately. In other words, the platform is no longer neutral plumbing — it’s part of the model’s behavior, and that path dependence matters.",
+      "suggestedTitle": "Claudeのプラットフォームは、単なるAPIではなくagentインフラ層になりつつある",
+      "suggestedSummary": "**要点:** Claudeのプラットフォームは、「model access」から、autonomous agentを素早く本番投入するためのフルスタックへと移行している。\n\n- 本当のプロダクトは、もはや completion endpoint ではない。Claudeが少ない手間でより良い結果を出せるようにする、意見のある primitives の集合だ。\n- 難所は prompt の微調整ではない。production infrastructure だ。永続化、sandboxing、credentials、そして agent を大規模に生かし続けることだ。\n- model と harness は強く結びつきつつある。そのため、「汎用的で hot-swappable」な構成は、model-specific な agent design に押されている。\n\nAnthropicでClaudeのプラットフォームのproduct headを務めるAngelaと、engineering headのCaitlinは、派手さより実用性を重んじる思想を語る。彼らの考えでは、プラットフォームは「whatever it’s like the set of primitives and infrastructure that enables you to basically get the outcome as fast as possible」に向かって進化すべきだという。つまり、messages API、file systems、skills、code execution、web search、memory、managed infrastructure だ。単に token を入れて token を返すだけではない。\n\n彼らが最も強調するのは、多くのチームが痛みの本質を見誤っていることだ。多くの人は harness engineering が難所だと思い込む。しかし、壁はたいていその先に現れる。「everyone hits an infrastructure wall」なのだ。agent が Mac mini や簡単な prototype で動いても、本番では uptime、state、storage、security、長時間実行ジョブが一気に問題になる。だからこそ Claude Managed Agents がある。Anthropic は、自分たちが何度も作り直してきたものを、そのまま製品化したのだ。\n\n彼らはまた、昔ながらの「generic harness を用意して、あとで model を差し替える」という発想も薄れつつあると見る。model の差が広がるほど、最良の結果は harness と model をより意図的に組み合わせたときに出る。要するに、プラットフォームはもはや中立な配管ではない。model の振る舞いの一部であり、その path dependence が重要なのだ。",
       "publishedAt": "2026-05-08T20:27:01.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-09T14:22:15.421Z"
+    "generatedAt": "2026-05-09T14:22:32.573Z",
+    "estimatedReadTime": "5 分"
   }
 }

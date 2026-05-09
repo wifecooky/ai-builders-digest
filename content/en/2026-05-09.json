@@ -1,7 +1,8 @@
 {
   "date": "2026-05-09",
+  "lang": "en",
   "summary": "Albert said Claude’s time horizon jumped past rivals, while Askell argued alignment should teach models what to be, not just what to avoid. Levie pushed token budgets over headcount, and Tan said personal software finally turned real.",
-  "items": [
+  "builderInsights": [
     {
       "id": "alexalbert-2026-05-09",
       "source": "X",
@@ -229,7 +230,9 @@
       ],
       "publishedAt": "2026-05-08T21:36:05.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-09",
       "source": "AI & I by Every",
@@ -241,11 +244,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-09T14:22:15.421Z"
+    "generatedAt": "2026-05-09T14:22:15.635Z",
+    "estimatedReadTime": "5 min"
   }
 }
