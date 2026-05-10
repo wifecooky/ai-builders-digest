@@ -1,7 +1,8 @@
 {
   "date": "2026-05-10",
-  "summary": "Altman said Codex made “work while I’m away” feel real. Steinberger said it was fixing terminals and reviewing PRs. Levie argued agents widened access, but experts still won; Peter Yang warned AI slop compounded fast if you stopped editing.",
-  "items": [
+  "lang": "ja",
+  "summary": "Altmanは、Codexによって「自分が席を外している間に仕事が進む」という感覚が現実になったと語った。  \nSteinbergerは、端末の修復やPRのレビューをしていたと述べた。  \nLevieは、エージェントがアクセスを広げる一方で、結局は専門家が勝つと主張した。  \nPeter Yangは、編集をやめるとAIスロップが急速に積み上がると警告した。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-10",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "Codex makes “work while I’m away” feel real",
-      "suggestedSummary": "He says kicking off Codex tasks, going outside with his kid, and coming back at nap time to find everything done makes him genuinely optimistic about the future. The takeaway: AI agents aren’t just demos anymore — they’re starting to behave like a useful async teammate.",
+      "suggestedTitle": "Codexで「不在中に仕事が進む」が現実味を帯びる",
+      "suggestedSummary": "Codexにタスクを投げて、子どもと外に出る。昼寝の時間に戻ると、全部終わっている。そんな体験が、未来への本気の楽観を生んでいるという。要するに、AI agentはもうデモ止まりではない。実用的な非同期の同僚として振る舞い始めているのだ。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2053192920933777486",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents widen access, but experts still win",
-      "suggestedSummary": "He says agents will let way more people build software, do creative work, and explore fields that used to be out of reach. But the real edge still goes to experienced people, who can spot catastrophic mistakes, add context, and get far better output from the same tools.",
+      "suggestedTitle": "agentでアクセスは広がるが、勝つのは依然としてexpertだ",
+      "suggestedSummary": "agentによって、softwareを作る人は大きく増える。creative workにも手が届くようになる。これまで届かなかった分野を探ることもできるようになる。だが、本当の優位は経験豊富な人にある。致命的なミスを見抜けるからだ。文脈も補える。同じツールでも、はるかに良いoutputを引き出せる。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2053267097493573921",
@@ -61,8 +62,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI slop compounds fast if you stop editing",
-      "suggestedSummary": "He says the real trap with agentic coding isn’t bad output — it’s letting 5% slop stack into a mess you no longer understand. His other gripe: Claude Code can sit there for minutes with zero feedback, which makes the whole experience feel broken even when it’s still working.",
+      "suggestedTitle": "編集をやめるとAI slopはすぐに積み上がる",
+      "suggestedSummary": "彼が言う本当の落とし穴は、agentic codingの出力が悪いことではない。5%のslopを放置して、やがて自分でも理解できない混乱に積み上げてしまうことだ。もう一つの不満は、Claude Codeが何分も無反応のまま止まって見える点だ。実際には動いていても、体験全体が壊れているように感じられる。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2053317001976881312",
@@ -93,8 +94,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI should output artifacts, not editable files",
-      "suggestedSummary": "She argues that when AI does the manipulation, the result should be optimized for human consumption — not for humans to keep pushing pixels around. Her point: people don’t read, they scan and react, so the winning format is beautiful, interactive artifacts instead of clunky docs or slides.",
+      "suggestedTitle": "AIは編集可能なファイルではなく、成果物を出力すべきだ",
+      "suggestedSummary": "彼女の主張は、AIが加工を担うなら、その結果は人間が読むために最適化されるべきだというものだ。人間は細部を読み込むのではなく、ざっと見て反応する。だから勝ち筋は、扱いにくいドキュメントやスライドではなく、美しくインタラクティブな成果物である。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2053291803135410674",
@@ -113,8 +114,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Models should plan in execution units, not human days",
-      "suggestedSummary": "He argues AI planning is broken when models estimate work like a human team would. His fix: have the model estimate only the parts it can actually execute, in seconds and tool calls, and call out human-only blockers separately. It’s a practical prompt tweak for anyone trying to get more realistic plans out of LLMs.",
+      "suggestedTitle": "モデルは人間の日数ではなく、実行単位で計画すべきだ",
+      "suggestedSummary": "彼は、モデルが人間のチームのように作業量を見積もると、AIの計画は壊れると主張する。対策は明快だ。モデルには、実際に実行できる部分だけを、秒単位とtool call単位で見積もらせる。そして、人間しか越えられない障害は別に切り出す。LLMからより現実的な計画を引き出したい人にとって、実用的なpromptの調整だ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2053289104331493566",
@@ -139,8 +140,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Codex is now fixing terminals and reviewing PRs",
-      "suggestedSummary": "He’s turning Codex into a real workflow tool: it now checks social signals in PR reviews, and his Crabbox setup can even use it to E2E-fix gifgrep so animated GIFs render in the terminal. He also says his Spotify CLI spogo got much faster, with Codex acting as his DJ.",
+      "suggestedTitle": "Codexがterminalの修正とPR reviewをこなすようになった",
+      "suggestedSummary": "Codexを実用的なworkflow toolへと育てている。PR reviewではsocial signalもチェックするようになった。Crabboxのsetupでは、E2Eでgifgrepを修正させ、animated GIFをterminalで表示できるようにもしている。さらに、Spotify CLIのspogoはかなり高速化したという。CodexがDJ役を担っているらしい。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2053374981824798751",
@@ -171,8 +172,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain goes client-server with MCP support",
-      "suggestedSummary": "GBrain v0.31.1 shipped real MCP thin client support, so you can run one home server and have everything else connect to it almost like it’s local. He’s pushing GBrain from a single-machine tool into a client-server setup, which is the kind of move that makes an internal AI stack feel much more usable.",
+      "suggestedTitle": "GBrainがclient-server化、MCP supportに対応",
+      "suggestedSummary": "GBrain v0.31.1で、実用レベルのMCP thin client supportが入った。これで、自宅のserverを1つ立てれば、他はそこにつなぐだけでほぼlocalのように使える。GBrainを単体machine向けのtoolからclient-server構成へ押し上げている。こうした動きは、internal AI stackの使い勝手を大きく引き上げる。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2053316036661838107",
@@ -203,8 +204,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Benchmarks miss the real work of prompting",
-      "suggestedSummary": "He says benchmark scores only show what happens after a human has already done the hard part: finding the prompt that makes a model look good. That’s why he’s excited about Mythos — it looks capable, and the panic around it ignores how much expert human labor still sits between raw model power and useful output.",
+      "suggestedTitle": "ベンチマークはpromptingの本当の仕事を見逃している",
+      "suggestedSummary": "彼は、ベンチマークのスコアが示すのは、人間がすでに一番大変な部分を終えた後に起きることだけだと言う。つまり、モデルを良く見せるpromptを見つける作業だ。だからこそ彼はMythosに期待している。見た目どおり有能そうだし、そこへのパニックは、rawなモデル性能と実用的な出力の間に、いまもどれだけ専門的な人間の労力が挟まっているかを無視している。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2053203284165337237",
@@ -235,8 +236,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Governments are waking up to AI agents",
-      "suggestedSummary": "He says Singapore’s foreign minister is keynoting AIDotEngineer Singapore, with NanoClaw’s creator right after — a neat signal that governments are moving from AI curiosity to actual adoption. He frames it as proof that the international AI partnerships he’s been pushing are landing, with the UK’s Chief AI Officer and Singapore’s cabinet minister now both in the mix.",
+      "suggestedTitle": "政府がAI agentsに目を覚まし始めている",
+      "suggestedSummary": "彼によれば、Singaporeの外相がAIDotEngineer Singaporeで基調講演を行い、その直後にNanoClawのcreatorが登壇するという。政府がAIへの好奇心から実運用へ移りつつある、きれいなシグナルだと見る。彼はこれを、自分が押し進めてきた国際的なAI partnershipsが実を結びつつある証拠だと位置づける。UKのChief AI OfficerとSingaporeの閣僚も、いまや両方ともこの流れに加わっているという。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2053371077477507240",
@@ -259,47 +260,51 @@
       ],
       "publishedAt": "2026-05-10T07:06:29.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-10",
       "source": "Training Data",
-      "title": "ElevenLabs' Mati Staniszewski: How Voice Becomes the Interface for Everything",
+      "title": "ElevenLabsのMati Staniszewski: VoiceがあらゆるもののInterfaceになるまで",
       "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "suggestedTitle": "Voice is becoming the interface for AI—and trust is the moat",
-      "suggestedSummary": "**The Takeaway:** The real opportunity in audio isn’t just better speech synthesis; it’s making voice the trusted control layer for agents, devices, and services.\n\n- ElevenLabs won by entering audio early, staying lean, and monetizing fast instead of burning billions on a giant model bet.\n- The biggest near-term wins aren’t flashy consumer demos—they’re voice agents that remove friction in support, sales, government, education, and healthcare.\n- The hard problem isn’t only sounding human; it’s emotional intelligence, trust, and domain-specific reliability when agents start acting on your behalf.\n\nMati Staniszewski, cofounder of ElevenLabs, built the company with his childhood friend Piotr after growing up in Poland and noticing how bad dubbing was: foreign films were narrated by one monotone voice, no matter who was speaking. That annoyance turned into a thesis: people should be able to speak any language with the same emotion and intonation, and voice will eventually be the primary interface for a world full of software, devices, and robots.\n\nWhat’s striking is how unglamorous the company’s strategy was at the start. In 2022, audio was still a niche, so the team hired remotely, scraped GitHub for researchers, and shipped quickly enough to generate revenue before scaling the model work. As Mati put it, they focused on “figuring out that stream and be able to be independent.”\n\nThe product roadmap followed the workflow, not the hype: text-to-speech, speech-to-text, dubbing, real-time voice agents, and now music. But the next frontier is more subtle. The breakthrough won’t just be perfect cloning; it’s agents that can detect stress, slow down, reassure, interrupt, and adapt. That’s why he thinks trust will matter more than raw intelligence: “You will detect for real authenticated AI in the future and assume it’s fake.”\n\nFor founders, the lesson is simple: the moat in AI may not be the model alone—it’s the workflow, the data, and the trust layer around it.",
+      "suggestedTitle": "VoiceがAIのInterfaceになりつつある。そして信頼こそがmoatだ",
+      "suggestedSummary": "【要点】audioの本当の機会は、単なるspeech synthesisの改善ではない。voiceを、agents、devices、servicesを動かす信頼されたcontrol layerにすることだ。\n\n- ElevenLabsは、audioに早く入り、身軽さを保ち、巨大なmodelへの賭けで何十億ドルも燃やす前に素早く収益化したことで勝った。\n- 目先で最も大きい勝ち筋は、派手なconsumer demoではない。support、sales、government、education、healthcareの摩擦を減らすvoice agentsだ。\n- 難しいのは、人間らしく聞こえることだけではない。agentが本人の代わりに動くようになるときに必要な、emotional intelligence、trust、domain-specificなreliabilityだ。\n\nElevenLabsのcofounderであるMati Staniszewskiは、ポーランドで育ち、吹き替えのひどさに気づいたことから会社を立ち上げた。外国映画では、誰が話していても同じ単調な声でナレーションされていたのだ。その苛立ちがthesisになった。人はどんな言語でも同じemotionとintonationで話せるべきだ。そしてvoiceはいずれ、software、devices、robotsで満ちた世界の主要なinterfaceになる。\n\n際立っているのは、創業初期の戦略がまったく派手ではなかったことだ。2022年当時、audioはまだニッチだった。そこでチームはremoteで採用し、GitHubからresearchersを掘り出し、model workを大きくする前に収益を生むだけの速さでshipした。Matiの言葉を借りれば、彼らは「そのstreamを見つけて、自立できるようにすること」に集中していた。\n\nproduct roadmapはhypeではなくworkflowに沿って進んだ。text-to-speech、speech-to-text、dubbing、real-time voice agents、そして今はmusicだ。ただし次のfrontierはもっと繊細である。突破口は、完璧なcloningだけではない。stressを検知し、話す速度を落とし、安心させ、割り込み、状況に応じて適応できるagentsだ。だからこそ彼は、raw intelligenceよりtrustのほうが重要になると考えている。「将来、本物のauthenticated AIを見分けられるようになり、それ以外は偽物だとみなすようになる」\n\nfounderにとっての教訓は単純だ。AIのmoatはmodel単体ではない。workflow、data、そしてその周囲にあるtrust layerなのだ。",
       "publishedAt": "2026-05-08T17:05:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-10",
       "source": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
+      "title": "最近の Claude Code 品質レポートについてのアップデート",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "author": null,
-      "suggestedTitle": "Anthropic fixes three Claude Code regressions and resets limits",
-      "suggestedSummary": "Lead: Anthropic says recent quality complaints about Claude Code came from three separate product changes—not model degradation—and all have been fixed, with the API and inference layer unaffected.\n\nNumbers:\n- Three issues affected Claude Code, the Claude Agent SDK, and Claude Cowork on different timelines.\n- Fixes landed on April 10, April 20 (v2.1.116), and April 23 usage limits were reset for all subscribers.\n- A prompt ablation showed a 3% drop in evals for both Opus 4.6 and 4.7.\n\nSo What: The company is tightening release discipline around prompt changes, model-specific gating, broader evals, soak periods, and gradual rollouts so intelligence regressions are caught earlier. The practical takeaway for builders is that Claude Code’s defaults are back to higher-effort settings—“All users now default to xhigh effort for Opus 4.7, and high effort for all other models”—and Anthropic is expanding internal code review context to catch bugs like the caching issue that caused Claude to “seem forgetful and repetitive.”",
+      "suggestedTitle": "Anthropic が Claude Code の3つの regression を修正し、制限をリセット",
+      "suggestedSummary": "要点: Anthropic によると、Claude Code をめぐる最近の品質への不満は、model の劣化ではなく、3つの別々の product change に起因していた。いずれも修正済みで、API と inference layer には影響していない。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-10",
       "source": "Claude Blog",
-      "title": "New connectors in Claude for everyday life",
+      "title": "日常生活向けの新しいClaudeコネクタ",
       "url": "https://claude.com/blog/connectors-for-everyday-life",
       "author": null,
-      "suggestedTitle": "Claude adds everyday-life connectors for travel, shopping, and more",
-      "suggestedSummary": "**Lead:** Claude is expanding its connector ecosystem beyond work tools to include everyday apps like AllTrails, Instacart, Audible, Tripadvisor, TurboTax, Uber, and more, so users can do more inside a single conversation.\n\n**Numbers:**\n- Claude directory has grown to **200+ connectors** since launching in **July 2025**.\n- New connectors are available across **all plans**, with **mobile in beta**.\n\n**So What:** This turns Claude into a more useful action layer for daily life: it can suggest the right app based on your context, surface multiple relevant connectors when needed, and keep the workflow in-thread. Anthropic says, “Claude suggests connectors and makes recommendations. But you stay in control of its actions,” and it will ask before booking or purchasing on your behalf. Privacy remains a selling point: “Your data from that app isn’t used to train our models,” and connectors can be disconnected anytime. For builders, the takeaway is clear: if your product fits travel, shopping, finance, or local services, you can submit it to Claude’s directory and reach users where they already work and plan.",
+      "suggestedTitle": "Claudeが旅行、買い物などの日常生活向けコネクタを追加",
+      "suggestedSummary": "**要点:** Claudeは、仕事用ツールを超えてコネクタのエコシステムを広げている。AllTrails、Instacart、Audible、Tripadvisor、TurboTax、Uberなどの日常アプリを取り込み、1つの会話の中でより多くのことをこなせるようにする。\n\n**数字:**\n- Claude directoryは、**2025年7月**の開始以来、**200以上のコネクタ**に拡大した。\n- 新しいコネクタは**全プラン**で利用でき、**mobileはbeta**だ。\n\n**つまり:** Claudeは、日常生活で使えるより実用的なアクション層になりつつある。文脈に応じて適切なアプリを提案し、必要なら関連する複数のコネクタを表示し、ワークフローをスレッド内で完結させる。Anthropicは「Claude suggests connectors and makes recommendations. But you stay in control of its actions」と述べ、予約や購入を代行する前には確認を求めるという。プライバシーも売りだ。「Your data from that app isn’t used to train our models」としており、コネクタはいつでも切断できる。開発者にとっての示唆も明確だ。自社プロダクトが旅行、買い物、finance、local servicesに合うなら、Claudeのdirectoryに申請し、すでにユーザーが仕事や計画を進めている場所へ届けられる。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-10",
       "source": "Claude Blog",
-      "title": "Built-in memory for Claude Managed Agents",
+      "title": "Claude Managed Agentsの組み込みメモリ",
       "url": "https://claude.com/blog/claude-managed-agents-memory",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents gets built-in cross-session memory",
-      "suggestedSummary": "**Lead:** Claude Managed Agents now has public beta memory, letting agents learn across sessions through a filesystem-based layer that developers can export, manage via API, and control end to end.\n\n**Numbers:**\n- Rakuten says memory cut first-pass errors by **97%**.\n- Wisedocs reports verification is **30% faster**.\n- Memory supports **multiple agents** working concurrently against the same store with scoped access.\n\n**So What:** This turns Managed Agents into a stronger production option for long-running workflows: agents can retain useful context, share learnings, and avoid repeating mistakes without custom retrieval plumbing. Anthropic says the system is optimized so “**our latest models save more comprehensive, well-organized memories and are more discerning about what to remember**.” For builders, the practical upside is simpler state management with enterprise controls: read/write scopes, audit logs, rollback, redaction, and console-visible session events. Teams like Netflix, Rakuten, Wisedocs, and Ando are already using it to carry context forward, close feedback loops, and replace bespoke memory infrastructure.",
+      "suggestedTitle": "Claude Managed Agentsにセッション横断の組み込みメモリ",
+      "suggestedSummary": "**要点:** Claude Managed Agentsにpublic betaのmemoryが追加された。filesystemベースのレイヤーを通じて、agentはセッションをまたいで学習できる。開発者はそれをexportでき、API経由で管理でき、end to endで制御できる。\n\n**数字:**\n- Rakutenによると、memoryで初回の誤りが**97%**減った。\n- Wisedocsでは、verificationが**30%**速くなった。\n- memoryは、**複数のagent**が同じstoreに対して同時に動き、スコープ付きアクセスを使える。\n\n**意味すること:** これでManaged Agentsは、長時間動くワークフロー向けの本番選択肢としてさらに強くなる。agentは有用な文脈を保持し、学びを共有し、同じミスを繰り返さずに済む。custom retrievalの配線も不要だ。Anthropicは、このシステムが最適化されており、「**our latest models save more comprehensive, well-organized memories and are more discerning about what to remember**」と述べている。builderにとっての実利は、enterprise controls付きでstate管理が簡単になることだ。read/write scope、audit log、rollback、redaction、そしてconsoleで見えるsession eventがある。Netflix、Rakuten、Wisedocs、Andoのようなチームはすでにこれを使い、文脈を引き継ぎ、feedback loopを閉じ、独自のmemory infrastructureを置き換えている。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     }
@@ -309,6 +314,7 @@
     "totalTweets": 24,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-05-10T14:24:07.033Z"
+    "generatedAt": "2026-05-10T14:24:29.263Z",
+    "estimatedReadTime": "7 分"
   }
 }

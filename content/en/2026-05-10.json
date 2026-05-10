@@ -1,7 +1,8 @@
 {
   "date": "2026-05-10",
+  "lang": "en",
   "summary": "Altman said Codex made “work while I’m away” feel real. Steinberger said it was fixing terminals and reviewing PRs. Levie argued agents widened access, but experts still won; Peter Yang warned AI slop compounded fast if you stopped editing.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-05-10",
       "source": "X",
@@ -259,7 +260,9 @@
       ],
       "publishedAt": "2026-05-10T07:06:29.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-10",
       "source": "Training Data",
@@ -269,7 +272,9 @@
       "suggestedSummary": "**The Takeaway:** The real opportunity in audio isn’t just better speech synthesis; it’s making voice the trusted control layer for agents, devices, and services.\n\n- ElevenLabs won by entering audio early, staying lean, and monetizing fast instead of burning billions on a giant model bet.\n- The biggest near-term wins aren’t flashy consumer demos—they’re voice agents that remove friction in support, sales, government, education, and healthcare.\n- The hard problem isn’t only sounding human; it’s emotional intelligence, trust, and domain-specific reliability when agents start acting on your behalf.\n\nMati Staniszewski, cofounder of ElevenLabs, built the company with his childhood friend Piotr after growing up in Poland and noticing how bad dubbing was: foreign films were narrated by one monotone voice, no matter who was speaking. That annoyance turned into a thesis: people should be able to speak any language with the same emotion and intonation, and voice will eventually be the primary interface for a world full of software, devices, and robots.\n\nWhat’s striking is how unglamorous the company’s strategy was at the start. In 2022, audio was still a niche, so the team hired remotely, scraped GitHub for researchers, and shipped quickly enough to generate revenue before scaling the model work. As Mati put it, they focused on “figuring out that stream and be able to be independent.”\n\nThe product roadmap followed the workflow, not the hype: text-to-speech, speech-to-text, dubbing, real-time voice agents, and now music. But the next frontier is more subtle. The breakthrough won’t just be perfect cloning; it’s agents that can detect stress, slow down, reassure, interrupt, and adapt. That’s why he thinks trust will matter more than raw intelligence: “You will detect for real authenticated AI in the future and assume it’s fake.”\n\nFor founders, the lesson is simple: the moat in AI may not be the model alone—it’s the workflow, the data, and the trust layer around it.",
       "publishedAt": "2026-05-08T17:05:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-10",
       "source": "Anthropic Engineering",
@@ -309,6 +314,7 @@
     "totalTweets": 24,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-05-10T14:24:07.033Z"
+    "generatedAt": "2026-05-10T14:24:07.245Z",
+    "estimatedReadTime": "7 min"
   }
 }
