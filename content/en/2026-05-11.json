@@ -1,7 +1,8 @@
 {
   "date": "2026-05-11",
+  "lang": "en",
   "summary": "Levie argued AI agents needed real engineering, not side projects, while Anthropic shipped Managed Agents for long-horizon work. Dan Shipper said Codex turned a weekend hack into a 5-minute app, and No Priors called inference the real moat.",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-05-11",
       "source": "X",
@@ -169,7 +170,9 @@
       ],
       "publishedAt": "2026-05-10T17:13:07.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-11",
       "source": "No Priors",
@@ -179,7 +182,9 @@
       "suggestedSummary": "**The Takeaway:** The winners in AI won’t just own models — they’ll own the workflow, the data, and the compute behind inference.\n\n- Custom models are already the default at the frontier: Baseten says 90–95% of tokens on its platform are tied to modified models, not vanilla open-source weights.\n- The real moat isn’t “using AI,” it’s capturing unique user signal inside workflows — the kind labs can’t easily copy, like clinician edits or support resolution loops.\n- Compute scarcity is so real that capacity planning has become a daily operating problem, with contracts stretching to 3–5 years and high prepay just to secure GPUs.\n\nTuhin Srivastava, CEO of Baseten, is building in the middle of the AI inference crunch, and his worldview is blunt: the market is shifting from generic model access to specialized systems that learn from proprietary behavior. His bet is that application companies will endure because they own the signal that matters. As he puts it, the value sits in “the user signal that they can gather that only they can gather.”\n\nThat’s why he thinks companies like Abridge or support platforms can build durable advantages: the model is only part of the product; the workflow is where the compounding happens. Baseten’s own business reflects that shift. Most of its demand now comes from customers tuning models for quality, latency, or cost, and Srivastava says the company’s infrastructure and post-training teams are increasingly intertwined.\n\nThe other big lesson is that inference is no longer a software-only game. Baseten runs 90 clusters across 18 clouds and still operates at “mid nineties utilization” most of the time. Supply is tight, suppliers are uneven, and the best players will combine software, capital, and access to compute. In his view, the moat is simple: “access to inference computers is a strategic advantage.”",
       "publishedAt": "2026-05-01T19:34:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-11",
       "source": "Anthropic Engineering",
@@ -197,6 +202,7 @@
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-11T15:01:18.525Z"
+    "generatedAt": "2026-05-11T15:01:18.744Z",
+    "estimatedReadTime": "4 min"
   }
 }

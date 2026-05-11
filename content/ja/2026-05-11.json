@@ -1,7 +1,8 @@
 {
   "date": "2026-05-11",
-  "summary": "Levie argued AI agents needed real engineering, not side projects, while Anthropic shipped Managed Agents for long-horizon work. Dan Shipper said Codex turned a weekend hack into a 5-minute app, and No Priors called inference the real moat.",
-  "items": [
+  "lang": "ja",
+  "summary": "Levieは、AI agentsには片手間の試作ではなく、本物のengineeringが必要だと主張した。一方でAnthropicは、長期タスク向けのManaged Agentsを出した。Dan Shipperは、Codexで週末のhackが5分のappになったと語った。No Priorsは、inferenceこそが本当のmoatだと述べた。",
+  "builderInsights": [
     {
       "id": "levie-2026-05-11",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI agents need real engineering, not side projects",
-      "suggestedSummary": "He says once agents move beyond coding, they become mission-critical systems: they need the right context, secure integrations, human-in-the-loop design, and ongoing maintenance. That’s why Box is hiring for AI automation engineering roles — basically forward-deployed engineers for internal workflows — and he expects most companies to add similar jobs.",
+      "suggestedTitle": "AI agentsには本物のエンジニアリングが必要であり、片手間のプロジェクトではない",
+      "suggestedSummary": "彼は、agentがcodingを超えると、ミッションクリティカルなシステムになると言う。そこでは、適切なcontext、安全なintegration、人間が介在する設計、継続的なメンテナンスが必要だ。だからこそBoxは、AI automation engineeringの役割を採用している。要するに、社内ワークフロー向けのforward-deployed engineerだ。彼は、ほとんどの会社が同様の職種を追加すると見ている。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2053672965125140915",
@@ -29,8 +30,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Design is pain transmuted into product",
-      "suggestedSummary": "He says the highest form of design is turning human pain and suffering into something useful. It’s a very founder-ish take from the Y Combinator president: good design isn’t decoration, it’s compression of misery into clarity.",
+      "suggestedTitle": "デザインとは、痛みをプロダクトへと変えることだ",
+      "suggestedSummary": "彼は、デザインの最高形は人間の痛みや苦しみを、役に立つものへ変えることだと言う。Y Combinatorのpresidentらしい見方だ。良いデザインは飾りではない。苦痛を圧縮して、明快さに変えるものだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2053689459032379860",
@@ -61,8 +62,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "AI tooling for devs gets weirdly personal",
-      "suggestedSummary": "He’s turning his own workflow into an AI playground: OpenClaw now has a browser, a `/side` helper for parallel questions, and Codex wired into e2e testing. He also fed Birdclaw his full Twitter archive so he can query old tweets and bookmarks like a personal memory layer.",
+      "suggestedTitle": "AI tooling for devsが妙に個人的になってきた",
+      "suggestedSummary": "彼は自分のワークフローをAIの遊び場に変えている。OpenClawにはbrowserが入り、並列で質問するための`/side` helperも追加された。Codexはe2e testingに組み込まれている。さらにBirdclawには自分のTwitter archive全体を食わせた。これで昔のtweetsやbookmarksを、個人用のmemory layerのように検索できる。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2053744332675408151",
@@ -93,8 +94,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Codex turns a weekend hack into a 5-minute app",
-      "suggestedSummary": "He says a \"codex-native\" project let him plug in a MIDI keyboard, ask Codex for a watcher script and web app, and get a working chord trainer in about five minutes. The bigger point: AI coding is collapsing the gap between idea and usable tool, fast enough to make weekend projects feel trivial.",
+      "suggestedTitle": "Codexが週末ハックを5分のアプリに変える",
+      "suggestedSummary": "彼によれば、「codex-native」なプロジェクトでMIDI keyboardをつなぎ、Codexにwatcher scriptとweb appを頼んだところ、約5分で動く chord trainer ができたという。より大きなポイントは、AI codingがアイデアと実用ツールの差を急速に縮めていることだ。週末のプロジェクトが、もはや取るに足らないものに感じられる速さである。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2053628011233095875",
@@ -125,8 +126,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "title": "Thariq",
-      "suggestedTitle": "HTML is becoming a planning and review tool",
-      "suggestedSummary": "They've been using HTML for planning, specs, exploration, code review, and reports — basically turning the browser into a lightweight workspace. The sharper take: if you're not using HTML as a medium for thinking, you're probably leaving a lot on the table.",
+      "suggestedTitle": "HTMLは計画とレビューのツールになりつつある",
+      "suggestedSummary": "彼らはHTMLを、計画、spec、探索、code review、reportに使っている。要するに、browserを軽量なworkspaceに変えているのだ。より鋭い見方をすれば、HTMLを思考の媒体として使っていないなら、かなり多くを取りこぼしている可能性が高い。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2053632475294040084",
@@ -151,8 +152,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "ryOS now bridges into a retro PC",
-      "suggestedSummary": "They shipped an IRC bridge from ryOS to @levelsio’s retro PC, basically wiring two old-school worlds together. It’s a small but very on-brand Cursor design move: make software feel playful, connected, and a little weird in the best way.",
+      "suggestedTitle": "ryOSがレトロPCとつながった",
+      "suggestedSummary": "ryOSから@levelsioのレトロPCへIRCブリッジを実装した。要するに、2つのオールドスクールな世界をつないだ形だ。小粒だが、いかにもCursorらしいデザインの一手である。ソフトウェアを遊び心のあるものにし、つながりを感じさせ、いい意味で少し奇妙に見せる。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2053523744019427416",
@@ -169,25 +170,29 @@
       ],
       "publishedAt": "2026-05-10T17:13:07.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-11",
       "source": "No Priors",
-      "title": "Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud",
+      "title": "Baseten CEO Tuhin Srivastavaが語るAI inferenceの逼迫、custom models、そしてinference cloudの構築",
       "url": "https://www.youtube.com/watch?v=XAbKflCncDo",
-      "suggestedTitle": "Inference is becoming the real AI moat, not just model access",
-      "suggestedSummary": "**The Takeaway:** The winners in AI won’t just own models — they’ll own the workflow, the data, and the compute behind inference.\n\n- Custom models are already the default at the frontier: Baseten says 90–95% of tokens on its platform are tied to modified models, not vanilla open-source weights.\n- The real moat isn’t “using AI,” it’s capturing unique user signal inside workflows — the kind labs can’t easily copy, like clinician edits or support resolution loops.\n- Compute scarcity is so real that capacity planning has become a daily operating problem, with contracts stretching to 3–5 years and high prepay just to secure GPUs.\n\nTuhin Srivastava, CEO of Baseten, is building in the middle of the AI inference crunch, and his worldview is blunt: the market is shifting from generic model access to specialized systems that learn from proprietary behavior. His bet is that application companies will endure because they own the signal that matters. As he puts it, the value sits in “the user signal that they can gather that only they can gather.”\n\nThat’s why he thinks companies like Abridge or support platforms can build durable advantages: the model is only part of the product; the workflow is where the compounding happens. Baseten’s own business reflects that shift. Most of its demand now comes from customers tuning models for quality, latency, or cost, and Srivastava says the company’s infrastructure and post-training teams are increasingly intertwined.\n\nThe other big lesson is that inference is no longer a software-only game. Baseten runs 90 clusters across 18 clouds and still operates at “mid nineties utilization” most of the time. Supply is tight, suppliers are uneven, and the best players will combine software, capital, and access to compute. In his view, the moat is simple: “access to inference computers is a strategic advantage.”",
+      "suggestedTitle": "Inferenceはもはや単なるmodel accessではなく、AIの本当のmoatになりつつある",
+      "suggestedSummary": "**要点:** AIの勝者はmodelを持つだけではない。workflow、data、そしてinferenceを支えるcomputeまで握ることになる。\n\n- frontierではcustom modelsがすでに標準だ。Basetenによれば、同社プラットフォーム上のtokenの90〜95%は、素のopen-source weightsではなく、改変されたmodelに紐づいている。\n- 本当のmoatは「AIを使うこと」ではない。workflowの中で独自のuser signalを取り込むことだ。たとえば、clinicianの編集やsupportの解決ループのように、labsが簡単には真似できない信号である。\n- computeの不足は極めて深刻だ。capacity planningは日々の運用課題になっている。GPUを確保するためだけに、3〜5年契約や高額な前払いが必要な状況だ。\n\nBasetenのCEO、Tuhin Srivastavaは、AI inferenceの逼迫のど真ん中で事業を進めている。彼の見方は明快だ。市場は汎用的なmodel accessから、proprietaryな行動から学ぶspecialized systemsへ移っている。彼の賭けは、application companiesが生き残るというものだ。重要なsignalを握っているのが彼らだからである。彼の言葉を借りれば、価値は「彼らだけが集められるuser signal」に宿る。\n\nだからこそ、Abridgeやsupport platformのような企業は持続的な優位を築けると彼は考える。modelはproductの一部にすぎない。compoundingが起きるのはworkflowの中だ。Baseten自身の事業も、その変化を映している。現在の需要の大半は、quality、latency、costのためにmodelを調整したい顧客から来ている。Srivastavaによれば、同社のinfrastructureチームとpost-trainingチームはますます一体化している。\n\nもう1つの大きな教訓は、inferenceがもはやsoftwareだけの勝負ではないという点だ。Basetenは18のcloudにまたがって90のclusterを運用し、それでも大半の時間は「mid nineties utilization」を維持している。供給は逼迫し、供給元ごとの差も大きい。勝つのは、software、capital、computeへのアクセスを組み合わせられるプレイヤーだ。彼の見立ては単純である。「inference computersへのアクセスは戦略的優位だ。」",
       "publishedAt": "2026-05-01T19:34:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-11",
       "source": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Managed Agentsのスケーリング: brainとhandsの分離",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "author": null,
-      "suggestedTitle": "Anthropic launches Managed Agents for scalable long-horizon work",
-      "suggestedSummary": "Lead: Anthropic introduced Managed Agents, a hosted Claude Platform service that decouples the agent “brain” from its “hands” and session state so long-running workflows can scale, recover, and evolve without rewriting the whole harness.\n\nNumbers:\n- p50 time-to-first-token dropped roughly 60%.\n- p95 time-to-first-token dropped over 90%.\n- The architecture supports many brains and many hands, with containers provisioned only when needed.\n\nSo What: The key shift is architectural: the harness no longer lives inside the container, sessions are durable outside the runtime, and tools are accessed through narrow interfaces like `execute(name, input) -> string`, `wake(sessionId)`, and `getEvents()`. That means failures are isolated, credentials stay out of the sandbox, and Claude can connect to VPCs, Git repos, MCP tools, and other infrastructure without baking assumptions into the runtime. Anthropic frames this as a “meta-harness” built for “programs as yet unthought of,” and says the goal is to let future harnesses, sandboxes, and tools swap underneath Claude without breaking the system. For builders, the takeaway is to treat state, compute, and tools as separable interfaces—not one brittle container.",
+      "suggestedTitle": "Anthropicがスケーラブルな長期ワーク向けにManaged Agentsをリリース",
+      "suggestedSummary": "要点: AnthropicはManaged Agentsを導入した。これはホスト型のClaude Platformサービスで、agentの「brain」と「hands」、そしてsession stateを切り離す。これにより、長時間動くワークフローを、全体のharnessを書き直さずにスケールし、復旧し、進化させられる。\n\n数値:\n- p50のtime-to-first-tokenは約60%低下。\n- p95のtime-to-first-tokenは90%以上低下。\n- このアーキテクチャは、多数のbrainと多数のhandsを支える。containerは必要なときだけプロビジョニングされる。\n\nSo What: 重要な変化はアーキテクチャにある。harnessはもはやcontainerの中に存在しない。sessionはruntimeの外で永続化される。toolは `execute(name, input) -> string`、`wake(sessionId)`、`getEvents()` のような狭いインターフェース経由でアクセスされる。これにより、障害は局所化され、credentialはsandboxの外に保たれる。ClaudeはVPC、Git repo、MCP tool、その他のインフラにも、runtimeに前提を焼き付けずに接続できる。Anthropicはこれを「programs as yet unthought of」のための「meta-harness」と位置づけている。狙いは、将来のharness、sandbox、toolがClaudeの下で差し替わっても、systemを壊さないことだ。builderにとっての教訓は、state、compute、toolを壊れやすい単一のcontainerではなく、分離可能なインターフェースとして扱うことにある。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -197,6 +202,7 @@
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-11T15:01:18.525Z"
+    "generatedAt": "2026-05-11T15:01:35.408Z",
+    "estimatedReadTime": "4 分"
   }
 }
