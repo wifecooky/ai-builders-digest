@@ -1,7 +1,8 @@
 {
   "date": "2026-05-12",
+  "lang": "en",
   "summary": "Karpathy said to ask for HTML, not plain text. Cat Wu showed Claude Code with a terminal control plane, Swyx said realtime got a brutal upgrade, and No Priors argued AI rollups win by making service firms scale like software.",
-  "items": [
+  "builderInsights": [
     {
       "id": "karpathy-2026-05-12",
       "source": "X",
@@ -85,7 +86,9 @@
       ],
       "publishedAt": "2026-05-12T04:36:03.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-12",
       "source": "No Priors",
@@ -97,11 +100,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 6,
     "totalTweets": 12,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-12T14:53:49.148Z"
+    "generatedAt": "2026-05-12T14:53:49.361Z",
+    "estimatedReadTime": "3 min"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-05-12",
-  "summary": "Karpathy said to ask for HTML, not plain text. Cat Wu showed Claude Code with a terminal control plane, Swyx said realtime got a brutal upgrade, and No Priors argued AI rollups win by making service firms scale like software.",
-  "items": [
+  "lang": "zh",
+  "summary": "Karpathy 说，别要纯文本，要 HTML。Cat Wu 展示了带终端控制平面的 Claude Code。Swyx 说，realtime 直接迎来了一次狠升级。No Priors 则认为，AI rollups 的赢法，就是让服务公司像 software 一样扩张。",
+  "builderInsights": [
     {
       "id": "karpathy-2026-05-12",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "Ask for HTML, not plain text",
-      "suggestedSummary": "He says the easiest win with LLMs is to ask for HTML, then open it in a browser — suddenly the model can give you layout, interactivity, even slideshow-style output. Bigger picture: he thinks AI interfaces are moving from text to markdown to HTML, and eventually to interactive visual simulations, because vision is the natural output channel for humans.",
+      "suggestedTitle": "别要纯文本，直接要 HTML",
+      "suggestedSummary": "他说，和 LLMs 打交道最简单的一个提效点，就是直接让它输出 HTML，然后在浏览器里打开。这样一来，模型不仅能给你排版，还能做交互，甚至做成幻灯片那种输出。放到更大的图景里看，他觉得 AI 界面正在从 text 走向 markdown，再走向 HTML，最后会到可交互的视觉模拟。原因很简单：对人来说，vision 才是最自然的输出通道。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2053872850101285137",
@@ -29,8 +30,8 @@
       "authorHandle": "_catwu",
       "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "title": "Cat Wu",
-      "suggestedTitle": "Claude Code gets a terminal control plane",
-      "suggestedSummary": "They’re pushing `claude agents` as a control plane you can run from your terminal, with `&lt;-` letting any CLI session register back into it. The pitch is simple: manage all your Claude Code agents from one root directory, instead of juggling them across scattered shells and sessions.",
+      "suggestedTitle": "Claude Code 获得了一个 terminal control plane",
+      "suggestedSummary": "他们把 `claude agents` 推成一个可以直接从 terminal 里跑的 control plane，`<-` 还能让任何 CLI session 回连进去。思路很简单：把所有 Claude Code agents 都放在一个 root directory 里统一管理，不用在一堆分散的 shell 和 session 之间来回切换。",
       "tweets": [
         {
           "url": "https://x.com/_catwu/status/2053999857799672111",
@@ -61,8 +62,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Realtime just got a brutal upgrade",
-      "suggestedSummary": "He says @thinkymachines just \"framemogged\" Google DeepMind and OpenAI, and that everyone’s definition of realtime got a massive upgrade. The subtext: whatever they shipped is pushing the bar hard enough that even the big labs look slow by comparison.",
+      "suggestedTitle": "实时能力刚刚迎来一次狠升级",
+      "suggestedSummary": "他说 @thinkymachines 直接把 Google DeepMind 和 OpenAI 给“framemogged”了，而且大家对 realtime 的定义也被狠狠抬高了一档。潜台词很明显：他们这次发的东西把标准拉得太高，连大厂看起来都慢了一拍。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2054057995492061651",
@@ -85,23 +86,27 @@
       ],
       "publishedAt": "2026-05-12T04:36:03.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-12",
       "source": "No Priors",
-      "title": "Amex Global Business Travel: The World’s First AI Take Private with Long Lake CEO Alexander Taubman",
+      "title": "Amex Global Business Travel：Long Lake CEO Alexander Taubman 领衔的全球首个 AI take private",
       "url": "https://www.youtube.com/watch?v=g5TWnUjbeFM",
-      "suggestedTitle": "AI rollups win by making service firms grow like software",
-      "suggestedSummary": "**The Takeaway:** Long Lake’s bet is that AI isn’t mainly a cost-cutting tool—it’s a growth engine that turns sleepy service businesses into compounding machines.\n\n**Key Insights**\n- Long Lake built a horizontal AI layer called Nexus, with roughly 80% shared infrastructure across verticals, then customizes the last mile by mapping workflows, cleaning data, and wiring into each business.\n- The real edge isn’t selling software; it’s owning the company, because “deeper alignment” lets them change operations, retrain teams, and capture the business outcome instead of just shipping tools.\n- Their model is contrarian: AI gives employees “superpowers,” which raises retention, customer satisfaction, and revenue growth—so the goal is to pay people more, not fewer.\n\n**The Story**\nAlex Taubman, cofounder and CEO of Long Lake Management, is building an AI-native acquisition platform aimed at services businesses that have been under-optimized for decades. Long Lake has already completed around 30 acquisitions and recently announced a $6.3 billion take-private of American Express Global Business Travel, a 111-year-old franchise Taubman sees as a perfect fit for long-term AI transformation.\n\nHis philosophy is simple but sharp: buy businesses where AI can change the operating model, not just automate a few tasks. Nexus sits between the models and the business workflows, and Long Lake’s engineers work directly in the field with employees to find pain points and build tools around them. That tight loop matters because, as Taubman puts it, “AI is very, very underpenetrated”—and adoption only works when change management is built in.\n\nThe payoff is not just efficiency. In Long Lake’s HOA business, growth has reportedly jumped from 0–5% to 20%+ annually. The logic is that if AI makes teams 30–40% more productive, service firms can scale like software companies: higher margins, faster growth, better retention, and more attractive economics. Taubman’s long game is to be the best owner in each industry, then compound that advantage for decades.",
+      "suggestedTitle": "AI rollup 的赢法：把服务公司做出软件公司的增长曲线",
+      "suggestedSummary": "**核心结论：** Long Lake 的押注很明确：AI 不只是降本工具，更像增长引擎。它能把原本增长乏力的服务型业务，变成持续复利的机器。\n\n**关键洞察**\n- Long Lake 搭了一个横向的 AI 层，叫 Nexus。跨 vertical 复用大概 80% 的基础设施。最后一公里再按业务定制：梳理 workflow、清洗 data、接到各个系统里。\n- 真正的优势不只是卖 software，而是直接拥有公司。因为“更深的 alignment”让他们能改运营、重训团队，拿到业务结果，而不只是发工具。\n- 他们的模型很反直觉：AI 给员工“superpowers”，反而会提升 retention、customer satisfaction 和 revenue growth。所以目标不是少付人，而是让人赚更多。\n\n**故事**\nAlex Taubman 是 Long Lake Management 的 cofounder 和 CEO。他在做一个 AI-native 的 acquisition platform，目标是那些几十年都没被真正优化过的服务型公司。Long Lake 已经做了大约 30 笔收购。最近又宣布以 63 亿美元 take-private American Express Global Business Travel。Taubman 觉得这家有 111 年历史的公司，特别适合做长期 AI transformation。\n\n他的思路很直接：只买那些 AI 能改 operating model 的公司，而不是只自动化几个零散任务。Nexus 夹在 models 和业务 workflow 中间。Long Lake 的 engineers 也会直接下场，和一线员工一起找痛点，再围着这些痛点做工具。这个闭环很关键。Taubman 说得很直白：AI 的渗透率还非常低。只有把 change management 一起做进去， adoption 才会真的发生。\n\n回报不只是效率。在 Long Lake 的 HOA 业务里，增长据说已经从 0–5% 提升到每年 20%+。逻辑是：如果 AI 能让团队效率提升 30–40%，服务公司就能像 software 公司一样扩张。更高的 margin、更快的增长、更好的 retention，经济模型也会更好。Taubman 的长期打法，是先在每个行业里做到最好的 owner，然后把这个优势滚大，持续几十年。",
       "publishedAt": "2026-05-11T10:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 6,
     "totalTweets": 12,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-12T14:53:49.148Z"
+    "generatedAt": "2026-05-12T14:53:55.522Z",
+    "estimatedReadTime": "3 分钟"
   }
 }
