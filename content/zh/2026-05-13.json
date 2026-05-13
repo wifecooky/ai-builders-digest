@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-13",
+  "lang": "zh",
+  "summary": "Waymo 的胜出，在于把安全做成了产品本身，而不是拿来做取舍。Anthropic 给 Claude Code 上了 auto mode，推动更安全的免提示使用，同时把 agent loop 收得更紧。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-13",
+      "source": "Training Data",
+      "title": "Waymo 的 Dmitri Dolgov：2000 万次乘车与走向完全自动驾驶之路",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "suggestedTitle": "Waymo 把安全当成产品本身，而不是权衡项，所以赢了",
+      "suggestedSummary": "**核心结论：** Dmitri Dolgov 的优势很简单：不追 hype，盯住 long tail，从第一天起就把 safety 当成底座。\n\n- Waymo 不是靠 demo 赢的；它是硬扛过了最难的中间地带。真正“容易上手”的东西，最后都会变成极其难做的产品工作。\n- Dolgov 不认 end-to-end AI 和 structured systems 这种假二分。真正的答案是 end-to-end，再加上做 validation、simulation 和大规模 deployment 需要的那些额外 machinery。\n- 在 Waymo，safety 不是口号，而是 operating system。回报也很直接：超过 1.7 亿英里 fully autonomous miles，而且在它运营的城市里，据称比 human drivers 有 13 倍的 safety 优势。\n\nDmitri Dolgov 是 Waymo 的 co-founder，也长期负责技术方向。他做 autonomy 已经快二十年了，从 DARPA challenge 一路做到今天的 robotaxi fleet。这个故事与其说是天才灵光一现，不如说是持续堆出来的结果：在 Moscow 学 physics，后来因为一次像“开灯”一样的瞬间迷上 autonomy，然后花很多年把一个 research project 做成真正的 service。\n\n最让人印象深的是，他对进展一点都不浪漫。AV 的 boom-bust 周期没吓到他。每次突破都会带来一波乐观情绪，但不会把那些“long tail”的硬问题抹掉。他的答案不是转向，而是耐心。\"It’s not going to be an easy problem, but it’s a very important one,\" 他说。\n\n这种心态也体现在 Waymo 的 architecture 里。公司的 foundation model 同时驱动 driver、simulator 和 critic，把 multimodal sensing、world understanding 和 language 结合起来。但 Dolgov 说得很清楚：只靠 vanilla end-to-end，不足以支撑一个必须在真实世界里安全运行的系统。最后形成的 philosophy 其实挺老派：先赢得信任，持续验证，让 product 一英里一英里地证明自己。",
+      "publishedAt": "2026-05-04T20:05:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-05-13",
+      "source": "Anthropic Engineering",
+      "title": "Claude Code auto mode：更安全地跳过权限",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "author": null,
+      "suggestedTitle": "Anthropic 为 Claude Code 加上 auto mode，让无 prompt 使用更安全",
+      "suggestedSummary": "**重点：** Anthropic 推出了 **Claude Code auto mode**。它介于“每次都要点批准”和“完全跳过权限”之间。它用基于 model 的 classifier 来判断哪些 action 可以不用人工点击就直接跑。\n\n**数据：**\n- 手动 prompt 的接受率是 **93%**，这也带来了 approval fatigue。\n- 评估覆盖了 **10,000** 次真实内部 tool call、**52** 次真实的 overeager action，以及 **1,000** 次 synthetic exfiltration 尝试。\n- 完整 pipeline 的结果：真实流量上的 **0.4% FPR**，真实 overeager action 上的 **17% FNR**，synthetic exfiltration 上的 **5.7% FNR**。\n- 只看 Stage 1：真实 overeager action 上 **8.5% FPR**、**6.6% FNR**，synthetic exfiltration 上 **1.8% FNR**。\n\n**结论：** auto mode 是给那些想要更高 autonomy、但又不想把 guardrails 全关掉的 builder 准备的。安全的 read 和项目内 edit 会直接放行；有风险的 shell command、外部 fetch、跨边界 action 和破坏性操作，会交给 transcript classifier 处理。Anthropic 说，这套系统的目标是挡住“和 user intent 不一致的危险 action”，同时让日常 coding 跑得更快。公司还把 assistant text 和 tool output 从 classifier 里剥离，降低 prompt injection 风险；另外加了一个 server-side probe，发现 fetched content 可疑时会提醒 agent。实际用起来，它比 `--dangerously-skip-permissions` 安全得多，但 Anthropic 也说得很明确：它**不是**高风险 infrastructure 上人工仔细 review 的替代品。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 1,
+    "generatedAt": "2026-05-13T14:58:11.845Z",
+    "estimatedReadTime": "3 分钟"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-13",
+  "lang": "ja",
+  "summary": "Waymoは、安全をトレードオフではなく製品そのものにしたことで勝った。  \nAnthropicはClaude Codeにauto modeを投入し、より安全なノープロンプト運用を押し進め、agent loopを締めた。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-13",
+      "source": "Training Data",
+      "title": "WaymoのDmitri Dolgov: 2,000万回の乗車と完全自律への道",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "suggestedTitle": "Waymoは安全をトレードオフではなくプロダクトとして扱ったことで勝った",
+      "suggestedSummary": "**要点:** Dmitri Dolgovの強みは単純だ。 hypeを追わず、long tailを見据えて、day oneから安全を土台に据えることだ。\n\n- Waymoはデモを追いかけて勝ったのではない。始めやすい段階を抜けた先の、見た目は地味だが極めて難しいプロダクト開発をやり切って勝った。\n- Dolgovは、end-to-end AIと構造化されたシステムを切り分ける偽の二項対立を退ける。必要なのは、end-to-endに加えて、検証、simulation、大規模 deploymentに必要な追加の仕組みだ。\n- Waymoでは安全はスローガンではない。OSそのものだ。その成果は数字で示されている。170 million milesを超える完全自律走行と、運行都市における人間のドライバーに対する13倍の安全性だ。\n\nDmitri DolgovはWaymoの共同創業者であり、長年のtechnical leaderでもある。DARPA challengeから現在のrobotaxi fleetまで、ほぼ20年にわたって自律走行を作り続けてきた。彼の物語は天才的なひらめきよりも、粘り強い積み上げの話だ。モスクワでphysicsを学び、自律走行に「スイッチが入る瞬間」のように取り憑かれ、それから何年もかけてresearch projectを実際のサービスへ変えていった。\n\n際立つのは、進歩に対する彼の冷静さだ。AVブームとバストの周期は彼を驚かせなかった。ブレークスルーはいつも楽観を呼ぶが、難題のlong tailを消し去るわけではない。彼の答えは方向転換ではなく、忍耐だった。「簡単な問題にはならないが、非常に重要な問題だ」と彼は語った。\n\nその姿勢はWaymoのアーキテクチャにも表れている。同社のfoundation modelは、driver、simulator、criticを動かし、multimodal sensingとworld understanding、languageを融合する。だがDolgovは、現実世界で安全に動かなければならないシステムに、素のend-to-endだけでは足りないと明言する。結果として生まれたのは、ほとんど old-school にすら感じる思想だ。信頼を勝ち取り、徹底的に検証し、1 mileずつプロダクトに証明させるのである。",
+      "publishedAt": "2026-05-04T20:05:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-05-13",
+      "source": "Anthropic Engineering",
+      "title": "Claude Code auto mode: 権限を飛ばさずに済む、より安全な方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "author": null,
+      "suggestedTitle": "AnthropicがClaude Codeにauto modeを追加し、promptなし利用をより安全に",
+      "suggestedSummary": "**要点:** Anthropicは**Claude Code auto mode**をリリースした。常時approval promptを求める運用と、完全に危険な権限スキップの中間にある仕組みだ。model-based classifierを使い、人のクリックなしで実行してよいactionを判定する。\n\n**数値:**\n- 手動promptの受諾率は**93%**で、approval fatigueの一因になっている。\n- **10,000**件の実際の社内tool call、**52**件の実際の過剰なaction、**1,000**件のsynthetic exfiltration attemptで評価した。\n- 全体のpipeline結果は、実トラフィックで**0.4% FPR**、実際の過剰なactionで**17% FNR**、synthetic exfiltrationで**5.7% FNR**だった。\n- Stage 1単体では、実トラフィックで**8.5% FPR**、実際の過剰なactionで**6.6% FNR**、synthetic exfiltrationで**1.8% FNR**だった。\n\n**要するに:** auto modeは、guardrailを外さずにより高い自律性を求めるbuilder向けだ。安全なreadとproject内のeditはそのまま通す。一方で、危険なshell command、外部fetch、境界をまたぐaction、破壊的なoperationはtranscript classifierに回す。Anthropicによれば、このsystemは「user intentに合わない危険なaction」を止めつつ、日常的なcodingは速く進めるよう設計されている。さらに、classifierへのassistant textとtool outputを除去してprompt injection riskを下げ、server-side probeで、取得したcontentが怪しいときはagentに警告する。実運用では`--dangerously-skip-permissions`より安全な代替だが、Anthropicは高いリスクを伴うインフラでは、慎重な人手レビューの代わりにはならないと明言している。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 1,
+    "generatedAt": "2026-05-13T14:58:20.324Z",
+    "estimatedReadTime": "3 分"
+  }
+}

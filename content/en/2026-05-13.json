@@ -1,7 +1,9 @@
 {
   "date": "2026-05-13",
+  "lang": "en",
   "summary": "Waymo won by making safety the product, not the tradeoff. Anthropic shipped auto mode for Claude Code, pushing safer no-prompt use and tightening the agent loop.",
-  "items": [
+  "builderInsights": [],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-13",
       "source": "Training Data",
@@ -11,7 +13,9 @@
       "suggestedSummary": "**The Takeaway:** Dmitri Dolgov’s edge is simple: ignore hype, build for the long tail, and make safety the foundation from day one.\n\n- Waymo didn’t win by chasing demos; it won by grinding through the ugly middle, where “easy to get started” turns into brutally hard product work.\n- Dolgov rejects the fake split between end-to-end AI and structured systems: the real answer is end-to-end plus the extra machinery needed for validation, simulation, and deployment at scale.\n- Safety isn’t a slogan at Waymo; it’s the operating system, and the payoff is measurable: more than 170 million fully autonomous miles and a reported 13x safety advantage over human drivers in cities where it operates.\n\nDmitri Dolgov, Waymo’s co-founder and longtime technical leader, has been building autonomy for nearly two decades, from the DARPA challenge to today’s robotaxi fleet. His story is less about genius flashes than stubborn accumulation: learning physics in Moscow, getting hooked on autonomy as a “light switch moment,” then spending years turning a research project into a real service.\n\nWhat stands out is how unsentimental he is about progress. The AV boom-and-bust cycles didn’t surprise him; breakthroughs always create a rush of optimism, but they don’t erase the “long tail” of hard problems. His answer was patience, not pivoting. “It’s not going to be an easy problem, but it’s a very important one,” he said.\n\nThat mindset shows up in Waymo’s architecture too. The company’s foundation model powers the driver, simulator, and critic, blending multimodal sensing with world understanding and language. But Dolgov is clear that vanilla end-to-end isn’t enough for a system that has to operate safely in the real world. The result is a philosophy that feels almost old-school: earn trust, validate relentlessly, and let the product prove itself one mile at a time.",
       "publishedAt": "2026-05-04T20:05:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-13",
       "source": "Anthropic Engineering",
@@ -29,6 +33,7 @@
     "totalTweets": 0,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-13T14:58:06.050Z"
+    "generatedAt": "2026-05-13T14:58:06.260Z",
+    "estimatedReadTime": "3 min"
   }
 }
