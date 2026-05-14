@@ -1,7 +1,8 @@
 {
   "date": "2026-05-14",
+  "lang": "en",
   "summary": "Nikunj Kothari said VC had become consensus capital, Peter Yang blamed AI for overhiring hangovers, Training Data argued Suno turned music from passive listening into active creation, and Claude Blog shipped Managed Agents with dreaming, outcomes, and orchestration.",
-  "items": [
+  "builderInsights": [
     {
       "id": "nikunj-2026-05-14",
       "source": "X",
@@ -41,7 +42,9 @@
       ],
       "publishedAt": "2026-05-13T14:30:09.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-14",
       "source": "Training Data",
@@ -51,7 +54,9 @@
       "suggestedSummary": "**The Takeaway:** Suno’s real breakthrough is making creation the entertainment, not just the output.\n\n- Mikey Shulman didn’t set out to build a music company; he found an opening at the edge of physics, AI, and audio, then followed the fun when the early Discord bot unexpectedly took off.\n- His contrarian bet: music models should treat everything as sound, not as fixed musical rules, because hard-coding “knowledge” can trap creativity instead of expanding it.\n- The bigger thesis is cultural, not technical: AI won’t just make more music, it will make more people feel the payoff of making it—and that could reshape concerts, fandom, and even professional workflows.\n\nMikey Shulman is the founder and CEO of Suno, and his background is as unusual as the product: a Harvard physics PhD who ended up building one of the most novel consumer AI apps in the market. He says the lesson from physics was simple: “playing at the nexus of two things that don’t usually play together is just a massive opportunity.” In Suno’s case, that meant music and technology.\n\nThe company started with a wrong-but-useful assumption: good music generation was too hard. Then the team discovered they could compress audio efficiently enough to make it work, and the product’s early Discord release proved people didn’t just want to listen—they wanted to play. That insight still drives Suno. Shulman argues that music is uniquely social and emotionally loaded, and that AI can elevate it rather than cheapen it. “The entertaining part is being creative,” he says, and that’s why 90% of users create something on a given day.\n\nHe’s also blunt about the future: there won’t be a clean split between “AI music” and “real music.” Instead, AI becomes another tool in the stack, helping artists move faster, find new sounds, and deepen fan connection. The goal isn’t a better streaming app. It’s a new format for participation.",
       "publishedAt": "2026-05-13T18:55:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-14",
       "source": "Claude Blog",
@@ -69,6 +74,7 @@
     "totalTweets": 3,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-14T14:49:49.222Z"
+    "generatedAt": "2026-05-14T14:49:49.448Z",
+    "estimatedReadTime": "3 min"
   }
 }

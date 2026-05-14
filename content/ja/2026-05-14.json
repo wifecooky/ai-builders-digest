@@ -1,0 +1,80 @@
+{
+  "date": "2026-05-14",
+  "lang": "ja",
+  "summary": "Nikunj Kothariは、VCがconsensus capitalになったと述べた。Peter Yangは、AIがoverhiringのhangoverを招いたと非難した。Training Dataは、Sunoがmusicを受動的なlisteningから能動的なcreationへ変えたと論じた。Claude Blogは、dreaming、outcomes、orchestrationを備えたManaged Agentsを公開した。",
+  "builderInsights": [
+    {
+      "id": "nikunj-2026-05-14",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "VCは今やコンセンサス資本だ",
+      "suggestedSummary": "彼は、ventureはコンセンサス資本になったと言う。Founderになること自体が目的なら、rejectは存在を揺るがすものに感じる。だが、何かに取り憑かれているなら、ただのフィードバックにすぎない。彼の見方では、本当のふるいは、そもそも始めるのに世界の承認が必要かどうかだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2054599845214650442",
+          "text": "If you needed a signal that VC has truly become consensus capital, then this is the sign.. \n\nIf you are a founder for the sake of being a founder, then this will resonate since you NEED capital to run your business.\n\nIf you are obsessed and don't care what the world thinks, then you'll treat each rejection as potential learning - but NOT a verdict on why you shouldn't start that company.",
+          "likes": 159,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-05-13T16:29:10.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-05-14",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "Peter Yang",
+      "suggestedTitle": "AIは過剰採用の後遺症のスケープゴートだ",
+      "suggestedSummary": "彼によれば、「AIが働き方を変えた」というレイオフ通知の多くは、もっと単純な話に言い換えられる。ゼロ金利ブームで企業が採用を膨らませすぎ、今はそのツケをコスト削減で払っているだけだという。さらに、Q1だけで8万件超のtechレイオフがあったと指摘し、従業員が主導権を取り戻す6つの方法も挙げている。",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2054569893060809151",
+          "text": "Tell me if you've seen this before:\n\n\"Today is a hard day. We've made the difficult decision to cut 1,000+ employees. Our business has never been stronger, but AI has changed how we work...\"\n\nWhenever I read one of these, I mentally translate it to what's actually happening:\n\n\"Today is a hard day. We overhired during the zero-interest era and need to cut costs. AI is easy to blame, so…\"\n\nOver 80,000 tech employees were laid off in Q1, the highest since 2022-23.\n\nHere's my rant why these layoffs keep happening and 6 ways to take back control as an employee.\n\n📌 Read now: https://t.co/LGgVeVAE4t",
+          "likes": 60,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-05-13T14:30:09.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-14",
+      "source": "Training Data",
+      "title": "SunoのMikey Shulman: 誰もが今や音楽を作れる",
+      "url": "https://www.youtube.com/watch?v=Jq3BIGz4vXQ",
+      "suggestedTitle": "Sunoは音楽を受動的な視聴から能動的な創作へ変える",
+      "suggestedSummary": "**要点:** Sunoの本当のブレークスルーは、出力そのものではなく、創作をエンターテインメントにしたことだ。",
+      "publishedAt": "2026-05-13T18:55:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpsclaudec-2026-05-14",
+      "source": "Claude Blog",
+      "title": "Claude Managed Agentsに新機能: dreaming、outcomes、multiagent orchestration",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "author": null,
+      "suggestedTitle": "Claude Managed Agentsにdreaming、outcomes、orchestrationを追加",
+      "suggestedSummary": "**要点:** ClaudeはManaged Agentsで**dreaming**をresearch previewとして公開し、**outcomes**、**multiagent orchestration**、**webhooks**を追加する。これにより、agentは過去の作業から学び、rubricに照らして自己チェックし、複雑なjobをspecialistに分担できる。\n\n**数値:**\n- Outcomesは、標準的なprompting loopと比べてtask successを**最大10ポイント**改善した。\n- File生成のqualityは、internal benchmarkで**docxで+8.4%**、**pptxで+10.1%**改善した。\n- Harveyはtestでcompletion rateが**約6倍**になったと報告した。\n- Wisedocsはreviewが**50%高速化**したとしている。\n\n**意味するところ:** builderにとって、これはagentのreliabilityとscaleを大きく引き上げるアップデートだ。dreamingはsessionをまたいで有用なpatternを保持し、洗練する助けになる。outcomesは、retryを発火できるrubricベースのevaluation loopを提供する。multiagent orchestrationは、lead agentがClaude Consoleで完全なtraceabilityを保ちながら、parallelなspecialistにworkを委任できるようにする。記事の言葉を借りれば、「**Agents do their best work when they know what ‘good’ looks like.**」だ。長期実行のworkflowや高リスクのworkflowを作るなら、当面の打ち手は明確なsuccess criteriaを定義し、completion用のwebhooksを組み込み、1つのagentで全体をうまく担えないときにorchestrationを使うことだ。",
+      "publishedAt": "May 06, 2026",
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 3,
+    "totalTweets": 3,
+    "totalPodcasts": 1,
+    "totalBlogs": 1,
+    "generatedAt": "2026-05-14T14:50:02.183Z",
+    "estimatedReadTime": "3 分"
+  }
+}
