@@ -1,7 +1,8 @@
 {
   "date": "2026-05-15",
+  "lang": "en",
   "summary": "Altman landed Codex in ChatGPT mobile, Rauch made Terminal AI spit out images, and Amjad Masad turned any site into a free mobile app. Meanwhile, Peter Yang said hackathons now mean waiting on agents, and Peter Steinberger saw AI ship the feature then fail the review.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-05-15",
       "source": "X",
@@ -329,7 +330,9 @@
       ],
       "publishedAt": "2026-05-14T20:56:42.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-15",
       "source": "The MAD Podcast with Matt Turck",
@@ -341,11 +344,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-15T14:46:52.140Z"
+    "generatedAt": "2026-05-15T14:46:52.357Z",
+    "estimatedReadTime": "6 min"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-05-15",
-  "summary": "Altman landed Codex in ChatGPT mobile, Rauch made Terminal AI spit out images, and Amjad Masad turned any site into a free mobile app. Meanwhile, Peter Yang said hackathons now mean waiting on agents, and Peter Steinberger saw AI ship the feature then fail the review.",
-  "items": [
+  "lang": "zh",
+  "summary": "Altman 把 Codex 接进了 ChatGPT mobile，Rauch 让 Terminal AI 直接吐图，Amjad Masad 则把任何网站都变成了免费的 mobile app。与此同时，Peter Yang 说，现在的 hackathon 其实就是在等 agents 跑完；Peter Steinberger 则看到 AI 把功能做出来了，却没过 review。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-15",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "Codex lands in ChatGPT mobile",
-      "suggestedSummary": "He says Codex is now in the ChatGPT mobile app, which is a pretty direct signal that OpenAI wants coding help to feel native everywhere, not just in a desktop workflow. The other post is just a link with no extra context, so the only real takeaway here is the mobile rollout.",
+      "suggestedTitle": "Codex 登陆 ChatGPT mobile",
+      "suggestedSummary": "他说 Codex 现在已经进了 ChatGPT mobile app。这很直接地说明，OpenAI 想让 coding help 在所有场景里都像原生功能一样存在，而不只是 desktop workflow 里的一个工具。另一条 post 只是个链接，没有额外上下文。所以这里真正值得注意的，就是这次 mobile rollout。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2055034714231345475",
@@ -35,8 +36,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Terminal AI now spits out images too",
-      "suggestedSummary": "You can render images straight in the terminal with `ai-cli`, then tap into image, video, and text models through Vercel AI Gateway. It’s a neat little demo, but the real point is bigger: Vercel is pushing AI access into the same fast path developers already use for everything else.",
+      "suggestedTitle": "Terminal 里的 AI 现在也能直接吐图了",
+      "suggestedSummary": "你可以用 `ai-cli` 直接在 terminal 里渲染图片，再通过 Vercel AI Gateway 接入 image、video 和 text models。这个 demo 本身挺小巧，但重点不在这儿：Vercel 正在把 AI access 塞进开发者早就习惯的那条 fast path 里，和其他工具走同一套流程。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2055103533754818769",
@@ -61,8 +62,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI hackathons now mean waiting on agents",
-      "suggestedSummary": "He says AI hackathons have turned into a weirdly passive experience: you spend half the time waiting for agents to do the work. He also warns that letting AI generate screens without a design system or reusable components quickly turns into slop — basically, designers were right all along.",
+      "suggestedTitle": "现在的 AI hackathon，基本都在等 agent 干活",
+      "suggestedSummary": "他说，AI hackathon 现在变得有点被动：一半时间都在等 agent 把活干完。他还提醒，别让 AI 在没有 design system 或可复用 components 的情况下直接生成界面，不然很快就会变成一团 slop。说白了，设计师一开始就是对的。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2055093015304396986",
@@ -93,8 +94,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI is already a default workplace habit",
-      "suggestedSummary": "He says the real signal that a company is getting \"agent-pilled\" is whether leadership uses Codex, Claude Code, or Cowork every day. He’s been quietly helping top tech companies get exec teams deep into those tools, and the barber-chair anecdote — crypto trading with Claude, jiu-jitsu with Gemini, 1,300 Claude seats — makes the adoption curve feel very real.",
+      "suggestedTitle": "AI 已经成了默认的工作习惯",
+      "suggestedSummary": "他说，一家公司是不是真的开始“agent-pilled”，关键看管理层是不是每天都在用 Codex、Claude Code 或 Cowork。过去一段时间，他一直在低调帮一些顶级科技公司把高管团队深度带进这些工具里。那个理发椅上的故事——用 Claude 做 crypto trading、用 Gemini 学 jiu-jitsu、1,300 个 Claude seats——也让这波 adoption 曲线显得特别真实。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2055030691180503152",
@@ -125,8 +126,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI blurs roles, then makes specialists stronger",
-      "suggestedSummary": "He says AI is temporarily jamming up job boundaries — PMs can mock up launches, engineers can think more about business, GTM can ship more of the workflow. But his bet is the dust settles back into specialization, just with much higher leverage for true experts and a better toolchain around them. The other jab: a year of agent scaffolding can get wiped out by one model update.",
+      "suggestedTitle": "AI 先把角色边界搅乱，再让专家更强",
+      "suggestedSummary": "他说，AI 现在会暂时打乱岗位边界。PM 可以先把 launch 原型搭出来，engineer 会更多去想 business，GTM 也能把更多 workflow 直接做掉。但他的判断是，等尘埃落定，还是会回到 specialization，只是真正的专家杠杆会高很多，周边 toolchain 也会更顺手。还有个扎心点：一年的 agent scaffolding，可能被一次 model update 直接清空。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2055143231625818554",
@@ -151,8 +152,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit turns any site into a free mobile app",
-      "suggestedSummary": "He says you can import a website built anywhere else into Replit and get a free mobile app — a pretty aggressive funnel for pulling vibe-coded projects into his platform. He also says Replit just got back into the App Store after four months of Apple wrangling, with more updates coming.",
+      "suggestedTitle": "Replit 把任何网站都变成免费 mobile app",
+      "suggestedSummary": "他说，你可以把在别处做好的 website 导入 Replit，然后直接拿到一个免费的 mobile app。这个 funnel 很猛，基本就是把 vibe-coded 项目往他的平台里拉。他还说，Replit 刚在和 Apple 周旋了四个月后重新回到 App Store，后面还会继续更新。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2055185058282226146",
@@ -177,8 +178,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "NIMBYs are blocking the power buildout",
-      "suggestedSummary": "He’s hammering the anti-datacenter crowd, arguing the real issue isn’t energy, water, or jobs — it’s local politics choking off infrastructure. The YC chief is basically saying markets should decide where power and compute get built, not loud opposition.",
+      "suggestedTitle": "NIMBY 正在卡住电力扩建",
+      "suggestedSummary": "他在猛批反 datacenter 的那帮人，认为真正的问题不是能源、水，或者工作岗位，而是地方政治把基础设施建设卡死了。YC 负责人基本是在说，power 和 compute 应该由市场决定建在哪，不该被高声反对的人左右。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2055155189766865028",
@@ -209,8 +210,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Blogs die when nobody owns the words",
-      "suggestedSummary": "He argues company blogs go stale the moment they sound like they came from “the team” instead of a real person. The fix is simple: give named individuals ownership, because accountability is what keeps the writing alive.",
+      "suggestedTitle": "没人负责，博客就会死",
+      "suggestedSummary": "他认为，公司博客一旦听起来像是“团队”写的，而不是某个真实的人写的，就会立刻变得没劲。解决办法很简单：把内容交给有名字的人负责。因为只有有人担责，写作才会一直有生命力。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2055113979857703350",
@@ -241,8 +242,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "AI shipped the feature, then failed the review",
-      "suggestedSummary": "He built a new media-storage feature into Discrawl, had Codex declare it done, then ran his own Codex review skill and caught the gaps. That’s the real workflow shift here: AI can get you to “done” fast, but human review still decides whether it’s actually shippable.",
+      "suggestedTitle": "AI 把 feature 做出来了，但 review 没过",
+      "suggestedSummary": "他给 Discrawl 加了一个新的 media-storage feature，让 Codex 直接判定完成。然后他自己跑了一遍 Codex review skill，结果把漏掉的问题都揪出来了。真正的 workflow 变化在这：AI 能很快把你推到“done”，但最后能不能 ship，还是得看人来 review。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2055209490887119098",
@@ -273,8 +274,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Data walls are becoming a liability",
-      "suggestedSummary": "He says big companies with data walls need to go headless or risk fading out. His take: agent usage will dwarf human usage, so systems built only for people are leaving most of the value on the table.",
+      "suggestedTitle": "数据墙正在变成负担",
+      "suggestedSummary": "他说，手握数据墙的大公司要么转向 headless，要么就会慢慢掉队。他的判断是：agent 的使用量会远远超过人类使用量，所以只给人设计的系统，等于把大部分价值都留在了桌上。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2055165509700927541",
@@ -305,8 +306,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "A 9-month-old voice startup is already winning",
-      "suggestedSummary": "He says @GradiumAI is already trouncing the voice AI field on third-party TTS benchmarks — beating OpenAI, ElevenLabs, Cartesia, and Deepgram. That’s a loud signal that the voice stack is still very much up for grabs, even with the big names in place.",
+      "suggestedTitle": "一家成立 9 个月的 voice startup 已经开始赢了",
+      "suggestedSummary": "他说，@GradiumAI 在第三方 TTS benchmarks 上已经把 voice AI 领域甩开了，连 OpenAI、ElevenLabs、Cartesia 和 Deepgram 都压过去了。这说明一个很明确的信号：voice stack 这块现在还远没定局，哪怕大厂都已经入场了。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2055029560882663884",
@@ -329,23 +330,27 @@
       ],
       "publishedAt": "2026-05-14T20:56:42.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-15",
       "source": "The MAD Podcast with Matt Turck",
-      "title": "Why Every AI Agent Needs Its Own Computer | Ivan Burazin (Daytona)",
+      "title": "为什么每个 AI agent 都需要自己的电脑 | Ivan Burazin (Daytona)",
       "url": "https://www.youtube.com/watch?v=kMXJrzAa5fM",
-      "suggestedTitle": "Every agent needs a machine, not just a model",
-      "suggestedSummary": "**The Takeaway:** Agents stop being toys the moment you give them their own computer, permissions, and isolation.\n\n- Sandboxes are not just security wrappers; they’re the actual execution environment for digital knowledge workers.\n- The old cloud stack was built for stateless apps, but agents are stateful, long-running, and often need concurrency.\n- The real bottleneck isn’t the model anymore — it’s memory, tool access, and whether the agent can safely act in the real world.\n\nIvan Burazin, CEO of Daytona, has spent years building developer infrastructure, first in cloud IDEs and now in agent sandboxes. His core thesis is blunt: “every agent will need at least one sandbox, sometimes more.” Why? Because if an agent is supposed to do real work — fetch bank data, run scripts, browse the web, or operate across multiple steps — it needs a machine the way a human worker needs a laptop.\n\nThat’s why he rejects the idea of running serious agents on your own laptop. It breaks security, kills concurrency, and makes long-running work fragile. His bank-data example is telling: Claude asked him to “log in and give me access,” and that was the moment the whole setup failed. The fix was to give the agent its own Daytona account, its own phone number for 2FA, and tightly scoped permissions. The point isn’t trust; it’s containment.\n\nBurazin also draws a sharp line between the pieces of the agent stack: models are the brain, tools are the hands, memory is still messy, and orchestration is basically management. The big frontier labs are bundling more of this together, but Daytona’s bet is that the sandbox remains the execution layer underneath it all. The deeper insight: agents don’t just need intelligence — they need infrastructure that lets them work like employees without becoming liabilities.",
+      "suggestedTitle": "每个 agent 需要的是一台机器，不只是一个 model",
+      "suggestedSummary": "**核心结论：** 一旦你给 agent 配上自己的电脑、权限和隔离，它就不再是玩具了。\n\n- sandbox 不只是安全壳，它本身就是数字知识工作者的执行环境。\n- 旧的 cloud stack 是给无状态 app 设计的，但 agent 是有状态、长时间运行的，而且经常需要并发。\n- 真正的瓶颈早就不是 model 了，而是 memory、tool access，以及 agent 能不能安全地在真实世界里做事。",
       "publishedAt": "2026-05-14T11:30:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-15T14:46:52.140Z"
+    "generatedAt": "2026-05-15T14:47:04.183Z",
+    "estimatedReadTime": "6 分钟"
   }
 }
