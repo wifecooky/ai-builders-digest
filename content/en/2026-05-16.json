@@ -1,7 +1,8 @@
 {
   "date": "2026-05-16",
+  "lang": "en",
   "summary": "Steinberger called AI agents the new code review team, while Rauch said they amplify output but fundamentals still win. Dan Shipper pushed Codex-native apps over wrappers, and Swyx said Codex looked like agentic Excel.",
-  "items": [
+  "builderInsights": [
     {
       "id": "steipete-2026-05-16",
       "source": "X",
@@ -271,7 +272,9 @@
       ],
       "publishedAt": "2026-05-15T23:20:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-16",
       "source": "Unsupervised Learning",
@@ -283,11 +286,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 11,
     "totalTweets": 26,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-16T14:26:38.547Z"
+    "generatedAt": "2026-05-16T14:26:38.762Z",
+    "estimatedReadTime": "5 min"
   }
 }

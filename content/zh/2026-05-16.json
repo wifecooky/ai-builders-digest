@@ -1,7 +1,8 @@
 {
   "date": "2026-05-16",
-  "summary": "Steinberger called AI agents the new code review team, while Rauch said they amplify output but fundamentals still win. Dan Shipper pushed Codex-native apps over wrappers, and Swyx said Codex looked like agentic Excel.",
-  "items": [
+  "lang": "zh",
+  "summary": "Steinberger 把 AI agents 叫作新的 code review 团队；Rauch 说它们能放大产出，但底层基本功还是最重要。Dan Shipper 更推 Codex-native apps，而不是 wrappers；Swyx 则说 Codex 看起来像一个 agentic Excel。",
+  "builderInsights": [
     {
       "id": "steipete-2026-05-16",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "AI agents are the new code review team",
-      "suggestedSummary": "He says OpenClaw is being built around a simple bet: if tokens stop mattering, software gets made by swarms of agents instead of humans doing every review. They’re already running ~100 Codex instances across PRs, security checks, issue triage, benchmark regressions, and even auto-PRs when a change fits the product vision. He also shipped clawpatch 0.1.0, which slices codebases into semantic chunks to find bugs and validate fixes.",
+      "suggestedTitle": "AI agents 是新的 code review team",
+      "suggestedSummary": "他说，OpenClaw 的思路很简单：如果 token 不再是关键，软件就会由一群 agent 来做，而不是人一条条 review。现在他们已经在 PR、security checks、issue triage、benchmark regressions，甚至自动发 PR 上跑了大约 100 个 Codex instance。只要某个 change 符合 product vision，他们就会直接提 PR。他还发布了 clawpatch 0.1.0。它会把 codebase 切成 semantic chunks，用来找 bug 并验证修复。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2055405041843052792",
@@ -41,8 +42,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Agents amplify output, but fundamentals still win",
-      "suggestedSummary": "He says the real edge isn’t just managing agents — it’s pairing that with deep fundamentals. That combo makes you hard to beat: agents can multiply output, but craft still decides whether the output is actually good.\n\nHe also pushed Vercel as the place where those agents can deploy safely, with SSO-protected apps and a simple `vercel`/`vc` curl flow to keep them moving inside the ecosystem.",
+      "suggestedTitle": "Agents 能放大产出，但基本功还是王道",
+      "suggestedSummary": "他觉得，真正的优势不只是会管 agents，而是把这件事和扎实的基本功配在一起。这个组合很难被打败：agents 可以把产出放大，但最后产出到底好不好，还是看手艺。\n\n他也把 Vercel 推成了一个适合让这些 agents 安全部署的地方。配上 SSO 保护的 app，再加上简单的 `vercel`/`vc` curl 流程，就能让它们继续在这个生态里跑下去。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2055491454307582454",
@@ -74,7 +75,7 @@
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
       "suggestedTitle": "Codex-native apps beat generic AI wrappers",
-      "suggestedSummary": "He says codex-native apps are the future, and the bigger point is that platform layers on top of fast-moving AI tools are a brutal place to live. In his deep-dive on building an agent-as-a-service on OpenClaw, he argues one company-wide super-agent beats a pile of individual agents — but only if someone owns making it work for everyone.",
+      "suggestedSummary": "他认为，codex-native apps 才是未来。更关键的是，叠在快速变化的 AI tools 上面的 platform layer，生存环境非常残酷。 在他对 OpenClaw 上构建 agent-as-a-service 的深度拆解里，他主张：一个公司级 super-agent 比一堆单独的 agents 更强。 但前提是，得有人真正负责把它做成所有人都能用的东西。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2055451869841965154",
@@ -105,8 +106,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI needs vendors to stay in the loop",
-      "suggestedSummary": "He says AI isn’t like normal software: the product keeps changing, the models keep changing, and customers need ongoing help to keep workflows working. That’s why forward-deployed engineering becomes a core capability for AI vendors — they can spread best practices across thousands of companies and feed the learnings back into the product. He also tosses out a blunt thesis: headless software is where this is headed.",
+      "suggestedTitle": "AI 需要 vendors 持续在场",
+      "suggestedSummary": "他说，AI 不像普通 software。产品在变，models 也在变。客户还得持续有人帮忙，workflow 才能跑得通。所以，forward-deployed engineering 会变成 AI vendors 的核心能力。它们能把 best practices 扩散到成千上万家公司，再把这些经验反哺回产品。他还直接给了个判断：headless software 就是这个方向。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2055501840419328286",
@@ -131,8 +132,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Anti-business taxes just hit consumers",
-      "suggestedSummary": "He argues the so-called Overpaid CEO tax doesn’t touch CEOs at all — it just gets passed through to consumers and leaves cities with less revenue. He’s framing it as the same kind of self-defeating policy as California’s asset seizure tax: politically popular, economically worse.",
+      "suggestedTitle": "反商业税最后都转嫁给了消费者",
+      "suggestedSummary": "他认为，所谓的 Overpaid CEO tax 根本碰不到 CEO，只会被转嫁到消费者身上，还会让城市少收税。他把这类政策看成和 California 的 asset seizure tax 一样：政治上讨喜，经济上却是在自毁。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2055446378596474891",
@@ -163,8 +164,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "ChatGPT Finances is useful, but still mislabels spending",
-      "suggestedSummary": "He says ChatGPT Finances is pretty awesome for checking money stuff, but the transaction classification is still shaky. He also flags privacy concerns around model training and ad targeting, which is the real tradeoff lurking behind these “improve the model for everyone” toggles.",
+      "suggestedTitle": "ChatGPT Finances 很实用，但消费分类还是不准",
+      "suggestedSummary": "他觉得 ChatGPT Finances 用来查钱相关的东西挺好用，但交易分类还是不太稳。他也提到 model training 和 ad targeting 里的隐私问题，这才是那些“为所有人改进 model”开关背后真正的取舍。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2055450577094738018",
@@ -195,8 +196,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Codex is morphing into agentic Excel",
-      "suggestedSummary": "He says Codex looks totally different from just 3 months ago — enough that it now feels like “agentic Excel on Mac.” The bigger tell: OpenAI’s team is going extreme founder mode on the product, and the roadmap hints are getting louder.",
+      "suggestedTitle": "Codex 正在变成 agentic Excel",
+      "suggestedSummary": "他说，Codex 跟 3 个月前已经完全不是一个东西了。现在看起来，像是 Mac 上的 “agentic Excel”。更关键的是，OpenAI 团队在产品上已经进入了极致的 founder mode，而且 roadmap 的信号也越来越明显。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2055494400252481687",
@@ -227,8 +228,8 @@
       "authorHandle": "realmadhuguru",
       "authorBio": "Product Leader at Google - Gemini, Veo, Nano Banana. All opinions mine.",
       "title": "Madhu Guru",
-      "suggestedTitle": "AI PMs must invent, not follow playbooks",
-      "suggestedSummary": "They argue a whole generation of PMs is stuck because they were trained to execute frameworks, not invent new product patterns. In AI, there aren’t stable playbooks to recycle — and you won’t A/B test your way to a breakthrough product. The takeaway: PMs need to unlearn the old muscle memory and start acting like inventors.",
+      "suggestedTitle": "AI PMs 必须发明，而不是照着 playbook 走",
+      "suggestedSummary": "他们认为，整整一代 PM 卡住了，因为他们受的训练是执行 framework，而不是发明新的 product pattern。在 AI 里，没有现成的稳定 playbook 可以反复套用。你也不可能靠 A/B test 试出一个突破性的 product。结论很直接：PM 需要忘掉旧的肌肉记忆，开始像发明者一样思考和行动。",
       "tweets": [
         {
           "url": "https://x.com/realmadhuguru/status/2055414865146327088",
@@ -247,8 +248,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "/goal looks like AGI with the right tools",
-      "suggestedSummary": "He says /goal chewed through 2k+ database items, fixed product images and frontend bugs, used browser/web search for live fact-checking, and even wrote scripts for future work — all while he was out meeting founders. The takeaway: give an agent the right tooling and it starts acting less like a chatbot and more like a tireless ops engineer.",
+      "suggestedTitle": "/goal 看起来像 AGI，只要工具给对了",
+      "suggestedSummary": "他说，/goal 一口气处理了 2000+ 个 database items，修好了 product images 和 frontend bugs，还用 browser/web search 做实时 fact-checking，甚至顺手写了后续要用的 scripts——而他本人当时还在外面见 founders。结论很直接：给 agent 配对工具，它就会越来越不像 chatbot，反而更像一个不知疲倦的 ops engineer。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2055428193398780296",
@@ -271,23 +272,27 @@
       ],
       "publishedAt": "2026-05-15T23:20:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-16",
       "source": "Unsupervised Learning",
-      "title": "Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, &amp; Why Hinton is Wrong",
+      "title": "第86期：Yann LeCun 谈离开 Meta、打破 LLM 范式，以及为什么 Hinton 错了",
       "url": "https://www.youtube.com/@RedpointAI",
-      "suggestedTitle": "LeCun bets on world models, not LLMs, for real intelligence",
-      "suggestedSummary": "**The Takeaway:** Yann LeCun thinks LLMs are useful tools, but real intelligence will come from world models that can predict consequences and plan.\n\n- He’s blunt that LLMs are “great for what they do” but are not a path to human- or animal-level intelligence.\n- His contrarian bet is that predicting pixels is the wrong objective; joint-embedding methods learn better representations than generative ones.\n- He sees the biggest near-term value not in chatbots, but in industrial systems, robotics, and control problems where data efficiency matters.\n\nLeCun, the Meta AI veteran and Turing Award winner, frames his move to start Ami as a clean break from the industry’s LLM herd mentality. His thesis is simple: language is a special case, not the destination. “What about the real world?” he asks. “Reality is way more complicated than language because it’s high dimensional, continuous, noisy, and messy.” That’s why he’s betting on JEPA-style world models—systems that learn abstract representations, anticipate outcomes, and choose actions through search rather than next-token prediction.\n\nHe argues that the core ingredients of intelligence are missing from today’s dominant architectures: the ability to predict the consequences of your actions and the ability to plan. In his view, robotics demos that look impressive are still mostly imitation learning at scale, which is brittle and data-hungry. A better system would learn fast enough that a task like driving could be mastered in hours, not millions of examples. That’s the real test.\n\nHis time at Meta sharpened the split. FAIR could explore, but once the company doubled down on catching up in LLMs, exploratory work lost priority. So he left, moved Ami to Paris, and kept the focus on “AI for the real world.” The near-term roadmap: hierarchical world models across video and industry data, then applications in manufacturing, healthcare, and control systems. The long-term pitch is even bigger: “what we’re designing are systems that are capable of thinking.”",
+      "suggestedTitle": "LeCun 押注 world models，而不是 LLM，才是真正的 intelligence",
+      "suggestedSummary": "**核心结论：** Yann LeCun 认为 LLM 很有用，但真正的 intelligence 会来自 world models。它们能预测后果，也能做规划。\n\n- 他直说，LLM “很擅长它们擅长的事”，但这不是通往人类或动物级 intelligence 的路。\n- 他的反直觉判断是：预测 pixels 不是好目标；joint-embedding 方法学到的 representation，比 generative 方法更好。\n- 他觉得短期内最大的价值不在 chatbot，而在工业系统、robotics 和 control 问题。这些场景里，data efficiency 才是关键。\n\nLeCun 是 Meta AI 老将，也是 Turing Award 得主。他把自己创办 Ami 这件事，看成是和行业里那种 LLM 羊群心态彻底切割。核心观点很简单：language 只是一个特例，不是终点。“现实世界呢？”他问。“Reality 比 language 复杂得多，因为它是高维、连续、噪声很多，也很乱。”所以他押注的是 JEPA 风格的 world models——这类系统会学抽象 representation，预测结果，再通过 search 来选 action，而不是做 next-token prediction。\n\n他认为，今天主流架构缺了 intelligence 的两个核心部件：预测自己行为后果的能力，以及 planning 的能力。在他看来，那些看起来很惊艳的 robotics demo，本质上还是大规模 imitation learning，脆弱，而且很吃 data。更好的系统应该学得足够快。像 driving 这种任务，理想情况是几小时就能掌握，而不是靠几百万个 example。这才是真正的考验。\n\n他在 Meta 的经历让这种分歧更清楚了。FAIR 还能做探索，但公司一旦全力押注追赶 LLM，探索性工作就不再优先。所以他离开了，把 Ami 搬到 Paris，继续聚焦“AI for the real world”。短期路线图是：先做覆盖 video 和工业数据的分层 world models，再落到 manufacturing、healthcare 和 control systems。长期目标更大：\"我们在设计的是能思考的系统。\"",
       "publishedAt": "2026-05-15T12:50:21.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 11,
     "totalTweets": 26,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-16T14:26:38.547Z"
+    "generatedAt": "2026-05-16T14:26:46.745Z",
+    "estimatedReadTime": "5 分钟"
   }
 }
