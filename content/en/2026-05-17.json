@@ -1,7 +1,8 @@
 {
   "date": "2026-05-17",
+  "lang": "en",
   "summary": "Garry Tan pushed an open-source memory stack for agents, and Peter Steinberger’s BlackBar trimmed CI guesswork. Dan Shipper called the AI hype mostly meme fuel, while No Priors framed Pax Silica as U.S. supply chains built like a product.",
-  "items": [
+  "builderInsights": [
     {
       "id": "garrytan-2026-05-17",
       "source": "X",
@@ -183,7 +184,9 @@
       ],
       "publishedAt": "2026-05-17T02:44:29.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-17",
       "source": "No Priors",
@@ -195,11 +198,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-17T14:28:55.865Z"
+    "generatedAt": "2026-05-17T14:28:56.097Z",
+    "estimatedReadTime": "4 min"
   }
 }

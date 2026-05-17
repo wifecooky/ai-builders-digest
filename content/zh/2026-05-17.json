@@ -1,7 +1,8 @@
 {
   "date": "2026-05-17",
-  "summary": "Garry Tan pushed an open-source memory stack for agents, and Peter Steinberger’s BlackBar trimmed CI guesswork. Dan Shipper called the AI hype mostly meme fuel, while No Priors framed Pax Silica as U.S. supply chains built like a product.",
-  "items": [
+  "lang": "zh",
+  "summary": "Garry Tan 推了一个面向 agents 的开源 memory stack，Peter Steinberger 的 BlackBar 则把 CI 里的猜测成分降了下来。Dan Shipper 说，AI 的热度大多就是 meme fuel；而 No Priors 把 Pax Silica 描述成一种把美国 supply chains 按产品思路来搭建的东西。",
+  "builderInsights": [
     {
       "id": "garrytan-2026-05-17",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Open-source memory stack for agents",
-      "suggestedSummary": "GBrain is a free MIT-licensed knowledge system you can drop into an agent with one command. He says it’s not just RAG — it adds eight layers of memory so OpenClaw or Hermes-style agents feel weirdly clairvoyant about you, pushing personal AI closer to reality.",
+      "suggestedTitle": "面向 agent 的开源 memory stack",
+      "suggestedSummary": "GBrain 是一个免费的、MIT 许可的 knowledge system。你只要一条命令，就能把它接进 agent。它说这不只是 RAG。它加了八层 memory，让 OpenClaw 或 Hermes 风格的 agent 对你有种离谱的“未卜先知”感，把 personal AI 又往现实里推近了一步。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2055674791873630650",
@@ -41,8 +42,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "BlackBar trims the CI guesswork",
-      "suggestedSummary": "BlackBar 0.2.0 is out for Blacksmith, adding 24h vCPU and workflow graphs, opt-in job notifications, richer job rows, and a compact status badge. The pitch is simple: a tiny menu bar that makes CI less of a mystery.",
+      "suggestedTitle": "BlackBar 让 CI 少点猜谜",
+      "suggestedSummary": "BlackBar 0.2.0 已经发布，面向 Blacksmith。它新增了 24h vCPU 和 workflow graphs，还支持可选的 job 通知、更丰富的 job 行，以及一个更紧凑的 status badge。核心很简单：一个小小的 menu bar，让 CI 不再像黑盒。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2055775661755715974",
@@ -73,8 +74,8 @@
       "authorHandle": "realmadhuguru",
       "authorBio": "Product Leader at Google - Gemini, Veo, Nano Banana. All opinions mine.",
       "title": "Madhu Guru",
-      "suggestedTitle": "Wealth doesn’t buy happiness — scarcity thinking does",
-      "suggestedSummary": "They argue Silicon Valley gets ambition wrong: you can want more money and still be content today. The real trap, per this Google product leader on Gemini/Veo/Nano Banana, is chasing success from a place of lack instead of deciding what’s enough.",
+      "suggestedTitle": "财富买不到幸福——稀缺思维才会",
+      "suggestedSummary": "他们认为，Silicon Valley 对 ambition 的理解有点跑偏：你完全可以想赚更多钱，同时今天也过得很满足。按这位负责 Gemini/Veo/Nano Banana 的 Google product leader 的说法，真正的坑不是想成功，而是带着匮乏感去追成功，而不是先想清楚“够了”到底是多少。",
       "tweets": [
         {
           "url": "https://x.com/realmadhuguru/status/2055708451670798839",
@@ -93,8 +94,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Coding agents swing you between god mode and doom",
-      "suggestedSummary": "She says coding agents create a weird daily whiplash: after building with them, you feel omnipotent and able to ship anything; after doomscrolling, you feel hopelessly behind. It’s a sharp little read on the emotional tax of AI-native building — and how fast the comparison game can wreck your momentum.",
+      "suggestedTitle": "coding agent 让你在 god mode 和 doom 之间来回横跳",
+      "suggestedSummary": "她说，coding agent 会带来一种很奇怪的日常反差：你一边用它们做东西，一边觉得自己无所不能，什么都能 ship；可一旦开始 doomscrolling，又会立刻觉得自己落后得离谱。这篇短文很准地写出了 AI-native building 的情绪成本，也点出了比较心态有多快就能把你的节奏拖垮。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2055728641913536762",
@@ -113,8 +114,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Don’t start in VC — earn pattern recognition first",
-      "suggestedSummary": "He says young people usually shouldn’t jump straight into venture: you learn what excellence looks like by working inside great companies, not just sitting on boards and cap tables. His take is that the best junior investors first build taste at strong startups, then start angel investing before trying to source founders full-time.",
+      "suggestedTitle": "别一上来就做 VC——先把模式识别练出来",
+      "suggestedSummary": "他的意思是，年轻人通常不该直接跳进 venture。你得先在优秀公司里干过，才知道什么叫真正的 excellence；光坐在 board 和 cap table 旁边，学不到这些。他的看法是，最好的 junior investor 往往先在强 startup 里把审美和判断力练出来，再开始做 angel investing，最后才去全职找 founder。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2055648134819450907",
@@ -133,8 +134,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI hype, but mostly just meme fuel",
-      "suggestedSummary": "He’s mostly posting playful AI-adjacent jokes here, not a substantive take or product update. One quip riffs on bicycles weakening walking, the other jokes about “Codex-pilling the world one text at a time.”",
+      "suggestedTitle": "AI hype，但大多只是 meme 燃料",
+      "suggestedSummary": "他这次基本是在发一些跟 AI 沾边的玩笑，不是认真观点，也不是产品更新。一个梗是在调侃自行车会让人少走路，另一个是在说“Codex-pilling the world one text at a time.”",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2055727669900141017",
@@ -159,8 +160,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Bay Area status games are a dead-end",
-      "suggestedSummary": "He says the tech rat race can warp your priorities fast, and the antidote is simple: get out of the bubble and remember life isn’t a ladder ranking. The punchline is brutal — nobody wants their legacy to be a promotion level at FAANG.",
+      "suggestedTitle": "Bay Area 的 status game 是条死路",
+      "suggestedSummary": "他说，科技圈的内卷会很快把你的优先级带偏。解法其实很简单：走出这个泡泡，记住人生不是爬 ladder 排名。最后那句最狠——没人希望自己的 legacy 只是 FAANG 里的一个 promotion level。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2055841860279804005",
@@ -183,23 +184,27 @@
       ],
       "publishedAt": "2026-05-17T02:44:29.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-17",
       "source": "No Priors",
-      "title": "Pax Silica: Inside the Trump Administration’s Tech Strategy with US Under Secretary of State for Economic Affairs Jacob Helberg",
+      "title": "Pax Silica：深入了解 Trump Administration 的 tech strategy，与 U.S. Under Secretary of State for Economic Affairs Jacob Helberg 对话",
       "url": "https://www.youtube.com/watch?v=xjlYpGaxIPA",
-      "suggestedTitle": "Pax Silica: U.S. supply chains, built like a product",
-      "suggestedSummary": "**The Takeaway:** America’s edge isn’t state-run industrial policy; it’s using private companies to build commercially viable supply chains.\n\n- Pax Silica is a 14-country economic security coalition designed to harden the AI supply chain, not just chips but thousands of inputs from magnets to actuators.\n- The model is deliberately anti–Belt and Road: no government-operated supply chains, no debt-trap infrastructure, and no pretending the state can outbuild the private sector.\n- The Philippines deal is the template: 4,000 acres, two phases, and a long-term framework meant to attract private capital while sharing risk and upside.\n\nJacob Helberg, the U.S. Under Secretary of State for Economic Affairs, frames economic security like a product strategy. His core argument is simple: the U.S. should stop trying to copy China’s centralized playbook and instead “work in lockstep with our private companies and our builders” to create platforms that can survive outside government. Pax Silica is his answer — a coalition built around supply-chain resilience, especially for AI, robotics, and critical minerals.\n\nThe Philippines is the first big test. Helberg describes a “forward deployed industrial base” on 4,000 acres, structured first as diplomatic property and then as a decades-long development zone with investor protections and tax rules negotiated over two years. The point is to create a replicable model for places with real industrial strengths, not to force everything back into the U.S. Helberg is blunt that semiconductors should keep coming home, but many other inputs should be distributed across allied hubs.\n\nHis sharpest contrast is with Belt and Road: China’s model, he says, is bloated, wasteful, and often a “debt trap.” Pax Silica is meant to be the opposite — positive-sum, commercially viable, and powered by private capital. Or as he puts it, the goal is to build “platforms that are commercially viable, and that can ultimately live outside of the government as a private service.”",
+      "suggestedTitle": "Pax Silica：像做 product 一样搭建 U.S. supply chains",
+      "suggestedSummary": "**核心结论：** America 的优势不在于 state-run industrial policy，而在于借助 private companies 搭出商业上可行的 supply chains。\n\n- Pax Silica 是一个由 14 个国家组成的 economic security coalition，目标是加固 AI supply chain。范围不只是 chips，还包括从 magnets 到 actuators 的成千上万种 inputs。\n- 这个模式刻意反着 Belt and Road 来：不要 government-operated supply chains，不搞 debt-trap infrastructure，也不假装 state 能比 private sector 建得更快更好。\n- Philippines 这笔 deal 是模板：4,000 acres、两个 phase，再加上一套长期 framework，目的是吸引 private capital，同时把风险和收益一起分摊。\n\nJacob Helberg，U.S. Under Secretary of State for Economic Affairs，把 economic security 当成 product strategy 来讲。他的核心观点很直接：U.S. 别再照抄 China 那套 centralized playbook 了。应该和 private companies、builders “work in lockstep”，去搭建那些即使离开 government 也能活下来的 platform。Pax Silica 就是他的答案——一个围绕 supply-chain resilience 搭起来的 coalition，重点放在 AI、robotics 和 critical minerals 上。\n\nPhilippines 是第一个大考。Helberg 把它描述成一个“forward deployed industrial base”，占地 4,000 acres。先按 diplomatic property 来做，再变成一个持续几十年的 development zone。里面的 investor protections 和 tax rules，前后谈了两年。目标不是把一切都拉回 U.S.，而是做出一个可复制的模型，给那些本来就有工业基础的地方用。Helberg 说得很直白：semiconductors 应该继续回流，但很多其他 inputs 应该分散到 allied hubs。\n\n他最尖锐的对比是 Belt and Road：他说 China 这套模式臃肿、浪费，而且经常是个“debt trap”。Pax Silica 要走相反路线——positive-sum、商业上可行，而且由 private capital 驱动。用他的话说，目标是搭出“commercially viable 的 platforms，最后能作为 private service 独立于 government 之外存活下来”。",
       "publishedAt": "2026-05-14T10:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-17T14:28:55.865Z"
+    "generatedAt": "2026-05-17T14:29:06.178Z",
+    "estimatedReadTime": "4 分钟"
   }
 }
