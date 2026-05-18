@@ -1,7 +1,8 @@
 {
   "date": "2026-05-18",
-  "summary": "Altman called India the image-gen hotspot, while Garry Tan said AI teams will eat incumbents instead of trimming costs. Peter Yang slammed fake-benchmark eval theater, and Aaron Levie, Aditya Agarwal, and Every all pushed the same line: AI can write, but humans still own meaning.",
-  "items": [
+  "lang": "ja",
+  "summary": "AltmanはIndiaをimage-genのホットスポットと呼んだ。Garry Tanは、AI teamsはコストを削るのではなく、incumbentsを食うと言った。Peter Yangはfake-benchmarkのeval theaterを痛烈に批判した。Aaron Levie、Aditya Agarwal、Everyも同じ主張を押し出した。AIは書ける。だが、意味を持つのは今も人間だ。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-18",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "India is the image-generation hotspot",
-      "suggestedSummary": "ChatGPT Images 2.0 is already seeing massive traction in India, with more than 1 billion images created there. The takeaway: image generation isn’t a novelty anymore — it’s becoming a real consumer habit at scale.",
+      "suggestedTitle": "インドは画像生成のホットスポットだ",
+      "suggestedSummary": "ChatGPT Images 2.0は、すでにインドで大きな支持を集めている。そこで作られた画像は10億枚を超える。要するに、画像生成はもはや目新しいものではない。大規模な消費者習慣になりつつあるのだ。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2056165722804654196",
@@ -29,8 +30,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "AI teams will eat incumbents, not trim costs",
-      "suggestedSummary": "He says the real move isn’t squeezing expenses — it’s building a cracked AI-human symbiosis team that can outgrow giant incumbents. He also name-drops ZeroEntropy as his top pick for personal AI search against his 120k-markdown-brain setup.",
+      "suggestedTitle": "AIチームが既存勢力を食うのであって、コストを削るのではない",
+      "suggestedSummary": "彼によれば、本当にやるべきなのは経費を絞ることではない。巨大な既存勢力を上回る成長を遂げる、壊れたほど強いAIと人間の共生チームを作ることだ。個人向けAI searchでは、120kのmarkdown脳セットアップに対してZeroEntropyを最有力に挙げている。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2056123737544757733",
@@ -61,8 +62,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI won’t kill expertise — it raises the bar",
-      "suggestedSummary": "He says coding is getting abundant, but that doesn’t mean technical talent matters less. The real shift is that engineers, designers, bankers, and analysts who know their craft can steer AI agents, catch mistakes, and ship way more than novices. He also thinks colleges and companies need to rethink pipelines fast, because demand for technical people is spreading across every industry.",
+      "suggestedTitle": "AIは専門性を殺さない。むしろ基準を引き上げる",
+      "suggestedSummary": "彼は、codingが豊富になっていると言う。だが、それでtechnical talentの価値が下がるわけではない。むしろ本当の変化は、craftを理解しているengineer、designer、banker、analystがAI agentを操り、ミスを見つけ、noviceよりはるかに多くをshipできるようになることだ。さらに彼は、collegeとcompanyがpipelineを急いで見直す必要があるとも考えている。technical人材への需要が、あらゆるindustryに広がっているからだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2056219645796090197",
@@ -87,8 +88,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Stop doing eval theater on fake benchmarks",
-      "suggestedSummary": "Build evals from real customer traces and feedback, not generic academic benchmarks. The point is to keep signal as models get smarter — and to use actual conversations to build product sense, with Claude helping synthesize the themes.",
+      "suggestedTitle": "偽のベンチマークで eval の見せかけをやめよ",
+      "suggestedSummary": "eval は、汎用的な学術ベンチマークではなく、実際の顧客トレースとフィードバックから作るべきだ。狙いは、モデルが賢くなるほどシグナルを保つことにある。さらに、実際の会話を使ってプロダクト感覚を磨き、Claude にテーマの要約を手伝わせることだ。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2056210471917912140",
@@ -119,8 +120,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Building is easy; attention is the real moat",
-      "suggestedSummary": "People overrate the difficulty of making something and underrate the grind of getting anyone to care. It’s a blunt reminder for builders: shipping is only half the game — distribution is where most products die.",
+      "suggestedTitle": "作るのは簡単だ。だが、注意を集めることこそ本当の堀である",
+      "suggestedSummary": "人は、何かを作る難しさを過大評価し、誰かに関心を持ってもらうための地道な努力を過小評価しがちだ。作り手への率直な警句である。リリースはゲームの半分にすぎない。多くのプロダクトは、そこで死ぬのではなく、配布と届け方で死ぬ。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2056132881630826952",
@@ -139,8 +140,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Unicorn comp can be fake-rich on paper",
-      "suggestedSummary": "He says employees joining recently minted unicorns need to do the math: tranched valuations can leave you with a much higher strike price, a painful 409a, and equity that looks juicier than it really is. His advice is simple — use Claude or ChatGPT to model the exit, and join for the learning and mission, not just the headline comp.",
+      "suggestedTitle": "ユニコーンの報酬は見かけ倒しのことがある",
+      "suggestedSummary": "最近ユニコーン入りした社員は、きちんと計算すべきだと彼は言う。トランシェ付きの valuation では、strike price がかなり高くなることがある。409a も重くのしかかる。equity も、見た目ほどおいしくない場合がある。彼の助言はシンプルだ。Claude や ChatGPT で exit を試算し、目先の報酬だけでなく、学びと mission を理由に入るべきだという。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2056125669466333672",
@@ -171,8 +172,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "AI writes code; humans still own meaning",
-      "suggestedSummary": "He says AI helped him write a lot of code on Friday, but watching the FA Cup Final and his kid’s dance recital on Saturday was the reminder: humans aren’t running out of purpose. It’s a simple, optimistic take from a former Dropbox CTO and Facebook engineer — AI can take more work, but not the parts of life that actually matter.",
+      "suggestedTitle": "AIはコードを書く。意味を担うのは人間だ",
+      "suggestedSummary": "彼は、金曜にAIのおかげで大量のコードを書けたと言う。だが土曜にFA Cup Finalと子どものダンス発表会を見て、改めて思い出した。人間は目的を失いはしないのだ。Dropboxの元CTOでFacebookのエンジニアによる、シンプルで前向きな見方である。AIはより多くの仕事を引き受けられる。だが、本当に大事な人生の部分までは奪えない。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2056015684145127612",
@@ -183,23 +184,27 @@
       ],
       "publishedAt": "2026-05-17T14:15:12.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-18",
       "source": "AI & I by Every",
-      "title": "Claude Code Can Be Your Second Brain",
+      "title": "Claude Codeは第二の脳になりうる",
       "url": "https://www.youtube.com/watch?v=in7i-EVDDlk",
-      "suggestedTitle": "Claude Code works best as a thinking partner, not a writer",
-      "suggestedSummary": "**The Takeaway:** Claude Code becomes far more useful when it helps you think, not when it tries to draft.\n\n- Noah Breyer treats AI like a research layer over his own notes, not a replacement for judgment.\n- He gets better results by forcing the model into “thinking mode” and explicitly banning it from writing too early.\n- The real unlock is mobility: with a basement server and phone access, he can research, revise, and ship from anywhere.\n\nNoah Breyer, now running Alethic, an AI strategy consultancy, has turned his Obsidian vault into a living second brain powered by Claude Code. He starts Claude in the root of his entire note system, so it can search across years of markdown files, chats, PDFs, and project folders. For a new talk, he’ll seed the vault with context, tell the model he’s “in thinking mode, not writing mode,” and let it pull relevant material from his archive before he ever touches a draft.\n\nThat distinction matters to him. “I think partially because we call it generative, there’s entirely too much focus on its ability to write and not enough focus on its ability to read,” he says. His workflow is built around reading, connecting, and interrogating ideas. He even uses a sub-agent as a collaborative interviewer: “Do not under any circumstances want you to try to write it. Take this literally.”\n\nThe other big shift is portability. By rigging a home server and connecting it to his phone, Noah can do serious work in the car, on the move, or between meetings. He uses voice mode for long, exploratory sessions on topics like self-attention, Walter Benjamin, and “transformers eating the world.” The point isn’t convenience for its own sake; it’s that deep thinking no longer has to wait for a desk.",
+      "suggestedTitle": "Claude Codeは書き手ではなく、思考の相棒として使うのが最適だ",
+      "suggestedSummary": "**要点:** Claude Codeは、下書きをさせるより、思考を助けるときにずっと役立つ。\\n\\n- Noah Breyerは、AIを判断の代替ではなく、自分のノートの上に重ねるリサーチ層として扱っている。\\n- 彼はモデルを「thinking mode」に強制し、早い段階で書かせないことで、より良い結果を得ている。\\n- 本当の突破口はモビリティだ。地下のサーバーとスマートフォンからのアクセスがあれば、どこからでも調査し、修正し、リリースできる。\\n\\nNoah Breyerは現在、AI strategy consultancyのAlethicを率いている。彼はObsidian vaultを、Claude Codeで動く生きた第二の脳に変えた。Claudeはノートシステム全体のルートで起動する。そうすることで、何年分ものmarkdownファイル、チャット、PDF、project folderを横断して検索できる。新しいtalkの準備では、vaultにcontextを入れ、モデルに「writing modeではなくthinking modeだ」と伝える。そして、下書きに手を付ける前に、アーカイブから関連素材を引き出させる。\\n\\nこの違いは彼にとって重要だ。「generativeと呼んでいるせいもあると思うが、書く能力に注目が集まりすぎていて、読む能力への注目が足りない」と彼は言う。彼のworkflowは、読むこと、つなげること、問いただすことを中心に組まれている。sub-agentを共同インタビュアーとして使うことさえある。「どんな状況でも、書こうとしないでほしい。文字通りに受け取ってほしい」と彼は言う。\\n\\nもう一つの大きな変化は、携帯性だ。自宅のserverを組み、スマートフォンにつないだことで、Noahは車の中でも、移動中でも、会議の合間でも本格的な作業ができる。self-attention、Walter Benjamin、そして「transformers eating the world」のようなテーマについて、voice modeで長時間の探索的なセッションを行う。狙いは単なる利便性ではない。深い思考を、机の前に座るまで待たなくてよくなることだ。",
       "publishedAt": "2026-05-13T15:02:38.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 21,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-18T15:02:29.872Z"
+    "generatedAt": "2026-05-18T15:02:45.718Z",
+    "estimatedReadTime": "4 分"
   }
 }

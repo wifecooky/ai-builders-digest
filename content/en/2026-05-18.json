@@ -1,7 +1,8 @@
 {
   "date": "2026-05-18",
+  "lang": "en",
   "summary": "Altman called India the image-gen hotspot, while Garry Tan said AI teams will eat incumbents instead of trimming costs. Peter Yang slammed fake-benchmark eval theater, and Aaron Levie, Aditya Agarwal, and Every all pushed the same line: AI can write, but humans still own meaning.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-05-18",
       "source": "X",
@@ -183,7 +184,9 @@
       ],
       "publishedAt": "2026-05-17T14:15:12.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-18",
       "source": "AI & I by Every",
@@ -195,11 +198,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 21,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-18T15:02:29.872Z"
+    "generatedAt": "2026-05-18T15:02:30.065Z",
+    "estimatedReadTime": "4 min"
   }
 }

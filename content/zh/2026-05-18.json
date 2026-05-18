@@ -1,7 +1,8 @@
 {
   "date": "2026-05-18",
-  "summary": "Altman called India the image-gen hotspot, while Garry Tan said AI teams will eat incumbents instead of trimming costs. Peter Yang slammed fake-benchmark eval theater, and Aaron Levie, Aditya Agarwal, and Every all pushed the same line: AI can write, but humans still own meaning.",
-  "items": [
+  "lang": "zh",
+  "summary": "Altman 把印度称作 image-gen 热点，Garry Tan 说 AI 团队会直接吃掉 incumbents，不是帮它们省点成本而已。Peter Yang 直接吐槽 fake-benchmark 的 eval 作秀，Aaron Levie、Aditya Agarwal 和 Every 也都在强调同一个点：AI 能写，但 meaning 还是得人来把控。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-18",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "India is the image-generation hotspot",
-      "suggestedSummary": "ChatGPT Images 2.0 is already seeing massive traction in India, with more than 1 billion images created there. The takeaway: image generation isn’t a novelty anymore — it’s becoming a real consumer habit at scale.",
+      "suggestedTitle": "印度成了 image generation 的热点",
+      "suggestedSummary": "ChatGPT Images 2.0 在印度已经很火了，生成的图片超过 10 亿张。结论很直接：image generation 不再只是个新鲜玩意儿了，它正在变成一种真正的大规模消费习惯。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2056165722804654196",
@@ -29,8 +30,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "AI teams will eat incumbents, not trim costs",
-      "suggestedSummary": "He says the real move isn’t squeezing expenses — it’s building a cracked AI-human symbiosis team that can outgrow giant incumbents. He also name-drops ZeroEntropy as his top pick for personal AI search against his 120k-markdown-brain setup.",
+      "suggestedTitle": "AI 团队会吃掉 incumbents，不是帮它们省钱",
+      "suggestedSummary": "他说，真正该做的不是抠成本，而是搭一支 AI-human symbiosis 团队，直接长成能压过巨头的规模。他还点名 ZeroEntropy，作为他那套 12 万条 markdown 个人知识库之外，最看好的个人 AI search 方案。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2056123737544757733",
@@ -61,8 +62,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI won’t kill expertise — it raises the bar",
-      "suggestedSummary": "He says coding is getting abundant, but that doesn’t mean technical talent matters less. The real shift is that engineers, designers, bankers, and analysts who know their craft can steer AI agents, catch mistakes, and ship way more than novices. He also thinks colleges and companies need to rethink pipelines fast, because demand for technical people is spreading across every industry.",
+      "suggestedTitle": "AI 不会干掉 expertise，只会把门槛抬高",
+      "suggestedSummary": "他说，coding 变得越来越容易了，但这不代表 technical talent 不重要了。真正的变化是，懂自己专业的人——不管是 engineer、designer、banker 还是 analyst——都能更好地指挥 AI agents，及时发现错误，交付的东西也会比新手多得多。他还觉得，college 和 company 得赶紧重做人才 pipeline，因为对 technical people 的需求已经扩散到各个行业了。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2056219645796090197",
@@ -87,8 +88,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Stop doing eval theater on fake benchmarks",
-      "suggestedSummary": "Build evals from real customer traces and feedback, not generic academic benchmarks. The point is to keep signal as models get smarter — and to use actual conversations to build product sense, with Claude helping synthesize the themes.",
+      "suggestedTitle": "别再在假 benchmark 上演 eval 戏码了",
+      "suggestedSummary": "评测要从真实客户 trace 和反馈里来，不要拿通用的学术 benchmark 凑数。重点是：模型越聪明，越要保住 signal。还要用真实对话来培养 product sense，让 Claude 帮你把这些主题归纳出来。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2056210471917912140",
@@ -119,8 +120,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Building is easy; attention is the real moat",
-      "suggestedSummary": "People overrate the difficulty of making something and underrate the grind of getting anyone to care. It’s a blunt reminder for builders: shipping is only half the game — distribution is where most products die.",
+      "suggestedTitle": "做东西不难，注意力才是真护城河",
+      "suggestedSummary": "很多人高估了把东西做出来的难度，却低估了让别人愿意关注它有多难。对 builder 来说，这话很直接：ship 只是上半场，distribution 才是大多数产品死掉的地方。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2056132881630826952",
@@ -139,8 +140,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Unicorn comp can be fake-rich on paper",
-      "suggestedSummary": "He says employees joining recently minted unicorns need to do the math: tranched valuations can leave you with a much higher strike price, a painful 409a, and equity that looks juicier than it really is. His advice is simple — use Claude or ChatGPT to model the exit, and join for the learning and mission, not just the headline comp.",
+      "suggestedTitle": "独角兽的薪酬，纸面上可能很“富”",
+      "suggestedSummary": "他说，最近加入新晋独角兽的人，得先把账算清楚。分阶段估值会把你的 strike price 抬得很高，409a 也可能很难看。看起来很香的 equity，实际未必有那么值钱。他的建议很直接：用 Claude 或 ChatGPT 模拟一下退出情景。加入时，别只看 headline comp，更要看学习机会和使命感。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2056125669466333672",
@@ -171,8 +172,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "AI writes code; humans still own meaning",
-      "suggestedSummary": "He says AI helped him write a lot of code on Friday, but watching the FA Cup Final and his kid’s dance recital on Saturday was the reminder: humans aren’t running out of purpose. It’s a simple, optimistic take from a former Dropbox CTO and Facebook engineer — AI can take more work, but not the parts of life that actually matter.",
+      "suggestedTitle": "AI 写 code，human 还掌握 meaning",
+      "suggestedSummary": "他说，周五 AI 帮他写了很多 code。但到了周六，去看 FA Cup Final，再看孩子的 dance recital，他又想明白了：human 并没有失去 purpose。这是一个很简单、也很乐观的判断，来自前 Dropbox CTO、Facebook engineer。AI 可以接走更多 work，但接不走 life 里真正重要的那部分。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2056015684145127612",
@@ -183,23 +184,27 @@
       ],
       "publishedAt": "2026-05-17T14:15:12.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-18",
       "source": "AI & I by Every",
-      "title": "Claude Code Can Be Your Second Brain",
+      "title": "Claude Code 可以做你的第二大脑",
       "url": "https://www.youtube.com/watch?v=in7i-EVDDlk",
-      "suggestedTitle": "Claude Code works best as a thinking partner, not a writer",
-      "suggestedSummary": "**The Takeaway:** Claude Code becomes far more useful when it helps you think, not when it tries to draft.\n\n- Noah Breyer treats AI like a research layer over his own notes, not a replacement for judgment.\n- He gets better results by forcing the model into “thinking mode” and explicitly banning it from writing too early.\n- The real unlock is mobility: with a basement server and phone access, he can research, revise, and ship from anywhere.\n\nNoah Breyer, now running Alethic, an AI strategy consultancy, has turned his Obsidian vault into a living second brain powered by Claude Code. He starts Claude in the root of his entire note system, so it can search across years of markdown files, chats, PDFs, and project folders. For a new talk, he’ll seed the vault with context, tell the model he’s “in thinking mode, not writing mode,” and let it pull relevant material from his archive before he ever touches a draft.\n\nThat distinction matters to him. “I think partially because we call it generative, there’s entirely too much focus on its ability to write and not enough focus on its ability to read,” he says. His workflow is built around reading, connecting, and interrogating ideas. He even uses a sub-agent as a collaborative interviewer: “Do not under any circumstances want you to try to write it. Take this literally.”\n\nThe other big shift is portability. By rigging a home server and connecting it to his phone, Noah can do serious work in the car, on the move, or between meetings. He uses voice mode for long, exploratory sessions on topics like self-attention, Walter Benjamin, and “transformers eating the world.” The point isn’t convenience for its own sake; it’s that deep thinking no longer has to wait for a desk.",
+      "suggestedTitle": "Claude Code 最适合当思考搭子，不是写手",
+      "suggestedSummary": "**核心结论：** 当 Claude Code 帮你思考，而不是急着帮你起草时，它才真正有用。\n\n- Noah Breyer 把 AI 当成自己笔记之上的一层 research，而不是替代判断。\n- 他会强行让 model 进入“thinking mode”，并明确禁止它太早开始写。\n- 真正的解锁点是移动性：有了 basement server 和手机访问，他可以随时随地 research、修改、交付。",
       "publishedAt": "2026-05-13T15:02:38.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 21,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-18T15:02:29.872Z"
+    "generatedAt": "2026-05-18T15:02:37.059Z",
+    "estimatedReadTime": "4 分钟"
   }
 }
