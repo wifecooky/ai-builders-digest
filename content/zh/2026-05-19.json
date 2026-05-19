@@ -1,7 +1,8 @@
 {
   "date": "2026-05-19",
-  "summary": "Claude doubled token limits and added everyday-life connectors, while Anthropic’s Managed Agents got cross-session memory and a stronger runtime feel. Rauch made Vercel firewall protection free, and Levie said agents fail from messy context, not missing context.",
-  "items": [
+  "lang": "zh",
+  "summary": "Claude 把 token 上限翻了一倍，还加了更像日常对话的连接词；Anthropic 的 Managed Agents 也补上了跨 session memory，runtime 的感觉更强了。Rauch 把 Vercel 的 firewall protection 直接免费开放了，Levie 则说，agent 失败通常不是因为 context 不够，而是 context 太乱。",
+  "builderInsights": [
     {
       "id": "claudeai-2026-05-19",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude doubles token limits for every plan",
-      "suggestedSummary": "Claude says you can now create more with Claude Design, and it’s bumped token limits across every plan. That’s the kind of quiet product upgrade power users notice fast — more room for bigger prompts, longer docs, and fewer annoying cutoffs.",
+      "suggestedTitle": "Claude 将所有 plan 的 token 限制翻倍",
+      "suggestedSummary": "Claude 说，现在你可以用 Claude Design 做更多东西了，而且它把所有 plan 的 token 限制都提上去了。这种低调的产品升级，重度用户一眼就能感受到：更大的 prompt、更长的文档，还有更少烦人的截断。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2056460045756309820",
@@ -35,8 +36,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "title": "Thariq",
-      "suggestedTitle": "Long-running agents need an audit trail",
-      "suggestedSummary": "He’s pushing a simple fix for agentic coding: keep a running `implementation-notes.html` so the model can log ambiguities, deviations, tradeoffs, and open questions as it works. The point is to let Claude make decisions when specs get fuzzy, without leaving humans out of the loop.",
+      "suggestedTitle": "长时间运行的 agent 需要审计轨迹",
+      "suggestedSummary": "他在推一个很简单的 agentic coding 修复方案：保留一个持续更新的 `implementation-notes.html`，让 model 在工作时把歧义、偏离、取舍和未解决的问题都记下来。这样一来，Claude 在 spec 变模糊时可以自己做决定，但人类不会被排除在外。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2056432663125545082",
@@ -67,8 +68,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Investors are chasing clout, not founder service",
-      "suggestedSummary": "He says too many VCs are optimizing for dopamine — posting well, but showing up poorly as board members. His take: if you want a real moat, do the unsexy work for founders and compound trust over time.",
+      "suggestedTitle": "投资人追的是存在感，不是给 founder 提供服务",
+      "suggestedSummary": "他觉得太多 VC 都在优化多巴胺：发帖很会，真到 board member 该站出来的时候却掉链子。 他的观点是：如果你想做出真正的 moat，就老老实实帮 founder 做那些不性感的活，慢慢把 trust 叠起来。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2056566561922826634",
@@ -93,8 +94,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Vercel makes firewall protection free",
-      "suggestedSummary": "Vercel is now eating the compute and network costs for firewall mitigations, including custom rules — not just DDoS and system-level defenses. He also called out the product’s ~300ms global propagation, a big deal if you’ve ever waited minutes for CDN/WAF changes to land.",
+      "suggestedTitle": "Vercel 把 firewall protection 免费了",
+      "suggestedSummary": "Vercel 现在自己承担 firewall mitigations 的 compute 和 network 成本了，连 custom rules 也包括在内，不只是 DDoS 和 system-level defenses。他还提到这个产品大约 300ms 的 global propagation。这个点很关键，尤其是你如果曾经等过几分钟，才看到 CDN/WAF changes 生效。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2056549825018310707",
@@ -119,8 +120,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents fail when context is messy, not missing",
-      "suggestedSummary": "He says the real bottleneck in enterprise agents is constrained context: too much conflicting info and they hallucinate, too little and they’re useless. That makes most AI strategy problems really data strategy problems — which is why structured and unstructured data hygiene matters so much for big companies, and why startups can win by designing for it from day one.",
+      "suggestedTitle": "Agent 失效，不是因为缺上下文，而是上下文太乱",
+      "suggestedSummary": "他说，enterprise agent 的真正瓶颈是上下文受限：信息太多、互相打架，agent 就会 hallucinate；信息太少，又根本没法用。说到底，大多数 AI strategy 问题，其实都是 data strategy 问题。也正因为这样，structured 和 unstructured data 的 hygiene 对大公司特别关键。Startup 反而有机会从一开始就按这个思路来设计。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2056574979236409521",
@@ -139,8 +140,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain is shipping fast, with evals to prove it",
-      "suggestedSummary": "He says GBrain is moving fast day to day, and the latest push bundled 28 bug fixes from 22 community PRs and 14 issues. He also published the full eval report and fixtures as open source, inviting other memory systems to benchmark against them and get listed alongside.",
+      "suggestedTitle": "GBrain 发布很快，而且有 evals 证明",
+      "suggestedSummary": "他说 GBrain 每天都在快速推进。最近这波更新里，合并了 22 个社区 PR 和 14 个 issue，修了 28 个 bug。他还把完整的 eval 报告和 fixtures 开源了，欢迎其他 memory system 拿来做 benchmark，表现好的也可以一起上榜。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2056588601216168168",
@@ -171,8 +172,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Claude’s harness matters as much as the model",
-      "suggestedSummary": "Anthropic is treating the model and its harness as a coupled system, so the same Claude can behave differently across Claude, Cowork, and Claude Code. The bigger takeaway: they’re using Claude to cluster user pain, generate synthetic evals, and even “dream” over memories when idle — while some researchers are seriously thinking about consciousness as agents get more autonomous.",
+      "suggestedTitle": "Claude 的 harness 和 model 一样重要",
+      "suggestedSummary": "Anthropic 把 model 和它的 harness 当成一个耦合系统来做，所以同一个 Claude，在 Claude、Cowork 和 Claude Code 里，表现可能完全不一样。更大的看点是：他们在用 Claude 聚类用户痛点，生成 synthetic evals，甚至在空闲时基于 memories 做“dreaming”。与此同时，随着 agent 变得越来越 autonomous，一些研究者也开始认真思考 consciousness 这个问题。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2056381822733595090",
@@ -191,8 +192,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Codex guide incoming; most books are slop",
-      "suggestedSummary": "He says Every is publishing a complete guide to Codex soon, which is the only concrete thing here. The rest is classic Dan: a blunt take that most books in this category are slop, plus a quick shoutout to an investor win.",
+      "suggestedTitle": "Codex 指南要来了；大多数书都很水",
+      "suggestedSummary": "他说 Every 很快会出一本完整的 Codex 指南，这大概是这里唯一明确的信息。剩下的就是典型的 Dan 风格：直说这类书大多都很水，再顺手提了一句投资上的好消息。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2056431972138815842",
@@ -223,8 +224,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Everlane died with office wear, not the brand",
-      "suggestedSummary": "He says Everlane’s real problem was the pandemic: the whole wear-to-work category vanished overnight, and the financing needed to survive made the endgame uglier. The bigger take is that brands can look dead for years, then come back hard — he points to Ray-Ban, J.Crew, Madewell, and Abercrombie as proof.",
+      "suggestedTitle": "Everlane 死于 office wear，不是死于品牌",
+      "suggestedSummary": "他觉得 Everlane 真正的问题是 pandemic：整个 wear-to-work 类别一夜之间消失了。为了撑过去而拿的融资，也把最后的结局搞得更难看。更大的意思是，品牌看起来死了很多年，还是可能强势回归——他拿 Ray-Ban、J.Crew、Madewell 和 Abercrombie 当例子。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2056424176253276558",
@@ -247,47 +248,51 @@
       ],
       "publishedAt": "2026-05-18T17:18:24.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-19",
       "source": "AI & I by Every",
-      "title": "The Secrets of Claude's Platform From the Team Who Built It",
+      "title": "Claude 平台的秘密：来自打造它的团队",
       "url": "https://www.youtube.com/watch?v=lLypHkIVLqc",
-      "suggestedTitle": "Anthropic’s platform is becoming the agent runtime, not just an API",
-      "suggestedSummary": "**The Takeaway:** The real platform play is to hide harness and infrastructure so agents can ship fast and scale cleanly.\n\n- The old “generic API, hot-swap any model” mindset is fading; the next layer is tighter coupling between model and harness to squeeze out better outcomes.\n- The hardest part isn’t prompt tricks anymore — it’s production infrastructure: state, sandboxes, credentials, uptime, and long-running autonomy.\n- Anthropic wants managed agents to be modular enough for builders, but opinionated about the basics: file systems, skills, tools, and secure identity.\n\nAngela, head of product for Claude’s platform at Anthropic, and Caitlin, head of engineering, describe a platform that’s evolving from completions to stateful, autonomous systems. Their view is blunt: customers don’t really want to rebuild the boring parts. They want outcomes. As Angela put it, the platform should be “the set of primitives and infrastructure that enables you to basically get the outcome as fast as possible, with actually as little of work as possible.”\n\nThat’s why Claude Managed Agents bundles the pieces most teams end up reinventing anyway: messages API, code execution, web search, memory, sandboxing, and now vaults for credentials. The surprising insight is that the bottleneck has shifted. People think harness engineering is the hard part, but in practice they hit an infrastructure wall when they try to productionize. A Mac mini and a Python loop can get you a demo; they won’t get you a reliable product.\n\nThe bigger bet is that model and platform will converge. Instead of a generic wrapper that swaps models underneath, Anthropic expects the harness and model to become increasingly paired — because path dependence matters, and the “small” choices about file systems or tool use end up shaping what the model becomes good at. The endgame: agents that are easy to deploy, maybe even one-click into Slack, with the platform doing the unglamorous work behind the scenes.",
+      "suggestedTitle": "Anthropic 的 platform 正在变成 agent runtime，而不只是一个 API",
+      "suggestedSummary": "**核心结论：** 真正的平台打法，是把 harness 和 infrastructure 藏起来，让 agent 能快速上线、平稳扩展。\n\n- 以前那种“generic API，随便热插拔任何 model”的思路，正在退场。下一层更看重 model 和 harness 的紧耦合，这样才能把效果榨出来。\n- 最难的早就不是 prompt 技巧了，而是 production infrastructure：state、sandbox、credentials、uptime，还有 long-running autonomy。\n- Anthropic 想把 managed agents 做得足够模块化，方便 builders 上手；但在基础能力上会很有主见：file systems、skills、tools 和 secure identity。\n\nAngela，Anthropic 负责 Claude platform product 的负责人，和 engineering 负责人 Caitlin，讲的是一个正在从 completions 走向有 state、能自主运行的系统的平台。他们的态度很直接：客户其实不想重造那些无聊的部分。他们要的是结果。Angela 说得很直白：这个 platform 应该是“一组 primitives 和 infrastructure，让你尽可能快地拿到结果，而且尽可能少做事。”\n\n这也是为什么 Claude Managed Agents 把很多团队最后都会自己再造一遍的东西打包好了：messages API、code execution、web search、memory、sandboxing，还有现在的 credentials vault。真正让人意外的是，瓶颈已经变了。大家以为难点在 harness engineering，但真到 productionize 的时候，往往会撞上 infrastructure 的墙。Mac mini 加 Python loop 能做 demo，但做不出可靠产品。\n\n更大的赌注是 model 和 platform 会慢慢合流。Anthropic 认为，未来不会是一个 generic wrapper，底下随便换 model；而是 harness 和 model 会越来越绑定。因为 path dependence 很重要。那些关于 file systems 或 tool use 的“小决定”，最后会反过来塑造 model 擅长什么。最终目标很清楚：agent 要能轻松部署，甚至可以一键进 Slack。剩下那些不显眼的活，就交给 platform 在后台干。",
       "publishedAt": "2026-05-08T20:27:01.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-19",
       "source": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
+      "title": "关于近期 Claude Code 质量反馈的更新",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "author": null,
-      "suggestedTitle": "Anthropic fixes three Claude Code regressions and resets limits",
-      "suggestedSummary": "**Lead:** Anthropic says recent quality complaints about Claude Code came from three separate product changes—not a model or API degradation—and all have been fixed as of April 20 (v2.1.116).\n\n**Numbers:**\n- 3 distinct issues affected Claude Code, the Claude Agent SDK, and Claude Cowork\n- March 4: default reasoning effort changed from high to medium, then reverted April 7\n- March 26: a caching bug was fixed April 10 in v2.1.101\n- April 16: a verbosity prompt change was reverted April 20\n- One eval showed a 3% drop after prompt ablations\n- Usage limits are being reset for all subscribers as of April 23\n\n**So What:** Builders should treat this as a reminder that product-layer tweaks can look like model regressions, especially when they hit different user slices on different timelines. Anthropic says the API and inference layer were unaffected, but the combination of effort defaults, cache handling, and prompt edits made Claude Code feel “less intelligent,” forgetful, and more token-hungry. The company is tightening prompt-change controls, expanding per-model evals, improving internal code review, and adding soak periods plus gradual rollouts for any change that could trade off against intelligence. As Anthropic put it, “This isn’t the experience users should expect from Claude Code.”",
+      "suggestedTitle": "Anthropic 修复了 3 个 Claude Code 回归问题，并重置了使用限制",
+      "suggestedSummary": "**重点：** Anthropic 说，最近关于 Claude Code 质量下降的反馈，来自 3 个独立的产品层改动，不是 model 或 API 退化。到 4 月 20 日（v2.1.116），这些问题都已经修复。\n\n**数据：**\n- 3 个不同问题影响了 Claude Code、Claude Agent SDK 和 Claude Cowork\n- 3 月 4 日：默认 reasoning effort 从 high 改成 medium，4 月 7 日又回滚\n- 3 月 26 日：一个 caching bug 在 4 月 10 日随 v2.1.101 修复\n- 4 月 16 日：一个让 prompt 更啰嗦的改动在 4 月 20 日回滚\n- 一次 eval 显示，在做 prompt ablations 后，指标下降了 3%\n- 从 4 月 23 日起，所有 subscribers 的 usage limits 都在重置\n\n**怎么看：** 对 builders 来说，这提醒很直接：product layer 的小改动，完全可能看起来像 model regression，尤其是它们在不同时间点影响到不同用户切片的时候。Anthropic 说 API 和 inference layer 没受影响，但 effort 默认值、cache 处理和 prompt 修改叠在一起后，Claude Code 就会显得“没那么聪明”、更健忘，也更吃 token。公司正在收紧 prompt 变更控制，扩大按 model 的 eval，改进内部 code review，并给任何可能牺牲 intelligence 的改动加上 soak period 和渐进式 rollout。Anthropic 的原话是：“这不是用户对 Claude Code 应该期待到的体验。”",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-19",
       "source": "Claude Blog",
-      "title": "New connectors in Claude for everyday life",
+      "title": "Claude 新增日常生活 connectors",
       "url": "https://claude.com/blog/connectors-for-everyday-life",
       "author": null,
-      "suggestedTitle": "Claude adds everyday-life connectors for travel, shopping, and more",
-      "suggestedSummary": "**Lead:** Claude is expanding its connector ecosystem beyond work tools to include everyday apps like AllTrails, Instacart, Audible, Tripadvisor, TurboTax, Uber, and more, so users can act on personal tasks directly inside chat.\n\n**Numbers:**\n- Claude directory has grown to **200+ connectors** since launching in July 2025.\n- New connectors now include **AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, and Viator**.\n- Connectors are available on **all plans**; **mobile is in beta**.\n\n**So What:** This turns Claude into a more useful action layer for daily life: it can suggest the right app in context, combine multiple services in one thread, and keep users in control before anything is booked or purchased. Anthropic says, “Claude suggests connectors and makes recommendations. But you stay in control of its actions.” The practical takeaway for builders is that connectors are now a distribution surface for consumer apps inside Claude—if your product would be useful in chat, you can submit it to the directory. Users can install connectors quickly, and once connected, they’re available in every conversation without leaving the thread.",
+      "suggestedTitle": "Claude 为旅行、购物等日常场景新增 connectors",
+      "suggestedSummary": "**重点：** Claude 正在把 connector 生态从工作工具扩展到日常 app。现在它接入了 AllTrails、Instacart、Audible、Tripadvisor、TurboTax、Uber 等应用。用户可以直接在 chat 里处理个人事务。\n\n**数据：**\n- 自 2025 年 7 月上线以来，Claude directory 已经扩展到 **200+ connectors**。\n- 新增 connectors 包括 **AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、Tripadvisor、Uber、Uber Eats 和 Viator**。\n- 所有 plan 都能用这些 connectors；**mobile 还在 beta**。\n\n**意味着什么：** 这让 Claude 更像日常生活里的 action layer。它可以根据上下文推荐合适的 app，把多个 service 串到同一个 thread 里，还能在真正预订或下单前把控制权留给用户。Anthropic 说得很直白：\"Claude suggests connectors and makes recommendations. But you stay in control of its actions.\" 对 builder 来说，connectors 现在也是 consumer app 在 Claude 里的分发入口。只要你的 product 适合在 chat 里用，就可以提交到 directory。用户安装 connector 很快。连上之后，它会出现在每次 conversation 里，不用跳出 thread。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-19",
       "source": "Claude Blog",
-      "title": "Built-in memory for Claude Managed Agents",
+      "title": "Claude Managed Agents 的内置 memory",
       "url": "https://claude.com/blog/claude-managed-agents-memory",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents get built-in cross-session memory",
-      "suggestedSummary": "Lead: Claude Managed Agents now include a public beta memory layer that lets agents learn from every session while keeping developer control through file-based, API-manageable storage.\n\nNumbers:\n- Rakuten says memory cut first-pass errors by 97%.\n- Wisedocs reports verification is 30% faster.\n- Memory supports concurrent multi-agent access with scoped permissions and audit logs.\n\nSo What: This turns memory from a custom retrieval problem into a built-in production feature for long-running agents. Because memories are stored as files, teams can export, roll back, redact, and manage them programmatically, while sharing stores across agents with different access scopes. Claude also mounts memory directly onto the filesystem, so agents can use the same bash and code execution tools they already rely on. As Anthropic puts it, “Memory is built for enterprise deployments, with scoped permissions, audit logs, and full programmatic control.” For builders, the practical move is to use Managed Agents when you want agents to retain context across sessions without standing up your own memory infrastructure.",
+      "suggestedTitle": "Claude Managed Agents 获得跨 session 的内置 memory",
+      "suggestedSummary": "导语：Claude Managed Agents 现在有了一个公开 beta 的 memory layer。它能让 agent 在每次 session 中持续学习，同时开发者还能通过基于 file、可由 API 管理的 storage 保持控制。\n\n数据点：\n- Rakuten 说，memory 让首轮错误率下降了 97%。\n- Wisedocs 表示，verification 速度快了 30%。\n- memory 支持多个 agent 并发访问，还带有 scoped permissions 和 audit logs。\n\n重点：这把 memory 从一个要自己拼的 retrieval 问题，变成了 long-running agent 的内置 production feature。因为 memories 是按 file 存的，团队可以用程序导出、回滚、redact 和管理它们，还能让不同 access scope 的 agent 共享同一份 store。Claude 还把 memory 直接挂到 filesystem 上，所以 agent 可以继续用它们已经在依赖的 bash 和 code execution tools。按 Anthropic 的说法，\"Memory is built for enterprise deployments, with scoped permissions, audit logs, and full programmatic control.\" 对 builder 来说，最实用的做法是：当你想让 agent 跨 session 保留 context，又不想自己搭 memory infrastructure 时，就用 Managed Agents。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     }
@@ -297,6 +302,7 @@
     "totalTweets": 29,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-05-19T15:02:24.344Z"
+    "generatedAt": "2026-05-19T15:02:38.303Z",
+    "estimatedReadTime": "7 分钟"
   }
 }

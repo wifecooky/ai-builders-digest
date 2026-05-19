@@ -1,7 +1,8 @@
 {
   "date": "2026-05-19",
-  "summary": "Claude doubled token limits and added everyday-life connectors, while Anthropic’s Managed Agents got cross-session memory and a stronger runtime feel. Rauch made Vercel firewall protection free, and Levie said agents fail from messy context, not missing context.",
-  "items": [
+  "lang": "ja",
+  "summary": "Claudeはトークン上限を倍増し、日常的なつなぎ表現も強化した。AnthropicのManaged Agentsはセッションをまたぐmemoryを獲得し、runtimeの手触りも増した。RauchはVercelのfirewall protectionを無料化した。Levieは、agentsの失敗原因はcontext不足ではなく、contextの乱れだと述べた。",
+  "builderInsights": [
     {
       "id": "claudeai-2026-05-19",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "claudeai",
       "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "title": "Claude",
-      "suggestedTitle": "Claude doubles token limits for every plan",
-      "suggestedSummary": "Claude says you can now create more with Claude Design, and it’s bumped token limits across every plan. That’s the kind of quiet product upgrade power users notice fast — more room for bigger prompts, longer docs, and fewer annoying cutoffs.",
+      "suggestedTitle": "Claude、全プランでtoken上限を倍増",
+      "suggestedSummary": "Claudeは、Claude Designでより多く作れるようになったと発表した。あわせて、全プランでtoken上限を引き上げた。こうした静かなプロダクトアップデートは、パワーユーザーほどすぐに気づく。より大きなprompt、より長いドキュメント、そして面倒な途中打ち切りが減るからだ。",
       "tweets": [
         {
           "url": "https://x.com/claudeai/status/2056460045756309820",
@@ -35,8 +36,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "title": "Thariq",
-      "suggestedTitle": "Long-running agents need an audit trail",
-      "suggestedSummary": "He’s pushing a simple fix for agentic coding: keep a running `implementation-notes.html` so the model can log ambiguities, deviations, tradeoffs, and open questions as it works. The point is to let Claude make decisions when specs get fuzzy, without leaving humans out of the loop.",
+      "suggestedTitle": "長時間動く agent には監査証跡が必要だ",
+      "suggestedSummary": "彼が推しているのは、agentic coding に向けたシンプルな修正だ。`implementation-notes.html` を常に残し、model が作業中に曖昧さ、逸脱、トレードオフ、未解決の問いを記録できるようにする。狙いは、spec が曖昧になったときに Claude が判断を下せるようにしつつ、人間をループから外さないことだ。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2056432663125545082",
@@ -67,8 +68,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Investors are chasing clout, not founder service",
-      "suggestedSummary": "He says too many VCs are optimizing for dopamine — posting well, but showing up poorly as board members. His take: if you want a real moat, do the unsexy work for founders and compound trust over time.",
+      "suggestedTitle": "投資家は founder service ではなく、clout を追っている",
+      "suggestedSummary": "彼は、あまりに多くの VC が dopamine 最適化に走っていると言う。投稿はうまいが、board member としての振る舞いはひどいというわけだ。彼の見立てでは、本当の moat が欲しいなら、founder のために地味な仕事をやり、trust を時間をかけて積み上げるべきだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2056566561922826634",
@@ -93,8 +94,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Vercel makes firewall protection free",
-      "suggestedSummary": "Vercel is now eating the compute and network costs for firewall mitigations, including custom rules — not just DDoS and system-level defenses. He also called out the product’s ~300ms global propagation, a big deal if you’ve ever waited minutes for CDN/WAF changes to land.",
+      "suggestedTitle": "Vercelがファイアウォール保護を無料化",
+      "suggestedSummary": "Vercelは今や、カスタムルールを含むファイアウォール対策のcomputeとnetworkコストを肩代わりしている。DDoSやシステムレベルの防御だけではない。さらに、約300msというグローバル伝播も強調した。CDN/WAFの変更反映を何分も待ったことがあるなら、その大きさがわかるはずだ。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2056549825018310707",
@@ -119,8 +120,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Agents fail when context is messy, not missing",
-      "suggestedSummary": "He says the real bottleneck in enterprise agents is constrained context: too much conflicting info and they hallucinate, too little and they’re useless. That makes most AI strategy problems really data strategy problems — which is why structured and unstructured data hygiene matters so much for big companies, and why startups can win by designing for it from day one.",
+      "suggestedTitle": "Agentsは、contextが欠けているときではなく、messyなときに失敗する",
+      "suggestedSummary": "彼は、enterprise agentsの本当のボトルネックは制約されたcontextだと言う。矛盾する情報が多すぎればhallucinateし、少なすぎれば役に立たない。つまり、ほとんどのAI strategyの問題は実はdata strategyの問題だということだ。だからこそ、大企業ではstructured dataとunstructured dataのhygieneが極めて重要になる。そしてstartupは、最初からそれを前提に設計することで勝てる。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2056574979236409521",
@@ -139,8 +140,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "GBrain is shipping fast, with evals to prove it",
-      "suggestedSummary": "He says GBrain is moving fast day to day, and the latest push bundled 28 bug fixes from 22 community PRs and 14 issues. He also published the full eval report and fixtures as open source, inviting other memory systems to benchmark against them and get listed alongside.",
+      "suggestedTitle": "GBrainは高速でリリース中。evalでそれを証明する",
+      "suggestedSummary": "GBrainは日々の動きが速いと彼は語る。最新のアップデートでは、community PR 22件とissue 14件から、28件のバグ修正をまとめた。さらに、完全なevalレポートとfixturesをオープンソースで公開した。他のmemory systemにもこれをベンチマークしてもらい、並んで掲載されることを促している。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2056588601216168168",
@@ -171,8 +172,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Claude’s harness matters as much as the model",
-      "suggestedSummary": "Anthropic is treating the model and its harness as a coupled system, so the same Claude can behave differently across Claude, Cowork, and Claude Code. The bigger takeaway: they’re using Claude to cluster user pain, generate synthetic evals, and even “dream” over memories when idle — while some researchers are seriously thinking about consciousness as agents get more autonomous.",
+      "suggestedTitle": "Claudeのハーネスはモデルと同じくらい重要だ",
+      "suggestedSummary": "Anthropicは、モデルとハーネスを結合したシステムとして扱っている。だから同じClaudeでも、Claude、Cowork、Claude Codeで振る舞いが変わる。より大きな論点はそこではない。Claudeを使ってユーザーの痛点をクラスタリングし、synthetic evalを生成し、さらにアイドル時には記憶をもとに「夢」を見せている点だ。agentがより自律的になるにつれ、一部の研究者は意識についても真剣に考え始めている。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2056381822733595090",
@@ -191,8 +192,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "Codex guide incoming; most books are slop",
-      "suggestedSummary": "He says Every is publishing a complete guide to Codex soon, which is the only concrete thing here. The rest is classic Dan: a blunt take that most books in this category are slop, plus a quick shoutout to an investor win.",
+      "suggestedTitle": "Codexガイドが近日公開。ほとんどの本はスロップだ",
+      "suggestedSummary": "EveryがCodexの完全ガイドを近日公開するという。ここで具体的なのはそれだけだ。残りはいつものDan節で、この手の本の大半はスロップだという率直な見方に、投資家としての勝ち筋への軽い言及が添えられている。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2056431972138815842",
@@ -223,8 +224,8 @@
       "authorHandle": "thenanyu",
       "authorBio": "head of product @linear",
       "title": "Nan Yu",
-      "suggestedTitle": "Everlane died with office wear, not the brand",
-      "suggestedSummary": "He says Everlane’s real problem was the pandemic: the whole wear-to-work category vanished overnight, and the financing needed to survive made the endgame uglier. The bigger take is that brands can look dead for years, then come back hard — he points to Ray-Ban, J.Crew, Madewell, and Abercrombie as proof.",
+      "suggestedTitle": "Everlaneはブランドではなくオフィスウェアとともに死んだ",
+      "suggestedSummary": "彼によれば、Everlaneの本当の問題はパンデミックだった。通勤服というカテゴリ全体が一夜で消えたのだ。生き残るために必要だった資金調達も、最終局面をいっそう醜くした。より大きな見方をすれば、ブランドは何年も死んだように見えても、そこから強く復活しうる。彼はその証拠として、Ray-Ban、J.Crew、Madewell、Abercrombieを挙げている。",
       "tweets": [
         {
           "url": "https://x.com/thenanyu/status/2056424176253276558",
@@ -247,47 +248,51 @@
       ],
       "publishedAt": "2026-05-18T17:18:24.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-19",
       "source": "AI & I by Every",
-      "title": "The Secrets of Claude's Platform From the Team Who Built It",
+      "title": "Claudeのプラットフォームの秘密を築いたチームが語る",
       "url": "https://www.youtube.com/watch?v=lLypHkIVLqc",
-      "suggestedTitle": "Anthropic’s platform is becoming the agent runtime, not just an API",
-      "suggestedSummary": "**The Takeaway:** The real platform play is to hide harness and infrastructure so agents can ship fast and scale cleanly.\n\n- The old “generic API, hot-swap any model” mindset is fading; the next layer is tighter coupling between model and harness to squeeze out better outcomes.\n- The hardest part isn’t prompt tricks anymore — it’s production infrastructure: state, sandboxes, credentials, uptime, and long-running autonomy.\n- Anthropic wants managed agents to be modular enough for builders, but opinionated about the basics: file systems, skills, tools, and secure identity.\n\nAngela, head of product for Claude’s platform at Anthropic, and Caitlin, head of engineering, describe a platform that’s evolving from completions to stateful, autonomous systems. Their view is blunt: customers don’t really want to rebuild the boring parts. They want outcomes. As Angela put it, the platform should be “the set of primitives and infrastructure that enables you to basically get the outcome as fast as possible, with actually as little of work as possible.”\n\nThat’s why Claude Managed Agents bundles the pieces most teams end up reinventing anyway: messages API, code execution, web search, memory, sandboxing, and now vaults for credentials. The surprising insight is that the bottleneck has shifted. People think harness engineering is the hard part, but in practice they hit an infrastructure wall when they try to productionize. A Mac mini and a Python loop can get you a demo; they won’t get you a reliable product.\n\nThe bigger bet is that model and platform will converge. Instead of a generic wrapper that swaps models underneath, Anthropic expects the harness and model to become increasingly paired — because path dependence matters, and the “small” choices about file systems or tool use end up shaping what the model becomes good at. The endgame: agents that are easy to deploy, maybe even one-click into Slack, with the platform doing the unglamorous work behind the scenes.",
+      "suggestedTitle": "Anthropicのプラットフォームは、単なるAPIではなくagent runtimeになりつつある",
+      "suggestedSummary": "**要点:** 本当のプラットフォーム戦略は、ハーネスとインフラを隠し、agentが素早く出荷でき、きれいにスケールできるようにすることだ。\n\n- かつての「generic APIで、どんなmodelでもホットスワップする」という発想は薄れつつある。次の層では、modelとハーネスの結びつきを強め、より良い成果を引き出す方向に進んでいる。\n- もはや最も難しいのはpromptの工夫ではない。state、sandbox、credentials、uptime、そして長時間動き続ける自律性といったproductionインフラだ。\n- Anthropicはmanaged agentsを、builderにとってはモジュール化されていながら、基本部分には強い方針を持つ形にしたいと考えている。file system、skills、tools、そして安全なidentityだ。\n\nAnthropicでClaudeのplatformを率いるAngelaと、engineering責任者のCaitlinは、completion中心の世界からstatefulで自律的なシステムへと進化するplatformを描く。彼女たちの見方は率直だ。顧客は退屈な部分を自分で作り直したいわけではない。欲しいのは成果だ。Angelaの言葉を借りれば、platformとは「できるだけ少ない労力で、できるだけ速く成果にたどり着くためのprimitivesとインフラの集合」であるべきだ。\n\nだからこそClaude Managed Agentsは、多くのチームが結局は自前で再実装する要素をまとめている。messages API、code execution、web search、memory、sandboxing、そして今ではcredentials用のvaultまで含む。意外なのは、ボトルネックが移ったことだ。人はharness engineeringこそ難所だと思いがちだが、実際にはproduction化しようとした瞬間にインフラの壁にぶつかる。Mac miniとPython loopでdemoは作れる。だが、それでは信頼できるproductにはならない。\n\nより大きな賭けは、modelとplatformが収束していくことだ。下でmodelを差し替えるgeneric wrapperではなく、Anthropicはharnessとmodelがますます対になっていくと見ている。path dependenceが効くからだ。file systemやtool useのような「小さな」選択が、最終的にmodelの得意分野を形作る。最終形は、デプロイしやすいagentだ。Slackへワンクリックで入れられる未来すらあるかもしれない。裏方の地味な仕事はplatformが担う。",
       "publishedAt": "2026-05-08T20:27:01.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-19",
       "source": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
+      "title": "最近の Claude Code 品質報告に関するアップデート",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "author": null,
-      "suggestedTitle": "Anthropic fixes three Claude Code regressions and resets limits",
-      "suggestedSummary": "**Lead:** Anthropic says recent quality complaints about Claude Code came from three separate product changes—not a model or API degradation—and all have been fixed as of April 20 (v2.1.116).\n\n**Numbers:**\n- 3 distinct issues affected Claude Code, the Claude Agent SDK, and Claude Cowork\n- March 4: default reasoning effort changed from high to medium, then reverted April 7\n- March 26: a caching bug was fixed April 10 in v2.1.101\n- April 16: a verbosity prompt change was reverted April 20\n- One eval showed a 3% drop after prompt ablations\n- Usage limits are being reset for all subscribers as of April 23\n\n**So What:** Builders should treat this as a reminder that product-layer tweaks can look like model regressions, especially when they hit different user slices on different timelines. Anthropic says the API and inference layer were unaffected, but the combination of effort defaults, cache handling, and prompt edits made Claude Code feel “less intelligent,” forgetful, and more token-hungry. The company is tightening prompt-change controls, expanding per-model evals, improving internal code review, and adding soak periods plus gradual rollouts for any change that could trade off against intelligence. As Anthropic put it, “This isn’t the experience users should expect from Claude Code.”",
+      "suggestedTitle": "Anthropic が Claude Code の3つの regression を修正し、limit をリセット",
+      "suggestedSummary": "**要点:** Anthropic は、最近の Claude Code に対する品質面の不満は、model や API の劣化ではなく、3つの別々の product 変更に起因すると説明した。これらはすべて 4月20日（v2.1.116）時点で修正済みである。\n\n**数値:**\n- 3つの distinct な issue が Claude Code、Claude Agent SDK、Claude Cowork に影響した\n- 3月4日: default の reasoning effort を high から medium に変更。その後 4月7日に元へ戻した\n- 3月26日: caching bug を 4月10日に v2.1.101 で修正した\n- 4月16日: verbosity prompt の変更を 4月20日に撤回した\n- ある eval では、prompt ablation 後に 3% の低下が見られた\n- 4月23日時点で、すべての subscriber の usage limit をリセット中である\n\n**示唆:** builder は、product layer の調整が model regression のように見えることがあると受け止めるべきだ。特に、異なる user slice に異なるタイムラインで影響する場合はなおさらである。Anthropic によれば API と inference layer は影響を受けていない。しかし、effort の default、cache の扱い、prompt の編集が重なり、Claude Code は「less intelligent」に見え、忘れっぽく、token をより多く消費するように感じられた。同社は prompt 変更の管理を厳格化し、model ごとの eval を拡充し、内部の code review を改善し、intelligence とトレードオフになりうる変更には soak period と段階的な rollout を追加する。Anthropic の言葉を借りれば、「This isn’t the experience users should expect from Claude Code.」",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-19",
       "source": "Claude Blog",
-      "title": "New connectors in Claude for everyday life",
+      "title": "Claudeに日常向けコネクタが追加",
       "url": "https://claude.com/blog/connectors-for-everyday-life",
       "author": null,
-      "suggestedTitle": "Claude adds everyday-life connectors for travel, shopping, and more",
-      "suggestedSummary": "**Lead:** Claude is expanding its connector ecosystem beyond work tools to include everyday apps like AllTrails, Instacart, Audible, Tripadvisor, TurboTax, Uber, and more, so users can act on personal tasks directly inside chat.\n\n**Numbers:**\n- Claude directory has grown to **200+ connectors** since launching in July 2025.\n- New connectors now include **AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, and Viator**.\n- Connectors are available on **all plans**; **mobile is in beta**.\n\n**So What:** This turns Claude into a more useful action layer for daily life: it can suggest the right app in context, combine multiple services in one thread, and keep users in control before anything is booked or purchased. Anthropic says, “Claude suggests connectors and makes recommendations. But you stay in control of its actions.” The practical takeaway for builders is that connectors are now a distribution surface for consumer apps inside Claude—if your product would be useful in chat, you can submit it to the directory. Users can install connectors quickly, and once connected, they’re available in every conversation without leaving the thread.",
+      "suggestedTitle": "Claudeが旅行、買い物などの日常向けコネクタを追加",
+      "suggestedSummary": "**要点:** Claudeは、仕事用ツールを超えてコネクタのエコシステムを拡大している。AllTrails、Instacart、Audible、Tripadvisor、TurboTax、Uberなどの日常アプリを取り込み、チャット内で個人タスクをそのまま実行できるようにする。\n\n**数字:**\n- Claude directoryは、2025年7月の開始以来、**200以上のコネクタ**に増えた。\n- 新しいコネクタには **AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, Viator** が含まれる。\n- コネクタは**全プラン**で利用可能だ。**mobileはbeta**である。\n\n**意味すること:** これでClaudeは、日常生活におけるより実用的なアクション層になる。文脈に応じて適切なアプリを提案し、1つのスレッドで複数のサービスを組み合わせ、予約や購入の前にはユーザーが主導権を持てる。Anthropicは「Claude suggests connectors and makes recommendations. But you stay in control of its actions.」と述べている。builderにとっての実務的な示唆は、コネクタがClaude内のconsumer app向け配信面になったことだ。自社プロダクトがチャット内で役立つなら、directoryに登録できる。ユーザーはコネクタをすぐにインストールでき、一度接続すればスレッドを離れずにすべての会話で使える。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-19",
       "source": "Claude Blog",
-      "title": "Built-in memory for Claude Managed Agents",
+      "title": "Claude Managed Agentsの内蔵メモリ",
       "url": "https://claude.com/blog/claude-managed-agents-memory",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents get built-in cross-session memory",
-      "suggestedSummary": "Lead: Claude Managed Agents now include a public beta memory layer that lets agents learn from every session while keeping developer control through file-based, API-manageable storage.\n\nNumbers:\n- Rakuten says memory cut first-pass errors by 97%.\n- Wisedocs reports verification is 30% faster.\n- Memory supports concurrent multi-agent access with scoped permissions and audit logs.\n\nSo What: This turns memory from a custom retrieval problem into a built-in production feature for long-running agents. Because memories are stored as files, teams can export, roll back, redact, and manage them programmatically, while sharing stores across agents with different access scopes. Claude also mounts memory directly onto the filesystem, so agents can use the same bash and code execution tools they already rely on. As Anthropic puts it, “Memory is built for enterprise deployments, with scoped permissions, audit logs, and full programmatic control.” For builders, the practical move is to use Managed Agents when you want agents to retain context across sessions without standing up your own memory infrastructure.",
+      "suggestedTitle": "Claude Managed Agentsにセッション横断の内蔵メモリ",
+      "suggestedSummary": "要点: Claude Managed Agentsに、public betaのメモリ層が追加された。各セッションから学習しつつ、fileベースでAPIから管理できるstorageを通じて開発者の制御も保てる。\n\n数値:\n- Rakutenは、メモリ導入で初回の誤りが97%減ったとしている。\n- Wisedocsは、検証が30%高速化したと報告している。\n- メモリは、権限を分けた複数agentの同時アクセスと、audit logをサポートする。\n\n要するに: これは、メモリをカスタムのretrieval問題から、長時間動くagent向けの組み込みproduction機能へ変えるものだ。メモリはfileとして保存されるため、チームはprogrammaticallyにexport、rollback、redact、管理できる。しかも、異なるアクセス範囲を持つagent間でstoreを共有できる。Claudeはメモリをfilesystemに直接mountするので、agentは既存のbashやcode execution toolをそのまま使える。Anthropicの言葉を借りれば、「Memory is built for enterprise deployments, with scoped permissions, audit logs, and full programmatic control.」だ。builderにとって実用的なのは、独自のmemory infrastructureを立てずに、sessionをまたいでcontextを保持させたいときにManaged Agentsを使うことだ。",
       "publishedAt": "Apr 23, 2026",
       "category": "blogUpdates"
     }
@@ -297,6 +302,7 @@
     "totalTweets": 29,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-05-19T15:02:24.344Z"
+    "generatedAt": "2026-05-19T15:02:57.200Z",
+    "estimatedReadTime": "7 分"
   }
 }
