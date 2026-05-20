@@ -1,7 +1,8 @@
 {
   "date": "2026-05-20",
-  "summary": "Karpathy joined Anthropic for the next LLM frontier. Google bet on a 24/7 AI agent, Cursor turned Composer 2.5 into the workflow, and Anthropic shipped Managed Agents for durable long-horizon work.",
-  "items": [
+  "lang": "ja",
+  "summary": "Karpathyは次のLLMフロンティアを求めてAnthropicに加わった。Googleは24時間365日動くAI agentに賭けた。CursorはComposer 2.5をワークフローの中核に据えた。Anthropicは、長期にわたる持続的な作業向けにManaged Agentsを出した。",
+  "builderInsights": [
     {
       "id": "karpathy-2026-05-20",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "karpathy",
       "authorBio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
       "title": "Andrej Karpathy",
-      "suggestedTitle": "Karpathy joins Anthropic for the next LLM frontier",
-      "suggestedSummary": "He says the next few years at the frontier of LLMs will be especially formative, and he’s jumping into Anthropic to get back to R&D. He also says education still matters to him, and he plans to return to that work later.",
+      "suggestedTitle": "Karpathy、次のLLMフロンティアへ向けてAnthropicに加わる",
+      "suggestedSummary": "彼は、LLMのフロンティアにある今後数年は特に重要な時期になると言う。そしてR&Dに戻るため、Anthropicに飛び込む。教育もなお自分にとって大事だとも語っており、将来またその仕事に戻るつもりだ。",
       "tweets": [
         {
           "url": "https://x.com/karpathy/status/2056753169888334312",
@@ -29,8 +30,8 @@
       "authorHandle": "joshwoodward",
       "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "title": "Josh Woodward",
-      "suggestedTitle": "Google’s betting on a 24/7 AI agent",
-      "suggestedSummary": "Gemini Spark is Google’s new always-on personal agent, built to proactively handle tasks and help manage your digital life — with the user still in control. It’s rolling out to trusted testers this week, then to US Google AI Ultra subscribers in beta next week.",
+      "suggestedTitle": "Googleは24時間365日動くAI agentに賭ける",
+      "suggestedSummary": "Gemini Sparkは、Googleの新しい常時稼働のパーソナルagentだ。タスクを先回りして処理し、デジタルライフの管理を助ける。ただし、主導権はユーザーにある。今週、信頼済みテスター向けに展開を開始する。来週には、米国のGoogle AI Ultra subscribers向けにbetaで提供される。",
       "tweets": [
         {
           "url": "https://x.com/joshwoodward/status/2056873495116845485",
@@ -61,8 +62,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor’s Composer 2.5 becomes the whole workflow",
-      "suggestedSummary": "Composer 2.5 is now doing the full loop for him: planning, building, iterating, and debugging. He says it’s especially strong for UI work because Design Mode keeps you in flow inside Cursor.",
+      "suggestedTitle": "Cursor’s Composer 2.5がワークフロー全体になる",
+      "suggestedSummary": "Composer 2.5が、彼のために一連の流れをすべて担うようになった。計画、構築、反復、デバッグまでこなす。特にUI作業に強いという。Cursor内のDesign Modeで流れを切らさずに作業できるからだ。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2056892527626817935",
@@ -87,8 +88,8 @@
       "authorHandle": "GoogleLabs",
       "authorBio": "Google’s home for our latest AI tools and experiments.",
       "title": "Google Labs",
-      "suggestedTitle": "Google Labs ships Genie worlds from real places",
-      "suggestedSummary": "Project Genie just got a real upgrade: you can now start worlds from Google Maps Street View locations, organize creations in a library, and share them externally. They also teased Computational Discovery, where AlphaEvolve and ERA generate and test thousands of code variants to speed up model and algorithm discovery.",
+      "suggestedTitle": "Google Labs、実在の場所からGenie worldsを生成",
+      "suggestedSummary": "Project Genieが大きく進化した。Google MapsのStreet Viewの場所からworldsを開始できるようになり、作成物をlibraryで整理でき、外部共有も可能になった。さらにComputational Discoveryも予告した。AlphaEvolveとERAが数千のcode variantsを生成・検証し、modelとalgorithm discoveryを高速化するというものだ。",
       "tweets": [
         {
           "url": "https://x.com/GoogleLabs/status/2056872996988756228",
@@ -119,8 +120,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "Enterprise AI is becoming a token-budget war",
-      "suggestedSummary": "He says token costs are about to become a top CIO headache, and nobody in Fortune 500 land feels like they have a clean answer yet. The current playbook is messy: throttle by workload, tier access by user, cap spend by team, or make teams prove the ROI before they get more AI. He also says Gemini 3.5 Flash is a real jump for knowledge work, with Box AI tests showing a 12-point gain on complex document tasks and big wins in healthcare, public sector, and life sciences.",
+      "suggestedTitle": "Enterprise AIはtoken予算をめぐる戦いになりつつある",
+      "suggestedSummary": "彼は、tokenコストがまもなくCIOの最重要課題になると言う。だが、Fortune 500の世界でさえ、まだ明快な答えを持つ者はいない。今の対処法は場当たり的だ。ワークロードごとに制限する。ユーザーごとにアクセスを段階分けする。チームごとに支出上限を設ける。あるいは、チームにAIのROIを証明させてから、さらに使わせる。さらに彼は、Gemini 3.5 Flashは知識労働で大きな飛躍だとも述べる。Box AIのテストでは、複雑な文書タスクで12ポイントの向上があり、医療、公的機関、life sciencesで大きな成果が出た。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2056965292753146019",
@@ -145,8 +146,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Vercel wants CDN bills to stop spiking on virality",
-      "suggestedSummary": "They’re shipping a CDN pricing model that smooths over traffic spikes and viral events, so teams get predictable costs without sacrificing performance or getting shoved onto slower routes or priority tiers. He also teased Claude Managed Agents working with Vercel Sandbox, but the big move here is making infra pricing behave less like a surprise tax.",
+      "suggestedTitle": "Vercelはバイラル時のCDN請求額の急騰を止めたい",
+      "suggestedSummary": "Vercelは、トラフィックの急増やバイラルなイベントをならすCDNのpricing modelを投入している。これにより、チームは性能を落としたり、より遅いルートやpriority tierに回されたりせずに、予測しやすいコストを得られる。さらに、Claude Managed AgentsがVercel Sandboxと連携する話も示唆した。ただ、本命はここだ。インフラのpricingを、突然の税金のように感じさせない方向へ変えようとしている。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2056802789477740713",
@@ -177,8 +178,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "Google’s new Gemini looks seriously competitive",
-      "suggestedSummary": "He says Gemini 3.5 Flash is a real step up: stronger multimodal performance, big gains in agentic coding, and leading scores on a bunch of key benchmarks. The caveat is obvious — it’s still just benchmarks and not cheap — but his read is that Google is back in the race and the three-lab competition is making everyone better.",
+      "suggestedTitle": "Googleの新しいGeminiはかなり競争力がある",
+      "suggestedSummary": "彼は、Gemini 3.5 Flashは明確な進化だと言う。マルチモーダル性能が強化され、agentic codingでも大きく伸び、主要なベンチマークの多くでトップ級のスコアを出している。もっとも、懸念は明白だ。まだベンチマーク上の話にすぎず、安くもない。それでも彼の見立てでは、Googleは競争に戻ってきた。3社の競争が、全員をさらに強くしている。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2056834038946775343",
@@ -203,8 +204,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "AI is moving from assistant to autonomous worker",
-      "suggestedSummary": "He says the Bay Area still hasn’t fully priced in the shift from assistants to coworkers to autonomous workers. His take: the missing pieces are long-horizon training data, better task harnesses, and models that can now self-correct well enough to keep pushing into real jobs over the next 10–20 years.",
+      "suggestedTitle": "AIはassistantからautonomous workerへ移行している",
+      "suggestedSummary": "彼は、Bay Areaがまだassistantからcoworker、そしてautonomous workerへの移行を十分に織り込めていないと言う。彼の見立てでは、不足しているのは長期のtraining data、より優れたtask harness、そして今や十分に自己修正できるmodelだ。今後10〜20年で、AIは実際の仕事へさらに踏み込んでいくという。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2056865808832397344",
@@ -229,8 +230,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "LLMs finally make WinFS feel real",
-      "suggestedSummary": "He says the old Microsoft dream of WinFS — a system that actually understands and organizes your files — is now plausible with LLMs, and that’s basically what his GBrain project is aiming at. It’s a neat full-circle take from someone who worked on the original effort in 2003-2005: same problem, new tech, finally enough intelligence to pull it off.",
+      "suggestedTitle": "LLMsでWinFSがついに現実味を帯びる",
+      "suggestedSummary": "彼は、Microsoftの昔の夢だったWinFS、つまりファイルを本当に理解して整理するシステムが、LLMsによってようやく実現可能になったと言う。そして、それこそが彼のGBrain projectの狙いだという。2003年から2005年にかけて元の取り組みに関わった本人がこう語るのは、実に見事な巡り合わせだ。同じ問題に、今度は新しい技術で挑む。ようやくやり切れるだけの intelligence が手に入った、という話である。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2056976600294650266",
@@ -261,8 +262,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Short roadmaps, fast iterations win",
-      "suggestedSummary": "He says the best builders don’t sit on year-long plans — they ship, learn, and iterate 3-4 times to see what sticks. The vibe is very product-lead-in-an-AI-era: 90-day roadmaps, constant experimentation, and keeping the builder muscle from turning to mush.",
+      "suggestedTitle": "短いロードマップと高速な反復が勝つ",
+      "suggestedSummary": "彼によれば、優れたビルダーは1年単位の計画に居座らない。まず出して、学び、3〜4回は反復して、何が刺さるかを見るのだ。雰囲気はまさにAI時代のプロダクト主導だ。90日ロードマップ、絶え間ない実験、そしてビルダーとしての筋力を鈍らせないことが肝である。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2056953057066598805",
@@ -293,8 +294,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "AI coding needs tests, plans, and constant steering",
-      "suggestedSummary": "He lays out a 4-part AI SDLC: start with real test coverage, use `/plan` to carve up hot paths and improve maintainability, let the agent break backward compatibility when needed, then keep spot-checking and steering bugs as it ships. The vibe is clear: AI coding works best when you treat it like an aggressive junior engineer that still needs guardrails, logging, and human judgment.",
+      "suggestedTitle": "AI codingにはテスト、計画、継続的な舵取りが必要だ",
+      "suggestedSummary": "彼は4段階のAI SDLCを示している。まず実際のテストカバレッジを確保する。次に `/plan` を使ってホットパスを切り分け、保守性を高める。必要なら agent に後方互換性を壊させる。そしてリリース中も、バグをスポットチェックしながら舵取りを続ける。要するに、AI codingは、ガードレール、ログ、人間の判断をまだ必要とする攻めの若手エンジニアとして扱うときに最もうまくいく、ということだ。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2056999228405346812",
@@ -317,36 +318,40 @@
       ],
       "publishedAt": "2026-05-20T07:23:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-20",
       "source": "Training Data",
-      "title": "Rebuilding IT From the Ground Up for the AI Age: Serval's Jake Stauch",
+      "title": "AI時代に向けてITをゼロから作り直す: ServalのJake Stauch",
       "url": "https://www.youtube.com/watch?v=j7ypvRUFY7M",
-      "suggestedTitle": "Serval wins by making automation easier than manual work",
-      "suggestedSummary": "**The Takeaway:** The real moat in AI enterprise software isn’t raw model power — it’s making automation so easy, safe, and useful that people choose it over doing the task manually.\n\n**Key Insights**\n- Serval keeps the old enterprise primitives — workflows and databases — but uses AI to generate and maintain them instantly, instead of making teams wait weeks for developers.\n- The product has to be simpler than the manual workaround, or nobody will use it; if resetting a password is easier than building the workflow, the workflow loses.\n- In AI-native software, the boundary layer matters more than the model layer: permissions, approvals, audits, logs, and scoped tools are what let enterprises trust the system.\n\n**The Story**\nJake Stauch, founder and CEO of Serval, is rebuilding enterprise service management for the AI age. His core belief is blunt: employees should get help at work instantly, and the software should do the boring coordination behind the scenes. Serval’s “cogen” engine turns natural language into code, so admins can describe a workflow and have it appear immediately, with the database kept current automatically.\n\nWhat makes that philosophy sharp is Jake’s obsession with usability. He argues that if automation is harder to create than the manual task, people will always default to the manual path. That’s why Serval also built an agent that detects duplicate workflows and helps clean up the mess when teams over-automate. As he puts it, “the product is the boundaries” — the controls are what make AI safe enough for enterprise use.\n\nJake is also unusually customer-immersed: he says he’s in every customer Slack channel and uses that constant feedback as the company’s real moat. The result is a product shaped less by theory than by lived friction, from AI-native startups to giant enterprises where tickets disappear into “the abyss.”",
+      "suggestedTitle": "Servalは手作業より自動化を簡単にすることで勝つ",
+      "suggestedSummary": "**要点:** AI enterprise softwareにおける本当の moat は、モデルの性能そのものではない。自動化を、手作業でやるより簡単で、安全で、役に立つものにし、人々が自分でやる代わりにそれを選ぶようにすることだ。\n\n**主な示唆**\n- Servalは、workflowとdatabaseという古い enterprise の基本要素をそのまま使う。ただし、開発者を何週間も待たせるのではなく、AIでそれらを即座に生成し、維持する。\n- product は手作業の代替手段より簡単でなければならない。そうでなければ誰も使わない。パスワードのリセットが workflow を作るより簡単なら、workflow は負ける。\n- AI-native softwareでは、model layer より boundary layer のほうが重要だ。permission、approval、audit、log、そして範囲を絞った tool こそが、enterprise が system を信頼できるようにする。\n\n**ストーリー**\nServalの founder 兼 CEO である Jake Stauch は、AI時代に向けて enterprise service management を作り直している。彼の核となる信念は明快だ。employee は職場で即座に help を得るべきであり、software は裏側で面倒な coordination を処理すべきだ。Servalの「cogen」engine は natural language を code に変換する。admin は workflow を説明するだけでよく、それがすぐに現れ、database も自動で最新状態に保たれる。\n\nこの考え方を際立たせているのは、Jakeの usability への執着だ。彼は、自動化を作るほうが手作業より難しいなら、人は必ず手作業に戻ると主張する。だからこそ Serval は、重複した workflow を検出し、チームが自動化をやりすぎたときに混乱を整理する agent も作った。彼の言葉を借りれば、「product is the boundaries」だ。control こそが、AI を enterprise で安全に使えるものにする。\n\nJakeは顧客との距離も異様に近い。すべての customer Slack channel に入っていると語り、その絶え間ない feedback を会社の本当の moat と見なしている。その結果、product は理論よりも、実際の friction によって形作られている。AI-native startup から、ticket が「the abyss」に消えていく巨大 enterprise まで、対象は広い。",
       "publishedAt": "2026-05-19T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-20",
       "source": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Managed Agentsのスケーリング: brainとhandsを分離する",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "author": null,
-      "suggestedTitle": "Anthropic launches Managed Agents for durable long-horizon work",
-      "suggestedSummary": "Lead: Anthropic introduced Managed Agents, a hosted Claude Platform service that separates the agent “brain” from its “hands” and session state so long-running work can survive failures, scale better, and adapt as models improve.\n\nNumbers:\n- p50 time-to-first-token dropped roughly 60%\n- p95 time-to-first-token dropped over 90%\n- The architecture is built around three interfaces: session, harness, and sandbox\n\nSo What: For builders, the key shift is from fragile, container-coupled agents to a meta-harness where each piece can fail or be replaced independently. The session becomes a durable event log, the harness can restart from `wake(sessionId)`, and tools/sandboxes are invoked through simple interfaces like `execute(name, input) → string`. Anthropic also tightened security by keeping credentials out of the sandbox, using patterns like repo-scoped tokens for Git and a vault-backed proxy for MCP/OAuth tools. The practical takeaway: you can now build agents that are easier to debug, safer to connect to external infrastructure like a VPC, and faster to start when a container isn’t immediately needed. As the post puts it, the goal is a system for “programs as yet unthought of.”",
+      "suggestedTitle": "Anthropicが長時間の長期タスク向けにManaged Agentsをリリース",
+      "suggestedSummary": "要点: AnthropicはManaged Agentsを導入した。これはホスト型のClaude Platformサービスで、agentの「brain」と「hands」、そしてsession stateを分離する。これにより、長時間動く作業が障害を乗り越えて継続しやすくなり、スケールもしやすくなり、modelの進化にも追従できる。",
       "publishedAt": null,
       "category": "blogUpdates"
     },
     {
       "id": "httpsclaudec-2026-05-20",
       "source": "Claude Blog",
-      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "title": "Claude Managed Agentsに新機能: self-hosted sandboxesとMCP tunnels",
       "url": "https://claude.com/blog/claude-managed-agents-updates",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents add self-hosted sandboxes and MCP tunnels",
-      "suggestedSummary": "**Lead:** Claude Managed Agents can now run tools in self-hosted sandboxes you control and connect to private MCP servers through MCP tunnels, keeping agent execution and internal services inside your enterprise perimeter.\n\n**Numbers:**\n- Self-hosted sandboxes are in **public beta** on the Claude Platform.\n- MCP tunnels are in **research preview** and require access request.\n- Supported sandbox providers include **Cloudflare, Daytona, Modal, and Vercel**.\n\n**So What:** Builders can now keep sensitive files, packages, credentials, and network access under their own security and runtime controls while Anthropic still handles the agent loop for orchestration, context management, and error recovery. Anthropic says, “**files and repositories don’t leave**,” and MCP tunnels let agents reach internal databases, private APIs, knowledge bases, and ticketing systems without public endpoints or inbound firewall changes. The practical takeaway: choose a sandbox provider that matches your workload—stateful long-running jobs, GPU-heavy tasks, or low-latency startup—and use MCP tunnels to expose internal tools safely to agents. The feature is available in Managed Agents, and MCP tunnels also work in the Messages API.",
+      "suggestedTitle": "Claude Managed Agentsがself-hosted sandboxesとMCP tunnelsを追加",
+      "suggestedSummary": "**要点:** Claude Managed Agentsは、ユーザーが管理するself-hosted sandboxes内でtoolsを実行できるようになった。さらに、MCP tunnels経由でprivate MCP serversにも接続できる。これにより、agentの実行環境と社内サービスをenterprise perimeter内に保てる。\n\n**数値:**\n- self-hosted sandboxesはClaude Platformで**public beta**だ。\n- MCP tunnelsは**research preview**で、アクセス申請が必要だ。\n- 対応するsandbox providerには**Cloudflare, Daytona, Modal, Vercel**が含まれる。\n\n**意味すること:** Builderは、機密ファイル、packages、credentials、network accessを自社のsecurityとruntime controlの下に置ける。一方でAnthropicは、orchestration、context management、error recoveryのためのagent loopを担う。Anthropicは「**files and repositories don’t leave**」と述べている。MCP tunnelsを使えば、agentはpublic endpointやinbound firewallの変更なしで、社内database、private API、knowledge base、ticketing systemにアクセスできる。実務上のポイントは明快だ。statefulな長時間ジョブ、GPU負荷の高いtask、低レイテンシのstartupなど、workloadに合うsandbox providerを選ぶこと。そしてMCP tunnelsで社内toolsをagentに安全に公開することだ。この機能はManaged Agentsで利用でき、MCP tunnelsはMessages APIでも動作する。",
       "publishedAt": "May 19, 2026",
       "category": "blogUpdates"
     }
@@ -356,6 +361,7 @@
     "totalTweets": 40,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-05-20T15:02:06.619Z"
+    "generatedAt": "2026-05-20T15:02:30.900Z",
+    "estimatedReadTime": "7 分"
   }
 }

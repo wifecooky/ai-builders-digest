@@ -1,7 +1,8 @@
 {
   "date": "2026-05-20",
+  "lang": "en",
   "summary": "Karpathy joined Anthropic for the next LLM frontier. Google bet on a 24/7 AI agent, Cursor turned Composer 2.5 into the workflow, and Anthropic shipped Managed Agents for durable long-horizon work.",
-  "items": [
+  "builderInsights": [
     {
       "id": "karpathy-2026-05-20",
       "source": "X",
@@ -317,7 +318,9 @@
       ],
       "publishedAt": "2026-05-20T07:23:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-20",
       "source": "Training Data",
@@ -327,7 +330,9 @@
       "suggestedSummary": "**The Takeaway:** The real moat in AI enterprise software isn’t raw model power — it’s making automation so easy, safe, and useful that people choose it over doing the task manually.\n\n**Key Insights**\n- Serval keeps the old enterprise primitives — workflows and databases — but uses AI to generate and maintain them instantly, instead of making teams wait weeks for developers.\n- The product has to be simpler than the manual workaround, or nobody will use it; if resetting a password is easier than building the workflow, the workflow loses.\n- In AI-native software, the boundary layer matters more than the model layer: permissions, approvals, audits, logs, and scoped tools are what let enterprises trust the system.\n\n**The Story**\nJake Stauch, founder and CEO of Serval, is rebuilding enterprise service management for the AI age. His core belief is blunt: employees should get help at work instantly, and the software should do the boring coordination behind the scenes. Serval’s “cogen” engine turns natural language into code, so admins can describe a workflow and have it appear immediately, with the database kept current automatically.\n\nWhat makes that philosophy sharp is Jake’s obsession with usability. He argues that if automation is harder to create than the manual task, people will always default to the manual path. That’s why Serval also built an agent that detects duplicate workflows and helps clean up the mess when teams over-automate. As he puts it, “the product is the boundaries” — the controls are what make AI safe enough for enterprise use.\n\nJake is also unusually customer-immersed: he says he’s in every customer Slack channel and uses that constant feedback as the company’s real moat. The result is a product shaped less by theory than by lived friction, from AI-native startups to giant enterprises where tickets disappear into “the abyss.”",
       "publishedAt": "2026-05-19T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-20",
       "source": "Anthropic Engineering",
@@ -356,6 +361,7 @@
     "totalTweets": 40,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-05-20T15:02:06.619Z"
+    "generatedAt": "2026-05-20T15:02:06.838Z",
+    "estimatedReadTime": "7 min"
   }
 }
