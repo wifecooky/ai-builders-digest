@@ -1,7 +1,8 @@
 {
   "date": "2026-05-21",
-  "summary": "Altman said AGI moved from labs to companies to people. Steinberger called autocomplete the real killer app. Rauch pegged AI at 42% of the web, while Dan Shipper said MCP became the new API layer—and Every warned it needed ruthless curation.",
-  "items": [
+  "lang": "ja",
+  "summary": "Altmanは、AGIが研究室から企業へ、そして人々へ移ったと述べた。  \nSteinbergerは、autocompleteこそが本当のkiller appだと呼んだ。  \nRauchは、AIがwebの42%を占めると見積もった。  \n一方でDan Shipperは、MCPが新たなAPI layerになったと述べた。  \nそしてEveryは、それには徹底したcurationが必要だと警告した。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-21",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "AGI is moving from labs to companies to people",
-      "suggestedSummary": "He says the big three wins are AGI speeding up research, companies, and eventually every person’s goals. He also points to a major math breakthrough as proof these models are already pushing into real scientific discovery, while OpenAI keeps leaning into startup adoption with $2M in credits for every YC company.",
+      "suggestedTitle": "AGIは研究室から企業へ、そして人へ移りつつある",
+      "suggestedSummary": "彼によれば、大きな3つの成果は、AGIが研究、企業、そして最終的には一人ひとりの目標を加速することだという。さらに、ある大きな数学のブレークスルーを挙げ、こうしたモデルがすでに本物の科学的発見へ踏み込んでいる証拠だと示している。一方でOpenAIは、YCの全社に2Mドル分のcreditsを配ることで、startupへの導入をさらに強めている。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2057218997503086888",
@@ -35,8 +36,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Autocomplete everywhere is the real AI killer app",
-      "suggestedSummary": "He’s all-in on @cotypist, calling it a must-have because it brings autocomplete everywhere. The take is simple: the best AI tools don’t feel like chatbots — they quietly speed up every place you type.",
+      "suggestedTitle": "Autocomplete everywhereこそが本当のAIキラーアプリだ",
+      "suggestedSummary": "彼は @cotypist に全力で乗っており、どこでもautocompleteを使えるようにするので必須だと語っている。要点はシンプルだ。最高のAIツールはchatbotのようには感じられない。入力するあらゆる場所で、静かに作業を速くしてくれるのだ。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2057040636449116222",
@@ -55,8 +56,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI agents make implementation a forever job",
-      "suggestedSummary": "He says FDEs are here to stay because agents don’t just get deployed — they reshape workflows, and every model update can invalidate yesterday’s setup. That makes implementation a moving target, which is why vendors and partners who’ve done it hundreds of times will keep winning.",
+      "suggestedTitle": "AI agentsは実装を永遠の仕事にする",
+      "suggestedSummary": "彼は、FDEは今後も必要だと言う。agentは単にデプロイされるだけではない。ワークフローそのものを作り替えるからだ。さらに、modelのアップデートが入るたびに、昨日までの設定は使えなくなる。実装は常に動く標的になる。だからこそ、何百回も実装してきたvendorやpartnerが勝ち続けるのだ。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2057315272156135501",
@@ -75,8 +76,8 @@
       "authorHandle": "GoogleLabs",
       "authorBio": "Google’s home for our latest AI tools and experiments.",
       "title": "Google Labs",
-      "suggestedTitle": "Genie turns game design into a minutes-long prompt",
-      "suggestedSummary": "Project Genie is now fully available to Google AI Ultra subscribers globally, and the pitch is simple: pick characters, set the scene, and let the model build the game. Google Labs is pushing this as a real shift from playing games to designing them fast.",
+      "suggestedTitle": "Genieがゲームデザインを数分のpromptに変える",
+      "suggestedSummary": "Project Genieが、Google AI Ultraの登録者向けに世界中で完全提供開始となった。売りはシンプルだ。キャラクターを選び、舞台を設定し、あとはmodelにゲームを作らせる。Google Labsはこれを、ゲームを遊ぶ側から素早く設計する側への本当の転換だと打ち出している。",
       "tweets": [
         {
           "url": "https://x.com/GoogleLabs/status/2057218835074437573",
@@ -101,8 +102,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "AI is coming to 42% of the web",
-      "suggestedSummary": "He says this move will put AI on 42% of the web, with support for every major model, provider, and modality — text, image, video, and audio. That’s a big distribution claim from Vercel’s CEO: the web stack is becoming the AI stack.",
+      "suggestedTitle": "AIがWebの42%に広がる",
+      "suggestedSummary": "彼によれば、この動きでAIはWebの42%に広がる。主要なmodel、provider、modality――text、image、video、audio――すべてに対応する。VercelのCEOによる、かなり大きなdistributionの主張だ。Web stackがAI stackへと変わりつつある。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2057212335811620987",
@@ -121,8 +122,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Layoff churn is wrecking team mental health",
-      "suggestedSummary": "He says the real cost of constant layoffs and performance cycles isn’t just morale — it’s mental health. The subtext is blunt: if a company is in perpetual restructuring mode, the job may not be worth the stress.",
+      "suggestedTitle": "レイオフの連鎖がチームのメンタルヘルスを壊している",
+      "suggestedSummary": "彼は、絶え間ないレイオフと評価サイクルの本当のコストは、士気だけではないと言う。メンタルヘルスそのものだ。裏にあるメッセージは率直だ。会社が恒常的な再編モードにあるなら、その仕事はストレスに見合わないかもしれない。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2057281238722072912",
@@ -141,8 +142,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Agents need a real web search layer",
-      "suggestedSummary": "He says Exa is the only search stack he trusts for agents — used at YC and inside his own OpenClaw and Hermes agents because it’s fast, reliable, and complete. The bigger point: if your agent needs the web, search quality isn’t a nice-to-have, it’s the product.",
+      "suggestedTitle": "agentには本物のweb search layerが必要だ",
+      "suggestedSummary": "彼によれば、Exaはagent向けで唯一信頼できるsearch stackだという。YCでも、自身のOpenClawとHermes agentsでも使っている。速く、信頼性が高く、網羅性もあるからだ。より大きな論点は、agentがwebを必要とするなら、searchの品質はあれば便利なものではなく、プロダクトそのものだということだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2057238298805129383",
@@ -173,8 +174,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "AI teams blur the line between ICs and managers",
-      "suggestedSummary": "She argues AI-native teams will flip old roles: ICs need to think like managers, delegating to agents and verifying output, while managers need to get more hands-on and build again. She also says the “T-shape” is becoming universal — go deeper in your domain, wider across adjacent skills, and layer AI fluency on top.",
+      "suggestedTitle": "AIチームはICとマネージャーの境界を曖昧にする",
+      "suggestedSummary": "彼女は、AIネイティブなチームでは従来の役割が逆転すると主張する。ICはマネージャーのように考え、agentに仕事を任せて出力を検証する必要がある。一方でマネージャーは、より現場に入り込み、再び自分で作る側に回る必要があるという。さらに、T-shapeは今や普遍的になりつつあるとも述べる。自分の専門領域はより深く、隣接スキルはより広く、そこにAIリテラシーを重ねるべきだという。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2057324988009685208",
@@ -199,8 +200,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Agent labs win as models get better",
-      "suggestedSummary": "He says Sam Altman’s old idea of a business that improves with model quality is basically what he meant by “Agent Labs” — and he’s seeing a direct revenue lift as models improve, with a likely Q4 2025 step-change. He also notes a quick Exa bake-off where the team unanimously picked Exa in 1.5 hours, calling it a company on a generational tear.",
+      "suggestedTitle": "モデルの性能向上でAgent Labsが勝つ",
+      "suggestedSummary": "彼によれば、Sam Altmanの昔のアイデアである、モデルの品質が上がるほど事業も伸びるという発想は、ほぼ「Agent Labs」のことだったという。モデルが良くなるにつれて売上が直接伸びており、2025年Q4には大きな段差が来る可能性が高いとも見ている。さらに、Exaの短いベイクオフでは、チームが1.5時間で満場一致でExaを選んだと述べ、同社を世代級の急成長企業だと評している。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2057180464524456201",
@@ -231,8 +232,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "MCP is becoming the new API layer",
-      "suggestedSummary": "Anthropic’s Stainless acquisition makes the bet obvious: the boring plumbing around APIs, SDKs, and MCP servers is now strategic. The real edge, Dan Shipper says from his AI & I convo with Stainless founder Alex Rattray, is keeping tools lean, using dynamic mode for messy APIs, and eventually letting models just write code against SDKs instead of juggling hundreds of tools.",
+      "suggestedTitle": "MCPが新しいAPIレイヤーになりつつある",
+      "suggestedSummary": "AnthropicによるStainless買収で、その賭けは明白になった。API、SDK、MCP serversを支える地味な配線こそ、今や戦略の要だ。Dan Shipperは、Stainless創業者Alex RattrayとのAI & I対談を踏まえ、真の強みはツールを軽く保つこと、扱いにくいAPIにはdynamic modeを使うこと、そして最終的にはモデルが何百ものツールをさばく代わりにSDKに対して直接codeを書くようになることだと語る。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2057123430776902031",
@@ -249,23 +250,27 @@
       ],
       "publishedAt": "2026-05-20T15:37:00.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-21",
       "source": "AI & I by Every",
-      "title": "Inside Stainless: The Developer Tools Startup Anthropic Just Bought for $300 Million",
+      "title": "Stainlessの内側: Anthropicが3億ドルで買収した開発者向けツールのスタートアップ",
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "suggestedTitle": "MCP won’t scale by exposing everything; it needs ruthless curation.",
-      "suggestedSummary": "**The Takeaway:** The winning MCP strategy isn’t “more tools”; it’s fewer, sharper tools designed for how models actually behave.\n\n- Exposing an entire API to an LLM is a trap: you burn context, confuse the model, and still don’t get reliable execution.\n- The hard part isn’t wiring up endpoints — it’s product design, evals, and making the tool names, schemas, and outputs model-friendly.\n- A practical workaround is to compress knowledge outside the model, like Alex’s markdown “knowledge repo,” so the AI can reuse curated context instead of rediscovering it.\n\nAlex Rattray, founder and CEO of Stainless, has spent years building the plumbing that lets computers talk to computers — first through APIs and SDKs for companies like Stripe, OpenAI, and Anthropic, and now through MCP servers. His view is blunt: the dream of agentic AI is real, but the current implementation is clumsy. If you hand an LLM every endpoint in a giant product like Stripe, “you’ve burned through your entire context budget” before the model even starts thinking.\n\nHis answer is not to expose more, but to expose better. That means fewer tools, precise names, tight schemas, and responses that return only what the model needs. It also means accepting that MCP is still a research problem, not a solved interface. Humans can learn Python; models can’t learn to “think like an LLM” from the outside, so the interface has to do the heavy lifting.\n\nThe most interesting part is how Alex uses AI himself: not as a chatbot, but as a research assistant that writes into a curated Git repo of notes, quotes, and citations. That way, future questions don’t require another expensive search through live systems. It’s a very Stainless answer to the AI era: don’t just automate the task — design the interface so the machine can actually use it.",
+      "suggestedTitle": "MCPは何でも公開してもスケールしない。必要なのは徹底した取捨選択だ。",
+      "suggestedSummary": "**要点:** 勝てるMCP戦略は「より多くのツール」ではない。モデルの実際の振る舞いに合わせて設計された、より少なく、より鋭いツールだ。\n\n- LLMにAPI全体を公開するのは罠だ。コンテキストを食い潰し、モデルを混乱させ、それでも信頼できる実行にはつながらない。\n- 難しいのはendpointをつなぐことではない。product design、evals、そしてtool名、schema、outputをmodel-friendlyにすることだ。\n- 実用的な回避策は、Alexのmarkdown「knowledge repo」のように、modelの外で知識を圧縮することだ。そうすればAIは、毎回ゼロから探し直す代わりに、選別されたコンテキストを再利用できる。\n\nStainlessの創業者兼CEOであるAlex Rattrayは、computer同士が会話するための基盤を長年作ってきた。Stripe、OpenAI、Anthropicのような企業向けにAPIとSDKを提供してきた。今はMCP serverに取り組んでいる。彼の見方は率直だ。agentic AIの夢は本物だが、現状の実装は不格好である。Stripeのような巨大なproductの全endpointをLLMに渡せば、モデルが考え始める前に「コンテキスト予算を使い切ってしまう」。\n\n彼の答えは、もっと公開することではない。より良く公開することだ。つまり、toolを減らし、名前を正確にし、schemaを厳密にし、modelが必要とするものだけを返すことだ。さらに、MCPはまだ解決済みのinterfaceではなく、研究課題だと認めることでもある。人間はPythonを学べるが、modelは外側から「LLMのように考える」ことを学べない。だからinterface側が重い仕事を引き受ける必要がある。\n\n最も興味深いのは、Alex自身がAIをどう使っているかだ。chatbotとしてではない。ノート、引用、citationをまとめた選別済みのGit repoに書き込むresearch assistantとして使っている。そうすれば、次の質問でまた高コストなlive systemの検索をする必要がない。これこそAI時代に対するStainlessらしい答えだ。単にtaskを自動化するのではない。machineが実際に使えるようにinterfaceを設計するのである。",
       "publishedAt": "2026-05-20T15:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 15,
     "totalTweets": 27,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-21T15:02:12.022Z"
+    "generatedAt": "2026-05-21T15:02:35.184Z",
+    "estimatedReadTime": "6 分"
   }
 }
