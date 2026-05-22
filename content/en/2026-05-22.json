@@ -1,7 +1,8 @@
 {
   "date": "2026-05-22",
+  "lang": "en",
   "summary": "Altman shipped Codex while asking what AI should fix. Levie saw AI pricing split into tiers, Masad pushed buy-first rewards, and Anthropic added Auto Mode to Claude Code as the reliability bar jumped.",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-05-22",
       "source": "X",
@@ -241,7 +242,9 @@
       ],
       "publishedAt": "2026-05-22T06:29:40.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-22",
       "source": "The MAD Podcast with Matt Turck",
@@ -251,7 +254,9 @@
       "suggestedSummary": "**The Takeaway:** AI progress feels sudden because models finally became reliable enough to be useful, not because capability jumped overnight.\n\n- The big shift is from benchmark wins to messy real-world utility: “we moved from competitions to usefulness to users.”\n- Reinforcement learning is escaping math and coding contests and starting to work on actual knowledge work, agentic coding, and scientific tasks.\n- Efficiency matters as much as raw intelligence: the goal is to make models think less, backtrack faster, and deliver better answers with lower latency.\n\nYann Dubois, who co-leads OpenAI’s Post-Training Frontiers team, frames the current AI wave as a threshold crossing. He says the models didn’t suddenly get magical; they got dependable enough that people can trust them to do real work. That’s why the last few months have felt like a step function. Internally, the same models are also accelerating the people building them, especially because coding tools now speed up research, training, and infrastructure.\n\nDubois’s core point is that post-training is where the action moved. Early reinforcement learning was tuned for “verifiable rewards” like math problems and coding competitions. Now those same techniques are being pushed into ambiguous, high-value tasks where there isn’t a clean right answer. That’s a much bigger deal than another leaderboard win.\n\nHe also makes a sharp distinction between raw compute and useful reasoning. Longer thinking helps, but only up to a point; the real win is getting models to choose better reasoning paths and recognize dead ends sooner. In his words, an expert doesn’t explore ten directions when one is obviously better. That’s the kind of efficiency OpenAI is chasing.\n\nDubois, originally trained in biomedical engineering in Switzerland before moving through NLP work in Singapore and a PhD at Stanford, is unusually focused on impact. Even his public note telling quant firms not to reach out says a lot: he wants to build systems that matter, not just systems that score well.",
       "publishedAt": "2026-05-21T11:30:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-22",
       "source": "Anthropic Engineering",
@@ -269,6 +274,7 @@
     "totalTweets": 33,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-22T15:00:13.229Z"
+    "generatedAt": "2026-05-22T15:00:13.439Z",
+    "estimatedReadTime": "6 min"
   }
 }

@@ -1,7 +1,8 @@
 {
   "date": "2026-05-22",
-  "summary": "Altman shipped Codex while asking what AI should fix. Levie saw AI pricing split into tiers, Masad pushed buy-first rewards, and Anthropic added Auto Mode to Claude Code as the reliability bar jumped.",
-  "items": [
+  "lang": "zh",
+  "summary": "Altman 一边问 AI 该先解决什么，一边把 Codex 推了出来。Levie 看到 AI 定价开始分层，Masad 推动先买后奖的模式，而 Anthropic 也给 Claude Code 加了 Auto Mode，因为大家对可靠性的要求又上了一个台阶。",
+  "builderInsights": [
     {
       "id": "sama-2026-05-22",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "sama",
       "authorBio": "AI is cool i guess",
       "title": "Sam Altman",
-      "suggestedTitle": "Codex ships as Altman asks what AI should fix",
-      "suggestedSummary": "He says new Codex is shipping today, while also tossing out a broad prompt to the internet: what problem do you most want AI to solve? The mix is classic OpenAI—product launch on one hand, agenda-setting on the other.",
+      "suggestedTitle": "Codex 正式上线，Altman 也在问：AI 到底该解决什么",
+      "suggestedSummary": "他说新版 Codex 今天就会发出来。与此同时，他也在网上抛了个大问题：你最希望 AI 解决什么？这种组合很 OpenAI——一边发产品，一边定方向。",
       "tweets": [
         {
           "url": "https://x.com/sama/status/2057614780727480741",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI pricing is splitting into tiers, fast",
-      "suggestedSummary": "He says AI has moved from cheap chatbots to expensive, high-context agents, and that gap is only widening. The result: frontier tasks will keep paying up for better models, while enterprises build new systems to route work to cheaper ones when good enough.",
+      "suggestedTitle": "AI 定价正在快速分层",
+      "suggestedSummary": "他认为，AI 已经从便宜的 chatbot 走到了昂贵、需要高上下文的 agent。这个差距还会继续拉大。结果就是：前沿任务会继续为更好的 model 买单，而企业会搭建新系统，把工作路由给更便宜的 model，只要效果够用就行。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2057663408376516703",
@@ -61,8 +62,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "Startup hiring is a brutal filter, not a vibe check",
-      "suggestedSummary": "He says early-stage hiring should be ruthless: if a candidate is still choosing between startup and BigCo, or won’t take a big pay cut, they’re probably not startup-ready. The bigger point is that negotiation tells you a lot, and founders should walk away fast when the signals turn bad. His take is blunt: startups demand real hours, real sacrifice, and zero ambiguity about the grind.",
+      "suggestedTitle": "创业公司招聘不是看感觉，而是个残酷筛选器",
+      "suggestedSummary": "他说，早期招聘就该够狠：如果候选人还在 startup 和 BigCo 之间摇摆，或者不愿意大幅降薪，那大概率还没准备好加入 startup。更关键的是，谈判本身就能暴露很多信号。创始人一旦看到不对劲，就该尽快抽身。他的观点很直接：startup 需要真工时、真牺牲，而且对这种高强度 grind 不能有任何模糊地带。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2057502381038846306",
@@ -87,8 +88,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Cursor leans into team-based software building",
-      "suggestedSummary": "They’re pitching software creation as a shared activity, not a solo grind, and pointing people to Cursor’s new model, interface, SDK, and automations. It’s a clean product push: make building feel more collaborative, then give teams the tools to actually do it.",
+      "suggestedTitle": "Cursor 转向团队协作式软件开发",
+      "suggestedSummary": "他们把 software creation 包装成一件大家一起做的事，而不是一个人硬扛。然后把 Cursor 的新 model、interface、SDK 和 automations 推给用户。这次的产品思路很清晰：先让 building 更像协作，再给团队真正能用的工具。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2057500107235557675",
@@ -107,8 +108,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Buy without the sales call, then get rewarded",
-      "suggestedSummary": "He says customers shouldn’t have to talk to a company just to buy the product — a clean anti-sales take that fits Replit’s self-serve DNA. He also teased a monetization loop for apps: if you earn from your app, Replit will kick back credit rewards.",
+      "suggestedTitle": "不用 sales call 也能买，买完还能拿奖励",
+      "suggestedSummary": "他觉得，客户没必要为了买个产品还得先跟公司聊一圈。这种反 sales 的思路，和 Replit 一贯的 self-serve DNA 很搭。他还提到一个 app 的 monetization loop：如果你的 app 能赚钱，Replit 会回馈 credit 奖励。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2057616724757827826",
@@ -133,8 +134,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Agents for everyone, and cities can be safer",
-      "suggestedSummary": "He says everyone should have an agent with a GBrain, pushing the idea that personal AI should be a default tool, not a novelty. He also doubles down on Flock Safety as proof that cities can get safer if they choose to invest in it. In a separate interview clip, he and Diana Hu talk through what it takes for an engineer to become a 1000x founder.",
+      "suggestedTitle": "人人都该有 agent，城市也能更安全",
+      "suggestedSummary": "他认为，每个人都应该有一个带 GBrain 的 agent。个人 AI 应该是默认工具，而不是新鲜玩意儿。他也继续全力押注 Flock Safety，认为只要愿意投入，城市就能更安全。另一个采访片段里，他和 Diana Hu 还聊了聊，工程师要怎么才能成长为一个 1000x founder。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2057701084031004928",
@@ -165,8 +166,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "Local-first stack may have already won",
-      "suggestedSummary": "He says this stack has basically won the local-first battle for building fast apps fast, though he leaves room for more chapters. It’s a strong “pick this if you want speed” take, not a neutral observation.",
+      "suggestedTitle": "本地优先 stack 可能已经赢了",
+      "suggestedSummary": "他觉得，这套 stack 基本已经拿下了 local-first 这场仗，特别适合快速做出快应用。不过他也留了余地，觉得后面可能还有新篇章。这是个很明确的“想要速度就选它”的判断，不是中立观察。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2057700807576043825",
@@ -197,8 +198,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI progress feels like a step function now",
-      "suggestedSummary": "He says recent AI progress suddenly feels real — not because of bigger models alone, but because post-training, test-time compute, and RL are making systems more reliable and useful. In his conversation with OpenAI’s Yann Dubois, he digs into why GPT-5.5 shipping feels like an emotional rollercoaster, where the data wall is, and why startups should focus on the last mile of AI.",
+      "suggestedTitle": "AI 进展现在更像是阶跃函数了",
+      "suggestedSummary": "他说，最近的 AI 进展突然变得很真实了。原因不只是模型更大了，而是 post-training、test-time compute 和 RL 让系统更稳定，也更实用。和 OpenAI 的 Yann Dubois 聊的时候，他还拆解了为什么 GPT-5.5 的发布像坐过山车，data wall 到底在哪，以及为什么 startup 应该把重心放在 AI 的最后一公里。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2057498135300039068",
@@ -223,8 +224,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Claude Code gets a Lark/Feishu sidekick",
-      "suggestedSummary": "She shipped an open-source bridge that turns Lark/Feishu into a control plane for Claude Code: chat with it like a coworker, run multiple sessions as group chats, and let it read docs, transcripts, and messages for context. It also writes Lark Docs, replies to @mentions, and can send interactive cards back — basically Claude Code with a workplace-native UI.",
+      "suggestedTitle": "Claude Code 获得了一个 Lark/Feishu 搭子",
+      "suggestedSummary": "她开源了一个桥接层，把 Lark/Feishu 变成 Claude Code 的控制面板：可以像和同事聊天一样跟它对话，把多个 session 当成群聊来跑，还能让它读取 docs、transcripts 和 messages 作为上下文。它也能写 Lark Docs、回复 @mentions，还能把 interactive cards 发回去——基本就是带 workplace-native UI 的 Claude Code。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2057710468064825417",
@@ -241,25 +242,29 @@
       ],
       "publishedAt": "2026-05-22T06:29:40.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-22",
       "source": "The MAD Podcast with Matt Turck",
-      "title": "OpenAI's Yann Dubois: Why AI Progress Suddenly Feels Real",
+      "title": "OpenAI 的 Yann Dubois：为什么 AI 进展突然变得真实了",
       "url": "https://www.youtube.com/watch?v=DhD1zZ8w8Mw",
-      "suggestedTitle": "AI just crossed the reliability threshold—and real work is next",
-      "suggestedSummary": "**The Takeaway:** AI progress feels sudden because models finally became reliable enough to be useful, not because capability jumped overnight.\n\n- The big shift is from benchmark wins to messy real-world utility: “we moved from competitions to usefulness to users.”\n- Reinforcement learning is escaping math and coding contests and starting to work on actual knowledge work, agentic coding, and scientific tasks.\n- Efficiency matters as much as raw intelligence: the goal is to make models think less, backtrack faster, and deliver better answers with lower latency.\n\nYann Dubois, who co-leads OpenAI’s Post-Training Frontiers team, frames the current AI wave as a threshold crossing. He says the models didn’t suddenly get magical; they got dependable enough that people can trust them to do real work. That’s why the last few months have felt like a step function. Internally, the same models are also accelerating the people building them, especially because coding tools now speed up research, training, and infrastructure.\n\nDubois’s core point is that post-training is where the action moved. Early reinforcement learning was tuned for “verifiable rewards” like math problems and coding competitions. Now those same techniques are being pushed into ambiguous, high-value tasks where there isn’t a clean right answer. That’s a much bigger deal than another leaderboard win.\n\nHe also makes a sharp distinction between raw compute and useful reasoning. Longer thinking helps, but only up to a point; the real win is getting models to choose better reasoning paths and recognize dead ends sooner. In his words, an expert doesn’t explore ten directions when one is obviously better. That’s the kind of efficiency OpenAI is chasing.\n\nDubois, originally trained in biomedical engineering in Switzerland before moving through NLP work in Singapore and a PhD at Stanford, is unusually focused on impact. Even his public note telling quant firms not to reach out says a lot: he wants to build systems that matter, not just systems that score well.",
+      "suggestedTitle": "AI 刚刚跨过可靠性门槛，真正的工作才刚开始",
+      "suggestedSummary": "**核心结论：** AI 进展之所以让人感觉像突然加速，不是因为能力一夜暴涨，而是模型终于足够可靠，开始真的能干活了。\n\n- 最大的变化，是从刷 benchmark 转向处理真实世界里那些脏活累活：\"we moved from competitions to usefulness to users.\"\n- Reinforcement learning 正在从数学和 coding 竞赛里走出来，开始覆盖实际知识工作、agentic coding 和科学任务。\n- 效率和原始智能一样重要：目标是让模型少想一点、更快回退，并在更低 latency 下给出更好的答案。",
       "publishedAt": "2026-05-21T11:30:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-22",
       "source": "Anthropic Engineering",
-      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title": "Claude Code auto mode：更安全地跳过 permissions 的方式",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "author": null,
-      "suggestedTitle": "Anthropic adds Auto Mode to Claude Code for safer autonomy",
-      "suggestedSummary": "**Lead:** Anthropic launched **Auto Mode** for Claude Code, a new permission system that replaces constant human approval with model-based classifiers and prompt-injection screening to let agents run more autonomously without going fully unguarded.\n\n**Numbers:**\n- Manual prompts are accepted **93%** of the time, contributing to approval fatigue.\n- Evaluation on **10,000** real internal tool calls, **52** real overeager actions, and **1,000** synthetic exfiltration attempts.\n- Full pipeline results: **0.4% false-positive rate** on real traffic, **17% false-negative rate** on real overeager actions, and **5.7% false-negative rate** on synthetic exfiltration.\n- Stage 1 alone: **8.5% FPR**, **6.6% FNR** on real overeager actions, **1.8% FNR** on synthetic exfiltration.\n\n**So What:** Auto Mode is aimed at teams that want fewer permission prompts than manual review, but more protection than `--dangerously-skip-permissions`. It uses two defenses: a server-side prompt-injection probe on inputs, and a transcript classifier on tool calls that blocks risky actions like destructive deletes, credential hunting, exfiltration, and bypassing safety checks. Anthropic says the system is conservative by design: “**The classifier is deliberately conservative**,” and it evaluates the real-world impact of actions, not just their surface text. Practical takeaway: builders can start with conservative defaults, then tune trusted environments and exceptions over time—useful for routine coding, but not a substitute for careful human review on high-stakes infrastructure.",
+      "suggestedTitle": "Anthropic 为 Claude Code 加上 Auto Mode，让 autonomy 更安全",
+      "suggestedSummary": "**Lead:** Anthropic 为 Claude Code 推出了 **Auto Mode**。这是一个新的 permission system。它不再要求人类每一步都点头，而是用 model-based classifiers 和 prompt-injection screening，让 agent 能更自主地跑，同时又不至于完全放飞。\n\n**Numbers:**\n- 手动 prompts 的接受率有 **93%**，这也在加重 approval fatigue。\n- 评估覆盖了 **10,000** 次真实内部 tool calls、**52** 次真实 overeager actions，以及 **1,000** 次 synthetic exfiltration attempts。\n- 完整 pipeline 的结果：在真实 traffic 上 **0.4% false-positive rate**，在真实 overeager actions 上 **17% false-negative rate**，在 synthetic exfiltration 上 **5.7% false-negative rate**。\n- 只看 Stage 1：真实 overeager actions 上 **8.5% FPR**、**6.6% FNR**，synthetic exfiltration 上 **1.8% FNR**。\n\n**So What:** Auto Mode 面向的是这类团队：想比 manual review 少打很多 permission prompts，但又不想直接用 `--dangerously-skip-permissions` 这种裸奔模式。它用了两道防线：一是 server-side 的 prompt-injection probe，先扫输入；二是对 tool calls 做 transcript classifier，拦住高风险动作，比如 destructive deletes、credential hunting、exfiltration，还有绕过 safety checks。Anthropic 说，这套系统从设计上就偏保守：\"**The classifier is deliberately conservative**\"。它看的是动作在现实里的影响，不只是表面文本。实际建议很简单：先用保守默认值，再随着时间慢慢调 trusted environments 和 exceptions。日常 coding 很有用，但在高风险 infrastructure 上，还是不能替代认真做 human review。",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -269,6 +274,7 @@
     "totalTweets": 33,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-22T15:00:13.229Z"
+    "generatedAt": "2026-05-22T15:00:26.263Z",
+    "estimatedReadTime": "6 分钟"
   }
 }
