@@ -1,7 +1,8 @@
 {
   "date": "2026-05-23",
-  "summary": "Levie said AI will surface more bugs, making humans the bottleneck. Steinberger argued GitHub’s native PR limits kill bot policing, while Tan pushed the “ship the 60%” rule and Swyx said AI coding should harden codebases, not just move faster.",
-  "items": [
+  "lang": "ja",
+  "summary": "Levieは、AIがより多くのバグを表面化させ、人間がボトルネックになると述べた。  \nSteinbergerは、GitHubのネイティブなPR制限がbotによるpolicingを阻害すると主張した。  \n一方でTanは「60%でshipする」ルールを押し出し、SwyxはAI codingは単に速度を上げるためではなく、codebaseを強化するためのものだと語った。",
+  "builderInsights": [
     {
       "id": "levie-2026-05-23",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI finds more bugs; humans become the bottleneck",
-      "suggestedSummary": "He says AI will make security issues easier to surface, but that just shifts the pain to triage, response, and fixing them. The result: engineers don’t disappear — security engineers get busier, because judgment and follow-through are still the scarce part.",
+      "suggestedTitle": "AIはより多くのバグを見つける。人間がボトルネックになる",
+      "suggestedSummary": "彼は、AIによってセキュリティ上の問題は表面化しやすくなると言う。だが、その痛みはトリアージ、対応、修正へと移るだけだ。結果として、エンジニアが消えるわけではない。判断とやり切る力こそが依然として希少だから、security engineerはさらに忙しくなる。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2058006473620463985",
@@ -29,8 +30,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "GitHub’s native PR limits make bot policing obsolete",
-      "suggestedSummary": "He says his team was already using bots to cap pull requests at 10 per person, so GitHub shipping that natively is a nice win. The takeaway: platform-level guardrails beat custom enforcement hacks every time.",
+      "suggestedTitle": "GitHubのネイティブPR制限でbotによる取り締まりは不要になる",
+      "suggestedSummary": "彼によれば、チームはすでにbotを使って1人あたりのpull requestを10件に制限していた。だから、GitHubがそれをネイティブで提供するのは素直にうれしい勝利だ。要点は明快だ。プラットフォームレベルのガードレールは、場当たり的な独自の強制策にいつでも勝る。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2057946259709628781",
@@ -55,8 +56,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "When the alternative is nothing, ship the 60%",
-      "suggestedSummary": "He says Geoffrey Moore’s “cross the chasm” playbook breaks down when the customer’s real alternative is zero — no product, no capability, just manual pain or nothing at all. In those markets, founders should stop obsessing over a perfect whole product and ship the 60% solution people are already begging for. He ties it to YC’s 9 Mothers, a counter-drone defense startup, as the kind of “bar is zero” case where visionaries buy because they have to.",
+      "suggestedTitle": "代替が何もないなら、60%で出せ",
+      "suggestedSummary": "Geoffrey Mooreの「cross the chasm」式の定石は、顧客の本当の代替がゼロのときには崩れる。製品もない。能力もない。あるのは手作業の苦痛か、何もないかだけだ。そうした市場では、創業者は完璧なwhole productにこだわるのをやめるべきだ。人々がすでに必死で求めている60%の解を出せばよい。彼はこれをYCの9 Mothers、counter-drone defense startupの例に結びつける。そこは「bar is zero」のケースであり、ビジョナリーは必要に迫られて買うのだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2058053854026191170",
@@ -87,8 +88,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI agents are the new career insurance",
-      "suggestedSummary": "He says layoffs are a signal to get sharper, not smaller: learn Codex or Claude Code, build side projects, and keep a public GitHub trail so your skills stay visible. The bigger thesis is blunt — AI pushes everyone toward average fast, so human taste, craft, and entrepreneurship become the safest bets in the AI era.",
+      "suggestedTitle": "AI agentsは新しいキャリア保険である",
+      "suggestedSummary": "彼は、レイオフは小さくなる合図ではなく、より鋭くなる合図だと言う。CodexやClaude Codeを学び、サイドプロジェクトを作り、公開されたGitHubの足跡を残せば、自分のスキルは見え続ける。より大きな主張は率直だ。AIは全員を一気に平均へ押し寄せる。だからこそ、人間のセンス、クラフト、起業家精神がAI時代で最も安全な賭けになる。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2057989910125310459",
@@ -119,8 +120,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "AI coding should harden codebases, not just ship faster",
-      "suggestedSummary": "He says Kakuna is for the boring-but-critical part of AI engineering: checklists, audits, and subagent parallelism that harden a codebase while preserving the fun stuff. His bigger point is the “mullet factory” idea — ship lovable features up front, but keep production principles strict in the back so agents don’t turn your app into slop.",
+      "suggestedTitle": "AI codingは、ただ速くshipするのではなく、codebaseを強化すべきだ",
+      "suggestedSummary": "彼はKakunaを、AI engineeringの地味だが重要な部分のためのものだと言う。つまり、checklist、audit、そしてsubagentの並列実行だ。これらでcodebaseを強化しつつ、楽しい部分はそのまま保つ。さらに大きな主張は「mullet factory」の発想である。表では愛される機能をshipし、裏ではproductionの原則を厳格に保つ。そうしないと、agentがアプリをslopに変えてしまう。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2058073815301972368",
@@ -143,25 +144,29 @@
       ],
       "publishedAt": "2026-05-23T06:33:29.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-23",
       "source": "Unsupervised Learning",
-      "title": "Ep 87: Gemini Co-Lead on World Models, RL&apos;s Next Domains &amp; Continual Learning",
+      "title": "Ep 87: Gemini Co-Lead on World Models, RLの次の領域 & 継続学習",
       "url": "https://www.youtube.com/watch?v=NQczevdpxq0",
-      "suggestedTitle": "Google’s bet: models should learn, remember, and act like systems",
-      "suggestedSummary": "**The Takeaway:** The real leap isn’t bigger models — it’s models that can learn from the world, keep memory, and build their own scaffolding.\n\n- World models matter because they may unlock a deeper kind of understanding than text-only scaling ever will.\n- The next agent breakthrough may come less from clever prompts and more from models deciding when to reason, delegate, or even write their own sub-agents.\n- Continual learning looks most practical as file-system-style memory, not constantly rewriting model weights.\n\nOriol Vinyals, co-lead of Gemini at Google, comes at AI from a long deep-learning lineage, and his philosophy is basically: keep pushing generality until the system itself becomes the product. On world models, he draws a sharp line between today’s strong multimodal systems and the bigger prize: extracting structure from video and images without leaning so hard on language. “I’m not sure we quite have seen” the GPT moment for video and images yet, he says, because the field still relies on text to bridge concepts like gravity, motion, and cause-effect.\n\nThat same bias toward generality shows up in agents. Vinyals thinks the important shift is not just building a better scaffold around a model, but eventually letting the model generate the scaffold itself. The point isn’t endless token-spending; it’s deciding “should you reason, for how long should you reason” based on task complexity. That’s a very Google-ish answer: make the system broad, then let intelligence specialize it on demand.\n\nOn memory, he’s even more concrete. Working memory is already strong; the missing piece is durable, retrievable knowledge. His preferred path is a nonparametric one — a personal knowledge base, files, folders, retrieval — because it’s easier to serve than custom weights for every user. In other words: the future may look less like one giant brain and more like a model with a very good hard drive.",
+      "suggestedTitle": "Googleの賭け: モデルは学び、記憶し、システムのように動くべきだ",
+      "suggestedSummary": "**要点:** 本当の飛躍は、より大きなモデルではない。世界から学び、記憶を保ち、自前の土台を組み立てられるモデルだ。\n\n- World models が重要なのは、テキストだけのスケーリングでは届かない、より深い理解を開く可能性があるからだ。\n- 次の agent のブレークスルーは、巧みな prompt よりも、いつ推論し、いつ委任し、いつ自分で sub-agents を書くかをモデルが判断することから生まれるかもしれない。\n- Continual learning は、モデルの weights を絶えず書き換える形より、ファイルシステムのような memory として実装するのが最も現実的だ。\n\nGoogleの Gemini co-lead である Oriol Vinyals は、長い deep learning の系譜を背景に AI を見ている。彼の哲学は要するに、システムそのものが product になるまで generality を押し広げ続けることだ。World models について彼は、今日の強力な multimodal systems と、より大きな目標をはっきり分ける。つまり、language にそこまで頼らずに video と images から構造を抽出することだ。「I’m not sure we quite have seen」と彼は言う。video と images における GPT moment は、まだ来ていないのかもしれない。というのも、この分野はいまだに text を使って、gravity、motion、cause-effect のような概念をつないでいるからだ。\n\n同じ generality への傾きは agents にも表れる。Vinyals が重要だと考える変化は、model の周りにより良い scaffold を作ることだけではない。最終的には、model 自身に scaffold を生成させることだ。重要なのは、延々と token を使い続けることではない。task の複雑さに応じて、「推論すべきか、どれくらい推論すべきか」を決めることだ。いかにも Google らしい答えである。system を広く作り、あとは intelligence によって必要に応じて特化させる。\n\nmemory については、さらに具体的だ。working memory はすでに強い。足りないのは、永続的で取り出せる knowledge である。彼が好むのは nonparametric な道だ。個人向け knowledge base、files、folders、retrieval である。ユーザーごとに custom weights を持つより、提供しやすいからだ。言い換えれば、未来は一つの巨大な脳というより、非常に優秀な hard drive を持つ model の姿に近いかもしれない。",
       "publishedAt": "2026-05-22T12:50:04.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-23",
       "source": "Claude Blog",
-      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "title": "Claude Managed Agentsに新機能: dreaming、outcomes、multiagent orchestration",
       "url": "https://claude.com/blog/new-in-claude-managed-agents",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents adds dreaming, outcomes, and orchestration",
-      "suggestedSummary": "Lead: Claude is launching dreaming for Managed Agents as a research preview, while also shipping outcomes, multiagent orchestration, and webhooks to help agents self-improve, verify work, and split complex jobs across specialists.\n\nNumbers:\n- Outcomes improved task success by up to 10 points over a standard prompting loop.\n- File generation quality improved by +8.4% on docx and +10.1% on pptx in internal benchmarks.\n- Harvey reported ~6x higher completion rates in tests.\n- Wisedocs said review workflows now run 50% faster.\n\nSo What: Dreaming turns memory into a maintenance loop: it reviews past sessions, extracts patterns, and can either auto-update memory or wait for human review. Outcomes gives builders a rubric-based grader that evaluates outputs in a separate context window, then sends the agent back for another pass if needed. Multiagent orchestration lets a lead agent delegate work to specialists in parallel, with persistent events and full tracing in the Claude Console. As the post puts it, “Dreaming extends memory by reviewing past sessions to find patterns and help agents self-improve.” For teams building long-running or high-stakes workflows, these tools reduce manual steering and make agent systems more reliable, inspectable, and scalable.",
+      "suggestedTitle": "Claude Managed Agentsにdreaming、outcomes、orchestrationを追加",
+      "suggestedSummary": "リード: ClaudeはManaged Agents向けのdreamingをresearch previewとして公開する。同時に、outcomes、multiagent orchestration、webhooksも提供し、agentが自己改善し、作業を検証し、複雑な仕事を専門家に分担できるようにする。",
       "publishedAt": "May 06, 2026",
       "category": "blogUpdates"
     }
@@ -171,6 +176,7 @@
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-23T14:30:20.523Z"
+    "generatedAt": "2026-05-23T14:30:35.890Z",
+    "estimatedReadTime": "4 分"
   }
 }

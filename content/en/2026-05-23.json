@@ -1,7 +1,8 @@
 {
   "date": "2026-05-23",
+  "lang": "en",
   "summary": "Levie said AI will surface more bugs, making humans the bottleneck. Steinberger argued GitHub’s native PR limits kill bot policing, while Tan pushed the “ship the 60%” rule and Swyx said AI coding should harden codebases, not just move faster.",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-05-23",
       "source": "X",
@@ -143,7 +144,9 @@
       ],
       "publishedAt": "2026-05-23T06:33:29.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-23",
       "source": "Unsupervised Learning",
@@ -153,7 +156,9 @@
       "suggestedSummary": "**The Takeaway:** The real leap isn’t bigger models — it’s models that can learn from the world, keep memory, and build their own scaffolding.\n\n- World models matter because they may unlock a deeper kind of understanding than text-only scaling ever will.\n- The next agent breakthrough may come less from clever prompts and more from models deciding when to reason, delegate, or even write their own sub-agents.\n- Continual learning looks most practical as file-system-style memory, not constantly rewriting model weights.\n\nOriol Vinyals, co-lead of Gemini at Google, comes at AI from a long deep-learning lineage, and his philosophy is basically: keep pushing generality until the system itself becomes the product. On world models, he draws a sharp line between today’s strong multimodal systems and the bigger prize: extracting structure from video and images without leaning so hard on language. “I’m not sure we quite have seen” the GPT moment for video and images yet, he says, because the field still relies on text to bridge concepts like gravity, motion, and cause-effect.\n\nThat same bias toward generality shows up in agents. Vinyals thinks the important shift is not just building a better scaffold around a model, but eventually letting the model generate the scaffold itself. The point isn’t endless token-spending; it’s deciding “should you reason, for how long should you reason” based on task complexity. That’s a very Google-ish answer: make the system broad, then let intelligence specialize it on demand.\n\nOn memory, he’s even more concrete. Working memory is already strong; the missing piece is durable, retrievable knowledge. His preferred path is a nonparametric one — a personal knowledge base, files, folders, retrieval — because it’s easier to serve than custom weights for every user. In other words: the future may look less like one giant brain and more like a model with a very good hard drive.",
       "publishedAt": "2026-05-22T12:50:04.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-23",
       "source": "Claude Blog",
@@ -171,6 +176,7 @@
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-23T14:30:20.523Z"
+    "generatedAt": "2026-05-23T14:30:20.737Z",
+    "estimatedReadTime": "4 min"
   }
 }

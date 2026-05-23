@@ -1,7 +1,8 @@
 {
   "date": "2026-05-23",
-  "summary": "Levie said AI will surface more bugs, making humans the bottleneck. Steinberger argued GitHub’s native PR limits kill bot policing, while Tan pushed the “ship the 60%” rule and Swyx said AI coding should harden codebases, not just move faster.",
-  "items": [
+  "lang": "zh",
+  "summary": "Levie 说，AI 会挖出更多 bug，最后人反而会成瓶颈。Steinberger 认为，GitHub 原生 PR 的限制会直接卡死 bot 的审查能力；Tan 则主张“先把 60% 版本发出去”这条路，Swyx 也说，AI coding 的重点应该是把 codebase 变得更稳，而不只是提速。",
+  "builderInsights": [
     {
       "id": "levie-2026-05-23",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI finds more bugs; humans become the bottleneck",
-      "suggestedSummary": "He says AI will make security issues easier to surface, but that just shifts the pain to triage, response, and fixing them. The result: engineers don’t disappear — security engineers get busier, because judgment and follow-through are still the scarce part.",
+      "suggestedTitle": "AI 找出更多 bug；人类成了瓶颈",
+      "suggestedSummary": "他说，AI 会让安全问题更容易暴露出来，但这只是把压力转移到了分流、响应和修复上。结果不是工程师消失，而是 security engineer 更忙了，因为真正稀缺的还是判断力和执行力。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2058006473620463985",
@@ -29,8 +30,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "GitHub’s native PR limits make bot policing obsolete",
-      "suggestedSummary": "He says his team was already using bots to cap pull requests at 10 per person, so GitHub shipping that natively is a nice win. The takeaway: platform-level guardrails beat custom enforcement hacks every time.",
+      "suggestedTitle": "GitHub 原生 PR 限制让 bot 审核变得多余",
+      "suggestedSummary": "他说，他们团队本来就用 bot 把每个人的 pull request 上限卡在 10 个，所以 GitHub 现在原生支持这件事，算是个不错的加分项。核心意思很简单：平台级 guardrail 永远比自己写一堆强制脚本更靠谱。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2057946259709628781",
@@ -55,8 +56,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "When the alternative is nothing, ship the 60%",
-      "suggestedSummary": "He says Geoffrey Moore’s “cross the chasm” playbook breaks down when the customer’s real alternative is zero — no product, no capability, just manual pain or nothing at all. In those markets, founders should stop obsessing over a perfect whole product and ship the 60% solution people are already begging for. He ties it to YC’s 9 Mothers, a counter-drone defense startup, as the kind of “bar is zero” case where visionaries buy because they have to.",
+      "suggestedTitle": "当替代方案是零时，先把 60% 的产品发出去",
+      "suggestedSummary": "他说，Geoffrey Moore 的 “cross the chasm” 方法，在客户真正的替代方案是零的时候就不太管用了。也就是没有产品，没有能力，只有人工硬扛，或者干脆什么都没有。在这种市场里，founder 别再死磕一个完美的 whole product 了。先把大家已经在催着要的 60% 方案 ship 出去。它还提到 YC 的 9 Mothers，一个 counter-drone defense startup，算是那种“门槛为零”的典型场景。visionary 会买，不是因为它完美，而是因为他们必须买。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2058053854026191170",
@@ -87,8 +88,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "AI agents are the new career insurance",
-      "suggestedSummary": "He says layoffs are a signal to get sharper, not smaller: learn Codex or Claude Code, build side projects, and keep a public GitHub trail so your skills stay visible. The bigger thesis is blunt — AI pushes everyone toward average fast, so human taste, craft, and entrepreneurship become the safest bets in the AI era.",
+      "suggestedTitle": "AI agent 是新的职业保险",
+      "suggestedSummary": "他说，裁员不是让你变小，而是提醒你变强。去学 Codex 或 Claude Code，做点 side project，再把 GitHub 轨迹公开留着，这样你的能力才一直看得见。更大的判断很直接：AI 会很快把所有人往平均线拉，所以人的品味、手艺和创业能力，反而成了 AI 时代最稳的下注。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2057989910125310459",
@@ -119,8 +120,8 @@
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
-      "suggestedTitle": "AI coding should harden codebases, not just ship faster",
-      "suggestedSummary": "He says Kakuna is for the boring-but-critical part of AI engineering: checklists, audits, and subagent parallelism that harden a codebase while preserving the fun stuff. His bigger point is the “mullet factory” idea — ship lovable features up front, but keep production principles strict in the back so agents don’t turn your app into slop.",
+      "suggestedTitle": "AI coding 应该加固 codebase，而不只是更快发版",
+      "suggestedSummary": "他说，Kakuna 主要解决 AI engineering 里那些 boring 但关键的部分：checklist、audit，还有 subagent 并行。目标不是只图快，而是在保留好玩的部分的同时，把 codebase 变得更稳。更大的观点是 “mullet factory” 这个思路——前面先把让人喜欢的功能做出来，后面 production principles 要一直卡得很严，这样 agent 才不会把你的 app 搞成一团 slop。",
       "tweets": [
         {
           "url": "https://x.com/swyx/status/2058073815301972368",
@@ -143,25 +144,29 @@
       ],
       "publishedAt": "2026-05-23T06:33:29.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-23",
       "source": "Unsupervised Learning",
-      "title": "Ep 87: Gemini Co-Lead on World Models, RL&apos;s Next Domains &amp; Continual Learning",
+      "title": "Ep 87：Gemini 联合负责人谈 World Models、RL 的下一个领域和 Continual Learning",
       "url": "https://www.youtube.com/watch?v=NQczevdpxq0",
-      "suggestedTitle": "Google’s bet: models should learn, remember, and act like systems",
-      "suggestedSummary": "**The Takeaway:** The real leap isn’t bigger models — it’s models that can learn from the world, keep memory, and build their own scaffolding.\n\n- World models matter because they may unlock a deeper kind of understanding than text-only scaling ever will.\n- The next agent breakthrough may come less from clever prompts and more from models deciding when to reason, delegate, or even write their own sub-agents.\n- Continual learning looks most practical as file-system-style memory, not constantly rewriting model weights.\n\nOriol Vinyals, co-lead of Gemini at Google, comes at AI from a long deep-learning lineage, and his philosophy is basically: keep pushing generality until the system itself becomes the product. On world models, he draws a sharp line between today’s strong multimodal systems and the bigger prize: extracting structure from video and images without leaning so hard on language. “I’m not sure we quite have seen” the GPT moment for video and images yet, he says, because the field still relies on text to bridge concepts like gravity, motion, and cause-effect.\n\nThat same bias toward generality shows up in agents. Vinyals thinks the important shift is not just building a better scaffold around a model, but eventually letting the model generate the scaffold itself. The point isn’t endless token-spending; it’s deciding “should you reason, for how long should you reason” based on task complexity. That’s a very Google-ish answer: make the system broad, then let intelligence specialize it on demand.\n\nOn memory, he’s even more concrete. Working memory is already strong; the missing piece is durable, retrievable knowledge. His preferred path is a nonparametric one — a personal knowledge base, files, folders, retrieval — because it’s easier to serve than custom weights for every user. In other words: the future may look less like one giant brain and more like a model with a very good hard drive.",
+      "suggestedTitle": "Google 的押注：模型应该像系统一样学习、记忆和行动",
+      "suggestedSummary": "**核心结论：** 真正的跃迁不是更大的模型，而是能从世界中学习、保留记忆、并自己搭起脚手架的模型。\n\n- World models 之所以重要，是因为它们可能带来比纯文本 scaling 更深层的理解。\n- 下一次 agent 突破，可能更多来自模型自己决定何时 reasoning、何时 delegate，甚至自己写 sub-agents，而不是更花哨的 prompt。\n- Continual learning 最现实的落地方式，可能是像文件系统一样的 memory，而不是不停重写 model weights。",
       "publishedAt": "2026-05-22T12:50:04.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-23",
       "source": "Claude Blog",
-      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "title": "Claude Managed Agents 新增 dreaming、outcomes 和 multiagent orchestration",
       "url": "https://claude.com/blog/new-in-claude-managed-agents",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents adds dreaming, outcomes, and orchestration",
-      "suggestedSummary": "Lead: Claude is launching dreaming for Managed Agents as a research preview, while also shipping outcomes, multiagent orchestration, and webhooks to help agents self-improve, verify work, and split complex jobs across specialists.\n\nNumbers:\n- Outcomes improved task success by up to 10 points over a standard prompting loop.\n- File generation quality improved by +8.4% on docx and +10.1% on pptx in internal benchmarks.\n- Harvey reported ~6x higher completion rates in tests.\n- Wisedocs said review workflows now run 50% faster.\n\nSo What: Dreaming turns memory into a maintenance loop: it reviews past sessions, extracts patterns, and can either auto-update memory or wait for human review. Outcomes gives builders a rubric-based grader that evaluates outputs in a separate context window, then sends the agent back for another pass if needed. Multiagent orchestration lets a lead agent delegate work to specialists in parallel, with persistent events and full tracing in the Claude Console. As the post puts it, “Dreaming extends memory by reviewing past sessions to find patterns and help agents self-improve.” For teams building long-running or high-stakes workflows, these tools reduce manual steering and make agent systems more reliable, inspectable, and scalable.",
+      "suggestedTitle": "Claude Managed Agents 加上了 dreaming、outcomes 和 orchestration",
+      "suggestedSummary": "导语：Claude 正在把 Managed Agents 的 dreaming 作为 research preview 推出，同时也上线了 outcomes、multiagent orchestration 和 webhooks，方便 agents 自我改进、验证工作结果，并把复杂任务拆给不同 specialist 并行处理。",
       "publishedAt": "May 06, 2026",
       "category": "blogUpdates"
     }
@@ -171,6 +176,7 @@
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-23T14:30:20.523Z"
+    "generatedAt": "2026-05-23T14:30:26.831Z",
+    "estimatedReadTime": "4 分钟"
   }
 }
