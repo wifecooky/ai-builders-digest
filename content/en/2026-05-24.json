@@ -1,7 +1,8 @@
 {
   "date": "2026-05-24",
+  "lang": "en",
   "summary": "Levie said AI kills tasks, not jobs, so roles just expand. Masad said Replit’s AI stack can ship MVPs in a weekend, while Tan showed Qwen fine-tunes in hours and personal AI got real. No Priors said Cerebras won by betting on speed before the market cared.",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-05-24",
       "source": "X",
@@ -163,7 +164,9 @@
       ],
       "publishedAt": "2026-05-24T00:04:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-24",
       "source": "No Priors",
@@ -175,11 +178,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 8,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-24T14:29:08.786Z"
+    "generatedAt": "2026-05-24T14:29:08.999Z",
+    "estimatedReadTime": "4 min"
   }
 }

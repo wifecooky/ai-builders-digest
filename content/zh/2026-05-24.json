@@ -1,7 +1,8 @@
 {
   "date": "2026-05-24",
-  "summary": "Levie said AI kills tasks, not jobs, so roles just expand. Masad said Replit’s AI stack can ship MVPs in a weekend, while Tan showed Qwen fine-tunes in hours and personal AI got real. No Priors said Cerebras won by betting on speed before the market cared.",
-  "items": [
+  "lang": "zh",
+  "summary": "Levie 说，AI 干掉的是任务，不是工作，所以岗位只会不断扩展。Masad 说，Replit 的 AI stack 现在能在一个周末内把 MVP 做出来；Tan 则展示了 Qwen 只要几个小时就能 fine-tune，personal AI 也真的落地了。No Priors 说，Cerebras 之所以能赢，是因为它在市场还没开始在意之前，就先押注了 speed。",
+  "builderInsights": [
     {
       "id": "levie-2026-05-24",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI kills tasks, not jobs — roles just expand",
-      "suggestedSummary": "He says the big mistake is treating task automation like job elimination. In coding, legal, sales, and marketing, AI will mostly let people do more, do it better, and serve customers who couldn’t afford that level of work before — which means the job grows, not disappears. ",
+      "suggestedTitle": "AI 干掉的是任务，不是工作——岗位只会扩张",
+      "suggestedSummary": "他认为，最大的误区就是把任务自动化当成裁掉岗位。无论是 coding、legal、sales 还是 marketing，AI 大多只会让人做得更多、做得更好，还能服务以前根本负担不起这种水平的人。结果就是，岗位会变大，不会消失。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2058223867815227756",
@@ -29,8 +30,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "A GitHub dashboard for every repo, finally",
-      "suggestedSummary": "He built the GitHub dashboard he always wanted: one view for repos, open issues/PRs, last release, and commits since release — then shipped it for everyone. He also suggests a practical Codex workflow: keep a scratch log of decisions, tradeoffs, and fixes so you can audit what the agent actually did later.",
+      "suggestedTitle": "终于有了一个适用于每个 repo 的 GitHub dashboard",
+      "suggestedSummary": "他做了一个自己一直想要的 GitHub dashboard：一个页面就能看 repo、open issues/PRs、最近一次 release，以及自上次 release 以来的 commits。然后他把它开放给了所有人。他还给了一个很实用的 Codex workflow：保留一份 scratch log，记录决策、tradeoff 和修复，这样以后你就能回头审计 agent 到底做了什么。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2058381186884411473",
@@ -61,8 +62,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit’s AI stack ships MVPs in a weekend",
-      "suggestedSummary": "A user says Replit let them build Dial’s MVP in a single weekend and get Apple approval on the first try — a pretty brutal benchmark for “fast.” It’s the kind of proof point that makes the AI app-builder pitch feel less like hype and more like a real workflow shift.",
+      "suggestedTitle": "Replit 的 AI stack 让 MVP 一周末就能上线",
+      "suggestedSummary": "有用户说，他们用 Replit 在一个周末就把 Dial 的 MVP 搭出来了，而且第一次提交就拿到了 Apple approval。这个“快”标准相当狠。这样的例子会让 AI app-builder 的说法不再像噱头，更像一次真实的 workflow 变化。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2058418731840159953",
@@ -93,8 +94,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "LLMs already outcode us — and it’s just May",
-      "suggestedSummary": "He says the shift from chatting with models to having them produce more code than humans have written in total happened in just six months. The point is blunt: AI moved from novelty to actual software output fast, and founders should treat that as the new baseline.",
+      "suggestedTitle": "LLM 已经开始超越我们写代码了——而且现在才 5 月",
+      "suggestedSummary": "他说，从和模型聊天，到让它们产出的代码总量超过人类历史上写过的代码，这个转变只用了 6 个月。核心意思很直接：AI 已经从新鲜玩意儿，迅速变成了真正能产出软件的工具。创始人应该把这当成新的基线。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2058233900464238801",
@@ -113,8 +114,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Qwen fine-tune in hours, personal AI gets real",
-      "suggestedSummary": "He says he fine-tuned a Qwen3.5-397B model in a couple hours and thinks fast, usable multimodal models are about to unlock genuinely mind-blowing personal AI. He also called Thinking Machines impressive, which is a pretty strong signal from the YC president who lives and breathes this stuff.",
+      "suggestedTitle": "几小时内 fine-tune Qwen，personal AI 开始变得真实",
+      "suggestedSummary": "他说自己只花了几个小时，就 fine-tune 了一个 Qwen3.5-397B model。他觉得，快速、可用的 multimodal models 马上就会把真正让人惊艳的 personal AI 解锁出来。他还说 Thinking Machines 很厉害。对这个天天泡在这行里的 YC president 来说，这个评价分量不轻。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2058448209027141709",
@@ -145,8 +146,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "B2B needs a sharper story, not more slop",
-      "suggestedSummary": "He says more B2B companies are finally waking up to the power of narrative, and that waiting another year is a mistake. The point is blunt: in a crowded market, vibes and positioning matter a lot if you want to stand out.",
+      "suggestedTitle": "B2B 需要更锋利的叙事，不是更多废话",
+      "suggestedSummary": "他说，越来越多 B2B 公司终于开始意识到叙事的力量了。再等一年就是个错误。核心意思很直接：在拥挤的市场里，想要冒头，氛围感和定位都很重要。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2058338294191227247",
@@ -163,23 +164,27 @@
       ],
       "publishedAt": "2026-05-24T00:04:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-24",
       "source": "No Priors",
-      "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
+      "title": "Cerebras 630亿美元 IPO 背后的故事：创始人兼 CEO Andrew Feldman",
       "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
-      "suggestedTitle": "Cerebras won by betting on speed before the market cared",
-      "suggestedSummary": "**The Takeaway:** Cerebras bet that AI speed would matter before anyone else did—and that patience, not hype, would decide the winner.\n\n**Key Insights**\n- Radical performance usually requires a radical architecture; Feldman says you don’t get 15–20x better by making a small tweak to the GPU model.\n- Hardware is brutally non-linear: Cerebras spent years “ahead of the market,” building a dinner-plate-sized wafer-scale chip while demand was basically zero.\n- The real inflection came when AI stopped being a demo and became daily work; then slow inference became unacceptable, just like “slow search” or dial-up internet.\n\n**The Story**\nAndrew Feldman, cofounder and CEO of Cerebras, has spent more than a decade building what he calls AI computers—machines optimized for inference and training, not general-purpose computing. The company’s wager was contrarian from day one: wafer-scale chips, a 46,000 square millimeter design the size of a dinner plate, when everyone else was building postage-stamp silicon. “They told us we were out of our mind,” he says. “It would never work.”\n\nIt almost didn’t. Between 2017 and 2019, the team burned roughly $8 million a month trying to make the thing work, with board meetings every six weeks asking the same painful question: why isn’t it built yet? Then the chip finally yielded, and the company spent the next few years in an awkward place—technically ahead, commercially ignored. Feldman’s read is simple: “When it’s a novelty, nobody cares that you’re fast.”\n\nThat changed in 2025, when AI became embedded in real workflows and speed turned into a hard requirement. Cerebras was suddenly in demand across models and customers, from supercomputing labs to OpenAI and AWS. Feldman’s philosophy is blunt: love the hard road, hire fearlessly, and don’t let a company drift into safe mediocrity. His favorite line captures it: “I’m a professional David.”",
+      "suggestedTitle": "Cerebras 靠提前押注速度赢了，哪怕市场当时还不在意",
+      "suggestedSummary": "**核心结论：** Cerebras 早早押注 AI 速度会变得重要。别人还没反应过来，它就先赌上了这件事。最后决定胜负的，不是 hype，而是耐心。\n\n**关键洞察**\n- 真正的性能跃迁，通常要靠真正的架构变革；Feldman 说，想靠对 GPU 模型做点小修小补拿到 15–20x 的提升，基本不现实。\n- Hardware 这东西极其非线性。Cerebras 花了好几年“跑在市场前面”，去做一颗餐盘大小的 wafer-scale chip，但那时候需求几乎是零。\n- 真正的拐点出现在 AI 不再只是 demo，而是变成日常工作之后。那时，慢 inference 就变得不能接受了，就像“慢 search”或者拨号上网一样。\n\n**故事本身**\nAndrew Feldman 是 Cerebras 的联合创始人兼 CEO。十多年来，他一直在做自己称为 AI computers 的东西——专门为 inference 和 training 优化，不是通用计算。公司从一开始就走了一条很反直觉的路：别人都在做邮票大小的 silicon，他们却押注 wafer-scale chips，一颗 46,000 平方毫米、差不多餐盘那么大的芯片。Feldman 说，当时大家都觉得他们疯了。“他们说我们脑子有问题，”他说，“这东西不可能成。”\n\n差点真没成。2017 到 2019 年间，团队每个月大概烧掉 800 万美元，只为了把这东西做出来。董事会每六周开一次会，反复问同一个扎心问题：为什么还没做出来？后来芯片终于跑通了。接下来的几年，公司又卡在一个很尴尬的位置：技术上领先，商业上却没人搭理。Feldman 的判断很直接：“当它还只是个新鲜玩意儿时，没人会在意你有多快。”\n\n到了 2025 年，情况变了。AI 开始真正嵌进工作流，速度变成硬指标。Cerebras 突然在各类 model 和客户那里都变得抢手，从 supercomputing labs 到 OpenAI 和 AWS 都开始找上门。Feldman 的理念也很硬核：喜欢难路，招人别手软，别让公司滑向安全但平庸的状态。他最爱的一句话是：“I’m a professional David.”",
       "publishedAt": "2026-05-21T07:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 8,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-24T14:29:08.786Z"
+    "generatedAt": "2026-05-24T14:29:18.183Z",
+    "estimatedReadTime": "4 分钟"
   }
 }

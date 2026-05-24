@@ -1,7 +1,8 @@
 {
   "date": "2026-05-24",
-  "summary": "Levie said AI kills tasks, not jobs, so roles just expand. Masad said Replit’s AI stack can ship MVPs in a weekend, while Tan showed Qwen fine-tunes in hours and personal AI got real. No Priors said Cerebras won by betting on speed before the market cared.",
-  "items": [
+  "lang": "ja",
+  "summary": "Levieは、AIが殺すのはタスクであって、仕事ではないと言った。だから役割は広がるだけだ、と。  \nMasadは、ReplitのAI stackならMVPを週末で出せると言った。Tanは、Qwenのfine-tuneが数時間で済み、personal AIが現実になったと示した。  \nNo Priorsは、Cerebrasが市場が気にする前にspeedへ賭けたことで勝ったと言った。",
+  "builderInsights": [
     {
       "id": "levie-2026-05-24",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI kills tasks, not jobs — roles just expand",
-      "suggestedSummary": "He says the big mistake is treating task automation like job elimination. In coding, legal, sales, and marketing, AI will mostly let people do more, do it better, and serve customers who couldn’t afford that level of work before — which means the job grows, not disappears. ",
+      "suggestedTitle": "AIはタスクを殺すが、jobは殺さない — roleは広がるだけだ",
+      "suggestedSummary": "彼は、task automationをjob eliminationとみなすのが最大の誤りだと言う。coding、legal、sales、marketingでは、AIによって人はより多くのことを、より良くできるようになる。そして、これまでそのレベルの仕事を払えなかったcustomerにも対応できるようになる。つまり、jobは消えるのではなく、広がるのである。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2058223867815227756",
@@ -29,8 +30,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "A GitHub dashboard for every repo, finally",
-      "suggestedSummary": "He built the GitHub dashboard he always wanted: one view for repos, open issues/PRs, last release, and commits since release — then shipped it for everyone. He also suggests a practical Codex workflow: keep a scratch log of decisions, tradeoffs, and fixes so you can audit what the agent actually did later.",
+      "suggestedTitle": "ついに、すべてのrepoのためのGitHub dashboard",
+      "suggestedSummary": "彼は、ずっと欲しかったGitHub dashboardを作った。repos、open issues/PRs、最後のrelease、そしてrelease以降のcommitsを1画面で見られるようにし、それを全員向けにリリースした。さらに実用的なCodex workflowも提案している。判断、トレードオフ、修正をscratch logに残しておけば、あとでagentが実際に何をしたのか監査できる。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2058381186884411473",
@@ -61,8 +62,8 @@
       "authorHandle": "amasad",
       "authorBio": "ceo @replit. civilizationist",
       "title": "Amjad Masad",
-      "suggestedTitle": "Replit’s AI stack ships MVPs in a weekend",
-      "suggestedSummary": "A user says Replit let them build Dial’s MVP in a single weekend and get Apple approval on the first try — a pretty brutal benchmark for “fast.” It’s the kind of proof point that makes the AI app-builder pitch feel less like hype and more like a real workflow shift.",
+      "suggestedTitle": "ReplitのAI stackは週末でMVPを出す",
+      "suggestedSummary": "あるユーザーは、ReplitのおかげでDialのMVPをたった1つの週末で作れたうえ、Appleの承認も一発で通ったという。これは「速い」を測るかなり厳しいベンチマークだ。こうした実例があると、AI app-builderの売り文句は単なる hype ではなく、実際のワークフローの変化に見えてくる。",
       "tweets": [
         {
           "url": "https://x.com/amasad/status/2058418731840159953",
@@ -93,8 +94,8 @@
       "authorHandle": "adityaag",
       "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "title": "Aditya Agarwal",
-      "suggestedTitle": "LLMs already outcode us — and it’s just May",
-      "suggestedSummary": "He says the shift from chatting with models to having them produce more code than humans have written in total happened in just six months. The point is blunt: AI moved from novelty to actual software output fast, and founders should treat that as the new baseline.",
+      "suggestedTitle": "LLMはすでに人間のコード量を上回っている。しかも、まだ5月だ",
+      "suggestedSummary": "モデルと会話する段階から、人間がこれまでに書いた総量を超えるコードを出力させる段階への移行は、わずか6カ月で起きたという。要点は明快だ。AIは一気に珍しさから実際のソフトウェア出力へ移った。創業者はそれを新しい基準として受け止めるべきだ。",
       "tweets": [
         {
           "url": "https://x.com/adityaag/status/2058233900464238801",
@@ -113,8 +114,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Qwen fine-tune in hours, personal AI gets real",
-      "suggestedSummary": "He says he fine-tuned a Qwen3.5-397B model in a couple hours and thinks fast, usable multimodal models are about to unlock genuinely mind-blowing personal AI. He also called Thinking Machines impressive, which is a pretty strong signal from the YC president who lives and breathes this stuff.",
+      "suggestedTitle": "Qwenのfine-tuneが数時間で完了、personal AIが現実に",
+      "suggestedSummary": "彼によれば、Qwen3.5-397B modelのfine-tuneを数時間で終えたという。高速で実用的なmultimodal modelが、真に驚くべきpersonal AIを解き放つ段階に入ったと見ている。Thinking Machinesを印象的だとも評した。こうした発言は、この分野にどっぷり浸かるYC presidentから出たものだけに、かなり強いシグナルだ。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2058448209027141709",
@@ -145,8 +146,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "B2B needs a sharper story, not more slop",
-      "suggestedSummary": "He says more B2B companies are finally waking up to the power of narrative, and that waiting another year is a mistake. The point is blunt: in a crowded market, vibes and positioning matter a lot if you want to stand out.",
+      "suggestedTitle": "B2Bには、もっと鋭いストーリーが必要だ。slopを増やしても意味はない",
+      "suggestedSummary": "彼は、B2B企業の多くがようやくナラティブの力に気づき始めたと言う。さらに1年待つのは誤りだとも指摘する。要点は明快だ。競争の激しい市場では、目立つにはvibesとポジショニングが非常に重要である。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2058338294191227247",
@@ -163,23 +164,27 @@
       ],
       "publishedAt": "2026-05-24T00:04:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-24",
       "source": "No Priors",
-      "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
+      "title": "Andrew Feldman創業者兼CEOが語る、Cerebrasの630億ドルIPOの舞台裏",
       "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
-      "suggestedTitle": "Cerebras won by betting on speed before the market cared",
-      "suggestedSummary": "**The Takeaway:** Cerebras bet that AI speed would matter before anyone else did—and that patience, not hype, would decide the winner.\n\n**Key Insights**\n- Radical performance usually requires a radical architecture; Feldman says you don’t get 15–20x better by making a small tweak to the GPU model.\n- Hardware is brutally non-linear: Cerebras spent years “ahead of the market,” building a dinner-plate-sized wafer-scale chip while demand was basically zero.\n- The real inflection came when AI stopped being a demo and became daily work; then slow inference became unacceptable, just like “slow search” or dial-up internet.\n\n**The Story**\nAndrew Feldman, cofounder and CEO of Cerebras, has spent more than a decade building what he calls AI computers—machines optimized for inference and training, not general-purpose computing. The company’s wager was contrarian from day one: wafer-scale chips, a 46,000 square millimeter design the size of a dinner plate, when everyone else was building postage-stamp silicon. “They told us we were out of our mind,” he says. “It would never work.”\n\nIt almost didn’t. Between 2017 and 2019, the team burned roughly $8 million a month trying to make the thing work, with board meetings every six weeks asking the same painful question: why isn’t it built yet? Then the chip finally yielded, and the company spent the next few years in an awkward place—technically ahead, commercially ignored. Feldman’s read is simple: “When it’s a novelty, nobody cares that you’re fast.”\n\nThat changed in 2025, when AI became embedded in real workflows and speed turned into a hard requirement. Cerebras was suddenly in demand across models and customers, from supercomputing labs to OpenAI and AWS. Feldman’s philosophy is blunt: love the hard road, hire fearlessly, and don’t let a company drift into safe mediocrity. His favorite line captures it: “I’m a professional David.”",
+      "suggestedTitle": "市場が速度を気にする前に賭けたCerebrasが勝った",
+      "suggestedSummary": "**要点:** Cerebrasは、他の誰より先にAIの速度が重要になると見抜いていた。そして勝敗を分けるのは、誇大宣伝ではなく忍耐だと賭けた。\n\n**主要な示唆**\n- 大きな性能向上には、たいてい大きなアーキテクチャ変更が必要だ。Feldmanは、GPUモデルを少し調整しただけで15〜20倍の改善は得られないと言う。\n- ハードウェアは極めて非線形だ。Cerebrasは、需要がほぼゼロの時期に、皿ほどの大きさの wafer-scale chip を作りながら、何年も「市場より先行」していた。\n- 本当の転換点は、AIがデモではなく日々の仕事になった時だ。そこで遅い inference は許されなくなった。まるで「遅い search」やダイヤルアップ internet のように。\n\n**ストーリー**\nAndrew Feldmanは、Cerebrasの共同創業者兼CEOだ。彼は10年以上にわたり、自らAI computersと呼ぶものを作ってきた。つまり、汎用 computing ではなく、inference と training に最適化した機械である。同社の賭けは最初から逆張りだった。誰もが切手サイズの silicon を作っていた時代に、皿ほどの大きさの 46,000 square millimeter の wafer-scale chip を作る。Feldmanは言う。「みんな、正気じゃないと言った。絶対にうまくいかない、と」。\n\n実際、危うかった。2017年から2019年にかけて、チームはそれを動かすために月約800万ドルを燃やした。6週間ごとの board meeting では、同じ痛い質問が繰り返された。なぜまだできていないのか。だがついに chip は完成した。その後の数年、会社は妙な立場に置かれた。技術的には先行していたが、商業的には無視されていたのだ。Feldmanの見立ては単純だ。「新奇なものの段階では、速いことなんて誰も気にしない」。\n\nそれが2025年に変わった。AIが実際の workflow に組み込まれ、速度が絶対条件になったのだ。Cerebrasは突然、supercomputing lab から OpenAI、AWS まで、モデルも顧客も幅広く引き合いを集めた。Feldmanの哲学は率直だ。難しい道を愛し、恐れずに採用し、会社を安全な凡庸さに流し込むな。彼の好きな言葉がそれを表している。「私はプロのDavidだ」",
       "publishedAt": "2026-05-21T07:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 8,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-24T14:29:08.786Z"
+    "generatedAt": "2026-05-24T14:29:27.304Z",
+    "estimatedReadTime": "4 分"
   }
 }
