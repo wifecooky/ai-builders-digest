@@ -1,7 +1,8 @@
 {
   "date": "2026-05-25",
+  "lang": "en",
   "summary": "Levie warned AI demos fool CEOs; the hard work starts after. Tan said high agency plus taste beat everything, while Yang urged builders to build the system that builds the MVP first. LeCun kept the pressure on: LLMs help, but they’re not the road to real intelligence.",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-05-25",
       "source": "X",
@@ -215,7 +216,9 @@
       ],
       "publishedAt": "2026-05-24T21:22:45.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-25",
       "source": "Unsupervised Learning",
@@ -227,11 +230,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 10,
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-25T15:00:11.160Z"
+    "generatedAt": "2026-05-25T15:00:11.370Z",
+    "estimatedReadTime": "5 min"
   }
 }

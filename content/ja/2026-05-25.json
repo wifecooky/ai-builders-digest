@@ -1,7 +1,8 @@
 {
   "date": "2026-05-25",
-  "summary": "Levie warned AI demos fool CEOs; the hard work starts after. Tan said high agency plus taste beat everything, while Yang urged builders to build the system that builds the MVP first. LeCun kept the pressure on: LLMs help, but they’re not the road to real intelligence.",
-  "items": [
+  "lang": "ja",
+  "summary": "Levieは、AIデモはCEOをだますと警告した。本当の苦労はその後に始まる。Tanは、高い主体性とセンスがすべてに勝ると述べた。Yangは、まずMVPを作るシステムを作れと促した。LeCunは圧をかけ続けた。LLMは役に立つ。だが、本物の知能への道ではない。",
+  "builderInsights": [
     {
       "id": "levie-2026-05-25",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI demos fool CEOs; the real work starts after",
-      "suggestedSummary": "CEOs are especially prone to AI psychosis because they’re far from the last mile, so they see the happy-path demo and miss the 10–20 follow-on steps needed for real enterprise value. The point: use AI a lot, but come out with a clearer sense of both the upside and the ugly integration work agents still need.",
+      "suggestedTitle": "AIデモはCEOをだます。本当の仕事はその後に始まる",
+      "suggestedSummary": "CEOは特にAI psychosisに陥りやすい。最後の1マイルから遠い位置にいるからだ。だから、うまくいく部分だけのデモを見て、実際にenterprise valueを出すために必要な10〜20の後続ステップを見落とす。要点はこうだ。AIはどんどん使うべきだが、同時に、上振れの可能性と、agentにまだ必要な厄介なintegration作業の両方を、よりはっきり見極めるべきである。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2058582370253701432",
@@ -29,8 +30,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "IC work beats management for builders",
-      "suggestedSummary": "She says a former engineering manager voluntarily switched back to being an IC and is happier now that she can build again. The subtext: for some people, hands-on shipping is the job, and management is just a detour.",
+      "suggestedTitle": "ビルダーには管理職よりICの仕事のほうが向いている",
+      "suggestedSummary": "彼女によれば、元エンジニアリングマネージャーが自らICに戻り、また作れるようになって今のほうが幸せだという。行間にあるのはこうだ。人によっては、手を動かしてプロダクトを出すことこそ仕事であり、管理職はただの寄り道にすぎない。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2058643577421631538",
@@ -61,8 +62,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "High agency + taste is the real edge",
-      "suggestedSummary": "He says the current unlock is pairing high agency with high taste — basically, being able to spot what matters and move fast on it. The other posts are more vibe than substance, but the throughline is clear: YC’s Garry Tan is still pushing the idea that builders on the frontier win by moving early and with judgment.",
+      "suggestedTitle": "高い agency と高い taste こそが本当の差別化要因だ",
+      "suggestedSummary": "彼は、今の突破口は高い agency と高い taste を掛け合わせることだと言う。要するに、何が重要かを見抜き、それに素早く動けることだ。他の投稿は中身より雰囲気寄りだが、一本筋は通っている。YC の Garry Tan は今も、フロンティアで作る側は早く動き、判断力で勝つという考えを押し出している。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2058769355916411099",
@@ -93,8 +94,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "title": "Thariq",
-      "suggestedTitle": "Legacy code is the new training data",
-      "suggestedSummary": "He says the Bun rewrite points to a bigger shift: old codebases will become valuable raw material for distilling software into new forms. The bigger bet is that models will get good enough to turn legacy apps into cross-platform, web-native software — no COBOL-era baggage required.",
+      "suggestedTitle": "レガシーコードは新しい training data だ",
+      "suggestedSummary": "彼は、Bun の rewrite がより大きな変化を示していると言う。古い codebase は、software を新しい形に distill するための貴重な raw material になる。さらに大きな賭けは、model が十分に賢くなり、legacy app を cross-platform で web-native な software に変えられるようになることだ。COBOL 時代の baggage は不要である。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2058576196481200223",
@@ -119,8 +120,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Build the system that builds the MVP first",
-      "suggestedSummary": "He says the old startup playbook is flipping: instead of hiring fast, founders should set up AI agents to handle email, meetings, sales outreach, and even coding. In his chat with Ryan Carson, the big idea was simple — spend upfront on docs, skills, and access, then one founder can run like a 10-person team.",
+      "suggestedTitle": "まずMVPを作るシステムを構築せよ",
+      "suggestedSummary": "彼は、古いスタートアップの定石が逆転していると言う。今は、採用を急ぐ代わりに、創業者がAI agentを使ってメール、会議、営業のアウトリーチ、さらにはコーディングまで任せるべきだというのだ。Ryan Carsonとの対談での核心は単純だった。最初にdocs、skills、accessへ先行投資すれば、創業者1人でも10人分のチームのように動ける。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2058609058714968194",
@@ -151,8 +152,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Agents will need a map of the web’s hidden APIs",
-      "suggestedSummary": "He argues the real trick with Claude Code isn’t DOM scraping — it’s sniffing network requests, reverse-engineering the underlying APIs, and automating against those instead. That leads to a bigger prediction: websites will need to be headless, and the web will eventually need something like a `tools.txt` for agents to discover what they can use and pay for.",
+      "suggestedTitle": "agentにはwebの隠れたAPIの地図が必要になる",
+      "suggestedSummary": "彼は、Claude Codeの本当の肝はDOMのスクレイピングではないと論じる。重要なのは、network requestを解析し、裏側のAPIをreverse-engineeringし、それを相手に自動化することだという。そこから、さらに大きな予測が導かれる。websiteはheadlessである必要があり、やがてwebにはagentが使えるものと支払い対象を見つけるための`tools.txt`のようなものが必要になる、という見立てだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2058783316753686558",
@@ -183,8 +184,8 @@
       "authorHandle": "realmadhuguru",
       "authorBio": "Product Leader at Google - Gemini, Veo, Nano Banana. All opinions mine.",
       "title": "Madhu Guru",
-      "suggestedTitle": "AI mandates fail when leaders stay hands-off",
-      "suggestedSummary": "CEOs are feeling AI FOMO, but too many are still running the company from arm’s length — which leads to vague mandates and fake-progress demos instead of real adoption. The warning: if leadership won’t get hands-on with AI, a startup with tighter execution will eat their lunch.",
+      "suggestedTitle": "リーダーが手を動かさないとAIの指示は機能しない",
+      "suggestedSummary": "CEOたちはAIへのFOMOを感じている。だが、いまだに会社を遠巻きに回している者が多い。その結果、曖昧な指示が出て、実際の導入ではなく、進捗を装うデモばかりになる。警告は明確だ。経営陣がAIに自ら触れようとしないなら、実行力の高いスタートアップに市場を奪われる。",
       "tweets": [
         {
           "url": "https://x.com/realmadhuguru/status/2058591611245011157",
@@ -203,8 +204,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AGI may be mostly a harness problem",
-      "suggestedSummary": "He argues that if model weights stopped improving today, better tooling and orchestration around them could still make people feel AGI across every domain. It’s a neat reframing from OpenAI’s Yann Dubois: the missing piece may be the harness, not just bigger models.",
+      "suggestedTitle": "AGIはほぼハーネスの問題かもしれない",
+      "suggestedSummary": "彼は、もしmodel weightsの改善が今日で止まったとしても、その周辺のtoolingとorchestrationを改善するだけで、あらゆる領域で人々はAGIを感じられるはずだと論じる。OpenAIのYann Duboisによる見方を、うまく言い換えたものだ。足りないのは、より大きなmodelsだけではなく、ハーネスなのかもしれない。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2058659995311358332",
@@ -215,23 +216,27 @@
       ],
       "publishedAt": "2026-05-24T21:22:45.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-25",
       "source": "Unsupervised Learning",
-      "title": "Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, &amp; Why Hinton is Wrong",
+      "title": "Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong",
       "url": "https://www.youtube.com/@RedpointAI",
-      "suggestedTitle": "LeCun says LLMs are useful, but not the road to real intelligence",
-      "suggestedSummary": "**The Takeaway:** Yann LeCun thinks the future belongs to world models that plan, not chatbots that predict tokens.\n\n- LLMs are “great… for what they do,” but he says they’re a dead end for human- or animal-like intelligence.\n- His bet is contrarian: stop generating pixels and start learning abstract representations that predict the consequences of actions.\n- He sees the real prize in data efficiency — a system that can learn a new task like a teenager learning to drive, not by hoovering up millions of demos.\n\nLeCun, the Meta AI veteran and Turing Award winner, has now spun out Ami Labs to push what he calls “AI for the real world.” His argument is blunt: language is special, but reality is messier — continuous, noisy, high-dimensional — and that’s where current architectures break. He points to JEPA-style systems as the better path because they learn representations by predicting one view from another, rather than reconstructing every pixel. In his view, that shift matters because intelligence isn’t about regurgitating inputs; it’s about anticipating outcomes and choosing actions through search.\n\nThat’s also why he’s skeptical of vision-language-action models and imitation-heavy robotics. They can look impressive, but they’re brittle and data-hungry. “Why can’t a 17-year-old learn to drive in twenty hours?” he asks. If a machine needs endless demonstrations for every new task, it’s not really generalizing. His near-term targets are industrial control, robotics, and other complex systems like jet engines, power plants, and even patient modeling. The long game is bigger: “what we’re designing are systems that are capable of thinking.”",
+      "suggestedTitle": "LeCunはLLMは有用だが、真の知能への道ではないと言う",
+      "suggestedSummary": "**要点:** Yann LeCunは、未来を担うのはtokenを予測するchatbotではなく、計画するworld modelだと考えている。\n\n- LLMは「何をするかという点では素晴らしい」が、人間や動物のような知能にとっては行き止まりだと彼は言う。\n- 彼の賭けは逆張りだ。pixelを生成するのをやめ、行動の結果を予測する抽象的な表現を学習し始めるべきだという。\n- 彼が本当に重視するのはdata efficiencyだ。大量のdemoをかき集めるのではなく、10代の若者が運転を覚えるように新しいtaskを学べるsystemである。\n\nMeta AIのベテランでTuring Award受賞者でもあるLeCunは、今やAmi Labsを立ち上げ、自らが「AI for the real world」と呼ぶものを推し進めている。彼の主張は明快だ。languageは特別だが、現実はもっと厄介で、連続的で、ノイズが多く、高次元であり、今のarchitectureはそこで破綻する。彼は、JEPA型のsystemのほうが優れていると見る。なぜなら、それらはすべてのpixelを再構成するのではなく、あるviewから別のviewを予測することで表現を学ぶからだ。彼の見方では、この転換が重要なのは、知能が入力の鸚鵡返しではなく、結果を予測し、searchを通じてactionを選ぶことだからである。\n\nだからこそ、彼はvision-language-action modelや、imitationに大きく依存するroboticsにも懐疑的だ。見た目は印象的でも、壊れやすく、dataを食う。「なぜ17歳の若者が20時間で運転を覚えられないのか」と彼は問う。machineが新しいtaskごとに延々とdemoを必要とするなら、それは本当の意味でgeneralizeしていない。短期的な狙いは、industrial control、robotics、そしてjet engine、power plant、さらにはpatient modelingのような複雑なsystemだ。だが長期戦はもっと大きい。「私たちが設計しているのは、thinkingできるsystemなのだ。」",
       "publishedAt": "2026-05-15T12:50:21.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 10,
     "totalTweets": 23,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-25T15:00:11.160Z"
+    "generatedAt": "2026-05-25T15:00:28.289Z",
+    "estimatedReadTime": "5 分"
   }
 }
