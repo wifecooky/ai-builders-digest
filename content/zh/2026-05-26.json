@@ -1,7 +1,8 @@
 {
   "date": "2026-05-26",
-  "summary": "Steinberger said AI agents need lean skills, not bloated prose; Levie argued AI won’t kill jobs, it’ll raise the bar. Yang said Codex tested itself while Claude still owned frontend, and Garry Tan pushed hard evals as the way agents got better fast.",
-  "items": [
+  "lang": "zh",
+  "summary": "Steinberger 说，AI agents 需要的是精干的 skills，不是冗长的废话；Levie 认为，AI 不会干掉工作，只会把门槛抬高。Yang 说，Codex 会自己做测试，而 Claude 还是更擅长 frontend；Garry Tan 则强调，hard evals 才是让 agents 快速变强的关键。",
+  "builderInsights": [
     {
       "id": "steipete-2026-05-26",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "AI agents need lean skills, not bloated prose",
-      "suggestedSummary": "He says most agent skills are wasting context on long-winded descriptions, and he built a tool to find the worst offenders. The bigger point: if you want agents to stay fast and cheap, token efficiency has to be part of the spec, not an afterthought. He also shipped a dependency purge in OpenClaw, swapping Sharp and Jimp for a 2MB WebAssembly Rust image pipeline called photon.",
+      "suggestedTitle": "AI agent 需要精简技能，不要臃肿的 prose",
+      "suggestedSummary": "他说，大多数 agent skill 都把 context 浪费在冗长的描述上，所以他做了个工具，专门找出最离谱的那些。更关键的是，如果你想让 agent 保持快又省钱，token 效率就得写进 spec 里，而不是事后补救。他还在 OpenClaw 里做了一次 dependency 清理，把 Sharp 和 Jimp 换成了一个 2MB 的 WebAssembly Rust image pipeline，叫 photon。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2058922222790525272",
@@ -41,8 +42,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI won’t kill jobs — it raises the bar",
-      "suggestedSummary": "He argues the pessimistic AI-and-jobs take misses how work actually changes: automation usually doesn’t shrink demand, it resets expectations upward. As a Box CEO, he points to finance, legal, software, and healthcare getting more analysis, advice, and depth — not less — once the tools get better.",
+      "suggestedTitle": "AI 不会消灭工作——它只会抬高门槛",
+      "suggestedSummary": "他认为，AI 和就业这类悲观说法，忽略了工作本身是怎么变化的。自动化通常不会压缩需求，只会把标准往上拉。作为 Box 的 CEO，他指出，随着工具变强，finance、legal、software 和 healthcare 领域会得到更多分析、建议和深度，而不是更少。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2059025559896883489",
@@ -61,8 +62,8 @@
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang",
-      "suggestedTitle": "Codex tests itself; Claude still owns frontend",
-      "suggestedSummary": "Codex is getting strong marks for browsing and testing its own work, but frontend and design tasks still seem to be Claude’s lane. He also argues the old “ship the MVP first, systems later” advice is flipped in the AI-agent era: documentation, cron jobs, and skill files are now what let small teams move like 10 people.",
+      "suggestedTitle": "Codex 自己做测试；frontend 还是 Claude 更强",
+      "suggestedSummary": "Codex 在浏览和测试自己写的东西上拿分很高，但 frontend 和 design 这类任务，看起来还是 Claude 的主场。他还认为，AI-agent 时代里，老一套“先发 MVP，后补 systems”的建议已经反过来了：documentation、cron jobs 和 skill files，才是让小团队像 10 个人一样推进的关键。",
       "tweets": [
         {
           "url": "https://x.com/petergyang/status/2059099566377693305",
@@ -93,8 +94,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "VCs should be building, not just watching",
-      "suggestedSummary": "He says the only way to stay at the frontier is to build, because priors in AI are getting stale every few months. The bigger point: if you’re still doing knowledge work the old way while “alien super intelligence” is here, you’re choosing comfort over learning — automate or get automated.",
+      "suggestedTitle": "VCs 应该亲自下场做，不只是旁观",
+      "suggestedSummary": "他认为，想一直站在前沿，唯一的办法就是亲自去 build。因为在 AI 里，很多 prior 过几个月就过时了。更大的意思是：如果 alien super intelligence 已经来了，你还在用老办法做 knowledge work，那你其实是在拿舒适感换学习。要么自动化，要么被自动化。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2058927145519562867",
@@ -113,8 +114,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Agents get better fast — if you eval them hard",
-      "suggestedSummary": "He says the trick to making agents actually useful is brutally simple: feed them context, run them through multiple frontier-model evals, and keep tightening the skill file until the score improves. Pair that with code, unit tests, and LLM-as-judge checks, and the gains stick instead of evaporating.",
+      "suggestedTitle": "Agents 进步很快——前提是你狠测它们",
+      "suggestedSummary": "他说，让 agents 真正好用的诀窍其实很简单：先把上下文喂给它们，再用多个 frontier-model 做 eval，不断收紧 skill file，直到分数真的上来。再配上 code、unit tests 和 LLM-as-judge 检查，效果才会稳住，不会转眼就掉回去。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2059155926939299968",
@@ -145,8 +146,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI automation needs a human counterweight",
-      "suggestedSummary": "He pointed to an internal @every counterpoint to \"After Automation,\" suggesting the real debate isn’t whether AI replaces work, but how humans stay meaningfully in the loop. He also joked that the Pope’s warning about a new Tower of Babel sounds a lot like @every’s 2024 AI framing.",
+      "suggestedTitle": "AI automation 需要人类做 counterweight",
+      "suggestedSummary": "他提到 @every 内部对 “After Automation” 的一个反向观点，意思是，真正要讨论的不是 AI 会不会取代工作，而是人类怎么继续有实质性的参与。他还开玩笑说，Pope 对新 Babel Tower 的警告，听起来很像 @every 2024 年对 AI 的表述。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2059014616059879501",
@@ -169,23 +170,27 @@
       ],
       "publishedAt": "2026-05-25T20:51:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-26",
       "source": "The MAD Podcast with Matt Turck",
-      "title": "Why AWS and Azure Cannot Run Autonomous AI – Ivan Burazin (Daytona)",
+      "title": "为什么 AWS 和 Azure 跑不动 Autonomous AI – Ivan Burazin (Daytona)",
       "url": "https://www.youtube.com/watch?v=kMXJrzAa5fM",
-      "suggestedTitle": "Agents need computers, not just models.",
-      "suggestedSummary": "**The Takeaway:** Agents only become useful when you give them a real computer, not just a chat box.\n\n- Sandboxes are the missing execution layer: secure, isolated computers where agents can install tools, browse, run code, and survive beyond a laptop lid closing.\n- The old cloud stack was built for stateless apps; agents are stateful digital workers, so hyperscalers weren’t designed for this workload.\n- The market splits into two big uses: long-running background agents for end users, and research/eval environments for training and benchmarking.\n\nIvan Burazin, CEO of Daytona, has spent 16 years building developer tools, and his core thesis is blunt: agents are “digital knowledge workers,” so they need “at least one sandbox, sometimes more.” That insight came from a practical failure. He tried using Claude to fetch bank data and hit a wall when it asked for direct access. “Log in and give me a no. I will not give you access,” he said. That moment convinced him the agent needed its own machine, its own account, even its own phone number for 2FA.\n\nHis bigger point is that the infrastructure underneath AI is being rebuilt around stateful work. Traditional hyperscalers were optimized for apps that shouldn’t change on the fly; agents are the opposite. They need persistence, concurrency, and the ability to keep working after your laptop sleeps. That’s why Daytona focuses on the sandbox layer rather than the harness or the model itself.\n\nBurazin also sees a gap in the stack: models don’t really learn on the job yet, memory is still awkwardly handled with markdown files, and most enterprise work still lives inside legacy desktop apps. His view is less “AI will change everything” and more “the computer is the product.”",
+      "suggestedTitle": "Agents 需要的是 computer，不只是 model。",
+      "suggestedSummary": "**核心结论：** 只有把一个真正的 computer 给到 agents，它们才会变得有用，而不只是一个 chat box。\n\n- Sandboxes 是缺失的 execution layer：它们是安全、隔离的 computers。agents 可以在里面装工具、浏览网页、跑 code，而且就算 laptop 合上盖子也能继续活着。\n- 旧的 cloud stack 是给 stateless apps 设计的；agents 是有状态的 digital workers，所以 hyperscalers 一开始就不是为这种 workload 准备的。\n- 这个市场会分成两大类用法：面向 end users 的 long-running background agents，以及用于 training 和 benchmarking 的 research/eval environments。\n\nIvan Burazin 是 Daytona 的 CEO，做 developer tools 已经 16 年了。他的核心判断很直接：agents 本质上是“digital knowledge workers”，所以它们需要“至少一个 sandbox，有时候还不止一个”。这个想法来自一次很实际的失败。他试着用 Claude 去拉银行数据，结果卡在了要直接访问权限这一步。“Log in and give me a no. I will not give you access,” 他说。那一刻他意识到，agent 需要自己的 machine、自己的 account，甚至还要有自己的 phone number 来做 2FA。\n\n他更大的观点是，AI 下面的 infrastructure 正在围绕 stateful work 重建。传统 hyperscalers 优化的是那些不该随时变化的 apps；agents 刚好相反。它们需要 persistence、concurrency，还要能在 laptop 休眠后继续干活。这也是 Daytona 为什么把重点放在 sandbox layer，而不是 harness 或 model 本身。\n\nBurazin 还看到 stack 里有个明显缺口：models 还不会真正边干边学，memory 现在还是靠 markdown files 这种别扭的方式在处理，而大多数 enterprise work 仍然困在 legacy desktop apps 里。他的判断不是“AI 会改变一切”，而是“computer 本身才是 product”。",
       "publishedAt": "2026-05-14T11:30:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-26T15:01:19.278Z"
+    "generatedAt": "2026-05-26T15:01:40.369Z",
+    "estimatedReadTime": "4 分钟"
   }
 }

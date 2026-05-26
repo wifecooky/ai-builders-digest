@@ -1,7 +1,8 @@
 {
   "date": "2026-05-26",
+  "lang": "en",
   "summary": "Steinberger said AI agents need lean skills, not bloated prose; Levie argued AI won’t kill jobs, it’ll raise the bar. Yang said Codex tested itself while Claude still owned frontend, and Garry Tan pushed hard evals as the way agents got better fast.",
-  "items": [
+  "builderInsights": [
     {
       "id": "steipete-2026-05-26",
       "source": "X",
@@ -169,7 +170,9 @@
       ],
       "publishedAt": "2026-05-25T20:51:53.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-26",
       "source": "The MAD Podcast with Matt Turck",
@@ -181,11 +184,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 9,
     "totalTweets": 18,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-26T15:01:19.278Z"
+    "generatedAt": "2026-05-26T15:01:19.507Z",
+    "estimatedReadTime": "4 min"
   }
 }
