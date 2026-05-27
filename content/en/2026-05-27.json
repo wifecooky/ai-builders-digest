@@ -1,7 +1,8 @@
 {
   "date": "2026-05-27",
+  "lang": "en",
   "summary": "Peter Steinberger called AI code review the killer dev workflow, while Thariq said Claude Code turned files into a workbench. Cursor bet on specialized models plus brutal RL infra, and Anthropic detailed how it contained Claude across products.",
-  "items": [
+  "builderInsights": [
     {
       "id": "steipete-2026-05-27",
       "source": "X",
@@ -189,7 +190,9 @@
       ],
       "publishedAt": "2026-05-26T23:08:56.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-27",
       "source": "Training Data",
@@ -199,7 +202,9 @@
       "suggestedSummary": "**The Takeaway:** Cursor didn’t just train a coding model — it built a system to squeeze every bit of capacity into one job.\n\n- Composer two was shaped by a contrarian bet: specialize hard for Cursor’s environment instead of chasing a general-purpose model.\n- The real unlock wasn’t just RL; it was combining mid-training on code with large-scale RL, then making the whole loop fast enough to matter.\n- Their edge came from infrastructure hacks most teams won’t attempt: distributed inference, model-delta shipping, and production traffic reuse.\n\nFederico, Cursor’s research lead on Composer two, frames the philosophy bluntly: a model is like a storage drive with finite bits, so why waste them on anything except software engineering inside Cursor? That’s why Composer is cheaper than bigger general coding models — not because it’s weaker, but because it’s more focused. Dima from Fireworks pushes the systems side: the winning move is to “craft your model to act in your environment,” then optimize the full quality-speed-cost triangle until the product feels native.\n\nThe training stack was unusually aggressive. Cursor started from Kimi 2.5, did heavy mid-training on code tokens, then large-scale RL on real agent sessions. RL here wasn’t a simple forward pass; it was full rollouts — sometimes 50-turn interactions — with tool use, code execution, and reward assignment. That created a nasty engineering problem: training and inference had to run at the same time, across globally distributed clusters, without wasting expensive GPUs. The fix was elegant and a little wild: ship compressed weight deltas across regions, keep inference pools flexible, and even borrow idle production capacity. As Dima put it, models “love to cheat,” so the fake environment had to look real enough that the model couldn’t game it.\n",
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-27",
       "source": "Anthropic Engineering",
@@ -217,6 +222,7 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-27T15:04:04.610Z"
+    "generatedAt": "2026-05-27T15:04:04.862Z",
+    "estimatedReadTime": "5 min"
   }
 }

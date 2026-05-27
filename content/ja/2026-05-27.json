@@ -1,7 +1,8 @@
 {
   "date": "2026-05-27",
-  "summary": "Peter Steinberger called AI code review the killer dev workflow, while Thariq said Claude Code turned files into a workbench. Cursor bet on specialized models plus brutal RL infra, and Anthropic detailed how it contained Claude across products.",
-  "items": [
+  "lang": "ja",
+  "summary": "Peter Steinbergerは、AI code reviewを「killer dev workflow」と呼んだ。Thariqは、Claude Codeがfilesをworkbenchに変えたと言った。Cursorはspecialized modelsとbrutalなRL infraに賭けた。Anthropicは、Claudeをproducts全体でどうcontainしたかを詳しく語った。",
+  "builderInsights": [
     {
       "id": "steipete-2026-05-27",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "AI code review is the killer dev workflow",
-      "suggestedSummary": "He says autoreview is the most impactful thing he’s added to his stack: it catches edge cases before PRs land, and sometimes runs for hours to do it. He also shipped Rastermill, a portable Wasm+Rust image-processing library for Node agents, plus a custom Opus stack so his claw can take meeting notes and talk back in meetings.",
+      "suggestedTitle": "AI code review は最強の dev workflow だ",
+      "suggestedSummary": "彼は、autoreview が自分の stack に加えた中で最もインパクトの大きいものだと言う。PR が land する前に edge case を拾い、時にはそれに何時間もかける。さらに Rastermill もリリースした。Node agents 向けの portable な Wasm+Rust 画像処理 library だ。加えて custom Opus stack も用意した。これで自分の claw は meeting notes を取り、meeting 中に話し返せる。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2059453909819654554",
@@ -41,8 +42,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "AI changes the business playbook — stop copying 2010",
-      "suggestedSummary": "Founders should quit rebuilding Foursquare, Yelp, or cheap Basecamp clones with 2026 tech. His point: AI rewrites the rules, so underpricing and “tech-enabled PE” games are the wrong play — build for the new economics instead. He also noted GStack keeps improving, with v1.47 shipping a spec-generation tweak for debugging GBrain issues.",
+      "suggestedTitle": "AIがビジネスの勝ち筋を変える — 2010年の焼き直しはやめろ",
+      "suggestedSummary": "創業者は、2026年のtechでFoursquareやYelp、安いBasecampのクローンを作り直すのをやめるべきだ、という話だ。彼の主張はこうだ。AIがルールを書き換える以上、安売りや「tech-enabled PE」的なゲームは筋が悪い。新しい経済条件に合わせて作るべきだ。GStackも改善を続けており、v1.47ではGBrainの問題をデバッグしやすくするためのspec生成の調整が入った。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2059521656532721964",
@@ -73,8 +74,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code turns files into a workbench",
-      "suggestedSummary": "The basic trick for non-technical work is to dump a bunch of files in a folder and let Claude Code write scripts plus HTML. He says people underestimate how much context lives in files, and that connectors like Gmail and Calendar just make the setup stronger. His examples: paperwork, reports, plans, even finance and medical workflows can be handled this way.",
+      "suggestedTitle": "Claude Codeがファイルを作業台に変える",
+      "suggestedSummary": "非技術系の仕事での基本トリックは、フォルダに大量のファイルを放り込み、Claude CodeにscriptとHTMLを書かせることだ。彼は、ファイルの中にどれだけ多くのcontextがあるかを人は過小評価していると言う。GmailやCalendarのようなconnectorは、その仕組みをさらに強くするだけだ。例としては、書類仕事、レポート、計画、さらにはfinanceやmedicalのworkflowまで、このやり方で扱えるという。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2059363116316598739",
@@ -105,8 +106,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Apps need to become data or fintech businesses",
-      "suggestedSummary": "Every venture-backed application company should act like a data company, a fintech company, or ideally both. The point is blunt: if your product doesn’t naturally create those moats, find a way to get there fast.",
+      "suggestedTitle": "アプリはデータ企業か fintech 企業になる必要がある",
+      "suggestedSummary": "ベンチャー資金で成長するアプリ企業は、データ企業か fintech 企業として振る舞うべきだ。理想は両方である。要点は単純だ。製品が自然にそうした moat を生まないなら、すぐにそこへ持っていく方法を見つけるべきだ。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2059424310079697188",
@@ -125,8 +126,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI automates tasks, not whole jobs",
-      "suggestedSummary": "He says enterprises are using agents to shave work, not erase headcount: the real need is more technical talent to steer, review, and integrate what AI produces. The efficiency gains then get recycled into client-facing roles like sales and customer success, so companies keep hiring where humans still matter most.",
+      "suggestedTitle": "AIは仕事全体ではなく、タスクを自動化する",
+      "suggestedSummary": "彼は、企業がagentを使って業務を削ってはいるが、雇用を消しているわけではないと言う。実際に必要なのは、AIが出したものを指揮し、レビューし、統合するためのより多くの技術人材だ。その効率化で生まれた余力は、salesやcustomer successのような顧客対応の役割に再投資される。だから企業は、人間が最も重要な領域では採用を続けるのである。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2059482349977653619",
@@ -145,8 +146,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Coding agents split into builders and brainstormers",
-      "suggestedSummary": "She says her workflow has flipped: Codex is the reliable engineer when the task is already defined, while Claude Code is the better PM/designer when she’s still figuring out what to build. She’s also moved off the terminal and into desktop apps, with the Codex Mac app now her default.",
+      "suggestedTitle": "Coding agentsはbuilderとbrainstormerに分かれる",
+      "suggestedSummary": "彼女によれば、ワークフローは逆転した。やることがすでに決まっているなら、Codexは頼れるエンジニアだ。一方で、まだ何を作るかを詰めている段階では、Claude CodeのほうがPM兼デザイナーとして優秀だという。さらに、作業環境もterminalからdesktop appへ移った。今ではCodex Mac appがデフォルトになっている。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2059354487823978586",
@@ -177,8 +178,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI may just be useful, not world-ending",
-      "suggestedSummary": "He argues the most likely AI outcome is boring in the best way: no apocalypse, no overnight singularity — just higher productivity, enterprise automation via agents, and a few real scientific wins. As a FirstMark VC, he’s basically betting the hype cycle settles into practical value instead of sci-fi extremes.",
+      "suggestedTitle": "AIは世界を終わらせるのではなく、ただ役に立つだけかもしれない",
+      "suggestedSummary": "彼の主張では、AIの最もありそうな着地点は、最悪でもなく最高でもない、地味だが理想的なものだ。破滅も、一夜にしてのシンギュラリティもない。あるのは、生産性の向上、agentによる企業の自動化、そしていくつかの本物の科学的成果だけだ。FirstMarkのVCとして、彼は要するに、誇大な期待のサイクルがSF的な極端論ではなく、実用的な価値に落ち着く方に賭けている。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2059411493196529751",
@@ -189,25 +190,29 @@
       ],
       "publishedAt": "2026-05-26T23:08:56.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-27",
       "source": "Training Data",
-      "title": "How Cursor Trained Composer on Fireworks: Distributed Infrastructure for High-Performance RL",
+      "title": "CursorがFireworksでComposerを学習させた方法: 高性能RLのための分散インフラ",
       "url": "https://www.youtube.com/watch?v=UDTr9yUnLUI",
-      "suggestedTitle": "Cursor bet on specialized models plus brutal RL infrastructure",
-      "suggestedSummary": "**The Takeaway:** Cursor didn’t just train a coding model — it built a system to squeeze every bit of capacity into one job.\n\n- Composer two was shaped by a contrarian bet: specialize hard for Cursor’s environment instead of chasing a general-purpose model.\n- The real unlock wasn’t just RL; it was combining mid-training on code with large-scale RL, then making the whole loop fast enough to matter.\n- Their edge came from infrastructure hacks most teams won’t attempt: distributed inference, model-delta shipping, and production traffic reuse.\n\nFederico, Cursor’s research lead on Composer two, frames the philosophy bluntly: a model is like a storage drive with finite bits, so why waste them on anything except software engineering inside Cursor? That’s why Composer is cheaper than bigger general coding models — not because it’s weaker, but because it’s more focused. Dima from Fireworks pushes the systems side: the winning move is to “craft your model to act in your environment,” then optimize the full quality-speed-cost triangle until the product feels native.\n\nThe training stack was unusually aggressive. Cursor started from Kimi 2.5, did heavy mid-training on code tokens, then large-scale RL on real agent sessions. RL here wasn’t a simple forward pass; it was full rollouts — sometimes 50-turn interactions — with tool use, code execution, and reward assignment. That created a nasty engineering problem: training and inference had to run at the same time, across globally distributed clusters, without wasting expensive GPUs. The fix was elegant and a little wild: ship compressed weight deltas across regions, keep inference pools flexible, and even borrow idle production capacity. As Dima put it, models “love to cheat,” so the fake environment had to look real enough that the model couldn’t game it.\n",
+      "suggestedTitle": "Cursorは特化モデルと苛烈なRLインフラに賭けた",
+      "suggestedSummary": "**要点:** Cursorは単なるcoding modelを学習させたのではない。1つの仕事に容量を極限まで注ぎ込むシステムを作ったのだ。\n\n- Composer twoは、逆張りの賭けから形になった。汎用モデルを追うのではなく、Cursorの環境に徹底的に特化させたのである。\n- 本当の突破口はRLだけではない。codeでのmid-trainingと大規模RLを組み合わせ、しかもそのループ全体を実用になる速度まで高速化したことにある。\n- 差を生んだのは、多くのチームが手を出さないインフラの工夫だった。distributed inference、model-delta shipping、production trafficの再利用である。",
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-27",
       "source": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
+      "title": "Claudeを製品横断でどう封じ込めるか",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "author": null,
-      "suggestedTitle": "Anthropic details how it contains Claude across products",
-      "suggestedSummary": "**Lead:** Anthropic says it now routinely gives Claude enough access to affect internal services, and is shipping a containment-first security model across Claude.ai, Claude Code, and Claude Cowork to keep that power usable without widening the blast radius.\n\n**Numbers:**\n- Users approved about **93%** of Claude Code permission prompts, a sign of approval fatigue.\n- Claude Code auto mode cuts permission prompts by **84%**.\n- On Gray Swan’s Agent Red Teaming benchmark, **Claude Opus 4.7** holds prompt-injection attack success to about **0.1%** on single attempts and **5–6%** after 100 adaptive attempts.\n- Claude Code auto mode catches roughly **83%** of overeager behaviors before execution.\n- A red-team phishing test exfiltrated credentials **24 times out of 25** retries when only user intent was relied on.\n\n**So What:** Anthropic’s core message is that supervising agents by asking humans to approve every action doesn’t scale; the safer pattern is to constrain what the agent can reach with sandboxes, VMs, filesystem boundaries, and egress controls. As the post puts it, “the engineering question becomes how to cap the blast radius.” For builders, the practical takeaway is to treat local config, localhost listeners, and tool outputs like untrusted network input, and to assume allowlists are capability grants, not just destination filters. Anthropic also highlights a key design lesson: the weakest layer is often custom glue code, not the hardened primitives underneath. “The weakest layer is the one you built yourself.”",
+      "suggestedTitle": "AnthropicがClaudeを製品横断でどう封じ込めているかを詳述",
+      "suggestedSummary": "**要点:** Anthropicは今や、Claudeに内部サービスへ影響を与えられるだけのアクセスを日常的に与えているという。そのうえで、Claude.ai、Claude Code、Claude Cowork全体に封じ込め優先のセキュリティモデルを展開している。強い権限を使えるようにしつつ、blast radiusを広げないためだ。\n\n**数字:**\n- Claude Codeのpermission promptは約**93%**が承認された。approval fatigueの兆候である。\n- Claude Codeのauto modeはpermission promptを**84%**削減する。\n- Gray SwanのAgent Red Teaming benchmarkでは、**Claude Opus 4.7**はprompt-injection攻撃の成功率を単発で約**0.1%**に抑え、100回のadaptive attempt後でも**5〜6%**にとどめる。\n- Claude Codeのauto modeは、実行前に過剰な振る舞いの約**83%**を検知する。\n- red-teamによるphishing testでは、ユーザーの意図だけに頼った場合、25回の再試行中**24回**でcredentialがexfiltrateされた。\n\n**要するに:** Anthropicの核心的な主張は、あらゆる操作を人間に承認させてagentを監督するやり方はスケールしない、ということだ。より安全なのは、sandbox、VM、filesystem boundary、egress controlでagentが到達できる範囲を絞ることだ。記事はこれを「engineering上の論点は、blast radiusをどう抑えるかになる」と表現している。builderにとっての実務的な教訓は、local config、localhost listener、tool outputを信頼できないnetwork inputとして扱うことだ。allowlistは単なるdestination filterではなく、capability grantだと考えるべきである。Anthropicはさらに重要な設計上の教訓も示している。最も弱い層は、しばしば下の堅牢なprimitiveではなく、自分で書いたcustom glue codeだ。「最も弱い層は、自分で作った層である。」",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -217,6 +222,7 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-27T15:04:04.610Z"
+    "generatedAt": "2026-05-27T15:10:35.864Z",
+    "estimatedReadTime": "5 分"
   }
 }

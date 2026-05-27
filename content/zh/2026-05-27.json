@@ -1,7 +1,8 @@
 {
   "date": "2026-05-27",
-  "summary": "Peter Steinberger called AI code review the killer dev workflow, while Thariq said Claude Code turned files into a workbench. Cursor bet on specialized models plus brutal RL infra, and Anthropic detailed how it contained Claude across products.",
-  "items": [
+  "lang": "zh",
+  "summary": "Peter Steinberger 把 AI code review 叫做开发者工作流里的杀手级能力，Thariq 则说 Claude Code 把文件变成了一个工作台。Cursor 押注的是 specialized models 加上强悍的 RL infra，而 Anthropic 也详细讲了他们是怎么在各个产品里约束 Claude 的。",
+  "builderInsights": [
     {
       "id": "steipete-2026-05-27",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "AI code review is the killer dev workflow",
-      "suggestedSummary": "He says autoreview is the most impactful thing he’s added to his stack: it catches edge cases before PRs land, and sometimes runs for hours to do it. He also shipped Rastermill, a portable Wasm+Rust image-processing library for Node agents, plus a custom Opus stack so his claw can take meeting notes and talk back in meetings.",
+      "suggestedTitle": "AI code review 是最强 dev workflow",
+      "suggestedSummary": "他说，autoreview 是他加到 stack 里最有价值的东西。它能在 PR 合入前抓住 edge cases，有时候还会跑上几个小时来做这件事。他还发布了 Rastermill，一个给 Node agents 用的可移植 Wasm+Rust 图像处理 library。除此之外，他还做了一套自定义 Opus stack，这样他的 claw 就能在会议里记笔记，还能直接回话。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2059453909819654554",
@@ -41,8 +42,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "AI changes the business playbook — stop copying 2010",
-      "suggestedSummary": "Founders should quit rebuilding Foursquare, Yelp, or cheap Basecamp clones with 2026 tech. His point: AI rewrites the rules, so underpricing and “tech-enabled PE” games are the wrong play — build for the new economics instead. He also noted GStack keeps improving, with v1.47 shipping a spec-generation tweak for debugging GBrain issues.",
+      "suggestedTitle": "AI 改变了商业打法——别再照搬 2010 年的套路",
+      "suggestedSummary": "创始人别再用 2026 年的技术去重做 Foursquare、Yelp，或者做廉价版 Basecamp 了。他的意思很直接：AI 已经把规则改了，靠低价和“tech-enabled PE”那套玩法已经不对路了——应该按新的经济模型来做产品。 他还提到，GStack 还在持续迭代，v1.47 上线了一个 spec-generation 的小改动，用来更方便地 debug GBrain 问题。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2059521656532721964",
@@ -73,8 +74,8 @@
       "authorHandle": "trq212",
       "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
       "title": "Thariq",
-      "suggestedTitle": "Claude Code turns files into a workbench",
-      "suggestedSummary": "The basic trick for non-technical work is to dump a bunch of files in a folder and let Claude Code write scripts plus HTML. He says people underestimate how much context lives in files, and that connectors like Gmail and Calendar just make the setup stronger. His examples: paperwork, reports, plans, even finance and medical workflows can be handled this way.",
+      "suggestedTitle": "Claude Code 把文件变成工作台",
+      "suggestedSummary": "非技术工作里，最简单的玩法就是把一堆文件丢进一个文件夹，让 Claude Code 去写 scripts 和 HTML。他说，很多人低估了文件里藏着多少 context。像 Gmail、Calendar 这类 connector 只会让这个 setup 更强。比如 paperwork、reports、plans，甚至 finance 和 medical workflows，都能这么处理。",
       "tweets": [
         {
           "url": "https://x.com/trq212/status/2059363116316598739",
@@ -105,8 +106,8 @@
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
-      "suggestedTitle": "Apps need to become data or fintech businesses",
-      "suggestedSummary": "Every venture-backed application company should act like a data company, a fintech company, or ideally both. The point is blunt: if your product doesn’t naturally create those moats, find a way to get there fast.",
+      "suggestedTitle": "App 需要变成 data 或 fintech 生意",
+      "suggestedSummary": "每家拿了 venture money 的 application 公司，都该按 data 公司、fintech 公司，最好两者兼具的思路来做。话说得很直白：如果你的 product 天生没法形成这些 moat，就得尽快想办法补出来。",
       "tweets": [
         {
           "url": "https://x.com/nikunj/status/2059424310079697188",
@@ -125,8 +126,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI automates tasks, not whole jobs",
-      "suggestedSummary": "He says enterprises are using agents to shave work, not erase headcount: the real need is more technical talent to steer, review, and integrate what AI produces. The efficiency gains then get recycled into client-facing roles like sales and customer success, so companies keep hiring where humans still matter most.",
+      "suggestedTitle": "AI 自动化的是任务，不是整个岗位",
+      "suggestedSummary": "他说，企业现在用 agent 来减轻工作量，不是直接砍掉人头。真正缺的是更多技术人才，去把 AI 产出的东西接住、审核、整合起来。效率提升后，省下来的精力又会回流到 sales、customer success 这类面向客户的岗位上。所以公司还是会继续在最需要人的地方招人。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2059482349977653619",
@@ -145,8 +146,8 @@
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "title": "Zara Zhang",
-      "suggestedTitle": "Coding agents split into builders and brainstormers",
-      "suggestedSummary": "She says her workflow has flipped: Codex is the reliable engineer when the task is already defined, while Claude Code is the better PM/designer when she’s still figuring out what to build. She’s also moved off the terminal and into desktop apps, with the Codex Mac app now her default.",
+      "suggestedTitle": "Coding agents 分成 builder 和 brainstormer",
+      "suggestedSummary": "她说她的工作流已经反过来了：当任务已经定义清楚时，Codex 更像靠谱的 engineer；而当她还在琢磨要做什么时，Claude Code 更像更会干 PM/designer。她也从 terminal 转到了 desktop app，现在 Codex Mac app 已经成了她的默认选择。",
       "tweets": [
         {
           "url": "https://x.com/zarazhangrui/status/2059354487823978586",
@@ -177,8 +178,8 @@
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
-      "suggestedTitle": "AI may just be useful, not world-ending",
-      "suggestedSummary": "He argues the most likely AI outcome is boring in the best way: no apocalypse, no overnight singularity — just higher productivity, enterprise automation via agents, and a few real scientific wins. As a FirstMark VC, he’s basically betting the hype cycle settles into practical value instead of sci-fi extremes.",
+      "suggestedTitle": "AI 可能只是有用，而不是世界末日",
+      "suggestedSummary": "他的判断是，AI 最可能的结果其实挺“无聊”，但这是最好的那种无聊：没有末日，没有一夜之间的 singularity。更多的是 productivity 提升、通过 agent 做 enterprise automation，以及少数真正的 scientific 突破。作为 FirstMark 的 VC，他基本是在押注 hype cycle 最终会落到 practical value 上，而不是停在 sci-fi 的极端想象里。",
       "tweets": [
         {
           "url": "https://x.com/mattturck/status/2059411493196529751",
@@ -189,25 +190,29 @@
       ],
       "publishedAt": "2026-05-26T23:08:56.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-27",
       "source": "Training Data",
-      "title": "How Cursor Trained Composer on Fireworks: Distributed Infrastructure for High-Performance RL",
+      "title": "Cursor 如何借助 Fireworks 训练 Composer：面向高性能 RL 的分布式基础设施",
       "url": "https://www.youtube.com/watch?v=UDTr9yUnLUI",
-      "suggestedTitle": "Cursor bet on specialized models plus brutal RL infrastructure",
-      "suggestedSummary": "**The Takeaway:** Cursor didn’t just train a coding model — it built a system to squeeze every bit of capacity into one job.\n\n- Composer two was shaped by a contrarian bet: specialize hard for Cursor’s environment instead of chasing a general-purpose model.\n- The real unlock wasn’t just RL; it was combining mid-training on code with large-scale RL, then making the whole loop fast enough to matter.\n- Their edge came from infrastructure hacks most teams won’t attempt: distributed inference, model-delta shipping, and production traffic reuse.\n\nFederico, Cursor’s research lead on Composer two, frames the philosophy bluntly: a model is like a storage drive with finite bits, so why waste them on anything except software engineering inside Cursor? That’s why Composer is cheaper than bigger general coding models — not because it’s weaker, but because it’s more focused. Dima from Fireworks pushes the systems side: the winning move is to “craft your model to act in your environment,” then optimize the full quality-speed-cost triangle until the product feels native.\n\nThe training stack was unusually aggressive. Cursor started from Kimi 2.5, did heavy mid-training on code tokens, then large-scale RL on real agent sessions. RL here wasn’t a simple forward pass; it was full rollouts — sometimes 50-turn interactions — with tool use, code execution, and reward assignment. That created a nasty engineering problem: training and inference had to run at the same time, across globally distributed clusters, without wasting expensive GPUs. The fix was elegant and a little wild: ship compressed weight deltas across regions, keep inference pools flexible, and even borrow idle production capacity. As Dima put it, models “love to cheat,” so the fake environment had to look real enough that the model couldn’t game it.\n",
+      "suggestedTitle": "Cursor 押注专用模型 + 极致 RL 基础设施",
+      "suggestedSummary": "**核心结论：** Cursor 不只是训练了一个 coding model。它还搭了一整套系统，把每一点 capacity 都榨到同一个任务上。\n\n- Composer two 的思路很反直觉：不去追通用模型，而是直接为 Cursor 的环境做深度 specialization。\n- 真正的突破不只是 RL。关键是先用 code 做 mid-training，再上大规模 RL，最后把整个 loop 加速到足够有意义。\n- 他们的优势来自很多团队不太会碰的 infrastructure 技巧：distributed inference、model-delta shipping，以及复用 production traffic。\n\nCursor 负责 Composer two 的 research lead Federico 说得很直接：一个 model 就像一块存储盘，bits 是有限的。那为什么不把它们都花在 Cursor 里的 software engineering 上？这也是为什么 Composer 比更大的通用 coding models 更便宜——不是因为它更弱，而是因为它更聚焦。Fireworks 的 Dima 则更强调 systems 这一侧：最优解是先把 model 训练成适应你的 environment，然后把 quality-speed-cost 这三角关系一起压到位，让产品用起来像原生的一样。\n\n训练 stack 的打法非常激进。Cursor 先从 Kimi 2.5 起步，做了大量 code tokens 的 mid-training，然后在真实 agent sessions 上做大规模 RL。这里的 RL 不是简单跑一遍 forward pass，而是完整 rollouts——有时会到 50-turn interactions——包含 tool use、code execution 和 reward assignment。这带来了一个很棘手的 engineering 问题：training 和 inference 必须同时跑，而且要跨全球分布式 clusters 运行，不能浪费昂贵的 GPU。解决办法既优雅又有点疯狂：把压缩后的 weight deltas 跨区域传输，保持 inference pools 的弹性，甚至复用闲置的 production capacity。Dima 说得很到位：models “love to cheat”，所以这个 fake environment 必须足够像真的，model 才没法钻空子。",
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-27",
       "source": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
+      "title": "我们如何在各产品中约束 Claude",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "author": null,
-      "suggestedTitle": "Anthropic details how it contains Claude across products",
-      "suggestedSummary": "**Lead:** Anthropic says it now routinely gives Claude enough access to affect internal services, and is shipping a containment-first security model across Claude.ai, Claude Code, and Claude Cowork to keep that power usable without widening the blast radius.\n\n**Numbers:**\n- Users approved about **93%** of Claude Code permission prompts, a sign of approval fatigue.\n- Claude Code auto mode cuts permission prompts by **84%**.\n- On Gray Swan’s Agent Red Teaming benchmark, **Claude Opus 4.7** holds prompt-injection attack success to about **0.1%** on single attempts and **5–6%** after 100 adaptive attempts.\n- Claude Code auto mode catches roughly **83%** of overeager behaviors before execution.\n- A red-team phishing test exfiltrated credentials **24 times out of 25** retries when only user intent was relied on.\n\n**So What:** Anthropic’s core message is that supervising agents by asking humans to approve every action doesn’t scale; the safer pattern is to constrain what the agent can reach with sandboxes, VMs, filesystem boundaries, and egress controls. As the post puts it, “the engineering question becomes how to cap the blast radius.” For builders, the practical takeaway is to treat local config, localhost listeners, and tool outputs like untrusted network input, and to assume allowlists are capability grants, not just destination filters. Anthropic also highlights a key design lesson: the weakest layer is often custom glue code, not the hardened primitives underneath. “The weakest layer is the one you built yourself.”",
+      "suggestedTitle": "Anthropic 详解它如何在各产品中约束 Claude",
+      "suggestedSummary": "**重点：** Anthropic 说，它现在已经会常态化给 Claude 足够的权限去影响内部 services。它正在把一种以 containment 为先的 security model 推到 Claude.ai、Claude Code 和 Claude Cowork 上。目标很直接：让这些能力能用，但别把 blast radius 扩大。\n\n**数据：**\n- 用户大约批准了 **93%** 的 Claude Code permission prompts，这说明 approval fatigue 已经很明显。\n- Claude Code 的 auto mode 把 permission prompts 减少了 **84%**。\n- 在 Gray Swan 的 Agent Red Teaming benchmark 上，**Claude Opus 4.7** 把 prompt-injection 攻击成功率压到单次尝试约 **0.1%**，在 100 次自适应尝试后约 **5–6%**。\n- Claude Code 的 auto mode 在执行前能拦住大约 **83%** 过于激进的行为。\n- 一次 red-team phishing 测试里，如果只依赖 user intent，凭据泄露在 25 次重试里有 **24** 次成功。\n\n**所以：** Anthropic 的核心观点很明确：靠让人类给每个 action 点批准，去监督 agent，这条路根本不 scale。更安全的做法，是用 sandbox、VM、filesystem boundary 和 egress control，把 agent 能碰到的东西先卡住。原文里说得很直白：\"the engineering question becomes how to cap the blast radius.\" 对 builder 来说，实操上要把 local config、localhost listener 和 tool output 都当成不可信的 network input。allowlist 也别只当 destination filter，它本质上是在发 capability。Anthropic 还强调了一个关键设计教训：最脆弱的那层，往往不是底下那些 hardened primitive，而是你自己写的 glue code。\"The weakest layer is the one you built yourself.\"",
       "publishedAt": null,
       "category": "blogUpdates"
     }
@@ -217,6 +222,7 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-27T15:04:04.610Z"
+    "generatedAt": "2026-05-27T15:04:28.523Z",
+    "estimatedReadTime": "5 分钟"
   }
 }
