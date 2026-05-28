@@ -1,0 +1,61 @@
+{
+  "date": "2026-05-28",
+  "lang": "ja",
+  "summary": "議論のあるAIは、参入障壁を下げた一方で、専門家への需要を押し上げた。AnthropicはClaude Codeの3件の回帰を修正し、制限をリセットし、Managed Agentsを出荷した。これでエージェントの頭脳とツールを分離できる。Claudeにはさらに、セルフホスト型サンドボックスとプライベートMCPトンネルも追加された。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-28",
+      "source": "AI & I by Every",
+      "title": "AIであらゆるものを自動化したら、従業員数が3倍になった",
+      "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y",
+      "suggestedTitle": "AIは参入障壁を下げるが、専門家の需要を押し上げる",
+      "suggestedSummary": "**要点:** 自動化は仕事を消し去らない。むしろ、人間が仕上げる必要のある「ほぼ正しい」出力を大量に生み出す。\n\n- AIによって、昨日までの専門家レベルの能力が安く手に入るようになった。その結果、より多くの人がコード、文章、分析を素早くそれなりに作れるようになる。\n- その安さが、役に立ちそうで完全には正しくない仕事を大量に生む。結果として、それを整え、レビューし、体系化する専門家の需要が高まる。\n- 本当の制約は生の能力ではない。agentはまだ人間の指示を必要とするし、人間に近づくほど価値が増すからだ。\n\nEveryのライターであるDanは、機械の内側からこう主張する。GPT-3時代以降、同社は4人から30人へと拡大した。同時に、AIネイティブな組織にもなった。彼の言い分では、これは大量失業ではない。むしろ、雑然とした仕事の拡大だ。Cloud CodeやCodexを使えば、誰でも「かなり良い」出力を作れる。するとボトルネックは生成から判断へ移る。彼の言葉を借りれば、AIは「昨日までの専門家レベルの能力」を安くする。しかし、それで専門家の必要性が消えるわけではない。むしろ増えるのだ。\n\n彼の考え方で最も鋭いのは、agentは人間から離れるほど価値が下がるという点だ。システムが、それを操れる人間から遠ざかるほど、ありきたりで少しズレた出力へと劣化していく。だからEveryは、ツールを勝手に動くものとして扱わない。ルール、レビュー層、編集システムをツールの周りに作る。逆説こそが、この主張の核心だ。自動化が進むほど、人間の責任は増える。何が重要か、何が十分か、何を出すべきかを、誰かが決めなければならないからだ。\n\n彼の境界線は単純だ。「agentが人間から離れれば離れるほど、その価値は下がる」。これは技術予測というより、マネジメントの教義に近い。",
+      "publishedAt": "2026-05-27T16:28:59.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-05-28",
+      "source": "Anthropic Engineering",
+      "title": "最近の Claude Code 品質報告に関するアップデート",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "author": null,
+      "suggestedTitle": "Anthropic、Claude Code の3つの regression を修正し、limits をリセット",
+      "suggestedSummary": "**要点:** Anthropic によると、最近の Claude Code の品質低下への不満は、model や API の劣化ではなく、3つの別々の product 変更が原因だった。これらはすべて 4月20日（v2.1.116）時点で修正済みだ。\n\n**数字:**\n- 3つの distinct な issue が Claude Code、Claude Agent SDK、Claude Cowork に影響した\n- 3月4日: default の reasoning effort が high から medium に変更され、その後 4月7日に元へ戻された\n- 3月26日: caching bug が 4月10日に v2.1.101 で修正された\n- 4月16日: verbosity を下げる prompt 変更が 4月20日に撤回された\n- ある eval では、prompt ablation 後に Opus 4.6 と 4.7 が 3% 低下した\n\n**つまり:** builder にとっての重要な教訓は、product layer の変更が、API 自体は問題ないのに model regression のように見えることがある、という点だ。Anthropic は現在、すべての subscriber に対して usage limits をリセットし、release control を厳格化している。より広い model ごとの eval、より多くの ablation、soak period、段階的な rollout、そして公開版そのものを使った内部 dogfooding の強化だ。同社は code review tooling の改善も進め、model 固有の変更が適切な model にだけ gate されるよう guidance を追加する予定だ。Anthropic の言葉を借りれば、「We never intentionally degrade our models.」であり、修正は主に再現可能な user feedback によって進んだ。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpswwwanth-2026-05-28",
+      "source": "Anthropic Engineering",
+      "title": "Managed Agentsのスケーリング: brainとhandsの分離",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "author": null,
+      "suggestedTitle": "AnthropicがManaged Agentsをリリースし、agentのbrainとtoolsを分離",
+      "suggestedSummary": "要点: AnthropicはManaged Agentsを導入した。これは長期稼働のagent向けのClaude Platformホスト型サービスだ。Claudeとそのharnessからなる「brain」と、sandboxes/toolsからなる「hands」、そして永続的なsession logを分離する。\n\n数値:\n- p50のtime-to-first-tokenは約60%低下した。\n- p95のtime-to-first-tokenは90%以上低下した。\n- このアーキテクチャは、多数のstatelessなharnessと、多数の独立したtool環境を支える。\n\nつまり何か: 変化の本質はアーキテクチャにある。sessionはharnessの外で管理される。toolsはシンプルな`execute(name, input) → string` interface経由で呼び出される。credentialはsandboxの外に置かれる。これにより、agentは復旧しやすくなり、prompt injectionにも強くなり、VPC、Git、MCP、custom toolsをまたいで柔軟に動ける。Anthropicのメッセージは明快だ。modelが進化すると、harnessの前提は古くなる。だからManaged Agentsは、将来の変化にも耐える「meta-harness」として設計されている。記事はこう述べる。「われわれは『まだ考えられていないprograms』のためのsystemを設計することを目指した」。builderにとっての実践的な示唆は、長時間動くstateをdurable sessionへ移し、computeとtoolsを差し替え可能なinterfaceとして扱い、sandboxは必要なときだけ用意することだ。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpsclaudec-2026-05-28",
+      "source": "Claude Blog",
+      "title": "Claude Managed Agentsに新機能: self-hosted sandboxesとMCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "author": null,
+      "suggestedTitle": "Claudeがself-hosted sandboxesとprivate MCP tunnelsを追加",
+      "suggestedSummary": "リード: Claude Managed Agentsは、tool executionをself-hosted sandboxes内で実行し、private MCP serversに接続できるようになった。agentの作業をenterpriseが管理する境界内に保てる。\n\n数値:\n- self-hosted sandboxesはClaude Platformでpublic beta中だ。\n- MCP tunnelsはresearch previewで、アクセス権が必要だ。\n- 対応するsandbox providerにはCloudflare、Daytona、Modal、Vercelが含まれる。\n\n要点: これは、Claude agentsに機密性の高いコード、ファイル、社内システムを扱わせつつ、データを環境外に出したくないチームにとって大きな前進だ。Anthropicによれば、agent loopは同社のインフラ上に残る。一方でexecutionは選んだsandboxに移る。そこでcompute、runtime image、logging、network policyを制御できる。private toolsについては、MCP tunnelsにより、agentsは単一のoutbound connectionを通じて社内のdatabase、API、knowledge base、ticketing systemに到達できる。inbound firewall rulesもpublic endpointsも不要だ。これにより、buildersはより高性能なenterprise agentsを、より厳しいsecurity、より良いobservability、そしてワークロードに合ったインフラで提供できる。long-running jobやGPU-heavy jobにも対応しやすい。",
+      "publishedAt": "May 19, 2026",
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 4,
+    "generatedAt": "2026-05-28T15:04:16.046Z",
+    "estimatedReadTime": "3 分"
+  }
+}

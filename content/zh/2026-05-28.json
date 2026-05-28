@@ -1,0 +1,61 @@
+{
+  "date": "2026-05-28",
+  "lang": "zh",
+  "summary": "每次 AI 进步，都会把门槛拉低，但对专家的需求反而更高。\n\nAnthropic 修了 3 个 Claude Code 回归问题，重置了限制，还发布了 Managed Agents，把 agent 的“大脑”和工具拆开。Claude 还新增了 self-hosted sandboxes 和 private MCP tunnels。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-28",
+      "source": "AI & I by Every",
+      "title": "我们用 AI 把一切都自动化了，结果团队人数翻了三倍",
+      "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y",
+      "suggestedTitle": "AI 拉低了门槛，但抬高了专家需求",
+      "suggestedSummary": "**核心结论：** 自动化不会消灭工作。它会把大量“差不多对”的产出推到你面前，然后还得靠人来收尾。\n\n- AI 让昨天还算专家级的能力变得很便宜，所以更多人能快速产出像样的 code、写作和分析。\n- 这种便宜会带来一堆看起来有用、但又不完全对的工作。结果就是，专家更需要去定方向、做 review、把这些东西系统化。\n- 真正的瓶颈不是原始能力，而是 agent 还是离不开人的指挥。越接近人，价值反而越高。\n\nDan 是 Every 的 writer。他从机器内部讲这件事：从 GPT-3 时代到现在，公司从 4 个人涨到 30 个人，同时也变得非常 AI-native。他想说的不是“AI 大规模毁掉工作岗位”。更像是工作量被粗暴地放大了。现在大家都能用 Cloud Code 或 Codex 生成“还不错”的 output，瓶颈就从“创造”转到了“判断”。正如他所说，AI 让“昨天的专家能力变便宜了”，但这并没有让专家失去价值，反而让专家更稀缺。\n\n他这套观点里最锋利的一点是：agent 离人越远，价值越低。系统离一个能随时纠偏的人越远，产出就越容易变成那种泛泛的、差一点意思的东西。所以 Every 会在这些工具外面加规则、review 层和 editorial system，而不是假装工具自己就能跑起来。这里的悖论其实就是整篇文章的主旨：自动化越多，人类责任越重。因为总得有人来判断什么重要、什么算够好、什么该发出去。\n\n他的底线很简单：\"the further away an agent gets from a human, the less valuable it is.\" 这与其说是技术预测，不如说是管理原则。",
+      "publishedAt": "2026-05-27T16:28:59.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-05-28",
+      "source": "Anthropic Engineering",
+      "title": "关于近期 Claude Code 质量反馈的更新",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "author": null,
+      "suggestedTitle": "Anthropic 修复了 3 个 Claude Code 回归问题，并重置了限制",
+      "suggestedSummary": "**重点：** Anthropic 说，最近大家吐槽 Claude Code 质量下滑，根因是 3 个独立的产品层改动，不是 model 或 API 退化。到 4 月 20 日（v2.1.116），这些问题都已经修好。\n\n**数据：**\n- 3 个不同问题影响了 Claude Code、Claude Agent SDK 和 Claude Cowork\n- 3 月 4 日：默认 reasoning effort 从 high 改成 medium，4 月 7 日又回滚了\n- 3 月 26 日：一个 caching bug 在 4 月 10 日的 v2.1.101 中修复\n- 4 月 16 日：一个降低 verbosity 的 prompt 改动在 4 月 20 日回滚\n- 一次 eval 显示，做了 prompt ablations 之后，Opus 4.6 和 4.7 的表现各掉了 3%\n\n**结论：** 对 builder 来说，关键点很简单：产品层改动会看起来像 model regression，哪怕 API 本身没问题。Anthropic 现在会给所有订阅用户重置 usage limits，同时收紧 release control：更全面的 per-model evals、更多 ablations、soak period、渐进式 rollout，以及在和线上完全一致的 build 上做更扎实的内部 dogfooding。公司还会改进 code review 工具，并加规则，确保只影响某个 model 的改动，能被正确 gate 住。Anthropic 的原话是：\"We never intentionally degrade our models,\" 这次修复主要也是靠用户反馈，而且反馈足够具体、可复现。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpswwwanth-2026-05-28",
+      "source": "Anthropic Engineering",
+      "title": "Scaling Managed Agents：把大脑和手分开",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "author": null,
+      "suggestedTitle": "Anthropic 推出 Managed Agents，把 agent 的大脑和工具解耦",
+      "suggestedSummary": "Lead：Anthropic 推出了 Managed Agents。这是 Claude Platform 上一个托管服务，面向长周期 agent。它把“brain”（Claude 和它的 harness）和“hands”（sandboxes/tools）以及持久化 session log 分开了。\n\nNumbers：\n- p50 time-to-first-token 大约降了 60%。\n- p95 time-to-first-token 降了 90% 以上。\n- 这个架构支持很多无状态 harness，也支持很多彼此独立的 tool 环境。\n\nSo What：最大的变化在架构层面。session 不再绑在 harness 里，tool 通过一个简单的 `execute(name, input) → string` 接口调用，credentials 也不会进 sandbox。这样 agent 更容易恢复，prompt injection 的风险更低，而且在 VPC、Git、MCP 和自定义 tools 之间切换也更灵活。Anthropic 的意思是，随着 model 变强，harness 的假设会慢慢过时，所以 Managed Agents 被设计成一个“meta-harness”，能扛住未来的变化。原文里说，他们想做的是一个“programs as yet unthought of”的系统。对 builder 来说，实际做法就是把长时间运行的 state 挪到 durable session 里，把 compute 和 tools 当成可替换接口，只在需要时再 provision sandbox。",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpsclaudec-2026-05-28",
+      "source": "Claude Blog",
+      "title": "Claude Managed Agents 新增：self-hosted sandboxes 和 MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "author": null,
+      "suggestedTitle": "Claude 加了 self-hosted sandboxes 和 private MCP tunnels",
+      "suggestedSummary": "导语：Claude Managed Agents 现在可以把 tool execution 放到 self-hosted sandboxes 里跑，也能连 private MCP servers。这样 agent 的工作就能留在企业可控的边界内。",
+      "publishedAt": "May 19, 2026",
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 4,
+    "generatedAt": "2026-05-28T15:04:05.599Z",
+    "estimatedReadTime": "3 分钟"
+  }
+}

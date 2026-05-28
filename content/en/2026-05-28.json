@@ -1,7 +1,9 @@
 {
   "date": "2026-05-28",
+  "lang": "en",
   "summary": "Every argued AI lowered the floor but raised demand for experts. Anthropic fixed three Claude Code regressions, reset limits, and shipped Managed Agents to split agent brains from tools. Claude also added self-hosted sandboxes and private MCP tunnels.",
-  "items": [
+  "builderInsights": [],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-28",
       "source": "AI & I by Every",
@@ -11,7 +13,9 @@
       "suggestedSummary": "**The Takeaway:** Automation doesn’t erase work; it floods the zone with “almost right” output that needs humans to finish it.\n\n- AI makes yesterday’s expert competence cheap, so more people can produce decent code, writing, and analysis fast.\n- That cheapness creates a glut of work that looks useful but isn’t quite right, which increases demand for experts to shape, review, and systematize it.\n- The real limit isn’t raw capability — it’s that agents still need human direction, and the closer they get to humans, the more valuable they become.\n\nDan, a writer at Every, argues from inside the machine: the company has gone from four people to 30 since the GPT-3 era, while also becoming deeply AI-native. His point is that this should not look like mass job destruction. It looks like a messy expansion of work. When everyone can use Cloud Code or Codex to generate “pretty good” output, the bottleneck shifts from creation to judgment. As he puts it, AI makes “yesterday’s expert competence cheap,” but that doesn’t end the need for experts — it multiplies it.\n\nThe sharpest part of his philosophy is that agents get less valuable as they drift away from humans. The farther the system is from a person who can steer it, the more it degrades into generic, slightly-off output. That’s why Every builds rules, review layers, and editorial systems around the tools instead of pretending the tools can run themselves. The paradox is the whole thesis: more automation creates more human responsibility, because someone still has to decide what matters, what’s good enough, and what should be shipped.\n\nHis line in the sand is simple: “the further away an agent gets from a human, the less valuable it is.” That’s less a tech prediction than a management doctrine.",
       "publishedAt": "2026-05-27T16:28:59.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-05-28",
       "source": "Anthropic Engineering",
@@ -51,6 +55,7 @@
     "totalTweets": 0,
     "totalPodcasts": 1,
     "totalBlogs": 4,
-    "generatedAt": "2026-05-28T15:04:00.373Z"
+    "generatedAt": "2026-05-28T15:04:00.582Z",
+    "estimatedReadTime": "3 min"
   }
 }
