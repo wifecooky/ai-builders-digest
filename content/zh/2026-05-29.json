@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-29",
+  "lang": "zh",
+  "summary": "Matt Turck 说，企业 AI 已经从聊天机器人走到了更复杂、更“脏”的 agents 阶段，而账单也开始兑现了。  \n他把这次转变概括成一种“真进步，真痛苦”：更高的 autonomy，更多的 complexity，也更高的 cost。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-29",
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "企业 AI 2026 现状：Aaron Levie 谈 Tokenmaxxing、Headless 崛起，以及如何让你的工作“AI-proof”",
+      "url": "https://www.youtube.com/watch?v=Gs2styCcwro",
+      "suggestedTitle": "Enterprise AI 正从 chat 走向昂贵又混乱的 agent",
+      "suggestedSummary": "**核心结论：** Enterprise AI 早就不是 demo 问题了。现在它更像预算、security 和 workflow 重构问题。\n\n- 真正的变化不是“AI everywhere”，而是 AI 正从 IT budget 里跑出来，撞上业务线支出。finance 团队还没有合适的工具来管 token burn。\n- 最大瓶颈不是 model quality，而是 rollout speed。每次新突破，都可能让公司刚落地的 architecture 直接过时。\n- coding 之所以跑得更快，是因为它可验证，而且技术用户能自己纠错。其他 knowledge work 就难多了，因为 context 分散，access control 也很乱。\n\nBox CEO Aaron Levie 这些年一直在做一件事：把前沿 tech 和 enterprise reality 接起来。他的判断很直接：这个行业还很早，哪怕看起来已经很拥挤了。chat 让企业先接受了 AI，但下一仗是 agent。用他的话说，现在的问题是，怎么从“我问一个问题，拿到一个答案”走到能真正跨业务干活的系统。\n\n变化最大的是氛围。CIO 们已经不再争论 AI 到底是不是真的了。他们在看 engineering team 用 Cursor、Codex 和 Cloud Code 更快地 ship，business leader 也开始要同样的提效。但兴奋背后，经济账得重新算。token cost 已经不是小数点后的零头了。Levie 提到，一个 coding agent 在单个任务上就可能烧掉“$1,000 的 compute”，这让老式 subscription pricing model 显得离谱地过时。\n\n他更大的观点是：enterprise 最后会用一组 model 拼起来，而不是押注某个万能系统。frontier model 负责最难的任务，等 workflow 稳了，再切到更便宜的 model，甚至直接回到普通 software。最后赢的，不会是最会喊 AI 口号的公司；而是那些能量化价值、控制支出，并且知道什么时候根本不该用 agent 的公司。",
+      "publishedAt": "2026-05-28T11:30:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-05-29T15:01:51.426Z",
+    "estimatedReadTime": "3 分钟"
+  }
+}

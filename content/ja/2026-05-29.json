@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-29",
+  "lang": "ja",
+  "summary": "Matt Turckは、enterprise AIがchatbotsから、厄介で高コストなagentsへ移行したと述べた。そして、その請求書が回ってきたと指摘した。  \nこの変化を、実際の進歩と実際の痛みが同時に進むものとして位置づけた。autonomyは増し、complexityも増し、costも増した。",
+  "builderInsights": [],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-29",
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "Enterprise AI 2026の現状: Aaron Levieが語るTokenmaxxing、Headlessの台頭、そして自分の仕事をAI耐性化する方法",
+      "url": "https://www.youtube.com/watch?v=Gs2styCcwro",
+      "suggestedTitle": "Enterprise AIはchatから高コストで厄介なagentへ移行している",
+      "suggestedSummary": "**要点:** Enterprise AIはもはやdemoの問題ではない。予算、security、workflow再設計の問題だ。\n\n- 本当の変化は「AIがどこにでもある」ことではない。AIがIT予算から離れ、事業部門の支出とぶつかっている点にある。financeチームには、token消費を管理する道具がまだ足りない。\n- 最大のボトルネックはmodelの品質ではなく、rollout速度だ。新しいbreakthroughが出るたびに、企業がちょうど実装し終えたarchitectureが陳腐化する。\n- codingが先行しているのは、検証可能で、技術ユーザーが自分で修正できるからだ。ほかの知識労働はもっと難しい。contextが散らばっており、access controlも複雑だからだ。\n\nBoxのCEOであるAaron Levieは、最先端技術とenterpriseの現実をつなぐ橋を長年作ってきた。その見立ては率直だ。業界はまだ初期段階にある。飽和しているように見えても、だ。chatでenterpriseは慣れた。次の本丸はagentだ。彼の言い方を借りれば、今の論点は「質問を投げて答えを返してもらう」状態から、business全体で実際に仕事をこなすsystemへどう移るかである。\n\n最も変わったのは空気感だ。CIOたちはもはやAIが本物かどうかを議論していない。エンジニアリングチームがCursor、Codex、Cloud Codeを使ってより速くshipしているのを見ている。そして事業責任者たちも同じ効果を求めている。ただし、その高揚感には経済性の厳しい現実が伴う。tokenコストはもはや端数ではない。Levieによれば、あるcoding agentは「単一タスクで$1,000分のcomputeを消費する」ことがある。これでは旧来のsubscription pricing modelは、あまりに時代遅れに見える。\n\n彼のより大きな主張はこうだ。enterpriseが最終的に持つのは、1つの魔法のsystemではなく、modelのモザイクである。最先端modelが最難関タスクを担い、その後は低コストのmodel、あるいは単なるsoftwareが、workflowが安定した時点で引き継ぐ。勝つのは、声高なAI信奉者ではない。価値を測定し、支出を管理し、そもそもagentを使わない判断ができる企業だ。",
+      "publishedAt": "2026-05-28T11:30:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 0,
+    "totalTweets": 0,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-05-29T15:01:57.512Z",
+    "estimatedReadTime": "3 分"
+  }
+}
