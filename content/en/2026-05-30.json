@@ -1,7 +1,8 @@
 {
   "date": "2026-05-30",
+  "lang": "en",
   "summary": "Boris Cherny said agentic workflows beat speedups by a mile. Garry Tan argued money amplifies demand, not creates it. Aaron Levie called a $500M custom build a bullish ad for software, while No Priors warned agents need guardrails before they become enterprise liabilities.",
-  "items": [
+  "builderInsights": [
     {
       "id": "bcherny-2026-05-30",
       "source": "X",
@@ -85,7 +86,9 @@
       ],
       "publishedAt": "2026-05-30T00:54:02.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-30",
       "source": "No Priors",
@@ -97,11 +100,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 8,
     "totalTweets": 16,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-30T14:29:58.337Z"
+    "generatedAt": "2026-05-30T14:29:58.548Z",
+    "estimatedReadTime": "3 min"
   }
 }

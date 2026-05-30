@@ -1,0 +1,112 @@
+{
+  "date": "2026-05-30",
+  "lang": "ja",
+  "summary": "Boris Chernyは、agentic workflowsはspeedupsを大差で上回ると述べた。  \nGarry Tanは、moneyはdemandを増幅するのであって、創出するのではないと主張した。  \nAaron Levieは、5億ドルのcustom buildをsoftwareにとって強気な広告だと評した。  \n一方でNo Priorsは、agentsがenterprise liabilityになる前にguardrailsが必要だと警告した。",
+  "builderInsights": [
+    {
+      "id": "bcherny-2026-05-30",
+      "source": "X",
+      "authorName": "Boris Cherny",
+      "authorHandle": "bcherny",
+      "authorBio": "Claude Code @anthropicai",
+      "title": "Boris Cherny",
+      "suggestedTitle": "Agentic workflowsはspeedupをはるかに上回る",
+      "suggestedSummary": "SalesforceのClaude Code導入こそが本質だ。既存の仕事を速くしただけではない。手順を削り、引き継ぎをなくし、agentに端から端までのまとまりを任せた。231日かかると見積もっていたmigrationは13日でリリースされ、1つのPRで21のendpointに100%のtest coverageが入った。Borisが強調する決め手は、品質が落ちなかったことだ。outputが増える一方で、incidentは5%減った。",
+      "tweets": [
+        {
+          "url": "https://x.com/bcherny/status/2060390855383400729",
+          "text": "The teams seeing the biggest wins from AI are completely changing how they work, not speeding up what they already do. What steps can you delete, what handoffs go away, what can an agent just own end to end. Great to see Salesforce go this deep. Shoutout to Srini, @Benioff & team.\n\nFull writeup: https://t.co/3Rbdj9K8YN",
+          "likes": 450,
+          "retweets": 35
+        },
+        {
+          "url": "https://x.com/bcherny/status/2060390853835726946",
+          "text": "Quality went up alongside output. Even with more PRs shipping, total incidents dropped 5%. They built security guardrails and quality standards into the agentic workflow itself.\n\nProductivity vs quality is sometimes framed as a tradeoff. They're not seeing it.",
+          "likes": 411,
+          "retweets": 7
+        },
+        {
+          "url": "https://x.com/bcherny/status/2060390852619272526",
+          "text": "Salesforce published a detailed writeup on going agentic with Claude Code. A couple things jumped out.\n\nA migration they'd scoped at 231 days shipped in 13. One PR delivered 21 endpoints at 100% test coverage.",
+          "likes": 2789,
+          "retweets": 137
+        }
+      ],
+      "publishedAt": "2026-05-29T16:00:34.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-05-30",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "金は需要を増幅する。需要を生み出すわけではない",
+      "suggestedSummary": "彼は、創業者が資金調達を traction と取り違え続けていると言う。まだ誰もその product を欲しがっていないなら、金を積んでも火のついていない場所にガソリンを注ぐだけだ。YC のより鋭い見方は単純で、金を追うのをやめ、まず最初の火を起こせということだ。",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2060600088079356292",
+          "text": "A founder kept saying \"if only we had money we'd do X.\"\n\nMoney is not the fire. Money is gasoline you pour on a fire that already exists.\n\nYou don't have a funding problem. You have a \"people don't want it yet\" problem. Go make the first fire.",
+          "likes": 346,
+          "retweets": 23
+        },
+        {
+          "url": "https://x.com/garrytan/status/2060586945491931202",
+          "text": "Virtue signalers who don’t actually care about the outcomes for the students of the UC system really should have had no part in the UC Regents\n\nUnfortunately they have damaged beautiful institution and their names should be remembered for it https://t.co/F7XWMfYDiM",
+          "likes": 67,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/garrytan/status/2060582680216084925",
+          "text": "Anti Asian racism alive and well in University of California admissions https://t.co/iZuW7HE9nl",
+          "likes": 159,
+          "retweets": 18
+        }
+      ],
+      "publishedAt": "2026-05-30T05:51:59.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-05-30",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "5億ドルのカスタム構築は、ソフトウェアに強気な広告だ",
+      "suggestedSummary": "ある企業がアプリ層を再現するために5億ドルを投じるなら、それは要するにソフトウェアの巨大な看板だ。細かなニュアンスはあるが、結論は明快である。体験を自前で握るためにそこまで払う意思があるなら、アプリ層にはまだ十分な価値が残っている。",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2060525104384418271",
+          "text": "The app layer couldn’t get a better advertisement than a company spending $500M to build their own version of it. Obviously lots of nuance here that can’t be captured in the headline, but this should make you very bullish on software. https://t.co/laysmOjyo7",
+          "likes": 348,
+          "retweets": 18
+        }
+      ],
+      "publishedAt": "2026-05-30T00:54:02.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-05-30",
+      "source": "No Priors",
+      "title": "Onyx Security CEOのMaxim Bar Koganが語る、Enterprise向けAIガーディアンの構築",
+      "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
+      "suggestedTitle": "AI agentsには、Enterpriseの負債になる前にガードレールが必要だ",
+      "suggestedSummary": "**要点:** 本当のAIセキュリティ問題はpromptではない。大規模に誤った行動を取る自律agentだ。\n\n- Enterpriseは、agentの行動が100倍から100万倍に増える状況で、もはや人手レビューに頼れない。\n- 既存のセキュリティツールは核心を見落としている。活動は見えても、agentの次の一手が本当に安全かは分からない。\n- 勝つ制御レイヤーは、小さく高速なモデルになる。より賢いagentが介入すべきかを判断するためのものであり、巨大なモデルですべてをレビューするものではない。\n\nOnyx Securityのcofounder兼CEOであるMaxim Bar Koganは、Enterprise向けに自らが「AI control plane」と呼ぶものを構築している。つまり、他のagentを監視するagentだ。彼の賭けは早かった。AutoGPTが、LLMがテキスト生成をやめて行動を起こせるかもしれないと示した時点で始まっていた。当時は、早すぎると見る買い手が大半だった。だが今では、Claude Codeのようなcoding agentが登場し、Enterprise導入も加速している。リスクがビジョンに追いついたのだ。\n\n彼の中核的な主張は明快だ。ソフトウェアが人間のように振る舞うことを許すと、従来のセキュリティは崩れる。identityツールは、権限を厳密に絞れることを前提にしている。だがagentには、役に立つために広いアクセスが必要だ。endpointやAPIのツールは何が起きたかは記録できる。しかし、modelがその行動を取る正当性があったかは判断できない。彼の言葉を借りれば、難しいのは「別のAI systemが何を考え、何をしようとしているのかを理解すること」だ。\n\nOnyxの答えは、すべての行動に巨大なmodelを走らせることではない。それでは遅すぎるし、高すぎる。代わりに、1つの仕事に強い小さなmodelを訓練する。より上位のレビューが必要かを判断するためのmodelだ。これはブリッツチェスの発想である。通常の手にはほとんどcomputeを使わない。だが局面が危険になったら、一気に減速する。Koganは、modelがより賢く、より自律的になるにつれ、この論理がAI governanceを形作ると見ている。",
+      "publishedAt": "2026-05-28T10:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 8,
+    "totalTweets": 16,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-05-30T14:30:08.274Z",
+    "estimatedReadTime": "3 分"
+  }
+}

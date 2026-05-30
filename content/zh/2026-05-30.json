@@ -1,7 +1,8 @@
 {
   "date": "2026-05-30",
-  "summary": "Boris Cherny said agentic workflows beat speedups by a mile. Garry Tan argued money amplifies demand, not creates it. Aaron Levie called a $500M custom build a bullish ad for software, while No Priors warned agents need guardrails before they become enterprise liabilities.",
-  "items": [
+  "lang": "zh",
+  "summary": "Boris Cherny 说，agentic workflows 比单纯提速强太多了，根本不是一个量级。Garry Tan 认为，钱只能放大需求，不会凭空创造需求。Aaron Levie 把一个 5 亿美元的 custom build 说成是 software 的看涨广告；而 No Priors 则提醒，agents 在变成 enterprise liability 之前，得先把 guardrails 搭好。",
+  "builderInsights": [
     {
       "id": "bcherny-2026-05-30",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "bcherny",
       "authorBio": "Claude Code @anthropicai",
       "title": "Boris Cherny",
-      "suggestedTitle": "Agentic workflows beat speedups by a mile",
-      "suggestedSummary": "Salesforce’s Claude Code rollout is the real story: they didn’t just make existing work faster, they deleted steps, removed handoffs, and let agents own chunks end to end. A migration they thought would take 231 days shipped in 13, and one PR landed 21 endpoints with 100% test coverage. Boris says the kicker is quality didn’t slip — incidents fell 5% even as output climbed.",
+      "suggestedTitle": "Agentic workflows 比单纯提速强太多了",
+      "suggestedSummary": "Salesforce rollout Claude Code 的真正看点，不是把原来的工作做快了，而是直接砍掉了步骤，去掉了交接，让 agent 端到端接管一整块任务。他们原本以为要 231 天的 migration，最后 13 天就交付了。还有一个 PR 一次性落了 21 个 endpoint，测试覆盖率 100%。Boris 说，最关键的是质量没掉——产出上去了，incident 反而降了 5%。",
       "tweets": [
         {
           "url": "https://x.com/bcherny/status/2060390855383400729",
@@ -41,8 +42,8 @@
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
-      "suggestedTitle": "Money amplifies demand — it doesn’t create it",
-      "suggestedSummary": "He says founders keep mistaking funding for traction: if people don’t want the product yet, more cash just pours gasoline on a fire that isn’t lit. The sharper YC take here is simple — stop chasing money and go make the first fire.",
+      "suggestedTitle": "钱会放大需求，不会凭空创造需求",
+      "suggestedSummary": "他说，创始人总把融资和 traction 搞混。如果用户还不想要这个产品，再多钱也只是往一团还没点着的火上浇汽油。YC 这边更直接：别追钱了，先把第一把火点起来。",
       "tweets": [
         {
           "url": "https://x.com/garrytan/status/2060600088079356292",
@@ -73,8 +74,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "$500M custom build is a bullish ad for software",
-      "suggestedSummary": "A company spending $500M to recreate an app layer is basically a giant billboard for software. The nuance matters, but the takeaway is clear: if a business is willing to pay that much to own the experience, the app layer still has plenty of value left.",
+      "suggestedTitle": "花 5 亿美元自建一套应用层，本身就是软件行业的看多信号",
+      "suggestedSummary": "一家公司愿意砸 5 亿美元去重做一层 app，基本就是给 software 打了个巨型广告。细节当然有区别，但结论很清楚：如果一家 business 愿意花这么多钱来掌控体验，说明 app layer 依然还有很大的价值空间。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2060525104384418271",
@@ -85,23 +86,27 @@
       ],
       "publishedAt": "2026-05-30T00:54:02.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-30",
       "source": "No Priors",
-      "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+      "title": "为企业打造 AI Guardian：Onyx Security CEO Maxim Bar Kogan",
       "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
-      "suggestedTitle": "AI agents need guardrails before they become enterprise liabilities",
-      "suggestedSummary": "**The Takeaway:** The real AI security problem isn’t prompts — it’s autonomous agents taking the wrong actions at scale.\n\n- Enterprises can’t rely on human review anymore when agent actions are multiplying 100x to 1,000,000x.\n- Existing security tools miss the core issue: they can see activity, but not whether an agent’s next move is actually safe.\n- The winning control layer will be small, fast models that decide when a smarter agent needs to step in — not giant models reviewing everything.\n\nMaxim Bar Kogan, cofounder and CEO of Onyx Security, is building what he calls an “AI control plane” for enterprises: agents that watch other agents. His bet started early, when AutoGPT hinted that LLMs could stop generating text and start taking actions. Back then, most buyers thought he was too early. Now, with coding agents like Claude Code and enterprise adoption accelerating, the risk has caught up to the vision.\n\nHis core argument is blunt: traditional security breaks down when software is allowed to act like a human. Identity tools assume permissions can be tightly scoped, but agents need broad access to be useful. Endpoint and API tools can log what happened, but they can’t tell whether the model was justified in doing it. As he puts it, the hard part is “understanding what another AI system is thinking, what is it planning to do.”\n\nOnyx’s answer is not to run a giant model on every action. That would be too slow and too expensive. Instead, they train small models that are good at one job: deciding when a higher-level review is needed. It’s a blitz-chess mindset — spend almost no compute on routine moves, then slow down hard when the position gets dangerous. Kogan thinks that same logic will define AI governance as models get smarter and more autonomous.",
+      "suggestedTitle": "AI agents 在变成企业负担前，先得有 guardrails",
+      "suggestedSummary": "**核心结论：** 真正的 AI security 问题不是 prompt，而是 autonomous agents 在大规模下做错事。\n\n- 当 agent 的动作量从 100x 飙到 1,000,000x 时，企业已经不能再靠人工 review。\n- 现有 security tools 抓不到核心问题：它们能看到 activity，但看不出 agent 的下一步到底安不安全。\n- 最终能赢的 control layer，会是小而快的 model。它负责判断什么时候该让更聪明的 agent 接手，而不是拿 giant model 把所有东西都 review 一遍。\n\nMaxim Bar Kogan 是 Onyx Security 的 cofounder 和 CEO。他在做的，是一个面向企业的 “AI control plane”：让 agent 去盯着其他 agent。这个判断来得很早。AutoGPT 刚出现时，它已经在暗示 LLM 不只是会生成文本，还能开始执行 action。那时候，大多数买家都觉得他押得太早。现在，随着 Claude Code 这类 coding agent 走红，企业 adoption 也在加速，风险终于追上了愿景。\n\n他的核心观点很直接：一旦 software 被允许像人一样行动，传统 security 就会失灵。Identity tools 默认权限可以切得很细，但 agent 想要真正有用，就必须拿到更广的 access。Endpoint 和 API tools 可以记录发生了什么，但它们没法判断 model 当时这么做到底合不合理。用他的话说，难点在于“理解另一个 AI system 在想什么，它打算做什么”。\n\nOnyx 的解法不是让一个 giant model 去处理每个 action。那样太慢，也太贵。相反，他们训练的是小 model，而且只擅长一件事：判断什么时候需要更高级别的 review。这有点像 blitz chess 的思路——平时几乎不花 compute，局面一旦危险，就立刻放慢。Kogan 认为，随着 model 变得更聪明、更 autonomous，这套逻辑会定义未来的 AI governance。",
       "publishedAt": "2026-05-28T10:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 8,
     "totalTweets": 16,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-05-30T14:29:58.337Z"
+    "generatedAt": "2026-05-30T14:30:03.195Z",
+    "estimatedReadTime": "3 分钟"
   }
 }
