@@ -1,7 +1,8 @@
 {
   "date": "2026-05-31",
-  "summary": "Rauch said best product wins and AI’s just the lever. Thibault Sottiaux called GPT-5.5 the best model yet, while Claude’s Managed Agents added dreaming, outcomes, and orchestration. Peter Steinberger noted agent prompts now ran for hours, not minutes.",
-  "items": [
+  "lang": "ja",
+  "summary": "Rauchは、最良のproductが勝つのであり、AIはそのためのleverにすぎないと述べた。  \nThibault Sottiauxは、GPT-5.5をこれまでで最良のmodelだと評した。  \n一方でClaudeのManaged Agentsは、dreaming、outcomes、orchestrationを追加した。  \nPeter Steinbergerは、agentのpromptが今や数分ではなく数時間動くと指摘した。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-05-31",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Best product wins; AI is just a lever",
-      "suggestedSummary": "He says the goal isn’t to maximize AI usage — it’s to ship the best product, whether that means lots of AI, a little, or none at all. He also pointed to per-API-key spend caps in Vercel’s AI Gateway, a practical control for teams trying to keep AI costs from running wild.",
+      "suggestedTitle": "最高のproductが勝つ。AIはただのレバーだ",
+      "suggestedSummary": "彼が言うのは、AIの利用量を最大化することが目的ではないということだ。目的は、最高のproductを出すことだ。AIを大量に使う場合もあれば、少しだけ使う場合もある。まったく使わない場合もある。さらに、VercelのAI GatewayにあるAPI keyごとの支出上限にも触れた。AIコストが暴走しないようにする、チーム向けの実用的な制御だ。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2060803480823193840",
@@ -35,8 +36,8 @@
       "authorHandle": "thsottiaux",
       "authorBio": "Codex & ChatGPT @OpenAI",
       "title": "Thibault Sottiaux",
-      "suggestedTitle": "GPT-5.5 is the best model yet",
-      "suggestedSummary": "He says OpenAI’s GPT-5.x naming isn’t just cosmetic: each bump should mean real gains in capability and token efficiency, which also makes things faster. He calls GPT-5.5 their best model yet and frames the whole strategy as a simple one they want to keep repeating.",
+      "suggestedTitle": "GPT-5.5はこれまでで最高のモデルだ",
+      "suggestedSummary": "OpenAIのGPT-5.xという命名は、単なる見た目の話ではないと彼は言う。各アップデートは、能力とtoken効率の実質的な向上を意味すべきだ。結果として、処理も速くなる。彼はGPT-5.5を彼らのこれまでで最高のモデルだと評し、この戦略全体を、何度でも繰り返したいシンプルなものとして位置づけている。",
       "tweets": [
         {
           "url": "https://x.com/thsottiaux/status/2060964284117782996",
@@ -67,8 +68,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Auto-review turns risky commands into teachable moments",
-      "suggestedSummary": "Cursor’s auto-review doesn’t just block or allow commands — it explains what they do and why they’re risky, which makes it way easier for new coders to learn by doing. That’s a small UX tweak with a big payoff: less fear, more forward motion.",
+      "suggestedTitle": "Auto-reviewが危険なコマンドを学びの機会に変える",
+      "suggestedSummary": "Cursorのauto-reviewは、コマンドを単にブロックするか許可するだけではない。何をするのか、なぜ危険なのかまで説明する。これで新しいcoderは、実際に手を動かしながら学びやすくなる。小さなUX改善だが、効果は大きい。恐れは減り、前に進む力は増す。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2060766674203353190",
@@ -87,8 +88,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Agent prompts now run for hours, not minutes",
-      "suggestedSummary": "With GPT-5.5, /goal, autoreview, and crabbox, prompts that used to take 30–60 minutes are stretching into 4–10 hour tasks — and he says confidence in the output is way higher. His take: yielding agents is a skill, and code review gets much better once you push the model past the first “looks fine” answer.",
+      "suggestedTitle": "Agent promptsは今や数分ではなく数時間走る",
+      "suggestedSummary": "GPT-5.5、/goal、autoreview、crabboxによって、これまで30〜60分で終わっていたpromptが、4〜10時間のタスクへと伸びている。そして彼は、出力への信頼度ははるかに高いと言う。彼の見方では、agentに主導権を渡すのは一つのスキルだ。最初の「まあまあ良さそう」という答えを越えてmodelを押し込むと、code reviewはずっと良くなる。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2060691552486175041",
@@ -119,8 +120,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI doesn’t just cut costs — it funds growth",
-      "suggestedSummary": "He says enterprise AI is mostly showing up as reinvestment, not layoffs: savings from automation are getting pushed into sales, marketing, engineering, and other underbuilt areas. The bigger point from the Box CEO is that AI expands what companies can do, so the winners will be the ones that use the efficiency to serve customers better — not just trim headcount.",
+      "suggestedTitle": "AIはコストを削るだけではない。成長の原資を生む",
+      "suggestedSummary": "彼は、enterprise AIの実態はレイオフではなく再投資だと言う。automationで生まれた savings は、sales、marketing、engineering、そして手薄な領域に回っている。BoxのCEOが強調する本質は、AIが企業にできることを広げる点だ。勝つのは、その効率化を使って顧客への提供価値を高める企業である。人員を削るだけではない。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2060923684295221390",
@@ -139,8 +140,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI turns coding into a long-haul grind",
-      "suggestedSummary": "He says Codex is now chewing through 38B tokens, with a 56-hour longest task and a 41-day streak. The vibe: AI coding isn’t just autocomplete anymore — it’s becoming a persistent worker that can stay on a problem for days.",
+      "suggestedTitle": "AIがコーディングを長距離戦に変える",
+      "suggestedSummary": "彼によれば、Codexは現在380億tokenを処理している。最長タスクは56時間、連続稼働は41日だ。要するに、AI codingはもはや単なるautocompleteではない。何日も同じ問題に張り付ける持続的なworkerになりつつある。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2060861670184870225",
@@ -157,25 +158,29 @@
       ],
       "publishedAt": "2026-05-30T23:11:25.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-31",
       "source": "Unsupervised Learning",
       "title": "Ep 87: Gemini Co-Lead on World Models, RL&apos;s Next Domains &amp; Continual Learning",
       "url": "https://www.youtube.com/watch?v=NQczevdpxq0",
-      "suggestedTitle": "Google bets the next leap is world models, memory, and self-directed agents",
-      "suggestedSummary": "**The Takeaway:** Google’s frontier bet is simple: make models that understand the world, remember over time, and build their own scaffolding.\n\n**Key Insights**\n- The real missing breakthrough isn’t “more AI,” it’s a GPT-like moment for video and images where multimodal data yields concepts without leaning so hard on text.\n- World models matter most when they stop being just generators and start acting like simulators that can predict, plan, and eventually help robotics and self-driving.\n- The next agentic leap may be less about hand-built workflows and more about models learning to write their own scaffolds, choose when to reason, and store memory outside the weights.\n\n**The Story**\nOriol Vinyals, co-lead of Gemini at Google, frames the frontier as a shift from clever demos to systems that actually accumulate understanding. His core argument is that language models already benefited from the internet’s giant text corpus, but vision and video still haven’t had their equivalent “aha” moment. Google’s Omni is his proof of progress: it can take in images and video, generate video, and edit it through language, but he says the field still hasn’t unlocked the deeper transfer from raw visual data into compact concepts.\n\nHe’s especially interested in world models as more than representation learning. In his words, the goal is to “simulate” the world well enough that models can predict before acting. That’s why robotics keeps coming up: not because today’s models can do precise motor control, but because they may soon help with planning, scenario generation, and gross-level decision-making.\n\nOn agents, Vinyals is blunt that the future probably won’t be a pile of brittle hand-coded scaffolds. Instead, “the model itself could write [the system] on the fly.” He sees memory the same way: working memory is already strong, but durable learning will likely live in file-system-style external storage, not constantly rewritten weights. That’s the practical path to continual learning—and maybe the next real paradigm shift.",
+      "suggestedTitle": "Googleは次の飛躍をworld models、memory、自律型agentに賭ける",
+      "suggestedSummary": "**要点:** Googleのフロンティアへの賭けは単純だ。世界を理解し、時間をまたいで記憶し、自分で足場を組み立てるモデルを作ることだ。\n\n**主な示唆**\n- 本当に足りない突破口は「もっとAI」ではない。動画と画像におけるGPTのような瞬間だ。マルチモーダルデータが、テキストにそこまで頼らず概念を生み出す必要がある。\n- world models が本領を発揮するのは、単なる生成器で終わらず、予測し、計画し、やがて robotics や self-driving を支える simulator として振る舞うようになってからだ。\n- 次の agent の飛躍は、手作りのワークフローよりも、モデルが自分で scaffold を書き、いつ reasoning するかを選び、weights の外に memory を保存することにあるかもしれない。\n\n**ストーリー**\nGoogleのGemini共同リードであるOriol Vinyalsは、フロンティアを、巧妙なデモから、実際に理解を積み上げるシステムへの転換として捉えている。彼の中心的な主張は、language model はすでにインターネットの巨大な text corpus の恩恵を受けてきた一方で、vision と video にはまだ同等の「なるほど」の瞬間が来ていない、というものだ。GoogleのOmniはその進歩の証拠だ。画像と video を取り込み、video を生成し、language で編集できる。ただし彼は、この分野が生の visual data から圧縮された concept へと深く転移する段階は、まだ解き放てていないと言う。\n\n彼が特に注目しているのは、world models を representation learning 以上のものとして捉えることだ。彼の言葉では、モデルが行動する前に予測できるほど、世界を十分に「simulate」することが目標である。だからこそ robotics が何度も話題に上る。今のモデルが精密な motor control をこなせるからではない。近いうちに、planning、scenario generation、そして大まかなレベルの意思決定を助けられるようになるかもしれないからだ。\n\nagent について、Vinyalsは率直だ。未来は、おそらく脆い手書きの scaffold を積み上げたものにはならない。代わりに、「model 自体がその場で [the system] を書ける」ようになるという。memory も同じ見方だ。working memory はすでに強い。しかし、持続的な学習は、何度も書き換えられる weights ではなく、file-system-style の外部 storage に置かれる可能性が高い。これが continual learning への実践的な道であり、もしかすると次の本当の paradigm shift だ。",
       "publishedAt": "2026-05-22T12:50:04.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-31",
       "source": "Claude Blog",
-      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "title": "Claude Managed Agents に新機能: dreaming、outcomes、multiagent orchestration",
       "url": "https://claude.com/blog/new-in-claude-managed-agents",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents adds dreaming, outcomes, and orchestration",
-      "suggestedSummary": "Lead: Claude is launching dreaming in Managed Agents as a research preview, while also shipping outcomes, multiagent orchestration, and webhooks to help agents self-improve, verify their work, and split complex jobs across specialists.\n\nNumbers:\n- Outcomes improved task success by up to 10 points over a standard prompting loop.\n- File generation quality rose by +8.4% on docx and +10.1% on pptx in internal benchmarks.\n- Harvey reported ~6x higher completion rates in tests using dreaming.\n- Wisedocs says review workflows now run 50% faster.\n\nSo What: Dreaming adds a scheduled memory-refinement loop that reviews past sessions, extracts patterns, and can either auto-update memory or route changes for review. Outcomes gives builders a rubric-based grader in a separate context window, so agents can self-correct without being biased by their own reasoning. Multiagent orchestration lets a lead agent delegate work to parallel specialists with their own models, prompts, and tools, with persistent events and full traceability in the Claude Console. As the post puts it, “Together, these updates make agents more capable at handling complex tasks with minimal steering.” For teams building long-running, high-stakes workflows, the practical move is to use dreaming for cross-session learning, outcomes for quality control, and orchestration for parallel execution.",
+      "suggestedTitle": "Claude Managed Agents に dreaming、outcomes、orchestration を追加",
+      "suggestedSummary": "Lead: Claude は Managed Agents に research preview として dreaming を導入する。同時に、outcomes、multiagent orchestration、webhooks も提供し、agent が自己改善し、作業を検証し、複雑な job を specialist に分担できるようにする。",
       "publishedAt": "May 06, 2026",
       "category": "blogUpdates"
     }
@@ -185,6 +190,7 @@
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-31T14:31:16.831Z"
+    "generatedAt": "2026-05-31T14:31:36.744Z",
+    "estimatedReadTime": "4 分"
   }
 }

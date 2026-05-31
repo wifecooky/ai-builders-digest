@@ -1,7 +1,8 @@
 {
   "date": "2026-05-31",
-  "summary": "Rauch said best product wins and AI’s just the lever. Thibault Sottiaux called GPT-5.5 the best model yet, while Claude’s Managed Agents added dreaming, outcomes, and orchestration. Peter Steinberger noted agent prompts now ran for hours, not minutes.",
-  "items": [
+  "lang": "zh",
+  "summary": "Rauch 说，最终还是产品力决定胜负，AI 只是那个杠杆。Thibault Sottiaux 说 GPT-5.5 是目前最强的 model。与此同时，Claude 的 Managed Agents 也加了 dreaming、outcomes 和 orchestration。Peter Steinberger 提到，现在 agent prompt 的运行时间已经从几分钟拉长到几小时了。",
+  "builderInsights": [
     {
       "id": "rauchg-2026-05-31",
       "source": "X",
@@ -9,8 +10,8 @@
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
-      "suggestedTitle": "Best product wins; AI is just a lever",
-      "suggestedSummary": "He says the goal isn’t to maximize AI usage — it’s to ship the best product, whether that means lots of AI, a little, or none at all. He also pointed to per-API-key spend caps in Vercel’s AI Gateway, a practical control for teams trying to keep AI costs from running wild.",
+      "suggestedTitle": "最好的产品赢，AI 只是杠杆",
+      "suggestedSummary": "他说，目标不是把 AI 用到最大，而是把产品做成最好的。至于这意味着大量用 AI、少量用，还是根本不用，都无所谓。他还提到 Vercel 的 AI Gateway 里可以按 API key 设消费上限。这对想控制 AI 成本别失控的团队来说，很实用。",
       "tweets": [
         {
           "url": "https://x.com/rauchg/status/2060803480823193840",
@@ -35,8 +36,8 @@
       "authorHandle": "thsottiaux",
       "authorBio": "Codex & ChatGPT @OpenAI",
       "title": "Thibault Sottiaux",
-      "suggestedTitle": "GPT-5.5 is the best model yet",
-      "suggestedSummary": "He says OpenAI’s GPT-5.x naming isn’t just cosmetic: each bump should mean real gains in capability and token efficiency, which also makes things faster. He calls GPT-5.5 their best model yet and frames the whole strategy as a simple one they want to keep repeating.",
+      "suggestedTitle": "GPT-5.5 是目前最好的 model",
+      "suggestedSummary": "他说，OpenAI 的 GPT-5.x 命名不只是换个名字而已。每次升级都应该带来真正的能力提升和 token 效率提升，这样速度也会更快。他认为 GPT-5.5 是他们迄今最好的 model，并把整个 strategy 说成一个很简单的套路：他们想一直重复下去。",
       "tweets": [
         {
           "url": "https://x.com/thsottiaux/status/2060964284117782996",
@@ -67,8 +68,8 @@
       "authorHandle": "ryolu_",
       "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
       "title": "Ryo Lu",
-      "suggestedTitle": "Auto-review turns risky commands into teachable moments",
-      "suggestedSummary": "Cursor’s auto-review doesn’t just block or allow commands — it explains what they do and why they’re risky, which makes it way easier for new coders to learn by doing. That’s a small UX tweak with a big payoff: less fear, more forward motion.",
+      "suggestedTitle": "Auto-review 把高风险命令变成可学习的时刻",
+      "suggestedSummary": "Cursor 的 auto-review 不只是拦住或放行命令。它会解释这些命令在做什么，以及为什么有风险。这样一来，新手 coder 就能边做边学，门槛低很多。这个 UX 小改动，回报却很大：少一点害怕，多一点推进。",
       "tweets": [
         {
           "url": "https://x.com/ryolu_/status/2060766674203353190",
@@ -87,8 +88,8 @@
       "authorHandle": "steipete",
       "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "title": "Peter Steinberger",
-      "suggestedTitle": "Agent prompts now run for hours, not minutes",
-      "suggestedSummary": "With GPT-5.5, /goal, autoreview, and crabbox, prompts that used to take 30–60 minutes are stretching into 4–10 hour tasks — and he says confidence in the output is way higher. His take: yielding agents is a skill, and code review gets much better once you push the model past the first “looks fine” answer.",
+      "suggestedTitle": "Agent prompts 现在能跑好几个小时，不再只是几分钟",
+      "suggestedSummary": "用了 GPT-5.5、/goal、autoreview 和 crabbox 之后，原本 30–60 分钟能跑完的 prompt，现在经常会拉到 4–10 小时。Peter Steinberger 说，输出结果的把握也高了很多。他的观点是：把 agent 放手跑也是一种 skill。只要你别停在第一眼“看起来没问题”的答案上，code review 的质量会明显提升。",
       "tweets": [
         {
           "url": "https://x.com/steipete/status/2060691552486175041",
@@ -119,8 +120,8 @@
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
-      "suggestedTitle": "AI doesn’t just cut costs — it funds growth",
-      "suggestedSummary": "He says enterprise AI is mostly showing up as reinvestment, not layoffs: savings from automation are getting pushed into sales, marketing, engineering, and other underbuilt areas. The bigger point from the Box CEO is that AI expands what companies can do, so the winners will be the ones that use the efficiency to serve customers better — not just trim headcount.",
+      "suggestedTitle": "AI 不只是降本——它还在给增长供血",
+      "suggestedSummary": "他认为，enterprise AI 现在更多体现为再投资，而不是裁员：automation 省下来的钱，正在被重新投到 sales、marketing、engineering 这些长期投入不足的地方。Box CEO 想强调的是，AI 会把公司的能力边界往外推。最后赢的，不会只是把人头砍掉的公司，而是能把效率拿去更好服务客户的公司。",
       "tweets": [
         {
           "url": "https://x.com/levie/status/2060923684295221390",
@@ -139,8 +140,8 @@
       "authorHandle": "danshipper",
       "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper",
-      "suggestedTitle": "AI turns coding into a long-haul grind",
-      "suggestedSummary": "He says Codex is now chewing through 38B tokens, with a 56-hour longest task and a 41-day streak. The vibe: AI coding isn’t just autocomplete anymore — it’s becoming a persistent worker that can stay on a problem for days.",
+      "suggestedTitle": "AI 把 coding 变成了长跑",
+      "suggestedSummary": "他说 Codex 现在已经消耗了 38B tokens，最长任务跑了 56 小时，连续运行记录也到了 41 天。整体感觉是：AI coding 不再只是 autocomplete 了，而是在变成一个能盯着问题干好几天的 persistent worker。",
       "tweets": [
         {
           "url": "https://x.com/danshipper/status/2060861670184870225",
@@ -157,25 +158,29 @@
       ],
       "publishedAt": "2026-05-30T23:11:25.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-31",
       "source": "Unsupervised Learning",
-      "title": "Ep 87: Gemini Co-Lead on World Models, RL&apos;s Next Domains &amp; Continual Learning",
+      "title": "Ep 87: Gemini 联合负责人谈 World Models、RL 的下一个领域和 Continual Learning",
       "url": "https://www.youtube.com/watch?v=NQczevdpxq0",
-      "suggestedTitle": "Google bets the next leap is world models, memory, and self-directed agents",
-      "suggestedSummary": "**The Takeaway:** Google’s frontier bet is simple: make models that understand the world, remember over time, and build their own scaffolding.\n\n**Key Insights**\n- The real missing breakthrough isn’t “more AI,” it’s a GPT-like moment for video and images where multimodal data yields concepts without leaning so hard on text.\n- World models matter most when they stop being just generators and start acting like simulators that can predict, plan, and eventually help robotics and self-driving.\n- The next agentic leap may be less about hand-built workflows and more about models learning to write their own scaffolds, choose when to reason, and store memory outside the weights.\n\n**The Story**\nOriol Vinyals, co-lead of Gemini at Google, frames the frontier as a shift from clever demos to systems that actually accumulate understanding. His core argument is that language models already benefited from the internet’s giant text corpus, but vision and video still haven’t had their equivalent “aha” moment. Google’s Omni is his proof of progress: it can take in images and video, generate video, and edit it through language, but he says the field still hasn’t unlocked the deeper transfer from raw visual data into compact concepts.\n\nHe’s especially interested in world models as more than representation learning. In his words, the goal is to “simulate” the world well enough that models can predict before acting. That’s why robotics keeps coming up: not because today’s models can do precise motor control, but because they may soon help with planning, scenario generation, and gross-level decision-making.\n\nOn agents, Vinyals is blunt that the future probably won’t be a pile of brittle hand-coded scaffolds. Instead, “the model itself could write [the system] on the fly.” He sees memory the same way: working memory is already strong, but durable learning will likely live in file-system-style external storage, not constantly rewritten weights. That’s the practical path to continual learning—and maybe the next real paradigm shift.",
+      "suggestedTitle": "Google 押注下一次跃迁会来自 world models、memory 和自驱动 agent",
+      "suggestedSummary": "**核心结论：** Google 这次押注很直接：做出能理解世界、能长期记忆、还能自己搭脚手架的模型。\n\n**关键洞察**\n- 真正缺的不是“更多 AI”，而是像 GPT 之于文本那样，给 video 和 images 一个类似的突破点。Multimodal data 得能直接长出 concepts，别总靠 text 撑着。\n- World models 真正有价值的时候，不只是会生成。它们要能当 simulator，用来预测、规划，最后还能帮上 robotics 和 self-driving。\n- 下一波 agentic 跃迁，可能不是靠人手写一堆脆弱的 workflow，而是让模型自己学会写 scaffolds，知道什么时候该 reasoning，还能把 memory 存到 weights 外面。\n\n**故事**\nGoogle 的 Gemini 联合负责人 Oriol Vinyals，把前沿方向概括成一件事：从“会演示”走向“会积累理解”的系统。他的核心观点是，LLM 已经吃到了互联网海量 text 的红利，但 vision 和 video 还没等到自己的那个“aha moment”。Google 的 Omni 就是他拿来证明进展的例子：它能接收 images 和 video，也能生成 video，还能通过 language 去编辑视频。不过他也直说，这个领域还没真正把原始 visual data 转成更紧凑 concepts 的那层能力挖出来。\n\n他尤其看重 world models，但不是把它们只当 representation learning。按他的说法，目标是把世界“simulate”到足够好，这样模型就能先预测，再行动。这也是为什么 robotics 总被提起：不是因为今天的模型已经能做精细 motor control，而是因为它们很快可能先在 planning、scenario generation 和粗粒度决策上派上用场。\n\n聊到 agent，Vinyals 说得很直接：未来大概率不是一堆脆弱的手写 scaffolds。更可能是“model itself could write [the system] on the fly”。他对 memory 的看法也一样。working memory 已经不错了，但真正能沉淀下来的 learning，大概率会放在像 file system 一样的 external storage 里，而不是反复改写 weights。那才是 continual learning 更现实的路，也可能是下一次真正的 paradigm shift。",
       "publishedAt": "2026-05-22T12:50:04.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-31",
       "source": "Claude Blog",
-      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "title": "Claude Managed Agents 新增 dreaming、outcomes 和 multiagent orchestration",
       "url": "https://claude.com/blog/new-in-claude-managed-agents",
       "author": null,
-      "suggestedTitle": "Claude Managed Agents adds dreaming, outcomes, and orchestration",
-      "suggestedSummary": "Lead: Claude is launching dreaming in Managed Agents as a research preview, while also shipping outcomes, multiagent orchestration, and webhooks to help agents self-improve, verify their work, and split complex jobs across specialists.\n\nNumbers:\n- Outcomes improved task success by up to 10 points over a standard prompting loop.\n- File generation quality rose by +8.4% on docx and +10.1% on pptx in internal benchmarks.\n- Harvey reported ~6x higher completion rates in tests using dreaming.\n- Wisedocs says review workflows now run 50% faster.\n\nSo What: Dreaming adds a scheduled memory-refinement loop that reviews past sessions, extracts patterns, and can either auto-update memory or route changes for review. Outcomes gives builders a rubric-based grader in a separate context window, so agents can self-correct without being biased by their own reasoning. Multiagent orchestration lets a lead agent delegate work to parallel specialists with their own models, prompts, and tools, with persistent events and full traceability in the Claude Console. As the post puts it, “Together, these updates make agents more capable at handling complex tasks with minimal steering.” For teams building long-running, high-stakes workflows, the practical move is to use dreaming for cross-session learning, outcomes for quality control, and orchestration for parallel execution.",
+      "suggestedTitle": "Claude Managed Agents 加上了 dreaming、outcomes 和 orchestration",
+      "suggestedSummary": "导语：Claude 正在把 dreaming 作为 research preview 放进 Managed Agents，同时也发布了 outcomes、multiagent orchestration 和 webhooks，帮助 agents 自我改进、验证工作结果，并把复杂任务拆给不同 specialist 并行处理。\\n\\n数字：\\n- outcomes 相比标准 prompting loop，任务成功率最高提升 10 个百分点。\\n- 内部 benchmark 里，文件生成质量在 docx 上提升了 8.4%，在 pptx 上提升了 10.1%。\\n- Harvey 说，在使用 dreaming 的测试里，完成率大约高了 6 倍。\\n- Wisedocs 表示，review workflow 现在快了 50%。\\n\\n重点：dreaming 加了一个定时的 memory-refinement loop，会回看过去的 session，提炼模式，然后要么自动更新 memory，要么把变更交给人 review。outcomes 给 builder 提供了一个基于 rubric 的 grader，跑在独立 context window 里，这样 agents 可以自己纠错，又不会被自己的推理带偏。multiagent orchestration 让一个 lead agent 把工作分给多个并行 specialist，每个 specialist 都可以用自己的 model、prompt 和 tools，而且在 Claude Console 里还能保留事件记录，trace 也完整可追。正如原文所说，\"Together, these updates make agents more capable at handling complex tasks with minimal steering.\" 对于要做长周期、高风险 workflow 的团队，实际做法就是：用 dreaming 做跨 session 学习，用 outcomes 做质量控制，用 orchestration 做并行执行。",
       "publishedAt": "May 06, 2026",
       "category": "blogUpdates"
     }
@@ -185,6 +190,7 @@
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-31T14:31:16.831Z"
+    "generatedAt": "2026-05-31T14:31:28.028Z",
+    "estimatedReadTime": "4 分钟"
   }
 }

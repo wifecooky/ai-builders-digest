@@ -1,7 +1,8 @@
 {
   "date": "2026-05-31",
+  "lang": "en",
   "summary": "Rauch said best product wins and AI’s just the lever. Thibault Sottiaux called GPT-5.5 the best model yet, while Claude’s Managed Agents added dreaming, outcomes, and orchestration. Peter Steinberger noted agent prompts now ran for hours, not minutes.",
-  "items": [
+  "builderInsights": [
     {
       "id": "rauchg-2026-05-31",
       "source": "X",
@@ -157,7 +158,9 @@
       ],
       "publishedAt": "2026-05-30T23:11:25.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-05-31",
       "source": "Unsupervised Learning",
@@ -167,7 +170,9 @@
       "suggestedSummary": "**The Takeaway:** Google’s frontier bet is simple: make models that understand the world, remember over time, and build their own scaffolding.\n\n**Key Insights**\n- The real missing breakthrough isn’t “more AI,” it’s a GPT-like moment for video and images where multimodal data yields concepts without leaning so hard on text.\n- World models matter most when they stop being just generators and start acting like simulators that can predict, plan, and eventually help robotics and self-driving.\n- The next agentic leap may be less about hand-built workflows and more about models learning to write their own scaffolds, choose when to reason, and store memory outside the weights.\n\n**The Story**\nOriol Vinyals, co-lead of Gemini at Google, frames the frontier as a shift from clever demos to systems that actually accumulate understanding. His core argument is that language models already benefited from the internet’s giant text corpus, but vision and video still haven’t had their equivalent “aha” moment. Google’s Omni is his proof of progress: it can take in images and video, generate video, and edit it through language, but he says the field still hasn’t unlocked the deeper transfer from raw visual data into compact concepts.\n\nHe’s especially interested in world models as more than representation learning. In his words, the goal is to “simulate” the world well enough that models can predict before acting. That’s why robotics keeps coming up: not because today’s models can do precise motor control, but because they may soon help with planning, scenario generation, and gross-level decision-making.\n\nOn agents, Vinyals is blunt that the future probably won’t be a pile of brittle hand-coded scaffolds. Instead, “the model itself could write [the system] on the fly.” He sees memory the same way: working memory is already strong, but durable learning will likely live in file-system-style external storage, not constantly rewritten weights. That’s the practical path to continual learning—and maybe the next real paradigm shift.",
       "publishedAt": "2026-05-22T12:50:04.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-05-31",
       "source": "Claude Blog",
@@ -185,6 +190,7 @@
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-05-31T14:31:16.831Z"
+    "generatedAt": "2026-05-31T14:31:17.039Z",
+    "estimatedReadTime": "4 min"
   }
 }
