@@ -73,8 +73,8 @@ ${outputSpec}`;
     if (translated.suggestedSummary) result.suggestedSummary = translated.suggestedSummary;
     return result;
   } catch (error) {
-    console.error(`Translation failed for ${article.id} to ${targetLang}: ${error.message}`);
-    return null;
+    console.error(`Translation failed for ${article.id} to ${targetLang}: ${error.message} — keeping English`);
+    return { ...article };
   }
 }
 

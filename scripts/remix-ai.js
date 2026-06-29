@@ -46,6 +46,27 @@ async function callAI(systemPrompt, userContent) {
   return JSON.parse(response.choices[0].message.content);
 }
 
+function builderFallback(builder, date) {
+  return {
+    id: generateId(builder.handle, date),
+    source: 'X',
+    authorName: builder.name,
+    authorHandle: builder.handle,
+    authorBio: builder.bio,
+    title: builder.name,
+    suggestedTitle: '',
+    suggestedSummary: '',
+    tweets: builder.tweets.map(t => ({
+      url: t.url,
+      text: t.text,
+      likes: t.likes,
+      retweets: t.retweets,
+    })),
+    publishedAt: builder.tweets[0].createdAt,
+    category: 'builderInsights',
+  };
+}
+
 async function remixBuilder(builder, date) {
   if (!builder.tweets?.length) return null;
 
@@ -68,27 +89,27 @@ async function remixBuilder(builder, date) {
     }
 
     return {
-      id: generateId(builder.handle, date),
-      source: 'X',
-      authorName: builder.name,
-      authorHandle: builder.handle,
-      authorBio: builder.bio,
-      title: builder.name,
+      ...builderFallback(builder, date),
       suggestedTitle: result.headline,
       suggestedSummary: result.body,
-      tweets: builder.tweets.map(t => ({
-        url: t.url,
-        text: t.text,
-        likes: t.likes,
-        retweets: t.retweets,
-      })),
-      publishedAt: builder.tweets[0].createdAt,
-      category: 'builderInsights',
     };
   } catch (err) {
-    console.error(`  Failed to remix ${builder.name}: ${err.message}`);
-    return null;
+    console.error(`  Failed to remix ${builder.name}: ${err.message} — keeping raw tweets`);
+    return builderFallback(builder, date);
   }
+}
+
+function podcastFallback(episode, date) {
+  return {
+    id: generateId(episode.url || episode.videoId, date),
+    source: episode.name,
+    title: episode.title,
+    url: episode.url,
+    suggestedTitle: '',
+    suggestedSummary: '',
+    publishedAt: episode.publishedAt,
+    category: 'podcastHighlights',
+  };
 }
 
 async function remixPodcast(episode, date) {
@@ -100,19 +121,28 @@ async function remixPodcast(episode, date) {
     });
 
     return {
-      id: generateId(episode.url || episode.videoId, date),
-      source: episode.name,
-      title: episode.title,
-      url: episode.url,
+      ...podcastFallback(episode, date),
       suggestedTitle: result.headline,
       suggestedSummary: result.body,
-      publishedAt: episode.publishedAt,
-      category: 'podcastHighlights',
     };
   } catch (err) {
-    console.error(`  Failed to remix podcast ${episode.title}: ${err.message}`);
-    return null;
+    console.error(`  Failed to remix podcast ${episode.title}: ${err.message} — keeping title/url`);
+    return podcastFallback(episode, date);
   }
+}
+
+function blogFallback(post, date) {
+  return {
+    id: generateId(post.url, date),
+    source: post.name,
+    title: post.title,
+    url: post.url,
+    author: post.author || null,
+    suggestedTitle: '',
+    suggestedSummary: '',
+    publishedAt: post.publishedAt,
+    category: 'blogUpdates',
+  };
 }
 
 async function remixBlog(post, date) {
@@ -125,19 +155,13 @@ async function remixBlog(post, date) {
     });
 
     return {
-      id: generateId(post.url, date),
-      source: post.name,
-      title: post.title,
-      url: post.url,
-      author: post.author || null,
+      ...blogFallback(post, date),
       suggestedTitle: result.headline,
       suggestedSummary: result.body,
-      publishedAt: post.publishedAt,
-      category: 'blogUpdates',
     };
   } catch (err) {
-    console.error(`  Failed to remix blog ${post.title}: ${err.message}`);
-    return null;
+    console.error(`  Failed to remix blog ${post.title}: ${err.message} — keeping title/url`);
+    return blogFallback(post, date);
   }
 }
 
