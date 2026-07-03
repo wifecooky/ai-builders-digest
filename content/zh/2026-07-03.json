@@ -1,7 +1,8 @@
 {
   "date": "2026-07-03",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-07-03",
       "source": "X",
@@ -391,7 +392,9 @@
       ],
       "publishedAt": "2026-07-03T07:21:59.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-03",
       "source": "No Priors",
@@ -403,11 +406,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 18,
     "totalTweets": 36,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-07-03T15:47:37.518Z"
+    "generatedAt": "2026-07-03T15:47:46.877Z",
+    "estimatedReadTime": "8 分钟"
   }
 }
