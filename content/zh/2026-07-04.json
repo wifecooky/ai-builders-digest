@@ -1,7 +1,8 @@
 {
   "date": "2026-07-04",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-07-04",
       "source": "X",
@@ -433,7 +434,9 @@
       ],
       "publishedAt": "2026-07-04T06:01:11.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-04",
       "source": "The MAD Podcast with Matt Turck",
@@ -445,11 +448,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 16,
     "totalTweets": 38,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-07-04T14:57:45.374Z"
+    "generatedAt": "2026-07-04T14:57:54.633Z",
+    "estimatedReadTime": "8 分钟"
   }
 }
