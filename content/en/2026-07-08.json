@@ -1,7 +1,8 @@
 {
   "date": "2026-07-08",
+  "lang": "en",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-07-08",
       "source": "X",
@@ -385,7 +386,9 @@
       ],
       "publishedAt": "2026-07-08T06:59:36.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-08",
       "source": "Training Data",
@@ -395,7 +398,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-07T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-07-08",
       "source": "Anthropic Engineering",
@@ -413,6 +418,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-07-08T15:56:52.595Z"
+    "generatedAt": "2026-07-08T15:56:52.806Z",
+    "estimatedReadTime": "9 min"
   }
 }
