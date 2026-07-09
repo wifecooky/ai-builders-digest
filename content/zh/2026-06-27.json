@@ -2,15 +2,442 @@
   "date": "2026-06-27",
   "lang": "zh",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
+  "builderInsights": [
+    {
+      "id": "mattturck-2026-06-27",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "World Cup scoring strategies:\n\nArgentina: pass the ball to Messi\n\nPortugal: pass the ball to Ronaldo\n\nEngland: pass the ball to Kane \n\nSpain: pass the ball to Lamal\n\nFrance: pass the ball to Mbappé or Dembélé or Olise or Doué or Barcola or Cherki or Thuram or\n\nFor once, this tweet aged well 😯\n\nIf Dembélé is now fully confident, on top of everything else the team has going on, good luck to all the other nations",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2070597806025314608",
+          "text": "World Cup scoring strategies:\n\nArgentina: pass the ball to Messi\n\nPortugal: pass the ball to Ronaldo\n\nEngland: pass the ball to Kane \n\nSpain: pass the ball to Lamal\n\nFrance: pass the ball to Mbappé or Dembélé or Olise or Doué or Barcola or Cherki or Thuram or",
+          "likes": 22903,
+          "retweets": 1706
+        },
+        {
+          "url": "https://x.com/mattturck/status/2070591757151080593",
+          "text": "For once, this tweet aged well 😯",
+          "likes": 4,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/mattturck/status/2070586263292223987",
+          "text": "If Dembélé is now fully confident, on top of everything else the team has going on, good luck to all the other nations",
+          "likes": 52,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-26T19:59:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-06-27",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "We are giving all Codex users a usage reset on the house. Should be showing in your accounts in the next few hours.\n\nWe have applied some mitigations, but our investigation hasn't shown users being impacted at large. We are continuing to monitor the situation. https://t.co/rLJrQdI1ks\n\nhttps://t.co/YtAD0ATH4r\n\nhttps://t.co/UCQ12NEtF3",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2070653282440405046",
+          "text": "We are giving all Codex users a usage reset on the house. Should be showing in your accounts in the next few hours.\n\nWe have applied some mitigations, but our investigation hasn't shown users being impacted at large. We are continuing to monitor the situation. https://t.co/rLJrQdI1ks",
+          "likes": 4072,
+          "retweets": 208
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2070557504673861667",
+          "text": "https://t.co/YtAD0ATH4r",
+          "likes": 255,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2070557098342232321",
+          "text": "https://t.co/UCQ12NEtF3",
+          "likes": 394,
+          "retweets": 10
+        }
+      ],
+      "publishedAt": "2026-06-26T23:39:48.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-06-27",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "",
+      "suggestedSummary": "I love how Apple notarization breaks multiple times a year until I manually log in and accept some new legal agreements.",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2070626638887555227",
+          "text": "I love how Apple notarization breaks multiple times a year until I manually log in and accept some new legal agreements.",
+          "likes": 947,
+          "retweets": 8
+        }
+      ],
+      "publishedAt": "2026-06-26T21:53:55.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "sama-2026-06-27",
+      "source": "X",
+      "authorName": "Sam Altman",
+      "authorHandle": "sama",
+      "authorBio": "AI is cool i guess",
+      "title": "Sam Altman",
+      "suggestedTitle": "",
+      "suggestedSummary": "not quite all-you-can-eat tokens, but we are working on it\n\nteam cooked, spicily https://t.co/yLb6nqrus6\n\nin other news, we updated the 5.5 instant model used in chatgpt this week.\n\ni like its vibes.",
+      "tweets": [
+        {
+          "url": "https://x.com/sama/status/2070614769678393846",
+          "text": "not quite all-you-can-eat tokens, but we are working on it",
+          "likes": 753,
+          "retweets": 23
+        },
+        {
+          "url": "https://x.com/sama/status/2070614666288795703",
+          "text": "team cooked, spicily https://t.co/yLb6nqrus6",
+          "likes": 2753,
+          "retweets": 76
+        },
+        {
+          "url": "https://x.com/sama/status/2070612055225483692",
+          "text": "in other news, we updated the 5.5 instant model used in chatgpt this week.\n\ni like its vibes.",
+          "likes": 4164,
+          "retweets": 79
+        }
+      ],
+      "publishedAt": "2026-06-26T21:06:45.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-27",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is honestly no way to release a model and continued development and release this way is a solid way to salt the ground and kill all innovation by small startups https://t.co/tUjxFSunVI\n\nDon’t be a mid startup\n\nIt’s true https://t.co/SPC4y73HJQ",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2070699046939820223",
+          "text": "This is honestly no way to release a model and continued development and release this way is a solid way to salt the ground and kill all innovation by small startups https://t.co/tUjxFSunVI",
+          "likes": 586,
+          "retweets": 56
+        },
+        {
+          "url": "https://x.com/garrytan/status/2070494207102595495",
+          "text": "Don’t be a mid startup\n\nIt’s true https://t.co/SPC4y73HJQ",
+          "likes": 1378,
+          "retweets": 75
+        }
+      ],
+      "publishedAt": "2026-06-27T02:41:39.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-27",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "So let me get this straight:\n\n1. We publish frontier models\n2. They get distilled into cheap open source models\n3. US companies adopt the same open source models because they're good enough and much cheaper\n4. We start gating access to frontier models\n\nWhat next? US companies innovate less? Open source models become more attractive?\n\nFrom what I'm seeing, alot of the money has moved to services (with some software bundled), not software.\n\nPeople want outcomes, not tools. \n\nIt's feels really hard to build a pure-play software company that's more valuable to people or companies than just using Codex/Claude Code with a bunch of personal skills and agents.\n\nThoughts?\n\nSmall things I wish Claude Code had:\n\n1. Bring back ability to steer conversations while Claude is working\n\n2. Make mobile remote control for all threads on by default\n\n3. The shortcut keys seem only accessible if you have the sub-menu open? Consider supporting \"cmd + key\" so we can hotkey to different threads with the keyboard. If I hold down cmd I should see all the shortcuts in the UI.\n\n4. Let me drag and drop to re-arrange my projects on left nav",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2070633838146134219",
+          "text": "So let me get this straight:\n\n1. We publish frontier models\n2. They get distilled into cheap open source models\n3. US companies adopt the same open source models because they're good enough and much cheaper\n4. We start gating access to frontier models\n\nWhat next? US companies innovate less? Open source models become more attractive?",
+          "likes": 597,
+          "retweets": 19
+        },
+        {
+          "url": "https://x.com/petergyang/status/2070568705365577990",
+          "text": "From what I'm seeing, alot of the money has moved to services (with some software bundled), not software.\n\nPeople want outcomes, not tools. \n\nIt's feels really hard to build a pure-play software company that's more valuable to people or companies than just using Codex/Claude Code with a bunch of personal skills and agents.\n\nThoughts?",
+          "likes": 115,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/petergyang/status/2070545325497221248",
+          "text": "Small things I wish Claude Code had:\n\n1. Bring back ability to steer conversations while Claude is working\n\n2. Make mobile remote control for all threads on by default\n\n3. The shortcut keys seem only accessible if you have the sub-menu open? Consider supporting \"cmd + key\" so we can hotkey to different threads with the keyboard. If I hold down cmd I should see all the shortcuts in the UI.\n\n4. Let me drag and drop to re-arrange my projects on left nav",
+          "likes": 92,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-06-26T22:22:32.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "catwu-2026-06-27",
+      "source": "X",
+      "authorName": "Cat Wu",
+      "authorHandle": "_catwu",
+      "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "Cat Wu",
+      "suggestedTitle": "",
+      "suggestedSummary": "split screen is one of my fave claude code on desktop features! https://t.co/4ZQZjBnmvL",
+      "tweets": [
+        {
+          "url": "https://x.com/_catwu/status/2070613405237432766",
+          "text": "split screen is one of my fave claude code on desktop features! https://t.co/4ZQZjBnmvL",
+          "likes": 268,
+          "retweets": 10
+        }
+      ],
+      "publishedAt": "2026-06-26T21:01:20.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-27",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "Agents are particularly hard-to-debug software. \n\nFor one, and by design, AI models behave in non-deterministic ways. Even two identical prompts don't always yield the same output.\n\nBut agents are also complex distributed systems. They involve multiple steps of computation across functions and sandboxes, touching dozens of API services that can go down, rate limit you, etc.\n\nNailing down observability out of the box for https://t.co/nDDXqUmOlD on Vercel was a key priority for the team, and the feedback so far has been 🔥↓\n\nI made a @hyperframes_ video of how I found out this morning https://t.co/yyMlGJgIfS\n\nThe UI for AI is here. It's @shadcn https://t.co/bzgEEKO9Az",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2070676383135834334",
+          "text": "Agents are particularly hard-to-debug software. \n\nFor one, and by design, AI models behave in non-deterministic ways. Even two identical prompts don't always yield the same output.\n\nBut agents are also complex distributed systems. They involve multiple steps of computation across functions and sandboxes, touching dozens of API services that can go down, rate limit you, etc.\n\nNailing down observability out of the box for https://t.co/nDDXqUmOlD on Vercel was a key priority for the team, and the feedback so far has been 🔥↓",
+          "likes": 270,
+          "retweets": 8
+        },
+        {
+          "url": "https://x.com/rauchg/status/2070627995803668518",
+          "text": "I made a @hyperframes_ video of how I found out this morning https://t.co/yyMlGJgIfS",
+          "likes": 68,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/rauchg/status/2070567538040422712",
+          "text": "The UI for AI is here. It's @shadcn https://t.co/bzgEEKO9Az",
+          "likes": 1738,
+          "retweets": 38
+        }
+      ],
+      "publishedAt": "2026-06-27T01:11:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-27",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Step one complete https://t.co/DWDBwkahrH\n\nGPT-5.6 is real and looks very strong. Going to be very strong for knowledge worker tasks that require heavy tool use and long running agents doing work. We're not hitting any walls in AI progress right now. https://t.co/5Apn3VzmkY https://t.co/LGpfF8ANcT",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2070682290464919874",
+          "text": "Step one complete https://t.co/DWDBwkahrH",
+          "likes": 140,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/levie/status/2070563281916620895",
+          "text": "GPT-5.6 is real and looks very strong. Going to be very strong for knowledge worker tasks that require heavy tool use and long running agents doing work. We're not hitting any walls in AI progress right now. https://t.co/5Apn3VzmkY https://t.co/LGpfF8ANcT",
+          "likes": 239,
+          "retweets": 18
+        }
+      ],
+      "publishedAt": "2026-06-27T01:35:04.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-06-27",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/lvBzTBeMhO\n\n\"You do not need God to write your emails\" https://t.co/wisy8LNck0\n\nBtw I used Borumi to create this video, and it's genuinely the most underrated video recording/editing tool out there\n\nIt's like Screen Studio + Descript + CapCut all in one\n\nIt's so underrated; they don't even have an X account I can tag https://t.co/dqohk7MJwT",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2070735964788658598",
+          "text": "https://t.co/lvBzTBeMhO",
+          "likes": 88,
+          "retweets": 7
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2070589563429691698",
+          "text": "\"You do not need God to write your emails\" https://t.co/wisy8LNck0",
+          "likes": 93,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2070584764315402405",
+          "text": "Btw I used Borumi to create this video, and it's genuinely the most underrated video recording/editing tool out there\n\nIt's like Screen Studio + Descript + CapCut all in one\n\nIt's so underrated; they don't even have an X account I can tag https://t.co/dqohk7MJwT",
+          "likes": 212,
+          "retweets": 11
+        }
+      ],
+      "publishedAt": "2026-06-27T05:08:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-06-27",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "",
+      "suggestedSummary": "An interesting side effect of AI is that I have zero tolerance for shallow interactions with humans.\n\nI really deep connection and depth in my relationships. More ways to do that are so valuable.\n\nAnd for everything else: give me agents.\n\nI suspect our world will become both smaller and more rich in it's relationship depth.",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2070621064271688021",
+          "text": "An interesting side effect of AI is that I have zero tolerance for shallow interactions with humans.\n\nI really deep connection and depth in my relationships. More ways to do that are so valuable.\n\nAnd for everything else: give me agents.\n\nI suspect our world will become both smaller and more rich in it's relationship depth.",
+          "likes": 67,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-06-26T21:31:46.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-27",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "minor milestone in the growth of swyx inc:\n\nwe took over my new media lab today\n\nit will be the new home for engineer-creatives in san francisco; a third place to make; a finishing school for technical storytellers; a place to inspire the inspirational.\n\nto our complete surprise; it came with a datacenter rack randomly set up and wired up! need advice on what to put in this thing. @alexocheema halp\n\nwe have been scaling without slop by working with aligned domain experts to add coverage \n\nwith both oai and ant launching multi-billion dollar services arms, it’s clear that FDE is one of the most in demand disciplines on earth, but I have never done the job\n\nit’s been an absolute pleasure working with Basil on our first ever AI FDE miniconference!\n\nsee at https://t.co/STlx7OsWbr  next week",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2070748857441362056",
+          "text": "minor milestone in the growth of swyx inc:\n\nwe took over my new media lab today\n\nit will be the new home for engineer-creatives in san francisco; a third place to make; a finishing school for technical storytellers; a place to inspire the inspirational.\n\nto our complete surprise; it came with a datacenter rack randomly set up and wired up! need advice on what to put in this thing. @alexocheema halp",
+          "likes": 72,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/swyx/status/2070606851377672675",
+          "text": "we have been scaling without slop by working with aligned domain experts to add coverage \n\nwith both oai and ant launching multi-billion dollar services arms, it’s clear that FDE is one of the most in demand disciplines on earth, but I have never done the job\n\nit’s been an absolute pleasure working with Basil on our first ever AI FDE miniconference!\n\nsee at https://t.co/STlx7OsWbr  next week",
+          "likes": 46,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-27T05:59:34.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-06-27",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "Now that the dust is settled, what’s really funny to me about the taste commentary is it’s coming from a LOT of people who never have built anything..\n\nYou can’t achieve (or refine) taste without being in the arena. \n\nIt’s like a chef cooking and expecting their first dish to be good on the first go. \n\nBut, when you give it a 100 iterations and maybe cook a 100 dishes, then the 101st one has imbued all the lessons from those 10,000 iterations. \n\nBut, if you over fit without much variation, then people get tired of it since well they want something new as well. \n\nThe best people are able to learn, imbue and innovate by breaking patterns consistently. \n\nIt’ll be interesting to see how AI does the same - and unlike most people I think it has a fair shot at actually building taste. \n\nEnd rant.\n\nWritten for the seed founder who’s building something really important in a not-so-hot category..\n\nI see you 🙏 https://t.co/Tx14uW5JeR",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2070649602953576825",
+          "text": "Now that the dust is settled, what’s really funny to me about the taste commentary is it’s coming from a LOT of people who never have built anything..\n\nYou can’t achieve (or refine) taste without being in the arena. \n\nIt’s like a chef cooking and expecting their first dish to be good on the first go. \n\nBut, when you give it a 100 iterations and maybe cook a 100 dishes, then the 101st one has imbued all the lessons from those 10,000 iterations. \n\nBut, if you over fit without much variation, then people get tired of it since well they want something new as well. \n\nThe best people are able to learn, imbue and innovate by breaking patterns consistently. \n\nIt’ll be interesting to see how AI does the same - and unlike most people I think it has a fair shot at actually building taste. \n\nEnd rant.",
+          "likes": 40,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/nikunj/status/2070532689392980369",
+          "text": "Written for the seed founder who’s building something really important in a not-so-hot category..\n\nI see you 🙏 https://t.co/Tx14uW5JeR",
+          "likes": 137,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-06-26T23:25:10.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-06-27",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "full blog post here: https://t.co/B0PvzibY63\n\nBREAKING: OpenAI announced GPT-5.6 Sol!\n\nAs of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and @every is not on the list. This appears to be a temporary situation while the government races to figure out a long-term policy for releasing frontier models with advanced capabilities.\n\nI understand and applaud the need for some government oversight in making American infrastructure resilient to cyberattacks and other potential new threats from the misuse of these models. However, I also strongly believe that widespread democratic access to frontier models is absolutely necessary to our country’s leading position in the AI race. It’s also critical for allowing American workers to keep pace with the new skills they need to be productive in this era.\n\nA world where advanced models are locked up only for use by the employees of AI giants and a select few companies is one where ambitious students, independent builders, and working professionals are denied the tools they need to learn, create, and compete to their fullest potential.\n\nAlso, speaking for @every and the community of developers and writers who share early access with us: Our job is to test these tools early so that we can prepare Americans for how to use them to their fullest extent. If we lose access, we lose the ability to do that important job well.\n\nThankfully, both OpenAI and the government seem to be working to make broad access available soon.\n\nWe’ll be ready to vibe check when that happens :)",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2070554247301591163",
+          "text": "full blog post here: https://t.co/B0PvzibY63",
+          "likes": 9,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/danshipper/status/2070554118146412979",
+          "text": "BREAKING: OpenAI announced GPT-5.6 Sol!\n\nAs of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and @every is not on the list. This appears to be a temporary situation while the government races to figure out a long-term policy for releasing frontier models with advanced capabilities.\n\nI understand and applaud the need for some government oversight in making American infrastructure resilient to cyberattacks and other potential new threats from the misuse of these models. However, I also strongly believe that widespread democratic access to frontier models is absolutely necessary to our country’s leading position in the AI race. It’s also critical for allowing American workers to keep pace with the new skills they need to be productive in this era.\n\nA world where advanced models are locked up only for use by the employees of AI giants and a select few companies is one where ambitious students, independent builders, and working professionals are denied the tools they need to learn, create, and compete to their fullest potential.\n\nAlso, speaking for @every and the community of developers and writers who share early access with us: Our job is to test these tools early so that we can prepare Americans for how to use them to their fullest extent. If we lose access, we lose the ability to do that important job well.\n\nThankfully, both OpenAI and the government seem to be working to make broad access available soon.\n\nWe’ll be ready to vibe check when that happens :)",
+          "likes": 231,
+          "retweets": 13
+        }
+      ],
+      "publishedAt": "2026-06-26T17:06:16.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-06-27",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "Patient zero https://t.co/zpAhbXtrWz\n\nSocks don’t have to match. It’s cuter that way anyway https://t.co/4ISWH7alpj\n\nSecret level 6: there’s a problem, but it’s not worth solving, so leave it alone. \n\nThis is why org with a ton of level 1s can win. They don’t get distracted by side quests https://t.co/fRGy1NC9oT",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2070658852421345517",
+          "text": "Patient zero https://t.co/zpAhbXtrWz",
+          "likes": 1,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2070656642597658709",
+          "text": "Socks don’t have to match. It’s cuter that way anyway https://t.co/4ISWH7alpj",
+          "likes": 1,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2070656348488937889",
+          "text": "Secret level 6: there’s a problem, but it’s not worth solving, so leave it alone. \n\nThis is why org with a ton of level 1s can win. They don’t get distracted by side quests https://t.co/fRGy1NC9oT",
+          "likes": 129,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-06-27T00:01:56.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-27",
+      "source": "No Priors",
+      "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+      "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-26T10:13:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
   "blogUpdates": [],
   "metadata": {
     "totalBuilders": 15,
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-06-27T14:30:15.644Z",
-    "estimatedReadTime": "3 分钟"
+    "generatedAt": "2026-07-09T18:00:47.945Z",
+    "backfilled": true,
+    "estimatedReadTime": "8 分钟"
   }
 }

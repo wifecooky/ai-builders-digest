@@ -2,15 +2,372 @@
   "date": "2026-06-12",
   "lang": "zh",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
-  "blogUpdates": [],
+  "builderInsights": [
+    {
+      "id": "sama-2026-06-12",
+      "source": "X",
+      "authorName": "Sam Altman",
+      "authorHandle": "sama",
+      "authorBio": "AI is cool i guess",
+      "title": "Sam Altman",
+      "suggestedTitle": "",
+      "suggestedSummary": "really looking forward to working together! https://t.co/p4gB58deNL",
+      "tweets": [
+        {
+          "url": "https://x.com/sama/status/2065160791205310565",
+          "text": "really looking forward to working together! https://t.co/p4gB58deNL",
+          "likes": 2166,
+          "retweets": 87
+        }
+      ],
+      "publishedAt": "2026-06-11T19:54:36.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-06-12",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "Codex 🤟Ona\n\nBeyond excited to work with Johannes and team to build the future. https://t.co/XekiPZIBAs",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2065193272952422852",
+          "text": "Codex 🤟Ona\n\nBeyond excited to work with Johannes and team to build the future. https://t.co/XekiPZIBAs",
+          "likes": 990,
+          "retweets": 26
+        }
+      ],
+      "publishedAt": "2026-06-11T22:03:40.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-06-12",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "",
+      "suggestedSummary": "Getting Chris to do a PR with Codex! https://t.co/yX5iyYfNsw\n\nwriting mac apps is still hard. https://t.co/Nl5i9qN7BP\n\nPart of the OpenClaw hardening work is reducing surface risk; for some media conversion we had to shell out to ffmpeg.\n\nIn the next release that can now be done via wasm, with similar performance for our use cases.\nhttps://t.co/tGOI87C7lc",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2065176989359808636",
+          "text": "Getting Chris to do a PR with Codex! https://t.co/yX5iyYfNsw",
+          "likes": 802,
+          "retweets": 21
+        },
+        {
+          "url": "https://x.com/steipete/status/2065132980398444945",
+          "text": "writing mac apps is still hard. https://t.co/Nl5i9qN7BP",
+          "likes": 168,
+          "retweets": 6
+        },
+        {
+          "url": "https://x.com/steipete/status/2064999763397980286",
+          "text": "Part of the OpenClaw hardening work is reducing surface risk; for some media conversion we had to shell out to ffmpeg.\n\nIn the next release that can now be done via wasm, with similar performance for our use cases.\nhttps://t.co/tGOI87C7lc",
+          "likes": 461,
+          "retweets": 25
+        }
+      ],
+      "publishedAt": "2026-06-11T20:58:58.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-06-12",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "had an idea for a big fable project, set it up, and let it cook\n\ncame back an hour later and it had triggered the safeguards and fell back to 4.8 10 minutes in\n\nback to codex 😬",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2065269582961737957",
+          "text": "had an idea for a big fable project, set it up, and let it cook\n\ncame back an hour later and it had triggered the safeguards and fell back to 4.8 10 minutes in\n\nback to codex 😬",
+          "likes": 420,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-06-12T03:06:54.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-12",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "At Box, we just surveyed 1,640 IT leaders across the US, Japan, and Europe about agentic AI adoption. Many standout findings, but a big one was that the companies that adopted AI the most are planning to grow headcount the most.\n\nObviously lots of ways you can read that data and variables mixed in, but it’s actually quite intuitive that the companies that become most productive want to (and are able to) reinvest back into the business to keep getting the gains going. \n\nThe narrative of jobs being wiped out assumes that companies will take a fixed approach to what they want to be able for work on. What’s happening in practice is it’s causing companies to want to light up more engineering projects, sell to more customers, automate more processes to give time back, and more. That all leads to more work to be done by people.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2065287110744297809",
+          "text": "At Box, we just surveyed 1,640 IT leaders across the US, Japan, and Europe about agentic AI adoption. Many standout findings, but a big one was that the companies that adopted AI the most are planning to grow headcount the most.\n\nObviously lots of ways you can read that data and variables mixed in, but it’s actually quite intuitive that the companies that become most productive want to (and are able to) reinvest back into the business to keep getting the gains going. \n\nThe narrative of jobs being wiped out assumes that companies will take a fixed approach to what they want to be able for work on. What’s happening in practice is it’s causing companies to want to light up more engineering projects, sell to more customers, automate more processes to give time back, and more. That all leads to more work to be done by people.",
+          "likes": 124,
+          "retweets": 24
+        }
+      ],
+      "publishedAt": "2026-06-12T04:16:33.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-12",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "Vercel + Grok https://t.co/Bokuav4YOs\n\nVercel + Shopify is too good…\nhttps://t.co/DHNo9pIOaK by @foda: \n◾ 500+ orders processed in *2 minutes*\n◾ Built with @v0 + @cursor_ai \n◾ Fully custom @nextjs storefront on headless\n\nSo long on the web. \nAnyone can now dream → build →  ship → sell https://t.co/lX8TNLYoKS",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2065118448947216681",
+          "text": "Vercel + Grok https://t.co/Bokuav4YOs",
+          "likes": 142,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/rauchg/status/2065116986678624419",
+          "text": "Vercel + Shopify is too good…\nhttps://t.co/DHNo9pIOaK by @foda: \n◾ 500+ orders processed in *2 minutes*\n◾ Built with @v0 + @cursor_ai \n◾ Fully custom @nextjs storefront on headless\n\nSo long on the web. \nAnyone can now dream → build →  ship → sell https://t.co/lX8TNLYoKS",
+          "likes": 588,
+          "retweets": 25
+        }
+      ],
+      "publishedAt": "2026-06-11T17:06:20.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-06-12",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "What you work on has never been more important. \n\nMake sure it’s fun. Make sure it’s insanely ambitious. \n\nThat’s the greatest moat.",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2065075361969500162",
+          "text": "What you work on has never been more important. \n\nMake sure it’s fun. Make sure it’s insanely ambitious. \n\nThat’s the greatest moat.",
+          "likes": 103,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-06-11T14:15:08.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-06-12",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "Replit Agent team did a great job making Fable cost stomachable. The lack of mistakes net net makes it more affordable. https://t.co/ICkFYKxqYt\n\nThis is what building a company looks like on Replit. \n\nOne canvas with your web app, mobile app, marketing &amp; App Store material.\n\nClick into any one of those and start building, changing, and generating new things. https://t.co/gX7qCakTOe\n\nFor the first time, I'm vibecoding with ZERO frustration and in a complete state of flow, so much so that I'm running out of ideas.\n\nTypically, I have so much backlog of things I want to add, but after Fable landed on Replit, I'm almost certain I don't need more IQ for vibecoding, just cheaper and faster models, and we're done here.",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2065259509082411233",
+          "text": "Replit Agent team did a great job making Fable cost stomachable. The lack of mistakes net net makes it more affordable. https://t.co/ICkFYKxqYt",
+          "likes": 67,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/amasad/status/2065241626436583860",
+          "text": "This is what building a company looks like on Replit. \n\nOne canvas with your web app, mobile app, marketing &amp; App Store material.\n\nClick into any one of those and start building, changing, and generating new things. https://t.co/gX7qCakTOe",
+          "likes": 250,
+          "retweets": 14
+        },
+        {
+          "url": "https://x.com/amasad/status/2065236013627351551",
+          "text": "For the first time, I'm vibecoding with ZERO frustration and in a complete state of flow, so much so that I'm running out of ideas.\n\nTypically, I have so much backlog of things I want to add, but after Fable landed on Replit, I'm almost certain I don't need more IQ for vibecoding, just cheaper and faster models, and we're done here.",
+          "likes": 1165,
+          "retweets": 37
+        }
+      ],
+      "publishedAt": "2026-06-12T02:26:52.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-06-12",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is tomorrow!\nSneak peek of the deck I'll be sharing: https://t.co/qJhLRXgtTy https://t.co/mjYTPb7EHe",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2065140462709506108",
+          "text": "This is tomorrow!\nSneak peek of the deck I'll be sharing: https://t.co/qJhLRXgtTy https://t.co/mjYTPb7EHe",
+          "likes": 47,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-06-11T18:33:49.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-12",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "## On Loopcraft\n\nOne might argue the entire game of the next century is to be able to stack loops as effectively as possible. \n\nIn the early days of each phase, it will be valuable to know when to go **DOWN** a loop when things go wrong (for reliability)… \n\nbut it will probably be more valuable to know how to go **UP** a loop as models improve (for leverage).\n\nIf you don’t figure out how to do this, don’t be salty when you lose to those that do.\n\nthe #1 thing that is driving me to build my own vibecoding platform rn is that none of them - and i lov vercel, cloudflare, netlify etc - none of them really close the loop for you in terms of setting you on the right path with errors and pinging you when shit fails (shit always fails)  \n\nthere's way too much \"webmaster\" infra to setup for every single project and i just want to do it once and for all, instead i'm being asked to npx posthog wizard here and npx arize skills there and it all just needs to be swallowed up into One Thing.\n\ncongrats to our friends @ona_hq on joining @openai! \n\nsee their talk here for alpha on what’s next for Codex 👀 https://t.co/u4EkcJvlAf",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2065307558198567206",
+          "text": "## On Loopcraft\n\nOne might argue the entire game of the next century is to be able to stack loops as effectively as possible. \n\nIn the early days of each phase, it will be valuable to know when to go **DOWN** a loop when things go wrong (for reliability)… \n\nbut it will probably be more valuable to know how to go **UP** a loop as models improve (for leverage).\n\nIf you don’t figure out how to do this, don’t be salty when you lose to those that do.",
+          "likes": 29,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/swyx/status/2065264832056889711",
+          "text": "the #1 thing that is driving me to build my own vibecoding platform rn is that none of them - and i lov vercel, cloudflare, netlify etc - none of them really close the loop for you in terms of setting you on the right path with errors and pinging you when shit fails (shit always fails)  \n\nthere's way too much \"webmaster\" infra to setup for every single project and i just want to do it once and for all, instead i'm being asked to npx posthog wizard here and npx arize skills there and it all just needs to be swallowed up into One Thing.",
+          "likes": 69,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/swyx/status/2065176231453282777",
+          "text": "congrats to our friends @ona_hq on joining @openai! \n\nsee their talk here for alpha on what’s next for Codex 👀 https://t.co/u4EkcJvlAf",
+          "likes": 27,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-12T05:37:48.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-12",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "The centerpiece stat is a self-own: she cites a 35-year study where 12.3% of 677 gifted kids reached \"eminence\" (full professor, Fortune 500 exec, federal judge) as proof the category is a lie. \n\nThe general-population base rate for outcomes that rarefied is far worse, much closer to zero than double digit percentage. 12.3% is the selection mechanism working spectacularly.\n\nThe community note clearly specifies the writer Katie Arnold-Ratliff is the one whose understanding of gifted is inherently flawed\n\nStop making it cool for writers to in-group signal with lies https://t.co/QSxcjimgYa\n\nGavin Newsom came for a @garryslist event at YC and we were proud to talk little tech, YIMBY, how to stop the the asset seizure tax, and how to keep California's innovation wave going while making sure things work for every Californian. \n\nThank you @GavinNewsom https://t.co/0e2nhtsIlB",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2065314389196959813",
+          "text": "The centerpiece stat is a self-own: she cites a 35-year study where 12.3% of 677 gifted kids reached \"eminence\" (full professor, Fortune 500 exec, federal judge) as proof the category is a lie. \n\nThe general-population base rate for outcomes that rarefied is far worse, much closer to zero than double digit percentage. 12.3% is the selection mechanism working spectacularly.",
+          "likes": 26,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/garrytan/status/2065313198237180238",
+          "text": "The community note clearly specifies the writer Katie Arnold-Ratliff is the one whose understanding of gifted is inherently flawed\n\nStop making it cool for writers to in-group signal with lies https://t.co/QSxcjimgYa",
+          "likes": 29,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/garrytan/status/2065298785463579053",
+          "text": "Gavin Newsom came for a @garryslist event at YC and we were proud to talk little tech, YIMBY, how to stop the the asset seizure tax, and how to keep California's innovation wave going while making sure things work for every Californian. \n\nThank you @GavinNewsom https://t.co/0e2nhtsIlB",
+          "likes": 213,
+          "retweets": 11
+        }
+      ],
+      "publishedAt": "2026-06-12T06:04:56.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-06-12",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is what production-grade visual AI looks like. https://t.co/na3bE5ZIpq\n\nThings are only impossible to build until someone builds them. https://t.co/LvYP2BEz6x",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2065155724850942050",
+          "text": "This is what production-grade visual AI looks like. https://t.co/na3bE5ZIpq",
+          "likes": 12,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/adityaag/status/2065155311770440097",
+          "text": "Things are only impossible to build until someone builds them. https://t.co/LvYP2BEz6x",
+          "likes": 13,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-11T19:34:28.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-12",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Wow you can play fifa on Netflix now with your phone as the controller.\n\nI just tried it and it’s pretty great. https://t.co/YEtRFhgPl5\n\n@Alphaschool fwiw this is my current plan https://t.co/bwG2nJ96n1\n\nThese AI models remind me of RPGs tbh https://t.co/84tXOpnofH",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2065294767760769222",
+          "text": "Wow you can play fifa on Netflix now with your phone as the controller.\n\nI just tried it and it’s pretty great. https://t.co/YEtRFhgPl5",
+          "likes": 4,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2065287078452371598",
+          "text": "@Alphaschool fwiw this is my current plan https://t.co/bwG2nJ96n1",
+          "likes": 5,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2065283568918794658",
+          "text": "These AI models remind me of RPGs tbh https://t.co/84tXOpnofH",
+          "likes": 9,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-12T04:46:58.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-12",
+      "source": "Training Data",
+      "title": "Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
+      "url": "https://www.youtube.com/watch?v=cMAs8z2dehs",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-11T09:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-06-12",
+      "source": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "author": null,
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    }
+  ],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 25,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-06-12T15:00:08.836Z",
-    "estimatedReadTime": "3 分钟"
+    "generatedAt": "2026-07-09T18:00:47.369Z",
+    "backfilled": true,
+    "estimatedReadTime": "8 分钟"
   }
 }

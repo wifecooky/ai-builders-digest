@@ -2,15 +2,372 @@
   "date": "2026-06-23",
   "lang": "zh",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
+  "builderInsights": [
+    {
+      "id": "sama-2026-06-23",
+      "source": "X",
+      "authorName": "Sam Altman",
+      "authorHandle": "sama",
+      "authorBio": "AI is cool i guess",
+      "title": "Sam Altman",
+      "suggestedTitle": "",
+      "suggestedSummary": "We want to help all companies be secure, working with the USG and the security ecosystem.\n\n*The full version of GPT-5.5-Cyber is here; state of the art performance on CyberGym.\n\n*Patch The Planet and Codex Security will help solve security problems instead of just finding them. https://t.co/otyCFHJR4d",
+      "tweets": [
+        {
+          "url": "https://x.com/sama/status/2069121360744550796",
+          "text": "We want to help all companies be secure, working with the USG and the security ecosystem.\n\n*The full version of GPT-5.5-Cyber is here; state of the art performance on CyberGym.\n\n*Patch The Planet and Codex Security will help solve security problems instead of just finding them. https://t.co/otyCFHJR4d",
+          "likes": 5715,
+          "retweets": 374
+        }
+      ],
+      "publishedAt": "2026-06-22T18:12:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-06-23",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "What are we codexing tonight\n\nhttps://t.co/aEkhh523n3\n\nLet's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2069267387464274366",
+          "text": "What are we codexing tonight",
+          "likes": 924,
+          "retweets": 17
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2069152499416928256",
+          "text": "https://t.co/aEkhh523n3",
+          "likes": 210,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2069152290326630518",
+          "text": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44",
+          "likes": 1386,
+          "retweets": 63
+        }
+      ],
+      "publishedAt": "2026-06-23T03:52:44.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-06-23",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "",
+      "suggestedSummary": "I feel the same about shared office spaces. https://t.co/uUI0iIXlzr\n\nPatch the Planet. https://t.co/3VK1ikQ0Im",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2069254835686576316",
+          "text": "I feel the same about shared office spaces. https://t.co/uUI0iIXlzr",
+          "likes": 816,
+          "retweets": 25
+        },
+        {
+          "url": "https://x.com/steipete/status/2069132838356840857",
+          "text": "Patch the Planet. https://t.co/3VK1ikQ0Im",
+          "likes": 616,
+          "retweets": 34
+        }
+      ],
+      "publishedAt": "2026-06-23T03:02:52.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-06-23",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "Never quit https://t.co/INdRImOBUI",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2069217138775388603",
+          "text": "Never quit https://t.co/INdRImOBUI",
+          "likes": 708,
+          "retweets": 36
+        }
+      ],
+      "publishedAt": "2026-06-23T00:33:04.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-23",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "Claude Design → Vercel, in one click https://t.co/Btq9hFk7OB https://t.co/NpgdokzpvE\n\n𝚆𝚎𝚋𝚂𝚘𝚌𝚔𝚎𝚝 (and 𝚜𝚘𝚌𝚔𝚎𝚝.𝚒𝚘) now supported on Vercel, from CDN to Fluid.\n\nSpecial full circle moment for @vercel https://t.co/a4ltxacug5\n\ngm https://t.co/cgg5e13mEy",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2069219190834127276",
+          "text": "Claude Design → Vercel, in one click https://t.co/Btq9hFk7OB https://t.co/NpgdokzpvE",
+          "likes": 498,
+          "retweets": 21
+        },
+        {
+          "url": "https://x.com/rauchg/status/2069109057433035171",
+          "text": "𝚆𝚎𝚋𝚂𝚘𝚌𝚔𝚎𝚝 (and 𝚜𝚘𝚌𝚔𝚎𝚝.𝚒𝚘) now supported on Vercel, from CDN to Fluid.\n\nSpecial full circle moment for @vercel https://t.co/a4ltxacug5",
+          "likes": 934,
+          "retweets": 35
+        },
+        {
+          "url": "https://x.com/rauchg/status/2069103803727556689",
+          "text": "gm https://t.co/cgg5e13mEy",
+          "likes": 1662,
+          "retweets": 24
+        }
+      ],
+      "publishedAt": "2026-06-23T00:41:13.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-23",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Almost all AI model and agent progress is downstream from evals. Open weights post training for specific domains comes down to evals. Agent improvements in the applied AI layer is all about evals. Agentic enterprise deployments that actually can augment work is all about evals. It’s all evals.\n\nThis will become a core competency of any enterprise in the future. The companies that are able to best understand their own (and/or customers) workflows and how well agents participate in that work will be in the best position to actually drive real automation.\n\nWe heard that HTML is a big deal again. You can now preview, edit, manage versions, and securely share any HTML based content on Box. Great for being able to work with any agent produced content immediately. https://t.co/Rgo2TO6RIg",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2069228335255949775",
+          "text": "Almost all AI model and agent progress is downstream from evals. Open weights post training for specific domains comes down to evals. Agent improvements in the applied AI layer is all about evals. Agentic enterprise deployments that actually can augment work is all about evals. It’s all evals.\n\nThis will become a core competency of any enterprise in the future. The companies that are able to best understand their own (and/or customers) workflows and how well agents participate in that work will be in the best position to actually drive real automation.",
+          "likes": 308,
+          "retweets": 29
+        },
+        {
+          "url": "https://x.com/levie/status/2069140445205348432",
+          "text": "We heard that HTML is a big deal again. You can now preview, edit, manage versions, and securely share any HTML based content on Box. Great for being able to work with any agent produced content immediately. https://t.co/Rgo2TO6RIg",
+          "likes": 225,
+          "retweets": 12
+        }
+      ],
+      "publishedAt": "2026-06-23T01:17:34.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-06-23",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "I have been to many concerts but man no one knows how to put on a show like @diljitdosanjh.. \n\n2 hours of nonstop singing and dancing 🕺 https://t.co/wnGpTmQBNV",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2069070621183758369",
+          "text": "I have been to many concerts but man no one knows how to put on a show like @diljitdosanjh.. \n\n2 hours of nonstop singing and dancing 🕺 https://t.co/wnGpTmQBNV",
+          "likes": 61,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-22T14:50:52.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-23",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Ok I've fallen for the ragebaiting and have been triggered by this so I'm going to say this: \n\nWhether intentional or not, there's a lot of virality that comes from:\n\n1. Pick the most ragebait moment of the conversation\n2. Make a clip of that exact moment\n3. Get tons of retweets and views\n\nI can tell it's rage baiting (just like the Corgi founder clip) but here's the thing - if even one parent watches this clip and decides to neglect their kids more then the damage is done.\n\nAnd yes it's hard to work at home when your kid comes back at 3 pm (or 1 pm with summer camp!) but we all make our choices.\n\nI'm reading this and I still don't get what a dynamic workflow is or when to use it in Claude Code \n\nhttps://t.co/2dlfB1Qof3 https://t.co/PESTVQfSQ1\n\nI want to do a podcast episode with someone who's good at using Codex / Claude Code to create fun pixel or threejs games and can show us how to do it.\n\nI am a gamer at heart! Who's the best person to talk to?",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2069279618969075819",
+          "text": "Ok I've fallen for the ragebaiting and have been triggered by this so I'm going to say this: \n\nWhether intentional or not, there's a lot of virality that comes from:\n\n1. Pick the most ragebait moment of the conversation\n2. Make a clip of that exact moment\n3. Get tons of retweets and views\n\nI can tell it's rage baiting (just like the Corgi founder clip) but here's the thing - if even one parent watches this clip and decides to neglect their kids more then the damage is done.\n\nAnd yes it's hard to work at home when your kid comes back at 3 pm (or 1 pm with summer camp!) but we all make our choices.",
+          "likes": 45,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2069267139576693028",
+          "text": "I'm reading this and I still don't get what a dynamic workflow is or when to use it in Claude Code \n\nhttps://t.co/2dlfB1Qof3 https://t.co/PESTVQfSQ1",
+          "likes": 54,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/petergyang/status/2069118077313425840",
+          "text": "I want to do a podcast episode with someone who's good at using Codex / Claude Code to create fun pixel or threejs games and can show us how to do it.\n\nI am a gamer at heart! Who's the best person to talk to?",
+          "likes": 85,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-23T04:41:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "ryolu-2026-06-23",
+      "source": "X",
+      "authorName": "Ryo Lu",
+      "authorHandle": "ryolu_",
+      "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "Ryo Lu",
+      "suggestedTitle": "",
+      "suggestedSummary": "watch on youtube:\nhttps://t.co/2EXXS1YKZk\n\nhere's my talk at Cursor Compile\nsome thoughts on how we build in the age of AI\nand what doesn't change https://t.co/otMw3nwPkr",
+      "tweets": [
+        {
+          "url": "https://x.com/ryolu_/status/2069218604449771989",
+          "text": "watch on youtube:\nhttps://t.co/2EXXS1YKZk",
+          "likes": 22,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/ryolu_/status/2069218497272717661",
+          "text": "here's my talk at Cursor Compile\nsome thoughts on how we build in the age of AI\nand what doesn't change https://t.co/otMw3nwPkr",
+          "likes": 958,
+          "retweets": 53
+        }
+      ],
+      "publishedAt": "2026-06-23T00:38:54.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-23",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "Ben Davis of Illuminate is an SF treasure https://t.co/dGeztCBIGY\n\nIf you haven’t seen 7x7 at SF City Hall it is a sight to behold. Go see it before it goes away July 4th https://t.co/76Lvq32YED\n\nThe California asset seizure tax is only going to impoverish the state and reduce funding for health care\n\nThe SEIU UHW union doesn’t care if quality of care or even the state’s ability to care for its people goes away\n\nThere is only pure self interest there https://t.co/KI3PnPkvV3",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2069316493259706583",
+          "text": "Ben Davis of Illuminate is an SF treasure https://t.co/dGeztCBIGY",
+          "likes": 7,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/garrytan/status/2069298247055925475",
+          "text": "If you haven’t seen 7x7 at SF City Hall it is a sight to behold. Go see it before it goes away July 4th https://t.co/76Lvq32YED",
+          "likes": 122,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/garrytan/status/2069234760615096344",
+          "text": "The California asset seizure tax is only going to impoverish the state and reduce funding for health care\n\nThe SEIU UHW union doesn’t care if quality of care or even the state’s ability to care for its people goes away\n\nThere is only pure self interest there https://t.co/KI3PnPkvV3",
+          "likes": 281,
+          "retweets": 25
+        }
+      ],
+      "publishedAt": "2026-06-23T07:07:52.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-06-23",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "Update: he now just called him \"the little maestro\" and \"little Leo\"\n\nYou can be Messi, the best footballer ever, and some rando commentator on Fox will still call you \"the little magic man\"",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2069134312239219000",
+          "text": "Update: he now just called him \"the little maestro\" and \"little Leo\"",
+          "likes": 4,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/mattturck/status/2069133752727445551",
+          "text": "You can be Messi, the best footballer ever, and some rando commentator on Fox will still call you \"the little magic man\"",
+          "likes": 46,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-22T19:03:57.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-06-23",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Watch on YouTube: https://t.co/FVBCFHXAqK\n\nI created a complete walkthrough of my Frontend Slides skill (22k+ stars on GitHub):\n- Complete demo of how to create beautiful HTML slides with Claude Code (beginner friendly)\n- How I created the skill\n- How you can create your own skill\n- Tips like how to insert images/videos into deck, how to publish\n- Lessons I learned\n(11-min video, YouTube link below)",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2069311581985665385",
+          "text": "Watch on YouTube: https://t.co/FVBCFHXAqK",
+          "likes": 3,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2069311440692072481",
+          "text": "I created a complete walkthrough of my Frontend Slides skill (22k+ stars on GitHub):\n- Complete demo of how to create beautiful HTML slides with Claude Code (beginner friendly)\n- How I created the skill\n- How you can create your own skill\n- Tips like how to insert images/videos into deck, how to publish\n- Lessons I learned\n(11-min video, YouTube link below)",
+          "likes": 46,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-06-23T06:48:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-23",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/HDDg9fFDK6\n\ni dont think anyone is correctly doing the math around how SpaceX, the NeoCloud+NeoLab, is currently going to market?\n\nSpaceX has already recouped about HALF its investment in Cursor, in compute deals. The other half is  paid for if Composer 3 does well. \n\nNo other company is simultaneously a leading model lab + neocloud (at least where GPUs is concerned). its a crazy effective combo iff you've adequately planned out gpu supply if inhouse training 1) goes very well 2) doesn't go very well",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2069310157864194066",
+          "text": "https://t.co/HDDg9fFDK6",
+          "likes": 0,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2069301071965741388",
+          "text": "i dont think anyone is correctly doing the math around how SpaceX, the NeoCloud+NeoLab, is currently going to market?\n\nSpaceX has already recouped about HALF its investment in Cursor, in compute deals. The other half is  paid for if Composer 3 does well. \n\nNo other company is simultaneously a leading model lab + neocloud (at least where GPUs is concerned). its a crazy effective combo iff you've adequately planned out gpu supply if inhouse training 1) goes very well 2) doesn't go very well",
+          "likes": 61,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-23T06:42:42.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-23",
+      "source": "AI & I by Every",
+      "title": "How Anthropic Uses Claude Fable 5 With Mike Krieger",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-10T17:27:38.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
   "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 27,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-06-23T14:59:35.350Z",
-    "estimatedReadTime": "3 分钟"
+    "generatedAt": "2026-07-09T18:00:47.776Z",
+    "backfilled": true,
+    "estimatedReadTime": "7 分钟"
   }
 }

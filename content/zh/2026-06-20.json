@@ -2,15 +2,354 @@
   "date": "2026-06-20",
   "lang": "zh",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
-  "blogUpdates": [],
+  "builderInsights": [
+    {
+      "id": "bcherny-2026-06-20",
+      "source": "X",
+      "authorName": "Boris Cherny",
+      "authorHandle": "bcherny",
+      "authorBio": "Claude Code @anthropicai",
+      "title": "Boris Cherny",
+      "suggestedTitle": "",
+      "suggestedSummary": "Cool way to use Claude Code: deciphering Linear A, a 3500 year old written language from Crete\n\nhttps://t.co/Aqd4ZG7Cum\n\nHope this holds up in peer review! 🤞",
+      "tweets": [
+        {
+          "url": "https://x.com/bcherny/status/2068064304503660962",
+          "text": "Cool way to use Claude Code: deciphering Linear A, a 3500 year old written language from Crete\n\nhttps://t.co/Aqd4ZG7Cum\n\nHope this holds up in peer review! 🤞",
+          "likes": 1460,
+          "retweets": 143
+        }
+      ],
+      "publishedAt": "2026-06-19T20:12:07.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-06-20",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac. https://t.co/fVTA5vLGy3\n\nRemote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure. https://t.co/sfFYixfXPl",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2068144722460475527",
+          "text": "Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac. https://t.co/fVTA5vLGy3",
+          "likes": 962,
+          "retweets": 47
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2068120572673077274",
+          "text": "Remote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure. https://t.co/sfFYixfXPl",
+          "likes": 1138,
+          "retweets": 71
+        }
+      ],
+      "publishedAt": "2026-06-20T01:31:40.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-20",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "The next hot programming language is… markdown.\n\nA minimal eve agent:\n\n📂 𝚊𝚐𝚎𝚗𝚝/\n  📄 𝚒𝚗𝚜𝚝𝚛𝚞𝚌𝚝𝚒𝚘𝚗𝚜.𝚖𝚍\n  📂 𝚜𝚔𝚒𝚕𝚕𝚜/\n     📄 𝚢𝚘𝚞𝚛-𝚎𝚡𝚙𝚎𝚛𝚝𝚒𝚜𝚎.𝚖𝚍\n\nDeployable in one command: 𝚟𝚎𝚛𝚌𝚎𝚕.\n\nIt’s the most accessible programming has ever been. And likely will ever be, at least for the generation of software fully defined and controlled by us humans.\n\n(As a fun fact, one of the initial prototypes for eve was codenamed 𝚕𝚊𝚜𝚝 by @timolins, both in homage to ‘@nextjs for agents’ but also in recognition of how enduring eve’s design feels to us.)\n\nAgents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment &amp; commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html).\n\nThe original vision of the WWW coming to life before our eyes.",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2068165988005380478",
+          "text": "The next hot programming language is… markdown.\n\nA minimal eve agent:\n\n📂 𝚊𝚐𝚎𝚗𝚝/\n  📄 𝚒𝚗𝚜𝚝𝚛𝚞𝚌𝚝𝚒𝚘𝚗𝚜.𝚖𝚍\n  📂 𝚜𝚔𝚒𝚕𝚕𝚜/\n     📄 𝚢𝚘𝚞𝚛-𝚎𝚡𝚙𝚎𝚛𝚝𝚒𝚜𝚎.𝚖𝚍\n\nDeployable in one command: 𝚟𝚎𝚛𝚌𝚎𝚕.\n\nIt’s the most accessible programming has ever been. And likely will ever be, at least for the generation of software fully defined and controlled by us humans.\n\n(As a fun fact, one of the initial prototypes for eve was codenamed 𝚕𝚊𝚜𝚝 by @timolins, both in homage to ‘@nextjs for agents’ but also in recognition of how enduring eve’s design feels to us.)",
+          "likes": 624,
+          "retweets": 33
+        },
+        {
+          "url": "https://x.com/rauchg/status/2067936390285807940",
+          "text": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment &amp; commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html).\n\nThe original vision of the WWW coming to life before our eyes.",
+          "likes": 1244,
+          "retweets": 85
+        }
+      ],
+      "publishedAt": "2026-06-20T02:56:10.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "AmandaAskell-2026-06-20",
+      "source": "X",
+      "authorName": "Amanda Askell",
+      "authorHandle": "AmandaAskell",
+      "authorBio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
+      "title": "Amanda Askell",
+      "suggestedTitle": "",
+      "suggestedSummary": "I had chronic pain for most of my life until a doctor did an MRI of the pain source and found a congenital condition that was then fixed with surgery. Now I'm wondering if I had 30+ years of pain because doctors worried I was too stupid to be in the presence of scan results.\n\nA counter to this is \"yes but people *don't* ignore it\". But not ignoring things on scans is our norm because, until recently, we only did scans if there was a clear need. If we move to a scan-more-often paradigm, the norms of what we do with that information will surely adjust.\n\nThe view that we shouldn't do more medical scans because incidental findings cause a lot of harm doesn't sit well with me. It seems like the issue it points to isn't the scan but the response to it. If you see something on a scan but have no other symptoms, you could ignore it.",
+      "tweets": [
+        {
+          "url": "https://x.com/AmandaAskell/status/2068218515723866477",
+          "text": "I had chronic pain for most of my life until a doctor did an MRI of the pain source and found a congenital condition that was then fixed with surgery. Now I'm wondering if I had 30+ years of pain because doctors worried I was too stupid to be in the presence of scan results.",
+          "likes": 561,
+          "retweets": 19
+        },
+        {
+          "url": "https://x.com/AmandaAskell/status/2068162192927756544",
+          "text": "A counter to this is \"yes but people *don't* ignore it\". But not ignoring things on scans is our norm because, until recently, we only did scans if there was a clear need. If we move to a scan-more-often paradigm, the norms of what we do with that information will surely adjust.",
+          "likes": 332,
+          "retweets": 11
+        },
+        {
+          "url": "https://x.com/AmandaAskell/status/2068162191740764622",
+          "text": "The view that we shouldn't do more medical scans because incidental findings cause a lot of harm doesn't sit well with me. It seems like the issue it points to isn't the scan but the response to it. If you see something on a scan but have no other symptoms, you could ignore it.",
+          "likes": 774,
+          "retweets": 24
+        }
+      ],
+      "publishedAt": "2026-06-20T06:24:54.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-20",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "The main variable in getting success with agents is whether you can get the agent the context it needs to do its work; and a major factor in that is if you can create a shared working area for that agent that a human can understand as well. \n\nThis is one of the reasons why agents using file systems is such a big deal. It creates a unified system that both the person and the agent can work within to pass around data. \n\n“What they need is a working set: plans, notes, task lists, policies, drafts, summaries, logs, corrections,  decisions, etc. For that layer, a filesystem-shaped interface tends to be more legible to both the model and the humans supervising it.”\n\nIt turns out giving agents access to the systems we already know how to use, but in a way that is best optimized for them, is the perfect primitive for agents to work.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2068068247413694532",
+          "text": "The main variable in getting success with agents is whether you can get the agent the context it needs to do its work; and a major factor in that is if you can create a shared working area for that agent that a human can understand as well. \n\nThis is one of the reasons why agents using file systems is such a big deal. It creates a unified system that both the person and the agent can work within to pass around data. \n\n“What they need is a working set: plans, notes, task lists, policies, drafts, summaries, logs, corrections,  decisions, etc. For that layer, a filesystem-shaped interface tends to be more legible to both the model and the humans supervising it.”\n\nIt turns out giving agents access to the systems we already know how to use, but in a way that is best optimized for them, is the perfect primitive for agents to work.",
+          "likes": 308,
+          "retweets": 30
+        }
+      ],
+      "publishedAt": "2026-06-19T20:27:47.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-20",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "I used to be a die-hard Claude Code user.\n\nCodex has won me over because:\n\n→ GPT-5.5 is excellent\n→ Fast mode + generous limits = more reps\n→ Little touches like steering, auto remote control on phone, etc\n\nBut most of all Codex's browser and computer use capabilities are simply goated. I built so many workflows relying on those two things alone instead of hunting for APIs.\n\nI still use Claude Code too. The app seems to be getting better and the design and frontend capability of Opus is still much better than GPT. Whenever Fable comes back that's another reason to go back.\n\nHonestly, I hope these two compete forever and other players (Cursor/Grok, Gemini, etc) all stay competitive.\n\nThis way the builder keeps winning 🙂\n\nIt was all a dream 🥲 https://t.co/QNcth9oQ6x",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2068175172960690266",
+          "text": "I used to be a die-hard Claude Code user.\n\nCodex has won me over because:\n\n→ GPT-5.5 is excellent\n→ Fast mode + generous limits = more reps\n→ Little touches like steering, auto remote control on phone, etc\n\nBut most of all Codex's browser and computer use capabilities are simply goated. I built so many workflows relying on those two things alone instead of hunting for APIs.\n\nI still use Claude Code too. The app seems to be getting better and the design and frontend capability of Opus is still much better than GPT. Whenever Fable comes back that's another reason to go back.\n\nHonestly, I hope these two compete forever and other players (Cursor/Grok, Gemini, etc) all stay competitive.\n\nThis way the builder keeps winning 🙂",
+          "likes": 350,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/petergyang/status/2068164193451475387",
+          "text": "It was all a dream 🥲 https://t.co/QNcth9oQ6x",
+          "likes": 38,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-20T03:32:40.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-06-20",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "The 3 most important things that set someone apart in the AI age:\n\n- Agency\n- Taste\n- Distribution",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2068094591220531583",
+          "text": "The 3 most important things that set someone apart in the AI age:\n\n- Agency\n- Taste\n- Distribution",
+          "likes": 227,
+          "retweets": 30
+        }
+      ],
+      "publishedAt": "2026-06-19T22:12:28.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-20",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "Tip: pick the worst thing you are afraid to show your board for your next board meeting and make it slide one (you can only do this with good boards btw)\n\nMake it a big deal you did that. Make it a habit. https://t.co/66Hu5uJGRP",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2068007205102842238",
+          "text": "Tip: pick the worst thing you are afraid to show your board for your next board meeting and make it slide one (you can only do this with good boards btw)\n\nMake it a big deal you did that. Make it a habit. https://t.co/66Hu5uJGRP",
+          "likes": 173,
+          "retweets": 17
+        }
+      ],
+      "publishedAt": "2026-06-19T16:25:14.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-06-20",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "",
+      "suggestedSummary": "Hannes speaks both developer and agents. Blessed to have him on the team! https://t.co/bTrqd3V3dn",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2068199277277401419",
+          "text": "Hannes speaks both developer and agents. Blessed to have him on the team! https://t.co/bTrqd3V3dn",
+          "likes": 189,
+          "retweets": 7
+        }
+      ],
+      "publishedAt": "2026-06-20T05:08:27.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-06-20",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "When your VC is exhausted from attending the board meeting https://t.co/PHHnZWwumQ",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2068087153091858801",
+          "text": "When your VC is exhausted from attending the board meeting https://t.co/PHHnZWwumQ",
+          "likes": 75,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-06-19T21:42:55.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-06-20",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "“The best conference experience I’ve had this year” https://t.co/VGwWxmo21W\n\nVibecon recap https://t.co/uvKptOPsTk",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2068182309719728159",
+          "text": "“The best conference experience I’ve had this year” https://t.co/VGwWxmo21W",
+          "likes": 31,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/amasad/status/2068177018479403065",
+          "text": "Vibecon recap https://t.co/uvKptOPsTk",
+          "likes": 47,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-20T04:01:02.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-06-20",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "SF I have an idea.. https://t.co/efoCDkXhHj\n\nSome people meditate, I listen to @EITS 💥 https://t.co/mgiVZ3YE2Z",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2068204606119874728",
+          "text": "SF I have an idea.. https://t.co/efoCDkXhHj",
+          "likes": 14,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/nikunj/status/2068127547980918879",
+          "text": "Some people meditate, I listen to @EITS 💥 https://t.co/mgiVZ3YE2Z",
+          "likes": 3,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-20T05:29:38.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-20",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev.\n\nit is very important that you answer.\n\n*now @MLHacks, who are producing the first ever physical daily newspaper at @aidotengineer WF https://t.co/tYDapAogYY https://t.co/nVuMvkDhnQ\n\n@midjourney @Scobleizer @bryan_johnson @DavidSHolz @iScienceLuvr @zoink @Polymarket @aiDotEngineer /goaaaaaaaaaaal\n\nhttps://t.co/oo75ct3QwX https://t.co/4W90w31Os0\n\nAnthropic is going to IPO at $2T https://t.co/SHYMaH3v9q",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2068233518858342887",
+          "text": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev.\n\nit is very important that you answer.\n\n*now @MLHacks, who are producing the first ever physical daily newspaper at @aidotengineer WF https://t.co/tYDapAogYY https://t.co/nVuMvkDhnQ",
+          "likes": 2,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2068229031884100066",
+          "text": "@midjourney @Scobleizer @bryan_johnson @DavidSHolz @iScienceLuvr @zoink @Polymarket @aiDotEngineer /goaaaaaaaaaaal\n\nhttps://t.co/oo75ct3QwX https://t.co/4W90w31Os0",
+          "likes": 2,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2068084391260426345",
+          "text": "Anthropic is going to IPO at $2T https://t.co/SHYMaH3v9q",
+          "likes": 269,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-20T07:24:31.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-20",
+      "source": "No Priors",
+      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+      "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-18T10:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-06-20",
+      "source": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "author": null,
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    }
+  ],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 22,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-06-20T14:44:10.171Z",
-    "estimatedReadTime": "3 分钟"
+    "generatedAt": "2026-07-09T18:00:47.680Z",
+    "backfilled": true,
+    "estimatedReadTime": "8 分钟"
   }
 }

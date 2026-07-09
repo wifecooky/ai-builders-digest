@@ -2,15 +2,428 @@
   "date": "2026-06-05",
   "lang": "zh",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
-  "blogUpdates": [],
+  "builderInsights": [
+    {
+      "id": "alexalbert-2026-06-05",
+      "source": "X",
+      "authorName": "Alex Albert",
+      "authorHandle": "alexalbert__",
+      "authorBio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "Alex Albert",
+      "suggestedTitle": "",
+      "suggestedSummary": "We just published internal data on how much of Claude's development is already being done by Claude:\n- Over 80% of all code merged into our codebase is now written by Claude\n- It's been months since many researchers at Anthropic hand-wrote code\n- The typical Anthropic engineer ships 8x as much code as they did in 2024\n- On the most open-ended engineering tasks, Claude's success rate jumped from ~26% to 76% in 6 months\n- When research sessions went off-track, Claude proposed a better next step than the human took 64% of the time\n\nWe're not at recursive self-improvement yet, but it could come sooner than most expect. I highly recommend reading the full blog post.",
+      "tweets": [
+        {
+          "url": "https://x.com/alexalbert__/status/2062580571214389510",
+          "text": "We just published internal data on how much of Claude's development is already being done by Claude:\n- Over 80% of all code merged into our codebase is now written by Claude\n- It's been months since many researchers at Anthropic hand-wrote code\n- The typical Anthropic engineer ships 8x as much code as they did in 2024\n- On the most open-ended engineering tasks, Claude's success rate jumped from ~26% to 76% in 6 months\n- When research sessions went off-track, Claude proposed a better next step than the human took 64% of the time\n\nWe're not at recursive self-improvement yet, but it could come sooner than most expect. I highly recommend reading the full blog post.",
+          "likes": 2294,
+          "retweets": 149
+        }
+      ],
+      "publishedAt": "2026-06-04T17:01:43.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-06-05",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF\n\nWe're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2062734215494664697",
+          "text": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
+          "likes": 1164,
+          "retweets": 64
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2062648326332539015",
+          "text": "We're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
+          "likes": 3945,
+          "retweets": 90
+        }
+      ],
+      "publishedAt": "2026-06-05T03:12:15.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "catwu-2026-06-05",
+      "source": "X",
+      "authorName": "Cat Wu",
+      "authorHandle": "_catwu",
+      "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "Cat Wu",
+      "suggestedTitle": "",
+      "suggestedSummary": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to integrate research ideas into our core products, I'd love to hear from you here: https://t.co/IKWlAr8tSb",
+      "tweets": [
+        {
+          "url": "https://x.com/_catwu/status/2062659533047259212",
+          "text": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to integrate research ideas into our core products, I'd love to hear from you here: https://t.co/IKWlAr8tSb",
+          "likes": 993,
+          "retweets": 44
+        }
+      ],
+      "publishedAt": "2026-06-04T22:15:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-05",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitrojsdev, open runtimes, and native support for Vite-based frameworks like Nuxt, Svelte, and TanStack Start 🫡 https://t.co/a6ZWOjPKPq",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2062535454130676193",
+          "text": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitrojsdev, open runtimes, and native support for Vite-based frameworks like Nuxt, Svelte, and TanStack Start 🫡 https://t.co/a6ZWOjPKPq",
+          "likes": 843,
+          "retweets": 25
+        }
+      ],
+      "publishedAt": "2026-06-04T14:02:26.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-06-05",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "Thariq",
+      "suggestedTitle": "",
+      "suggestedSummary": "An app can be a home-cooked meal (2020) \n\npersonal software was a bit early in 2020 but in 2026, it really can be as personal as a home cooked meal, or a handwritten letter\n\nhttps://t.co/vQLa9wxUzq\n\nHow dynamic workflows allow Claude Code to handle whole new types of tasks\n\nhttps://t.co/xdRfnaa43V",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2062605395101884916",
+          "text": "An app can be a home-cooked meal (2020) \n\npersonal software was a bit early in 2020 but in 2026, it really can be as personal as a home cooked meal, or a handwritten letter\n\nhttps://t.co/vQLa9wxUzq",
+          "likes": 511,
+          "retweets": 20
+        },
+        {
+          "url": "https://x.com/trq212/status/2062556889171517499",
+          "text": "How dynamic workflows allow Claude Code to handle whole new types of tasks\n\nhttps://t.co/xdRfnaa43V",
+          "likes": 30,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-04T18:40:22.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-05",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario of AI:\n\n“There has been an explosion of new ideas, initiatives, tools, and simulations, as a result of Anthropic employees working with highly capable models—far more than we have the capacity to pursue. The rate at which organizations can spot and fix these bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization.”\n\nAI lowers the barrier dramatically to allowing us to do more. As a result of that, we have far more ideas than we can pursue, and for the ones that we want to pursue we’re ultimately limited by our ability to go take on the surrounding work to execute those ideas. There’s almost no amount of AI progress that can happen where that goes away.\n\nAI is going to let us build much more software, launch more marketing campaigns, research more drugs, and so on. All of this work, even when augmented by agents, still ultimately requires people to manage.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2062728257359790292",
+          "text": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario of AI:\n\n“There has been an explosion of new ideas, initiatives, tools, and simulations, as a result of Anthropic employees working with highly capable models—far more than we have the capacity to pursue. The rate at which organizations can spot and fix these bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization.”\n\nAI lowers the barrier dramatically to allowing us to do more. As a result of that, we have far more ideas than we can pursue, and for the ones that we want to pursue we’re ultimately limited by our ability to go take on the surrounding work to execute those ideas. There’s almost no amount of AI progress that can happen where that goes away.\n\nAI is going to let us build much more software, launch more marketing campaigns, research more drugs, and so on. All of this work, even when augmented by agents, still ultimately requires people to manage.",
+          "likes": 195,
+          "retweets": 18
+        }
+      ],
+      "publishedAt": "2026-06-05T02:48:34.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-06-05",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "Prompt to shop: https://t.co/onfxeUYGxB",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2062646796804145517",
+          "text": "Prompt to shop: https://t.co/onfxeUYGxB",
+          "likes": 159,
+          "retweets": 10
+        }
+      ],
+      "publishedAt": "2026-06-04T21:24:53.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "joshwoodward-2026-06-05",
+      "source": "X",
+      "authorName": "Josh Woodward",
+      "authorHandle": "joshwoodward",
+      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward",
+      "suggestedTitle": "",
+      "suggestedSummary": "Love this Gemini feature on my macOS app! https://t.co/NOa6NhnxOT",
+      "tweets": [
+        {
+          "url": "https://x.com/joshwoodward/status/2062667951485108354",
+          "text": "Love this Gemini feature on my macOS app! https://t.co/NOa6NhnxOT",
+          "likes": 140,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-06-04T22:48:56.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-05",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "Two YC decacorns in one day and one of them is building commercial fusion. Polaris hit 150 million degrees C, first privately funded machine to do it. This is the abundance future, built by people who actually ship. https://t.co/calTVslNEw\n\nSo close to product market fit is still not product market fit https://t.co/Pmz5OH1xNV\n\nhttps://t.co/BA5kVYqcji",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2062763109849411834",
+          "text": "Two YC decacorns in one day and one of them is building commercial fusion. Polaris hit 150 million degrees C, first privately funded machine to do it. This is the abundance future, built by people who actually ship. https://t.co/calTVslNEw",
+          "likes": 105,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/garrytan/status/2062761266083754088",
+          "text": "So close to product market fit is still not product market fit https://t.co/Pmz5OH1xNV",
+          "likes": 93,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/garrytan/status/2062760454649487491",
+          "text": "https://t.co/BA5kVYqcji",
+          "likes": 83,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-06-05T05:07:04.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-06-05",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "Introducing the Nock skill (powered by @meetgranola) 👀\n\nSomeone recently asked me if I can be replaced by AI, and my ego initially said NO WAY.. \n\nThen, I thought about what's the best way to have the most accurate \"AI\" representation of me for these conversations.\n\nSo, I used @claudeai Code to pull >200 1:1 founder pitch meeting notes that were captured by Granola in the last couple of years. \n\nFocused all the notes to only things I asked. Distilled it further down to ~53 meetings where there was a lot of good discussion and debate.\n\nFinally, I took a few of my essays which describe the kind of founders that I love.\n\nUsing those, I used Claude Code again to build this skill called \"Nock\" that has some principles and a question bank that are grounded in real conversations. \n\nTo refine, I used this skill over 5-10 actual decks and conversations where we first had the skill output what it thinks and then we compared it against the real conversation. We kept improving it - till it felt like an accurate representation of me. \n\nSo, if you are a founder raising and want to see what I would think about your deck, try this out: nikunjk dot com / nock\n\nAnd, if you are a VC who wants to build your own Nock, we have that too: nikunjk dot com / buildnock\n\nFor a year now, I’ve been texting @toddsaunders every week asking him when he’s going to quit to build the future for the trades..\n\nAnd finally when I got the text, I knew we @FPVventures had to invest. A lot of “businessmen” and technologists treat this area as a lucrative business. \n\nVery few people have the empathy, trust and sheer love for this space. And that’s what will enable him, Sean and @DaltonMillsAI to win. \n\nIf you are in the NY area, and want to join this phenomenal group, please reach out!",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2062659649732825549",
+          "text": "Introducing the Nock skill (powered by @meetgranola) 👀\n\nSomeone recently asked me if I can be replaced by AI, and my ego initially said NO WAY.. \n\nThen, I thought about what's the best way to have the most accurate \"AI\" representation of me for these conversations.\n\nSo, I used @claudeai Code to pull >200 1:1 founder pitch meeting notes that were captured by Granola in the last couple of years. \n\nFocused all the notes to only things I asked. Distilled it further down to ~53 meetings where there was a lot of good discussion and debate.\n\nFinally, I took a few of my essays which describe the kind of founders that I love.\n\nUsing those, I used Claude Code again to build this skill called \"Nock\" that has some principles and a question bank that are grounded in real conversations. \n\nTo refine, I used this skill over 5-10 actual decks and conversations where we first had the skill output what it thinks and then we compared it against the real conversation. We kept improving it - till it felt like an accurate representation of me. \n\nSo, if you are a founder raising and want to see what I would think about your deck, try this out: nikunjk dot com / nock\n\nAnd, if you are a VC who wants to build your own Nock, we have that too: nikunjk dot com / buildnock",
+          "likes": 60,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/nikunj/status/2062543215392428193",
+          "text": "For a year now, I’ve been texting @toddsaunders every week asking him when he’s going to quit to build the future for the trades..\n\nAnd finally when I got the text, I knew we @FPVventures had to invest. A lot of “businessmen” and technologists treat this area as a lucrative business. \n\nVery few people have the empathy, trust and sheer love for this space. And that’s what will enable him, Sean and @DaltonMillsAI to win. \n\nIf you are in the NY area, and want to join this phenomenal group, please reach out!",
+          "likes": 31,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-04T22:15:57.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-06-05",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "",
+      "suggestedSummary": "A lot of roles will now have engineering infused into them.\n\nMarketing Engineer is a great example of this. https://t.co/f8E9O8GXgi",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2062655784127971565",
+          "text": "A lot of roles will now have engineering infused into them.\n\nMarketing Engineer is a great example of this. https://t.co/f8E9O8GXgi",
+          "likes": 16,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-04T22:00:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-06-05",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "This great conversation with @danintheory of @OpenAI  is also available on Spotify, Apple Podcasts and here on YouTube:\n\nhttps://t.co/0QNdUm8dVj\n\nWhy AI Can Now Make Discoveries - my conversation with @danintheory, Lead of the Foundations of Reinforcement Learning team at @OpenAI \n\n00:00 Intro: AI's wild week in mathematics\n\n01:21 What OpenAI's Foundations of RL team does\n\n03:08 Dan's journey: from black holes and quantum gravity to frontier AI\n\n07:04 Are AI systems becoming useful for real science\n\n08:21 The AI math moment: Erdős, OpenAI, DeepMind, and Anthropic\n\n08:52 Why the OpenAI result was an act of exploration\n\n10:25 OpenAI vs. DeepMind: informal reasoning vs. formal proof\n\n12:13 RL 101: learning by doing, not just watching\n\n15:10 Why reinforcement learning works\n\n15:58 How RL breaks: sparse feedback and long-horizon tasks\n\n17:03 RLHF: how human feedback shaped early language models\n\n18:48 Move 37, self-play, and the search for novel strategies\n\n22:16 Explore vs. exploit in scientific discovery\n\n24:49 Why RL may now be \"the cake,\" not the cherry on top\n\n25:46 Why RL started working with large language models\n\n27:29 Is RL \"sucking supervision through a straw\"?\n\n28:47 Why language may be the grounding layer for intelligence\n\n31:46 A contrarian take on the Bitter Lesson\n\n32:41 What test-time compute actually is\n\n34:50 How RL gives models the ability to think\n\n35:40 Verifiable rewards, math, coding, and the messy real world\n\n38:00 What physics can teach us about AI\n\n42:08 Is there a thermodynamics of AI?\n\n43:08 From Erdős problems to Einstein-level AI\n\n45:16 Is AI already doing original science?\n\n45:51 How far are we from AI automating AI research\n\n47:41 Why Dan is excited about the future of science",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2062587004261748887",
+          "text": "This great conversation with @danintheory of @OpenAI  is also available on Spotify, Apple Podcasts and here on YouTube:\n\nhttps://t.co/0QNdUm8dVj",
+          "likes": 10,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/mattturck/status/2062587000201580808",
+          "text": "Why AI Can Now Make Discoveries - my conversation with @danintheory, Lead of the Foundations of Reinforcement Learning team at @OpenAI \n\n00:00 Intro: AI's wild week in mathematics\n\n01:21 What OpenAI's Foundations of RL team does\n\n03:08 Dan's journey: from black holes and quantum gravity to frontier AI\n\n07:04 Are AI systems becoming useful for real science\n\n08:21 The AI math moment: Erdős, OpenAI, DeepMind, and Anthropic\n\n08:52 Why the OpenAI result was an act of exploration\n\n10:25 OpenAI vs. DeepMind: informal reasoning vs. formal proof\n\n12:13 RL 101: learning by doing, not just watching\n\n15:10 Why reinforcement learning works\n\n15:58 How RL breaks: sparse feedback and long-horizon tasks\n\n17:03 RLHF: how human feedback shaped early language models\n\n18:48 Move 37, self-play, and the search for novel strategies\n\n22:16 Explore vs. exploit in scientific discovery\n\n24:49 Why RL may now be \"the cake,\" not the cherry on top\n\n25:46 Why RL started working with large language models\n\n27:29 Is RL \"sucking supervision through a straw\"?\n\n28:47 Why language may be the grounding layer for intelligence\n\n31:46 A contrarian take on the Bitter Lesson\n\n32:41 What test-time compute actually is\n\n34:50 How RL gives models the ability to think\n\n35:40 Verifiable rewards, math, coding, and the messy real world\n\n38:00 What physics can teach us about AI\n\n42:08 Is there a thermodynamics of AI?\n\n43:08 From Erdős problems to Einstein-level AI\n\n45:16 Is AI already doing original science?\n\n45:51 How far are we from AI automating AI research\n\n47:41 Why Dan is excited about the future of science",
+          "likes": 63,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-06-04T17:27:17.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-06-05",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "@every @TrySpiral with your agent here: https://t.co/KvyOAlbWGI\n\nNEW:\n\nSpiral 4.0—a writing partner for you and your agent by @every\n\n-> Stylometry: we built a new Style Engine based on the principles of stylometry to extract you and your brand's voice and produce great writing every time, based on examples of your past work\n\n-> MCP and CLI: Spiral is now built to be used by your agent like Codex, Claude Code, OpenClaw and more so you can get great writing automatically\n\nwe use it every day internally to write landing pages, tweets, podcasts, marketing emails and more and to make sure it's ALL on-brand across our entire 30 person team @every",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2062628176908496989",
+          "text": "@every @TrySpiral with your agent here: https://t.co/KvyOAlbWGI",
+          "likes": 7,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/danshipper/status/2062628079869005876",
+          "text": "NEW:\n\nSpiral 4.0—a writing partner for you and your agent by @every\n\n-> Stylometry: we built a new Style Engine based on the principles of stylometry to extract you and your brand's voice and produce great writing every time, based on examples of your past work\n\n-> MCP and CLI: Spiral is now built to be used by your agent like Codex, Claude Code, OpenClaw and more so you can get great writing automatically\n\nwe use it every day internally to write landing pages, tweets, podcasts, marketing emails and more and to make sure it's ALL on-brand across our entire 30 person team @every",
+          "likes": 222,
+          "retweets": 17
+        }
+      ],
+      "publishedAt": "2026-06-04T20:10:53.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-05",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "lol it's on now https://t.co/FUhgGF2Z3d\n\nAlso as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI have a /slides skill and you can guess which one Codex made vs. Claude.\n\nYes I know I can make an image with ChatGPT first and then tell Codex to build it but Claude can one shot great looking HTML slides.\n\nCodex needs to fix this imo it's often a novice's first impression of a coding or knowledge work tool.\n\nI spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced that you can save at least 50% of your time on any type of knowledge work if you just set up the system upfront.\n\nNote that all my workflows have human checkpoints along the way so I can apply my \"taste.\"\n\nAnyway, it feels extremely liberating to have all this set up. If you want to do the same, just follow these three steps:\n\n1. Reflect on your past week:\n- What work did you spend the most time on?\n- What work was the most repetitive?\n\nPick your most painful, manual workflow to start.\n\n2. List out every single step of that manual workflow. Be very detail oriented.\n\n3. Open Codex (or Claude Code) and paste the list of steps from 2 and ask it \"What integrations and skills can I build to streamline this with your help?\"\n\nAI will guide you the rest of the way.",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2062746231173255459",
+          "text": "lol it's on now https://t.co/FUhgGF2Z3d",
+          "likes": 6,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2062743491365544361",
+          "text": "Also as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI have a /slides skill and you can guess which one Codex made vs. Claude.\n\nYes I know I can make an image with ChatGPT first and then tell Codex to build it but Claude can one shot great looking HTML slides.\n\nCodex needs to fix this imo it's often a novice's first impression of a coding or knowledge work tool.",
+          "likes": 48,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2062740262338929110",
+          "text": "I spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced that you can save at least 50% of your time on any type of knowledge work if you just set up the system upfront.\n\nNote that all my workflows have human checkpoints along the way so I can apply my \"taste.\"\n\nAnyway, it feels extremely liberating to have all this set up. If you want to do the same, just follow these three steps:\n\n1. Reflect on your past week:\n- What work did you spend the most time on?\n- What work was the most repetitive?\n\nPick your most painful, manual workflow to start.\n\n2. List out every single step of that manual workflow. Be very detail oriented.\n\n3. Open Codex (or Claude Code) and paste the list of steps from 2 and ask it \"What integrations and skills can I build to streamline this with your help?\"\n\nAI will guide you the rest of the way.",
+          "likes": 98,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-06-05T04:00:00.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-05",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "ibid https://t.co/eKasZ0D6Q1\n\nabout time that the leading database company born in Singapore actually had Singapore investors take it seriously! https://t.co/UohEPZEUWH https://t.co/Gp9vO8mC7Q\n\nFinally! the first eval ship from cog!!!!!!!!!! 👼🏼\n\nTo contextualize: @METR_Evals cap out at ~16 hours. \n\nCog has private enterprise evals up to 100hrs, and is confident enough to put a financial guarantee on it 🤯\n\nMETR dataset: ML eng, GPU kernels, cybersecurity\n\n> \"METR (2026) used a combination of GPT-4o and GPT-5 to estimate the human-equivalent times from compressed Claude Code transcripts. These transcripts were collected from 7 METR technical staff on 34 sessions labeled on human ground truth\". rlog​ of 0.83\n\nCog dataset: real life java/typescript/python/c# feature dev, bugfixes, migrations\n\n> \"We collected a ground-truth dataset by asking Devin users to review recent representative sessions, and estimate how long each completed session would have taken without Devin. Our dataset consists of 258 sessions from 126 users across a diverse set of enterprise customers.\" rlog​ of 0.74 on held out set\n\nthis is pioneering real world evals work and part 1 of a broader frontier code evals drop that I'm really looking forward to writing up. huge kudos to @annarmitchell and @ryanbai1412 for leading the unglamorous last mile data collection!!",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2062689862445379983",
+          "text": "ibid https://t.co/eKasZ0D6Q1",
+          "likes": 5,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2062627150885450065",
+          "text": "about time that the leading database company born in Singapore actually had Singapore investors take it seriously! https://t.co/UohEPZEUWH https://t.co/Gp9vO8mC7Q",
+          "likes": 60,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/swyx/status/2062611218196771017",
+          "text": "Finally! the first eval ship from cog!!!!!!!!!! 👼🏼\n\nTo contextualize: @METR_Evals cap out at ~16 hours. \n\nCog has private enterprise evals up to 100hrs, and is confident enough to put a financial guarantee on it 🤯\n\nMETR dataset: ML eng, GPU kernels, cybersecurity\n\n> \"METR (2026) used a combination of GPT-4o and GPT-5 to estimate the human-equivalent times from compressed Claude Code transcripts. These transcripts were collected from 7 METR technical staff on 34 sessions labeled on human ground truth\". rlog​ of 0.83\n\nCog dataset: real life java/typescript/python/c# feature dev, bugfixes, migrations\n\n> \"We collected a ground-truth dataset by asking Devin users to review recent representative sessions, and estimate how long each completed session would have taken without Devin. Our dataset consists of 258 sessions from 126 users across a diverse set of enterprise customers.\" rlog​ of 0.74 on held out set\n\nthis is pioneering real world evals work and part 1 of a broader frontier code evals drop that I'm really looking forward to writing up. huge kudos to @annarmitchell and @ryanbai1412 for leading the unglamorous last mile data collection!!",
+          "likes": 179,
+          "retweets": 12
+        }
+      ],
+      "publishedAt": "2026-06-05T00:16:00.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-05",
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "OpenAI's Dan Roberts: Why AI Can Now Make Discoveries",
+      "url": "https://www.youtube.com/watch?v=oWOz2htozfI",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-04T12:30:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-06-05",
+      "source": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "author": null,
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpswwwanth-2026-06-05",
+      "source": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "author": null,
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    },
+    {
+      "id": "httpsclaudec-2026-06-05",
+      "source": "Claude Blog",
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "author": null,
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "May 19, 2026",
+      "category": "blogUpdates"
+    }
+  ],
   "metadata": {
-    "totalBuilders": 17,
-    "totalTweets": 31,
+    "totalBuilders": 15,
+    "totalTweets": 26,
     "totalPodcasts": 1,
-    "totalBlogs": 4,
-    "generatedAt": "2026-06-05T15:00:00.410Z",
-    "estimatedReadTime": "3 分钟"
+    "totalBlogs": 3,
+    "generatedAt": "2026-07-09T18:00:47.115Z",
+    "backfilled": true,
+    "estimatedReadTime": "10 分钟"
   }
 }

@@ -2,15 +2,418 @@
   "date": "2026-06-11",
   "lang": "en",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
+  "builderInsights": [
+    {
+      "id": "thsottiaux-2026-06-11",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something. https://t.co/UG7hB1URMC\n\nSimplify until there is nothing to simplify https://t.co/4Rt5GGlGvA\n\nWelcome Clint and Michael! Incredibly excited to see what we do together to contribute to the cybersecurity field and accelerate defenders across the globe.\n\nIt's time to build. https://t.co/wu9CtJk38u",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2064911328087810308",
+          "text": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something. https://t.co/UG7hB1URMC",
+          "likes": 2460,
+          "retweets": 105
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2064900105032135010",
+          "text": "Simplify until there is nothing to simplify https://t.co/4Rt5GGlGvA",
+          "likes": 580,
+          "retweets": 12
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2064869401359417799",
+          "text": "Welcome Clint and Michael! Incredibly excited to see what we do together to contribute to the cybersecurity field and accelerate defenders across the globe.\n\nIt's time to build. https://t.co/wu9CtJk38u",
+          "likes": 772,
+          "retweets": 18
+        }
+      ],
+      "publishedAt": "2026-06-11T03:23:19.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "bcherny-2026-06-11",
+      "source": "X",
+      "authorName": "Boris Cherny",
+      "authorHandle": "bcherny",
+      "authorBio": "Claude Code @anthropicai",
+      "title": "Boris Cherny",
+      "suggestedTitle": "",
+      "suggestedSummary": "Hello from Code with Claude Tokyo!! https://t.co/OGzffa1w58",
+      "tweets": [
+        {
+          "url": "https://x.com/bcherny/status/2064885111477219664",
+          "text": "Hello from Code with Claude Tokyo!! https://t.co/OGzffa1w58",
+          "likes": 1820,
+          "retweets": 77
+        }
+      ],
+      "publishedAt": "2026-06-11T01:39:08.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-06-11",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "2026 is a BRUTAL grind in VC. You start in Davos, freeze in Aspen, hit Upfront, survive Milken, then it’s straight to Paris for the French Open.  Briefly back in NYC for the Knicks. Then, total blur: SuperReturn in Berlin, Founders Forum in London, then back stateside for the World Cup, back to Paris for Raise AI, Idaho for Sun Valley, quick respite in Mykonos, then the Goldman tech gauntlet, Slush in Finland, NeurIPS in freakin’ Sydney… and *boom*, a productive year of thought leadership and adding value is over, and you’re a wreck.",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2064806681612362113",
+          "text": "2026 is a BRUTAL grind in VC. You start in Davos, freeze in Aspen, hit Upfront, survive Milken, then it’s straight to Paris for the French Open.  Briefly back in NYC for the Knicks. Then, total blur: SuperReturn in Berlin, Founders Forum in London, then back stateside for the World Cup, back to Paris for Raise AI, Idaho for Sun Valley, quick respite in Mykonos, then the Goldman tech gauntlet, Slush in Finland, NeurIPS in freakin’ Sydney… and *boom*, a productive year of thought leadership and adding value is over, and you’re a wreck.",
+          "likes": 488,
+          "retweets": 22
+        }
+      ],
+      "publishedAt": "2026-06-10T20:27:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "GoogleLabs-2026-06-11",
+      "source": "X",
+      "authorName": "Google Labs",
+      "authorHandle": "GoogleLabs",
+      "authorBio": "Google’s home for our latest AI tools and experiments.",
+      "title": "Google Labs",
+      "suggestedTitle": "",
+      "suggestedSummary": "🌍 Project Genie access is expanding even more! Starting today, Google AI Ultra 5X subscribers (our latest tier!) globally can access Project Genie.\n\nTry it out here! https://t.co/4BFYHSiAMv https://t.co/VL4MCvc44B",
+      "tweets": [
+        {
+          "url": "https://x.com/GoogleLabs/status/2064801929339752527",
+          "text": "🌍 Project Genie access is expanding even more! Starting today, Google AI Ultra 5X subscribers (our latest tier!) globally can access Project Genie.\n\nTry it out here! https://t.co/4BFYHSiAMv https://t.co/VL4MCvc44B",
+          "likes": 365,
+          "retweets": 60
+        }
+      ],
+      "publishedAt": "2026-06-10T20:08:36.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "joshwoodward-2026-06-11",
+      "source": "X",
+      "authorName": "Josh Woodward",
+      "authorHandle": "joshwoodward",
+      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward",
+      "suggestedTitle": "",
+      "suggestedSummary": "Update: Everything is back up and running, sorry again!\n\nHeads up: Gemini is currently experiencing an outage. We're on it and will get everything back up ASAP. Some of the fixes are in, the rest coming very soon. Stay tuned for updates, and thanks for bearing with us!",
+      "tweets": [
+        {
+          "url": "https://x.com/joshwoodward/status/2064869366290841716",
+          "text": "Update: Everything is back up and running, sorry again!",
+          "likes": 429,
+          "retweets": 27
+        },
+        {
+          "url": "https://x.com/joshwoodward/status/2064762269674918013",
+          "text": "Heads up: Gemini is currently experiencing an outage. We're on it and will get everything back up ASAP. Some of the fixes are in, the rest coming very soon. Stay tuned for updates, and thanks for bearing with us!",
+          "likes": 1553,
+          "retweets": 137
+        }
+      ],
+      "publishedAt": "2026-06-11T00:36:34.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-11",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Lots of evidence of huge jumps in capability for Fable across coding (and related) tasks. It’s also a major jump in accuracy and success in complex knowledge work tasks.\n\nIn our Box AI Complex Work Eval, we tested the model against Opus 4.8 and saw huge boosts across almost every industry. For our eval we give the Box AI Agent, using Fable, a set of hard real world knowledge work problems that deal with enterprise documents. Then score how the agent performs the tasks.\n\nThe main differentiators for Fable vs Opus 4.8 is that it doesn't take shortcuts on complex reasoning, it gets multi-step calculations right, and it's significantly more consistent across runs. We saw the biggest leaps in Media & Entertainment (78% vs 61%), Technology (81% vs 73%), Financial Services (89% vs 83%), and Healthcare (66% vs 60%).\n\nHere are some specific examples:\n\n* Legal M&A due diligence: On a task reviewing NDA terms against a semiconductor company's contracting policy, Fable correctly identified that a joint-ownership clause violates exclusivity requirements while a liability cap is permitted under a Super Cap exception. Fable scored 100% vs Opus's 78%.\n\n* Healthcare: On a clinical radiology error audit across 12 reports, Fable precisely categorized each error by severity grade and correctly concluded no Grade 3 errors existed. Opus prematurely escalated a case to \"major error requiring immediate departmental review\" when the evidence didn't support it — Fable 63% vs Opus 41%.\n\n* Media & Entertainment: On a genre profitability projection task, Fable correctly recognized that a 20% Argentine tax deduction was already embedded in the source spreadsheet figures and didn't double-apply it. Opus applied it again on top — a compounding error across 4 genre calculations that took its score negative on the task vs Fable's 74%.\n\n* Retail analytics: On a task analyzing high-growth product articles against an investment benchmark, Fable correctly computed each article's growth rate individually and identified that only 2 of 5 exceeded the threshold. Opus confused \"high growth relative to average\" with \"above the benchmark\" — scoring 61% vs Fable's 94%.\n\n* Financial Services: On a 5-year debt facility projection, Fable correctly applied interest to opening balances and used the right capex figure. Opus applied interest to the total facility amount and computed tax from the wrong base — two compounding errors. Fable scored 83% vs Opus's 62%.\n\n* Technology: On a SaaS feature valuation requiring computation of a Feature Value Index across multiple regions, Fable applied the formula correctly and got exact values for the markets. Opus got the arithmetic wrong on multiple criteria — Fable scored 100% vs Opus's 74%.\n\nOverall, huge step change in complex analysis, work that requires analytical reasoning, and deep domain understanding. Fable will be available shortly in the Box AI Studio for customers to build agents with.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2064922814688481678",
+          "text": "Lots of evidence of huge jumps in capability for Fable across coding (and related) tasks. It’s also a major jump in accuracy and success in complex knowledge work tasks.\n\nIn our Box AI Complex Work Eval, we tested the model against Opus 4.8 and saw huge boosts across almost every industry. For our eval we give the Box AI Agent, using Fable, a set of hard real world knowledge work problems that deal with enterprise documents. Then score how the agent performs the tasks.\n\nThe main differentiators for Fable vs Opus 4.8 is that it doesn't take shortcuts on complex reasoning, it gets multi-step calculations right, and it's significantly more consistent across runs. We saw the biggest leaps in Media & Entertainment (78% vs 61%), Technology (81% vs 73%), Financial Services (89% vs 83%), and Healthcare (66% vs 60%).\n\nHere are some specific examples:\n\n* Legal M&A due diligence: On a task reviewing NDA terms against a semiconductor company's contracting policy, Fable correctly identified that a joint-ownership clause violates exclusivity requirements while a liability cap is permitted under a Super Cap exception. Fable scored 100% vs Opus's 78%.\n\n* Healthcare: On a clinical radiology error audit across 12 reports, Fable precisely categorized each error by severity grade and correctly concluded no Grade 3 errors existed. Opus prematurely escalated a case to \"major error requiring immediate departmental review\" when the evidence didn't support it — Fable 63% vs Opus 41%.\n\n* Media & Entertainment: On a genre profitability projection task, Fable correctly recognized that a 20% Argentine tax deduction was already embedded in the source spreadsheet figures and didn't double-apply it. Opus applied it again on top — a compounding error across 4 genre calculations that took its score negative on the task vs Fable's 74%.\n\n* Retail analytics: On a task analyzing high-growth product articles against an investment benchmark, Fable correctly computed each article's growth rate individually and identified that only 2 of 5 exceeded the threshold. Opus confused \"high growth relative to average\" with \"above the benchmark\" — scoring 61% vs Fable's 94%.\n\n* Financial Services: On a 5-year debt facility projection, Fable correctly applied interest to opening balances and used the right capex figure. Opus applied interest to the total facility amount and computed tax from the wrong base — two compounding errors. Fable scored 83% vs Opus's 62%.\n\n* Technology: On a SaaS feature valuation requiring computation of a Feature Value Index across multiple regions, Fable applied the formula correctly and got exact values for the markets. Opus got the arithmetic wrong on multiple criteria — Fable scored 100% vs Opus's 74%.\n\nOverall, huge step change in complex analysis, work that requires analytical reasoning, and deep domain understanding. Fable will be available shortly in the Box AI Studio for customers to build agents with.",
+          "likes": 177,
+          "retweets": 19
+        }
+      ],
+      "publishedAt": "2026-06-11T04:08:58.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-11",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "🇬🇧 London calling\nExcited for Vercel Ship next week\nSome special announcements… https://t.co/WmOe53Q0Au https://t.co/ks68xJOHL7\n\nWhat I love about Silicon Valley is that the future is up for grabs, ready for anyone to build. \n\nI get intros for angel investing to all kinds of people. I take everyone equally seriously. 2 lads &amp; a dog, or a 5-time award-winning entrepreneur.\n\nNo place more meritocratic.",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2064777495422161205",
+          "text": "🇬🇧 London calling\nExcited for Vercel Ship next week\nSome special announcements… https://t.co/WmOe53Q0Au https://t.co/ks68xJOHL7",
+          "likes": 182,
+          "retweets": 8
+        },
+        {
+          "url": "https://x.com/rauchg/status/2064732935484514729",
+          "text": "What I love about Silicon Valley is that the future is up for grabs, ready for anyone to build. \n\nI get intros for angel investing to all kinds of people. I take everyone equally seriously. 2 lads &amp; a dog, or a 5-time award-winning entrepreneur.\n\nNo place more meritocratic.",
+          "likes": 815,
+          "retweets": 20
+        }
+      ],
+      "publishedAt": "2026-06-10T18:31:31.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-06-11",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "Automate your job search with Replit! https://t.co/OiJSdTvhi2\n\n🇺🇸🇺🇸🇺🇸 https://t.co/EBM3X4YQ5T\n\nSuper interesting approach to enterprise agents. Congrats on the launch @markiewagner https://t.co/BfGani53y1",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2064864439275536495",
+          "text": "Automate your job search with Replit! https://t.co/OiJSdTvhi2",
+          "likes": 164,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/amasad/status/2064864076430504282",
+          "text": "🇺🇸🇺🇸🇺🇸 https://t.co/EBM3X4YQ5T",
+          "likes": 802,
+          "retweets": 40
+        },
+        {
+          "url": "https://x.com/amasad/status/2064806473352540643",
+          "text": "Super interesting approach to enterprise agents. Congrats on the launch @markiewagner https://t.co/BfGani53y1",
+          "likes": 185,
+          "retweets": 11
+        }
+      ],
+      "publishedAt": "2026-06-11T00:17:00.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-06-11",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is so good\n\nIncreasingly the output of an agency looks like a folder of files for agents, instead of one-off assets\n\n\"Get paid for your mind, not your hands\" https://t.co/C1O4J2HW2F https://t.co/WMf0DetvTY\n\nPeople should build agents/skills for their cross-functional teams.\n\nFor example, if a design team builds a design agent/skill for the marketing team (trained on all of the brand's guidelines and design patterns), then the marketing team can produce more on-brand assets without having to bug designers every time\n\nBut the marketing team couldn't have built this on their own; it takes the designer with their expertise, context, and knowledge\n\nSame thing applies to every pair of teams that work closely with each other, often rely on each other, and complain about each other's limited bandwidth\n\nBuilding agents for your cross-functional teams ensures each team can be more self-sufficient, and moves us to a direction where teams can be organized by \"loops\" rather than \"functions\"\n\nIt seems like most startups in San Francisco are selling products to each other\n\nWhen I ask founders who their target audience is, 90% of the time it's \"engineering and product teams, AI-native startups\"\n\nFeels like the same small group of target audience is being bombarded with a million products, whereas very few people are building for the 99% of the world",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2064843560248332577",
+          "text": "This is so good\n\nIncreasingly the output of an agency looks like a folder of files for agents, instead of one-off assets\n\n\"Get paid for your mind, not your hands\" https://t.co/C1O4J2HW2F https://t.co/WMf0DetvTY",
+          "likes": 104,
+          "retweets": 7
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2064835289559023958",
+          "text": "People should build agents/skills for their cross-functional teams.\n\nFor example, if a design team builds a design agent/skill for the marketing team (trained on all of the brand's guidelines and design patterns), then the marketing team can produce more on-brand assets without having to bug designers every time\n\nBut the marketing team couldn't have built this on their own; it takes the designer with their expertise, context, and knowledge\n\nSame thing applies to every pair of teams that work closely with each other, often rely on each other, and complain about each other's limited bandwidth\n\nBuilding agents for your cross-functional teams ensures each team can be more self-sufficient, and moves us to a direction where teams can be organized by \"loops\" rather than \"functions\"",
+          "likes": 50,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2064825302359150870",
+          "text": "It seems like most startups in San Francisco are selling products to each other\n\nWhen I ask founders who their target audience is, 90% of the time it's \"engineering and product teams, AI-native startups\"\n\nFeels like the same small group of target audience is being bombarded with a million products, whereas very few people are building for the 99% of the world",
+          "likes": 203,
+          "retweets": 17
+        }
+      ],
+      "publishedAt": "2026-06-10T22:54:02.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-06-11",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "Thariq",
+      "suggestedTitle": "",
+      "suggestedSummary": "and the video for reference: https://t.co/tw0w0tmjIK\n\n(I didnt get to use the updated designs in time)\n\nhere's the deck from this video if you want to go over it yourself: https://t.co/6adKYvxUxD\n\nlmk if you have any questions!\n\nLots of people asked how I used Fable to edit its own launch video so I made a video about that!\n\nTLDR it wrote a lot of code &amp;  tool calls to use transcription services, ffmpeg, do colorgrading, use the figma mcp, make remotion UI and render it. \n\nI didn't touch a video editor. https://t.co/hJRdJye5Fy",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2064828193446740023",
+          "text": "and the video for reference: https://t.co/tw0w0tmjIK\n\n(I didnt get to use the updated designs in time)",
+          "likes": 92,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/trq212/status/2064826541947940910",
+          "text": "here's the deck from this video if you want to go over it yourself: https://t.co/6adKYvxUxD\n\nlmk if you have any questions!",
+          "likes": 203,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/trq212/status/2064826394589442448",
+          "text": "Lots of people asked how I used Fable to edit its own launch video so I made a video about that!\n\nTLDR it wrote a lot of code &amp;  tool calls to use transcription services, ffmpeg, do colorgrading, use the figma mcp, make remotion UI and render it. \n\nI didn't touch a video editor. https://t.co/hJRdJye5Fy",
+          "likes": 6036,
+          "retweets": 367
+        }
+      ],
+      "publishedAt": "2026-06-10T21:52:58.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-11",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "May common sense reign in San Francisco for 100 years\n\nAaron Peskin, enjoy being a private citizen. https://t.co/QjawbyY7mj\n\nPerformative nonprofit industrial complex must be rooted out and defunded. \n\nTheir political cronies and grifter friends must not be allowed to squander the gifts of San Francisco any longer. https://t.co/rMPnV732TZ\n\nNessie just became the best way to get all your existing context, memory and history from ChatGPT, Perplexity, and Gemini into all the other places you have memory, and also get it into OpenClaw/Hermes Agent. Their OpenClaw and MCP servers are ace. \n\nhttps://t.co/0L1JaBlTvg",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2064948068076986657",
+          "text": "May common sense reign in San Francisco for 100 years\n\nAaron Peskin, enjoy being a private citizen. https://t.co/QjawbyY7mj",
+          "likes": 54,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/garrytan/status/2064947547735789715",
+          "text": "Performative nonprofit industrial complex must be rooted out and defunded. \n\nTheir political cronies and grifter friends must not be allowed to squander the gifts of San Francisco any longer. https://t.co/rMPnV732TZ",
+          "likes": 114,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/garrytan/status/2064947145652994510",
+          "text": "Nessie just became the best way to get all your existing context, memory and history from ChatGPT, Perplexity, and Gemini into all the other places you have memory, and also get it into OpenClaw/Hermes Agent. Their OpenClaw and MCP servers are ace. \n\nhttps://t.co/0L1JaBlTvg",
+          "likes": 269,
+          "retweets": 23
+        }
+      ],
+      "publishedAt": "2026-06-11T05:49:18.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-11",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Give yourself permission to build.\n\nThe traditional career ladder pushes everyone to become a leader, but I just want to be a builder.\n\nAs you climb the ladder at most companies, you’re expected to step away from building and fill your time with product reviews, cross-functional alignment, managing up, and performance calibrations.\n\nI know a lot of builders who spent their best years climbing the wrong ladder.\n\nThe good news is that this is finally changing. Companies are rewarding builders and ICs more than ever, and even managers are increasingly expected to do IC work too.\n\nBut becoming a good builder takes reps, and it’s hard to put in those reps when you’re in back-to-back meetings all day.\n\nSo if you’re a builder at heart, embrace it. You don’t have to give up what you’re good at to be a “leader.”\n\n📌 Watch now: https://t.co/wv2SINll18\n\nThis shit is actually working unbelievable https://t.co/0wtkHtT6kD\n\nThe more I use Codex the more ambitious my requests get. Or maybe this is not ambitious enough? https://t.co/C0qgjmKGRt",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2064799855059616172",
+          "text": "Give yourself permission to build.\n\nThe traditional career ladder pushes everyone to become a leader, but I just want to be a builder.\n\nAs you climb the ladder at most companies, you’re expected to step away from building and fill your time with product reviews, cross-functional alignment, managing up, and performance calibrations.\n\nI know a lot of builders who spent their best years climbing the wrong ladder.\n\nThe good news is that this is finally changing. Companies are rewarding builders and ICs more than ever, and even managers are increasingly expected to do IC work too.\n\nBut becoming a good builder takes reps, and it’s hard to put in those reps when you’re in back-to-back meetings all day.\n\nSo if you’re a builder at heart, embrace it. You don’t have to give up what you’re good at to be a “leader.”\n\n📌 Watch now: https://t.co/wv2SINll18",
+          "likes": 52,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2064760792684335133",
+          "text": "This shit is actually working unbelievable https://t.co/0wtkHtT6kD",
+          "likes": 8,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2064748427892945313",
+          "text": "The more I use Codex the more ambitious my requests get. Or maybe this is not ambitious enough? https://t.co/C0qgjmKGRt",
+          "likes": 48,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-10T20:00:22.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "realmadhugur-2026-06-11",
+      "source": "X",
+      "authorName": "Madhu Guru",
+      "authorHandle": "realmadhuguru",
+      "authorBio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "Madhu Guru",
+      "suggestedTitle": "",
+      "suggestedSummary": "Right from the early days of Gemini, enterprises would get the quality/cost tradeoff wrong. They’d often start with the smallest, cheapest model.\n\nThe rule of thumb we gave customers:\n\nReplacing a traditional ML model with an LLM - start small, cos you already know what good looks like.\n\nBuilding something new - start with the most capable model. Think magically. Figure out what’s actually possible first.\n\nOnce they had a high-quality working application, we’d help them move to a smaller model while maintaining quality.",
+      "tweets": [
+        {
+          "url": "https://x.com/realmadhuguru/status/2064794601320481150",
+          "text": "Right from the early days of Gemini, enterprises would get the quality/cost tradeoff wrong. They’d often start with the smallest, cheapest model.\n\nThe rule of thumb we gave customers:\n\nReplacing a traditional ML model with an LLM - start small, cos you already know what good looks like.\n\nBuilding something new - start with the most capable model. Think magically. Figure out what’s actually possible first.\n\nOnce they had a high-quality working application, we’d help them move to a smaller model while maintaining quality.",
+          "likes": 20,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-10T19:39:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-11",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "wooh https://t.co/TCPfb1tyr1",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2064698525917827092",
+          "text": "wooh https://t.co/TCPfb1tyr1",
+          "likes": 8,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-10T13:17:43.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-06-11",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "gangprompting https://t.co/ZnO5TTrFv6\n\nThere's a thing they say about being a boat owner: the two best days of being a boat owner are the day you buy the boat and the day you sell the boat. https://t.co/ohqCRBqpUA",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2064733338779177459",
+          "text": "gangprompting https://t.co/ZnO5TTrFv6",
+          "likes": 10,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2064711789556732316",
+          "text": "There's a thing they say about being a boat owner: the two best days of being a boat owner are the day you buy the boat and the day you sell the boat. https://t.co/ohqCRBqpUA",
+          "likes": 15,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-10T15:36:03.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-11",
+      "source": "AI & I by Every",
+      "title": "How Anthropic Uses Claude Fable 5 With Mike Krieger",
+      "url": "https://www.youtube.com/watch?v=XWpTgCvgYaE",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-10T17:27:38.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
   "blogUpdates": [],
   "metadata": {
-    "totalBuilders": 18,
-    "totalTweets": 37,
+    "totalBuilders": 15,
+    "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-06-11T15:08:21.362Z",
-    "estimatedReadTime": "3 min"
+    "generatedAt": "2026-07-09T18:00:47.330Z",
+    "backfilled": true,
+    "estimatedReadTime": "8 min"
   }
 }

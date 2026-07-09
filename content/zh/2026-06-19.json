@@ -2,15 +2,430 @@
   "date": "2026-06-19",
   "lang": "zh",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
-  "blogUpdates": [],
+  "builderInsights": [
+    {
+      "id": "bcherny-2026-06-19",
+      "source": "X",
+      "authorName": "Boris Cherny",
+      "authorHandle": "bcherny",
+      "authorBio": "Claude Code @anthropicai",
+      "title": "Boris Cherny",
+      "suggestedTitle": "",
+      "suggestedSummary": "I've been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of a few animation options, data analyses and dashboards I share with the team. They are a game changer for how I work with Claude. Can't wait to hear what you think!",
+      "tweets": [
+        {
+          "url": "https://x.com/bcherny/status/2067700226669060207",
+          "text": "I've been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of a few animation options, data analyses and dashboards I share with the team. They are a game changer for how I work with Claude. Can't wait to hear what you think!",
+          "likes": 3128,
+          "retweets": 168
+        }
+      ],
+      "publishedAt": "2026-06-18T20:05:24.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-19",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/XdZBViUJdA",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2067586339021734029",
+          "text": "https://t.co/XdZBViUJdA",
+          "likes": 1792,
+          "retweets": 69
+        }
+      ],
+      "publishedAt": "2026-06-18T12:32:51.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "catwu-2026-06-19",
+      "source": "X",
+      "authorName": "Cat Wu",
+      "authorHandle": "_catwu",
+      "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "Cat Wu",
+      "suggestedTitle": "",
+      "suggestedSummary": "On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates! \n\nThis has changed how we work internally. Artifacts is great format for communicating architecture changes, data analyses, and new prototypes. https://t.co/nDgL4MWjBF",
+      "tweets": [
+        {
+          "url": "https://x.com/_catwu/status/2067674836726694200",
+          "text": "On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates! \n\nThis has changed how we work internally. Artifacts is great format for communicating architecture changes, data analyses, and new prototypes. https://t.co/nDgL4MWjBF",
+          "likes": 946,
+          "retweets": 47
+        }
+      ],
+      "publishedAt": "2026-06-18T18:24:31.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-19",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. \n\nThe implications of open models getting to frontier performance ensures that you can always have sovereign AI, have the ability to post train for your specific workflows, cost optimize for various workloads, and actually afford to do much more with AI (which opens up meaningfully different applications).\n\nHuge win for the applied AI layer.\n\nThis is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look like with AI regulation. \n\nThe government will have frameworks that are used to determine future model releases past a certain threshold of capability or compute levels. Given all the constituents involved, and the economic and societal significance of AI, this was practically an inevitability.\n\nIt may seem small but the implications are massive. It will mean that each model update will go through an extensive review, testing, and feedback process. And in that processes lots of groups will weigh in on the risk of the model, and there will be lots of subjectivity on what the actual risks are or practicalities of exploiting those risks. \n\nA positive potential future here would be we still get massive model progress but they just happen in bigger jumps at once, where the labs pack in major improvements since the cost and slow down of each review stacks up. \n\nOn the other side, the risk is that past a certain threshold we may not get to see the rapid back and forth of model progress that we’ve gotten used to which can have negative compounding effects. Hoping for the former outcome.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2067821985342878180",
+          "text": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. \n\nThe implications of open models getting to frontier performance ensures that you can always have sovereign AI, have the ability to post train for your specific workflows, cost optimize for various workloads, and actually afford to do much more with AI (which opens up meaningfully different applications).\n\nHuge win for the applied AI layer.",
+          "likes": 319,
+          "retweets": 49
+        },
+        {
+          "url": "https://x.com/levie/status/2067802697324212562",
+          "text": "This is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look like with AI regulation. \n\nThe government will have frameworks that are used to determine future model releases past a certain threshold of capability or compute levels. Given all the constituents involved, and the economic and societal significance of AI, this was practically an inevitability.\n\nIt may seem small but the implications are massive. It will mean that each model update will go through an extensive review, testing, and feedback process. And in that processes lots of groups will weigh in on the risk of the model, and there will be lots of subjectivity on what the actual risks are or practicalities of exploiting those risks. \n\nA positive potential future here would be we still get massive model progress but they just happen in bigger jumps at once, where the labs pack in major improvements since the cost and slow down of each review stacks up. \n\nOn the other side, the risk is that past a certain threshold we may not get to see the rapid back and forth of model progress that we’ve gotten used to which can have negative compounding effects. Hoping for the former outcome.",
+          "likes": 151,
+          "retweets": 9
+        }
+      ],
+      "publishedAt": "2026-06-19T04:09:14.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-19",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "AP reports on the $200M sales level\n\nAsset seizure is evil. My grandparents and parents generations came to America to flee asset seizure and this ideology. We came here to build prosperity. \n\nAn America that still builds is worth defending. \n\nhttps://t.co/L8j4FFUkOW\n\nBernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. \n\nThe same anti-prosperity bloc spent the year trying to ban startup acquisitions, blocking the only exit 85% of founders ever get. \n\nThis is a war on building startups in America. https://t.co/zwYL1wlLHO\n\nFor people who don’t have a clear sense of the future they want, AI is just another mechanism of control\n\nBut in the hands of someone with agency, AI is the breaker of chains, something that lets you do things no humans can do alone. \n\nAI can be a liberator if you choose agency.",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2067637324763316499",
+          "text": "AP reports on the $200M sales level\n\nAsset seizure is evil. My grandparents and parents generations came to America to flee asset seizure and this ideology. We came here to build prosperity. \n\nAn America that still builds is worth defending. \n\nhttps://t.co/L8j4FFUkOW",
+          "likes": 267,
+          "retweets": 13
+        },
+        {
+          "url": "https://x.com/garrytan/status/2067636692794875923",
+          "text": "Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. \n\nThe same anti-prosperity bloc spent the year trying to ban startup acquisitions, blocking the only exit 85% of founders ever get. \n\nThis is a war on building startups in America. https://t.co/zwYL1wlLHO",
+          "likes": 8496,
+          "retweets": 689
+        },
+        {
+          "url": "https://x.com/garrytan/status/2067606805459714229",
+          "text": "For people who don’t have a clear sense of the future they want, AI is just another mechanism of control\n\nBut in the hands of someone with agency, AI is the breaker of chains, something that lets you do things no humans can do alone. \n\nAI can be a liberator if you choose agency.",
+          "likes": 1001,
+          "retweets": 99
+        }
+      ],
+      "publishedAt": "2026-06-18T15:55:27.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-06-19",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "What do you use",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2067783964077547520",
+          "text": "What do you use",
+          "likes": 223,
+          "retweets": 7
+        }
+      ],
+      "publishedAt": "2026-06-19T01:38:09.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "AmandaAskell-2026-06-19",
+      "source": "X",
+      "authorName": "Amanda Askell",
+      "authorHandle": "AmandaAskell",
+      "authorBio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
+      "title": "Amanda Askell",
+      "suggestedTitle": "",
+      "suggestedSummary": "I'm going to add \"wear an Iris van Herpen dress\" to my retirement wishlist. What good art.",
+      "tweets": [
+        {
+          "url": "https://x.com/AmandaAskell/status/2067830990089884022",
+          "text": "I'm going to add \"wear an Iris van Herpen dress\" to my retirement wishlist. What good art.",
+          "likes": 92,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-06-19T04:45:01.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-19",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "+55% in one day. i should start a fund\n\n(dm if you would actually help me run one, i have no idea how to run one) https://t.co/xDABotzUVq https://t.co/whWdtDyZv4\n\n@DevinAI @tbpn https://t.co/uNX04pBigg\n\n@midjourney @Scobleizer @bryan_johnson @DavidSHolz @iScienceLuvr whoa i had no idea who i was talking to lmao https://t.co/dcDg09MkgY https://t.co/KoZWmFDwBb",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2067764968808915392",
+          "text": "+55% in one day. i should start a fund\n\n(dm if you would actually help me run one, i have no idea how to run one) https://t.co/xDABotzUVq https://t.co/whWdtDyZv4",
+          "likes": 47,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/swyx/status/2067744224892821737",
+          "text": "@DevinAI @tbpn https://t.co/uNX04pBigg",
+          "likes": 4,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2067741621647749296",
+          "text": "@midjourney @Scobleizer @bryan_johnson @DavidSHolz @iScienceLuvr whoa i had no idea who i was talking to lmao https://t.co/dcDg09MkgY https://t.co/KoZWmFDwBb",
+          "likes": 5,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-19T00:22:40.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-06-19",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "✨ https://t.co/gfIUUE8Ors\n\n😎 https://t.co/V87qUtfcI9\n\nAwesome! https://t.co/jL8Ft9e8Sz",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2067832394913104309",
+          "text": "✨ https://t.co/gfIUUE8Ors",
+          "likes": 28,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/amasad/status/2067831841357193237",
+          "text": "😎 https://t.co/V87qUtfcI9",
+          "likes": 57,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/amasad/status/2067831496388358176",
+          "text": "Awesome! https://t.co/jL8Ft9e8Sz",
+          "likes": 46,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-19T04:50:36.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-06-19",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "It took us a lot of iterations to find the right pattern for this. Early on we were very naive and we thought that the agent could one shot project updates without much input from users.\n\nThat approach ended up creating a bunch of slop, because users disengaged their brain from the process of writing an update.\n\nBy switching to a multi turn interactive mode, the agent prompts you and asks you what to emphasize, what's most important, what context is missing, etc.\n\nThis simple change elicits much better project updates and ensures that the user has a chance to steer rather than simply being asked to say yes to everything.\n\nA very good example of introducing friction for a net benefit.\n\nit is making the right choice from a range of plausible options along many dimensions with limited information... when a chess or go player intuits a move without calculating, they are exercising taste\n\nhttps://t.co/044iRz1wQf",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2067703108344369306",
+          "text": "It took us a lot of iterations to find the right pattern for this. Early on we were very naive and we thought that the agent could one shot project updates without much input from users.\n\nThat approach ended up creating a bunch of slop, because users disengaged their brain from the process of writing an update.\n\nBy switching to a multi turn interactive mode, the agent prompts you and asks you what to emphasize, what's most important, what context is missing, etc.\n\nThis simple change elicits much better project updates and ensures that the user has a chance to steer rather than simply being asked to say yes to everything.\n\nA very good example of introducing friction for a net benefit.",
+          "likes": 24,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2067701849491206399",
+          "text": "it is making the right choice from a range of plausible options along many dimensions with limited information... when a chess or go player intuits a move without calculating, they are exercising taste\n\nhttps://t.co/044iRz1wQf",
+          "likes": 2,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-18T20:16:51.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-06-19",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "Thariq",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/Sl36HC0Cli\n\nI'll be giving the the Day 2 opening keynote at AI Engineer World's Fair on July 1st at 9am.\n\nHope to see you there, here's a quick preview https://t.co/s5DNmuBjJK\n\nClaude Code can now upload and edit HTML artifacts that you can share with your team or other Claudes!\n\nStarting with teams so you can share internally with your team, coming to Pro and MAX plans soon! https://t.co/Sdmz9mEdNY",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2067737885378568653",
+          "text": "https://t.co/Sl36HC0Cli",
+          "likes": 26,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/trq212/status/2067737883545596368",
+          "text": "I'll be giving the the Day 2 opening keynote at AI Engineer World's Fair on July 1st at 9am.\n\nHope to see you there, here's a quick preview https://t.co/s5DNmuBjJK",
+          "likes": 649,
+          "retweets": 16
+        },
+        {
+          "url": "https://x.com/trq212/status/2067682475611242546",
+          "text": "Claude Code can now upload and edit HTML artifacts that you can share with your team or other Claudes!\n\nStarting with teams so you can share internally with your team, coming to Pro and MAX plans soon! https://t.co/Sdmz9mEdNY",
+          "likes": 1740,
+          "retweets": 83
+        }
+      ],
+      "publishedAt": "2026-06-18T22:35:03.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-19",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "@OpenAIDevs how about letting us add voice over narration next like taking a quick clip to explain how to do something to a coworker\n\nHow do you steer Claude Code with new prompts in the desktop app while it's working?\n\nIf you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2067783369153470878",
+          "text": "@OpenAIDevs how about letting us add voice over narration next like taking a quick clip to explain how to do something to a coworker",
+          "likes": 5,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2067760098265706566",
+          "text": "How do you steer Claude Code with new prompts in the desktop app while it's working?",
+          "likes": 62,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/petergyang/status/2067729596343259319",
+          "text": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+          "likes": 1,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-19T01:35:47.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "realmadhugur-2026-06-19",
+      "source": "X",
+      "authorName": "Madhu Guru",
+      "authorHandle": "realmadhuguru",
+      "authorBio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "Madhu Guru",
+      "suggestedTitle": "",
+      "suggestedSummary": "did you know LLMs secretly refer to our prompts as human slop?",
+      "tweets": [
+        {
+          "url": "https://x.com/realmadhuguru/status/2067644951874404650",
+          "text": "did you know LLMs secretly refer to our prompts as human slop?",
+          "likes": 8,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-18T16:25:46.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-06-19",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "This awesome conversation with @stephenbalaban of @LambdaAPI is also available on Spotify, Apple Podcasts and here on YouTube:\n\nhttps://t.co/6ic2AingiG\n\nState of AI compute 2026: my conversation with @stephenbalaban of @LambdaAPI on the neocloud boom, data centers, GPUs and what's ahead\n\n00:00 — Cold open\n01:21 — Why GPU compute was never a commodity\n02:45 — The H100 price index and what it gets wrong\n04:02 — The real moat: technology or financing?\n05:57 — Winner-take-all, or room for many neoclouds\n06:48 — Are we overbuilding or underbuilding AI compute?\n09:26 — What if AI gets 10x more compute-efficient?\n10:44 — The real bottleneck: land, power, and shell\n11:38 — The backlash against data centers — and the misinformation\n15:00 — Opening the hood: from photons to tokens\n17:11 — Extracting more value from the same chip\n19:26 — Frontier inference and distributed training, explained\n23:26 — What actually drives compute cost\n25:21 — Lambda's chip stack and the NVIDIA relationship\n26:17 — A multi-silicon world? CUDA, CUDNN, and NVIDIA's real moat\n28:59 — Networking, storage, and the one-click cluster\n34:46 — Renting vs. owning, and full vertical integration\n36:24 — How global is Lambda? Does location still matter?\n38:44 — The financing stack: off-take agreements, SPVs, and credit\n41:16 — Why a 2023 GPU leases for more today\n42:36 — A futures market for compute?\n43:54 — Origin story: facial recognition, Perceptio, and Apple\n47:03 — The Lambda hat and Dream Scope\n48:59 — The $60K bet that became a cloud business\n52:00 — Holding the team together through the hard times\n54:30 — Bringing on a new CEO; Stephen as CTO\n57:33 — Matching xAI on high-velocity deployment\n59:29 — \"AI won't write software — it will become the software\"\n01:01:30 — Neural software vs. vibe coding\n01:04:25 — Do agents change the compute layer\n01:06:14 — Self-assembling software inside Lambda\n01:08:18 — Gigawatt-scale AI factories\n01:08:57 — One person, one GPU\n01:12:04 — Hot takes: overrated and underrated in AI",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2067646203517448255",
+          "text": "This awesome conversation with @stephenbalaban of @LambdaAPI is also available on Spotify, Apple Podcasts and here on YouTube:\n\nhttps://t.co/6ic2AingiG",
+          "likes": 4,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/mattturck/status/2067646198140358854",
+          "text": "State of AI compute 2026: my conversation with @stephenbalaban of @LambdaAPI on the neocloud boom, data centers, GPUs and what's ahead\n\n00:00 — Cold open\n01:21 — Why GPU compute was never a commodity\n02:45 — The H100 price index and what it gets wrong\n04:02 — The real moat: technology or financing?\n05:57 — Winner-take-all, or room for many neoclouds\n06:48 — Are we overbuilding or underbuilding AI compute?\n09:26 — What if AI gets 10x more compute-efficient?\n10:44 — The real bottleneck: land, power, and shell\n11:38 — The backlash against data centers — and the misinformation\n15:00 — Opening the hood: from photons to tokens\n17:11 — Extracting more value from the same chip\n19:26 — Frontier inference and distributed training, explained\n23:26 — What actually drives compute cost\n25:21 — Lambda's chip stack and the NVIDIA relationship\n26:17 — A multi-silicon world? CUDA, CUDNN, and NVIDIA's real moat\n28:59 — Networking, storage, and the one-click cluster\n34:46 — Renting vs. owning, and full vertical integration\n36:24 — How global is Lambda? Does location still matter?\n38:44 — The financing stack: off-take agreements, SPVs, and credit\n41:16 — Why a 2023 GPU leases for more today\n42:36 — A futures market for compute?\n43:54 — Origin story: facial recognition, Perceptio, and Apple\n47:03 — The Lambda hat and Dream Scope\n48:59 — The $60K bet that became a cloud business\n52:00 — Holding the team together through the hard times\n54:30 — Bringing on a new CEO; Stephen as CTO\n57:33 — Matching xAI on high-velocity deployment\n59:29 — \"AI won't write software — it will become the software\"\n01:01:30 — Neural software vs. vibe coding\n01:04:25 — Do agents change the compute layer\n01:06:14 — Self-assembling software inside Lambda\n01:08:18 — Gigawatt-scale AI factories\n01:08:57 — One person, one GPU\n01:12:04 — Hot takes: overrated and underrated in AI",
+          "likes": 99,
+          "retweets": 15
+        }
+      ],
+      "publishedAt": "2026-06-18T16:30:44.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-06-19",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Frontend Slides skill: https://t.co/F951xNM4Bp\n\nRecording of my talk: https://t.co/t6cVHdM3Oo\n\nMade a beautiful HTML deck using my Frontend Slides skill; very happy with how it turned out! \n\nLots of easter eggs (e.g. you can click any image to enlarge them, lots of nested content/hyperlinks/interactive elements etc)\n\nCheck it out: https://t.co/PBTqcZmZYX https://t.co/l0GcD8L3vc\n\nEven more true today https://t.co/5FN6YC4jgJ",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2067851144664342725",
+          "text": "Frontend Slides skill: https://t.co/F951xNM4Bp\n\nRecording of my talk: https://t.co/t6cVHdM3Oo",
+          "likes": 4,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2067850383758901669",
+          "text": "Made a beautiful HTML deck using my Frontend Slides skill; very happy with how it turned out! \n\nLots of easter eggs (e.g. you can click any image to enlarge them, lots of nested content/hyperlinks/interactive elements etc)\n\nCheck it out: https://t.co/PBTqcZmZYX https://t.co/l0GcD8L3vc",
+          "likes": 84,
+          "retweets": 8
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2067661289367998602",
+          "text": "Even more true today https://t.co/5FN6YC4jgJ",
+          "likes": 46,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-19T06:05:06.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-19",
+      "source": "The MAD Podcast with Matt Turck",
+      "title": "The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban",
+      "url": "https://www.youtube.com/watch?v=0NttU4CbyVs",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-18T11:30:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpsclaudec-2026-06-19",
+      "source": "Claude Blog",
+      "title": "Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "author": null,
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "Jun 18, 2026",
+      "category": "blogUpdates"
+    }
+  ],
   "metadata": {
-    "totalBuilders": 19,
-    "totalTweets": 40,
+    "totalBuilders": 15,
+    "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-06-19T15:00:50.032Z",
-    "estimatedReadTime": "3 分钟"
+    "generatedAt": "2026-07-09T18:00:47.649Z",
+    "backfilled": true,
+    "estimatedReadTime": "9 分钟"
   }
 }

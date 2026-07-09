@@ -2,15 +2,436 @@
   "date": "2026-06-24",
   "lang": "ja",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
+  "builderInsights": [
+    {
+      "id": "karpathy-2026-06-24",
+      "source": "X",
+      "authorName": "Andrej Karpathy",
+      "authorHandle": "karpathy",
+      "authorBio": "I like training large deep neural nets.",
+      "title": "Andrej Karpathy",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads.\n\nImo this is the 3rd major redesign of LLM UIUX. The first paradigm was that the LLM is a website you go to, the second was that it is an app you download to your computer. This third one is that it is a self-contained, persistent, asynchronous entity with org-wide tools and context, working alongside teams of humans. It really takes a while to wrap your head around it, but it works and it is awesome.",
+      "tweets": [
+        {
+          "url": "https://x.com/karpathy/status/2069547676849557725",
+          "text": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads.\n\nImo this is the 3rd major redesign of LLM UIUX. The first paradigm was that the LLM is a website you go to, the second was that it is an app you download to your computer. This third one is that it is a self-contained, persistent, asynchronous entity with org-wide tools and context, working alongside teams of humans. It really takes a while to wrap your head around it, but it works and it is awesome.",
+          "likes": 12492,
+          "retweets": 974
+        }
+      ],
+      "publishedAt": "2026-06-23T22:26:31.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-06-24",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "Expanding the world cup from 32 to 48 teams was such a genius idea.  Creates some Cinderalla stories (Curacao, Cabo Verde, DR Congo etc), and enables the stars (Messi, Ronaldo, MBappe, Haaland etc) to shine early.  Loving it all so far.",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2069481767652794768",
+          "text": "Expanding the world cup from 32 to 48 teams was such a genius idea.  Creates some Cinderalla stories (Curacao, Cabo Verde, DR Congo etc), and enables the stars (Messi, Ronaldo, MBappe, Haaland etc) to shine early.  Loving it all so far.",
+          "likes": 1290,
+          "retweets": 28
+        }
+      ],
+      "publishedAt": "2026-06-23T18:04:37.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-06-24",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s\n\nCodex loves slurping up bugs https://t.co/2REc24J0VO\n\nCodex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming. https://t.co/hopJLfcDxd",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2069624530960838914",
+          "text": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
+          "likes": 989,
+          "retweets": 11
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2069592160966733853",
+          "text": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+          "likes": 978,
+          "retweets": 25
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2069579993588625574",
+          "text": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming. https://t.co/hopJLfcDxd",
+          "likes": 3249,
+          "retweets": 104
+        }
+      ],
+      "publishedAt": "2026-06-24T03:31:54.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-06-24",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! https://t.co/ARUtRHwvFf https://t.co/fu1FQpfyHY\n\nK-coding https://t.co/xDprsRZeLP",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2069588152285794373",
+          "text": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! https://t.co/ARUtRHwvFf https://t.co/fu1FQpfyHY",
+          "likes": 826,
+          "retweets": 18
+        },
+        {
+          "url": "https://x.com/amasad/status/2069322872456364540",
+          "text": "K-coding https://t.co/xDprsRZeLP",
+          "likes": 66,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-24T01:07:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "alexalbert-2026-06-24",
+      "source": "X",
+      "authorName": "Alex Albert",
+      "authorHandle": "alexalbert__",
+      "authorBio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "Alex Albert",
+      "suggestedTitle": "",
+      "suggestedSummary": "This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team. https://t.co/JaUllMPTJW",
+      "tweets": [
+        {
+          "url": "https://x.com/alexalbert__/status/2069470389391241314",
+          "text": "This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team. https://t.co/JaUllMPTJW",
+          "likes": 519,
+          "retweets": 14
+        }
+      ],
+      "publishedAt": "2026-06-23T17:19:24.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "catwu-2026-06-24",
+      "source": "X",
+      "authorName": "Cat Wu",
+      "authorHandle": "_catwu",
+      "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "Cat Wu",
+      "suggestedTitle": "",
+      "suggestedSummary": "There are 100s of ways you can customize Claude Tag for any use case.\n\nHere are 6 common flows that have resonated with our internal users and external design partners: https://t.co/eMw8xdDZOZ\n\nHere’s our Get Started guide for configuring agent permissions for Claude Tag! https://t.co/x7G0o8Cjx1\n\nClaude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and this is our first product that is natively multi-player and proactive.\n\nWe're excited for you to try this out. Let us know your feedback! https://t.co/YOENq4hDSt",
+      "tweets": [
+        {
+          "url": "https://x.com/_catwu/status/2069486403696869555",
+          "text": "There are 100s of ways you can customize Claude Tag for any use case.\n\nHere are 6 common flows that have resonated with our internal users and external design partners: https://t.co/eMw8xdDZOZ",
+          "likes": 402,
+          "retweets": 16
+        },
+        {
+          "url": "https://x.com/_catwu/status/2069484330938998993",
+          "text": "Here’s our Get Started guide for configuring agent permissions for Claude Tag! https://t.co/x7G0o8Cjx1",
+          "likes": 230,
+          "retweets": 10
+        },
+        {
+          "url": "https://x.com/_catwu/status/2069473118742331608",
+          "text": "Claude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and this is our first product that is natively multi-player and proactive.\n\nWe're excited for you to try this out. Let us know your feedback! https://t.co/YOENq4hDSt",
+          "likes": 158,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-06-23T18:23:02.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-24",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quality critical feedback or requirements to share, DM me and I’ll add you to a group with eve engineers\n\nVercel + Cursor https://t.co/3AyhoYnUM1",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2069590431646769472",
+          "text": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quality critical feedback or requirements to share, DM me and I’ll add you to a group with eve engineers",
+          "likes": 274,
+          "retweets": 14
+        },
+        {
+          "url": "https://x.com/rauchg/status/2069513849578082474",
+          "text": "Vercel + Cursor https://t.co/3AyhoYnUM1",
+          "likes": 448,
+          "retweets": 13
+        }
+      ],
+      "publishedAt": "2026-06-24T01:16:24.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "joshwoodward-2026-06-24",
+      "source": "X",
+      "authorName": "Josh Woodward",
+      "authorHandle": "joshwoodward",
+      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward",
+      "suggestedTitle": "",
+      "suggestedSummary": "⚽️Turn your team loyalty into a custom trading card, mural, or virtual plushie in @GeminiApp\n\nHow to create yours:\n\n1) Go to https://t.co/z0bvXTam3G or open the app\n2) Tap Images (side panel)\n3) Select the \"Get in the game\" template\n4) Upload your photo and share your output here https://t.co/aysNORY2ea\n\nFlorida State University: \"Shortly after introducing NotebookLM on campus, we watched students who were struggling with a ‘C’ grade completely transform their study habits and their grades in a matter of weeks.\"\n\nhttps://t.co/xcPbvA37s0",
+      "tweets": [
+        {
+          "url": "https://x.com/joshwoodward/status/2069408025362714957",
+          "text": "⚽️Turn your team loyalty into a custom trading card, mural, or virtual plushie in @GeminiApp\n\nHow to create yours:\n\n1) Go to https://t.co/z0bvXTam3G or open the app\n2) Tap Images (side panel)\n3) Select the \"Get in the game\" template\n4) Upload your photo and share your output here https://t.co/aysNORY2ea",
+          "likes": 222,
+          "retweets": 19
+        },
+        {
+          "url": "https://x.com/joshwoodward/status/2069406832523624696",
+          "text": "Florida State University: \"Shortly after introducing NotebookLM on campus, we watched students who were struggling with a ‘C’ grade completely transform their study habits and their grades in a matter of weeks.\"\n\nhttps://t.co/xcPbvA37s0",
+          "likes": 146,
+          "retweets": 20
+        }
+      ],
+      "publishedAt": "2026-06-23T13:11:35.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-24",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "We should demand government competence instead of whatever we have to deal with in California government and local city management today https://t.co/6378A01vgm\n\nLinzumi is Codex but actually multiplayer. It’s magical for teams. \n\nAlso Sean Grove was on the team at OpenAI that greatly reduced sycophancy in ChatGPT before he left to start this YC startup! https://t.co/uShBOGz3tV\n\nDropbox should really support larger than 3TB plans - it's not 2015 anymore. The amount of data we are throwing off and that is *actually usable* is going to go exponential from AI, and Dropbox will be run over by this if they don't update for the future.",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2069482298547044788",
+          "text": "We should demand government competence instead of whatever we have to deal with in California government and local city management today https://t.co/6378A01vgm",
+          "likes": 183,
+          "retweets": 15
+        },
+        {
+          "url": "https://x.com/garrytan/status/2069474420113146355",
+          "text": "Linzumi is Codex but actually multiplayer. It’s magical for teams. \n\nAlso Sean Grove was on the team at OpenAI that greatly reduced sycophancy in ChatGPT before he left to start this YC startup! https://t.co/uShBOGz3tV",
+          "likes": 177,
+          "retweets": 22
+        },
+        {
+          "url": "https://x.com/garrytan/status/2069434452628185241",
+          "text": "Dropbox should really support larger than 3TB plans - it's not 2015 anymore. The amount of data we are throwing off and that is *actually usable* is going to go exponential from AI, and Dropbox will be run over by this if they don't update for the future.",
+          "likes": 405,
+          "retweets": 16
+        }
+      ],
+      "publishedAt": "2026-06-23T18:06:43.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-24",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynamic on pricing between high cost frontier models and cheap but good open or closed weights models. \n\nThen the question is how do you maximize efficiency from the frontier models, and get better quality and performance of the cheaper models. That’s where the applied AI layer comes in.\n\nThe applied layer can route to the best model at any time given the workload at hand, as well as mitigate either high token costs or worse performance. The closer you are to the underlying workflow, the better you can tune the use of models for a given business process. \n\nThat’s all about understanding the workflows, domain specific FDEs, evals by customer or process, getting data setup well for agents, and more. Overall good for applied AI.\n\nAnother example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corporate files in Box that you can interact with from Slack. Now all of your enterprise content becomes a portable knowledge base. https://t.co/m7UPdmqnn8 https://t.co/qrHqoZKHG4",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2069639600310767616",
+          "text": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynamic on pricing between high cost frontier models and cheap but good open or closed weights models. \n\nThen the question is how do you maximize efficiency from the frontier models, and get better quality and performance of the cheaper models. That’s where the applied AI layer comes in.\n\nThe applied layer can route to the best model at any time given the workload at hand, as well as mitigate either high token costs or worse performance. The closer you are to the underlying workflow, the better you can tune the use of models for a given business process. \n\nThat’s all about understanding the workflows, domain specific FDEs, evals by customer or process, getting data setup well for agents, and more. Overall good for applied AI.",
+          "likes": 108,
+          "retweets": 11
+        },
+        {
+          "url": "https://x.com/levie/status/2069596515560267891",
+          "text": "Another example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corporate files in Box that you can interact with from Slack. Now all of your enterprise content becomes a portable knowledge base. https://t.co/m7UPdmqnn8 https://t.co/qrHqoZKHG4",
+          "likes": 132,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-06-24T04:31:47.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "bcherny-2026-06-24",
+      "source": "X",
+      "authorName": "Boris Cherny",
+      "authorHandle": "bcherny",
+      "authorBio": "Claude Code @anthropicai",
+      "title": "Boris Cherny",
+      "suggestedTitle": "",
+      "suggestedSummary": "That's it. Point it at a channel, give it a task, and let it work. It's in beta on Slack today for Claude Enterprise and Team customers. More surfaces coming soon!\n\nLearn more: https://t.co/tcvNSCANlf\n\nTag Claude in a channel, it spins up an instance with its own sandbox. It clones repos, writes code, tests, compiles all in that isolated environment and the sandbox gets thrown away when it's done. One instance per thread, its own memory and permissions per channel.\n\nI also have Claude monitoring Slack channels to proactively respond to people to answer their questions and draft PRs, and to react with specific emojis like ✅❌ when a thread is resolved.\n\nTo set it up, just add @.Claude to a channel and ask it to do this^, in natural language.",
+      "tweets": [
+        {
+          "url": "https://x.com/bcherny/status/2069474691010707486",
+          "text": "That's it. Point it at a channel, give it a task, and let it work. It's in beta on Slack today for Claude Enterprise and Team customers. More surfaces coming soon!\n\nLearn more: https://t.co/tcvNSCANlf",
+          "likes": 92,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/bcherny/status/2069474689819480394",
+          "text": "Tag Claude in a channel, it spins up an instance with its own sandbox. It clones repos, writes code, tests, compiles all in that isolated environment and the sandbox gets thrown away when it's done. One instance per thread, its own memory and permissions per channel.",
+          "likes": 70,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/bcherny/status/2069474688619958517",
+          "text": "I also have Claude monitoring Slack channels to proactively respond to people to answer their questions and draft PRs, and to react with specific emojis like ✅❌ when a thread is resolved.\n\nTo set it up, just add @.Claude to a channel and ask it to do this^, in natural language.",
+          "likes": 96,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-23T17:36:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-06-24",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "Thariq",
+      "suggestedTitle": "",
+      "suggestedSummary": "Finally, get creative! I'm setting up a \"scheduling\" channel which lets people tag Claude to find time on our calendars.\n\nWhen it's working, I ask it to react to the top level thread with the following emojis: ⏲️✅❓🛑\n\nThat way it's easy to see its status at a glance.\n\nWhen you really get going, it's easy to get overwhelmed with all the threads. \n\nIn my personal channel I like to ask Claude to keep a pinned message that it updates with the status of everything.",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2069474343512617390",
+          "text": "Finally, get creative! I'm setting up a \"scheduling\" channel which lets people tag Claude to find time on our calendars.",
+          "likes": 59,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/trq212/status/2069474342220820657",
+          "text": "When it's working, I ask it to react to the top level thread with the following emojis: ⏲️✅❓🛑\n\nThat way it's easy to see its status at a glance.",
+          "likes": 52,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/trq212/status/2069474339679052144",
+          "text": "When you really get going, it's easy to get overwhelmed with all the threads. \n\nIn my personal channel I like to ask Claude to keep a pinned message that it updates with the status of everything.",
+          "likes": 65,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-23T17:35:07.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-24",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "What is design if what’s accessing your product is just an agent looking for an api or CLI?\n\nwtf the Google Workspace CLI is super useful it should be celebrated? https://t.co/ulweVvibfr\n\nHuman-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance reviews for Claude next? 😅 https://t.co/s37TYKzSUn",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2069603490524254473",
+          "text": "What is design if what’s accessing your product is just an agent looking for an api or CLI?",
+          "likes": 17,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2069551302246592799",
+          "text": "wtf the Google Workspace CLI is super useful it should be celebrated? https://t.co/ulweVvibfr",
+          "likes": 257,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/petergyang/status/2069530765352907180",
+          "text": "Human-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance reviews for Claude next? 😅 https://t.co/s37TYKzSUn",
+          "likes": 54,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-06-24T02:08:18.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "realmadhugur-2026-06-24",
+      "source": "X",
+      "authorName": "Madhu Guru",
+      "authorHandle": "realmadhuguru",
+      "authorBio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "Madhu Guru",
+      "suggestedTitle": "",
+      "suggestedSummary": "I’ve had the chance to see this ecosystem from the different sides - enterprises, agent startups, data providers, labs. \n\nThe core tension here is that the business models, moats, value exchange, execution playbooks for all players are being figured out in real time.\n\nThis debate around token pricing is really a debate over where value will accrue - models, application layer, distribution or other layers.\n\nExpect a lot of strong opinions from the different sides to shape the narrative in their favor.",
+      "tweets": [
+        {
+          "url": "https://x.com/realmadhuguru/status/2069455097193697393",
+          "text": "I’ve had the chance to see this ecosystem from the different sides - enterprises, agent startups, data providers, labs. \n\nThe core tension here is that the business models, moats, value exchange, execution playbooks for all players are being figured out in real time.\n\nThis debate around token pricing is really a debate over where value will accrue - models, application layer, distribution or other layers.\n\nExpect a lot of strong opinions from the different sides to shape the narrative in their favor.",
+          "likes": 9,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-23T16:18:38.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-24",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "@LitFellows also a great related event for Women in AI\n\nhttps://t.co/AULDW3dUtA\n\nbtw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they have beat deepseek with the world's undisputed top open model and in some respects (see @ml_angelopoulos) say top model period, and are returning to SF @aidotengineer on top of the world and open for business!\n\nexcited for @Thom_Wolf and @ZixuanLi_ to chat onstage!\n\nvery proud to host this session opening night!\n\nif you work in tech but have never heard of Touchy Feely, you are exactly the kind of person that needs to see this. You have no idea the shocking number of tech leadeds on here are secret @LITfellows alums and i have seen first hand how strong the bonds you form are, it blows my engineer mind.\n\nFREE ADMISSION, application in link reply",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2069665232822366577",
+          "text": "@LitFellows also a great related event for Women in AI\n\nhttps://t.co/AULDW3dUtA",
+          "likes": 1,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2069598378191941835",
+          "text": "btw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they have beat deepseek with the world's undisputed top open model and in some respects (see @ml_angelopoulos) say top model period, and are returning to SF @aidotengineer on top of the world and open for business!\n\nexcited for @Thom_Wolf and @ZixuanLi_ to chat onstage!",
+          "likes": 73,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/swyx/status/2069582337034330186",
+          "text": "very proud to host this session opening night!\n\nif you work in tech but have never heard of Touchy Feely, you are exactly the kind of person that needs to see this. You have no idea the shocking number of tech leadeds on here are secret @LITfellows alums and i have seen first hand how strong the bonds you form are, it blows my engineer mind.\n\nFREE ADMISSION, application in link reply",
+          "likes": 22,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-06-24T06:13:38.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-24",
+      "source": "No Priors",
+      "title": "Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-10T13:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
   "blogUpdates": [],
   "metadata": {
-    "totalBuilders": 19,
-    "totalTweets": 41,
+    "totalBuilders": 15,
+    "totalTweets": 33,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-06-24T14:54:42.878Z",
-    "estimatedReadTime": "3 分"
+    "generatedAt": "2026-07-09T18:00:47.810Z",
+    "backfilled": true,
+    "estimatedReadTime": "8 分"
   }
 }

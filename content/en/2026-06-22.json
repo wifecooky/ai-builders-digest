@@ -2,15 +2,344 @@
   "date": "2026-06-22",
   "lang": "en",
   "summary": "",
-  "builderInsights": [],
-  "podcastHighlights": [],
+  "builderInsights": [
+    {
+      "id": "thsottiaux-2026-06-22",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/pBWhE53c4A\n\nNow that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?\n\nWhat should we improve in the Codex app. What's not delightful?",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2068792061265121316",
+          "text": "https://t.co/pBWhE53c4A",
+          "likes": 2066,
+          "retweets": 67
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2068792010715324444",
+          "text": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?",
+          "likes": 2237,
+          "retweets": 27
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2068736857312198928",
+          "text": "What should we improve in the Codex app. What's not delightful?",
+          "likes": 2581,
+          "retweets": 57
+        }
+      ],
+      "publishedAt": "2026-06-21T20:23:58.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-06-22",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "The team cooked on https://t.co/A1yfEM3p7O performance. 'Everything the light touches' was optimized Simba. Painting, layout, WebGPU shaders, blocking scripts. Every frame scrutinized. The best part is that we'll be updating our https://t.co/pYz1Gn9F9b with the lessons learned! https://t.co/NkxvURcNbq\n\nCoding agents will squeeze every ounce of IKEA effect out of you, if you let them.\n\nHappy Father's Day. Thankful to my dad who spent every last penny on buying our family 'the bicycle of the mind' https://t.co/y4xvwtYPjr",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2068838709517336756",
+          "text": "The team cooked on https://t.co/A1yfEM3p7O performance. 'Everything the light touches' was optimized Simba. Painting, layout, WebGPU shaders, blocking scripts. Every frame scrutinized. The best part is that we'll be updating our https://t.co/pYz1Gn9F9b with the lessons learned! https://t.co/NkxvURcNbq",
+          "likes": 791,
+          "retweets": 20
+        },
+        {
+          "url": "https://x.com/rauchg/status/2068778558672273422",
+          "text": "Coding agents will squeeze every ounce of IKEA effect out of you, if you let them.",
+          "likes": 1335,
+          "retweets": 37
+        },
+        {
+          "url": "https://x.com/rauchg/status/2068732939559727468",
+          "text": "Happy Father's Day. Thankful to my dad who spent every last penny on buying our family 'the bicycle of the mind' https://t.co/y4xvwtYPjr",
+          "likes": 1034,
+          "retweets": 34
+        }
+      ],
+      "publishedAt": "2026-06-21T23:29:20.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "steipete-2026-06-22",
+      "source": "X",
+      "authorName": "Peter Steinberger",
+      "authorHandle": "steipete",
+      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "title": "Peter Steinberger",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is becoming my favorite way to read Twitter. https://t.co/eykEElxzu7 https://t.co/m5qM5PP3rA\n\nPeople here discussing what happened with OpenClaw.\n\nThe hype died down. We improved quality and grew a team. We created a non-profit whereas competiors are VC funded and have other agendas.\n\nThis is our strongest week so far. https://t.co/j6uwRneNvh\n\nI was skeptical about the multi-model routing. Seems my hinch was right. https://t.co/oVUUqBYRyy",
+      "tweets": [
+        {
+          "url": "https://x.com/steipete/status/2068965200343224367",
+          "text": "This is becoming my favorite way to read Twitter. https://t.co/eykEElxzu7 https://t.co/m5qM5PP3rA",
+          "likes": 336,
+          "retweets": 20
+        },
+        {
+          "url": "https://x.com/steipete/status/2068961217524490739",
+          "text": "People here discussing what happened with OpenClaw.\n\nThe hype died down. We improved quality and grew a team. We created a non-profit whereas competiors are VC funded and have other agendas.\n\nThis is our strongest week so far. https://t.co/j6uwRneNvh",
+          "likes": 273,
+          "retweets": 15
+        },
+        {
+          "url": "https://x.com/steipete/status/2068960117253632160",
+          "text": "I was skeptical about the multi-model routing. Seems my hinch was right. https://t.co/oVUUqBYRyy",
+          "likes": 136,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-06-22T07:51:57.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-06-22",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Another new idea to push the state of AI architectures forward. Sakana released a model that effectively uses a mixture of models to get work done. You get a single API but then the work gets farmed out the model that best performs the task. \n\n“Fugu manages model selection, delegation, verification, and synthesis automatically. It solves tasks directly when that is enough, or coordinates a team of expert models when a problem calls for more. The complexity of a multi-agent system never reaches your code.”\n\nThis is generally how applied AI products are building their agent harnesses at this point, but the idea of making this an LLM that any developer can interact with is also a great idea. As we get more innovation with both frontier closed and OSS models, there’s going to be a ton of value produced for the layer that can route the best.\n\nAgents will use software 100X more than people. \n\nWhen that happens, theres a huge need for guardrails on what the agents are doing so they don’t leak data or change the wrong information, authoritative sources of truth for them to work with, logging and auditing of what they’re doing, the ability to collaborate with people through these systems, and more.\n\nA simple query on any given agentic task could pull in more data than a user touches in a month. As a result, there are lots of categories of software that when it goes headless that the usage and value go up substantially. Agents will end up using our CRM data, documents and corporate knowledge, analytics data, and other information far more than people ever did.\n\nThe platforms that can move toward the model of powering these headless interactions, and have a business model and technology strategy to support this, will be in the best position in the future.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2068917230570795178",
+          "text": "Another new idea to push the state of AI architectures forward. Sakana released a model that effectively uses a mixture of models to get work done. You get a single API but then the work gets farmed out the model that best performs the task. \n\n“Fugu manages model selection, delegation, verification, and synthesis automatically. It solves tasks directly when that is enough, or coordinates a team of expert models when a problem calls for more. The complexity of a multi-agent system never reaches your code.”\n\nThis is generally how applied AI products are building their agent harnesses at this point, but the idea of making this an LLM that any developer can interact with is also a great idea. As we get more innovation with both frontier closed and OSS models, there’s going to be a ton of value produced for the layer that can route the best.",
+          "likes": 206,
+          "retweets": 23
+        },
+        {
+          "url": "https://x.com/levie/status/2068851573175021864",
+          "text": "Agents will use software 100X more than people. \n\nWhen that happens, theres a huge need for guardrails on what the agents are doing so they don’t leak data or change the wrong information, authoritative sources of truth for them to work with, logging and auditing of what they’re doing, the ability to collaborate with people through these systems, and more.\n\nA simple query on any given agentic task could pull in more data than a user touches in a month. As a result, there are lots of categories of software that when it goes headless that the usage and value go up substantially. Agents will end up using our CRM data, documents and corporate knowledge, analytics data, and other information far more than people ever did.\n\nThe platforms that can move toward the model of powering these headless interactions, and have a business model and technology strategy to support this, will be in the best position in the future.",
+          "likes": 228,
+          "retweets": 44
+        }
+      ],
+      "publishedAt": "2026-06-22T04:41:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-06-22",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is why I made GBrain and open sourced it\n\nhttps://t.co/yFpFU4pn5b\n\nI think one underestimated thing when we look back on it was how useful it is to have your own personal brain and company brain in 2026 at the dawn of usable AGI\n\nAGI gives you the intelligence\n\nYou still have to collect your personal context to get the real unlock",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2068701357696323769",
+          "text": "This is why I made GBrain and open sourced it\n\nhttps://t.co/yFpFU4pn5b",
+          "likes": 88,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/garrytan/status/2068701356358308112",
+          "text": "I think one underestimated thing when we look back on it was how useful it is to have your own personal brain and company brain in 2026 at the dawn of usable AGI\n\nAGI gives you the intelligence\n\nYou still have to collect your personal context to get the real unlock",
+          "likes": 964,
+          "retweets": 66
+        }
+      ],
+      "publishedAt": "2026-06-21T14:23:32.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-06-22",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "“Quality is irrational” is a great way to describe it. You have to have an irrational level of commitment to constantly choose quality and an irrational level of self-belief that controlling things top to bottom will yield better results than using common frameworks. https://t.co/NPtm8c7sid\n\n@Outlook @gmail No that’s not going to solve the problem to any significant degree. We are talking about default behavior.\n\nhttps://t.co/zbZtXMJVkR",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2068778750800531640",
+          "text": "“Quality is irrational” is a great way to describe it. You have to have an irrational level of commitment to constantly choose quality and an irrational level of self-belief that controlling things top to bottom will yield better results than using common frameworks. https://t.co/NPtm8c7sid",
+          "likes": 69,
+          "retweets": 6
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2068668365623710018",
+          "text": "@Outlook @gmail No that’s not going to solve the problem to any significant degree. We are talking about default behavior.\n\nhttps://t.co/zbZtXMJVkR",
+          "likes": 3,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-21T19:31:04.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-06-22",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "btw i've been shopping around for insurers for the New Media Lab we are setting up (basically the creative playground housing swyx inc) and yeah the NPS of Corgi is insanely high\n\nmy real estate broker: \"just go with corgi they are covering every single one of my clients rn\"\n\nbreaking through with ~100% greenfield market share like this is unheard of in the insurance industry\n\n@QuinnyPig i think this is where i challenge @willccbb to his first poaster session. or maybe @willdepue. or @WilliamBryk. idk all the wills?\n\n@QuinnyPig https://t.co/6639ddlPvc",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2068924451887129055",
+          "text": "btw i've been shopping around for insurers for the New Media Lab we are setting up (basically the creative playground housing swyx inc) and yeah the NPS of Corgi is insanely high\n\nmy real estate broker: \"just go with corgi they are covering every single one of my clients rn\"\n\nbreaking through with ~100% greenfield market share like this is unheard of in the insurance industry",
+          "likes": 56,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/swyx/status/2068868744206799270",
+          "text": "@QuinnyPig i think this is where i challenge @willccbb to his first poaster session. or maybe @willdepue. or @WilliamBryk. idk all the wills?",
+          "likes": 7,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2068868568348070344",
+          "text": "@QuinnyPig https://t.co/6639ddlPvc",
+          "likes": 6,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-22T05:10:02.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-06-22",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "How your email finds me today.. \n\nHappy Father’s Day to all the families celebrating today 🕺 https://t.co/ltYZwS2toM\n\nHappens every week 🙈\n\n&gt; see an interesting project on X\n&gt; play with it, fork it, try it, have some ideas\n&gt; go to founder profile\n&gt; press the message button \n\n…\n\n&gt; pray to God that I haven’t missed a DM from them before 😢\n\nI try to respond to all the DMs but miss sometimes!!",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2068740575130689554",
+          "text": "How your email finds me today.. \n\nHappy Father’s Day to all the families celebrating today 🕺 https://t.co/ltYZwS2toM",
+          "likes": 57,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/nikunj/status/2068714024934740476",
+          "text": "Happens every week 🙈\n\n&gt; see an interesting project on X\n&gt; play with it, fork it, try it, have some ideas\n&gt; go to founder profile\n&gt; press the message button \n\n…\n\n&gt; pray to God that I haven’t missed a DM from them before 😢\n\nI try to respond to all the DMs but miss sometimes!!",
+          "likes": 92,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-06-21T16:59:23.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-06-22",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "It’s funny, growing up as an immigrant I developed a scarcity mindset around saving money and resources.\n\nBut when it comes to unlimited token plans and tokenmaxxing, it feels like a missed opportunity if I don’t burn as many tokens as possible and hit the limit each time.\n\nHow do I address this disconnect? 🥹\n\nCheck out my friend Kevin's awesome tool @ferrymanio to post from your favorite social platform and have that cross post to 7+ platforms at once. https://t.co/3uLlQUeTFk\n\nWhy HTML turned out to be the foundation for agentic video making from @liu8in:\n\n“We’ve been trying to build a video agent. However, we learned the hard way that agents have no visual intelligence.\n\nSo that’s when we turned to code. HTML is the LLM’s native language. LLMs can express not only information, but also visual aesthetics through HTML, CSS, and JavaScript.\n\nFootage, images, assets, SVGs can all sit on top of HTML.\"\n\n📌 As an example, see how you can make a product video from any website URL here: https://t.co/Q2p8XzCfc6",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2068874249167884544",
+          "text": "It’s funny, growing up as an immigrant I developed a scarcity mindset around saving money and resources.\n\nBut when it comes to unlimited token plans and tokenmaxxing, it feels like a missed opportunity if I don’t burn as many tokens as possible and hit the limit each time.\n\nHow do I address this disconnect? 🥹",
+          "likes": 25,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2068854663534031124",
+          "text": "Check out my friend Kevin's awesome tool @ferrymanio to post from your favorite social platform and have that cross post to 7+ platforms at once. https://t.co/3uLlQUeTFk",
+          "likes": 12,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2068755908319236338",
+          "text": "Why HTML turned out to be the foundation for agentic video making from @liu8in:\n\n“We’ve been trying to build a video agent. However, we learned the hard way that agents have no visual intelligence.\n\nSo that’s when we turned to code. HTML is the LLM’s native language. LLMs can express not only information, but also visual aesthetics through HTML, CSS, and JavaScript.\n\nFootage, images, assets, SVGs can all sit on top of HTML.\"\n\n📌 As an example, see how you can make a product video from any website URL here: https://t.co/Q2p8XzCfc6",
+          "likes": 46,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-06-22T01:50:33.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "ryolu-2026-06-22",
+      "source": "X",
+      "authorName": "Ryo Lu",
+      "authorHandle": "ryolu_",
+      "authorBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "Ryo Lu",
+      "suggestedTitle": "",
+      "suggestedSummary": "works with any epub\nsyncs progress with ryOS account\nhttps://t.co/99stn8QuPH\n\nmissing wooden shelves\nso i made Books in ryOS\n\nstarted in Cursor mobile, then hand-tuned the animations and textures until things felt right https://t.co/f2yFZ2N1CQ",
+      "tweets": [
+        {
+          "url": "https://x.com/ryolu_/status/2068924375341179347",
+          "text": "works with any epub\nsyncs progress with ryOS account\nhttps://t.co/99stn8QuPH",
+          "likes": 13,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/ryolu_/status/2068923971136098633",
+          "text": "missing wooden shelves\nso i made Books in ryOS\n\nstarted in Cursor mobile, then hand-tuned the animations and textures until things felt right https://t.co/f2yFZ2N1CQ",
+          "likes": 324,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-06-22T05:09:44.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-06-22",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "I’m talking about context, not prompt\n\nA good rule of thumb for preventing AI slop (in writing, design, etc):\n\nIs your input (the context) longer than the output? \n\nI've found that for the AI to produce quality results, my input is often 3-5 times the length of the output.\n\nIf your input is much shorter than the output, it's almost certainly going to produce slop",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2068964055235321954",
+          "text": "I’m talking about context, not prompt",
+          "likes": 1,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2068923768500793603",
+          "text": "A good rule of thumb for preventing AI slop (in writing, design, etc):\n\nIs your input (the context) longer than the output? \n\nI've found that for the AI to produce quality results, my input is often 3-5 times the length of the output.\n\nIf your input is much shorter than the output, it's almost certainly going to produce slop",
+          "likes": 131,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-06-22T07:47:24.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-06-22",
+      "source": "Training Data",
+      "title": "Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
+      "url": "https://www.youtube.com/watch?v=cMAs8z2dehs",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-06-11T09:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
   "blogUpdates": [],
   "metadata": {
     "totalBuilders": 11,
     "totalTweets": 27,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-06-22T15:38:20.563Z",
-    "estimatedReadTime": "3 min"
+    "generatedAt": "2026-07-09T18:00:47.744Z",
+    "backfilled": true,
+    "estimatedReadTime": "6 min"
   }
 }
