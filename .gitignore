@@ -4,3 +4,5 @@ frontend/build/
 frontend/.svelte-kit/
 .env
 .env.*
+.gstack/
+.DS_Store
