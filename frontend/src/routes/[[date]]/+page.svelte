@@ -15,7 +15,9 @@
     const lang = currentLang;
     return data.content[lang] ?? data.content['en'];
   });
-  let archiveDates = $derived(data.dates.filter(d => d !== data.date));
+  let archiveDates = $derived(
+    data.dates.filter(d => d !== data.date && (data.archivePreviews?.[d]?.count ?? 0) > 0)
+  );
   const ARCHIVE_INITIAL_COUNT = 5;
   let archiveExpanded = $state(false);
   let visibleArchiveDates = $derived(

@@ -55,7 +55,8 @@ function builderFallback(builder, date) {
     authorBio: builder.bio,
     title: builder.name,
     suggestedTitle: '',
-    suggestedSummary: '',
+    // AI summarization failed — keep the raw tweet text so cards aren't blank.
+    suggestedSummary: builder.tweets.map(t => t.text).join('\n\n'),
     tweets: builder.tweets.map(t => ({
       url: t.url,
       text: t.text,
