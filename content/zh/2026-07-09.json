@@ -1,7 +1,8 @@
 {
   "date": "2026-07-09",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-07-09",
       "source": "X",
@@ -367,7 +368,9 @@
       ],
       "publishedAt": "2026-07-08T17:25:32.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-09",
       "source": "AI & I by Every",
@@ -377,7 +380,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-08T14:49:06.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-07-09",
       "source": "Anthropic Engineering",
@@ -417,6 +422,7 @@
     "totalTweets": 40,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-07-09T16:21:37.689Z"
+    "generatedAt": "2026-07-09T16:21:47.132Z",
+    "estimatedReadTime": "10 分钟"
   }
 }
