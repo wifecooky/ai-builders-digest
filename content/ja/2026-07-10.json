@@ -1,7 +1,8 @@
 {
   "date": "2026-07-10",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-07-10",
       "source": "X",
@@ -409,7 +410,9 @@
       ],
       "publishedAt": "2026-07-10T00:11:02.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-10",
       "source": "Unsupervised Learning",
@@ -421,11 +424,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 19,
     "totalTweets": 44,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-07-10T16:14:02.404Z"
+    "generatedAt": "2026-07-10T16:14:20.686Z",
+    "estimatedReadTime": "8 分"
   }
 }
