@@ -1,7 +1,9 @@
 {
   "date": "2026-07-11",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-11",
       "source": "The MAD Podcast with Matt Turck",
@@ -13,11 +15,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 0,
     "totalTweets": 0,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-07-11T14:43:11.078Z"
+    "generatedAt": "2026-07-11T14:43:14.812Z",
+    "estimatedReadTime": "3 分"
   }
 }
