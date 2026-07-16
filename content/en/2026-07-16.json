@@ -1,7 +1,8 @@
 {
   "date": "2026-07-16",
+  "lang": "en",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "bcherny-2026-07-16",
       "source": "X",
@@ -415,7 +416,9 @@
       ],
       "publishedAt": "2026-07-15T15:25:43.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-16",
       "source": "AI & I by Every",
@@ -425,7 +428,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-15T15:08:19.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-07-16",
       "source": "Claude Blog",
@@ -443,6 +448,7 @@
     "totalTweets": 40,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-07-16T15:25:03.866Z"
+    "generatedAt": "2026-07-16T15:25:04.060Z",
+    "estimatedReadTime": "9 min"
   }
 }
