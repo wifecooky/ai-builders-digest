@@ -1,7 +1,8 @@
 {
   "date": "2026-07-18",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "claudeai-2026-07-18",
       "source": "X",
@@ -345,7 +346,9 @@
       ],
       "publishedAt": "2026-07-18T06:20:00.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-18",
       "source": "The MAD Podcast with Matt Turck",
@@ -355,7 +358,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-16T11:30:01.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-07-18",
       "source": "Anthropic Engineering",
@@ -395,6 +400,7 @@
     "totalTweets": 27,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-07-18T14:43:19.442Z"
+    "generatedAt": "2026-07-18T14:43:28.967Z",
+    "estimatedReadTime": "9 分钟"
   }
 }
