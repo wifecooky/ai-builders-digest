@@ -1,7 +1,8 @@
 {
   "date": "2026-07-22",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "karpathy-2026-07-22",
       "source": "X",
@@ -415,7 +416,9 @@
       ],
       "publishedAt": "2026-07-22T07:03:17.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-22",
       "source": "Training Data",
@@ -425,7 +428,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-21T09:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-07-22",
       "source": "Claude Blog",
@@ -443,6 +448,7 @@
     "totalTweets": 36,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-07-22T15:25:16.277Z"
+    "generatedAt": "2026-07-22T15:25:34.551Z",
+    "estimatedReadTime": "9 分"
   }
 }
