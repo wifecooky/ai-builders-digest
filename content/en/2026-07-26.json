@@ -1,7 +1,8 @@
 {
   "date": "2026-07-26",
+  "lang": "en",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "levie-2026-07-26",
       "source": "X",
@@ -383,7 +384,9 @@
       ],
       "publishedAt": "2026-07-26T06:37:21.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-26",
       "source": "Unsupervised Learning",
@@ -393,7 +396,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-16T12:48:06.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-07-26",
       "source": "Anthropic Engineering",
@@ -433,6 +438,7 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-07-26T14:56:03.199Z"
+    "generatedAt": "2026-07-26T14:56:03.374Z",
+    "estimatedReadTime": "9 min"
   }
 }
