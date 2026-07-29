@@ -1,7 +1,8 @@
 {
   "date": "2026-07-29",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-07-29",
       "source": "X",
@@ -281,11 +282,14 @@
       "category": "builderInsights"
     }
   ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 10,
     "totalTweets": 23,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-07-29T15:43:35.266Z"
+    "generatedAt": "2026-07-29T15:43:39.630Z",
+    "estimatedReadTime": "5 分钟"
   }
 }
