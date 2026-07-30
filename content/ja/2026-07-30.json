@@ -1,7 +1,8 @@
 {
   "date": "2026-07-30",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-07-30",
       "source": "X",
@@ -391,7 +392,9 @@
       ],
       "publishedAt": "2026-07-30T00:47:41.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-07-30",
       "source": "AI & I by Every",
@@ -401,7 +404,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-07-30",
       "source": "Claude Blog",
@@ -419,6 +424,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-07-30T15:44:53.815Z"
+    "generatedAt": "2026-07-30T15:45:12.324Z",
+    "estimatedReadTime": "9 分"
   }
 }
