@@ -1,7 +1,8 @@
 {
   "date": "2026-08-01",
+  "lang": "en",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-08-01",
       "source": "X",
@@ -369,7 +370,9 @@
       ],
       "publishedAt": "2026-07-31T23:14:52.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-08-01",
       "source": "Unsupervised Learning",
@@ -379,7 +382,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-31T15:15:49.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-08-01",
       "source": "Claude Blog",
@@ -397,6 +402,7 @@
     "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-08-01T14:51:33.427Z"
+    "generatedAt": "2026-08-01T14:51:33.661Z",
+    "estimatedReadTime": "8 min"
   }
 }
