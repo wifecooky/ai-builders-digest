@@ -1,7 +1,8 @@
 {
   "date": "2026-08-02",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "karpathy-2026-08-02",
       "source": "X",
@@ -391,7 +392,9 @@
       ],
       "publishedAt": "2026-08-02T01:29:23.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-08-02",
       "source": "No Priors",
@@ -401,7 +404,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-07-31T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-08-02",
       "source": "Anthropic Engineering",
@@ -419,6 +424,7 @@
     "totalTweets": 30,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-08-02T14:53:27.532Z"
+    "generatedAt": "2026-08-02T14:53:37.329Z",
+    "estimatedReadTime": "9 分钟"
   }
 }
