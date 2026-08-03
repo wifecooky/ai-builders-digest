@@ -1,7 +1,8 @@
 {
   "date": "2026-08-03",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "karpathy-2026-08-03",
       "source": "X",
@@ -325,7 +326,9 @@
       ],
       "publishedAt": "2026-08-03T06:57:58.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-08-03",
       "source": "Training Data",
@@ -337,11 +340,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 12,
     "totalTweets": 26,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-08-03T16:13:51.168Z"
+    "generatedAt": "2026-08-03T16:13:58.309Z",
+    "estimatedReadTime": "7 分钟"
   }
 }
