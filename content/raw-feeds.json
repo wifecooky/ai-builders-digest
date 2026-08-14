@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "builders": [
     {
       "source": "x",
@@ -8,26 +8,37 @@
       "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
       "tweets": [
         {
-          "id": "2087691099691475285",
-          "text": "Perplexity offered to buy @googlechrome one year ago today\n\n(this is a scheduled tweet) https://t.co/EdFp28P2qO",
-          "createdAt": "2026-08-13T00:02:00.000Z",
-          "url": "https://x.com/swyx/status/2087691099691475285",
-          "likes": 1223,
-          "retweets": 14,
-          "replies": 33,
+          "id": "2088120493224362487",
+          "text": "top singaporeans  agree\nhttps://t.co/2WBi1hPotT",
+          "createdAt": "2026-08-14T04:28:15.000Z",
+          "url": "https://x.com/swyx/status/2088120493224362487",
+          "likes": 3,
+          "retweets": 0,
+          "replies": 0,
+          "isQuote": true,
+          "quotedTweetId": "2087977008253071816"
+        },
+        {
+          "id": "2088074149260673441",
+          "text": "matt's latest: https://t.co/Dnukubm9Yk\n\nthariq's latest: https://t.co/BChJxtezPp\n\nbonus dont miss @_philschmid's banger https://t.co/zHEvfq72MP\n\nall 3 of these frontier skills guys contributing to the discussion is a beautiful thing to see",
+          "createdAt": "2026-08-14T01:24:06.000Z",
+          "url": "https://x.com/swyx/status/2088074149260673441",
+          "likes": 10,
+          "retweets": 0,
+          "replies": 1,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2087437017840046156",
-          "text": "this is already one of the most important papers of this year.\n\nhttps://t.co/0f3ma9POEG\n\nthe methodology doesnt seem clearly explained so here are some notes with a further distillation https://t.co/VHBTmiwx3e",
-          "createdAt": "2026-08-12T07:12:22.000Z",
-          "url": "https://x.com/swyx/status/2087437017840046156",
-          "likes": 316,
-          "retweets": 15,
-          "replies": 38,
+          "id": "2088073777779515615",
+          "text": "human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for batches of questions instead of round-by-round. same intuition as spec decoding, you speed up by looking ahead 2-10 steps\n\nworks INCREDIBLY for design explorations",
+          "createdAt": "2026-08-14T01:22:37.000Z",
+          "url": "https://x.com/swyx/status/2088073777779515615",
+          "likes": 100,
+          "retweets": 0,
+          "replies": 25,
           "isQuote": true,
-          "quotedTweetId": "2087147042888114428"
+          "quotedTweetId": "2088057260807532867"
         }
       ]
     },
@@ -38,15 +49,34 @@
       "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "tweets": [
         {
-          "id": "2087751559606407615",
-          "text": "Gemini gets things done across the apps you use every day. Starting today, another wave of integrations are rolling out. If you want to partner with us, DM me.\n\nAngi (formerly Angie's List)\nFever\nGetYourGuide\nGranola\niHeartRadio\nLocaliza\nOpenTable\nOtter\nPandora\nThumbtack\nTicketmaster\nWix\nZocdoc\nZoho",
-          "createdAt": "2026-08-13T04:02:15.000Z",
-          "url": "https://x.com/joshwoodward/status/2087751559606407615",
-          "likes": 241,
-          "retweets": 11,
-          "replies": 20,
+          "id": "2088016871710957587",
+          "text": "3.7 Flash: Fast, 50% cheaper, happened in ~3 weeks https://t.co/LUq90z935F",
+          "createdAt": "2026-08-13T21:36:30.000Z",
+          "url": "https://x.com/joshwoodward/status/2088016871710957587",
+          "likes": 498,
+          "retweets": 36,
+          "replies": 34,
           "isQuote": true,
-          "quotedTweetId": "2087567329567904048"
+          "quotedTweetId": "2087948481721962669"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "bio": "Claude Code @anthropicai",
+      "tweets": [
+        {
+          "id": "2088014489438621990",
+          "text": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible.\n\nThe setup is straightforward: we have a Slack channel called proj-claude-maintains-apps. In it, Claude Tag runs a bunch of daily routines across iOS, Android, Desktop, web, CLI, and Agent SDK:\n\n- Crash fuzzer: open the app in a simulator and tap around to find ways to crash it, then root cause and fix the crashes\n- Dup unifier: scans the codebase for similar-yet-slightly-divergent abstractions, and puts up PRs to unify them\n- Dead-code remover: removes statically unreachable code, and adds logging to suspected dead code to check if it's really dead and if so, remove it the next day\n- Abstraction police: fixes leaky abstractions\n- a bunch more..\n\nResults have been surprisingly positive. Over the last few weeks, these routines have opened 388 PRs across our repos, 180 of which we merged after Claude Code Review + human review. We're now thinking about how to streamline this to make merging these kinds of mechanical changes easier.\n\nClaude generally gets these PRs right on the first shot, and if it doesn't, we ask Claude to tune its routines so it's better the next day. Sometimes it takes a few days of tuning. \n\nTo try a similar workflow, ask Claude Code or Tag, or create some routines directly at https://t.co/Z70hStEBH6. A few of the actual prompts I used below.\n\nHas anyone experimented with similar workflows?",
+          "createdAt": "2026-08-13T21:27:02.000Z",
+          "url": "https://x.com/bcherny/status/2088014489438621990",
+          "likes": 2939,
+          "retweets": 160,
+          "replies": 253,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
@@ -57,37 +87,37 @@
       "bio": "Codex & ChatGPT @OpenAI",
       "tweets": [
         {
-          "id": "2087706104814023111",
-          "text": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
-          "createdAt": "2026-08-13T01:01:37.000Z",
-          "url": "https://x.com/thsottiaux/status/2087706104814023111",
-          "likes": 10790,
-          "retweets": 580,
-          "replies": 2378,
+          "id": "2088133823619895712",
+          "text": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
+          "createdAt": "2026-08-14T05:21:13.000Z",
+          "url": "https://x.com/thsottiaux/status/2088133823619895712",
+          "likes": 1280,
+          "retweets": 59,
+          "replies": 221,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2088103609477238858",
+          "text": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow. https://t.co/iiz1eKyp46",
+          "createdAt": "2026-08-14T03:21:10.000Z",
+          "url": "https://x.com/thsottiaux/status/2088103609477238858",
+          "likes": 1560,
+          "retweets": 84,
+          "replies": 216,
           "isQuote": true,
-          "quotedTweetId": "2087423996115681767"
+          "quotedTweetId": "2088044956091089281"
         },
         {
-          "id": "2087614555203809395",
-          "text": "Typical conversation with @ajambrosino \n\nA: core alignment has been reached\nT: core alignment you say\nA: i say\nT: say more\nA: more\n\nAnd yet I’ve never been more excited about what him and the team are building.",
-          "createdAt": "2026-08-12T18:57:50.000Z",
-          "url": "https://x.com/thsottiaux/status/2087614555203809395",
-          "likes": 2480,
-          "retweets": 35,
-          "replies": 269,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087439859493617908",
-          "text": "Also don’t say Linux, we just shipped that.",
-          "createdAt": "2026-08-12T07:23:39.000Z",
-          "url": "https://x.com/thsottiaux/status/2087439859493617908",
-          "likes": 2173,
-          "retweets": 9,
-          "replies": 208,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2088019704803897705",
+          "text": "Sometimes you have have to go /ultrafast. https://t.co/rMP7sfxpB5",
+          "createdAt": "2026-08-13T21:47:45.000Z",
+          "url": "https://x.com/thsottiaux/status/2088019704803897705",
+          "likes": 2723,
+          "retweets": 79,
+          "replies": 461,
+          "isQuote": true,
+          "quotedTweetId": "2087947721936359705"
         }
       ]
     },
@@ -98,24 +128,35 @@
       "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
       "tweets": [
         {
-          "id": "2087656368341966904",
-          "text": "This is such a beautiful eulogy from Messi to his dad. Got me a bit teary eyed. https://t.co/Bn6GBBJwqj",
-          "createdAt": "2026-08-12T21:43:59.000Z",
-          "url": "https://x.com/petergyang/status/2087656368341966904",
-          "likes": 164,
-          "retweets": 5,
-          "replies": 7,
+          "id": "2088108304274960667",
+          "text": "What do people include in their product specs these days to make them friendly and concise for both humans and agents? Or two separate sections for each?",
+          "createdAt": "2026-08-14T03:39:49.000Z",
+          "url": "https://x.com/petergyang/status/2088108304274960667",
+          "likes": 7,
+          "retweets": 1,
+          "replies": 6,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2087547168764862495",
-          "text": "I believe the way we use computers will soon change forever.\n\nWe’re moving from doing work manually with a keyboard, mouse, and laptop to directing agents in the cloud using our voices.\n\nIn my new essay, I cover why:\n\n1. Voice is becoming the orchestration layer\n2. Personal computers will move to the cloud\n3. Trust will be the key differentiator\n\nRead it here (it’s 100% free): https://t.co/cPvIqq0mge",
-          "createdAt": "2026-08-12T14:30:04.000Z",
-          "url": "https://x.com/petergyang/status/2087547168764862495",
-          "likes": 90,
-          "retweets": 11,
-          "replies": 14,
+          "id": "2088036303816519734",
+          "text": "The biggest compliment I can give @maticrobots is that my wife runs it non-stop which is getting pretty annoying but keeps our floors super clean. 😅 https://t.co/42EphBF3aP",
+          "createdAt": "2026-08-13T22:53:43.000Z",
+          "url": "https://x.com/petergyang/status/2088036303816519734",
+          "likes": 24,
+          "retweets": 1,
+          "replies": 3,
+          "isQuote": true,
+          "quotedTweetId": "2087962897267990915"
+        },
+        {
+          "id": "2087946170274570385",
+          "text": "I'm dealing with a family health situation and thought I would be using AI to research and understand the illness but in reality it's been most helpful to navigate the healthcare system bureaucracy.",
+          "createdAt": "2026-08-13T16:55:33.000Z",
+          "url": "https://x.com/petergyang/status/2087946170274570385",
+          "likes": 123,
+          "retweets": 1,
+          "replies": 18,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -128,24 +169,24 @@
       "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
       "tweets": [
         {
-          "id": "2087706598542290958",
-          "text": "I miss when teams actually whiteboarded. Sad casualty of the Covid wfh era.\n\nThere was something playful about standing around a board, drawing half-baked ideas, interrupting each other and jointly shaping things.\n\nYears of Zoom and Google Meet seem to have beaten that instinct out of people.",
-          "createdAt": "2026-08-13T01:03:35.000Z",
-          "url": "https://x.com/realmadhuguru/status/2087706598542290958",
-          "likes": 30,
-          "retweets": 1,
-          "replies": 3,
+          "id": "2088074515188519182",
+          "text": "AI industry: this is an era of unlimited creativity, thanks to AI.\n\nAlso AI industry: we will all name our products ‘Studio’.\n\nI counted 20+. Here are a few :\n\nGoogle AI Studio\nVertex AI Studio\nWorkspace Studio\nCopilot Studio\nAgentforce Studio\nJoule Studio\nWriter AI Studio\nBox AI Studio\nAlibaba cloud Model Studio\nLabelbox Evaluation Studio\nSageMaker Studio\nCortex AI Studio\nLangGraph Studio\nAI Agent Studio x 4\n\nat least these guys make studio things :\nCanva Magic Studio\nElevenLabs Studio\n\nPS: If your AI product is also called Studio and I left you out, apologies. It’s not personal.",
+          "createdAt": "2026-08-14T01:25:33.000Z",
+          "url": "https://x.com/realmadhuguru/status/2088074515188519182",
+          "likes": 12,
+          "retweets": 0,
+          "replies": 2,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2087553833098723547",
-          "text": "The biggest alpha in AI products over the next few years is in the application layer.\n\nModels will keep getting cheaper, better and more local.\n\nThe differentiation will come from deeply understanding specific user workflows and having the imagination to redesign the experience around them.\n\nThe denominator of people who can build AI products is about to get enormous.\n\nSo being in the top 0.1% of builders will matter more than ever.",
-          "createdAt": "2026-08-12T14:56:33.000Z",
-          "url": "https://x.com/realmadhuguru/status/2087553833098723547",
-          "likes": 178,
-          "retweets": 12,
-          "replies": 22,
+          "id": "2087916590964851172",
+          "text": "Prompt debt is the new tech debt. \n\nWith every model update, you should be cutting at least 50% of your prompts.\n\nMost AI products have bloated prompts that are making your product quality worse.\n\nThe typical flow is: model fails at something -> add 10 rules. Tool call fails -> add 10 examples. Output is weird -> add formatting constraints.\n\n3 months later, your system prompt is a novel. \n\nMeanwhile the model is way smarter and your micro-managey prompts are turning it into a dumb rules machine.",
+          "createdAt": "2026-08-13T14:58:01.000Z",
+          "url": "https://x.com/realmadhuguru/status/2087916590964851172",
+          "likes": 49,
+          "retweets": 1,
+          "replies": 9,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -153,29 +194,78 @@
     },
     {
       "source": "x",
-      "name": "Amanda Askell",
-      "handle": "AmandaAskell",
-      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
+      "name": "Cat Wu",
+      "handle": "_catwu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
       "tweets": [
         {
-          "id": "2087606022961865148",
-          "text": "The bar for \"ethical\" playthroughs of different games is interesting. In Bioshock, the bar is literally not murdering children. Murdering adults is fine.",
-          "createdAt": "2026-08-12T18:23:56.000Z",
-          "url": "https://x.com/AmandaAskell/status/2087606022961865148",
-          "likes": 143,
-          "retweets": 0,
-          "replies": 6,
+          "id": "2088006642189361564",
+          "text": "Join office hours with the Cowork team \n\nIf you're in marketing, sales, finance, legal, ops, or any non-eng role, book a 15 min slot to show us how you use Cowork so we can make it better for you: https://t.co/UxOKEjoala\n\nThank you for sharing your feedback!",
+          "createdAt": "2026-08-13T20:55:51.000Z",
+          "url": "https://x.com/_catwu/status/2088006642189361564",
+          "likes": 100,
+          "retweets": 8,
+          "replies": 11,
           "isQuote": false,
           "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Thariq",
+      "handle": "trq212",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "tweets": [
+        {
+          "id": "2088049989306192106",
+          "text": "everything truly is code https://t.co/DbVE4jdQ7x",
+          "createdAt": "2026-08-13T23:48:06.000Z",
+          "url": "https://x.com/trq212/status/2088049989306192106",
+          "likes": 463,
+          "retweets": 13,
+          "replies": 29,
+          "isQuote": true,
+          "quotedTweetId": "2087522034351796728"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "bio": "ceo @replit. civilizationist",
+      "tweets": [
+        {
+          "id": "2088124774824521786",
+          "text": "ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs. https://t.co/ynhHVkdObE https://t.co/8KPQvVsNb0",
+          "createdAt": "2026-08-14T04:45:16.000Z",
+          "url": "https://x.com/amasad/status/2088124774824521786",
+          "likes": 100,
+          "retweets": 7,
+          "replies": 16,
+          "isQuote": true,
+          "quotedTweetId": "2087633198822117446"
         },
         {
-          "id": "2087597131800674495",
-          "text": "When I started playing Skyrim, I quickly realized you can make a lot of progress without doing any killing. You can also adopt orphans and build them nice houses, so I focused on that. I honestly don't really remember the plot beyond \"that challenging fantasy philanthropy game\".",
-          "createdAt": "2026-08-12T17:48:36.000Z",
-          "url": "https://x.com/AmandaAskell/status/2087597131800674495",
-          "likes": 968,
-          "retweets": 37,
-          "replies": 98,
+          "id": "2088112901852971056",
+          "text": "It’s certainly true at Replit. https://t.co/tYRRVJYUf6",
+          "createdAt": "2026-08-14T03:58:05.000Z",
+          "url": "https://x.com/amasad/status/2088112901852971056",
+          "likes": 305,
+          "retweets": 4,
+          "replies": 9,
+          "isQuote": true,
+          "quotedTweetId": "2087949300882190830"
+        },
+        {
+          "id": "2088110851681386864",
+          "text": "By next year, using a computer will be optional. Work will radically change.",
+          "createdAt": "2026-08-14T03:49:56.000Z",
+          "url": "https://x.com/amasad/status/2088110851681386864",
+          "likes": 717,
+          "retweets": 41,
+          "replies": 153,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -188,37 +278,37 @@
       "bio": "@vercel CEO",
       "tweets": [
         {
-          "id": "2087736311885218160",
-          "text": "Endless opportunity everywhere you look",
-          "createdAt": "2026-08-13T03:01:39.000Z",
-          "url": "https://x.com/rauchg/status/2087736311885218160",
-          "likes": 1091,
-          "retweets": 87,
-          "replies": 76,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087698195120116064",
-          "text": "This is such a nice improvement.\n\nTry 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 – it's mind-blowing. It feels faster than your local machine. \n\nSandbox now comes with a reasonable default set of pre-installed tools, and you can fully customize them. https://t.co/sJM6bvpc18",
-          "createdAt": "2026-08-13T00:30:11.000Z",
-          "url": "https://x.com/rauchg/status/2087698195120116064",
-          "likes": 185,
-          "retweets": 7,
-          "replies": 17,
+          "id": "2088020529039180204",
+          "text": "One command to rule them all (tokens).\n\nI predict that this will become the default way of using coding AI at scale. Uptime, model choice, lower costs, observability, ZDR…\n\nThe cool thing is that this command configures every *existing* coding harness, like Claude Code & Codex!",
+          "createdAt": "2026-08-13T21:51:02.000Z",
+          "url": "https://x.com/rauchg/status/2088020529039180204",
+          "likes": 148,
+          "retweets": 13,
+          "replies": 27,
           "isQuote": true,
-          "quotedTweetId": "2087682908576416172"
+          "quotedTweetId": "2088018757189009515"
         },
         {
-          "id": "2087631388359242050",
-          "text": "Seedance 2.5 on @vercel AI Gateway 🐇 https://t.co/Ql9zpuJpBD",
-          "createdAt": "2026-08-12T20:04:43.000Z",
-          "url": "https://x.com/rauchg/status/2087631388359242050",
-          "likes": 238,
-          "retweets": 9,
-          "replies": 28,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2087982033499042205",
+          "text": "Try https://t.co/L9YIua3HSf with 🆓 GLM 5.2 @ up to 500TPS from @blackboxai https://t.co/A6TgFHSIlR",
+          "createdAt": "2026-08-13T19:18:04.000Z",
+          "url": "https://x.com/rauchg/status/2087982033499042205",
+          "likes": 244,
+          "retweets": 14,
+          "replies": 11,
+          "isQuote": true,
+          "quotedTweetId": "2087970380762013760"
+        },
+        {
+          "id": "2087900672083857815",
+          "text": "The best things in life are free https://t.co/OHr6NcWPnD",
+          "createdAt": "2026-08-13T13:54:46.000Z",
+          "url": "https://x.com/rauchg/status/2087900672083857815",
+          "likes": 311,
+          "retweets": 10,
+          "replies": 23,
+          "isQuote": true,
+          "quotedTweetId": "2087899402379882808"
         }
       ]
     },
@@ -229,15 +319,34 @@
       "bio": "ceo @box - your business lives in content. unleash it with AI",
       "tweets": [
         {
-          "id": "2087719356763672917",
-          "text": "Awesome day in terms of new model releases from both Deepseek and Grok. Both of these new model updates represent huge jumps in capability at insanely low costs. \n\nThis is truly Jevons paradox for AI playing out. By bringing down the cost of AI, demand will continue to accelerate. When I talk to enterprises, they have vastly more use-cases for what they’d like agents to handle than generally what they’re able to budget for today. \n\nThey want agents to scan their codebases for security issues. They want agents to review all their documents. They want agents to process information in a large portion of their workflows. And so on. When we bring down the cost of AI or drive up capability levels, it opens up all new use cases in the enterprises, which drives even greater demand.\n\nThis is also great for the applied AI layer. The more choice of models - especially those tuned for different types (or costs) of work - the more value there is in being at the layer that can route and optimize based on the task. Great for the entire stack right now.",
-          "createdAt": "2026-08-13T01:54:17.000Z",
-          "url": "https://x.com/levie/status/2087719356763672917",
-          "likes": 212,
-          "retweets": 13,
-          "replies": 21,
+          "id": "2088105350201270529",
+          "text": "The elimination of engineers was one of the wilder hypotheses out there. Just like absurdly wrong. We just gave engineers a power tool that can accelerate the development of whatever we want. \n\nOf course their value not only remains critical in that world, but actually goes up in many domains because we can apply engineering to far more work than before.\n\nIf you’re trying to automate drug discovery, you need engineers. If you’re trying to automate manufacturing, you need engineers. If you’re taking on larger and larger software projects, you need engineers.\n\nThis will happen in domains beyond engineering too. AI causes companies to take on way more work than before, which leads to needing more experts to oversee the work. \n\nEven as models get better and better, they can be better utilized by the experts in those fields than the novices. Great time to be an expert.",
+          "createdAt": "2026-08-14T03:28:05.000Z",
+          "url": "https://x.com/levie/status/2088105350201270529",
+          "likes": 187,
+          "retweets": 20,
+          "replies": 27,
           "isQuote": true,
-          "quotedTweetId": "2087577925919068639"
+          "quotedTweetId": "2087669205852385370"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "tweets": [
+        {
+          "id": "2087992867918864668",
+          "text": "matic is the first robot i’ve owned that actually feels like it gets smarter with every update https://t.co/2Giw0IgRlr",
+          "createdAt": "2026-08-13T20:01:07.000Z",
+          "url": "https://x.com/ryolu_/status/2087992867918864668",
+          "likes": 217,
+          "retweets": 3,
+          "replies": 8,
+          "isQuote": true,
+          "quotedTweetId": "2087962897267990915"
         }
       ]
     },
@@ -248,37 +357,37 @@
       "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "tweets": [
         {
-          "id": "2087625178293604438",
-          "text": "We are gonna be markdown skill-maxxing from here\n\nThank you @illscience for a fun conversation https://t.co/SvyGMlmclh",
-          "createdAt": "2026-08-12T19:40:03.000Z",
-          "url": "https://x.com/garrytan/status/2087625178293604438",
-          "likes": 337,
-          "retweets": 21,
-          "replies": 19,
+          "id": "2088066634074443901",
+          "text": "So great to host who we hope is our next Governor of California, @XavierBecerra for a @garryslist citizen’s union gathering. \n\nWe can make California the best win-win place: support building businesses AND make it affordable and livable for the every Californian. https://t.co/kM6ocS7s9T",
+          "createdAt": "2026-08-14T00:54:14.000Z",
+          "url": "https://x.com/garrytan/status/2088066634074443901",
+          "likes": 129,
+          "retweets": 6,
+          "replies": 43,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2088029937714565260",
+          "text": "I agree, you need topics per-bot please! https://t.co/fwYOWLvu17",
+          "createdAt": "2026-08-13T22:28:25.000Z",
+          "url": "https://x.com/garrytan/status/2088029937714565260",
+          "likes": 281,
+          "retweets": 9,
+          "replies": 25,
           "isQuote": true,
-          "quotedTweetId": "2087624058649321869"
+          "quotedTweetId": "2087917528001794393"
         },
         {
-          "id": "2087597829065945249",
-          "text": "Running GBrain with Codex or Claude Code should be a *separate agent* and I wouldn't expect you to run it in your main coding agent.\n\nThink of it more like a personal AI version of ChatGPT or Claude that has its own git repo for memory and custom skills.",
-          "createdAt": "2026-08-12T17:51:22.000Z",
-          "url": "https://x.com/garrytan/status/2087597829065945249",
-          "likes": 20,
-          "retweets": 2,
-          "replies": 6,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087594114372259890",
-          "text": "GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through my own personal OpenClaw agent with hundreds of thousands of markdown files. \n\nA personal AGI is one that works for you. GBrain now works with Codex and Claude code, btw.\n\nhttps://t.co/yFpFU4pn5b https://t.co/MqpMfX4wsX",
-          "createdAt": "2026-08-12T17:36:37.000Z",
-          "url": "https://x.com/garrytan/status/2087594114372259890",
-          "likes": 616,
-          "retweets": 45,
-          "replies": 71,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2087929926070710381",
+          "text": "YC is the YC for hard tech https://t.co/OtXE3Jd81Q",
+          "createdAt": "2026-08-13T15:51:00.000Z",
+          "url": "https://x.com/garrytan/status/2087929926070710381",
+          "likes": 213,
+          "retweets": 8,
+          "replies": 12,
+          "isQuote": true,
+          "quotedTweetId": "2087927880017965357"
         }
       ]
     },
@@ -289,13 +398,13 @@
       "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "tweets": [
         {
-          "id": "2087528600849252696",
-          "text": "Graph engineering is the new loop engineering which is the new harness engineering which is the new context engineering which is the new prompt engineering. \n\nHope this clarifies any confusion.",
-          "createdAt": "2026-08-12T13:16:17.000Z",
-          "url": "https://x.com/mattturck/status/2087528600849252696",
-          "likes": 34,
-          "retweets": 0,
-          "replies": 16,
+          "id": "2087978386195103916",
+          "text": "Right now, you're either:\n\n* an AI-native rocketship, which sounds fun until you realize it means being in a permanent fundraising situation at ever more scary valuations to hoover up capital and talent, and in a constant death match with other rocketships to capture customers, sacrificing gross margins; or\n\n* basically left for dead, regardless of how good a company you actually are\n\nThis has been the case for a while, but feels like it just escalated a notch.",
+          "createdAt": "2026-08-13T19:03:34.000Z",
+          "url": "https://x.com/mattturck/status/2087978386195103916",
+          "likes": 256,
+          "retweets": 13,
+          "replies": 43,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -308,24 +417,13 @@
       "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
       "tweets": [
         {
-          "id": "2087566828319146237",
-          "text": "https://t.co/uaVOzI4Tj5",
-          "createdAt": "2026-08-12T15:48:11.000Z",
-          "url": "https://x.com/zarazhangrui/status/2087566828319146237",
-          "likes": 10,
-          "retweets": 3,
-          "replies": 0,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087547174662136273",
-          "text": "This Stanford lecture series is pure gold. \n\nCrazy that such high-quality knowledge is freely disseminated on YouTube https://t.co/bHH1QYLy98",
-          "createdAt": "2026-08-12T14:30:05.000Z",
-          "url": "https://x.com/zarazhangrui/status/2087547174662136273",
-          "likes": 601,
-          "retweets": 71,
-          "replies": 14,
+          "id": "2088087765267386564",
+          "text": "Ironic that many people thought AI coding would make engineers less valuable when in reality the most in-demand jobs all have the word “engineer” in them: \n\nforward-deployed engineer, design engineer, product engineer, growth engineer…",
+          "createdAt": "2026-08-14T02:18:12.000Z",
+          "url": "https://x.com/zarazhangrui/status/2088087765267386564",
+          "likes": 106,
+          "retweets": 4,
+          "replies": 29,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -338,45 +436,26 @@
       "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "tweets": [
         {
-          "id": "2087664045797294212",
-          "text": "Still maintain that @TheEthanDing is a mad mad genius.. this latest post is a good reminder https://t.co/eeWTkVU3FT https://t.co/5H6Iy8tCds",
-          "createdAt": "2026-08-12T22:14:30.000Z",
-          "url": "https://x.com/nikunj/status/2087664045797294212",
-          "likes": 85,
+          "id": "2088029329624371544",
+          "text": "“Matic” was one of the first ten words my son learned.. and he treats it as the fifth member of the family. \n\nUsing @maticrobots also made it clear to me that useful home robots are here to stay. \n\nThey continue to surprise and delight us with gestures like this - true 10 year overnight success company. \n\nKudos to the team!!\n\n(obligatory not an investor, just a fan)",
+          "createdAt": "2026-08-13T22:26:00.000Z",
+          "url": "https://x.com/nikunj/status/2088029329624371544",
+          "likes": 63,
           "retweets": 2,
-          "replies": 1,
+          "replies": 5,
           "isQuote": true,
-          "quotedTweetId": "2087657856354955507"
-        }
-      ]
-    },
-    {
-      "source": "x",
-      "name": "Peter Steinberger",
-      "handle": "steipete",
-      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-      "tweets": [
-        {
-          "id": "2087607369908023354",
-          "text": "going live! https://t.co/rfoAYqKWzX",
-          "createdAt": "2026-08-12T18:29:17.000Z",
-          "url": "https://x.com/steipete/status/2087607369908023354",
-          "likes": 93,
-          "retweets": 11,
-          "replies": 8,
-          "isQuote": true,
-          "quotedTweetId": "2087552996838367715"
+          "quotedTweetId": "2087962897267990915"
         },
         {
-          "id": "2087568620465607078",
-          "text": "cli was a year ago. apps maybe 6 months. now it’s services, web, cloud sessions. https://t.co/UlwOZslqX9",
-          "createdAt": "2026-08-12T15:55:18.000Z",
-          "url": "https://x.com/steipete/status/2087568620465607078",
-          "likes": 1190,
-          "retweets": 41,
-          "replies": 82,
-          "isQuote": true,
-          "quotedTweetId": "2087387365224685739"
+          "id": "2087906119914340540",
+          "text": "Grok Bot is a fantastic release.. the UX, the design, the onboarding :chefs-kiss:\n\nBut I go back and forth on this a lot: Will users (personal and business) want one super agent that holds all the context or sub agents that are designated to do a slice of tasks?\n\nIf we treat agents as humans, then the Grok Bot design makes a ton of sense. It allows us to compartmentalize tools, context, outcomes for that person’s division. You reach out to that bot for that specific goal that you have in mind. \n\nBut, if you treat agents as Jarvis, you want a master agent that just gets the job done. It might create and coordinate all the bots (and dare I say the communication/context) that might be needed to do the task. But the interface is 1:1 vs. 1:many. \n\nMy guess is it’ll veer towards the one master agent over time who can then act as an orchestrator who reads / understands the bots you create. But starts narrow as most of the companies are doing it now. \n\nPS: I understand the core engineering constraints (context windows, tool use, simplicity, cost etc) why companies are choosing task/singular outcomes today. Primarily thinking this from a design / product side.",
+          "createdAt": "2026-08-13T14:16:25.000Z",
+          "url": "https://x.com/nikunj/status/2087906119914340540",
+          "likes": 176,
+          "retweets": 4,
+          "replies": 43,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
@@ -387,37 +466,26 @@
       "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "tweets": [
         {
-          "id": "2087678775517442399",
-          "text": "something analog dropping tomorrow 👀 https://t.co/DHSS1NKBDI",
-          "createdAt": "2026-08-12T23:13:01.000Z",
-          "url": "https://x.com/danshipper/status/2087678775517442399",
-          "likes": 38,
-          "retweets": 4,
-          "replies": 3,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087556463770157432",
-          "text": "Update: we’re rebranding to “Word” it’s cleaner",
-          "createdAt": "2026-08-12T15:07:00.000Z",
-          "url": "https://x.com/danshipper/status/2087556463770157432",
-          "likes": 8,
+          "id": "2088015579093295157",
+          "text": "concerning https://t.co/TFeaEwNUta",
+          "createdAt": "2026-08-13T21:31:22.000Z",
+          "url": "https://x.com/danshipper/status/2088015579093295157",
+          "likes": 41,
           "retweets": 0,
           "replies": 3,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087555423893065872",
-          "text": "im starting a new content agency \"One Word\" \n\ninspired by @ajambrosino help AI labs grow on X by posting one word a day\n\nthis is the new meta. don't just go direct. go one word at a time https://t.co/EhirSaEmIE",
-          "createdAt": "2026-08-12T15:02:52.000Z",
-          "url": "https://x.com/danshipper/status/2087555423893065872",
-          "likes": 40,
-          "retweets": 0,
-          "replies": 13,
           "isQuote": true,
-          "quotedTweetId": "2087551322992283901"
+          "quotedTweetId": "2088014744922075162"
+        },
+        {
+          "id": "2087995350745244083",
+          "text": "Averaging 2 applications per minute from: \n\nCitadel\nOpenAI\nRed Bull\nMicrosoft\nProfound\nAlpha School\nNASDAQ\nGoogle\nPinnacle\nCohete\nBessemer \nLenovo\nPwC\nSquare\n\nYou should apply! https://t.co/9huAwWNnzz",
+          "createdAt": "2026-08-13T20:10:59.000Z",
+          "url": "https://x.com/danshipper/status/2087995350745244083",
+          "likes": 88,
+          "retweets": 2,
+          "replies": 12,
+          "isQuote": true,
+          "quotedTweetId": "2087972392631222670"
         }
       ]
     },
@@ -428,67 +496,56 @@
       "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "tweets": [
         {
-          "id": "2087563719181996295",
-          "text": "We spoke with @ETtech about @spc https://t.co/4KpFh7LUc7",
-          "createdAt": "2026-08-12T15:35:50.000Z",
-          "url": "https://x.com/adityaag/status/2087563719181996295",
-          "likes": 8,
-          "retweets": 1,
+          "id": "2088058783767658541",
+          "text": "It would be amazing to host @JeffDean at @spc for a fireside chat.\n\nHow do we make that happen?",
+          "createdAt": "2026-08-14T00:23:02.000Z",
+          "url": "https://x.com/adityaag/status/2088058783767658541",
+          "likes": 91,
+          "retweets": 0,
+          "replies": 8,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2087959518541926735",
+          "text": "https://t.co/dI2yvPH2bY",
+          "createdAt": "2026-08-13T17:48:36.000Z",
+          "url": "https://x.com/adityaag/status/2087959518541926735",
+          "likes": 0,
+          "retweets": 0,
           "replies": 0,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2087563716350902530",
-          "text": "We're bullish on India.\n\n@spc_india was our first bet outside the US.\n\nSome of the most ambitious projects of the decade will be built there. \n\nIndian dynamism is here to stay. https://t.co/Td8eQuJQeV",
-          "createdAt": "2026-08-12T15:35:49.000Z",
-          "url": "https://x.com/adityaag/status/2087563716350902530",
-          "likes": 319,
-          "retweets": 10,
-          "replies": 11,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2087959516545470973",
+          "text": "Really enjoyed my conversation with @Samirkaji.  \n\nWe spoke about what makes great companies work and how we're thinking about the future at @spc. https://t.co/DzHiTyYQa5 https://t.co/il3Yg2yc3f",
+          "createdAt": "2026-08-13T17:48:35.000Z",
+          "url": "https://x.com/adityaag/status/2087959516545470973",
+          "likes": 25,
+          "retweets": 2,
+          "replies": 2,
+          "isQuote": true,
+          "quotedTweetId": "2087954852853043302"
         }
       ]
     },
     {
       "source": "x",
-      "name": "Claude",
-      "handle": "claudeai",
-      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "bio": "AI is cool i guess",
       "tweets": [
         {
-          "id": "2087635265066004694",
-          "text": "Browser agents can be tricked by instructions hidden in a page. We build defenses against this, and we still recommend a few habits of your own: https://t.co/aHIHLNkOnk",
-          "createdAt": "2026-08-12T20:20:08.000Z",
-          "url": "https://x.com/claudeai/status/2087635265066004694",
-          "likes": 245,
-          "retweets": 3,
-          "replies": 7,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087635263774232617",
-          "text": "The side panel now runs the same Claude Cowork session as the desktop, web, and mobile apps. Sessions live with your account, not on any single device, so you can start in a tab and pick it up later somewhere else.\n\nGive it a try: https://t.co/8xTEK7osxX",
-          "createdAt": "2026-08-12T20:20:07.000Z",
-          "url": "https://x.com/claudeai/status/2087635263774232617",
-          "likes": 388,
-          "retweets": 13,
-          "replies": 15,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2087635262390026525",
-          "text": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile. Conversations are saved, and your skills and connectors work in the browser.\n\nAvailable on Max and Team today, rolling out to Pro in the coming weeks. https://t.co/Hnxs18PVI8",
-          "createdAt": "2026-08-12T20:20:07.000Z",
-          "url": "https://x.com/claudeai/status/2087635262390026525",
-          "likes": 8533,
-          "retweets": 615,
-          "replies": 382,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2088101491802243121",
+          "text": "/ultrafast https://t.co/UxnKkABuKQ",
+          "createdAt": "2026-08-14T03:12:45.000Z",
+          "url": "https://x.com/sama/status/2088101491802243121",
+          "likes": 1638,
+          "retweets": 68,
+          "replies": 205,
+          "isQuote": true,
+          "quotedTweetId": "2087947721936359705"
         }
       ]
     }
@@ -496,51 +553,20 @@
   "podcasts": [
     {
       "source": "podcast",
-      "name": "AI & I by Every",
-      "title": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
-      "guid": "7f04c744-6cb4-48c2-a0f9-1a3a46e0137c",
-      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "publishedAt": "2026-08-12T16:55:27.000Z",
-      "transcript": "Speaker 1 | 00:00 - 00:10\nYou're someone who, I think, cares a lot about the craft of things. One of the knocks on, you know, using agents for coding is it gets rid of some of that feeling or something like that. How do you feel about that?\n\nSpeaker 2 | 00:10 - 00:38\nI love the fact that my people, you know, makers, writ large, so software engineers or, you know, mechanical engineers Yeah. Or woodworkers or potters. If you are really passionate about what you do, you're going to have very strong opinions about how you do it. I've been a woodworker for almost as long as I've been a programmer. This is not the first moment in the past four decades where the nature of software development has changed in a nontrivial way.\n\nSpeaker 2 | 00:38 - 01:14\nLike, if agents are gonna be useful, they have to take action on your behalf. Yep. They have to be able to use tools and make changes in systems and consult information sources that are, you know, diverse and rich. And in order for that to, like, really be great, you need an ecosystem that looks a lot like the Internet. If you have a source of information, you already have a website, you already have an API that's doing something for people out there, like, you've gotta figure out how to plumb things through where agents can, like, talk to those things.\n\nSpeaker 2 | 01:14 - 01:30\nLike, one of the things, the CTO that I've been pushing for at Microsoft is, like, I want all of our systems internally to speak a standard protocol to all of the agents that we're writing inside of Microsoft. Be curious. Try And if it works for you, use it. And if it doesn't, don't.\n\nSpeaker 1 | 01:44 - 01:45\nKevin, welcome to the show.\n\nSpeaker 2 | 01:45 - 01:46\nOh, thanks for having me.\n\nSpeaker 1 | 01:46 - 01:54\nOne of the things that's interesting is I was here last year. Yep. And you said two things. There there are two big themes. One was agents are gonna be everywhere.\n\nSpeaker 1 | 01:54 - 02:10\nThat's one of things you said, which I think really came true. That was very prescient. Another thing is I noticed a big emphasis last year on scaling laws. Yep. There were a lot of graphs of, like, we're building big infrastructure, we're building these bigger models, and every two years, we're gonna get these big performance improvements.\n\nSpeaker 2 | 02:10 - 02:10\nYeah.\n\nSpeaker 1 | 02:11 - 02:17\nThis year, the emphasis is really on, the agentic web. Yep. So what has changed? What have we learned from last year to this year?\n\nSpeaker 2 | 02:17 - 03:05\nYeah, think there's a bunch of things that have changed. Like one of the things is that I think, last year people were like really in this state of mind that they were doubting that, the scaling laws were going to continue to work really well. Whereas like, I think, you know, we've demonstrated year after year after year that, they are in tact and working quite well that like that's not a thing that people need to be reminded of, anymore. And I think the other thing too that's happened honestly is that the reasoning capabilities of the models has, actually gotten a little bit ahead of what we're using the models to do in products. So I've, I've been talking a lot lately about this, thing called the capability overhang.\n\nSpeaker 2 | 03:05 - 04:06\nAnd you know, I think we actually have some work to do collectively across the whole industry to close the gap between what the models are actually capable of and like what we're delivering to users, of that capability. So that, that's one of the, one of the like big thematic things why, you know, scaling laws might not be as interesting to talk about at this year's Build As Last. And then the other thing too is that we've just discovered is all of these agents have emerged over the past year. And so like both the number of agents and like the amount of time that people are spending doing stuff inside of these agents or with these agents is that there's a bunch of other stuff other than reasoning that has to get sorted out in order to make them as useful as they should be. So, you know, the things that I was talking about, at the keynote today at Build were, you know, we need better agentic memory, like our agents right now because memory is constrained in a bunch of interesting ways.\n\nSpeaker 2 | 04:08 - 04:36\nThey're a little bit transactional. So like you use them for like one thing and like, you know, memory's coherent across the course of that task. But yeah, then it may or may not completely go away. And like you're starting from scratch, the next time, which really inhibits your ability to delegate increasingly complicated tasks to these things. And then like, there's just this real issue that like, if agents are going to be useful, they have to take action on your behalf.\n\nSpeaker 2 | 04:36 - 05:52\nLike they have to be able to use tools and, like make changes in systems and consult, information sources that are, you know, diverse and rich. In order for that to like really be great, you need, like an ecosystem that looks a lot like the internet where, if you have a source of information, you already have a website, you already have an API that's doing something for people out there. Like you've got to figure out how to plumb things through where agents can like talk to those things, and where, you know, all of the incentives are aligned for everyone to like go have all of this stuff participating in, you know, ways that make sense to them in this agentic web. And so I think that is the big story this year. It's like, you've seen the first glimmers of like real progress with like super awesome, simple open protocols like MCP that are serving the same purpose in this agentic web as HTTP does on the internet and where you have things like NL web that are like serving, you know, the same moral equivalent purpose as HTML does on the internet.\n\nSpeaker 2 | 05:53 - 06:06\nAnd so I think you're going to see these things like simple things that are composable and layering and like just lots of activity in the open community and like a bunch of things hopefully getting to ubiquity so that agents can actually do stuff.\n\nSpeaker 1 | 06:06 - 06:18\nRight. So I I think to to play that back, like one of the things I hear is like we have agents. Agents are starting to work. And in order to make them powerful, agents need access. They need access to like what whatever is out on the internet, whatever is on your computer, all that kind of stuff.\n\nSpeaker 1 | 06:19 - 06:40\nAnd you need, basically, protocols and processes for agents to be able to access that stuff. And so, you're looking at different parts of the stack. Like Absolutely. The runtime layer where where you're, you know, you're building, like, memory and and and all those kind of stuff. And then m p MCP, which allows you to connect into the wider Internet to get inform more information into agents.\n\nSpeaker 1 | 06:40 - 06:48\nYep. I guess, why is that important to Microsoft? And, like, what role do you want to play in that kind of an ecosystem?\n\nSpeaker 2 | 06:48 - 07:41\nWell, look, I think there are, you know, two, maybe three things that are super important. So one is like, make agents and in order for our agents that we're building for folks to be useful, like we need to solve these problems inside of, these agents. And like, even if you sort of scope it down narrowly to enterprise agents, like one of the things as CTO that I've been pushing for at Microsoft is like, I want all of our systems internally to speak a standard protocol to all of the agents that we're writing inside of Microsoft. So that, we're not exposing the entire world to like Conway's law, which is, you know, organization. So Conway's law is like, it's really funky thing in compilers where, you know, guy Conway said that the, the number of stages or passes in your compiler is going to be dictated by the number of teams you have working on the compiler.\n\nSpeaker 1 | 07:41 - 07:42\nYou ship your org chart. Correct.\n\nSpeaker 2 | 07:42 - 08:26\nYou ship your org chart. And so, you know, you, you certainly inside of the confines of a company like Microsoft, like you don't want to be shipping your org chart when you are, building your agents. And like, it's just kind of a horror show to watch, like as a engineer, like all of this inefficient building, like when you don't have like those standard protocols and services that everybody's using. But I think, you know, if you sort of imagine, if you really imagine like what agents could do and like what you, you know, what users, like not me, but like, you know, just people who are hoping these things can be more useful than they are right now. Like you need things to start happening the same way that they were happening, with the web.\n\nSpeaker 2 | 08:26 - 09:10\nAnd like, I kind of see it right now. Like MCP is like a really great example. So it is a really simple protocol that solves a really important problem, not just for people who are making agents and building platform infrastructure, but for, yeah, Users of these systems who want them to be more useful and for people who are providers who are like, Hey, like I want to be participating in this new agentic web is like, people are doing less of one thing, which I knew how to connect to, like how, and they're, you know, they're sort of sitting here using these agents, like how do I get my stuff wired up into this? And like, how does it make sense for me? Like even from a business model perspective, to do that.\n\nSpeaker 2 | 09:10 - 09:34\nAnd so like, that's the two things it's like make our own agents more useful. Then like, we were a platform company, like even more important than the agents that we're going to write ourselves. Like that platform layer that Microsoft has been building in technology for fifty years. Like we just want to make sure that we are helping solve the problems that are emerging as this agentic web is happening.\n\nSpeaker 1 | 09:34 - 09:50\nYeah. It's been it's really cool to see you guys like leaning really hard into MCP and like integrating it into all of Windows and all that kind of stuff. That's really awesome. And it it brings up for me I've been starting to hear rumblings from people who are thinking a lot about MCP that the security model needs a lot of\n\nSpeaker 2 | 09:50 - 09:51\nwork. And\n\nSpeaker 1 | 09:51 - 10:14\nI'm I'm curious, like, for your take on that because you're you're you're making a lot of comparisons between this stack and the Internet stack. And the Internet has a bunch of, like, things in its security model, like the same origin policy that make sure that you like, if a website is serving you serving you code, like, it's only able to execute on its own data. Yep. And MCP doesn't really have that. So like, how do you what do you think the right security model is for this?\n\nSpeaker 2 | 10:14 - 10:55\nWell, I look, I don't know, that I know what exactly the right security model is. But like the interesting thing about MCP is, like it is so coherently simple that it's going to be relatively easy for the community to decide what the security model is. Like, yeah, we, we have a bunch of like enterprise things that we care a lot about and that like, we're doing really good work with, with the MCP team to get done. So like, we need agents to have identities, so that you can build entitlement systems. So you can say this agent is acting on behalf of this person and like, they're entitled to see these resources in this system.\n\nSpeaker 2 | 10:56 - 11:27\nAnd like even having a way for an agent to sort of go query a bunch of systems and say like, These, here's the thing that I would like to do. These are the systems I need to touch in order to do the thing. Like what entitlements do I need to ask for in order to do this? And so I can request permission like from the user, like the person who's delegated this has to me, like, I present to them? Like, can I have permission to these things in order to do this thing you asked me to do?\n\nSpeaker 2 | 11:27 - 11:54\nYes or no? And then for the administrators of all of these systems, you know, like, Hey, is it okay for all of this to be happening? And so like, there's all of that's going to be like relatively straightforward to do, like, not easy, but like relatively straightforward to do on top of MCP. And like, the important thing is like, let's do it in an open way. Like we don't need it to be proprietary, to like our agents or our systems.\n\nSpeaker 2 | 11:54 - 12:01\nLike we've just got to figure out how to get this dime where things kinda work like the web works.\n\nSpeaker 1 | 12:01 - 12:30\nYeah. Well, it's an interesting question for me because I feel like there's there's maybe two potential models or potential go to markets for for AI stuff that that you guys have been talking about. One is this sort of, like, verticalized model where you own the model and you own the UI layer. You do do all the applications and everything between. And and the the thing about that model, which maybe it's sort of you could say the the App Store or Apple iPhone model is is is a good example of that is you can guarantee security in a lot of ways.\n\nSpeaker 1 | 12:30 - 12:41\nAnd an open model, it's harder to do security stuff, but you get much more like innovation basically because there's no central authority. So how did you guys think about making that making that decision?\n\nSpeaker 2 | 12:41 - 13:00\nYeah. So look, I, I know that that's the argument that a lot of people make. Yeah. I, I think it might be a false dichotomy. There, there is a, you know, like a, a thing that you have in these open systems where they are permissionless.\n\nSpeaker 1 | 13:00 - 13:01\nYeah.\n\nSpeaker 2 | 13:01 - 13:54\nAnd like there's a real advantage in having permissionless, innovation. So like the thing that as an individual that excites me most about what's happening right now is the extent to which you can go innovate and build things without having to seek someone's permission, like where you have to have them grant you permission for distributing your things to other people. And, you know, like having all of these like complicated gatekeeping things that are sitting in between you who are the person who had the idea and like the people who might benefit from it. Like, I think some of these like middle layers that we had that have emerged over the past handful of years, like just aren't contributing much value, honestly, to the two parties and the transaction that matter, which is the person who did the hard work to make a thing. Then the people who are going to either spend their attention or their money or some other currency that's valuable to like access the thing.\n\nSpeaker 2 | 13:56 - 15:00\nSo like, I get it kind of excited about that. And so like, that's one of the reasons why we've made the decisions that we want to, but like, I also think that there are ways that you can get real robust security, in these systems, like leveraging some of the AI capability that you have now, that, you know, where you may be able to have better security. Like if you have an agent that you are running, that is attending to your personal security requirements, like these are things I'm willing to share. These are things I'm not willing to share, like, you know, and that has some kind of knowledge of risk assessments and like, yeah, like for instance, like my wife this morning, while I was, while I was getting ready to jump on stage, like I got this flurry of emails, that, because I'm the like backup security account for my wife where like somebody was like fiddling around with two factor authentication on her account. And like the first thing I did was I texted her.\n\nSpeaker 2 | 15:00 - 15:29\nLike I didn't want to email her because somebody might have gained unauthorized access to her email account. I texted her. I was like, Hey, are you screwing around with the configuration? And she's like, yes. And so like, you could imagine like having an agent that is like privy to like a whole bunch of your communication modalities, like being able to like notice that something funky is going on and then like, you know, using a bunch of resources to triangulate, like whether that's legit activity or illegitimate activity.\n\nSpeaker 2 | 15:29 - 15:38\nSo I, I like, I think there's just a bunch of stuff like that that like you, you can have both, right? Like, I don't think it needs to be like, you know, one or the other as you framed it.\n\nSpeaker 1 | 15:38 - 15:52\nYeah. That makes sense. One of the one one other thing that I'm I'm curious about is it just seems pretty clear that software engineering is changing. Yeah. And you're someone who's been involved in software engineering for a long time.\n\nSpeaker 1 | 15:53 - 16:06\nYou're someone who also, I think, cares a lot about, like, the craft of things. Like, the craft of how things are made. We were talking earlier about you're making you do lot of ceramics. You make your own bags. Like, you're you love having your hands in things.\n\nSpeaker 1 | 16:06 - 16:23\nYeah. And I think one of the knocks on, you know, using agents for coding is, like, it gets rid of some of that feeling or something like that, which I don't necessarily agree with. But I'm sort of curious for you, like, as someone who cares about the craft of code, looking into this future of coding with agents, like how does that, how do you feel about that?\n\nSpeaker 2 | 16:23 - 17:08\nWell, so let me start by saying that I, I, I love the fact that my people, and like, when I say my people, I mean, you know, makers, writ large, so software engineers or mechanical engineers or woodworkers or potters, or, you know, just sort of pick your thing where people are trying to create things from raw materials or nothing. If you are really passionate about what you do, you're going to have very strong opinions about how you do it. The tools that you use, the materials that you use, like how things get put together. Is a necessary thing for you to be great at your job. The interesting thing is people have lots and lots of different opinions.\n\nSpeaker 2 | 17:08 - 17:39\nOne of the events you said, I've been doing it for a long time. I am. I'm an old fart. I wrote my first program when I was 12, which means I've been programming for forty one years. And so the thing that you get to see when you've been doing a thing for a very long time is like, this is not the first moment in the past four decades where, the nature of software development has changed in a non trivial way and where people have very strong opinions about the change and what it means.\n\nSpeaker 2 | 17:40 - 18:11\nAnd so, yeah, I think the, the reality is that people will have choice. You know, like I still, when I go into a text editor, I probably shouldn't say this because like we make, you know, Visual Studio Code, like I'm such an old recalcitrant fart, that I still use VI. I use them at least. But like my text editor of choice is like this extremely antiquated thing. And like, I just refuse to go use something different.\n\nSpeaker 2 | 18:11 - 18:50\nEven though I know for sure that that is sub optimizing a part of what I'm doing, but I make the decision anyway, because like I get to choose. And then in other aspects of my making, like either software or something else that I'm doing, like I will be like, okay, the important thing here is not the way that I'm doing this particular part of it. It's the outcome that I'm trying to get to. And like, I'm going to use the most powerful Or most convenient way to go get to the outcome. And like, you know, I don't care who's going to throw rocks at me for doing it.\n\nSpeaker 2 | 18:50 - 19:19\nAnd like, it's literally everywhere. Like I I've been a woodworker for almost as long as I've been a programmer. And when I was a teenager, like the big debate was like, Oh, are you a real woodworker? If you use power tools, like, you know, real woodworkers only use hand tools. Like there's still a little bit of that debate today, but like the real debate is like, are you a real woodworker if you use CNC tools, like computer controlled power tools versus just power tools?\n\nSpeaker 2 | 19:20 - 19:41\nAnd I understand it. Like, I actually think it's interesting the debate itself. But like sometimes like people are going to make different choices because like they value something different than you do. If you value the process more than you value the outcome, like sometimes you'll make different decisions and people who value the outcome more than the process.\n\nSpeaker 1 | 19:41 - 19:52\nAnd I think the like, is it a, are you a real woodworker, a real programmer? You're sort of saying like, you're only real if you do it the way I grew doing it. Yeah. When you ask that question in a lot of ways, you know?\n\nSpeaker 2 | 19:52 - 20:02\nBut it's just so varied. Right? And like, so the, the thing that I will say is like, I would never in a million years tell anyone not to have strong opinions about their craft. Like have them. Like it's great.\n\nSpeaker 2 | 20:02 - 20:40\nLike the, the advice that I would give people and like, this is not me telling them what it's just advice, like things that I've found useful for myself is just have an open mind, you know, when the tools are changing. I can't even tell you like the number of times where I have looked at a new technology in some other like non software, dimension of making that came along where I'm like, Ugh, like I don't want to learn like three d printers. Like I waited forever to learn how to use three d printers and like, I regret it. Like I should have started earlier. Like they're so damn useful for almost everything that I do.\n\nSpeaker 2 | 20:41 - 20:52\nAnd for a whole variety of complicated reasons, like I didn't let myself be curious about that, which is odd. And so, yeah, just like, be curious, try stuff like, and if it works for you, use it. And if it doesn't, don't.\n\nSpeaker 1 | 20:52 - 21:01\nYeah. What do you think is the future of software engineering agents? Like, is there going to be like one agent rule them all or is it, you're just going use many different agents with different tastes or like, how do you see that ecosystem shaping up?\n\nSpeaker 2 | 21:01 - 21:32\nYeah. I look, I think it's going to be a lot of different agents. I mean, like, and it's good to have a lot of agents and like we certainly would get up Copilot and the, you know, get up agent stuff that we're working on. Like, I think we will compete very hard to like be a tool that lots of people will choose because it's very useful to them. But I think it's unrealistic in the universe of developers to like, think that like every developer on the planet is going to snap to using like one tool for like an important part of their job.\n\nSpeaker 2 | 21:32 - 21:55\nLike part of the joy of being a developer is you actually have that choice and you can sort of choose and play around with a bunch of different things and like do irrational things and like do rational things. Like, it's, it's just, you know, it, it, it is one of the very consistent things that I've seen over the past four decades of my programming life is like people choose to change their tools all the time. Yeah.\n\nSpeaker 1 | 21:56 - 22:01\nWhat are the dimensions? Do you have an opinion on the dimensions along which the different agents might differ?\n\nSpeaker 2 | 22:01 - 22:53\nWell, I think the most important thing about, agents is like probably the product making part of them. And so the most interesting startups that I'm seeing right now are not trying to innovate by building some kind of differentiated infrastructure. They're innovating because they think they have an understanding of a problem that someone has that is better than anyone else. And they think that they can pick up infrastructure or modify infrastructure or tune infrastructure to go solve their understanding of that problem in a world class way. So I think that's what we need a lot of right now.\n\nSpeaker 2 | 22:53 - 23:35\nAnd like, that's, what's going to dictate the diversity of agents and like how, like which things get used for what. And I think honestly, because it's so much easier now to like have that nuanced understanding of what someone's problem is and to pick up these tools to go take a swing at solving it, that you're just going to have a lot of companies, like building a lot of things, trying to, you can even see it with the software development tools. It's like crazy how many things have come out over the past year. And like, they're interesting, like all of them. Yeah, it's a lot to respond to when you're a company building software development tools yourself, but like, it's super, super interesting.\n\nSpeaker 2 | 23:35 - 23:49\nIt's like, what we've seen is if you've got some kind of nuanced understanding of what someone needs, like people have like high tolerance and like high interest in like giving things a try. Yeah.\n\nSpeaker 1 | 23:49 - 24:11\nSo we're almost out of time, but, I'm, I'm curious, like let's say it's a year from now, we're back at build. Yep. What are, what are some things that are a hot topic right now, or big questions that people have right now that are not going to matter in a year? And what is going to matter in a year? And what are your, what are your predictions for what we're going to be talking about?\n\nSpeaker 2 | 24:11 - 25:03\nYeah. I think people who are still like hanging onto these ideas that, oh, like the technology's not ready yet because like I, yeah, I tried to do something and it was like marginally too expensive or like it was marginally capable of, you know, doing the thing that I wanted to do. Like, I, I think anyone who is using those as excuses to wait to get started are going to be super behind, because everything's going to get cheaper and everything is going get more capable every year. I know like, and I think this is actually not a hard sell in 2025. Yeah, it was this loud chorus of like, Oh, you know, the progress is gonna, you know, it's about to end and like, everything's going to stop and like, everybody's going to be super disappointed.\n\nSpeaker 2 | 25:04 - 26:05\nLike I, I, I mean, there's still some people out there saying that, but like, I don't think, you know, folks are paying much attention to them anymore. Mostly because like, you know, what, what do you win by paying attention to like some crank who's, saying like, you know, the, the things about to stop, like you're sort of betting on failure and the cost of betting on failure versus betting on optimism is like, is a real big difference there. So yeah, like I, I think we're, we're gonna, we're going to see a ton of progress on, like the level of ambition of problems that people are tackling with agents. And then I think, you know, modalities that are going to be really different is like, is this agentic web starts to get more complete, more plumbed out, and the models reasoning and planning capability get better and better. Like you're going to start to get to the point where you're able to go from this synchronous mode of interaction with agents to asynchronous.\n\nSpeaker 2 | 26:05 - 26:38\nLike right now, of what people do is like they sort of sit down, like they got a thing they want to do, like they issue the prompts, like, and they wait until, you know, the thing comes back, and like, you know, do something with that response. And so I think, you know, by next year, you're going to see people using these agents to like, Hey, go sort this out. And like the agent is going to take a lot of time. It's going to go make a lot of calls out to systems, like the things that it's sort of, like taking action on are going to like take a while to come back. Then they're going to like integrate all of those responses and like do something.\n\nSpeaker 2 | 26:38 - 26:53\nAnd like that whole thing may iterate a bunch of times and then, you know, at some non trivial amount of time later, you're going to sort of say, okay, like here's the, here's the, here's as far as I got, like now it's your turn. Like go take some action now. Sounds like a\n\nSpeaker 1 | 26:53 - 26:54\nfuture I want to be in.\n\nSpeaker 2 | 26:54 - 26:56\nYeah. Me too. Right?\n\nSpeaker 1 | 26:57 - 27:01\nWell, Kevin, thank you so much. It was really, really great to talk to you.\n\nSpeaker 2 | 27:01 - 27:03\nGood to talk to you as well. Thanks for having me on.\n\nSpeaker 3 | 27:11 - 27:23\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard.\n\nSpeaker 3 | 27:23 - 27:46\nBut instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT. Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor.\n\nSpeaker 3 | 27:46 - 27:55\nHit like, smash subscribe, and strap in for the ride of your life. And now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you.\n\nSpeaker 2 | 27:58 - 27:58\nFancy.\n\nSpeaker 1 | 27:59 - 28:01\nThat's how you know it's the real deal.\n\nSpeaker 2 | 28:01 - 28:01\nYeah. Excellent."
+      "name": "No Priors",
+      "title": "What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
+      "guid": "2f8edaf4-9698-11f1-bdc1-eb068382bf86",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "publishedAt": "2026-08-13T17:29:00.000Z",
+      "transcript": "Speaker 1 | 00:00 - 00:24\nCOVID happened, Queen's Gambit happened, some news cycles happened, and we're like, oh, this might just be a flash in the pan, like treadmills and sourdough bread. But then in 2023, we had another crazy wave where all these kids started playing in schools because of short form content and the mittens bot and the cheating scandal. And we just spiked again. And then when we came down again, we were so much higher and we maintained this baseline.\n\nSpeaker 2 | 00:24 - 00:29\nHow do you think about, like, how to design a rating system for poker?\n\nSpeaker 1 | 00:29 - 00:48\nWe're bringing the chess playbook, which is like, how good are you really? Not just can you buy the most chips or can you use a bot or can you steal the most money? Whatever it is, we've all played those games where you're playing for M and M's and someone's just, like, all in all the time and they just rebuy more M and M's. As people get used to, like, wait. I actually care about my poker rating.\n\nSpeaker 1 | 00:48 - 00:57\nPeople are gonna care about it as much as money because it's a reflection of, like, the value and their skill as a player. I think this is gonna be quite an interesting innovation for for\n\nSpeaker 2 | 01:10 - 01:44\nthe chess.com domain out of bankruptcy auction in 2005 for $55 when almost every investor told him it was an uninvestable niche passion project. Two decades later, he's built the dominant chess platform with more than 250,000,000 members, 200,000,000 a year in revenue and a mission to get a billion people to play chess. It's a game that's more popular than ever, despite computers outclassing humans at it for the last thirty years. We talk about what AI means for games, the future of chess.com, how to build a rating system for poker and the future of human skills. Welcome, Eric.\n\nSpeaker 2 | 01:44 - 01:47\nEric, it's great to have you on No Priors. Welcome.\n\nSpeaker 1 | 01:47 - 01:49\nThank you so much for having me.\n\nSpeaker 2 | 01:49 - 02:05\nSo I'd love to just make sure our listeners have a little bit of the backstory of chess.com and how you built this business. But could you paint a little bit of a picture of just, you know, usage and both the company and the user base and product today first?\n\nSpeaker 1 | 02:05 - 02:25\nYeah, sure. We are we are much larger than I ever thought we would be. So it's kind of wild to say these numbers for me. We're about 10,000,000 daily active users, about 40 or 50,000,000 monthly active users. It's always a little slower in the summertime as people are, you know, in the, in the Northern Hemisphere out and about.\n\nSpeaker 1 | 02:26 - 02:55\nWe have more than two fifty million registered members and more revenue than I thought we would end up with as a chess company. A little, I think this year we'll do a little over 200,000,000, which is frankly, again, surprising. We have about six fifty people on our team who love chess, are passionate about the game, and are working hard to, you know, make our members happy and to grow the game, and to be the best possible place to work. Those are our three kind of the three areas of our mission.\n\nSpeaker 2 | 02:55 - 03:10\nAmazing. And you took a, I guess, somewhat unconventional startup path or founder CEO path to get here. I'm certainly think of you as founder. What how did you end up owning the business?\n\nSpeaker 1 | 03:11 - 03:41\nWell, we didn't start by owning a business. We just started by owning a domain name that we got from a bankruptcy auction in 2005. Someone else owned the domain name. They were building chess software, but they, you know, couldn't pay their, their debts and, and the money they'd raised a little bit of money to try to do that, and ended up with a failed business. And so, a friend and I bought the chess.com domain name for $56,000 and we were going to build a chess community.\n\nSpeaker 1 | 03:41 - 03:53\nWe wanted to be like MySpace and build a chess community where people could kind of come and, and and express themselves and learn and share. We bought the domain name and started building.\n\nSpeaker 2 | 03:53 - 04:00\nAnd, we'll bridge the gap from that to the scale of community you have today. Like, how did you grow? How did you think about fundraising?\n\nSpeaker 1 | 04:01 - 04:16\nYeah. So, did think about fundraising. You know, obviously, I was at, I was at Stanford Business School at the time. So, you know, Sandhill Road was right there, and I had access to a lot of venture capitalists. They were, you know, teachers and guests in, you know, classrooms I was in.\n\nSpeaker 1 | 04:16 - 04:29\nAnd so I had a lot of meetings and basically most of them said, this is uninvestable. You should get a real job. Don't waste your time with this. And so I wasn't able to raise any money. No one believed in the vision.\n\nSpeaker 1 | 04:29 - 04:42\nI asked some classmates if they wanted to like join me on this venture. And they're like, nah, we're going go like do something serious. And, so then my friend and I, you know, he was kind of the CTO. I was the product person. Just the two of us started building it together.\n\nSpeaker 1 | 04:43 - 05:31\nDidn't raise any money. Eventually I started putting money in. I had money from a, you know, a couple of previous businesses I had sold, borrowed like a little bit of money from my friend's mom, and then paid it back later, but, you know, we just really kind of grew at the speed of cash, and after we launched in 2007, right as I graduated, from school, and then I think within like eighteen months, we were starting to charge memberships for like online chess learning, and we pretty quickly became profitable, and then we just grew, you know, as we had more revenue, we would just hire somebody new, whether it was a community manager, a developer, a system, a SIS admin, you know, eventually designers. It just kind of grew as we had money to, you know, for it to grow. And we never then again considered raising money.\n\nSpeaker 1 | 05:31 - 05:46\nIt never crossed our minds. We just thought, Hey, we're profitable. Let's just keep, let's keep growing. And we always thought like, oh, when we hit like 50 people, like we're never going to have more than 50 people on our team. And of course we blew, we're never going to have more than a 100 people on our team.\n\nSpeaker 1 | 05:46 - 06:18\nAnd then we just stopped saying that because, you know, chess just continued to surprise us as to how big it got. And it still surprises me. But what's interesting is now I'm like, if two fifty million people have said they want to play chess at some point on chess.com, like, why don't we have 50,000,000 daily active users? You know, a billion people should be playing chess. So now our ambitions are pretty big and we see the good that chess does in the world and brings people together and gives them confidence and, you know, teaches them that you never really lose if you learn.\n\nSpeaker 1 | 06:18 - 06:29\nAnd it's a great game for learning and spending time. So now our mission is huge and we're like, we're going to be, you know, bigger than we are today. So we're quite excited about our mission.\n\nSpeaker 2 | 06:29 - 06:45\nHow did you think about competition and like the rate of growth you needed to have? Yeah. And how do you think about it today? Because there there are I don't know if you can say the words, but there are platforms like Leechess out there. Yeah.\n\nSpeaker 2 | 06:46 - 07:05\nAmongst the many drivers of people raising a huge amount of capital, some businesses are more CapEx intensive than others. But even when they're not naturally. The desire to like be the dominant player in a market, way chess.com is right is, I think, a common driver.\n\nSpeaker 1 | 07:05 - 07:22\nYeah, and I think that's fair. And I want to give the caveat that the chess, you know, the chess industry, as we call it today, didn't exist, you know, twenty years ago. It was like some some apps and like one kind of, you know, a couple of players. There was free Internet chess server fix. There was ICC Chess Club.\n\nSpeaker 1 | 07:23 - 07:33\nThose were the two major players. There's Yahoo! Chess. And, you know, we came on and we just relentlessly focused on what we wanted as players ourselves. We wanted a product that felt great.\n\nSpeaker 1 | 07:33 - 07:44\nWe wanted it to be free to play. We wanted it to be in the browser. We wanted it to feel great. You know, we wanted it to be a wonderful experience. So, we really just focused on the user experience above all.\n\nSpeaker 1 | 07:44 - 07:59\nAnd, you know, over time, you know, that wins out. And so, you know, most of the others kind of fell by the wayside. Obviously, Leechess exists today. They're kind of the, I would say, the Linux of, you know, they exist for a really important reason. It's great for the community.\n\nSpeaker 1 | 07:59 - 08:24\nIt's open source. It does what it does. And we coexist here and, you know, we drive the growth of the game through what we do and, you know, through the investments we're allowed to, we're able to make due to the fact that we do generate revenue, and, you know, they serve a different part of it. The interesting thing is chess is like not patentable. There's, you know, thousands, if not tens of thousands of chess apps in the App Store and chess websites.\n\nSpeaker 1 | 08:24 - 09:06\nAnd, you know, at the end of the day, really, is going to win out and community and content. And so it's just really this this relentless focus on creating the best possible experience. I do think there's other markets and businesses where you need to to raise money, whether to move at speed. Again, we've built this for twenty years, so others need to move faster or more at speed or there's more investment in certain areas or obviously if there's hardware or inventory, those are different types of businesses. But for a pure software and content business like ours, you know, and one where we didn't have, like, you know, no major tech company was bearing down on us, we were able to kind of take a little bit of the slower, a slower road there, which was great.\n\nSpeaker 1 | 09:06 - 09:11\nIt developed a great culture and allowed us to, you know, not not need outside capital.\n\nSpeaker 2 | 09:12 - 09:39\nSo you said that part of why you were able to grow in the way you did was there were not a lot of people who believed that, you know, the business would be as big as it is or the industry would actually be an industry. At what point? I was it a progressive thing? At what point did you think like, oh, this is actually going to be a big business versus, you know, it's something I'm personally passionate about?\n\nSpeaker 1 | 09:40 - 09:47\nYeah, I think 2024 was when we thought this would be a big business.\n\nSpeaker 2 | 09:47 - 09:48\nThat was not that long ago.\n\nSpeaker 1 | 09:48 - 10:23\nLong ago. Because before before COVID and Queen's Gambit, we had like a million daily active users, and we were shocked at that. And but then when COVID and Queen's COVID happened, Queen's Gambit happened, some news cycles happened, we're and like, oh, this might just be a flash in the pan, like treadmills and sourdough bread and other things that people did during, you know, COVID. And we might just come back down to where we were. But we actually stayed really high after that, a little bit lower than our peak in 2022.\n\nSpeaker 1 | 10:23 - 10:55\nBut then in 2023, we had another crazy wave where all these kids started playing in schools because of short form content and the mittens bot and the cheating scandal and all these other things in 2023, and we just spiked again. And then when we came down again, we were so much higher and we maintained this baseline. And so kind of in 2024, we're like, oh my gosh, like this thing is actually sticking around. It's actually growing and compounding over time. I think this is a lot bigger than we thought it was going to be, which was, you know, fascinating.\n\nSpeaker 1 | 10:55 - 11:22\nIt's also terrifying, in some ways because, you know, it's always like if your business is shrinking, it's scary because how do you make it grow? If your business is flat, it's scary because, you know, how do you make it grow? If your business is going up, it's scary because like how do you maintain that growth or how do you deal with it? You know, we were like literally just like, you know, we had issues with scalability across the product and the tech and all those things. And so it's been pretty white knuckle.\n\nSpeaker 1 | 11:22 - 11:49\nI think for the last year, it's actually been more calm than it ever has been just because we've had the team in place and, you know, our growth is more predictable. And we finally kind of gotten our hands around ally what it means to be a 650 person fully remote company. So it's been pretty it's been pretty smooth, and we're now focused on a lot of experimentation and product improvements and, you know, infrastructure and tech and obviously the integration of A. I. And what that's meaning.\n\nSpeaker 1 | 11:49 - 11:53\nAnd so it's been an interesting last twelve months for sure.\n\nSpeaker 2 | 11:53 - 12:11\nI want to ask about two more business topics and then talk about A. I. In the context of chess and sort of your your reflections on that. And the first would just be how do you like? The Queen's Gambit and sort of the, you know, increasing cultural relevance of chess.\n\nSpeaker 2 | 12:11 - 12:13\nLike, what's your what's your reflection of that?\n\nSpeaker 1 | 12:14 - 12:33\nYeah. Honestly, it's like it's incredible because when I was, you know, I got into chess a little bit late in life. I was 18, you know, so going to college and getting into the game, and I'm like, nobody plays chess. No one talks about chess. Like, it's almost like a secret hobby.\n\nSpeaker 1 | 12:33 - 12:45\nYou know? I was kind of I was kind of like a skater snowboarder who, like, kept chess as, like, the secret thing I did. You know, when I was in high school, was like for nerds. No one would talk about it. Like, would you why would you spend time on that?\n\nSpeaker 1 | 12:46 - 13:17\nSo that's what I grew up with. And then now to have my own kids where, you know, all their friends are playing chess and like chess is cool and like the jocks play chess and the nerds play chess and like everybody plays chess. And then you've got like, you know, Louis Vuitton centers their whole, you know, fashion shoot around chess. And like, it just blows my mind. It's like, you know, and I do feel partly just along for that ride, but I also feel that we've been partly responsible for that, we've kind of revolutionized what it means to be a chess player.\n\nSpeaker 1 | 13:17 - 13:37\nChess can be in your pocket. You can do it any time. The content is funny and relevant and interesting. And we also just redefined what it meant to be a chess player because previously, you know, it was like you weren't really a chess player until you were 2,000 or above, right, rated. If you weren't that, you weren't really there and you didn't, you weren't really a chess player.\n\nSpeaker 1 | 13:37 - 14:05\nBut now everybody, you know, we kind of change the narrative and we celebrate your mistakes and when you hang your queen and when you, you know, if you're rated 500, that's fine. You're still a chess player. You're still part of the community and you're on your journey. So I think that, like, it's been like honestly one of the great honors of my life to be a part of that and to see that we kind of culturally change what what it means. And, you know, when you see pictures of, like, Lewis Hamilton, like, flying in his private jet, playing chess on his phone, it's just like it blow it blows my mind.\n\nSpeaker 1 | 14:05 - 14:07\nSo, it's it's been wild.\n\nSpeaker 2 | 14:07 - 14:19\nYes. Yes. I was the, you know, high school nerd that played chess. But my my kids now are eight year old plays and teaches chess. And it's like very common.\n\nSpeaker 2 | 14:19 - 14:47\nThey're in a nerdy town, but it's it's like common enough that, you know, I don't know, 20% of the kids do after school chess, right? Which is a totally wild thing to think about soccer. Seriously. You had a huge announcement recently, and that's a big change in terms of the CBC investment. Tell us about that, what it means to the business, how you thought about working with a private equity firm after so many years of just, you know, being a bootstrapped business.\n\nSpeaker 1 | 14:47 - 15:19\nYeah. Well, I'll tell you, we're still a bootstrapped business because CVC came in, but they still, you know, they, they, they came in and bought secondary. That was part of the fundraising cycle. Obviously, General Atlantic was the really the first private equity to believe in us. You know, back in 2020 or 2021, you know, they saw our growing business and they had conviction that we, you know, we're a strong player in an interesting market, and they came in and, you know, we had another investor.\n\nSpeaker 1 | 15:19 - 15:36\nYou know, it's kind of interesting because if you go back in time, like, we were just this privately, entirely privately held, and then, you know, someone comes along and is like, Oh, I love chess. I want to invest. And we're like, No, no, no. And then finally we said yes, and they bought like a little bit. And they're like, I'll hold on to this forever.\n\nSpeaker 1 | 15:36 - 15:42\nI just want to be a part of this. And then like five years later, like, I need to get out of this. I need to sell. What? You said you were going to be here forever.\n\nSpeaker 1 | 15:42 - 15:54\nLike, don't worry, I got another guy. So then this other investor came in. He's like, no, but I want to own X% and like we're like reluctantly let him a little bit more in. And he's like, but I love chess. I'll be here forever.\n\nSpeaker 1 | 15:54 - 16:18\nAnd then, you know, three years later, he's like, I got to sell. What? You said you're going be here. So then we were at such a scale that like we had to like find a different scale of investor. And so we did the rounds with all the private equity and, you know, really just did not enjoy that process and really didn't enjoy most of the people that I met during that time, you know, really were focused on, I thought, the wrong things.\n\nSpeaker 1 | 16:18 - 16:48\nBut when I met, you know, General Atlantic and Tanzan there, you know, they really believed in our mission, and they believed that if we focused on our mission, that we would build a wonderful business. And that was that aligned with with what we felt. And so they made an investment, but again, secondary buying shares from existing investors, no infusion of capital. And then eventually they came to their fundraising cycle times. You know, they've got to return, you know, make returns to partners and do their do their thing.\n\nSpeaker 1 | 16:48 - 17:19\nAnd so then we, again, had to now look for another person to come in, and we found CVC. We were we were very, very happy, to be working with CVC. They have such a deep experience in gaming, in sports, in community businesses, and we really just felt like a bond and an alignment that like when you take care of your community and your product, that you'll build a great business. So, they invested in, buying out different shares from different people. The General Atlantic reinvested as well.\n\nSpeaker 1 | 17:19 - 17:34\nSo they're, they're still with us, in, in the new venture together, and, we're as committed as ever to continue to grow the game and to, and to follow our mission. But yeah, we're still, no, no, no capital needed to grow this business.\n\nSpeaker 2 | 17:34 - 17:40\nHow does it change? Has it changed the way you run the business? Do you have these increasingly at scale outside investors?\n\nSpeaker 1 | 17:41 - 17:44\nYeah, it actually has. But in a in a wonderful way.\n\nSpeaker 2 | 17:44 - 17:51\nOkay, this is like, you know, against the conventional wisdom of like private equity being involved. So say more.\n\nSpeaker 1 | 17:51 - 18:18\nYeah, I can recognize that like a lot. You know, you kind of hear the tropes about private equity and, you know, where they where they give you money and then just say work harder or whatever, do better. It hasn't been like that at all with General Atlantic or any of our with CVC at all. Really, it's it's great knowledge sharing across what they've seen in the industry and what we do. They're in the weeds on the product and the community, and they've really been great at pushing us to be our best.\n\nSpeaker 1 | 18:18 - 18:39\nNot just saying, you know, do better, but like, here's some areas. Have you looked at this? And it's all it's just made us stronger. And then all the operational stuff, all the forecasting and all the kind of operational excellence that we've really brought to bear that we've needed to do to kind of grow up and do this. It's been wonderful and has made us better and stronger.\n\nSpeaker 1 | 18:39 - 19:13\nAnd as our reporting gets better, we learn more about things and, you know, we experiment and we learn and all those things like really matter, not just for reporting to investors, but actually operating the business. So, yeah, I actually have really enjoyed our time with General Atlantic. Made it made us great. I've learned so much as a CEO, you know, being a being an entrepreneur, you know, with with two to five other people on your team or 10, that's that's one thing. But being the CEO of like a, you know, you know, many hundreds of people and, you know, many billions of valuations or whatever, like it changes the landscape of what I do.\n\nSpeaker 1 | 19:14 - 19:29\nI'm just grateful that they've been there to help kind of help me learn to grow into these different roles. And, you know, that has kind of progressed along my own path as we, you know, as I lead this company. And so we've matured a lot, and it's been great.\n\nSpeaker 2 | 19:30 - 20:04\nSuper cool. One of the reasons I was excited to talk to you besides being excited about chess was that chess is probably our longest running experiment. And what happens to a human activity after the machines become like superhuman at it? Because it's been like what Deep Blue was thirty years ago, right? You know, we were just talking about how there are different drivers and it could be cultural orientation of the community, could be tools, it could be moments and content like Queen's Gambit.\n\nSpeaker 2 | 20:04 - 20:20\nBut the answer is humans definitely care more about chess than they did thirty years ago. Right? I think there are a lot of predictions when Deep Blue beat Kasparov that like chess was over. Right? Like, what did what did people misunderstand about why humans play games or what do you think happened instead?\n\nSpeaker 1 | 20:20 - 20:33\nYeah, it's it's so it's so interesting. You know, fundamentally, humans want to do human stuff. That's, you know, humans competing against other humans. It's humans making things. It's humans solving problems.\n\nSpeaker 1 | 20:33 - 21:23\nAnd there are certain areas where, you know, machines have gotten better than humans at things, but it really, in the case of chess, pushed humans to be better and to do better in their field. And it's really interesting because, you know, grandmasters and world champions were using early versions of computers to kind of help them with ideas that they would then take into the human versus human realm. And then at some point the computers got so much better, and there was like Stockfish, as this kind of chess engine it was called, And that chess computer, like, actually made chess pretty boring for a little while because it was so perfect. All these players tried to play like the best computer. They were like grinding out these boring end games and it like kind of just got boring.\n\nSpeaker 1 | 21:24 - 22:26\nBut then neural nets came along, and so that was the next iteration of AI, which is like, you know, where early in the game of Go with, you know, you know, Leela and these neural nets came along and they started training chess on different chess positions and they let this self reinforcing learning come out And they ended up with Leela Chess Zero, the chess engine, and that started beating Stockfish in ways that was like unexpected. And it was actually aggressive and it did like unconventional things and like really push the game forward. And so what was interesting is that like computers at first made chess a little bit more boring, but then made it so much more exciting. And we're seeing more exciting chess than we ever have. And the players have gotten better and really computers are now able to help us unlock the game in ways that like make our enjoyment of the game better, whether it's the AI kind of coach on game review that reviews your game and helps you learn from it, or playing against the computer or generating puzzles that are, you know, specific for you.\n\nSpeaker 1 | 22:26 - 22:41\nSo AI has just really helped, you know, humans enjoy chess more. I don't know exactly how that's going to play out. I know that right now, like AI and mathematics is a big deal. Like, is it solving too many problems? But then you've got AI that's like unfolding proteins and solving for cancer.\n\nSpeaker 1 | 22:42 - 22:58\nBut, you know, humans are doing the research too. So it's really this kind of like hand in hand partnership where like the best of human creativity, the best of AI can help move humans further. So I don't know. I'm pretty I'm pretty optimistic about the future, honestly.\n\nSpeaker 2 | 22:58 - 23:18\nI'm very inspired by the idea that AI can help humans get better at things much faster than they used to or technology in general. Like if you took a talented 10 year old today versus thirty years ago, like how much faster do you think they could reach? Elo 2,000 or master or something.\n\nSpeaker 1 | 23:18 - 24:05\nI mean, we're seeing it already, like there's just younger and younger players or seven year olds who are giving a, you know, a run to grandmasters and, you know, 10 year old, I'm going butcher her name, so I'm not even going to say it, but from India, from England, she's crushing everybody. She's incredible. And to your point, like take the 10 year old and give them the tools and see where they come out. Like, when my son was, you know, younger than 10, you know, he obviously had access to YouTube and he had access to different things. And now he's 18 years old and, you know, he is is a better video game creator than, you know, I ever would have been because he self learned everything on YouTube and with, you know, different AI tools and with, you know, he doesn't use AI in the creative side, but he but he uses it for research on how to solve problems.\n\nSpeaker 1 | 24:06 - 24:41\nAnd so this access to information, this access to, you know, you know, superhuman intelligence really is making people learn faster and better. And so to your point, like who knows what's going to be coming next in the in the next generation for those who, you know, are young now as they learn faster, what what can what will they create? I think the downside and the scare that everybody has is like, well, when there's a super intelligent, you know, AI that knows everything, like, why would anyone ever write an essay ever again? Like, why would they ever think? Why would they ever do anything?\n\nSpeaker 1 | 24:41 - 25:09\nIf you can just AI say, you know, draw me a picture of, you know, X, Y, Z thing, why would a human ever do it? And I understand that point of view. I have my worries. I think there's research that shows that people who use AI, like in certain areas, like do stop thinking and engaging their brain, but so we have to set up guardrails. We're going to have to figure out what works and what doesn't, but again, I think it's going to it's going to push people further into learning and creating better things.\n\nSpeaker 2 | 25:09 - 25:23\nIf everyone has this information access that you describe, like, why aren't we all equally good at chess? Right? Like, you know, what is what is having access to this due to the skill distribution in your data or in your experience?\n\nSpeaker 1 | 25:24 - 26:04\nI mean, like anything, you know, you've got to do the repetitions to put it in your brain, you know, just because we have access So to it. It's really about people putting in a little bit of work. And one thing that I really love is the concept that if you just take any given day in your life and multiply that by a thousand, that's kind of what your life looks like. So if you do five chess puzzles a day, multiply that by a thousand, you've done 5,000 chess puzzles, you're going to be much better, right? Now that if you want to do a 100 puzzles a day, multiply that by a thousand, right?\n\nSpeaker 1 | 26:04 - 26:28\nOr play 10 chess games a day or do yoga every day for ten thousand years, it's ten thousand days or a thousand days. It's not the actual individual one thing that you do on one day, but it's your habits that really compound over time. You can put that into any field, right? Whether, you know, you do one sketch a day or you, you know, go for one small run every day. And it's the same in any field, right?\n\nSpeaker 1 | 26:28 - 27:05\nIf you do research into any topic. And that's one thing that I do think AI is so great at is like you can literally get into, you know, whatever AI program you're using and you can start researching something and it can walk you through and it can help you get exposure to ideas, refine ideas, you know, get it. You can walk through and have these conversations and access to like walking into a professor's office and, you know, starting to ask questions. But you get it in your pocket all the time. And of course, there's issues with biases and with like it tells you what you want to hear and it like overinflates your ego and there's all these problems with it.\n\nSpeaker 1 | 27:05 - 27:12\nBut honestly, for people who use it well, like you can deep dive into subjects and learn and train like at a tremendous pace.\n\nSpeaker 2 | 27:12 - 27:30\nYou have this incredible data set with chess.com of humans like learning millions of people at every rating, making mistakes and improving. What can you tell us about how humans acquire expertise or, you know, how to how to get them up that ramp faster?\n\nSpeaker 1 | 27:30 - 27:34\nFortunately and unfortunately, it's actually quite again, an easy answer.\n\nSpeaker 2 | 27:35 - 27:36\nOh, no.\n\nSpeaker 1 | 27:36 - 27:54\nYeah, it's just repetition of like the small building blocks. And so it is doing puzzles. It is reviewing your mistakes. It is, you know, if you want to if you want to play certain openings, just training. And so there's really not shortcuts to the process.\n\nSpeaker 1 | 27:54 - 28:11\nThere are shortcuts in the tools. You know, it's we've made it, tried to make it as easy as possible to, you know, do your puzzles and to train on your different elements. And we have a whole set of of tools coming later this year, which is going to make it even easier. But you have to put in the repetitions into your brain. You have to store that.\n\nSpeaker 1 | 28:11 - 28:40\nIt's the same as when you train a neural net, right? Like you give it a bunch of data and of course it can train it in parallel where it can do like, you know, all these different memory channels at once, training on these things. Our brains don't work quite that way, but we have to put in the repetitions. And I think a lot of people these days, because of the immediacy of social media and the immediacy of our lives in general, kind of forget that like practice is, you know, you can't really shortcut practice. You have to put in the time.\n\nSpeaker 2 | 28:40 - 29:03\nI'm going to ask kind of a funny question. Feel free to not answer. Like, how do you guys think about cheating at chess.com? Because you you have also dealt with an issue that I think a lot of the world is dealing with now. Maybe they will call it cheating or not, but it is machines can create superhuman output and it can pass off as human performance.\n\nSpeaker 1 | 29:04 - 29:43\nIt's tough, right? I wish humans didn't have this drive that like to take advantage of someone else or, you know, put themselves above somebody or steal from them. But there's some segment of the population where, you know, either for, you know, financial gain, where they're using AI tools and technology to steal from people, or even if they're just getting on to online chess and use, you know, loading up a computer and to steal rating points or boost their ego or whatever it is, it is sad. You know? It's and it bums me out that that humans can't just, you know, get in there and and and be honest and full of integrity at all times.\n\nSpeaker 1 | 29:44 - 30:19\nThat said, like, chess has been dealing with cheating, for for a very long time, much, much longer than than AI, as we've had these chess computers. And so, you know, a lot of people thought it was an existential, you know, threat to the game and that it would, it would end the game. But, know, unfortunately, we also have technology to fight the cheating. And so, you know, we spend a lot of time, a lot of money, a lot of resources on anti cheating, basically. And we have a whole set of tools, which I'm not going to get into because I don't like to give ideas to people on how we do it.\n\nSpeaker 1 | 30:19 - 30:30\nAbout the defense. But we track a lot of stuff. We have more data. We have more statistical models, machine learning models, and that really kind of track how people play chess. And again, we have access to all this data.\n\nSpeaker 1 | 30:30 - 30:56\nWe know what it's like when humans play chess. We know what it's like when computers play chess, and we just get better and better all the time. So it's definitely an incredibly important thing that we think about often is to protect the integrity of the game, both at the casual level and at the professional level. And we kind of actually have two different work streams that do that, like, you know, how do we just detect it in general? And then how when we have prize money on the line and professional events, how do we deal with that?\n\nSpeaker 1 | 30:56 - 31:20\nSo, it's it's something we spend a lot of time on, and we feel really great about our role to to protect the game, and we feel very confident that we're doing a great job. Cheating, it can't be prevented because you can't, you know, you can't put a webcam in every single person's home. But we do do a really good job at catching it and and banning people who do that and trying to educate them as well. So, definitely something I'm very passionate about.\n\nSpeaker 2 | 31:20 - 31:34\nBecause you are super passionate about it and, you know, the craft of chess, what do you think makes chess special as a game? Like, why should a billion people play chess versus the many other games that are out there?\n\nSpeaker 1 | 31:34 - 32:18\nThere's something special about chess, especially in a world where anything is possible these days. I mean, you could give an AI a prompt and you could have 10,000 new board games tomorrow. You know, we've seen this with the explosion of music, right, like over the last, you know, several decades that, like, there's infinite music. And when there's infinite music, sometimes people go back to, like, the Beatles and Led Zeppelin because it's like the classics that everyone can kind of rally around and have a shared experience. And I think that's the same about chess is like, you know, there's no loot boxes.\n\nSpeaker 1 | 32:18 - 32:32\nThere's no new skins that dropped. There's no like changes to the rules. There's no new heroes to learn. It's like the simplest set of rules. It's a full, you know, information game and, you know, there's no luck involved.\n\nSpeaker 1 | 32:33 - 32:59\nAnd you just can load up a game on your on your device or or get your chessboard out of the drawer and set it up. And you're having the same shared experience forever. And it has enough complexity that can just like blow your mind, but enough simplicity that you can like learn it. And so it's just kind of fits that sweet spot between complex and basic and, you know, timeless. And so I don't know.\n\nSpeaker 1 | 32:59 - 33:17\nIt's it's, you know, evolutionarily, it just became the, you know, the the king of games, we we can say, because of its its many attributes. And I think a lot of people in today's world are looking for, you know, things that they can hold on to in a world of like increasing, exploding proliferation of everything.\n\nSpeaker 2 | 33:18 - 33:35\nDo you think of like when you look forward, do you think of chess.com as like a game company or an education company or a social network? Or, you know, you have like creators and influencers like a media company. Like, how do you how do you frame the business besides the mission of get everyone to play chess?\n\nSpeaker 1 | 33:35 - 33:48\nWell, we're just definitely a chess company. I'll say that the easy answer is we all love chess. We love playing it. So we're we're a chess company, but that does have many facets to it. You know, we have said like we're a gaming company.\n\nSpeaker 1 | 33:48 - 34:02\nWe're a content company. We're a social network. We are all of those things because chess, the game encompasses all of those things. More recently, we have branched out. Not that we're like, oh, we're now a games company, but a lot of us do love a lot of different games.\n\nSpeaker 1 | 34:03 - 34:26\nSo even though chess is like, you know, 99.99% of what we do, we recently launched Gambit at gambit.com, which is our poker site, and you can play Gambit on your phone as well. But we're doing poker in a different way too. We're bringing the chess playbook, which is like poker for ratings. How good are you really? Not just can you buy the most chips or can you use a bot or, you know, can you steal the most money?\n\nSpeaker 1 | 34:26 - 34:51\nWhatever it is, but like how good are you really? And we're going to roll out other games as well, because we like the playbook of what we've done. So we're cooking up a bunch of other classic games, and we're going to be launching those out there. We have our take on how we feel like gaming should be done and can be done in like a pure and wholesome and great learning and educational way. So you'll see us rolling out more games in the future, but it doesn't it's a small team that's doing it.\n\nSpeaker 1 | 34:51 - 34:55\nIt doesn't really take away from our mission of chess, But we are we are branching out.\n\nSpeaker 2 | 34:55 - 35:21\nOkay, I have two more questions for you about the future. Yeah, one for founders who are trying to figure out if they're like in the right market, in a niche market too early or just wrong? Right. Like, how do you what what wisdom do you have for folks thinking about those questions? Because you were you know, when you did this.\n\nSpeaker 2 | 35:23 - 35:26\nA lot of people told you it was it was too small.\n\nSpeaker 1 | 35:26 - 35:56\nI think one of the curses of being a founder today is just how much like founder advice there is out there. Okay. You know, at the time when I was, you know, getting into to doing this twenty, twenty years ago, the playbook was like, you know, hire a technical founder from Stanford, raise a bunch of money, get an office, go after a big market, spend a bunch of money on customer acquisition. And we literally just did like all the opposite of that. Like, I hired my friend from San Jose State.\n\nSpeaker 1 | 35:56 - 36:13\nWe worked remotely. We didn't raise any money. We didn't pay any money for customer acquisition. We picked a tiny market. So, I don't know, like, I think people should listen to their heart and listen to like what they want to do, and they should think of what do they want to see exist out there in the world.\n\nSpeaker 1 | 36:14 - 36:32\nAnd then they should just relentlessly go after that more than, you know, what does the market saying? What are these different things? Of course, if you've got to listen to your customer, right, and you've got to pivot if it's not working, but like, what's your vision for the world? What is the minimum amount of resources you need to go prove that out? Who are the great people you want to work with?\n\nSpeaker 1 | 36:33 - 36:47\nNone of the rest of it matters. Just go execute and put something beautiful into the world that's unique and that creates value for people, and you'll figure the rest of it out. And stop listening to people just giving you advice on what to do. Just go do it.\n\nSpeaker 2 | 36:48 - 37:01\nOkay. Last question for you. Do you do you believe in AGI? Do you believe in it's like or ASI and it's in its imminent arrival? And what's one thing you believe about the world if that is true?\n\nSpeaker 1 | 37:01 - 37:34\nI do believe in, superhuman intelligence and that it will move at a faster and faster pace. I think it will be a little bit scary if we don't put guardrules around that and rules for how it should engage with humans. I hope we can do that. I would say I'm more optimistic than pessimistic about the impact of that, though. I would hope that it can help us help us solve some of the biggest problems around climate, biggest problems around even politics and education and create a more equitable world.\n\nSpeaker 1 | 37:34 - 38:21\nI worry that it can have the opposite effect. I think we're already seeing, the economic impact of just big tech and that just too much money is flowing into the hands of too few, and we're not doing enough as humans to share what we're creating. So I think this is less a technology problem and more a cultural problem, and I hope that we can solve that by, you know, loving one another, by sharing with one another, by connecting and feeling that we have a greater stewardship and responsibility to this world. I think the technology is somewhat irrelevant to that, meaning we've had, you know, nuclear technology and we've had guns and we've had, you know, an economic system for a long time. And it's really what we do with that as a culture more than what the tool is itself.\n\nSpeaker 1 | 38:21 - 38:53\nSo a superhuman intelligence and AGI, ASI can be used for good or for evil. It's gonna depend on the people who are in charge. I wish I felt more confidence around the people who are in charge of this world right now, whether that's the, you know, super billionaires or politicians. I don't know how we got into a place where the people who should probably not be in charge of the world are in charge of the world, and the people who should be are not. I don't know if we're gonna get out of that, but, we we are where we are.\n\nSpeaker 1 | 38:53 - 38:58\nSo I'm hopeful we can make some cultural changes and and put some things in place to protect us.\n\nSpeaker 2 | 38:58 - 39:49\nI think the interest and growth of chess is actually a, solution to all the world's problems, but it's incredibly optimistic to me because it is so clear that people, they want to acquire human skills even when the machine can outperform them and they want to watch. They appreciate exceptional human skill, even when the machine could do much better. Right? Maybe you limit that to gaming, though I think, you know, in a world where you believe there is more capability and more abundance, I do think like people are going to spend a lot of time playing games. But I I I just I think the idea that human skill is no longer relevant in the world of superhuman AI just as a product of the technology itself is nonsense, right?\n\nSpeaker 2 | 39:49 - 40:01\nSo there, I think we're super aligned and there's a bunch of complexity around the the guardrails and distribution of the fruits of that technology still.\n\nSpeaker 1 | 40:02 - 40:02\nYeah.\n\nSpeaker 2 | 40:02 - 40:16\nWhat are you investing in at chess.com from an AI perspective? Like if it's tools or, or, how the product changes? Yeah, use AI extensively across, you know, as a, as\n\nSpeaker 1 | 40:16 - 40:51\na business, as an organization, all across, you know, many different facets. It, it powers a bunch of our, support team through automations to get people faster answers. But then obviously we have a bunch of great humans who work in our support team who help create those and who help, who help with like the human to human needs that are there. So we've seen like a great symbiosis in, in the support department. We use it for data and for analysts, and they're able to ask questions and use, you know, you know, LLM technology to kind of get in and ask and answer really interesting things.\n\nSpeaker 1 | 40:51 - 41:53\nWe've built our CTO, Josh, you know, sees the future and he, you know, long ago started building kind of what everyone else is like, wait a minute, we need this, which is we have our own internal system called GNS, which is like a, like an authentication and knowledge layer that goes across our whole organization with all the right permissions and things and stores it. You know, we're building our own Martech technology so that we can more deeply integrate with our users and our data. And then of course, we're also using it in our development and product life cycle as we build specs, as we, you know, do more agentic development where, you know, as I like to say, like have an idea or see a problem, fix a problem. And we're just trying to shorten the timeline between when something is either an opportunity or a problem and we push code live to our users because ultimately that's really what matters. And, you know, software development cycles can get really long by the time you, oh, let's do an in-depth product scope.\n\nSpeaker 1 | 41:53 - 41:59\nLet's get it on the roadmap. Let's, you know, build it. Let's build it again. Let's test it. Let's QA.\n\nSpeaker 1 | 41:59 - 42:14\nLike, you know, all those different handoffs and all those different pieces make it sometimes very long to get something out to users. And so we're really trying to shorten that down. And, you know, we're seeing great success with that, and that's ultimately what we're here to do.\n\nSpeaker 2 | 42:14 - 42:18\nWhat do you think is the biggest way AI could change the product at chess.com?\n\nSpeaker 1 | 42:18 - 42:52\nWell, we're also using it in our product research and in the output of what users are getting as they, you know, on their chess journey. So, we're working on things like, you know, getting all of your aggregated stats into your advanced stats and then comparing those to other users like you or users right above you. What do you need to improve on to get to the next level? We do a lot of that analysis through a lot of different research methodologies, including using LLMs and AI. We're working on AI technology for doing, you know, so you can have a chest coach in your pocket.\n\nSpeaker 1 | 42:52 - 43:19\nObviously it's not a replacement for a human. If you really want to have a sit down with a human, you should go hire a great chest coach near you or online. But if you want a little bit more of a casual experience or an on demand coach, you have your AI coach in your pocket. We're working on future products also right now. We're prototyping, having more of a interactive experience where your coach, your AI kind of looks at your games over the last week and gives you some feedback and some recommendations, even if you want to have a chat with that coach.\n\nSpeaker 1 | 43:20 - 43:26\nSo there's a lot of areas we're exploring right now where AI can be infused into the product in positive way to kind of help you on your chess journey.\n\nSpeaker 2 | 43:27 - 43:41\nI'm going ask one more question. I don't know if there's a good answer, but I'm just curious because I my two game, my three games are chess, go and poker. Right. And poker is very different from the other two. And I play them very differently, as I think most humans would.\n\nSpeaker 2 | 43:41 - 43:56\nYeah. How do you think about like how to design a rating system for poker when so much of it is interpersonal? And, also, if you play poker for money, it depends on like how you think about financial risk.\n\nSpeaker 1 | 43:56 - 44:23\nThis is a great question. We're still evolving this as to how we're doing ratings in poker. It does have to do with, again, the rating of the other people at the table and how many chips you win and how many hands you've played. And so we do have a rating algorithm that I'm sure we will adjust over time. As to like how people play versus when there's like, you know, playing a $100 game of poker versus a thousand dollar game of poker, like things change a lot.\n\nSpeaker 1 | 44:23 - 44:58\nOr if you're playing for, you know, peanuts or M and M's on the table. We've all played those games where you're playing for M and M's and someone's just like all in all the time and they just rebuy more M and M's. So it does matter. But I think that as people get used to like, wait, I actually care about my poker rating and I treat this as like something important, I think people are going to care about it as much as money because it's a reflection of like the value and their skill as a player. And of course, even in chess, your rating goes up and it goes down, and you have your wins and your losses, But we think that people are going to care a lot about their poker rating.\n\nSpeaker 1 | 44:59 - 45:15\nI certainly do. You know, losing a $100 at a table, it's not my favorite thing, but I don't care that much. But honestly, losing, you know, a 100 rating points on my on poker, that just like really bothers me. So I think this is going to be quite an interesting innovation for for poker.\n\nSpeaker 2 | 45:15 - 45:34\nYeah, I think it's super exciting. I am excited to start trying to work on my rating here because I think it will be a very equalizing thing for people who play poker to say like, well, is Eric better than I am or does he just have more M and M's and is he a bully?\n\nSpeaker 1 | 45:34 - 45:36\nThat's a very good way of putting it.\n\nSpeaker 2 | 45:36 - 45:43\nEric, thank you so much for doing this. Super interesting and congratulations on the business that you have passionately built. It's great to talk.\n\nSpeaker 1 | 45:43 - 45:46\nThank you so much for having me and for, this great conversation.\n\nSpeaker 2 | 45:49 - 46:05\nFind us on Twitter at no priors pod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at no-priors.com."
     }
   ],
-  "blogs": [
-    {
-      "source": "blog",
-      "name": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "publishedAt": null,
-      "author": "",
-      "description": "",
-      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedback at first, and neither our internal usage nor evals initially reproduced the issues identified. This isn’t the experience users should expect from Claude Code. As of April 23, we’re resetting usage limits for all subscribers. A change to Claude Code&#x27;s default reasoning effort When we released Opus 4.6 in Claude Code in February, we set the default reasoning effort to high . Soon after, we received user feedback that Claude Opus 4.6 in high effort mode would occasionally think for too long, causing the UI to appear frozen and leading to disproportionate latency and token usage for those users. In general, the longer the model thinks, the better the output. Effort levels are how Claude Code lets users set that tradeoff—more thinking versus lower latency and fewer usage limit hits. As we calibrate effort levels for our models, we take this tradeoff into account in order to pick points along the test-time-compute curve that give people the best range of options. In the product layer, we then choose which point along this curve we set as our default, and that is the value we send to the Messages API as the effort parameter; we then make the other options available via /effort . In our internal evals and testing, medium effort achieved slightly lower intelligence with significantly less latency for the majority of tasks. It also didn’t suffer from the same issues with occasional very long tail latencies for thinking, and it helped maximize users’ usage limits. As a result, we rolled out a change making medium the default effort, and explained the rationale via in-product dialog. Soon after rolling out, users began reporting that Claude Code felt less intelligent. We shipped a number of design iterations to make the current effort setting clearer in order to alert people they could change the default (notices on startup, an inline effort selector, and bringing back ultrathink), but most users retained the medium effort default. After hearing feedback from more customers, we reversed this decision on April 7. All users now default to xhigh effort for Opus 4.7, and high effort for all other models. A caching optimization that dropped prior reasoning When Claude reasons through a task, that reasoning is normally kept in the conversation history so that on every subsequent turn, Claude can see why it made the edits and tool calls it did. On March 26, we shipped what was meant to be an efficiency improvement to this feature. We use prompt caching to make back-to-back API calls cheaper and faster for users. Claude writes the input tokens to the cache when it makes an API request, then after a period of inactivity the prompt is evicted from cache, making room for other prompts. Cache utilization is something we manage carefully (more on our approach ). The design should have been simple: if a session has been idle for more than an hour, we could reduce users’ cost of resuming that session by clearing old thinking sections. Since the request would be a cache miss anyway, we could prune unnecessary messages from the request to reduce the number of uncached tokens sent to the API. We’d then resume sending full reasoning history. To do this we used the clear_thinking_20251015 API header along with keep:1 . The implementation had a bug. Instead of clearing thinking history once, it cleared it on every turn for the rest of the session. After a session crossed the idle threshold once, each request for the rest of that process told the API to keep only the most recent block of reasoning and discard everything before it. This compounded: if you sent a follow-up message while Claude was in the middle of a tool use, that started a new turn under the broken flag, so even the reasoning from the current turn was dropped. Claude would continue executing, but increasingly without memory of why it had chosen to do what it was doing. This surfaced as the forgetfulness, repetition, and odd tool choices people reported. Because this would continuously drop thinking blocks from subsequent requests, those requests also resulted in cache misses. We believe this is what drove the separate reports of usage limits draining faster than expected. Two unrelated experiments made it challenging for us to reproduce the issue at first: an internal-only server-side experiment related to message queuing; and an orthogonal change in how we display thinking suppressed this bug in most CLI sessions, so we didn’t catch it even when testing external builds. This bug was at the intersection of Claude Code’s context management, the Anthropic API, and extended thinking. The changes it introduced made it past multiple human and automated code reviews, as well as unit tests, end-to-end tests, automated verification, and dogfooding. Combined with this only happening in a corner case (stale sessions) and the difficulty of reproducing the issue, it took us over a week to discover and confirm the root cause. As part of the investigation, we back-tested Code Review against the offending pull requests using Opus 4.7. When provided the code repositories necessary to gather complete context, Opus 4.7 found the bug, while Opus 4.6 didn&#x27;t. To prevent this from happening again, we are now landing support for additional repositories as context for code reviews. We fixed this bug on April 10 in v2.1.101. A system prompt change to reduce verbosity Our latest model, Claude Opus 4.7, has a notable behavioral quirk relative to its predecessor: as we wrote about at launch, it tends to be quite verbose. This makes it smarter on hard problems, but it also produces more output tokens. A few weeks before we released Opus 4.7, we started tuning Claude Code in preparation. Each model behaves slightly differently, and we spend time before each release optimizing the harness and product for it. We have a number of tools to reduce verbosity: model training, prompting, and improving thinking UX in the product. Ultimately we used all of these, but one addition to the system prompt caused an outsized effect on intelligence in Claude Code: “Length limits: keep text between tool calls to ≤25 words. Keep final responses to ≤100 words unless the task requires more detail.” After multiple weeks of internal testing and no regressions in the set of evaluations we ran, we felt confident about the change and shipped it alongside Opus 4.7 on April 16. As part of this investigation, we ran more ablations (removing lines from the system prompt to understand the impact of each line) using a broader set of evaluations. One of these evaluations showed a 3% drop for both Opus 4.6 and 4.7. We immediately reverted the prompt as part of the April 20 release. Going forward We are going to do several things differently to avoid these issues: we’ll ensure that a larger share of internal staff use the exact public build of Claude Code (as opposed to the version we use to test new features); and we&#x27;ll make improvements to our Code Review tool that we use internally, and ship this improved version to customers. We’re also adding tighter controls on system prompt changes. We will run a broad suite of per-model evals for every system prompt change to Claude Code, continuing ablations to understand the impact of each line, and we have built new tooling to make prompt changes easier to review and audit. We&#x27;ve additionally added guidance to our CLAUDE.md to ensure model-specific changes are gated to the specific model they&#x27;re targeting. For any change that could trade off against intelligence, we&#x27;ll add soak periods, a broader eval suite, and gradual rollouts so we catch issues earlier. We recently created @ClaudeDevs on X to give us the room to explain product decisions and the reasoning behind them in depth. We&#x27;ll share the same updates in centralized threads on GitHub. Finally, we’d like to thank our users: the people who used the /feedback command to share their issues with us (or who posted specific, reproducible examples online) are the ones who ultimately allowed us to identify and fix these problems. Today we are resetting usage limits for all subscribers. We’re immensely grateful for your feedback and for your patience."
-    },
-    {
-      "source": "blog",
-      "name": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-      "url": "https://www.anthropic.com/engineering/managed-agents",
-      "publishedAt": null,
-      "author": "",
-      "description": "",
-      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinionated about the shape of these interfaces, not about what runs behind them. Don’t adopt a pet We started by placing all agent components into a single container, which meant the session, agent harness, and sandbox all shared an environment. There were benefits to this approach, including that file edits are direct syscalls, and there were no service boundaries to design. But by coupling everything into one container, we ran into an old infrastructure problem: we’d adopted a pet . In the pets-vs-cattle analogy, a pet is a named, hand-tended individual you can’t afford to lose, while cattle are interchangeable. In our case, the server became that pet; if a container failed, the session was lost. If a container was unresponsive, we had to nurse it back to health. Nursing containers meant debugging unresponsive stuck sessions. Our only window in was the WebSocket event stream, but that couldn’t tell us where failures arose, which meant that a bug in the harness, a packet drop in the event stream, or a container going offline all presented the same. To figure out what went wrong, an engineer had to open a shell inside the container, but because that container often also held user data, that approach essentially meant we lacked the ability to debug. A second issue was that the harness assumed that whatever Claude worked on lived in the container with it. When customers asked us to connect Claude to their virtual private cloud, they had to either peer their network with ours, or run our harness in their own environment. An assumption baked into the harness became a problem when we wanted to connect it to different infrastructure. Decouple the brain from the hands The solution we arrived at was to decouple what we thought of as the “brain” (Claude and its harness) from both the “hands” (sandboxes and tools that perform actions) and the “session” (the log of session events). Each became an interface that made few assumptions about the others, and each could fail or be replaced independently. The harness leaves the container. Decoupling the brain from the hands meant the harness no longer lived inside the container. It called the container the way it called any other tool: execute(name, input) → string . The container became cattle. If the container died, the harness caught the failure as a tool-call error and passed it back to Claude. If Claude decided to retry, a new container could be reinitialized with a standard recipe: provision({resources}) . We no longer had to nurse failed containers back to health. Recovering from harness failure. The harness also became cattle. Because the session log sits outside the harness, nothing in the harness needs to survive a crash. When one fails, a new one can be rebooted with wake(sessionId) , use getSession(id) to get back the event log, and resume from the last event. During the agent loop, the harness writes to the session with emitEvent(id, event) in order to keep a durable record of events. The security boundary. In the coupled design, any untrusted code that Claude generated was run in the same container as credentials—so a prompt injection only had to convince Claude to read its own environment. Once an attacker has those tokens, they can spawn fresh, unrestricted sessions and delegate work to them. Narrow scoping is an obvious mitigation, but this encodes an assumption about what Claude can&#x27;t do with a limited token—and Claude is getting increasingly smart. The structural fix was to make sure the tokens are never reachable from the sandbox where Claude’s generated code runs. We used two patterns to ensure this. Auth can be bundled with a resource or held in a vault outside the sandbox. For Git, we use each repository’s access token to clone the repo during sandbox initialization and wire it into the local git remote. Git push and pull work from inside the sandbox without the agent ever handling the token itself. For custom tools, we support MCP and store OAuth tokens in a secure vault. Claude calls MCP tools via a dedicated proxy; this proxy takes in a token associated with the session. The proxy can then fetch the corresponding credentials from the vault and make the call to the external service. The harness is never made aware of any credentials. The session is not Claude’s context window Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in prior work on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks. But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work has explored ways to address this by storing context as an object that lives outside the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it. In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, getEvents(), allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action. Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation. Many brains, many hands Many brains. Decoupling the brain from the hands solved one of our earliest customer complaints. When teams wanted Claude to work against resources in their own VPC, the only path was to peer their network with ours, because the container holding the harness assumed every resource sat next to it. Once the harness was no longer in the container, that assumption went away. The same change had a performance payoff. When we initially put the brain in a container, it meant that many brains required as many containers. For each brain, no inference could happen until that container was provisioned; every session paid the full container setup cost up front. Every session, even ones that would never touch the sandbox, had to clone the repo, boot the process, fetch pending events from our servers. That dead time is expressed in time-to-first-token (TTFT), which measures how long a session waits between accepting work and producing its first response token. TTFT is the latency the user most acutely feels . Decoupling the brain from the hands means that containers are provisioned by the brain via a tool call (execute(name, input) → string) only if they are needed. So a session that didn&#x27;t need a container right away didn&#x27;t wait for one. Inference could start as soon as the orchestration layer pulled pending events from the session log. Using this architecture, our p50 TTFT dropped roughly 60% and p95 dropped over 90%. Scaling to many brains just meant starting many stateless harnesses, and connecting them to hands only if needed. Many hands. We also wanted the ability to connect each brain to many hands. In practice, this means Claude must reason about many execution environments and decide where to send work—a harder cognitive task than operating in a single shell. We started with the brain in a single container because earlier models weren&#x27;t capable of this. As intelligence scaled, the single container became the limitation instead: when that container failed, we lost state for every hand that the brain was reaching into. Decoupling the brain from the hands makes each hand a tool, execute(name, input) → string : a name and input go in, and a string is returned. That interface supports any custom tool, any MCP server, and our own tools. The harness doesn’t know whether the sandbox is a container, a phone, or a Pokémon emulator. And because no hand is coupled to any brain, brains can pass hands to one another. Conclusion The challenge we faced is an old one: how to design a system for “programs as yet unthought of.” Operating systems have lasted decades by virtualizing the hardware into abstractions general enough for programs that didn&#x27;t exist yet. With Managed Agents, we aimed to design a system that accommodates future harnesses, sandboxes, or other components around Claude. Managed Agents is a meta-harness in the same spirit, unopinionated about the specific harness that Claude will need in the future. Rather, it is a system with general interfaces that allow many different harnesses. For example, Claude Code is an excellent harness that we use widely across tasks. We’ve also shown that task-specific agent harnesses excel in narrow domains. Managed Agents can accommodate any of these, matching Claude’s intelligence over time. Meta-harness design means being opinionated about the interfaces around Claude: we expect that Claude will need the ability to manipulate state (the session) and perform computation (the sandbox). We also expect that Claude will require the ability to scale to many brains and many hands. We designed the interfaces so that these can be run reliably and securely over long time horizons. But we make no assumptions about the number or location of brains or hands that Claude will need. Acknowledgements Written by Lance Martin, Gabe Cemaj, and Michael Cohen. Thanks to Nodir Turakulov and Jeremy Fox for helpful conversations on these topics. Special thanks to the Agents API team and Jake Eaton for their contributions."
-    },
-    {
-      "source": "blog",
-      "name": "Claude Blog",
-      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
-      "url": "https://claude.com/blog/claude-managed-agents-updates",
-      "publishedAt": "May 19, 2026",
-      "author": "",
-      "description": "",
-      "content": "Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls. The sandbox runs on your own infrastructure, or with managed providers like Cloudflare , Daytona , Modal , or Vercel to handle the compute and isolation for you. On the Claude Platform, self-hosted sandboxes is available in public beta and MCP tunnels in research preview ( request access ). Self-hosted sandboxes: keep agent execution within your perimeter A self-hosted sandbox lets a Claude Managed Agent execute tools on infrastructure you control or with a managed sandbox provider. Code execution, sensitive files, packages, services, and data stay within your enterprise perimeter, under your security and runtime controls. With self-hosted sandboxes, you keep sensitive files, packages, and services in your own infrastructure or with a managed sandbox provider. The agent loop that handles orchestration, context management, and error recovery stays on Anthropic’s infrastructure, while tool execution moves to your own configured environment. Inside your perimeter, network policies, audit logging, and security tooling are already in place, and files and repositories don&#x27;t leave. You also control the compute: resource sizing and the runtime image are set on your side, so agents running compute-heavy work such as long builds or image generation get the CPU, memory, and capacity the task needs. Choose your sandbox client Bring any sandbox client you want, or start with one of our supported providers: Cloudflare runs sandboxes at scale using microVMs and lighter weight isolates. Outbound network requests are in your control with zero-trust secrets injection, customizable proxies to audit, reroute, or modify egress, and the ability to connect to internal services over Cloudflare&#x27;s network. Amplitude is building Design Agent, an internal tool for on-brand production UI and marketing design, on Managed Agents and Cloudflare for tighter observability and control. Daytona sandboxes are full composable computers, long-running and stateful. The same primitive runs a quick burst or an agent that works for hours. The sandbox stays accessible while a session runs over SSH or an authenticated preview URL, or can be paused and restored with full state preserved. Clay’s GTM engineering agent, Sculptor, builds, tests, and monitors workflows autonomously on Managed Agents and Daytona. Modal is a cloud platform built for AI workloads, where sandboxes share the same foundation as Modal&#x27;s functions, storage, and networking primitives, giving you everything you need to build production AI systems. Modal&#x27;s custom container runtime delivers sub-second startup on any image, scales to hundreds of thousands of concurrent sandboxes, and gives you CPU and GPU resources on demand. Vercel sandboxes combine VM security, VPC peering, and bring your own cloud with millisecond startup time. Managed Agents handles the model, tools, and session state, while the Vercel Sandbox firewall injects credentials at the network boundary so they never enter the sandbox. Rogo , an AI platform for institutional finance, is building an analyst agent on Managed Agents and Vercel Sandbox to handle their proprietary data securely. MCP tunnels: Connect to services within your private network MCP tunnels connect Claude Managed Agents to Model Context Protocol (MCP) servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end. MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the Claude Console by organization admins."
-    }
-  ],
+  "blogs": [],
   "stats": {
-    "builderCount": 16,
-    "tweetCount": 33,
+    "builderCount": 19,
+    "tweetCount": 36,
     "podcastCount": 1,
-    "blogCount": 3,
-    "feedGeneratedAt": "2026-08-13T06:47:37.704Z"
+    "blogCount": 0,
+    "feedGeneratedAt": "2026-08-14T06:46:42.819Z"
   }
 }
