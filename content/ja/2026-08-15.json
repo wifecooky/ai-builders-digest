@@ -1,7 +1,8 @@
 {
   "date": "2026-08-15",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "joshwoodward-2026-08-15",
       "source": "X",
@@ -391,7 +392,9 @@
       ],
       "publishedAt": "2026-08-15T01:40:19.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-08-15",
       "source": "The MAD Podcast with Matt Turck",
@@ -401,7 +404,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-08-06T11:30:01.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-08-15",
       "source": "Claude Blog",
@@ -419,6 +424,7 @@
     "totalTweets": 32,
     "totalPodcasts": 1,
     "totalBlogs": 1,
-    "generatedAt": "2026-08-15T14:11:53.422Z"
+    "generatedAt": "2026-08-15T14:12:11.937Z",
+    "estimatedReadTime": "9 分"
   }
 }
