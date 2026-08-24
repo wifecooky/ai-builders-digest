@@ -1,7 +1,8 @@
 {
   "date": "2026-08-24",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-08-24",
       "source": "X",
@@ -243,7 +244,10 @@
       ],
       "publishedAt": "2026-08-23T16:15:26.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-08-24",
       "source": "Claude Blog",
@@ -261,6 +265,7 @@
     "totalTweets": 17,
     "totalPodcasts": 0,
     "totalBlogs": 1,
-    "generatedAt": "2026-08-24T14:30:54.972Z"
+    "generatedAt": "2026-08-24T14:31:08.493Z",
+    "estimatedReadTime": "6 分"
   }
 }
