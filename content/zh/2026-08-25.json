@@ -1,7 +1,8 @@
 {
   "date": "2026-08-25",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "steipete-2026-08-25",
       "source": "X",
@@ -359,11 +360,14 @@
       "category": "builderInsights"
     }
   ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 13,
     "totalTweets": 29,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-08-25T14:33:48.598Z"
+    "generatedAt": "2026-08-25T14:33:55.559Z",
+    "estimatedReadTime": "7 分钟"
   }
 }
