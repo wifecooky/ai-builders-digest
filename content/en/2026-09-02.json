@@ -1,7 +1,8 @@
 {
   "date": "2026-09-02",
+  "lang": "en",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-09-02",
       "source": "X",
@@ -421,7 +422,9 @@
       ],
       "publishedAt": "2026-09-02T04:16:28.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-09-02",
       "source": "Training Data",
@@ -433,11 +436,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 16,
     "totalTweets": 38,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-09-02T17:29:53.658Z"
+    "generatedAt": "2026-09-02T17:29:53.872Z",
+    "estimatedReadTime": "8 min"
   }
 }
