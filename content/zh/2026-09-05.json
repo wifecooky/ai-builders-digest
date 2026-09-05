@@ -1,7 +1,8 @@
 {
   "date": "2026-09-05",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-09-05",
       "source": "X",
@@ -339,7 +340,9 @@
       ],
       "publishedAt": "2026-09-04T14:42:46.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-09-05",
       "source": "No Priors",
@@ -349,7 +352,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-09-03T10:00:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-09-05",
       "source": "Claude Blog",
@@ -378,6 +383,7 @@
     "totalTweets": 26,
     "totalPodcasts": 1,
     "totalBlogs": 2,
-    "generatedAt": "2026-09-05T16:22:30.886Z"
+    "generatedAt": "2026-09-05T16:22:40.302Z",
+    "estimatedReadTime": "8 分钟"
   }
 }
