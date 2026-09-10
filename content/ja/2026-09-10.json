@@ -1,7 +1,8 @@
 {
   "date": "2026-09-10",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-09-10",
       "source": "X",
@@ -367,11 +368,14 @@
       "category": "builderInsights"
     }
   ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 14,
     "totalTweets": 28,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-09-10T17:23:27.015Z"
+    "generatedAt": "2026-09-10T17:23:41.696Z",
+    "estimatedReadTime": "7 分"
   }
 }
