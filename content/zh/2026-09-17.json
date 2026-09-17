@@ -1,7 +1,8 @@
 {
   "date": "2026-09-17",
+  "lang": "zh",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "sama-2026-09-17",
       "source": "X",
@@ -391,7 +392,10 @@
       ],
       "publishedAt": "2026-09-17T01:53:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [],
+  "blogUpdates": [
     {
       "id": "httpsclaudec-2026-09-17",
       "source": "Claude Blog",
@@ -409,6 +413,7 @@
     "totalTweets": 33,
     "totalPodcasts": 0,
     "totalBlogs": 1,
-    "generatedAt": "2026-09-17T17:50:03.512Z"
+    "generatedAt": "2026-09-17T17:50:13.552Z",
+    "estimatedReadTime": "8 分钟"
   }
 }
