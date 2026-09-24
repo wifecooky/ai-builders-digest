@@ -1,7 +1,8 @@
 {
   "date": "2026-09-24",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-09-24",
       "source": "X",
@@ -409,7 +410,10 @@
       ],
       "publishedAt": "2026-09-24T01:49:41.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-09-24",
       "source": "Anthropic Engineering",
@@ -449,6 +453,7 @@
     "totalTweets": 37,
     "totalPodcasts": 0,
     "totalBlogs": 3,
-    "generatedAt": "2026-09-24T18:02:29.591Z"
+    "generatedAt": "2026-09-24T18:02:48.971Z",
+    "estimatedReadTime": "9 分"
   }
 }
