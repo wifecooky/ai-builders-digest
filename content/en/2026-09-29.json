@@ -1,7 +1,8 @@
 {
   "date": "2026-09-29",
+  "lang": "en",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "bcherny-2026-09-29",
       "source": "X",
@@ -375,11 +376,14 @@
       "category": "builderInsights"
     }
   ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 18,
     "totalTweets": 34,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-09-29T18:58:57.004Z"
+    "generatedAt": "2026-09-29T18:58:57.215Z",
+    "estimatedReadTime": "8 min"
   }
 }
