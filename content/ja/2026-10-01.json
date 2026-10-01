@@ -1,7 +1,8 @@
 {
   "date": "2026-10-01",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-10-01",
       "source": "X",
@@ -397,7 +398,9 @@
       ],
       "publishedAt": "2026-09-30T23:45:27.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-10-01",
       "source": "AI & I by Every",
@@ -409,11 +412,13 @@
       "category": "podcastHighlights"
     }
   ],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 17,
     "totalTweets": 34,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-10-01T19:07:24.551Z"
+    "generatedAt": "2026-10-01T19:07:43.540Z",
+    "estimatedReadTime": "8 分"
   }
 }
