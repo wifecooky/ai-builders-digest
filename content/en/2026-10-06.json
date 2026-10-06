@@ -1,7 +1,8 @@
 {
   "date": "2026-10-06",
+  "lang": "en",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-10-06",
       "source": "X",
@@ -393,11 +394,14 @@
       "category": "builderInsights"
     }
   ],
+  "podcastHighlights": [],
+  "blogUpdates": [],
   "metadata": {
     "totalBuilders": 15,
     "totalTweets": 30,
     "totalPodcasts": 0,
     "totalBlogs": 0,
-    "generatedAt": "2026-10-06T19:12:35.519Z"
+    "generatedAt": "2026-10-06T19:12:35.733Z",
+    "estimatedReadTime": "8 min"
   }
 }
