@@ -1,7 +1,8 @@
 {
   "date": "2026-10-10",
+  "lang": "ja",
   "summary": "",
-  "items": [
+  "builderInsights": [
     {
       "id": "thsottiaux-2026-10-10",
       "source": "X",
@@ -373,7 +374,9 @@
       ],
       "publishedAt": "2026-10-09T21:32:09.000Z",
       "category": "builderInsights"
-    },
+    }
+  ],
+  "podcastHighlights": [
     {
       "id": "httpswwwyout-2026-10-10",
       "source": "No Priors",
@@ -383,7 +386,9 @@
       "suggestedSummary": "",
       "publishedAt": "2026-10-09T17:24:00.000Z",
       "category": "podcastHighlights"
-    },
+    }
+  ],
+  "blogUpdates": [
     {
       "id": "httpswwwanth-2026-10-10",
       "source": "Anthropic Engineering",
@@ -423,6 +428,7 @@
     "totalTweets": 27,
     "totalPodcasts": 1,
     "totalBlogs": 3,
-    "generatedAt": "2026-10-10T18:07:03.789Z"
+    "generatedAt": "2026-10-10T18:07:23.190Z",
+    "estimatedReadTime": "10 分"
   }
 }
