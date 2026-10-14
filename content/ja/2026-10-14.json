@@ -1,0 +1,390 @@
+{
+  "date": "2026-10-14",
+  "lang": "ja",
+  "summary": "",
+  "builderInsights": [
+    {
+      "id": "thsottiaux-2026-10-14",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "Day 9/\n\nWe've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2110151780478927344",
+          "text": "Day 9/\n\nWe've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.",
+          "likes": 10414,
+          "retweets": 328
+        }
+      ],
+      "publishedAt": "2026-10-13T23:32:43.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-10-14",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "Congrats Gemini team. Never bet against Google, the company that brought us Transformers and has overwhelming data, engineering talent, and compute.\n\nEveryone has, rightfully, pivoted back to coding. Coding agents are the killer app of AI. We're firmly at an elysium for developers and builders.\n\nIncidentally, getting Muse Wonder and Gemini Argon back-to-back is a reminder why you as an individual, and your company, should stay model agnostic and gateway-maxxx / fx-maxxx.",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2110044152482365747",
+          "text": "Congrats Gemini team. Never bet against Google, the company that brought us Transformers and has overwhelming data, engineering talent, and compute.\n\nEveryone has, rightfully, pivoted back to coding. Coding agents are the killer app of AI. We're firmly at an elysium for developers and builders.\n\nIncidentally, getting Muse Wonder and Gemini Argon back-to-back is a reminder why you as an individual, and your company, should stay model agnostic and gateway-maxxx / fx-maxxx.",
+          "likes": 1841,
+          "retweets": 50
+        }
+      ],
+      "publishedAt": "2026-10-13T16:25:03.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-10-14",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "Thariq",
+      "suggestedTitle": "",
+      "suggestedSummary": "excited to be back home https://t.co/58k27G1wa3",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2110035114432532654",
+          "text": "excited to be back home https://t.co/58k27G1wa3",
+          "likes": 858,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-10-13T15:49:08.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-10-14",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "gemini 4 argon really struggles on our senior engineer benchmark task\n\ncomes in at 21% far below Sol 6 and even Muse: https://t.co/KrkcNrQ1DG https://t.co/Aj9lskuHFT\n\ncase in point: \nhttps://t.co/qSSY4av6JA\n\nVIBE CHECK: GEMINI 4—GOOGLE IS BACK https://t.co/0kIFnFJoxi",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2110056016872427944",
+          "text": "gemini 4 argon really struggles on our senior engineer benchmark task\n\ncomes in at 21% far below Sol 6 and even Muse: https://t.co/KrkcNrQ1DG https://t.co/Aj9lskuHFT",
+          "likes": 235,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/danshipper/status/2110041871594516951",
+          "text": "case in point: \nhttps://t.co/qSSY4av6JA",
+          "likes": 2,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/danshipper/status/2110039417650024592",
+          "text": "VIBE CHECK: GEMINI 4—GOOGLE IS BACK https://t.co/0kIFnFJoxi",
+          "likes": 15,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-10-13T17:12:12.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "joshwoodward-2026-10-14",
+      "source": "X",
+      "authorName": "Josh Woodward",
+      "authorHandle": "joshwoodward",
+      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward",
+      "suggestedTitle": "",
+      "suggestedSummary": "Gemini 4 Argon: How a 24-word prompt built a custom synthesizer that turns galloping horses, rippling water, and your own hands into music. https://t.co/vjsPDalcPx\n\nGemini 4 Argon: At 96 millimeters wide, the hardest part of manufacturing this custom furniture leg was deciding how many stacked spheres to give it. https://t.co/SMgsGxePc5\n\nThe latest Gemini model made this https://t.co/SuYGK7UTsb",
+      "tweets": [
+        {
+          "url": "https://x.com/joshwoodward/status/2110179883045560674",
+          "text": "Gemini 4 Argon: How a 24-word prompt built a custom synthesizer that turns galloping horses, rippling water, and your own hands into music. https://t.co/vjsPDalcPx",
+          "likes": 209,
+          "retweets": 17
+        },
+        {
+          "url": "https://x.com/joshwoodward/status/2110089824573272547",
+          "text": "Gemini 4 Argon: At 96 millimeters wide, the hardest part of manufacturing this custom furniture leg was deciding how many stacked spheres to give it. https://t.co/SMgsGxePc5",
+          "likes": 529,
+          "retweets": 28
+        },
+        {
+          "url": "https://x.com/joshwoodward/status/2110055636109312264",
+          "text": "The latest Gemini model made this https://t.co/SuYGK7UTsb",
+          "likes": 414,
+          "retweets": 16
+        }
+      ],
+      "publishedAt": "2026-10-14T01:24:24.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "garrytan-2026-10-14",
+      "source": "X",
+      "authorName": "Garry Tan",
+      "authorHandle": "garrytan",
+      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan",
+      "suggestedTitle": "",
+      "suggestedSummary": "Connie Chan wants China to win the AI race\n\nShe also has done so much to make San Francisco unsafe for everyone \n\nI asked her to resign earlier this year. Instead the legacy Dem machine thinks she is the best choice 🤮 https://t.co/y8bgnf6Yl3 https://t.co/ymn780CuVT\n\nGiving your harnesses access to a real browser with your real credentials is a real unlock - highly recommend @AsideAI https://t.co/ZFAFYE7OHy",
+      "tweets": [
+        {
+          "url": "https://x.com/garrytan/status/2110115691684925777",
+          "text": "Connie Chan wants China to win the AI race\n\nShe also has done so much to make San Francisco unsafe for everyone \n\nI asked her to resign earlier this year. Instead the legacy Dem machine thinks she is the best choice 🤮 https://t.co/y8bgnf6Yl3 https://t.co/ymn780CuVT",
+          "likes": 153,
+          "retweets": 14
+        },
+        {
+          "url": "https://x.com/garrytan/status/2110053836945756234",
+          "text": "Giving your harnesses access to a real browser with your real credentials is a real unlock - highly recommend @AsideAI https://t.co/ZFAFYE7OHy",
+          "likes": 327,
+          "retweets": 15
+        }
+      ],
+      "publishedAt": "2026-10-13T21:09:19.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-10-14",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "You can pause frontier research today, and it would take AI another 10 years to diffuse into the economy. We're working with solutions partners to accelerate that. https://t.co/bC9iC6ubCP\n\nbrb, adding puppies to all my sites https://t.co/y53CdywLGl\n\nMXC.exe https://t.co/6fqwNa2y2D",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2110128937049452575",
+          "text": "You can pause frontier research today, and it would take AI another 10 years to diffuse into the economy. We're working with solutions partners to accelerate that. https://t.co/bC9iC6ubCP",
+          "likes": 134,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/amasad/status/2110112408463376730",
+          "text": "brb, adding puppies to all my sites https://t.co/y53CdywLGl",
+          "likes": 167,
+          "retweets": 7
+        },
+        {
+          "url": "https://x.com/amasad/status/2110049740285165779",
+          "text": "MXC.exe https://t.co/6fqwNa2y2D",
+          "likes": 191,
+          "retweets": 10
+        }
+      ],
+      "publishedAt": "2026-10-13T22:01:57.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-10-14",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Cyber is going to be one of the biggest spaces for AI agents in the future. \n\nObviously the risks of software exploits and the attack surface area increases 100 fold due to the ability for agents to work through any crack to find what they’re looking for.\n\nBut this goes the other way as well. The ability to have agent swarms review every line of code, test any number of permutations of exploits, and research any incident faster than humans as they happen, will be a huge boost in how we secure systems in the future. \n\nCyber has always been a category where it’s hard to keep up with (and triage) all the incoming risks, alerts, and changes in the enterprise and across all system. You can never hire enough people or work through the backlog of all known risks. Agents actually give you a chance finally to have far better coverage of this.\n\nThis is going to be a huge opportunity as well because we’ll see plays at the labs, data providers, the layer of the network and firewall, identity, devices and endpoints, SDLC, and even how we protect our data in the enterprise. Lots of interesting dimensions to cyber at the moment.\n\nAt Box, we've been testing Gemini 4 Argon on our Box AI Complex Work eval for the past week. It's a huge upgrade over Gemini 3.1 Pro, jumping by 14 percentage points across all our tests, and firmly at the frontier. \n\nIn our evaluation, we give the Box Agent (using Gemini 4 Argon) a variety of complex enterprise tasks involving enterprise documents in a range of industries. These tasks approximate the kind of hard, time-consuming work that knowledge workers do every day with their enterprise content. Gemini 4 is a huge leap on effectively every dimension of this work.\n\nGemini 4 is far more capable on math, logic, analytics, and deep knowledge of a variety of business domains. It also works far harder to complete tasks fully without stopping short of the desired result. This is incredibly important for complex enterprise workflows that depend on robust task execution.\n\nHere are some example wins that we saw to put the improvements in perspective:\n\n* Financial services (+18 points): a funding-gap analysis for a family-owned company, where the brief spelled out every step of the projected statements, down to the interest on the bank loan and the overdraft for each year. Gemini 4 Argon built them exactly as specified, every line broken out and carried through to the funding gap. Gemini 3.1 Pro folded the interest into a single figure.\n\n* Healthcare (+25 points): an intensive care management plan where both models spotted a dangerous potassium level and a drug interaction. Only Gemini 4 Argon went back and pulled the offending drugs from the final regimen, so its plan actually matched its own diagnosis.\n\n* Technology (+37 points): a product performance review deciding which of two regional markets should have its cloud infrastructure optimized first. Gemini 4 Argon pulled the right month's user, retention and per-user figures for both regions and correctly flagged North America. Gemini 3.1 Pro often pulled the wrong rows, at one point reporting retention above 100%, and pointed the effort at the wrong region.\n\n* Energy (+16 points): an energy consumption report across two facilities that had to flag any gaps in the meter data. Gemini 4 Argon consistently caught that the data center's smart meter log stops in November. Gemini 3.1 Pro often missed it, at times declaring the logs complete.\n\n* Consumer products (+33 points): a product launch evaluation deciding which production expansion to fund. Gemini 4 Argon saw that existing inventory could bridge an early capacity gap, which made the smaller expansion viable with an earlier launch and a faster break-even. Gemini 3.1 Pro defaulted to the larger expansion and the later timeline.\n\nGemini 4 Argon will be available in the Box AI Studio shortly for anyone to build custom Box Agents with.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2110227571090788526",
+          "text": "Cyber is going to be one of the biggest spaces for AI agents in the future. \n\nObviously the risks of software exploits and the attack surface area increases 100 fold due to the ability for agents to work through any crack to find what they’re looking for.\n\nBut this goes the other way as well. The ability to have agent swarms review every line of code, test any number of permutations of exploits, and research any incident faster than humans as they happen, will be a huge boost in how we secure systems in the future. \n\nCyber has always been a category where it’s hard to keep up with (and triage) all the incoming risks, alerts, and changes in the enterprise and across all system. You can never hire enough people or work through the backlog of all known risks. Agents actually give you a chance finally to have far better coverage of this.\n\nThis is going to be a huge opportunity as well because we’ll see plays at the labs, data providers, the layer of the network and firewall, identity, devices and endpoints, SDLC, and even how we protect our data in the enterprise. Lots of interesting dimensions to cyber at the moment.",
+          "likes": 60,
+          "retweets": 6
+        },
+        {
+          "url": "https://x.com/levie/status/2110046686198550539",
+          "text": "At Box, we've been testing Gemini 4 Argon on our Box AI Complex Work eval for the past week. It's a huge upgrade over Gemini 3.1 Pro, jumping by 14 percentage points across all our tests, and firmly at the frontier. \n\nIn our evaluation, we give the Box Agent (using Gemini 4 Argon) a variety of complex enterprise tasks involving enterprise documents in a range of industries. These tasks approximate the kind of hard, time-consuming work that knowledge workers do every day with their enterprise content. Gemini 4 is a huge leap on effectively every dimension of this work.\n\nGemini 4 is far more capable on math, logic, analytics, and deep knowledge of a variety of business domains. It also works far harder to complete tasks fully without stopping short of the desired result. This is incredibly important for complex enterprise workflows that depend on robust task execution.\n\nHere are some example wins that we saw to put the improvements in perspective:\n\n* Financial services (+18 points): a funding-gap analysis for a family-owned company, where the brief spelled out every step of the projected statements, down to the interest on the bank loan and the overdraft for each year. Gemini 4 Argon built them exactly as specified, every line broken out and carried through to the funding gap. Gemini 3.1 Pro folded the interest into a single figure.\n\n* Healthcare (+25 points): an intensive care management plan where both models spotted a dangerous potassium level and a drug interaction. Only Gemini 4 Argon went back and pulled the offending drugs from the final regimen, so its plan actually matched its own diagnosis.\n\n* Technology (+37 points): a product performance review deciding which of two regional markets should have its cloud infrastructure optimized first. Gemini 4 Argon pulled the right month's user, retention and per-user figures for both regions and correctly flagged North America. Gemini 3.1 Pro often pulled the wrong rows, at one point reporting retention above 100%, and pointed the effort at the wrong region.\n\n* Energy (+16 points): an energy consumption report across two facilities that had to flag any gaps in the meter data. Gemini 4 Argon consistently caught that the data center's smart meter log stops in November. Gemini 3.1 Pro often missed it, at times declaring the logs complete.\n\n* Consumer products (+33 points): a product launch evaluation deciding which production expansion to fund. Gemini 4 Argon saw that existing inventory could bridge an early capacity gap, which made the smaller expansion viable with an earlier launch and a faster break-even. Gemini 3.1 Pro defaulted to the larger expansion and the later timeline.\n\nGemini 4 Argon will be available in the Box AI Studio shortly for anyone to build custom Box Agents with.",
+          "likes": 376,
+          "retweets": 18
+        }
+      ],
+      "publishedAt": "2026-10-14T04:33:53.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-10-14",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "this is what talent density means at @aidotengineer - @SydneyScouts runs speakers at AIE!! https://t.co/QSZJ5fwgUD https://t.co/zeyQWkirTc\n\n🆕 How to Kill Your SaaS \n\nhttps://t.co/A0F60h1DcQ\n\nA lot of people talk about the death of SaaS but mostly in theoretical terms. We took a real $43,000/year SaaS we use and launched a global hackathon to clone it in a weekend, with both AI and REAL HUMAN evals, using any models any harness. \n\n72 submissions, a lot of manual evals and ~100B tokens later, here are the results\n\nIn this special @latentspacepod edition we share the data collected, what's still hard about killing nontrivial, midtier SaaS, and reveal the winners of the $10,000 Kill My SaaS contest with qualitative interviews!\n\nand livestream now\n\nhttps://t.co/pOP6CRjT0R",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2110194074573586607",
+          "text": "this is what talent density means at @aidotengineer - @SydneyScouts runs speakers at AIE!! https://t.co/QSZJ5fwgUD https://t.co/zeyQWkirTc",
+          "likes": 35,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2110065576764686421",
+          "text": "🆕 How to Kill Your SaaS \n\nhttps://t.co/A0F60h1DcQ\n\nA lot of people talk about the death of SaaS but mostly in theoretical terms. We took a real $43,000/year SaaS we use and launched a global hackathon to clone it in a weekend, with both AI and REAL HUMAN evals, using any models any harness. \n\n72 submissions, a lot of manual evals and ~100B tokens later, here are the results\n\nIn this special @latentspacepod edition we share the data collected, what's still hard about killing nontrivial, midtier SaaS, and reveal the winners of the $10,000 Kill My SaaS contest with qualitative interviews!",
+          "likes": 86,
+          "retweets": 9
+        },
+        {
+          "url": "https://x.com/swyx/status/2109994742998303191",
+          "text": "and livestream now\n\nhttps://t.co/pOP6CRjT0R",
+          "likes": 1,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-14T02:20:47.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-10-14",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Is it just me or is an usb recording device plugged into a conference room tv “concealed” in toilet paper not a very good disguise at all https://t.co/JqyqCevnIX\n\nPoteto cracks me up with her trolling https://t.co/EYXg8RALst\n\nOwning a house in the Bay Area is fun because you can just randomly spend five-figures on yard work.",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2110197699790430711",
+          "text": "Is it just me or is an usb recording device plugged into a conference room tv “concealed” in toilet paper not a very good disguise at all https://t.co/JqyqCevnIX",
+          "likes": 28,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2110194356166795474",
+          "text": "Poteto cracks me up with her trolling https://t.co/EYXg8RALst",
+          "likes": 54,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/petergyang/status/2110120062908862517",
+          "text": "Owning a house in the Bay Area is fun because you can just randomly spend five-figures on yard work.",
+          "likes": 101,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-14T02:35:11.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-10-14",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "ever since I was a little kid, I wanted to do prorata so I can say I’m quadrupling down\n\nAll my priors get shattered when I chat with @JustJake every month..\n\n&gt; how to scale\n&gt; how to sell\n&gt; how to hire\n&gt; how to build\n\n@Railway is an n of 1 company that’s because Jake runs it HIS way. \n\nThis podcast is a good listen on what makes him and the company truly special! https://t.co/5KXHfDZPzN",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2110151986360553599",
+          "text": "ever since I was a little kid, I wanted to do prorata so I can say I’m quadrupling down",
+          "likes": 9,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/nikunj/status/2110137649168281871",
+          "text": "All my priors get shattered when I chat with @JustJake every month..\n\n&gt; how to scale\n&gt; how to sell\n&gt; how to hire\n&gt; how to build\n\n@Railway is an n of 1 company that’s because Jake runs it HIS way. \n\nThis podcast is a good listen on what makes him and the company truly special! https://t.co/5KXHfDZPzN",
+          "likes": 50,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-10-13T23:33:32.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-10-14",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL \nYouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Asking for a friend: who is the most cracked brand designer you know?\n\nHaha great video &amp; product! https://t.co/cnJfQ2L5p0",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2110254654412218553",
+          "text": "Asking for a friend: who is the most cracked brand designer you know?",
+          "likes": 2,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2110052024637415720",
+          "text": "Haha great video &amp; product! https://t.co/cnJfQ2L5p0",
+          "likes": 33,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-10-14T06:21:30.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-10-14",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "product, codex @openai. prev head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/tQGA3nhbta https://t.co/f6pPKkYeCL\n\nTold y’all https://t.co/6hylfBp5ZF",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2110131244956828008",
+          "text": "https://t.co/tQGA3nhbta https://t.co/f6pPKkYeCL",
+          "likes": 0,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2110130931902353553",
+          "text": "Told y’all https://t.co/6hylfBp5ZF",
+          "likes": 78,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-10-13T22:11:07.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-10-14",
+      "source": "Training Data",
+      "title": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-10-13T09:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [
+    {
+      "id": "httpswwwanth-2026-10-14",
+      "source": "Anthropic Engineering",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "author": null,
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": null,
+      "category": "blogUpdates"
+    }
+  ],
+  "metadata": {
+    "totalBuilders": 13,
+    "totalTweets": 28,
+    "totalPodcasts": 1,
+    "totalBlogs": 1,
+    "generatedAt": "2026-10-14T18:13:29.940Z",
+    "estimatedReadTime": "8 分"
+  }
+}
