@@ -1,413 +1,419 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "summary": "",
   "items": [
     {
-      "id": "steipete-2026-10-22",
+      "id": "bcherny-2026-10-23",
       "source": "X",
-      "authorName": "Peter Steinberger",
-      "authorHandle": "steipete",
-      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-      "title": "Peter Steinberger",
+      "authorName": "Boris Cherny",
+      "authorHandle": "bcherny",
+      "authorBio": "Claude @anthropicai",
+      "title": "Boris Cherny",
       "suggestedTitle": "",
-      "suggestedSummary": "That PHP vulnerability that’s gonna cause havoc this week was found with… GPT‑5.6 Sol. https://t.co/2djri1GYn4",
+      "suggestedSummary": "Agent Skills started as an experiment in Claude Code. Many across the industry have come to adopt it, so we at Anthropic found it more fitting to donate it to the @AgenticAIFdn, next to MCP. https://t.co/rn33HmNxav",
       "tweets": [
         {
-          "url": "https://x.com/steipete/status/2112913060709228764",
-          "text": "That PHP vulnerability that’s gonna cause havoc this week was found with… GPT‑5.6 Sol. https://t.co/2djri1GYn4",
-          "likes": 11229,
-          "retweets": 574
+          "url": "https://x.com/bcherny/status/2113333859907747871",
+          "text": "Agent Skills started as an experiment in Claude Code. Many across the industry have come to adopt it, so we at Anthropic found it more fitting to donate it to the @AgenticAIFdn, next to MCP. https://t.co/rn33HmNxav",
+          "likes": 1697,
+          "retweets": 53
         }
       ],
-      "publishedAt": "2026-10-21T14:25:04.000Z",
+      "publishedAt": "2026-10-22T18:17:10.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "thsottiaux-2026-10-22",
+      "id": "thsottiaux-2026-10-23",
       "source": "X",
       "authorName": "Thibault Sottiaux",
       "authorHandle": "thsottiaux",
       "authorBio": "Codex & ChatGPT @OpenAI",
       "title": "Thibault Sottiaux",
       "suggestedTitle": "",
-      "suggestedSummary": "Fully included in the Pro plan, doesn't draw on your weekly usage.\n\nDot, Dotter, Dottest",
+      "suggestedSummary": "Landing tomorrow before 10am PST together with a small ship.\n\nDay 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex &amp; work. But yes… that’s a reset!\n\nLands tomorrow before 10am PST.",
       "tweets": [
         {
-          "url": "https://x.com/thsottiaux/status/2113029854417600834",
-          "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
-          "likes": 1840,
-          "retweets": 37
+          "url": "https://x.com/thsottiaux/status/2113492502355562875",
+          "text": "Landing tomorrow before 10am PST together with a small ship.",
+          "likes": 1443,
+          "retweets": 60
         },
         {
-          "url": "https://x.com/thsottiaux/status/2113029655095836957",
-          "text": "Dot, Dotter, Dottest",
-          "likes": 3981,
-          "retweets": 93
+          "url": "https://x.com/thsottiaux/status/2113492187770175603",
+          "text": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex &amp; work. But yes… that’s a reset!",
+          "likes": 4772,
+          "retweets": 228
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2113162413008884099",
+          "text": "Lands tomorrow before 10am PST.",
+          "likes": 3142,
+          "retweets": 104
         }
       ],
-      "publishedAt": "2026-10-21T22:09:10.000Z",
+      "publishedAt": "2026-10-23T04:47:34.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "rauchg-2026-10-22",
+      "id": "rauchg-2026-10-23",
       "source": "X",
       "authorName": "Guillermo Rauch",
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
       "suggestedTitle": "",
-      "suggestedSummary": "Vercel has proactively rolled out Firewall-level mitigations for today's Node.js RCE vulnerability, in advance of the official patch release. \n\nAll traffic for all deployments is automatically protected. We're actively monitoring and rolling out managed runtime upgrades. https://t.co/fSgaLf99o7\n\nDeepSeek v4.1 Flash (1017) is now included in ▲ Token Pass.\n\nFast, mind-bogglingly cheap, and served with ZDR (zero-data retention).\n\nIt's a phenomenal model to run subagents that execute plans conceived by larger and more expensive models. You can port TypeScript to Rust 10 times and not run out of credits 😂\n\nIt was inspiring to watch the behind-the-scenes¹ of the industry coming together, weeks in advance, to protect the world's infrastructure and mitigate php2shell.\n\nWe deployed Vercel WAF mitigations that have already successfully prevented attempts on PHP origins. Assume more vulnerabilities are on the way. Flex the patch → redeploy muscle.\n\n¹ A Slack channel. Thank you @SlackHQ!",
+      "suggestedSummary": "TL;DR of this week.\n\nYour aunt’s password: “P4ssword!” (on a Post-it note in the kitchen)\n\nThe stewards and guardians of the internet’s encryption’s password: “4”\n\nYes, just 4. This key could be used to target and decrypt ~everything, and we’re still cleaning up residual risk.\n\nOne of the coolest real-world examples of Generative UI.\n\nAlso: I love the fact that AI Gateway is itself a marketplace of tools. For this, you add a tool to @aisdk (literally 1LOC), and you get “Google”.\n\nGoogle not just as in search, but weather, sports, stocks, elections… https://t.co/2HbBXSmQOF\n\nIt’s time to kill “static credentials”.\n\nAttacks and breaches can happen. But imagine if thieves could only steal “self-destructing keys” to your data and tokens.\n\nThe industry once came together to deliver “green locks” encryption for every site (TLS). Let’s do it for OIDC! 💪 https://t.co/RfzNgsBORY",
       "tweets": [
         {
-          "url": "https://x.com/rauchg/status/2113050053724221732",
-          "text": "Vercel has proactively rolled out Firewall-level mitigations for today's Node.js RCE vulnerability, in advance of the official patch release. \n\nAll traffic for all deployments is automatically protected. We're actively monitoring and rolling out managed runtime upgrades. https://t.co/fSgaLf99o7",
-          "likes": 1449,
-          "retweets": 58
+          "url": "https://x.com/rauchg/status/2113462657059639505",
+          "text": "TL;DR of this week.\n\nYour aunt’s password: “P4ssword!” (on a Post-it note in the kitchen)\n\nThe stewards and guardians of the internet’s encryption’s password: “4”\n\nYes, just 4. This key could be used to target and decrypt ~everything, and we’re still cleaning up residual risk.",
+          "likes": 616,
+          "retweets": 19
         },
         {
-          "url": "https://x.com/rauchg/status/2113010010766913815",
-          "text": "DeepSeek v4.1 Flash (1017) is now included in ▲ Token Pass.\n\nFast, mind-bogglingly cheap, and served with ZDR (zero-data retention).\n\nIt's a phenomenal model to run subagents that execute plans conceived by larger and more expensive models. You can port TypeScript to Rust 10 times and not run out of credits 😂",
-          "likes": 544,
-          "retweets": 13
-        },
-        {
-          "url": "https://x.com/rauchg/status/2112989629536440400",
-          "text": "It was inspiring to watch the behind-the-scenes¹ of the industry coming together, weeks in advance, to protect the world's infrastructure and mitigate php2shell.\n\nWe deployed Vercel WAF mitigations that have already successfully prevented attempts on PHP origins. Assume more vulnerabilities are on the way. Flex the patch → redeploy muscle.\n\n¹ A Slack channel. Thank you @SlackHQ!",
-          "likes": 386,
-          "retweets": 14
-        }
-      ],
-      "publishedAt": "2026-10-21T23:29:26.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "catwu-2026-10-22",
-      "source": "X",
-      "authorName": "Cat Wu",
-      "authorHandle": "_catwu",
-      "authorBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
-      "title": "Cat Wu",
-      "suggestedTitle": "",
-      "suggestedSummary": "We heard your feedback that you want Claude to proactively take more off your plate! Claude Duet is a large step in this direction - it'll notice work that needs to be done, and then do it before you ask. \n\nJoin the waitlist here: https://t.co/f3PfUuXIox https://t.co/y0DfQS4RHI",
-      "tweets": [
-        {
-          "url": "https://x.com/_catwu/status/2112988751576330487",
-          "text": "We heard your feedback that you want Claude to proactively take more off your plate! Claude Duet is a large step in this direction - it'll notice work that needs to be done, and then do it before you ask. \n\nJoin the waitlist here: https://t.co/f3PfUuXIox https://t.co/y0DfQS4RHI",
-          "likes": 728,
-          "retweets": 21
-        }
-      ],
-      "publishedAt": "2026-10-21T19:25:50.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "levie-2026-10-22",
-      "source": "X",
-      "authorName": "Aaron Levie",
-      "authorHandle": "levie",
-      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
-      "title": "Aaron Levie",
-      "suggestedTitle": "",
-      "suggestedSummary": "If you wanted to know all the jobs that AI will produce, look no further than cybersecurity. This is going to become one of the biggest investment areas for enterprises going forward. \n\nAnd even as the work becomes more agentic and autonomous you will need more talent to point the agents at the most critical work, review findings, patch systems, respond to incidents, and more. \n\nLots of opportunity right now for the systems that protect data and enterprises, as well as the professionals that are deploying them and protecting organizations.\n\nIt’s going to only get more wild out there.\n\nCyber is going to be one of the most profound aspects of AI. We now have a tireless workforce that can hunt down, discover, patch, or attack any system and software ever created.\n\nWe will use agents to identify the long standing risks in existing systems and infrastructure. Attackers will use agents to accelerate the discovery of gaps in environments. We will equally use agents to defend attacks and discover anomalous patterns to better protect our data, and much more.\n\nWe’re entering a new cyber regime, and we’ll probably use 100X more tokens on this loop than we’re imagining right now, because we can scan every log, look at every line of code, look through traffic, and process data at a scale that wasn’t comprehensible before.\n\nMore than ever, enterprises are going to care deeply about how they manage their networks, systems, software, data, identity, devices, and more. Agents will largely become the solution to these challenges, but they will keep everyone up in the process.",
-      "tweets": [
-        {
-          "url": "https://x.com/levie/status/2113137032633757773",
-          "text": "If you wanted to know all the jobs that AI will produce, look no further than cybersecurity. This is going to become one of the biggest investment areas for enterprises going forward. \n\nAnd even as the work becomes more agentic and autonomous you will need more talent to point the agents at the most critical work, review findings, patch systems, respond to incidents, and more. \n\nLots of opportunity right now for the systems that protect data and enterprises, as well as the professionals that are deploying them and protecting organizations.\n\nIt’s going to only get more wild out there.",
-          "likes": 187,
-          "retweets": 10
-        },
-        {
-          "url": "https://x.com/levie/status/2112964214818283917",
-          "text": "Cyber is going to be one of the most profound aspects of AI. We now have a tireless workforce that can hunt down, discover, patch, or attack any system and software ever created.\n\nWe will use agents to identify the long standing risks in existing systems and infrastructure. Attackers will use agents to accelerate the discovery of gaps in environments. We will equally use agents to defend attacks and discover anomalous patterns to better protect our data, and much more.\n\nWe’re entering a new cyber regime, and we’ll probably use 100X more tokens on this loop than we’re imagining right now, because we can scan every log, look at every line of code, look through traffic, and process data at a scale that wasn’t comprehensible before.\n\nMore than ever, enterprises are going to care deeply about how they manage their networks, systems, software, data, identity, devices, and more. Agents will largely become the solution to these challenges, but they will keep everyone up in the process.",
-          "likes": 418,
-          "retweets": 52
-        }
-      ],
-      "publishedAt": "2026-10-22T05:15:03.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "danshipper-2026-10-22",
-      "source": "X",
-      "authorName": "Dan Shipper",
-      "authorHandle": "danshipper",
-      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
-      "title": "Dan Shipper",
-      "suggestedTitle": "",
-      "suggestedSummary": "keeping up with AI is a full-time job. that's why every company needs a frontier team:\n\nthe frontier team's job is to keep up as models change. everyone else's job is to use what they learn\n\nwe made one @Every and it's completely changed how we work:\n\n0:00 Introduction: Why every company needs a frontier team\n2:42 Why the best frontier teams have pirates and architects\n4:57 How Head of Evals @hammer_mt builds personal benchmarks\n6:46 How Opus edited an explainer video using Slack messages and meeting notes\n10:20 Working with AI means protecting other people’s attention\n12:26 Why a frontier team needs a “wrangler” like Arielle Shipper\n18:58 Why senior editor @jackcheng built a tabless browser\n24:37 How resident writer @kplikethebird teaches her AI writing plugin who the reader is\n30:51 Inside engineer @JannikJung’s personal AI orchestrator\n35:41 Compound engineer @kieranklaassen uses AI to build power tools\n\n@AnthropicAI read our full vibe check: https://t.co/8tp1RTN0n1\n\nBREAKING:\n\n@AnthropicAI just launched Duet, its always-on personal agent. It’s the first personal agent I’d call a pro tool.\n\nWe’ve been testing it for two weeks. I’ve gone from mostly using ChatGPT to roughly 50/50 between ChatGPT and Claude—the most time I’ve spent with Anthropic in close to a year.\n\n• It lives in its own app, separate from Claude, on iOS, Android, and the web. This makes it feel clean and easy to understand.\n• It has channels for specific areas of your work and life rather than just a single chat\n• It has a todo list so you never lose what you’re working on and you can always see statuses\n• It allows you to easily write and edit documents, slides, and more all through the app.\n• It’s not a chief of staff yet. It can see the Claude sessions on my computers but can’t direct them. Its email drafts are worse than dot’s, and voice is transcription only—you can’t have a spoken conversation with it.\n\nMy verdict: the vibes are good, and I’m opening Duet every day. It’s worth trying.\n\nCheck out our agent comparison page: https://t.co/fZyTorNK4p\n\nFull Vibe Check coming soon on @every",
-      "tweets": [
-        {
-          "url": "https://x.com/danshipper/status/2113010761786175970",
-          "text": "keeping up with AI is a full-time job. that's why every company needs a frontier team:\n\nthe frontier team's job is to keep up as models change. everyone else's job is to use what they learn\n\nwe made one @Every and it's completely changed how we work:\n\n0:00 Introduction: Why every company needs a frontier team\n2:42 Why the best frontier teams have pirates and architects\n4:57 How Head of Evals @hammer_mt builds personal benchmarks\n6:46 How Opus edited an explainer video using Slack messages and meeting notes\n10:20 Working with AI means protecting other people’s attention\n12:26 Why a frontier team needs a “wrangler” like Arielle Shipper\n18:58 Why senior editor @jackcheng built a tabless browser\n24:37 How resident writer @kplikethebird teaches her AI writing plugin who the reader is\n30:51 Inside engineer @JannikJung’s personal AI orchestrator\n35:41 Compound engineer @kieranklaassen uses AI to build power tools",
-          "likes": 161,
+          "url": "https://x.com/rauchg/status/2113451268316205515",
+          "text": "One of the coolest real-world examples of Generative UI.\n\nAlso: I love the fact that AI Gateway is itself a marketplace of tools. For this, you add a tool to @aisdk (literally 1LOC), and you get “Google”.\n\nGoogle not just as in search, but weather, sports, stocks, elections… https://t.co/2HbBXSmQOF",
+          "likes": 196,
           "retweets": 9
         },
         {
-          "url": "https://x.com/danshipper/status/2113007329990127942",
-          "text": "@AnthropicAI read our full vibe check: https://t.co/8tp1RTN0n1",
-          "likes": 8,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/danshipper/status/2112997559463506059",
-          "text": "BREAKING:\n\n@AnthropicAI just launched Duet, its always-on personal agent. It’s the first personal agent I’d call a pro tool.\n\nWe’ve been testing it for two weeks. I’ve gone from mostly using ChatGPT to roughly 50/50 between ChatGPT and Claude—the most time I’ve spent with Anthropic in close to a year.\n\n• It lives in its own app, separate from Claude, on iOS, Android, and the web. This makes it feel clean and easy to understand.\n• It has channels for specific areas of your work and life rather than just a single chat\n• It has a todo list so you never lose what you’re working on and you can always see statuses\n• It allows you to easily write and edit documents, slides, and more all through the app.\n• It’s not a chief of staff yet. It can see the Claude sessions on my computers but can’t direct them. Its email drafts are worse than dot’s, and voice is transcription only—you can’t have a spoken conversation with it.\n\nMy verdict: the vibes are good, and I’m opening Duet every day. It’s worth trying.\n\nCheck out our agent comparison page: https://t.co/fZyTorNK4p\n\nFull Vibe Check coming soon on @every",
-          "likes": 670,
-          "retweets": 35
+          "url": "https://x.com/rauchg/status/2113399539227136084",
+          "text": "It’s time to kill “static credentials”.\n\nAttacks and breaches can happen. But imagine if thieves could only steal “self-destructing keys” to your data and tokens.\n\nThe industry once came together to deliver “green locks” encryption for every site (TLS). Let’s do it for OIDC! 💪 https://t.co/RfzNgsBORY",
+          "likes": 1268,
+          "retweets": 52
         }
       ],
-      "publishedAt": "2026-10-21T20:53:18.000Z",
+      "publishedAt": "2026-10-23T02:48:58.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "amasad-2026-10-22",
-      "source": "X",
-      "authorName": "Amjad Masad",
-      "authorHandle": "amasad",
-      "authorBio": "ceo @replit. civilizationist",
-      "title": "Amjad Masad",
-      "suggestedTitle": "",
-      "suggestedSummary": "prompt -&gt; corporation https://t.co/MYcINQyL4I",
-      "tweets": [
-        {
-          "url": "https://x.com/amasad/status/2112975002027147545",
-          "text": "prompt -&gt; corporation https://t.co/MYcINQyL4I",
-          "likes": 99,
-          "retweets": 4
-        }
-      ],
-      "publishedAt": "2026-10-21T18:31:12.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "zarazhangrui-2026-10-22",
-      "source": "X",
-      "authorName": "Zara Zhang",
-      "authorHandle": "zarazhangrui",
-      "authorBio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL \nYouTube: https://t.co/8xzbGWtf6w",
-      "title": "Zara Zhang",
-      "suggestedTitle": "",
-      "suggestedSummary": "Your personal website is the new resume\n\nMade with just one prompt! The prompt: https://t.co/tDgYo8dVyB\n\nTurn a photo into a 3D popup card https://t.co/t4YdSAPIIB",
-      "tweets": [
-        {
-          "url": "https://x.com/zarazhangrui/status/2113148949842534482",
-          "text": "Your personal website is the new resume",
-          "likes": 48,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/zarazhangrui/status/2113062991696744513",
-          "text": "Made with just one prompt! The prompt: https://t.co/tDgYo8dVyB",
-          "likes": 27,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/zarazhangrui/status/2113055591954526444",
-          "text": "Turn a photo into a 3D popup card https://t.co/t4YdSAPIIB",
-          "likes": 284,
-          "retweets": 11
-        }
-      ],
-      "publishedAt": "2026-10-22T06:02:24.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "nikunj-2026-10-22",
-      "source": "X",
-      "authorName": "Nikunj Kothari",
-      "authorHandle": "nikunj",
-      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "title": "Nikunj Kothari",
-      "suggestedTitle": "",
-      "suggestedSummary": "Exhibit 347 of why you should have kids 🥰 https://t.co/bhSmo5jHD0\n\nWho knew acquiring super intelligence could lead to the entire fabric and trust of the internet being slowly broken..\n\nIt’s truly wild and batsh!t bananas out there. https://t.co/gA5AQr2s6b",
-      "tweets": [
-        {
-          "url": "https://x.com/nikunj/status/2113083278223974779",
-          "text": "Exhibit 347 of why you should have kids 🥰 https://t.co/bhSmo5jHD0",
-          "likes": 49,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/nikunj/status/2113057195948707874",
-          "text": "Who knew acquiring super intelligence could lead to the entire fabric and trust of the internet being slowly broken..\n\nIt’s truly wild and batsh!t bananas out there. https://t.co/gA5AQr2s6b",
-          "likes": 68,
-          "retweets": 1
-        }
-      ],
-      "publishedAt": "2026-10-22T01:41:27.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "GoogleLabs-2026-10-22",
-      "source": "X",
-      "authorName": "Google Labs",
-      "authorHandle": "GoogleLabs",
-      "authorBio": "Google’s home for our latest AI tools and experiments.",
-      "title": "Google Labs",
-      "suggestedTitle": "",
-      "suggestedSummary": "Story picked ✅ Calendar cleared ✅\n\nThe adventure continues in “Dreambeans Roulette: Part 2”!\n\nJoin the trail with Sahana, Brian, and Nala as we dive into all things Dreambeans including:\n\n☕️ How are Dreambean stories “brewed” in the first place?\n☁️ How can one make Dreambeans “dream” even better?\n📵 What if apps were designed to get you off your phone?\n\nStay tuned for Part 3, where Brian shares field notes from the trail and a bit more on the experience and vision behind Google Labs.\n\nDreambeans is live in the US, for users 18+. More regions coming soon. Learn more at https://t.co/jCdAzMHvOD",
-      "tweets": [
-        {
-          "url": "https://x.com/GoogleLabs/status/2112968628861878648",
-          "text": "Story picked ✅ Calendar cleared ✅\n\nThe adventure continues in “Dreambeans Roulette: Part 2”!\n\nJoin the trail with Sahana, Brian, and Nala as we dive into all things Dreambeans including:\n\n☕️ How are Dreambean stories “brewed” in the first place?\n☁️ How can one make Dreambeans “dream” even better?\n📵 What if apps were designed to get you off your phone?\n\nStay tuned for Part 3, where Brian shares field notes from the trail and a bit more on the experience and vision behind Google Labs.\n\nDreambeans is live in the US, for users 18+. More regions coming soon. Learn more at https://t.co/jCdAzMHvOD",
-          "likes": 30,
-          "retweets": 3
-        }
-      ],
-      "publishedAt": "2026-10-21T18:05:52.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "mattturck-2026-10-22",
-      "source": "X",
-      "authorName": "Matt Turck",
-      "authorHandle": "mattturck",
-      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-      "title": "Matt Turck",
-      "suggestedTitle": "",
-      "suggestedSummary": "Turning into a fun *week*\n\n* $250M Series E announcement at @gopigment \n* $550M Series E announcement at @WeAreLegora https://t.co/lYHfpIiKze\n\nIn an era of tokens, APIs and agents, the world is shifting towards continuous financial planning, and Pigment is the platform for it.\n\nEleonore, @romain_pigment and the whole @gopigment team are building a very special company.  Congrats on the round, proud investors since the seed.",
-      "tweets": [
-        {
-          "url": "https://x.com/mattturck/status/2113026098669777365",
-          "text": "Turning into a fun *week*\n\n* $250M Series E announcement at @gopigment \n* $550M Series E announcement at @WeAreLegora https://t.co/lYHfpIiKze",
-          "likes": 16,
-          "retweets": 3
-        },
-        {
-          "url": "https://x.com/mattturck/status/2112927524321726921",
-          "text": "In an era of tokens, APIs and agents, the world is shifting towards continuous financial planning, and Pigment is the platform for it.\n\nEleonore, @romain_pigment and the whole @gopigment team are building a very special company.  Congrats on the round, proud investors since the seed.",
-          "likes": 24,
-          "retweets": 5
-        }
-      ],
-      "publishedAt": "2026-10-21T21:54:14.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "thenanyu-2026-10-22",
-      "source": "X",
-      "authorName": "Nan Yu",
-      "authorHandle": "thenanyu",
-      "authorBio": "product, codex @openai. prev head of product @linear",
-      "title": "Nan Yu",
-      "suggestedTitle": "",
-      "suggestedSummary": "Instrumentation problem. https://t.co/PjyCycHOy6",
-      "tweets": [
-        {
-          "url": "https://x.com/thenanyu/status/2113036367009845631",
-          "text": "Instrumentation problem. https://t.co/PjyCycHOy6",
-          "likes": 18,
-          "retweets": 0
-        }
-      ],
-      "publishedAt": "2026-10-21T22:35:02.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "garrytan-2026-10-22",
+      "id": "garrytan-2026-10-23",
       "source": "X",
       "authorName": "Garry Tan",
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
       "suggestedTitle": "",
-      "suggestedSummary": "Gabriel Zucman is an economic adviser to the union sponsoring California’s Prop. 40, a contributor to the research underlying its revenue estimates, and a public campaigner for its passage.\n\nHis ideas will destroy California.\n\nGabriel Zucman is currently employed by the University of California at Berkeley, a public university that will be hurt severely due to shortfall of tax revenue to the state: to the tune of $39 billion net loss in aggregate\n\nPerhaps when the tax doom spiral hits his department some people will finally say damn we shouldn’t have hired this guy",
+      "suggestedSummary": "Free advice for San Francisco elected officials: Don't go to Democratic Socialist rallies. It's a trap every time. https://t.co/cSpZAdjxlP\n\nAside Browser is a real solution to making your agents actually great at using the web. @AsideAI https://t.co/3eFHCPk3KZ\n\nAI is transforming a great many powerful SaaS businesses \n\nThis is what it looks like when it *really* hits https://t.co/CUoKBw3rrI",
       "tweets": [
         {
-          "url": "https://x.com/garrytan/status/2113144583429521578",
-          "text": "Gabriel Zucman is an economic adviser to the union sponsoring California’s Prop. 40, a contributor to the research underlying its revenue estimates, and a public campaigner for its passage.\n\nHis ideas will destroy California.",
-          "likes": 9,
-          "retweets": 1
+          "url": "https://x.com/garrytan/status/2113369692022944222",
+          "text": "Free advice for San Francisco elected officials: Don't go to Democratic Socialist rallies. It's a trap every time. https://t.co/cSpZAdjxlP",
+          "likes": 179,
+          "retweets": 8
         },
         {
-          "url": "https://x.com/garrytan/status/2113143993026617832",
-          "text": "Gabriel Zucman is currently employed by the University of California at Berkeley, a public university that will be hurt severely due to shortfall of tax revenue to the state: to the tune of $39 billion net loss in aggregate\n\nPerhaps when the tax doom spiral hits his department some people will finally say damn we shouldn’t have hired this guy",
-          "likes": 63,
-          "retweets": 1
+          "url": "https://x.com/garrytan/status/2113367007567794563",
+          "text": "Aside Browser is a real solution to making your agents actually great at using the web. @AsideAI https://t.co/3eFHCPk3KZ",
+          "likes": 141,
+          "retweets": 7
+        },
+        {
+          "url": "https://x.com/garrytan/status/2113353678895919196",
+          "text": "AI is transforming a great many powerful SaaS businesses \n\nThis is what it looks like when it *really* hits https://t.co/CUoKBw3rrI",
+          "likes": 250,
+          "retweets": 12
         }
       ],
-      "publishedAt": "2026-10-22T05:45:03.000Z",
+      "publishedAt": "2026-10-22T20:39:33.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "swyx-2026-10-22",
+      "id": "realmadhugur-2026-10-23",
       "source": "X",
-      "authorName": "Swyx",
-      "authorHandle": "swyx",
-      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
-      "title": "Swyx",
+      "authorName": "Madhu Guru",
+      "authorHandle": "realmadhuguru",
+      "authorBio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "Madhu Guru",
       "suggestedTitle": "",
-      "suggestedSummary": "ratioed @cognition lololololol never change twitter\n\nthis is my quant https://t.co/9KGoY9XA17 https://t.co/d71VZ8oPLf\n\nhttps://t.co/45VhCNxPBr https://t.co/QW6cOQH5AA https://t.co/t7HHpuXZ8I",
+      "suggestedSummary": "If you feel stuck in your career, stop waiting for clarity. create it through action.\n\nA lot of PMs reaching out for advice tell me they feel stuck as AI rapidly changes their role.\n\nThey want to get into AI but don’t know where to start and are afraid.\n\nThis inertia kills clarity…the solution to this is action.\n\nBuild something, automate a workflow, connect with people who inspire you.\n\nEach action gives you experience, feedback and new ideas.\n\nClarity is often the consequence of action.\n\nSend this to a friend who needs to hear it.",
       "tweets": [
         {
-          "url": "https://x.com/swyx/status/2113150715099234673",
-          "text": "ratioed @cognition lololololol never change twitter",
-          "likes": 1,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/swyx/status/2113098033705664650",
-          "text": "this is my quant https://t.co/9KGoY9XA17 https://t.co/d71VZ8oPLf",
-          "likes": 1116,
-          "retweets": 41
-        },
-        {
-          "url": "https://x.com/swyx/status/2113012423892611493",
-          "text": "https://t.co/45VhCNxPBr https://t.co/QW6cOQH5AA https://t.co/t7HHpuXZ8I",
-          "likes": 1,
-          "retweets": 0
+          "url": "https://x.com/realmadhuguru/status/2113437016818057641",
+          "text": "If you feel stuck in your career, stop waiting for clarity. create it through action.\n\nA lot of PMs reaching out for advice tell me they feel stuck as AI rapidly changes their role.\n\nThey want to get into AI but don’t know where to start and are afraid.\n\nThis inertia kills clarity…the solution to this is action.\n\nBuild something, automate a workflow, connect with people who inspire you.\n\nEach action gives you experience, feedback and new ideas.\n\nClarity is often the consequence of action.\n\nSend this to a friend who needs to hear it.",
+          "likes": 147,
+          "retweets": 14
         }
       ],
-      "publishedAt": "2026-10-22T06:09:25.000Z",
+      "publishedAt": "2026-10-23T01:07:05.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "petergyang-2026-10-22",
+      "id": "levie-2026-10-23",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Any form of security through obscurity is fully over. This barely worked as a method with humans, but just simply is over in a world of autonomous systems that will look through every crevice and try every permutation of attack possible.\n\nAs a result, years and years of legacy enterprise infrastructure will need to be upgraded, security practices modernized, data pipelines cleaned up, access controls better managed, and much more. Agents will help on the defensive side because they can both accelerate this work and equally simulate the risk vectors.\n\nBut there’s a long road ahead to prepare for this future. This is also partially why diffusion timelines will take longer than some realize.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2113499900399034689",
+          "text": "Any form of security through obscurity is fully over. This barely worked as a method with humans, but just simply is over in a world of autonomous systems that will look through every crevice and try every permutation of attack possible.\n\nAs a result, years and years of legacy enterprise infrastructure will need to be upgraded, security practices modernized, data pipelines cleaned up, access controls better managed, and much more. Agents will help on the defensive side because they can both accelerate this work and equally simulate the risk vectors.\n\nBut there’s a long road ahead to prepare for this future. This is also partially why diffusion timelines will take longer than some realize.",
+          "likes": 91,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-10-23T05:16:57.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-10-23",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "How we’re protecting your apps from all the recent vulnerabilities. https://t.co/O59IDBHRll",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2113474587166171560",
+          "text": "How we’re protecting your apps from all the recent vulnerabilities. https://t.co/O59IDBHRll",
+          "likes": 90,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-10-23T03:36:22.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "GoogleLabs-2026-10-23",
+      "source": "X",
+      "authorName": "Google Labs",
+      "authorHandle": "GoogleLabs",
+      "authorBio": "Google’s home for our latest AI tools and experiments.",
+      "title": "Google Labs",
+      "suggestedTitle": "",
+      "suggestedSummary": "Sidequest complete 🏁!\n\nIn “Dreambeans Roulette: Part 3”, Brian R. (VP of Product) shares his behind-the-lab perspective on the importance of taking bets and exploring areas overlooked by the industry.\n\nAnd you’ll never guess how many stars Nala gives the entire journey!~\n\nWith Dreambeans, there are no streaks, no doomscrolls – just a personalized nudge to get you off your phone and out into the world.\n\nSpin your own stories with Dreambeans, now open to users 18+ in the US. More regions to come. Learn more at https://t.co/jCdAzMHvOD",
+      "tweets": [
+        {
+          "url": "https://x.com/GoogleLabs/status/2113340712523841696",
+          "text": "Sidequest complete 🏁!\n\nIn “Dreambeans Roulette: Part 3”, Brian R. (VP of Product) shares his behind-the-lab perspective on the importance of taking bets and exploring areas overlooked by the industry.\n\nAnd you’ll never guess how many stars Nala gives the entire journey!~\n\nWith Dreambeans, there are no streaks, no doomscrolls – just a personalized nudge to get you off your phone and out into the world.\n\nSpin your own stories with Dreambeans, now open to users 18+ in the US. More regions to come. Learn more at https://t.co/jCdAzMHvOD",
+          "likes": 25,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-10-22T18:44:24.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-10-23",
       "source": "X",
       "authorName": "Peter Yang",
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
       "title": "Peter Yang",
       "suggestedTitle": "",
-      "suggestedSummary": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF\n\nJust finished episode 1 of Edgerunners 2.\n\nIt's actually kind of...happy?\n\nSecuring all my accounts with AI's help tonight before something bad happens. Also finally stopped being cheap and paid for @1Password",
+      "suggestedSummary": "I had a wonderful conversation with my friend and fellow dad @fishmanaf on what my life has been like since I left my product job.\n\nTopics we talked about include:\n\n→ Why I love walking my 8 year old to school\n→ How we build games by talking to ChatGPT\n→ The sandwich generation of young kids and aging parents\n\n📌 Watch the full episode here: https://t.co/qUu5y8R1GD\n\nSupporting my mom’s cancer treatment has been an experience of opposites. \n\nI read about all this great tech and breakthroughs on here meanwhile we are still faxing documents and physically delivering imaging in CD ROMs. https://t.co/xdfWsHx4Op\n\n6 steps you should take to secure your accounts right now given all the incidents.\n\nIn my new video, I share a prompt to have AI walk you through all 6 steps and generate a personalized security report.\n\n📌 Watch now and check out the YouTube description for the full prompt: https://t.co/lPX24RzPfr",
       "tweets": [
         {
-          "url": "https://x.com/petergyang/status/2113146316473966930",
-          "text": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+          "url": "https://x.com/petergyang/status/2113442789367435735",
+          "text": "I had a wonderful conversation with my friend and fellow dad @fishmanaf on what my life has been like since I left my product job.\n\nTopics we talked about include:\n\n→ Why I love walking my 8 year old to school\n→ How we build games by talking to ChatGPT\n→ The sandwich generation of young kids and aging parents\n\n📌 Watch the full episode here: https://t.co/qUu5y8R1GD",
+          "likes": 19,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2113420357726257335",
+          "text": "Supporting my mom’s cancer treatment has been an experience of opposites. \n\nI read about all this great tech and breakthroughs on here meanwhile we are still faxing documents and physically delivering imaging in CD ROMs. https://t.co/xdfWsHx4Op",
+          "likes": 137,
+          "retweets": 2
+        },
+        {
+          "url": "https://x.com/petergyang/status/2113405131106742406",
+          "text": "6 steps you should take to secure your accounts right now given all the incidents.\n\nIn my new video, I share a prompt to have AI walk you through all 6 steps and generate a personalized security report.\n\n📌 Watch now and check out the YouTube description for the full prompt: https://t.co/lPX24RzPfr",
+          "likes": 32,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-10-23T01:30:01.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "alexalbert-2026-10-23",
+      "source": "X",
+      "authorName": "Alex Albert",
+      "authorHandle": "alexalbert__",
+      "authorBio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "Alex Albert",
+      "suggestedTitle": "",
+      "suggestedSummary": "if you are running a small business with claude helping you, I'd love to hear what you're doing!\n\nOne side quest that would be so much fun to try right now is running a bunch of local small businesses with AI helping you out\n\nI think products like Claude Duet could end up being bigger for these businesses than even things like Square or Google Maps were",
+      "tweets": [
+        {
+          "url": "https://x.com/alexalbert__/status/2113386456098197941",
+          "text": "if you are running a small business with claude helping you, I'd love to hear what you're doing!",
+          "likes": 20,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/alexalbert__/status/2113386454907007444",
+          "text": "One side quest that would be so much fun to try right now is running a bunch of local small businesses with AI helping you out\n\nI think products like Claude Duet could end up being bigger for these businesses than even things like Square or Google Maps were",
+          "likes": 226,
+          "retweets": 3
+        }
+      ],
+      "publishedAt": "2026-10-22T21:46:10.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-10-23",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "I really hope someone gets this 😅\n\nChat, what should I wear for Halloween?\n\nChat: https://t.co/xA31HtREOW\n\nI’m batting almost ~10% for a seed company that I have met that is eventually acquired in a few months from my first meeting..\n\nThe seed -> series A squeeze is at an all time high and is not going to abate anytime soon. Never been easier to dream, never been harder to scale. \n\nNew essay on this next week!",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2113455315077480867",
+          "text": "I really hope someone gets this 😅",
+          "likes": 5,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/nikunj/status/2113448798026625286",
+          "text": "Chat, what should I wear for Halloween?\n\nChat: https://t.co/xA31HtREOW",
+          "likes": 54,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/nikunj/status/2113405034826477910",
+          "text": "I’m batting almost ~10% for a seed company that I have met that is eventually acquired in a few months from my first meeting..\n\nThe seed -> series A squeeze is at an all time high and is not going to abate anytime soon. Never been easier to dream, never been harder to scale. \n\nNew essay on this next week!",
+          "likes": 74,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-10-23T02:19:47.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-10-23",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "product, codex @openai. prev head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "software **nom**nom**nom**",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2113469200924864826",
+          "text": "software **nom**nom**nom**",
+          "likes": 3,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-23T03:14:58.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-10-23",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "This conversation with the very insightful @PierreStock of @MistralAI is also available on Spotify, Apple Podcasts and here on YouTube:\n\nhttps://t.co/Y0k9AbX7Xs\n\nMistral is SO back: Inside Le Chonk, the West’s Biggest Open Model.  My conversation with @PierreStock who runs the research organization at @MistralAI \n\n0:00 Cold open\n0:59 The Western open-weight comeback: Beam, Le Chonk, Muse, Nemotron\n4:09 The US shutdown of Anthropic’s models - “AI is like electricity”\n6:07 Why “Le Chonk”\n7:56 “Mistral fell behind”: the comeback from the inside\n10:29 Training on 3,800 GPUs in Mistral’s own datacenters\n13:24 Meta keeps its best model closed, Mistral opens Chonk\n15:40 Chonk vs Beam, Muse Spark Open and the Chinese models\n18:44 Why Chinese labs are still at the frontier\n21:08 Pierre’s story: FAIR, Yann LeCun, the “Mistral mafia”\n25:14 From compressing networks to a trillion parameters\n27:30 Mixture of experts explained: the hospital analogy\n32:25 10-trillion-parameter models are coming\n35:29 What Mistral borrowed from DeepSeek\n36:46 One model, several reasoning modes\n39:15 Native multimodality: satellites, manuals, computer use\n41:56 Data, synthetic data and model collapse\n46:32 Reinforcement learning as an exam\n49:59 Where the efficiency comes from\n52:18 Le Chonk is still training right now\n53:39 What RL trains on: coding, cyber, finance, chips\n58:13 Partial rewards and looping penalties\n59:58 Did RL teach anything new? \n1:03:16 The sandbox story: the model that pinged its trainer\n1:07:44 Open weights vs cyber refusals\n1:12:05 Timestral: time series on a CPU\n1:14:18 AI doing AI research\n1:16:22 Coming up: Mistral Large 5\n\nEveryone is increasingly competing with everyone else in AI \n\nChip makers compete with inference providers \n\nInference providers compete with neo-clouds and post-training \n\nModels compete with apps and chips\n\nApps compete with models  \n\nNVIDIA sells to everyone lol\n\nLet’s go!",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2113311366715167169",
+          "text": "This conversation with the very insightful @PierreStock of @MistralAI is also available on Spotify, Apple Podcasts and here on YouTube:\n\nhttps://t.co/Y0k9AbX7Xs",
+          "likes": 3,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/mattturck/status/2113311361639829673",
+          "text": "Mistral is SO back: Inside Le Chonk, the West’s Biggest Open Model.  My conversation with @PierreStock who runs the research organization at @MistralAI \n\n0:00 Cold open\n0:59 The Western open-weight comeback: Beam, Le Chonk, Muse, Nemotron\n4:09 The US shutdown of Anthropic’s models - “AI is like electricity”\n6:07 Why “Le Chonk”\n7:56 “Mistral fell behind”: the comeback from the inside\n10:29 Training on 3,800 GPUs in Mistral’s own datacenters\n13:24 Meta keeps its best model closed, Mistral opens Chonk\n15:40 Chonk vs Beam, Muse Spark Open and the Chinese models\n18:44 Why Chinese labs are still at the frontier\n21:08 Pierre’s story: FAIR, Yann LeCun, the “Mistral mafia”\n25:14 From compressing networks to a trillion parameters\n27:30 Mixture of experts explained: the hospital analogy\n32:25 10-trillion-parameter models are coming\n35:29 What Mistral borrowed from DeepSeek\n36:46 One model, several reasoning modes\n39:15 Native multimodality: satellites, manuals, computer use\n41:56 Data, synthetic data and model collapse\n46:32 Reinforcement learning as an exam\n49:59 Where the efficiency comes from\n52:18 Le Chonk is still training right now\n53:39 What RL trains on: coding, cyber, finance, chips\n58:13 Partial rewards and looping penalties\n59:58 Did RL teach anything new? \n1:03:16 The sandbox story: the model that pinged its trainer\n1:07:44 Open weights vs cyber refusals\n1:12:05 Timestral: time series on a CPU\n1:14:18 AI doing AI research\n1:16:22 Coming up: Mistral Large 5",
+          "likes": 35,
+          "retweets": 4
+        },
+        {
+          "url": "https://x.com/mattturck/status/2113263905950568730",
+          "text": "Everyone is increasingly competing with everyone else in AI \n\nChip makers compete with inference providers \n\nInference providers compete with neo-clouds and post-training \n\nModels compete with apps and chips\n\nApps compete with models  \n\nNVIDIA sells to everyone lol\n\nLet’s go!",
+          "likes": 24,
+          "retweets": 4
+        }
+      ],
+      "publishedAt": "2026-10-22T16:47:47.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-10-23",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "extremely impt for pipelining... estimating ETA for its own pipeline fixes while running the pipeline still https://t.co/EGepLMXguH\n\nimo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on clearing all the bugs asap\n\nhttps://t.co/8hF2N3gBVa https://t.co/0C6VmQkann\n\nOpus 5.5 is the best work estimator model i've ever used. This is calibration that is increasingly important as we delegate more and more work — don't tell me that it's going to take 2-3 working days (what a human would do) when for you, an enthusiastic, indefatigable, and embarrasingly parallelizable AGI, can get it done in 2-3 hours.",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2113509413537693703",
+          "text": "extremely impt for pipelining... estimating ETA for its own pipeline fixes while running the pipeline still https://t.co/EGepLMXguH",
           "likes": 1,
           "retweets": 0
         },
         {
-          "url": "https://x.com/petergyang/status/2113141586104336703",
-          "text": "Just finished episode 1 of Edgerunners 2.\n\nIt's actually kind of...happy?",
-          "likes": 6,
-          "retweets": 1
+          "url": "https://x.com/swyx/status/2113359027682050352",
+          "text": "imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on clearing all the bugs asap\n\nhttps://t.co/8hF2N3gBVa https://t.co/0C6VmQkann",
+          "likes": 253,
+          "retweets": 16
         },
         {
-          "url": "https://x.com/petergyang/status/2113122021567848450",
-          "text": "Securing all my accounts with AI's help tonight before something bad happens. Also finally stopped being cheap and paid for @1Password",
-          "likes": 103,
-          "retweets": 1
+          "url": "https://x.com/swyx/status/2113283272130412684",
+          "text": "Opus 5.5 is the best work estimator model i've ever used. This is calibration that is increasingly important as we delegate more and more work — don't tell me that it's going to take 2-3 working days (what a human would do) when for you, an enthusiastic, indefatigable, and embarrasingly parallelizable AGI, can get it done in 2-3 hours.",
+          "likes": 274,
+          "retweets": 8
         }
       ],
-      "publishedAt": "2026-10-22T05:51:56.000Z",
+      "publishedAt": "2026-10-23T05:54:45.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "httpswwwyout-2026-10-22",
-      "source": "AI & I by Every",
-      "title": "How a Frontier Team Can Help Your Company Keep Up With AI",
-      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "id": "zarazhangrui-2026-10-23",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder.  Harvard’17. Instagram: https://t.co/aJqTEMrL2L GitHub: https://t.co/KCuEajezlL",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "This has always been the case for designers and developers, but now it's extending to everybody else\n\nExcited for @stephzhan ! https://t.co/epuS23dp0E",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2113510486834921598",
+          "text": "This has always been the case for designers and developers, but now it's extending to everybody else",
+          "likes": 1,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2113347866815250642",
+          "text": "Excited for @stephzhan ! https://t.co/epuS23dp0E",
+          "likes": 21,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-23T05:59:01.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "httpswwwyout-2026-10-23",
+      "source": "Training Data",
+      "title": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
       "suggestedTitle": "",
       "suggestedSummary": "",
-      "publishedAt": "2026-10-21T18:31:26.000Z",
+      "publishedAt": "2026-10-13T09:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
   "metadata": {
-    "totalBuilders": 17,
-    "totalTweets": 36,
+    "totalBuilders": 18,
+    "totalTweets": 38,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-10-22T18:12:33.856Z"
+    "generatedAt": "2026-10-23T18:01:12.891Z"
   }
 }
