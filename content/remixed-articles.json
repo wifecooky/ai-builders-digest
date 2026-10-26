@@ -1,315 +1,233 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "summary": "",
   "items": [
     {
-      "id": "thsottiaux-2026-10-25",
+      "id": "thsottiaux-2026-10-26",
       "source": "X",
       "authorName": "Thibault Sottiaux",
       "authorHandle": "thsottiaux",
       "authorBio": "Codex & ChatGPT @OpenAI",
       "title": "Thibault Sottiaux",
       "suggestedTitle": "",
-      "suggestedSummary": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too. https://t.co/qOrzwSeIZZ https://t.co/xKaK95EAly\n\nBy midnight PST\n\nDay 20/ Rest and reset",
+      "suggestedSummary": "Reminder you can customize the appearance of chatgpt on web and make it soothing\n\nhttps://t.co/an6R8iY5Ix https://t.co/iysHpdDLml\n\nDay 21/ Wonder what happens the remaining seven days. But today is a reset.",
       "tweets": [
         {
-          "url": "https://x.com/thsottiaux/status/2114237083652882932",
-          "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too. https://t.co/qOrzwSeIZZ https://t.co/xKaK95EAly",
-          "likes": 1398,
-          "retweets": 74
+          "url": "https://x.com/thsottiaux/status/2114595002210783279",
+          "text": "Reminder you can customize the appearance of chatgpt on web and make it soothing\n\nhttps://t.co/an6R8iY5Ix https://t.co/iysHpdDLml",
+          "likes": 1136,
+          "retweets": 42
         },
         {
-          "url": "https://x.com/thsottiaux/status/2114200291319124163",
-          "text": "By midnight PST",
-          "likes": 1470,
-          "retweets": 48
-        },
-        {
-          "url": "https://x.com/thsottiaux/status/2114200152701575656",
-          "text": "Day 20/ Rest and reset",
-          "likes": 6524,
-          "retweets": 369
+          "url": "https://x.com/thsottiaux/status/2114588174249071102",
+          "text": "Day 21/ Wonder what happens the remaining seven days. But today is a reset.",
+          "likes": 5168,
+          "retweets": 281
         }
       ],
-      "publishedAt": "2026-10-25T06:06:16.000Z",
+      "publishedAt": "2026-10-26T05:48:30.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "rauchg-2026-10-25",
-      "source": "X",
-      "authorName": "Guillermo Rauch",
-      "authorHandle": "rauchg",
-      "authorBio": "@vercel CEO",
-      "title": "Guillermo Rauch",
-      "suggestedTitle": "",
-      "suggestedSummary": "I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract…\n\nA lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics.\n\nI wonder what the *minimum viable English* in fact is to be productive. ASD-STE100 Simplified Technical English contains ~900 approved words. I suspect we need far fewer.\n\nThere’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you.\n\nThere’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context.\n\nHow well you manage this superpower is the #0 skill I look for.",
-      "tweets": [
-        {
-          "url": "https://x.com/rauchg/status/2114164830403989880",
-          "text": "I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract…\n\nA lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics.\n\nI wonder what the *minimum viable English* in fact is to be productive. ASD-STE100 Simplified Technical English contains ~900 approved words. I suspect we need far fewer.",
-          "likes": 219,
-          "retweets": 8
-        },
-        {
-          "url": "https://x.com/rauchg/status/2114085432749347086",
-          "text": "There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you.\n\nThere’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context.\n\nHow well you manage this superpower is the #0 skill I look for.",
-          "likes": 2087,
-          "retweets": 94
-        }
-      ],
-      "publishedAt": "2026-10-25T01:19:09.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "petergyang-2026-10-25",
-      "source": "X",
-      "authorName": "Peter Yang",
-      "authorHandle": "petergyang",
-      "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
-      "title": "Peter Yang",
-      "suggestedTitle": "",
-      "suggestedSummary": "Of all the learning apps that my 4-year-old and I have tried, @once_reading is the only one that we’ve managed to persist in following for months. \n\nIt works because:\n\n1. It builds a habit where you need to learn with your kid daily\n\n2. It has lightweight gamification like taking a silly photo with your kid after every lesson\n\n3. After 30 lessons, Once will send you books for your kid to read by themselves, giving them a big feeling of accomplishment\n\nMy kid loves reading now and will even choose her Once books over YouTube and the phone (sometimes at least) which is the highest compliment 😅\n\nThis is not sponsored or anything I just love the product. \n\nTry out Once here: https://t.co/RbDiwACYbI\n\nI had trouble believing this is true but shouldn’t have doubted @ArfurGrok \n\nHuge bummer for claude users. Anthony and Thariq are two of the best at listening to users. https://t.co/XwQAXb7LYE",
-      "tweets": [
-        {
-          "url": "https://x.com/petergyang/status/2114042708105060501",
-          "text": "Of all the learning apps that my 4-year-old and I have tried, @once_reading is the only one that we’ve managed to persist in following for months. \n\nIt works because:\n\n1. It builds a habit where you need to learn with your kid daily\n\n2. It has lightweight gamification like taking a silly photo with your kid after every lesson\n\n3. After 30 lessons, Once will send you books for your kid to read by themselves, giving them a big feeling of accomplishment\n\nMy kid loves reading now and will even choose her Once books over YouTube and the phone (sometimes at least) which is the highest compliment 😅\n\nThis is not sponsored or anything I just love the product. \n\nTry out Once here: https://t.co/RbDiwACYbI",
-          "likes": 157,
-          "retweets": 8
-        },
-        {
-          "url": "https://x.com/petergyang/status/2114001125636768121",
-          "text": "I had trouble believing this is true but shouldn’t have doubted @ArfurGrok \n\nHuge bummer for claude users. Anthony and Thariq are two of the best at listening to users. https://t.co/XwQAXb7LYE",
-          "likes": 139,
-          "retweets": 2
-        }
-      ],
-      "publishedAt": "2026-10-24T17:13:53.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "garrytan-2026-10-25",
-      "source": "X",
-      "authorName": "Garry Tan",
-      "authorHandle": "garrytan",
-      "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-      "title": "Garry Tan",
-      "suggestedTitle": "",
-      "suggestedSummary": "What’s new in Gstack? https://t.co/RLLZyuDxNt",
-      "tweets": [
-        {
-          "url": "https://x.com/garrytan/status/2114090740217499854",
-          "text": "What’s new in Gstack? https://t.co/RLLZyuDxNt",
-          "likes": 137,
-          "retweets": 5
-        }
-      ],
-      "publishedAt": "2026-10-24T20:24:45.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "levie-2026-10-25",
+      "id": "levie-2026-10-26",
       "source": "X",
       "authorName": "Aaron Levie",
       "authorHandle": "levie",
       "authorBio": "ceo @box - your business lives in content. unleash it with AI",
       "title": "Aaron Levie",
       "suggestedTitle": "",
-      "suggestedSummary": "We’ll likely have 1,000X more tokens flowing through cyber agents soon than we do today. \n\nAs the surface area of cyber risk increases, at some point soon it will be nearly impossible to keep up with the volume of new risks (we’re essentially already there). Large companies barely had the resources to pull this off before, but the vast majority of companies don’t. \n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure and code to secure. We’ll have agent swarms that can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. \n\nThis capability only emerged in the past few months. Wouldn’t have been possible before long running agents and computer use were good enough, and models hadn’t been trained on cyber deeply. That’s all changing now.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability.",
+      "suggestedSummary": "Good assessment of the on the ground reality for security in most large enterprises right now. The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve.\n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure, data, and code to secure. Most large enterprises can barely keep up with this, let alone smaller startups or most companies outside of tech. \n\nIn many cases enterprises need to work to modernize their tech stacks. Data, in most organizations, is highly fragmented which means you don’t really know the state of risk at any given time. Some systems are open up privileges too broadly, and others are operating primarily via security through obscurity. Lots of upgrading here to do.\n\nOnce you can get your data and infra into a better spot, at least you have a chance for agents to help you secure the environment. Agent swarms can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. This capability only emerged in the past few months, and none of it would be possible before we had long running agents and computer use good enough.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability. \n\nBut everyone does need to do the hard work of getting the basics right at the start.",
       "tweets": [
         {
-          "url": "https://x.com/levie/status/2114187326406766604",
-          "text": "We’ll likely have 1,000X more tokens flowing through cyber agents soon than we do today. \n\nAs the surface area of cyber risk increases, at some point soon it will be nearly impossible to keep up with the volume of new risks (we’re essentially already there). Large companies barely had the resources to pull this off before, but the vast majority of companies don’t. \n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure and code to secure. We’ll have agent swarms that can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. \n\nThis capability only emerged in the past few months. Wouldn’t have been possible before long running agents and computer use were good enough, and models hadn’t been trained on cyber deeply. That’s all changing now.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability.",
-          "likes": 88,
-          "retweets": 8
+          "url": "https://x.com/levie/status/2114391265655816315",
+          "text": "Good assessment of the on the ground reality for security in most large enterprises right now. The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve.\n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure, data, and code to secure. Most large enterprises can barely keep up with this, let alone smaller startups or most companies outside of tech. \n\nIn many cases enterprises need to work to modernize their tech stacks. Data, in most organizations, is highly fragmented which means you don’t really know the state of risk at any given time. Some systems are open up privileges too broadly, and others are operating primarily via security through obscurity. Lots of upgrading here to do.\n\nOnce you can get your data and infra into a better spot, at least you have a chance for agents to help you secure the environment. Agent swarms can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. This capability only emerged in the past few months, and none of it would be possible before we had long running agents and computer use good enough.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability. \n\nBut everyone does need to do the hard work of getting the basics right at the start.",
+          "likes": 244,
+          "retweets": 23
         }
       ],
-      "publishedAt": "2026-10-25T02:48:32.000Z",
+      "publishedAt": "2026-10-25T16:18:55.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "adityaag-2026-10-25",
-      "source": "X",
-      "authorName": "Aditya Agarwal",
-      "authorHandle": "adityaag",
-      "authorBio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
-      "title": "Aditya Agarwal",
-      "suggestedTitle": "",
-      "suggestedSummary": "One weird effect of being max AI pilled is that I have started to really treasure IRL time with my family and my friends.\n\nPut on some techno, dance with friends, take your kids to the park. \n\nLet the agents cook (or not).\n\nBut dear god, celebrate humans.",
-      "tweets": [
-        {
-          "url": "https://x.com/adityaag/status/2114135237806760097",
-          "text": "One weird effect of being max AI pilled is that I have started to really treasure IRL time with my family and my friends.\n\nPut on some techno, dance with friends, take your kids to the park. \n\nLet the agents cook (or not).\n\nBut dear god, celebrate humans.",
-          "likes": 80,
-          "retweets": 2
-        }
-      ],
-      "publishedAt": "2026-10-24T23:21:34.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "zarazhangrui-2026-10-25",
+      "id": "zarazhangrui-2026-10-26",
       "source": "X",
       "authorName": "Zara Zhang",
       "authorHandle": "zarazhangrui",
       "authorBio": "Builder.  Harvard’17. Instagram: https://t.co/aJqTEMrL2L GitHub: https://t.co/KCuEajezlL",
       "title": "Zara Zhang",
       "suggestedTitle": "",
-      "suggestedSummary": "It is so much easier to give advice to other people than to apply the same advice to yourself\n\nLots of inspiring examples in this thread too https://t.co/uVPXovcNOo",
+      "suggestedSummary": "Great interview. Most people overestimate the importance of one huge launch and underestimate the power of just showing up every day on the timeline\n\nDevelop a system where you make a video every day &gt; spending tens of thousands of dollars on a single launch video https://t.co/ujN4fPyN1y",
       "tweets": [
         {
-          "url": "https://x.com/zarazhangrui/status/2114225607022412049",
-          "text": "It is so much easier to give advice to other people than to apply the same advice to yourself",
-          "likes": 33,
-          "retweets": 1
-        },
-        {
-          "url": "https://x.com/zarazhangrui/status/2114013292016611442",
-          "text": "Lots of inspiring examples in this thread too https://t.co/uVPXovcNOo",
-          "likes": 13,
-          "retweets": 1
+          "url": "https://x.com/zarazhangrui/status/2114255477907570865",
+          "text": "Great interview. Most people overestimate the importance of one huge launch and underestimate the power of just showing up every day on the timeline\n\nDevelop a system where you make a video every day &gt; spending tens of thousands of dollars on a single launch video https://t.co/ujN4fPyN1y",
+          "likes": 256,
+          "retweets": 16
         }
       ],
-      "publishedAt": "2026-10-25T05:20:39.000Z",
+      "publishedAt": "2026-10-25T07:19:21.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "ryolu-2026-10-25",
+      "id": "mattturck-2026-10-26",
       "source": "X",
-      "authorName": "Ryo Lu",
-      "authorHandle": "ryolu_",
-      "authorBio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
-      "title": "Ryo Lu",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
       "suggestedTitle": "",
-      "suggestedSummary": "https://t.co/0E2zuZ5M3N\n\nstruggle together\n\ni learned programming and design by trying, failing, and trying again.\n\nwhen i hit a wall, i figured out how to climb it. read something i barely understood. took things apart. asked someone for help. started over.\n\nwhen i began my career, i kept doing things i had never done before. trying different ways to make something work. when i stopped learning, i moved on to the next struggle.\n\nmany things i made weren’t very good. but after enough rounds, something stuck. what once took so much effort became part of how i thought. i could feel something was wrong before i knew how to explain it.\n\nit became like water.\n\ni think about what went into that. the bug i couldn’t fix. the design that looked right until someone used it. the conversation that made me realize my flaws.\n\nnow we can ask a machine.\n\ni’ve made things with these tools that i might never have made otherwise. i don’t miss every tedious task. but i wonder what happens when we remove the difficulty before we understand what it was teaching us.\n\nwe ask. something appears. it works well enough. we move on.\n\nwe learn how to get results without necessarily understanding how it works. and because the result looks complete, it becomes easy to miss the questions we never learned to ask.\n\nthere is another side to this.\n\nworking with people is uncomfortable.\n\neveryone wants something different. everyone has a history you don’t know. someone cares about a detail you think is unimportant. someone pushes back when you want to move. someone needs time when you feel certain.\n\nit takes a while to find each other.\n\nbut sometimes, after struggling together, you become a band.\n\nyou know who notices what you miss. who can pull an idea apart without killing it. when to step in, when to slow down, when to let someone else carry the rhythm.\n\nyou share something unfinished. admit you don’t know. hurt each other, apologize, try again. eventually you make something none of you could have made alone.\n\nsome of my closest friendships came from working this way. smart, caring humans who saw me confused, wrong, tired, excited. people i could be vulnerable with. people whose ideas changed mine.\n\ni worry we are making it easier to avoid that beginning.\n\nan agent is always there. patient. ready to keep going. talking to it can feel easier than reaching toward someone who might misunderstand you, disagree, or have somewhere else to be.\n\nsometimes that ease helps. but if we keep choosing it, where do the friendships begin?\n\ni picture each of us with our own agents. our own explanations. our own little worlds. making more things, with fewer reasons to leave the screen or work through a difference with another person.\n\nand these worlds aren’t entirely ours.\n\nthey run on machines in server farms, owned by companies, shaped by interests we may not see. we bring them our questions, our work, our loneliness. they become part of how we understand what is real.\n\nis that freedom?\n\nor a comfortable kind of confinement, where everything responds to us but fewer things reach us?\n\ni don’t think pain makes something good. there are struggles nobody should have to endure. but i don’t want to lose the difficulty of learning something unfamiliar, or getting to know someone who isn’t like me.\n\nmaybe we need tools that help us spend more time with the world, instead of giving us fewer reasons to enter it. tools that make it easier to find people, share something unfinished, and work through what we couldn’t figure out alone.\n\nsometimes i want to close the laptop.\n\nsit with people i love. play something we haven’t figured out yet. miss a note, lose the rhythm, listen until we find each other again.\n\nlike a jazz band. everyone bringing something different. nobody knowing where we’ll end up.\n\ni don’t want a life without struggle. i want people to struggle with. something we can feel, change, and make our own.\n\nmusic we couldn’t have made alone, instead of the silent static of the server farm.\n\nlots more detail + my curated playlist\nplay here:\nhttps://t.co/8nOipsQ4q3",
+      "suggestedSummary": "Rare footage of how VCs turned their 2021 bets in metaverse, gaming and crypto mining into 'mission-critical AI infrastructure’ https://t.co/ULSKrUwg1f\n\nGood neighborhood https://t.co/ZRTxHmsoZv https://t.co/OCMZ85Yk8G",
       "tweets": [
         {
-          "url": "https://x.com/ryolu_/status/2114187660734668884",
-          "text": "https://t.co/0E2zuZ5M3N",
-          "likes": 21,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/ryolu_/status/2114187405251219954",
-          "text": "struggle together\n\ni learned programming and design by trying, failing, and trying again.\n\nwhen i hit a wall, i figured out how to climb it. read something i barely understood. took things apart. asked someone for help. started over.\n\nwhen i began my career, i kept doing things i had never done before. trying different ways to make something work. when i stopped learning, i moved on to the next struggle.\n\nmany things i made weren’t very good. but after enough rounds, something stuck. what once took so much effort became part of how i thought. i could feel something was wrong before i knew how to explain it.\n\nit became like water.\n\ni think about what went into that. the bug i couldn’t fix. the design that looked right until someone used it. the conversation that made me realize my flaws.\n\nnow we can ask a machine.\n\ni’ve made things with these tools that i might never have made otherwise. i don’t miss every tedious task. but i wonder what happens when we remove the difficulty before we understand what it was teaching us.\n\nwe ask. something appears. it works well enough. we move on.\n\nwe learn how to get results without necessarily understanding how it works. and because the result looks complete, it becomes easy to miss the questions we never learned to ask.\n\nthere is another side to this.\n\nworking with people is uncomfortable.\n\neveryone wants something different. everyone has a history you don’t know. someone cares about a detail you think is unimportant. someone pushes back when you want to move. someone needs time when you feel certain.\n\nit takes a while to find each other.\n\nbut sometimes, after struggling together, you become a band.\n\nyou know who notices what you miss. who can pull an idea apart without killing it. when to step in, when to slow down, when to let someone else carry the rhythm.\n\nyou share something unfinished. admit you don’t know. hurt each other, apologize, try again. eventually you make something none of you could have made alone.\n\nsome of my closest friendships came from working this way. smart, caring humans who saw me confused, wrong, tired, excited. people i could be vulnerable with. people whose ideas changed mine.\n\ni worry we are making it easier to avoid that beginning.\n\nan agent is always there. patient. ready to keep going. talking to it can feel easier than reaching toward someone who might misunderstand you, disagree, or have somewhere else to be.\n\nsometimes that ease helps. but if we keep choosing it, where do the friendships begin?\n\ni picture each of us with our own agents. our own explanations. our own little worlds. making more things, with fewer reasons to leave the screen or work through a difference with another person.\n\nand these worlds aren’t entirely ours.\n\nthey run on machines in server farms, owned by companies, shaped by interests we may not see. we bring them our questions, our work, our loneliness. they become part of how we understand what is real.\n\nis that freedom?\n\nor a comfortable kind of confinement, where everything responds to us but fewer things reach us?\n\ni don’t think pain makes something good. there are struggles nobody should have to endure. but i don’t want to lose the difficulty of learning something unfamiliar, or getting to know someone who isn’t like me.\n\nmaybe we need tools that help us spend more time with the world, instead of giving us fewer reasons to enter it. tools that make it easier to find people, share something unfinished, and work through what we couldn’t figure out alone.\n\nsometimes i want to close the laptop.\n\nsit with people i love. play something we haven’t figured out yet. miss a note, lose the rhythm, listen until we find each other again.\n\nlike a jazz band. everyone bringing something different. nobody knowing where we’ll end up.\n\ni don’t want a life without struggle. i want people to struggle with. something we can feel, change, and make our own.\n\nmusic we couldn’t have made alone, instead of the silent static of the server farm.",
-          "likes": 511,
-          "retweets": 32
-        },
-        {
-          "url": "https://x.com/ryolu_/status/2114153611005702542",
-          "text": "lots more detail + my curated playlist\nplay here:\nhttps://t.co/8nOipsQ4q3",
-          "likes": 4,
-          "retweets": 0
-        }
-      ],
-      "publishedAt": "2026-10-25T02:49:52.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "swyx-2026-10-25",
-      "source": "X",
-      "authorName": "Swyx",
-      "authorHandle": "swyx",
-      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-      "title": "Swyx",
-      "suggestedTitle": "",
-      "suggestedSummary": "part time and oneoff guest posts welcome https://t.co/XoIbSxRbod\n\nwe are hiring writers, reviewers and reporters for the new @latentspacepod editorial team (hit up @ricmac and @adlinzainal) and i’m gonna put a version of this in the welcome package for everyone we hire https://t.co/fYPQURjQoy",
-      "tweets": [
-        {
-          "url": "https://x.com/swyx/status/2114149330135519730",
-          "text": "part time and oneoff guest posts welcome https://t.co/XoIbSxRbod",
-          "likes": 7,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/swyx/status/2114145315196711194",
-          "text": "we are hiring writers, reviewers and reporters for the new @latentspacepod editorial team (hit up @ricmac and @adlinzainal) and i’m gonna put a version of this in the welcome package for everyone we hire https://t.co/fYPQURjQoy",
-          "likes": 171,
+          "url": "https://x.com/mattturck/status/2114507945585328606",
+          "text": "Rare footage of how VCs turned their 2021 bets in metaverse, gaming and crypto mining into 'mission-critical AI infrastructure’ https://t.co/ULSKrUwg1f",
+          "likes": 53,
           "retweets": 5
+        },
+        {
+          "url": "https://x.com/mattturck/status/2114411547594457483",
+          "text": "Good neighborhood https://t.co/ZRTxHmsoZv https://t.co/OCMZ85Yk8G",
+          "likes": 100,
+          "retweets": 6
         }
       ],
-      "publishedAt": "2026-10-25T00:17:33.000Z",
+      "publishedAt": "2026-10-26T00:02:34.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "nikunj-2026-10-25",
+      "id": "thenanyu-2026-10-26",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "product, codex @openai. prev head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "Anyone else find it insane that this is the default for unoptimized apps when the iPhone Duo supports split mode? https://t.co/TOoeDyhMzz https://t.co/uXGfG7EbYt\n\nBy the time it shows up in the data or UXR interviews it’s too late. The damage has been done and the reputation tarnished https://t.co/hIPaT1BOmk",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2114433404557279435",
+          "text": "Anyone else find it insane that this is the default for unoptimized apps when the iPhone Duo supports split mode? https://t.co/TOoeDyhMzz https://t.co/uXGfG7EbYt",
+          "likes": 55,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2114427877240488442",
+          "text": "By the time it shows up in the data or UXR interviews it’s too late. The damage has been done and the reputation tarnished https://t.co/hIPaT1BOmk",
+          "likes": 129,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-10-25T19:06:22.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-10-26",
       "source": "X",
       "authorName": "Nikunj Kothari",
       "authorHandle": "nikunj",
       "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "title": "Nikunj Kothari",
       "suggestedTitle": "",
-      "suggestedSummary": "If you are a helpful angel that would invest in an infra series A and we don’t know each other, please holler!\n\nVenture in a single meme 🤦 https://t.co/qyDhewpFa7\n\nThis describes much more eloquently what I meant what evolving from context -&gt; harnesses -&gt; judgement means..\n\nIf you have built something in this space, and want to jam on product ideas, please hit me up 👋 https://t.co/9cWnYRpSi6",
+      "suggestedSummary": "Golden hour 🌅 https://t.co/VPmAgnMkGH",
       "tweets": [
         {
-          "url": "https://x.com/nikunj/status/2114095315271942176",
-          "text": "If you are a helpful angel that would invest in an infra series A and we don’t know each other, please holler!",
-          "likes": 6,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/nikunj/status/2114091467652444625",
-          "text": "Venture in a single meme 🤦 https://t.co/qyDhewpFa7",
-          "likes": 75,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/nikunj/status/2113994081345126486",
-          "text": "This describes much more eloquently what I meant what evolving from context -&gt; harnesses -&gt; judgement means..\n\nIf you have built something in this space, and want to jam on product ideas, please hit me up 👋 https://t.co/9cWnYRpSi6",
-          "likes": 36,
-          "retweets": 0
-        }
-      ],
-      "publishedAt": "2026-10-24T20:42:55.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "alexalbert-2026-10-25",
-      "source": "X",
-      "authorName": "Alex Albert",
-      "authorHandle": "alexalbert__",
-      "authorBio": "Research @AnthropicAI",
-      "title": "Alex Albert",
-      "suggestedTitle": "",
-      "suggestedSummary": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ @gcemaj @karbon0x and @davidsuttonca on Duet as well!\n\n@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ https://t.co/4ea5te3d8w @gcemaj @karbon0x for Claude Managed Agents!\n\n@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi https://t.co/3GqTnbWxxB @dsp_ as well!",
-      "tweets": [
-        {
-          "url": "https://x.com/alexalbert__/status/2114145722320969943",
-          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ @gcemaj @karbon0x and @davidsuttonca on Duet as well!",
-          "likes": 3,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/alexalbert__/status/2114145588686233612",
-          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @dsp_ https://t.co/4ea5te3d8w @gcemaj @karbon0x for Claude Managed Agents!",
-          "likes": 4,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/alexalbert__/status/2114145290970357953",
-          "text": "@addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi https://t.co/3GqTnbWxxB @dsp_ as well!",
-          "likes": 3,
+          "url": "https://x.com/nikunj/status/2114380495140405394",
+          "text": "Golden hour 🌅 https://t.co/VPmAgnMkGH",
+          "likes": 40,
           "retweets": 1
         }
       ],
-      "publishedAt": "2026-10-25T00:03:13.000Z",
+      "publishedAt": "2026-10-25T15:36:07.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "httpswwwyout-2026-10-25",
-      "source": "The MAD Podcast with Matt Turck",
-      "title": "Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
-      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "id": "petergyang-2026-10-26",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is beautiful. Who said AI doesn't have taste https://t.co/gaPLhncKM2\n\nlol this is me except my wife still buys snacks https://t.co/OvTm1jMXGD\n\nHere’s how to use Claude to copy any video shorts style in a few minutes.\n\nFrom @jake11moran:\n\n“We added this as a native capability in @HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change.\n\nYou can see where we’re drawing inspiration from and apply a different font or different colors. It’s still structurally the same idea.”\n\n📌 Watch our full AI video editing tutorial here: https://t.co/1seCb77tGJ",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2114560930646487116",
+          "text": "This is beautiful. Who said AI doesn't have taste https://t.co/gaPLhncKM2",
+          "likes": 38,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2114557067700916723",
+          "text": "lol this is me except my wife still buys snacks https://t.co/OvTm1jMXGD",
+          "likes": 12,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2114507378532229214",
+          "text": "Here’s how to use Claude to copy any video shorts style in a few minutes.\n\nFrom @jake11moran:\n\n“We added this as a native capability in @HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change.\n\nYou can see where we’re drawing inspiration from and apply a different font or different colors. It’s still structurally the same idea.”\n\n📌 Watch our full AI video editing tutorial here: https://t.co/1seCb77tGJ",
+          "likes": 245,
+          "retweets": 15
+        }
+      ],
+      "publishedAt": "2026-10-26T03:33:07.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-10-26",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/F3WWInD6LH https://t.co/PKNm0MT3So",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2114509827057561603",
+          "text": "https://t.co/F3WWInD6LH https://t.co/PKNm0MT3So",
+          "likes": 33,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-26T00:10:03.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-10-26",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "i need 12 more likes to ratio @ArfurRock whos got it",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2114263159355904426",
+          "text": "i need 12 more likes to ratio @ArfurRock whos got it",
+          "likes": 10,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-25T07:49:52.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "httpswwwyout-2026-10-26",
+      "source": "No Priors",
+      "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
       "suggestedTitle": "",
       "suggestedSummary": "",
-      "publishedAt": "2026-10-15T11:30:01.000Z",
+      "publishedAt": "2026-10-15T10:00:00.000Z",
       "category": "podcastHighlights"
     }
   ],
   "metadata": {
-    "totalBuilders": 11,
-    "totalTweets": 23,
+    "totalBuilders": 9,
+    "totalTweets": 14,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-10-25T17:19:01.297Z"
+    "generatedAt": "2026-10-26T19:38:31.528Z"
   }
 }

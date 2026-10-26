@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-26",
+  "lang": "en",
+  "summary": "",
+  "builderInsights": [
+    {
+      "id": "thsottiaux-2026-10-26",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "Reminder you can customize the appearance of chatgpt on web and make it soothing\n\nhttps://t.co/an6R8iY5Ix https://t.co/iysHpdDLml\n\nDay 21/ Wonder what happens the remaining seven days. But today is a reset.",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2114595002210783279",
+          "text": "Reminder you can customize the appearance of chatgpt on web and make it soothing\n\nhttps://t.co/an6R8iY5Ix https://t.co/iysHpdDLml",
+          "likes": 1136,
+          "retweets": 42
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2114588174249071102",
+          "text": "Day 21/ Wonder what happens the remaining seven days. But today is a reset.",
+          "likes": 5168,
+          "retweets": 281
+        }
+      ],
+      "publishedAt": "2026-10-26T05:48:30.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-10-26",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Good assessment of the on the ground reality for security in most large enterprises right now. The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve.\n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure, data, and code to secure. Most large enterprises can barely keep up with this, let alone smaller startups or most companies outside of tech. \n\nIn many cases enterprises need to work to modernize their tech stacks. Data, in most organizations, is highly fragmented which means you don’t really know the state of risk at any given time. Some systems are open up privileges too broadly, and others are operating primarily via security through obscurity. Lots of upgrading here to do.\n\nOnce you can get your data and infra into a better spot, at least you have a chance for agents to help you secure the environment. Agent swarms can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. This capability only emerged in the past few months, and none of it would be possible before we had long running agents and computer use good enough.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability. \n\nBut everyone does need to do the hard work of getting the basics right at the start.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2114391265655816315",
+          "text": "Good assessment of the on the ground reality for security in most large enterprises right now. The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve.\n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure, data, and code to secure. Most large enterprises can barely keep up with this, let alone smaller startups or most companies outside of tech. \n\nIn many cases enterprises need to work to modernize their tech stacks. Data, in most organizations, is highly fragmented which means you don’t really know the state of risk at any given time. Some systems are open up privileges too broadly, and others are operating primarily via security through obscurity. Lots of upgrading here to do.\n\nOnce you can get your data and infra into a better spot, at least you have a chance for agents to help you secure the environment. Agent swarms can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. This capability only emerged in the past few months, and none of it would be possible before we had long running agents and computer use good enough.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability. \n\nBut everyone does need to do the hard work of getting the basics right at the start.",
+          "likes": 244,
+          "retweets": 23
+        }
+      ],
+      "publishedAt": "2026-10-25T16:18:55.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-10-26",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder.  Harvard’17. Instagram: https://t.co/aJqTEMrL2L GitHub: https://t.co/KCuEajezlL",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Great interview. Most people overestimate the importance of one huge launch and underestimate the power of just showing up every day on the timeline\n\nDevelop a system where you make a video every day &gt; spending tens of thousands of dollars on a single launch video https://t.co/ujN4fPyN1y",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2114255477907570865",
+          "text": "Great interview. Most people overestimate the importance of one huge launch and underestimate the power of just showing up every day on the timeline\n\nDevelop a system where you make a video every day &gt; spending tens of thousands of dollars on a single launch video https://t.co/ujN4fPyN1y",
+          "likes": 256,
+          "retweets": 16
+        }
+      ],
+      "publishedAt": "2026-10-25T07:19:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "mattturck-2026-10-26",
+      "source": "X",
+      "authorName": "Matt Turck",
+      "authorHandle": "mattturck",
+      "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "Matt Turck",
+      "suggestedTitle": "",
+      "suggestedSummary": "Rare footage of how VCs turned their 2021 bets in metaverse, gaming and crypto mining into 'mission-critical AI infrastructure’ https://t.co/ULSKrUwg1f\n\nGood neighborhood https://t.co/ZRTxHmsoZv https://t.co/OCMZ85Yk8G",
+      "tweets": [
+        {
+          "url": "https://x.com/mattturck/status/2114507945585328606",
+          "text": "Rare footage of how VCs turned their 2021 bets in metaverse, gaming and crypto mining into 'mission-critical AI infrastructure’ https://t.co/ULSKrUwg1f",
+          "likes": 53,
+          "retweets": 5
+        },
+        {
+          "url": "https://x.com/mattturck/status/2114411547594457483",
+          "text": "Good neighborhood https://t.co/ZRTxHmsoZv https://t.co/OCMZ85Yk8G",
+          "likes": 100,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-10-26T00:02:34.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-10-26",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "product, codex @openai. prev head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "Anyone else find it insane that this is the default for unoptimized apps when the iPhone Duo supports split mode? https://t.co/TOoeDyhMzz https://t.co/uXGfG7EbYt\n\nBy the time it shows up in the data or UXR interviews it’s too late. The damage has been done and the reputation tarnished https://t.co/hIPaT1BOmk",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2114433404557279435",
+          "text": "Anyone else find it insane that this is the default for unoptimized apps when the iPhone Duo supports split mode? https://t.co/TOoeDyhMzz https://t.co/uXGfG7EbYt",
+          "likes": 55,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2114427877240488442",
+          "text": "By the time it shows up in the data or UXR interviews it’s too late. The damage has been done and the reputation tarnished https://t.co/hIPaT1BOmk",
+          "likes": 129,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-10-25T19:06:22.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-10-26",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "Golden hour 🌅 https://t.co/VPmAgnMkGH",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2114380495140405394",
+          "text": "Golden hour 🌅 https://t.co/VPmAgnMkGH",
+          "likes": 40,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-10-25T15:36:07.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-10-26",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "This is beautiful. Who said AI doesn't have taste https://t.co/gaPLhncKM2\n\nlol this is me except my wife still buys snacks https://t.co/OvTm1jMXGD\n\nHere’s how to use Claude to copy any video shorts style in a few minutes.\n\nFrom @jake11moran:\n\n“We added this as a native capability in @HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change.\n\nYou can see where we’re drawing inspiration from and apply a different font or different colors. It’s still structurally the same idea.”\n\n📌 Watch our full AI video editing tutorial here: https://t.co/1seCb77tGJ",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2114560930646487116",
+          "text": "This is beautiful. Who said AI doesn't have taste https://t.co/gaPLhncKM2",
+          "likes": 38,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2114557067700916723",
+          "text": "lol this is me except my wife still buys snacks https://t.co/OvTm1jMXGD",
+          "likes": 12,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2114507378532229214",
+          "text": "Here’s how to use Claude to copy any video shorts style in a few minutes.\n\nFrom @jake11moran:\n\n“We added this as a native capability in @HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change.\n\nYou can see where we’re drawing inspiration from and apply a different font or different colors. It’s still structurally the same idea.”\n\n📌 Watch our full AI video editing tutorial here: https://t.co/1seCb77tGJ",
+          "likes": 245,
+          "retweets": 15
+        }
+      ],
+      "publishedAt": "2026-10-26T03:33:07.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-10-26",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "https://t.co/F3WWInD6LH https://t.co/PKNm0MT3So",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2114509827057561603",
+          "text": "https://t.co/F3WWInD6LH https://t.co/PKNm0MT3So",
+          "likes": 33,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-26T00:10:03.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-10-26",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "i need 12 more likes to ratio @ArfurRock whos got it",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2114263159355904426",
+          "text": "i need 12 more likes to ratio @ArfurRock whos got it",
+          "likes": 10,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-10-25T07:49:52.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-10-26",
+      "source": "No Priors",
+      "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-10-15T10:00:00.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 9,
+    "totalTweets": 14,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-10-26T19:38:31.693Z",
+    "estimatedReadTime": "5 min"
+  }
+}
