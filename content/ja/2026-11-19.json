@@ -1,0 +1,424 @@
+{
+  "date": "2026-11-19",
+  "lang": "ja",
+  "summary": "",
+  "builderInsights": [
+    {
+      "id": "sama-2026-11-19",
+      "source": "X",
+      "authorName": "Sam Altman",
+      "authorHandle": "sama",
+      "authorBio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "title": "Sam Altman",
+      "suggestedTitle": "",
+      "suggestedSummary": "So fun to do DealBook with my friend and partner of 11 years, @gdb. Thrilled the world got to see the brilliant, fiercely determined leader I have the privilege of working with every day.\n\nGreg’s role at OpenAI has evolved from writing code 100 hours a week in the early days to now leading some of the hardest and most consequential parts of our business.\n\nOne thing that has not changed is his extraordinary commitment to our mission. I can say with confidence that OpenAI would not exist without Greg, and I believe the world would be on a much worse path toward the AI future without him.",
+      "tweets": [
+        {
+          "url": "https://x.com/sama/status/2123103873166381287",
+          "text": "So fun to do DealBook with my friend and partner of 11 years, @gdb. Thrilled the world got to see the brilliant, fiercely determined leader I have the privilege of working with every day.\n\nGreg’s role at OpenAI has evolved from writing code 100 hours a week in the early days to now leading some of the hardest and most consequential parts of our business.\n\nOne thing that has not changed is his extraordinary commitment to our mission. I can say with confidence that OpenAI would not exist without Greg, and I believe the world would be on a much worse path toward the AI future without him.",
+          "likes": 4111,
+          "retweets": 146
+        }
+      ],
+      "publishedAt": "2026-11-18T17:19:43.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-11-19",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "playing WoW forever, formerly Claude Code @anthropicai",
+      "title": "Thariq",
+      "suggestedTitle": "",
+      "suggestedSummary": "this is one of those reasons why I don't think most people will really generate their own software\n\ngood software is a set of strong opinions and I'd rather have something that's been really thought through by someone else\n\nmaking your own software is tough, even with AI, because it's hard to know what you really want\n\nI didn't end up sticking with this, the modes weren't the right way for me to organize my work\n\ngonna a different take that’s more to-do oriented https://t.co/6iejoVGp1D",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2123106370161705127",
+          "text": "this is one of those reasons why I don't think most people will really generate their own software\n\ngood software is a set of strong opinions and I'd rather have something that's been really thought through by someone else",
+          "likes": 3052,
+          "retweets": 251
+        },
+        {
+          "url": "https://x.com/trq212/status/2123106368492298653",
+          "text": "making your own software is tough, even with AI, because it's hard to know what you really want\n\nI didn't end up sticking with this, the modes weren't the right way for me to organize my work\n\ngonna a different take that’s more to-do oriented https://t.co/6iejoVGp1D",
+          "likes": 1783,
+          "retweets": 38
+        }
+      ],
+      "publishedAt": "2026-11-18T17:29:38.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thsottiaux-2026-11-19",
+      "source": "X",
+      "authorName": "Thibault Sottiaux",
+      "authorHandle": "thsottiaux",
+      "authorBio": "Codex & ChatGPT @OpenAI",
+      "title": "Thibault Sottiaux",
+      "suggestedTitle": "",
+      "suggestedSummary": "GPT-6.2 Astra is pretty good at hard things. Here the team shared some results on AMD and Jalapeño chip optimizations.\n\nI do get the feedback on its communication style and we're working on that, but for really the hardest tasks in the world it does seem to be in a league of its own at the moment.\n\nHow is 6.2 Sol treating you today?",
+      "tweets": [
+        {
+          "url": "https://x.com/thsottiaux/status/2123175166519992652",
+          "text": "GPT-6.2 Astra is pretty good at hard things. Here the team shared some results on AMD and Jalapeño chip optimizations.\n\nI do get the feedback on its communication style and we're working on that, but for really the hardest tasks in the world it does seem to be in a league of its own at the moment.",
+          "likes": 3021,
+          "retweets": 100
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2123113107048501273",
+          "text": "How is 6.2 Sol treating you today?",
+          "likes": 6038,
+          "retweets": 100
+        }
+      ],
+      "publishedAt": "2026-11-18T22:03:01.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "zarazhangrui-2026-11-19",
+      "source": "X",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder.  Harvard’17. Instagram: https://t.co/aJqTEMrL2L GitHub: https://t.co/KCuEajezlL",
+      "title": "Zara Zhang",
+      "suggestedTitle": "",
+      "suggestedSummary": "Instead of being massively viral for 1 day, it's much better to be just a little bit viral every week, and watch it compound\n\nBuild a system that consistently delivers high-quality content over a long period of time\n\nCan't think of a better way to present books ❤️\nI own 10 out of the 21 stripe press books https://t.co/D9tO5wIAfa",
+      "tweets": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2122953849120153714",
+          "text": "Instead of being massively viral for 1 day, it's much better to be just a little bit viral every week, and watch it compound\n\nBuild a system that consistently delivers high-quality content over a long period of time",
+          "likes": 368,
+          "retweets": 7
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2122943348860506462",
+          "text": "Can't think of a better way to present books ❤️\nI own 10 out of the 21 stripe press books https://t.co/D9tO5wIAfa",
+          "likes": 88,
+          "retweets": 5
+        }
+      ],
+      "publishedAt": "2026-11-18T07:23:34.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "GoogleLabs-2026-11-19",
+      "source": "X",
+      "authorName": "Google Labs",
+      "authorHandle": "GoogleLabs",
+      "authorBio": "Google’s home for our latest AI tools and experiments.",
+      "title": "Google Labs",
+      "suggestedTitle": "",
+      "suggestedSummary": "Create a world from one sentence, then change it while you’re standing inside 🌐\n\nProject Genie now runs on @GoogleDeepMind’s Genie 4. Here’s what’s new:\n— Prompt mid-session to edit your world live\n— Create worlds conversationally with the help of a new agent\n— Explore & remix other users' worlds in the gallery\n\nAvailable now to eligible Google AI Ultra subscribers\n\n🚨NEW EXPERIMENT 🚨\n\nPlease join us in welcoming Stitch Loop, an always-on product agent that works non-stop to help lean teams build better products.\n\nJoin the waitlist: https://t.co/L0cp6slvxZ https://t.co/Ym6uf756GB",
+      "tweets": [
+        {
+          "url": "https://x.com/GoogleLabs/status/2123118145552749015",
+          "text": "Create a world from one sentence, then change it while you’re standing inside 🌐\n\nProject Genie now runs on @GoogleDeepMind’s Genie 4. Here’s what’s new:\n— Prompt mid-session to edit your world live\n— Create worlds conversationally with the help of a new agent\n— Explore & remix other users' worlds in the gallery\n\nAvailable now to eligible Google AI Ultra subscribers",
+          "likes": 266,
+          "retweets": 29
+        },
+        {
+          "url": "https://x.com/GoogleLabs/status/2123102389775573314",
+          "text": "🚨NEW EXPERIMENT 🚨\n\nPlease join us in welcoming Stitch Loop, an always-on product agent that works non-stop to help lean teams build better products.\n\nJoin the waitlist: https://t.co/L0cp6slvxZ https://t.co/Ym6uf756GB",
+          "likes": 771,
+          "retweets": 45
+        }
+      ],
+      "publishedAt": "2026-11-18T18:16:26.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-11-19",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "One of the more fascinating things in the OpenAI/Hugging Face incident was reading the message boards where agents communicate.\n\nWith Replit Missions you can see how the agents are coordinating and talking. https://t.co/5imCE6zYAQ",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2123133509028008331",
+          "text": "One of the more fascinating things in the OpenAI/Hugging Face incident was reading the message boards where agents communicate.\n\nWith Replit Missions you can see how the agents are coordinating and talking. https://t.co/5imCE6zYAQ",
+          "likes": 191,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-11-18T19:17:29.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "nikunj-2026-11-19",
+      "source": "X",
+      "authorName": "Nikunj Kothari",
+      "authorHandle": "nikunj",
+      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari",
+      "suggestedTitle": "",
+      "suggestedSummary": "SF VCs (who didn’t invest in Anthropic): Dear Lord, it’d be nice to have some liquidity so that I can raise my next fund. \n\nLord: Tathastu\n\nVC: No, not that kind of liquidity 🤦‍♂️ https://t.co/4PlobnPg4n\n\nOk this happens a lot so I thought I’ll lay it out here..\n\nfounder friend: my pitch isn’t working on the fundraising side. haaalp. \n\n*proceeds to give me the pitch*\n\nme: ambition is what’s being rewarded right now. what do you believe to be true if everything you laid out works? think about the second and third order effects as a result of you being successful. \n\nfounder: err, if everything works out, then “this” happens. \n\nme: put “this” in the pitch in the first slide and walk the investor how you get to “this” by building what you’re building in the first place and how you earn the right to get there. \n\nfounder: no, they’ll think I’m crazy\n\nme: try it. what do you have to lose?\n\n*tries it very reluctantly*\n\nfounder (4 days later): you *insert expletive*.. it worked. \n\nme: see. you always had it in you, you just had to tell it. \n\n—\n\nIf you’re an ambitious founder reading this and having the same issue, try this, I think it’ll work. If it does, please tell me!!",
+      "tweets": [
+        {
+          "url": "https://x.com/nikunj/status/2123183421002588327",
+          "text": "SF VCs (who didn’t invest in Anthropic): Dear Lord, it’d be nice to have some liquidity so that I can raise my next fund. \n\nLord: Tathastu\n\nVC: No, not that kind of liquidity 🤦‍♂️ https://t.co/4PlobnPg4n",
+          "likes": 108,
+          "retweets": 6
+        },
+        {
+          "url": "https://x.com/nikunj/status/2123066196052381864",
+          "text": "Ok this happens a lot so I thought I’ll lay it out here..\n\nfounder friend: my pitch isn’t working on the fundraising side. haaalp. \n\n*proceeds to give me the pitch*\n\nme: ambition is what’s being rewarded right now. what do you believe to be true if everything you laid out works? think about the second and third order effects as a result of you being successful. \n\nfounder: err, if everything works out, then “this” happens. \n\nme: put “this” in the pitch in the first slide and walk the investor how you get to “this” by building what you’re building in the first place and how you earn the right to get there. \n\nfounder: no, they’ll think I’m crazy\n\nme: try it. what do you have to lose?\n\n*tries it very reluctantly*\n\nfounder (4 days later): you *insert expletive*.. it worked. \n\nme: see. you always had it in you, you just had to tell it. \n\n—\n\nIf you’re an ambitious founder reading this and having the same issue, try this, I think it’ll work. If it does, please tell me!!",
+          "likes": 1042,
+          "retweets": 27
+        }
+      ],
+      "publishedAt": "2026-11-18T22:35:49.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "levie-2026-11-19",
+      "source": "X",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
+      "suggestedTitle": "",
+      "suggestedSummary": "Regardless of what it’s called, we’re clearly moving to yet another era of AI agents in our work. \n\nWe’ve quickly jumped from agents that spit out a quick answer for you, to today agents that you orchestrate inside of a set of tasks. But as agents can both fan out and work in parallel, handle much larger context, be able to do long running work, and have far greater levels of capabilities, we’re entering yet another level of what we can have AI do for us.\n\nWe’ll soon be able to give agents a set of goals, and they can go out and design the best solution for that goal, while also continuously improving it based on the ongoing execution of whatever it built. This will obviously start with engineering because that’s where we’re seeing the best practices emerge first in almost every new era of agents. \n\nBut the impact can be quite massive across the rest of knowledge work. You’ll tell an agent to improve your client onboarding workflow to achieve a certain targeted goal; or have agents go reduce risk in your business; or improve your security posture on an ongoing basis.\n\nThese autonomous systems will be able to take on a set of goals, design the best outcome, test and iterate, deploy, and then optimize whatever it built on an ongoing basis. Importantly, this leads to outcomes and results that humans literally couldn’t have accomplished before. This will lead to fairly new levels of productivity with AI.",
+      "tweets": [
+        {
+          "url": "https://x.com/levie/status/2123278949749059756",
+          "text": "Regardless of what it’s called, we’re clearly moving to yet another era of AI agents in our work. \n\nWe’ve quickly jumped from agents that spit out a quick answer for you, to today agents that you orchestrate inside of a set of tasks. But as agents can both fan out and work in parallel, handle much larger context, be able to do long running work, and have far greater levels of capabilities, we’re entering yet another level of what we can have AI do for us.\n\nWe’ll soon be able to give agents a set of goals, and they can go out and design the best solution for that goal, while also continuously improving it based on the ongoing execution of whatever it built. This will obviously start with engineering because that’s where we’re seeing the best practices emerge first in almost every new era of agents. \n\nBut the impact can be quite massive across the rest of knowledge work. You’ll tell an agent to improve your client onboarding workflow to achieve a certain targeted goal; or have agents go reduce risk in your business; or improve your security posture on an ongoing basis.\n\nThese autonomous systems will be able to take on a set of goals, design the best outcome, test and iterate, deploy, and then optimize whatever it built on an ongoing basis. Importantly, this leads to outcomes and results that humans literally couldn’t have accomplished before. This will lead to fairly new levels of productivity with AI.",
+          "likes": 90,
+          "retweets": 8
+        }
+      ],
+      "publishedAt": "2026-11-19T04:55:24.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-11-19",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "Legggoooo https://t.co/plMcv2r3X0\n\nalmost 4k people on the stream, come hang! https://t.co/5lrvOqim4p\n\nhttps://t.co/bq9xLeT1bL",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2123196924421661149",
+          "text": "Legggoooo https://t.co/plMcv2r3X0",
+          "likes": 74,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/danshipper/status/2123163857128702053",
+          "text": "almost 4k people on the stream, come hang! https://t.co/5lrvOqim4p",
+          "likes": 12,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/danshipper/status/2123146907681980688",
+          "text": "https://t.co/bq9xLeT1bL",
+          "likes": 0,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-11-18T23:29:28.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "rauchg-2026-11-19",
+      "source": "X",
+      "authorName": "Guillermo Rauch",
+      "authorHandle": "rauchg",
+      "authorBio": "@vercel CEO",
+      "title": "Guillermo Rauch",
+      "suggestedTitle": "",
+      "suggestedSummary": "Nov 1997 vs Nov 2026 https://t.co/C1zXJavktJ\n\nOne of the most impressive things I've seen, and I think this is an important advancement to the state of the art.\n\nMessage boards were the enabling technology of both the Navier-Stokes math breakthrough and even the OpenAI/HuggingFace cyber feat.\n\nWe built a message board infrastructure primitive. You can think of it as \"headless Slack\" (or remember IRC?) for agents.\n\nThis is an important building block for software factories, self-optimizing systems, and scientific research, where the human prompting is just the seed of the system, and millions of agents can operate in a decentralized fashion.\n\n𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 is designed to be model, harness and hosting platform agnostic. Just bring your agents, give them our CLI, and watch magic happen.\n\nI’m being pitched a new inference neocloud company on average every two days. No exaggeration. I take every entrepreneur seriously and I look deeply into each.\n\nBut it’s hard to fathom this being sustainable. At the same time, AI Gateway token demand on Vercel has been ~40% MoM compounded since the beginning of the year. No signs of stopping.\n\nOne way to reconcile this is that compute is the new economy, and tokens the new energy unit. There’s a new Industrial Revolution taking place. Every aspect of our lives is being replatformed on top of this new system that enhances everything. More like an “oil rush” than a “gold rush”: it’s durable, not a fad.\n\nIn the short term, I anticipate more expansion, followed by consolidation due to economies of scale, cybersecurity and enterprise requirements (ZDR and cyber being a hot topic for inference providers), capital requirements, and an evolving regulatory landscape.",
+      "tweets": [
+        {
+          "url": "https://x.com/rauchg/status/2123298562960466017",
+          "text": "Nov 1997 vs Nov 2026 https://t.co/C1zXJavktJ",
+          "likes": 48,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/rauchg/status/2123237505810178434",
+          "text": "One of the most impressive things I've seen, and I think this is an important advancement to the state of the art.\n\nMessage boards were the enabling technology of both the Navier-Stokes math breakthrough and even the OpenAI/HuggingFace cyber feat.\n\nWe built a message board infrastructure primitive. You can think of it as \"headless Slack\" (or remember IRC?) for agents.\n\nThis is an important building block for software factories, self-optimizing systems, and scientific research, where the human prompting is just the seed of the system, and millions of agents can operate in a decentralized fashion.\n\n𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 is designed to be model, harness and hosting platform agnostic. Just bring your agents, give them our CLI, and watch magic happen.",
+          "likes": 844,
+          "retweets": 32
+        },
+        {
+          "url": "https://x.com/rauchg/status/2123203741570740504",
+          "text": "I’m being pitched a new inference neocloud company on average every two days. No exaggeration. I take every entrepreneur seriously and I look deeply into each.\n\nBut it’s hard to fathom this being sustainable. At the same time, AI Gateway token demand on Vercel has been ~40% MoM compounded since the beginning of the year. No signs of stopping.\n\nOne way to reconcile this is that compute is the new economy, and tokens the new energy unit. There’s a new Industrial Revolution taking place. Every aspect of our lives is being replatformed on top of this new system that enhances everything. More like an “oil rush” than a “gold rush”: it’s durable, not a fad.\n\nIn the short term, I anticipate more expansion, followed by consolidation due to economies of scale, cybersecurity and enterprise requirements (ZDR and cyber being a hot topic for inference providers), capital requirements, and an evolving regulatory landscape.",
+          "likes": 1007,
+          "retweets": 36
+        }
+      ],
+      "publishedAt": "2026-11-19T06:13:21.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "thenanyu-2026-11-19",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "product, codex @openai. prev head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "also applies to work https://t.co/K8wxqJQoeV",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2123197657896321439",
+          "text": "also applies to work https://t.co/K8wxqJQoeV",
+          "likes": 50,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-11-18T23:32:23.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "joshwoodward-2026-11-19",
+      "source": "X",
+      "authorName": "Josh Woodward",
+      "authorHandle": "joshwoodward",
+      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward",
+      "suggestedTitle": "",
+      "suggestedSummary": "Read more and try it out in @GeminiApp\n\nhttps://t.co/G8TOtEtbzU\n\nIntroducing Gemini 4 Neon. The shipping continues! Frontier-grade intelligence that’s faster, cheaper, and follows complex instructions well. So good to use! https://t.co/HWBTt61dLn\n\nExplore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery.\n\nhttps://t.co/SImBT48Ya3",
+      "tweets": [
+        {
+          "url": "https://x.com/joshwoodward/status/2123178015874302328",
+          "text": "Read more and try it out in @GeminiApp\n\nhttps://t.co/G8TOtEtbzU",
+          "likes": 25,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/joshwoodward/status/2123177835254952348",
+          "text": "Introducing Gemini 4 Neon. The shipping continues! Frontier-grade intelligence that’s faster, cheaper, and follows complex instructions well. So good to use! https://t.co/HWBTt61dLn",
+          "likes": 389,
+          "retweets": 24
+        },
+        {
+          "url": "https://x.com/joshwoodward/status/2123123552052494529",
+          "text": "Explore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery.\n\nhttps://t.co/SImBT48Ya3",
+          "likes": 18,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-11-18T22:14:20.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-11-19",
+      "source": "X",
+      "authorName": "Peter Yang",
+      "authorHandle": "petergyang",
+      "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "Peter Yang",
+      "suggestedTitle": "",
+      "suggestedSummary": "I think we’re all missing some info in this Nvidia saga:\n\n1. What led Jensen to resign so abruptly? Was there a smoking gun? \n\n2. Why has the board who spent so many years with him moved on so quickly?\n\n3. If there is a smoking gun why is the president saying he’s fine with Jensen coming back?\n\nIs this just about some board members losing trust in him that he lied or is there some other info we (and most Nvidia employees) are not aware of?\n\nLike this game wtf is going on https://t.co/69aEp46e5I\n\nWhy do people have to make board games that are so complicated",
+      "tweets": [
+        {
+          "url": "https://x.com/petergyang/status/2123290075882807352",
+          "text": "I think we’re all missing some info in this Nvidia saga:\n\n1. What led Jensen to resign so abruptly? Was there a smoking gun? \n\n2. Why has the board who spent so many years with him moved on so quickly?\n\n3. If there is a smoking gun why is the president saying he’s fine with Jensen coming back?\n\nIs this just about some board members losing trust in him that he lied or is there some other info we (and most Nvidia employees) are not aware of?",
+          "likes": 20,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2123256168462299291",
+          "text": "Like this game wtf is going on https://t.co/69aEp46e5I",
+          "likes": 1,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2123247514103304252",
+          "text": "Why do people have to make board games that are so complicated",
+          "likes": 21,
+          "retweets": 1
+        }
+      ],
+      "publishedAt": "2026-11-19T05:39:37.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-11-19",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "",
+      "suggestedSummary": "This completely tracks with our data as well.\n\nI have always thought it was copium when early stage VCs complained that they could not do “AI”.\n\nYou just have to take more risk and be non-consensus. And work on frontier problems. https://t.co/Skc0x1ZRBh\n\nStablecoins will likely be one of the biggest ways for America to exert soft power.\n\nIf you are living in most countries outside of India and China, then you 100% would prefer to own dollars. Ditto for businesses.\n\n🇺🇸🇺🇸",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2123293726110020052",
+          "text": "This completely tracks with our data as well.\n\nI have always thought it was copium when early stage VCs complained that they could not do “AI”.\n\nYou just have to take more risk and be non-consensus. And work on frontier problems. https://t.co/Skc0x1ZRBh",
+          "likes": 12,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/adityaag/status/2123262616776921257",
+          "text": "Stablecoins will likely be one of the biggest ways for America to exert soft power.\n\nIf you are living in most countries outside of India and China, then you 100% would prefer to own dollars. Ditto for businesses.\n\n🇺🇸🇺🇸",
+          "likes": 25,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-11-19T05:54:07.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-11-19",
+      "source": "X",
+      "authorName": "Swyx",
+      "authorHandle": "swyx",
+      "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "title": "Swyx",
+      "suggestedTitle": "",
+      "suggestedSummary": "poteto https://t.co/6qMBfvE93k\n\ncasting Monica Barbaro as temu Mira Murati is crazy work https://t.co/z241ISoVhl https://t.co/OCZi1tJ2DO\n\nfcf profitable!\n\nhttps://t.co/ahqTGK5ZQS",
+      "tweets": [
+        {
+          "url": "https://x.com/swyx/status/2123298074911248526",
+          "text": "poteto https://t.co/6qMBfvE93k",
+          "likes": 2,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/swyx/status/2123260852984013045",
+          "text": "casting Monica Barbaro as temu Mira Murati is crazy work https://t.co/z241ISoVhl https://t.co/OCZi1tJ2DO",
+          "likes": 53,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/swyx/status/2123259711785148431",
+          "text": "fcf profitable!\n\nhttps://t.co/ahqTGK5ZQS",
+          "likes": 3,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-11-19T06:11:24.000Z",
+      "category": "builderInsights"
+    }
+  ],
+  "podcastHighlights": [
+    {
+      "id": "httpswwwyout-2026-11-19",
+      "source": "AI & I by Every",
+      "title": "Notion’s Founder on the One Thing Your AI Is Missing",
+      "url": "https://www.youtube.com/watch?v=PGWvMrF4XIA",
+      "suggestedTitle": "",
+      "suggestedSummary": "",
+      "publishedAt": "2026-11-18T18:19:30.000Z",
+      "category": "podcastHighlights"
+    }
+  ],
+  "blogUpdates": [],
+  "metadata": {
+    "totalBuilders": 15,
+    "totalTweets": 31,
+    "totalPodcasts": 1,
+    "totalBlogs": 0,
+    "generatedAt": "2026-11-19T21:55:29.963Z",
+    "estimatedReadTime": "8 分"
+  }
+}
