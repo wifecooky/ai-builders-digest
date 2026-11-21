@@ -1,417 +1,419 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "summary": "",
   "items": [
     {
-      "id": "joshwoodward-2026-11-20",
+      "id": "levie-2026-11-21",
       "source": "X",
-      "authorName": "Josh Woodward",
-      "authorHandle": "joshwoodward",
-      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
-      "title": "Josh Woodward",
+      "authorName": "Aaron Levie",
+      "authorHandle": "levie",
+      "authorBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie",
       "suggestedTitle": "",
-      "suggestedSummary": "Gemini app on Mac can now do tasks on your computer, a top feature request! https://t.co/WZL40Vz57r",
+      "suggestedSummary": "Going to be a big day in math https://t.co/v0sKYQLWSB https://t.co/dclzIoOPj1\n\nThis year we’ve had a clear jump in model capability where instead of telling agents precisely what to do, it’s better to use these systems to solve problems you can’t easily define yourself. \n\nA year ago you’d need to very clearly tell agents the how to design and develop your product idea, or there was almost no chance of success. Now, increasingly, the agent likely can come up with a better implementation than you’d have thought of because you can have it connect the dots between a far greater solution space than you can. \n\nThis will be increasingly true in basically every domain of kneeler work. We’re going to see this impact in finance, legal, life sciences, cyber, and many other spaces where no person can hold onto all the available relevant industry knowledge to think of the best solution. \n\nUltimately this is going to reshape our relationship with AI and how we deploy agents in our work. It won’t be about explicitly telling them, but instead giving them goals and enough freedom to pursue them in the best way they can.",
       "tweets": [
         {
-          "url": "https://x.com/joshwoodward/status/2123534862569324703",
-          "text": "Gemini app on Mac can now do tasks on your computer, a top feature request! https://t.co/WZL40Vz57r",
-          "likes": 876,
-          "retweets": 35
+          "url": "https://x.com/levie/status/2123792233535332448",
+          "text": "Going to be a big day in math https://t.co/v0sKYQLWSB https://t.co/dclzIoOPj1",
+          "likes": 3344,
+          "retweets": 195
+        },
+        {
+          "url": "https://x.com/levie/status/2123686350410912145",
+          "text": "This year we’ve had a clear jump in model capability where instead of telling agents precisely what to do, it’s better to use these systems to solve problems you can’t easily define yourself. \n\nA year ago you’d need to very clearly tell agents the how to design and develop your product idea, or there was almost no chance of success. Now, increasingly, the agent likely can come up with a better implementation than you’d have thought of because you can have it connect the dots between a far greater solution space than you can. \n\nThis will be increasingly true in basically every domain of kneeler work. We’re going to see this impact in finance, legal, life sciences, cyber, and many other spaces where no person can hold onto all the available relevant industry knowledge to think of the best solution. \n\nUltimately this is going to reshape our relationship with AI and how we deploy agents in our work. It won’t be about explicitly telling them, but instead giving them goals and enough freedom to pursue them in the best way they can.",
+          "likes": 407,
+          "retweets": 32
         }
       ],
-      "publishedAt": "2026-11-19T21:52:19.000Z",
+      "publishedAt": "2026-11-20T14:55:01.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "trq212-2026-11-20",
-      "source": "X",
-      "authorName": "Thariq",
-      "authorHandle": "trq212",
-      "authorBio": "playing WoW forever, formerly Claude Code @anthropicai",
-      "title": "Thariq",
-      "suggestedTitle": "",
-      "suggestedSummary": "Software is both art and utility. AI is both an Industrial Revolution and a Renaissance.\n\nFactories are for utilities, at AIE Code I talked about how we can make better art. https://t.co/KrETTn6hA3\n\nhttps://t.co/2jiFanMHll\n\nan age of miracles https://t.co/WcSHQzzhn8",
-      "tweets": [
-        {
-          "url": "https://x.com/trq212/status/2123524052195463568",
-          "text": "Software is both art and utility. AI is both an Industrial Revolution and a Renaissance.\n\nFactories are for utilities, at AIE Code I talked about how we can make better art. https://t.co/KrETTn6hA3",
-          "likes": 793,
-          "retweets": 49
-        },
-        {
-          "url": "https://x.com/trq212/status/2123457177419760100",
-          "text": "https://t.co/2jiFanMHll",
-          "likes": 10013,
-          "retweets": 640
-        },
-        {
-          "url": "https://x.com/trq212/status/2123452888248992024",
-          "text": "an age of miracles https://t.co/WcSHQzzhn8",
-          "likes": 2999,
-          "retweets": 66
-        }
-      ],
-      "publishedAt": "2026-11-19T21:09:21.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "thsottiaux-2026-11-20",
+      "id": "thsottiaux-2026-11-21",
       "source": "X",
       "authorName": "Thibault Sottiaux",
       "authorHandle": "thsottiaux",
       "authorBio": "Codex & ChatGPT @OpenAI",
       "title": "Thibault Sottiaux",
       "suggestedTitle": "",
-      "suggestedSummary": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place. Let's see if the strategy plays out.\n\nLe ChatGPT 2.0 https://t.co/QooOVLPLlf\n\nWe’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!",
+      "suggestedSummary": "We’ve been messing around a bit and inadvertently created an experience that’s a bit too fun internally and now everyone is just having fun instead of working. We might not recover from this.\n\nFirst tweet from Akshay. Be nice to this one, he’s special. https://t.co/GNLkstqT9K\n\nTeam is locked in, upgrade your desktop app. Faster, simpler and a lot more pleasant to use. https://t.co/1X8M5JwL77",
       "tweets": [
         {
-          "url": "https://x.com/thsottiaux/status/2123612889416339762",
-          "text": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place. Let's see if the strategy plays out.",
-          "likes": 491,
-          "retweets": 6
+          "url": "https://x.com/thsottiaux/status/2123997735326232775",
+          "text": "We’ve been messing around a bit and inadvertently created an experience that’s a bit too fun internally and now everyone is just having fun instead of working. We might not recover from this.",
+          "likes": 3281,
+          "retweets": 88
         },
         {
-          "url": "https://x.com/thsottiaux/status/2123612433923051976",
-          "text": "Le ChatGPT 2.0 https://t.co/QooOVLPLlf",
-          "likes": 1911,
-          "retweets": 57
+          "url": "https://x.com/thsottiaux/status/2123864112694509995",
+          "text": "First tweet from Akshay. Be nice to this one, he’s special. https://t.co/GNLkstqT9K",
+          "likes": 2650,
+          "retweets": 33
         },
         {
-          "url": "https://x.com/thsottiaux/status/2123557171321561133",
-          "text": "We’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!",
-          "likes": 5244,
-          "retweets": 276
+          "url": "https://x.com/thsottiaux/status/2123861214644347122",
+          "text": "Team is locked in, upgrade your desktop app. Faster, simpler and a lot more pleasant to use. https://t.co/1X8M5JwL77",
+          "likes": 2743,
+          "retweets": 64
         }
       ],
-      "publishedAt": "2026-11-20T03:02:22.000Z",
+      "publishedAt": "2026-11-21T04:31:36.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "amasad-2026-11-20",
-      "source": "X",
-      "authorName": "Amjad Masad",
-      "authorHandle": "amasad",
-      "authorBio": "ceo @replit. civilizationist",
-      "title": "Amjad Masad",
-      "suggestedTitle": "",
-      "suggestedSummary": "Build your own Muse-like personal agent with one prompt. https://t.co/24iScdeQvb\n\nHaving a contract with your agent is a paradigm I expect many will copy from us https://t.co/ye6WQLu6Xq\n\nSick! https://t.co/eLdvynPjsp",
-      "tweets": [
-        {
-          "url": "https://x.com/amasad/status/2123535544718418191",
-          "text": "Build your own Muse-like personal agent with one prompt. https://t.co/24iScdeQvb",
-          "likes": 393,
-          "retweets": 24
-        },
-        {
-          "url": "https://x.com/amasad/status/2123535362568134894",
-          "text": "Having a contract with your agent is a paradigm I expect many will copy from us https://t.co/ye6WQLu6Xq",
-          "likes": 75,
-          "retweets": 4
-        },
-        {
-          "url": "https://x.com/amasad/status/2123433375830561130",
-          "text": "Sick! https://t.co/eLdvynPjsp",
-          "likes": 57,
-          "retweets": 2
-        }
-      ],
-      "publishedAt": "2026-11-19T21:55:01.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "garrytan-2026-11-20",
+      "id": "garrytan-2026-11-21",
       "source": "X",
       "authorName": "Garry Tan",
       "authorHandle": "garrytan",
       "authorBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
       "title": "Garry Tan",
       "suggestedTitle": "",
-      "suggestedSummary": "Bostrom: \"if nobody builds it, everyone dies\"\n\nHard agree https://t.co/4PsIoscsD8",
+      "suggestedSummary": "You don’t need an asset seizure tax\n\nYou need to encourage building new ideas and startups in California\n\nAnd then you need a government that spends it wisely on things that help the people\n\nThat’s it. The ivory tower academics and the SEIU-HNW union bosses have it wrong. https://t.co/mQ2pO8EMLG",
       "tweets": [
         {
-          "url": "https://x.com/garrytan/status/2123496208316694669",
-          "text": "Bostrom: \"if nobody builds it, everyone dies\"\n\nHard agree https://t.co/4PsIoscsD8",
-          "likes": 263,
-          "retweets": 21
+          "url": "https://x.com/garrytan/status/2123796297836896292",
+          "text": "You don’t need an asset seizure tax\n\nYou need to encourage building new ideas and startups in California\n\nAnd then you need a government that spends it wisely on things that help the people\n\nThat’s it. The ivory tower academics and the SEIU-HNW union bosses have it wrong. https://t.co/mQ2pO8EMLG",
+          "likes": 875,
+          "retweets": 66
         }
       ],
-      "publishedAt": "2026-11-19T19:18:43.000Z",
+      "publishedAt": "2026-11-20T15:11:10.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "steipete-2026-11-20",
+      "id": "zarazhangrui-2026-11-21",
       "source": "X",
-      "authorName": "Peter Steinberger",
-      "authorHandle": "steipete",
-      "authorBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-      "title": "Peter Steinberger",
+      "authorName": "Zara Zhang",
+      "authorHandle": "zarazhangrui",
+      "authorBio": "Builder.  Harvard’17. Instagram: https://t.co/aJqTEMrL2L GitHub: https://t.co/KCuEajezlL",
+      "title": "Zara Zhang",
       "suggestedTitle": "",
-      "suggestedSummary": "Landed a fix for that in OpenClaw yesterday (for the few folks using the embedded harness instead of codex, since it’s a plugin), most harnesses aren’t updated yet. https://t.co/hyjqyZw1AU",
+      "suggestedSummary": "Do not send your clients Claude Artifacts/ChatGPT sites\n\nIt makes them feel like “Well I could have just prompted Claude/Codex myself”\n\nIf you curate, you should create",
       "tweets": [
         {
-          "url": "https://x.com/steipete/status/2123487048250327497",
-          "text": "Landed a fix for that in OpenClaw yesterday (for the few folks using the embedded harness instead of codex, since it’s a plugin), most harnesses aren’t updated yet. https://t.co/hyjqyZw1AU",
-          "likes": 198,
+          "url": "https://x.com/zarazhangrui/status/2123813583339532321",
+          "text": "Do not send your clients Claude Artifacts/ChatGPT sites\n\nIt makes them feel like “Well I could have just prompted Claude/Codex myself”",
+          "likes": 360,
           "retweets": 9
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2123692630655873269",
+          "text": "If you curate, you should create",
+          "likes": 117,
+          "retweets": 5
         }
       ],
-      "publishedAt": "2026-11-19T18:42:19.000Z",
+      "publishedAt": "2026-11-20T16:19:51.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "rauchg-2026-11-20",
+      "id": "rauchg-2026-11-21",
       "source": "X",
       "authorName": "Guillermo Rauch",
       "authorHandle": "rauchg",
       "authorBio": "@vercel CEO",
       "title": "Guillermo Rauch",
       "suggestedTitle": "",
-      "suggestedSummary": "A company’s genesis is the agent that helps you build the company https://t.co/JAeoreokGR\n\nMy “is engineering a valuable pursuit” math. \n\nAn outcome-oriented, creative engineer is now a 1000x engineer.\n\nA tabs-vs-spaces-debating, miss-forest-for-trees engineer is now a -10x engineer.\n\nThe regular knowledge worker is now a 2x engineer.\n\nThis is also backed by the distribution of token consumption we see in both our startups and enterprise base. Engineers and software factories will consume exponentially more tokens.\n\nIf there’s a takeaway from Anthropic’s success, it’s that coding is the #1 killer app of AI.\n\n𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 has no heavyweight or opinionated UI. It's infra not product. I love the \"headless Slack\" for agents analogy, because UI is free now.\n\nYou can generate and deploy the ideal \"factory interface\" for each usecase. A security team will focus on vulnerability counts, SEV classifications, confirmed vs unconfirmed.\n\nI've seen internal factories at Vercel built on Board that are just TUIs. Or mostly managed via a Slack agent, and you just focus on the outcomes and giving feedback to the agents. \n\nThe board is like the Redux state manager of your agents. It's foundational.",
+      "suggestedSummary": "When I first tried an internal pre-release version of @eve, a personal shopper agent was my \"hello world\". It worked, but a lot of the infrastructure was missing.\n\nNow, @agentcardhq exists, models are better, iMessage and WhatsApp eve channels are mature, and performance is vastly improved (without trading off durability and encryption.)\n\nThe result is you can ship a platform of the caliber of Muse / Instinct, that you fully control, on our open intelligence stack. The experience is pure delight. I highly recommend you try this. Run with this template. Make it your own.\n\nISO 42001:2023 is like the \"SOC2 of AI\".\n\nIt's the first global, independently audited standard for how companies build, evaluate, monitor and govern AI systems.\n\nWhen you ship on and use Vercel's AI, you now know the infra is audited annually by an accredited third party. https://t.co/8vT5AYUjNd",
       "tweets": [
         {
-          "url": "https://x.com/rauchg/status/2123553975945556144",
-          "text": "A company’s genesis is the agent that helps you build the company https://t.co/JAeoreokGR",
-          "likes": 187,
-          "retweets": 9
+          "url": "https://x.com/rauchg/status/2123879031049449791",
+          "text": "When I first tried an internal pre-release version of @eve, a personal shopper agent was my \"hello world\". It worked, but a lot of the infrastructure was missing.\n\nNow, @agentcardhq exists, models are better, iMessage and WhatsApp eve channels are mature, and performance is vastly improved (without trading off durability and encryption.)\n\nThe result is you can ship a platform of the caliber of Muse / Instinct, that you fully control, on our open intelligence stack. The experience is pure delight. I highly recommend you try this. Run with this template. Make it your own.",
+          "likes": 219,
+          "retweets": 13
         },
         {
-          "url": "https://x.com/rauchg/status/2123505400591106113",
-          "text": "My “is engineering a valuable pursuit” math. \n\nAn outcome-oriented, creative engineer is now a 1000x engineer.\n\nA tabs-vs-spaces-debating, miss-forest-for-trees engineer is now a -10x engineer.\n\nThe regular knowledge worker is now a 2x engineer.\n\nThis is also backed by the distribution of token consumption we see in both our startups and enterprise base. Engineers and software factories will consume exponentially more tokens.\n\nIf there’s a takeaway from Anthropic’s success, it’s that coding is the #1 killer app of AI.",
-          "likes": 1574,
-          "retweets": 94
-        },
-        {
-          "url": "https://x.com/rauchg/status/2123468825538789380",
-          "text": "𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 has no heavyweight or opinionated UI. It's infra not product. I love the \"headless Slack\" for agents analogy, because UI is free now.\n\nYou can generate and deploy the ideal \"factory interface\" for each usecase. A security team will focus on vulnerability counts, SEV classifications, confirmed vs unconfirmed.\n\nI've seen internal factories at Vercel built on Board that are just TUIs. Or mostly managed via a Slack agent, and you just focus on the outcomes and giving feedback to the agents. \n\nThe board is like the Redux state manager of your agents. It's foundational.",
-          "likes": 332,
-          "retweets": 10
+          "url": "https://x.com/rauchg/status/2123869175085191298",
+          "text": "ISO 42001:2023 is like the \"SOC2 of AI\".\n\nIt's the first global, independently audited standard for how companies build, evaluate, monitor and govern AI systems.\n\nWhen you ship on and use Vercel's AI, you now know the infra is audited annually by an accredited third party. https://t.co/8vT5AYUjNd",
+          "likes": 660,
+          "retweets": 26
         }
       ],
-      "publishedAt": "2026-11-19T23:08:16.000Z",
+      "publishedAt": "2026-11-20T20:39:55.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "claudeai-2026-11-20",
-      "source": "X",
-      "authorName": "Claude",
-      "authorHandle": "claudeai",
-      "authorBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
-      "title": "Claude",
-      "suggestedTitle": "",
-      "suggestedSummary": "https://t.co/Lvg7iH5c8n\n\nhttps://t.co/7YnqMnFefK\n\nhttps://t.co/3O68guMC3u",
-      "tweets": [
-        {
-          "url": "https://x.com/claudeai/status/2123431928414273582",
-          "text": "https://t.co/Lvg7iH5c8n",
-          "likes": 141,
-          "retweets": 5
-        },
-        {
-          "url": "https://x.com/claudeai/status/2123431925918433403",
-          "text": "https://t.co/7YnqMnFefK",
-          "likes": 108,
-          "retweets": 2
-        },
-        {
-          "url": "https://x.com/claudeai/status/2123431923678601304",
-          "text": "https://t.co/3O68guMC3u",
-          "likes": 54,
-          "retweets": 2
-        }
-      ],
-      "publishedAt": "2026-11-19T15:03:17.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "danshipper-2026-11-20",
-      "source": "X",
-      "authorName": "Dan Shipper",
-      "authorHandle": "danshipper",
-      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
-      "title": "Dan Shipper",
-      "suggestedTitle": "",
-      "suggestedSummary": "who is working on helping stop the infrastructure attacks happening right now, and how can people in AI help?",
-      "tweets": [
-        {
-          "url": "https://x.com/danshipper/status/2123435061236404385",
-          "text": "who is working on helping stop the infrastructure attacks happening right now, and how can people in AI help?",
-          "likes": 65,
-          "retweets": 5
-        }
-      ],
-      "publishedAt": "2026-11-19T15:15:44.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "mattturck-2026-11-20",
+      "id": "mattturck-2026-11-21",
       "source": "X",
       "authorName": "Matt Turck",
       "authorHandle": "mattturck",
       "authorBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "title": "Matt Turck",
       "suggestedTitle": "",
-      "suggestedSummary": "lol NASDAQ hedging their bets https://t.co/nwoIV114l5\n\nMy earlier conversation with the truly excellent @felixrieseberg here:\n\nhttps://t.co/odrvhyQXcY\n\nSeems that @felixrieseberg from @AnthropicAI was having a really good day, for some reason? 🤷‍♂️ \n\n(Slush purpleness photo kindly taken by the multi-talented @deedydas) https://t.co/QjAhL7PIkE",
+      "suggestedSummary": "Automated agentic emailing  vs the real world, a story: \n\nGuy emails me twice to meet at a conference (Slush)\n\nI reply once \n\nHe then emails me 3 times in rapid succession \n\nDamn that guy really wants to meet \n\nI bump into him later that day \n\nI say “well, was meant to be”\n\nHe reads my name tag, twice.\n\nBlank face.  He clearly has no idea who  I am. \n\nHe says “oh hi” and walks away. \n\nThe end.",
       "tweets": [
         {
-          "url": "https://x.com/mattturck/status/2123465585166295351",
-          "text": "lol NASDAQ hedging their bets https://t.co/nwoIV114l5",
-          "likes": 58,
+          "url": "https://x.com/mattturck/status/2123777488786538982",
+          "text": "Automated agentic emailing  vs the real world, a story: \n\nGuy emails me twice to meet at a conference (Slush)\n\nI reply once \n\nHe then emails me 3 times in rapid succession \n\nDamn that guy really wants to meet \n\nI bump into him later that day \n\nI say “well, was meant to be”\n\nHe reads my name tag, twice.\n\nBlank face.  He clearly has no idea who  I am. \n\nHe says “oh hi” and walks away. \n\nThe end.",
+          "likes": 135,
           "retweets": 3
-        },
-        {
-          "url": "https://x.com/mattturck/status/2123424356286017975",
-          "text": "My earlier conversation with the truly excellent @felixrieseberg here:\n\nhttps://t.co/odrvhyQXcY",
-          "likes": 2,
-          "retweets": 0
-        },
-        {
-          "url": "https://x.com/mattturck/status/2123424351953301526",
-          "text": "Seems that @felixrieseberg from @AnthropicAI was having a really good day, for some reason? 🤷‍♂️ \n\n(Slush purpleness photo kindly taken by the multi-talented @deedydas) https://t.co/QjAhL7PIkE",
-          "likes": 23,
-          "retweets": 0
         }
       ],
-      "publishedAt": "2026-11-19T17:17:02.000Z",
+      "publishedAt": "2026-11-20T13:56:25.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "adityaag-2026-11-20",
+      "id": "realmadhugur-2026-11-21",
       "source": "X",
-      "authorName": "Aditya Agarwal",
-      "authorHandle": "adityaag",
-      "authorBio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
-      "title": "Aditya Agarwal",
+      "authorName": "Madhu Guru",
+      "authorHandle": "realmadhuguru",
+      "authorBio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "Madhu Guru",
       "suggestedTitle": "",
-      "suggestedSummary": "I am just immensely proud of our industry today.\n\nThis is not a zero-sum day.\n\nAll of us in \"computers\" / silicon valley / venture capital should be proud. \n\nWe are all helping to accelerate progress for humanity. \n\nWhat a time to be alive.\n\nCongratulations to the folks at Anthropic.\n\nSPC's goal isn't just to get people to start companies. \n\nToday is a good day to explain why.\n\nTwo of the people who helped build Anthropic spent significant time at @spc.\n\n@nottombrown showed up at SPC in 2016 with no ML background. He spent his days working through papers with other members, then co-founded Anthropic.\n\n@trq212 joined SPC having just wound down his gaming company. He was working on interpretability when a fellow member asked if he'd tried Claude Code. Soon he was helping build a tool most of us use every day. \n\nIf you put ambitious people next to each other, it leads to extraordinary things.\n\nSometimes the impact comes years later.\n\nI'm so happy for Tom, for Thariq, and for all of my friends at @AnthropicAI.\n\nAgents are moving from single tasks to whole jobs, and the data has to follow. RoleCUA from Fig maps expert roles across months of real work, with every action tied to the task and objective it serves. https://t.co/yVnPhJBOzn",
+      "suggestedSummary": "Who are the most interesting AI people I should meet in Chennai? \n\nI’ll be in town end of Nov - 1st wk Dec.\n\nabout me: \nI’m at Meta building AI products now; previously led product for Gemini, Veo and Nano Banana models at Google.\n\nschedule is tight but I should be able to squeeze in a few meetings.",
       "tweets": [
         {
-          "url": "https://x.com/adityaag/status/2123579739868959110",
-          "text": "I am just immensely proud of our industry today.\n\nThis is not a zero-sum day.\n\nAll of us in \"computers\" / silicon valley / venture capital should be proud. \n\nWe are all helping to accelerate progress for humanity. \n\nWhat a time to be alive.",
-          "likes": 48,
+          "url": "https://x.com/realmadhuguru/status/2123972492645777629",
+          "text": "Who are the most interesting AI people I should meet in Chennai? \n\nI’ll be in town end of Nov - 1st wk Dec.\n\nabout me: \nI’m at Meta building AI products now; previously led product for Gemini, Veo and Nano Banana models at Google.\n\nschedule is tight but I should be able to squeeze in a few meetings.",
+          "likes": 112,
+          "retweets": 6
+        }
+      ],
+      "publishedAt": "2026-11-21T02:51:18.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "amasad-2026-11-21",
+      "source": "X",
+      "authorName": "Amjad Masad",
+      "authorHandle": "amasad",
+      "authorBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad",
+      "suggestedTitle": "",
+      "suggestedSummary": "It’s phenomenal https://t.co/ctwhrva2lY\n\nIs it a bear market?\n\nWith two separate Riemann proofs, one AI and one Human, coming out at the same time, assuming they’re both correct, it’ll be interesting to see the difference especially on elegance. https://t.co/rp4thKnxg7",
+      "tweets": [
+        {
+          "url": "https://x.com/amasad/status/2123877625915375950",
+          "text": "It’s phenomenal https://t.co/ctwhrva2lY",
+          "likes": 80,
+          "retweets": 3
+        },
+        {
+          "url": "https://x.com/amasad/status/2123876961923613180",
+          "text": "Is it a bear market?",
+          "likes": 30,
           "retweets": 1
         },
         {
-          "url": "https://x.com/adityaag/status/2123494873919783073",
-          "text": "Congratulations to the folks at Anthropic.\n\nSPC's goal isn't just to get people to start companies. \n\nToday is a good day to explain why.\n\nTwo of the people who helped build Anthropic spent significant time at @spc.\n\n@nottombrown showed up at SPC in 2016 with no ML background. He spent his days working through papers with other members, then co-founded Anthropic.\n\n@trq212 joined SPC having just wound down his gaming company. He was working on interpretability when a fellow member asked if he'd tried Claude Code. Soon he was helping build a tool most of us use every day. \n\nIf you put ambitious people next to each other, it leads to extraordinary things.\n\nSometimes the impact comes years later.\n\nI'm so happy for Tom, for Thariq, and for all of my friends at @AnthropicAI.",
-          "likes": 95,
-          "retweets": 5
-        },
-        {
-          "url": "https://x.com/adityaag/status/2123479646629183631",
-          "text": "Agents are moving from single tasks to whole jobs, and the data has to follow. RoleCUA from Fig maps expert roles across months of real work, with every action tied to the task and objective it serves. https://t.co/yVnPhJBOzn",
-          "likes": 18,
-          "retweets": 3
+          "url": "https://x.com/amasad/status/2123874539218010491",
+          "text": "With two separate Riemann proofs, one AI and one Human, coming out at the same time, assuming they’re both correct, it’ll be interesting to see the difference especially on elegance. https://t.co/rp4thKnxg7",
+          "likes": 1064,
+          "retweets": 47
         }
       ],
-      "publishedAt": "2026-11-20T00:50:38.000Z",
+      "publishedAt": "2026-11-20T20:34:20.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "petergyang-2026-11-20",
+      "id": "joshwoodward-2026-11-21",
+      "source": "X",
+      "authorName": "Josh Woodward",
+      "authorHandle": "joshwoodward",
+      "authorBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward",
+      "suggestedTitle": "",
+      "suggestedSummary": "Thanks again to @UFO2002616 for the inspiration!\n https://t.co/V5BHwpoy9b\n\nWhew, what a week of shipping! A few of us were having fun with Gemini Neon on the Friday afternoon before the holiday week ahead, and we loved the post from @UFO2002616 so much that we just built it and threw it into prod! \n\nLong click on the model picker on the web and enjoy 🙂 https://t.co/9cT7TekxBs",
+      "tweets": [
+        {
+          "url": "https://x.com/joshwoodward/status/2123943608516792480",
+          "text": "Thanks again to @UFO2002616 for the inspiration!\n https://t.co/V5BHwpoy9b",
+          "likes": 39,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/joshwoodward/status/2123943606906138868",
+          "text": "Whew, what a week of shipping! A few of us were having fun with Gemini Neon on the Friday afternoon before the holiday week ahead, and we loved the post from @UFO2002616 so much that we just built it and threw it into prod! \n\nLong click on the model picker on the web and enjoy 🙂 https://t.co/9cT7TekxBs",
+          "likes": 380,
+          "retweets": 22
+        }
+      ],
+      "publishedAt": "2026-11-21T00:56:31.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "petergyang-2026-11-21",
       "source": "X",
       "authorName": "Peter Yang",
       "authorHandle": "petergyang",
       "authorBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
       "title": "Peter Yang",
       "suggestedTitle": "",
-      "suggestedSummary": "People make fun of Google for being large and bureaucratic but I think one of their competitive advantages is they have 100,000+ employees testing their latest models and tools before wide release.\n\nAt that employee population you can even run staff-only A/B tests that are stat sig :)\n\nOpus 5.5 vs Gemini 4 Neon for Shibuya Crossing at night. Which one do you prefer?\n\n📌 Watch my 4 other head to head comparisons here: https://t.co/8rKllg4xBx https://t.co/QrSv4LzvmI https://t.co/p7nr6lHYU0\n\nGemini 4 Neon is getting rave reviews, so I made a new video comparing it to Opus 5.5, my favorite model for everyday work.\n\nSome takeaways:\n\n1. Opus is still better at 3D and design from my testing, but Neon is on par or better at writing and personality, which is a huge accomplishment.\n\n2. @Google Gemini 4 has 3 models, but in reality I think I'll use Neon for 99% of tasks. It's much faster than Carbon and its results are just as good.\n\n3. The $100/mo Gemini Ultra subscription is a steal. You get Gemini 4, YouTube Premium Family (my favorite subscription ever) for ad-free YouTube and Music, 20 TB of storage for all your photos and files, and more.\n\n📌 Watch me test Neon vs Opus across 5 use cases here: https://t.co/irRiNDdqgY",
+      "suggestedSummary": "3 hours of download left before I can play this, what's going with the user score though 🤔 https://t.co/BgAKoYCGC9\n\nBREAKING: @JensenHuang Once Tried to Offer Brisket to a Visibly Vegetarian Squirrel https://t.co/VoMGaNDGSh\n\nFor those of you trying out @antigravity for Neon, here's a quick tip:\n\n1. Go to https://t.co/GRhlnGkO1i\n2. Tap see more and then the share button\n3. Tap Add to Home Screen\n\nThen you can talk to all your Antigravity threads via remote control on mobile.\n\nEven though Antigravity doesn't have a mobile app (yet), I find its remote control actually better than Claude's because all the threads are available by default.",
       "tweets": [
         {
-          "url": "https://x.com/petergyang/status/2123648490844897389",
-          "text": "People make fun of Google for being large and bureaucratic but I think one of their competitive advantages is they have 100,000+ employees testing their latest models and tools before wide release.\n\nAt that employee population you can even run staff-only A/B tests that are stat sig :)",
-          "likes": 35,
+          "url": "https://x.com/petergyang/status/2123944322190254340",
+          "text": "3 hours of download left before I can play this, what's going with the user score though 🤔 https://t.co/BgAKoYCGC9",
+          "likes": 37,
           "retweets": 0
         },
         {
-          "url": "https://x.com/petergyang/status/2123620968568676457",
-          "text": "Opus 5.5 vs Gemini 4 Neon for Shibuya Crossing at night. Which one do you prefer?\n\n📌 Watch my 4 other head to head comparisons here: https://t.co/8rKllg4xBx https://t.co/QrSv4LzvmI https://t.co/p7nr6lHYU0",
+          "url": "https://x.com/petergyang/status/2123941250902667762",
+          "text": "BREAKING: @JensenHuang Once Tried to Offer Brisket to a Visibly Vegetarian Squirrel https://t.co/VoMGaNDGSh",
+          "likes": 2983,
+          "retweets": 154
+        },
+        {
+          "url": "https://x.com/petergyang/status/2123879309463228445",
+          "text": "For those of you trying out @antigravity for Neon, here's a quick tip:\n\n1. Go to https://t.co/GRhlnGkO1i\n2. Tap see more and then the share button\n3. Tap Add to Home Screen\n\nThen you can talk to all your Antigravity threads via remote control on mobile.\n\nEven though Antigravity doesn't have a mobile app (yet), I find its remote control actually better than Claude's because all the threads are available by default.",
+          "likes": 159,
+          "retweets": 7
+        }
+      ],
+      "publishedAt": "2026-11-21T00:59:22.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "danshipper-2026-11-21",
+      "source": "X",
+      "authorName": "Dan Shipper",
+      "authorHandle": "danshipper",
+      "authorBio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper",
+      "suggestedTitle": "",
+      "suggestedSummary": "\"one dawn across science of something far greater\" https://t.co/wgQXn4d7EU",
+      "tweets": [
+        {
+          "url": "https://x.com/danshipper/status/2123795694557315556",
+          "text": "\"one dawn across science of something far greater\" https://t.co/wgQXn4d7EU",
+          "likes": 31,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-11-20T15:08:46.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "trq212-2026-11-21",
+      "source": "X",
+      "authorName": "Thariq",
+      "authorHandle": "trq212",
+      "authorBio": "playing WoW forever, formerly Claude Code @anthropicai",
+      "title": "Thariq",
+      "suggestedTitle": "",
+      "suggestedSummary": "I'm calling it Home Ground.\n\nI think I’ve figured out the gameplay loop!\n\nIt’s a sports anime game, but the sport is elemental bending.\n\nYou fight in tournaments alongside your squad, and between matches they have their own stories you can get into, like in Mass Effect or Dragon Age. https://t.co/Z21CYJxYoX https://t.co/hLIVplRPrW\n\nI am now even more against handoff",
+      "tweets": [
+        {
+          "url": "https://x.com/trq212/status/2123909358828539965",
+          "text": "I'm calling it Home Ground.",
           "likes": 21,
           "retweets": 0
         },
         {
-          "url": "https://x.com/petergyang/status/2123540875733315815",
-          "text": "Gemini 4 Neon is getting rave reviews, so I made a new video comparing it to Opus 5.5, my favorite model for everyday work.\n\nSome takeaways:\n\n1. Opus is still better at 3D and design from my testing, but Neon is on par or better at writing and personality, which is a huge accomplishment.\n\n2. @Google Gemini 4 has 3 models, but in reality I think I'll use Neon for 99% of tasks. It's much faster than Carbon and its results are just as good.\n\n3. The $100/mo Gemini Ultra subscription is a steal. You get Gemini 4, YouTube Premium Family (my favorite subscription ever) for ad-free YouTube and Music, 20 TB of storage for all your photos and files, and more.\n\n📌 Watch me test Neon vs Opus across 5 use cases here: https://t.co/irRiNDdqgY",
-          "likes": 164,
-          "retweets": 5
-        }
-      ],
-      "publishedAt": "2026-11-20T05:23:50.000Z",
-      "category": "builderInsights"
-    },
-    {
-      "id": "nikunj-2026-11-20",
-      "source": "X",
-      "authorName": "Nikunj Kothari",
-      "authorHandle": "nikunj",
-      "authorBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "title": "Nikunj Kothari",
-      "suggestedTitle": "",
-      "suggestedSummary": "Same same, but now it’s PR-maxxing 🤦‍♂️\n\nFocus on the what, who and why, and not on the how!! https://t.co/O3cjhVuuP1\n\nAs these network attacks and impersonation attempts happen, who's securing the elderly? \n\nEspecially thinking about my parents and grandparents.\n\nThere are four layers I can think through where this could work.\n\nOne is at the browser level, where somebody builds a secure browser that ensures that whatever websites they're going to are secured. Texts typically lead to a link, even for payments. This is why browser is key.\n\nTwo could be at the network layer, where there is a physical device, similar to Pi-hole, or an Onavo-like VPN on your phone, that blocks websites that could be deemed unsafe.\n\nThree could be at the payments layer, where transactions that look like scams get flagged before the money leaves.\n\nAnd fourth and most crazy could be at the phone level, where everything is monitored, and you're only getting calls from your loved ones. Cloned voices would work with a provider like Reality Defender. \n\nThere are individual solutions for this today but none neatly packaged. \n\nThis could all be packaged with insurance that covers any activities on the OS or phone. In that way, incentives are aligned to keep this on the edge.\n\nThe buyer would be the kids, someone like me, who get alerted when something looks off.",
-      "tweets": [
-        {
-          "url": "https://x.com/nikunj/status/2123521753381232917",
-          "text": "Same same, but now it’s PR-maxxing 🤦‍♂️\n\nFocus on the what, who and why, and not on the how!! https://t.co/O3cjhVuuP1",
-          "likes": 13,
-          "retweets": 0
+          "url": "https://x.com/trq212/status/2123909357071159327",
+          "text": "I think I’ve figured out the gameplay loop!\n\nIt’s a sports anime game, but the sport is elemental bending.\n\nYou fight in tournaments alongside your squad, and between matches they have their own stories you can get into, like in Mass Effect or Dragon Age. https://t.co/Z21CYJxYoX https://t.co/hLIVplRPrW",
+          "likes": 537,
+          "retweets": 7
         },
         {
-          "url": "https://x.com/nikunj/status/2123426647273800172",
-          "text": "As these network attacks and impersonation attempts happen, who's securing the elderly? \n\nEspecially thinking about my parents and grandparents.\n\nThere are four layers I can think through where this could work.\n\nOne is at the browser level, where somebody builds a secure browser that ensures that whatever websites they're going to are secured. Texts typically lead to a link, even for payments. This is why browser is key.\n\nTwo could be at the network layer, where there is a physical device, similar to Pi-hole, or an Onavo-like VPN on your phone, that blocks websites that could be deemed unsafe.\n\nThree could be at the payments layer, where transactions that look like scams get flagged before the money leaves.\n\nAnd fourth and most crazy could be at the phone level, where everything is monitored, and you're only getting calls from your loved ones. Cloned voices would work with a provider like Reality Defender. \n\nThere are individual solutions for this today but none neatly packaged. \n\nThis could all be packaged with insurance that covers any activities on the OS or phone. In that way, incentives are aligned to keep this on the edge.\n\nThe buyer would be the kids, someone like me, who get alerted when something looks off.",
-          "likes": 15,
+          "url": "https://x.com/trq212/status/2123895040821071959",
+          "text": "I am now even more against handoff",
+          "likes": 374,
           "retweets": 1
         }
       ],
-      "publishedAt": "2026-11-19T21:00:13.000Z",
+      "publishedAt": "2026-11-20T22:40:26.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "swyx-2026-11-20",
+      "id": "thenanyu-2026-11-21",
+      "source": "X",
+      "authorName": "Nan Yu",
+      "authorHandle": "thenanyu",
+      "authorBio": "product, codex @openai. prev head of product @linear",
+      "title": "Nan Yu",
+      "suggestedTitle": "",
+      "suggestedSummary": "big perf and QoL wins for actions you do dozens to hundreds of times a day https://t.co/R5MfrV54gs",
+      "tweets": [
+        {
+          "url": "https://x.com/thenanyu/status/2123983081577267264",
+          "text": "big perf and QoL wins for actions you do dozens to hundreds of times a day https://t.co/R5MfrV54gs",
+          "likes": 8,
+          "retweets": 0
+        }
+      ],
+      "publishedAt": "2026-11-21T03:33:23.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "adityaag-2026-11-21",
+      "source": "X",
+      "authorName": "Aditya Agarwal",
+      "authorHandle": "adityaag",
+      "authorBio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "Aditya Agarwal",
+      "suggestedTitle": "",
+      "suggestedSummary": "We are solving Riemann and also crushing pancreatic cancer with a pill.\n\nBut sure, let’s debate whether the “AI trade” is good lol.\n\nRequest a spot https://t.co/XFlXyWsyAA\n\n.@theRealTrishaK started @unit21inc at @spc in 2018. \n\nIt has since caught $14B+ in financial crime.\n\nKavitha Iyer Rodrigues started @zumutor in 2013, believing new cancer drugs would be discovered in India.\n\nJoin us at @spc_india on Nov 25th. https://t.co/ogPRhAqZc9",
+      "tweets": [
+        {
+          "url": "https://x.com/adityaag/status/2124019178843894078",
+          "text": "We are solving Riemann and also crushing pancreatic cancer with a pill.\n\nBut sure, let’s debate whether the “AI trade” is good lol.",
+          "likes": 3,
+          "retweets": 1
+        },
+        {
+          "url": "https://x.com/adityaag/status/2123800768977551639",
+          "text": "Request a spot https://t.co/XFlXyWsyAA",
+          "likes": 0,
+          "retweets": 0
+        },
+        {
+          "url": "https://x.com/adityaag/status/2123800766163173511",
+          "text": ".@theRealTrishaK started @unit21inc at @spc in 2018. \n\nIt has since caught $14B+ in financial crime.\n\nKavitha Iyer Rodrigues started @zumutor in 2013, believing new cancer drugs would be discovered in India.\n\nJoin us at @spc_india on Nov 25th. https://t.co/ogPRhAqZc9",
+          "likes": 11,
+          "retweets": 2
+        }
+      ],
+      "publishedAt": "2026-11-21T05:56:49.000Z",
+      "category": "builderInsights"
+    },
+    {
+      "id": "swyx-2026-11-21",
       "source": "X",
       "authorName": "Swyx",
       "authorHandle": "swyx",
       "authorBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx",
       "suggestedTitle": "",
-      "suggestedSummary": "you cant be serious https://t.co/pll3CcsPFp\n\nwhen scrolling social media i think it is worth bearing in mind that you can say “odds of reaching SOTA have dropped to zero” and get alot of likes and then 3 months later when they have reached SOTA you post apology form and get even more likes and the subject of your writing prints it out and thanks you for motivation\n\ntheres no consequences at all for inaccuracy and every incentive for hyperbole and the x algorithm is tuned for this\n\nfuuuuuuck\n\nhttps://t.co/y1lntMSVtd",
+      "suggestedSummary": "broooo\n\nhttps://t.co/5qYHHbBOyV https://t.co/Pc6VYX8bxt\n\n🔜 why @j_schottenstein left @getdbt for @LangChain to build it into a $3B startup…\n\n….and now they are having to reinvent the content, context (knowledge) and software factory from scratch! https://t.co/U5cZHokbhU https://t.co/1ifwj7lNA3\n\nwhatever happened to @cursor_ai origin? anyone use this thing in anger yet? does it have actions/ci/cd yet? https://t.co/ZDVWydLZTe https://t.co/DTQaZzU6vD",
       "tweets": [
         {
-          "url": "https://x.com/swyx/status/2123659761887625602",
-          "text": "you cant be serious https://t.co/pll3CcsPFp",
-          "likes": 0,
+          "url": "https://x.com/swyx/status/2123856303974121851",
+          "text": "broooo\n\nhttps://t.co/5qYHHbBOyV https://t.co/Pc6VYX8bxt",
+          "likes": 2,
           "retweets": 0
         },
         {
-          "url": "https://x.com/swyx/status/2123591875349422435",
-          "text": "when scrolling social media i think it is worth bearing in mind that you can say “odds of reaching SOTA have dropped to zero” and get alot of likes and then 3 months later when they have reached SOTA you post apology form and get even more likes and the subject of your writing prints it out and thanks you for motivation\n\ntheres no consequences at all for inaccuracy and every incentive for hyperbole and the x algorithm is tuned for this",
-          "likes": 261,
-          "retweets": 6
+          "url": "https://x.com/swyx/status/2123843282082132335",
+          "text": "🔜 why @j_schottenstein left @getdbt for @LangChain to build it into a $3B startup…\n\n….and now they are having to reinvent the content, context (knowledge) and software factory from scratch! https://t.co/U5cZHokbhU https://t.co/1ifwj7lNA3",
+          "likes": 94,
+          "retweets": 9
         },
         {
-          "url": "https://x.com/swyx/status/2123552457649492023",
-          "text": "fuuuuuuck\n\nhttps://t.co/y1lntMSVtd",
-          "likes": 4,
+          "url": "https://x.com/swyx/status/2123690305736396925",
+          "text": "whatever happened to @cursor_ai origin? anyone use this thing in anger yet? does it have actions/ci/cd yet? https://t.co/ZDVWydLZTe https://t.co/DTQaZzU6vD",
+          "likes": 122,
           "retweets": 0
         }
       ],
-      "publishedAt": "2026-11-20T06:08:37.000Z",
+      "publishedAt": "2026-11-20T19:09:36.000Z",
       "category": "builderInsights"
     },
     {
-      "id": "httpswwwyout-2026-11-20",
-      "source": "No Priors",
-      "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
-      "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+      "id": "httpswwwyout-2026-11-21",
+      "source": "Latent Space",
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
       "suggestedTitle": "",
       "suggestedSummary": "",
-      "publishedAt": "2026-11-19T11:44:00.000Z",
+      "publishedAt": "2026-11-19T23:38:57.000Z",
       "category": "podcastHighlights"
     }
   ],
   "metadata": {
-    "totalBuilders": 14,
-    "totalTweets": 33,
+    "totalBuilders": 15,
+    "totalTweets": 31,
     "totalPodcasts": 1,
     "totalBlogs": 0,
-    "generatedAt": "2026-11-20T21:37:07.948Z"
+    "generatedAt": "2026-11-21T20:17:52.129Z"
   }
 }
